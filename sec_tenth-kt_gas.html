@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Kinetic Theory of Ideal Gas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics">
+<meta property="book:author" content="Sunil Karna">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.42217a82c75796c8.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.7e141ad8414abf4a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="calphysi.html"><span class="title">General Physics</span> <span class="subtitle">Volume I</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec_tenth-examplesA.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_tenth.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_tenth-thermdyn.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec_dimanal-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-erranalysis" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec-sigfig" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-compnt_vect" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec-vect_mult" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-axis_transform" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Transformation of Axis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-1D.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-1D.html#subsec-slope" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Analyzing the motion curve</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsubsec-graph_read" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Reading of <span class="process-math">\(x \sim t\)</span> graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-eqns_motion" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Equations of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rel_vel" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Relative velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rule_solveMotion" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Rules to follow while solving motion problems:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-2D.html" class="internal"><span class="codenumber">3.3</span> <span class="title">2D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-projtile_motion" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Projtile Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-2D.html#subsec-cir_kinem" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Circular Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-cent_accel" class="internal"><span class="codenumber">3.3.2.1</span> <span class="title">Centripetal Acceleration:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_displ" class="internal"><span class="codenumber">3.3.2.2</span> <span class="title">Angular Displacement, <span class="process-math">\(\theta\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_vel" class="internal"><span class="codenumber">3.3.2.3</span> <span class="title">Angular Velocity, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_freq" class="internal"><span class="codenumber">3.3.2.4</span> <span class="title">Angular Frequency, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_accel" class="internal"><span class="codenumber">3.3.2.5</span> <span class="title">Angular Acceleration, <span class="process-math">\(\alpha\text{:}\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-polar_coord" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Motion in Polar Coordinates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Force and Equilibrium</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Types of Forces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-types_forces" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Fundamental and Mechanical Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-Nlaw_motion" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-friction" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Friction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-statics" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Statics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-state_eqlbrm" class="internal"><span class="codenumber">4.1.4.1</span> <span class="title">Static Equilibrium</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-transeql.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Translational Equilibrium</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-dynamics.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-atwood_machine" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Atwood’s Machine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-air_drag" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Motion in Air Drag</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesC.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-circular.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Circular Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-con_pendulum" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Horizontal Circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-vertcir" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Vertical Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-banking.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Banking of a Curve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesD.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Examples D</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-cm.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Center of Mass</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-torque.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Torque</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-rot_eql" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Rotational Equilibrium</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-st_equlbrm" class="internal"><span class="codenumber">4.11.2</span> <span class="title">States of Equilibrium</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesE.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Examples E</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Energy and Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Work, Energy, and Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-work" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Work</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-energy" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-we_theorem" class="internal"><span class="codenumber">5.1.2.1</span> <span class="title">Work-Energy Theorem</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-ke" class="internal"><span class="codenumber">5.1.2.2</span> <span class="title">Kinetic Energy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-pe" class="internal"><span class="codenumber">5.1.2.3</span> <span class="title">Potential Energy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-con_nonconservF" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Conservative and Non-Conservative Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-princ_con-energy" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Principle of Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ediagram" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Energy Diagram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ll_track" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Loop-the-Loop Track</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-power.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsec-sm" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Simple Machine</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-power.html#subsec-pulley" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Pulley</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-mech_adv" class="internal"><span class="codenumber">5.2.2.1</span> <span class="title">Mechanical Advantage</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-pulley_type" class="internal"><span class="codenumber">5.2.2.2</span> <span class="title">Types of Pulley</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Impulse and Momentum</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-collision" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-ineleast_col" class="internal"><span class="codenumber">5.4.1.1</span> <span class="title">Inelastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-elast_col" class="internal"><span class="codenumber">5.4.1.2</span> <span class="title">Elastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-2d_col" class="internal"><span class="codenumber">5.4.1.3</span> <span class="title">Collision in 2D</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-coef_restit" class="internal"><span class="codenumber">5.4.1.4</span> <span class="title">Coefficient of Restitution, e</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-ball_pendulum" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Ballistic Pendulum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Newton’s Law of Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-accl_grav" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Acceleration Due to Gravity, <span class="process-math">\(g\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-rot_g" class="internal"><span class="codenumber">6.1.1.1</span> <span class="title">Effect of the Rotation of the Earth on  g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-alt_g" class="internal"><span class="codenumber">6.1.1.2</span> <span class="title">Effect of Altitude of the Earth on g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-depth_g" class="internal"><span class="codenumber">6.1.1.3</span> <span class="title">Effect of Depth of the Earth on g</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-grav_pot" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Gravitational Potential Energy, U</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-orb_vel" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Orbital Velocity of a Satelite</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-esc_vel" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Escape Velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-geo_sync" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Geosynchronous satellite</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-kepler.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Kepler’s Laws of Planetary Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-pol_cord" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Polar Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepI_law" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepII_law" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Derivation of Kepler’s II Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepIII_law" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Derivation of Kepler’s III Law</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Rigid Body</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Moment of Inertia</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-paral_axis" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Parallel axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-perpend_axis" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Perpendicular axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_ring" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Moment of Inertia of a Ring or Hoop</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_cm" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_rim" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">About an axis passing through its rim and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_diam" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">About an axis through its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_rod" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Moment of Inertia of a Rod</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_cm" class="internal"><span class="codenumber">7.1.4.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_edge" class="internal"><span class="codenumber">7.1.4.2</span> <span class="title">About an axis passing through its one edge and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_length" class="internal"><span class="codenumber">7.1.4.3</span> <span class="title">About an axis passing along its length and through the center of mass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_disk" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Moment of Inertia of a Disk</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_cm" class="internal"><span class="codenumber">7.1.5.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_diam" class="internal"><span class="codenumber">7.1.5.2</span> <span class="title">About an axis through its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_edge" class="internal"><span class="codenumber">7.1.5.3</span> <span class="title">About an axis passing through its edge and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_plate" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Moment of Inertia of a Plate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmlength" class="internal"><span class="codenumber">7.1.6.1</span> <span class="title">About an axis <span class="process-math">\(I_{x}\)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmwide" class="internal"><span class="codenumber">7.1.6.2</span> <span class="title">About an axis <span class="process-math">\(I_{y} \)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_perpnd" class="internal"><span class="codenumber">7.1.6.3</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cylnd" class="internal"><span class="codenumber">7.1.7</span> <span class="title">Moment of Inertia of a Cylinder</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cm" class="internal"><span class="codenumber">7.1.7.1</span> <span class="title">Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_percm" class="internal"><span class="codenumber">7.1.7.2</span> <span class="title">Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cmsolid" class="internal"><span class="codenumber">7.1.7.3</span> <span class="title">Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cone" class="internal"><span class="codenumber">7.1.8</span> <span class="title">Moment of Inertia of a Cone</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miscone_symtr" class="internal"><span class="codenumber">7.1.8.1</span> <span class="title">Moment of Inertia of a Solid Cone about an axis of symmetry</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miscone_vertx" class="internal"><span class="codenumber">7.1.8.2</span> <span class="title">Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihcone_symt" class="internal"><span class="codenumber">7.1.8.3</span> <span class="title">Moment of Inertia of a Hollow Cone about an axis of symmetry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_spher" class="internal"><span class="codenumber">7.1.9</span> <span class="title">Moment of Inertia of a Sphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihspher" class="internal"><span class="codenumber">7.1.9.1</span> <span class="title">Moment of inertia of a hollow sphere about its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-misspher" class="internal"><span class="codenumber">7.1.9.2</span> <span class="title">Moment of inertia of a solid sphere about its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-rad_gyr" class="internal"><span class="codenumber">7.1.10</span> <span class="title">Radius of Gyration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesA.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-rotdyn.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Rotational Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rot_overview" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Rotational Overview</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rwep" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-ang_momnt" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Angular Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-gyros" class="internal"><span class="codenumber">7.3.4</span> <span class="title">The Gyroscope</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesB.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Oscillatory Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-shm" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-eq_shm" class="internal"><span class="codenumber">7.5.1.1</span> <span class="title">Equation of SHM</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-energy_shm" class="internal"><span class="codenumber">7.5.1.2</span> <span class="title">Energy in SHM</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-simp_pendulum" class="internal"><span class="codenumber">7.5.2</span> <span class="title">Simple Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-comp_pendulum" class="internal"><span class="codenumber">7.5.3</span> <span class="title">Compound Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-largeangl_approx" class="internal"><span class="codenumber">7.5.4</span> <span class="title">Simple Pendulum with Large Angle Approximation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesC.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eighth.html" class="internal"><span class="codenumber">8</span> <span class="title">Elasticity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-intro.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Hooke’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-elst_mod" class="internal"><span class="codenumber">8.1.1</span> <span class="title">Elastic Modulus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-young_mod" class="internal"><span class="codenumber">8.1.1.1</span> <span class="title">Young’s Modulus or Elasticity of Length</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-bulk_mod" class="internal"><span class="codenumber">8.1.1.2</span> <span class="title">Bulk Modulus or Elasticity of Volume</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-sher_mod" class="internal"><span class="codenumber">8.1.1.3</span> <span class="title">Shear Modulus (Modulus of Rigidity) or Elasticity of Shape</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-hook_spring" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Hook’s Law for a Spring</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-elast_potenrg" class="internal"><span class="codenumber">8.1.3</span> <span class="title">Elastic Potential Energy</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eighth-examplesA.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eighth.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_ninth.html" class="internal"><span class="codenumber">9</span> <span class="title">Fluid Mechanics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-intro.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Fluid Statics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-pascle_prncpl" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Pascal’s Principle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsubsec-pres_mesrmnt" class="internal"><span class="codenumber">9.1.1.1</span> <span class="title">Measurement of Fluid Pressure</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-archm_princp" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Archimedes’ Principle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-fflow.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Fluid Flow</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-eq_contnty" class="internal"><span class="codenumber">9.2.1</span> <span class="title">Equation of Continuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-bernols" class="internal"><span class="codenumber">9.2.2</span> <span class="title">Bernoulli’s Principle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-appl_bernl" class="internal"><span class="codenumber">9.2.3</span> <span class="title">Applications of Bernoulli’s Principle:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examplesA.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-visc.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Viscosity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-coef_visc" class="internal"><span class="codenumber">9.4.1</span> <span class="title">Coefficient of Viscosit</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-pois_law" class="internal"><span class="codenumber">9.4.2</span> <span class="title">Poiseuille’s Law</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-stok_law" class="internal"><span class="codenumber">9.4.3</span> <span class="title">Stoke’s Law</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsubsec-terminal_vel" class="internal"><span class="codenumber">9.4.3.1</span> <span class="title">Terminal velocity of a body moving through a fluid</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-surtens.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Surface Tension</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-capl_act" class="internal"><span class="codenumber">9.5.1</span> <span class="title">Capillary Action</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-surfenergy" class="internal"><span class="codenumber">9.5.2</span> <span class="title">Equivalence between surface tension and surface energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-buble" class="internal"><span class="codenumber">9.5.3</span> <span class="title">Soap Bubble</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examplesB.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_ninth.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_tenth.html" class="internal"><span class="codenumber">10</span> <span class="title">Heat and Thermodynamics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-intro.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-temp_therm" class="internal"><span class="codenumber">10.1.1</span> <span class="title">Temperature and Thermometers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-" class="internal"><span class="codenumber">10.1.2</span> <span class="title">Absolute Scale</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-therm_exp.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Thermal Expansion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-lin_exp" class="internal"><span class="codenumber">10.2.1</span> <span class="title">Linear Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-super_exp" class="internal"><span class="codenumber">10.2.2</span> <span class="title">Superficial Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-vol_exp" class="internal"><span class="codenumber">10.2.3</span> <span class="title">Volumetric (Cubic) Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-rel_therexp" class="internal"><span class="codenumber">10.2.4</span> <span class="title">Relation between <span class="process-math">\(\alpha, \,\beta,\)</span>  and <span class="process-math">\(\gamma\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-water_anom" class="internal"><span class="codenumber">10.2.5</span> <span class="title">Anomalous expansion of water</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-heat_meas.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Quantity of Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-sp_heat" class="internal"><span class="codenumber">10.3.1</span> <span class="title">Specific Heat Capacity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-latent" class="internal"><span class="codenumber">10.3.2</span> <span class="title">Latent Heat</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-phase_change" class="internal"><span class="codenumber">10.3.3</span> <span class="title">Phase Changes of Matter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-calrmtr" class="internal"><span class="codenumber">10.3.4</span> <span class="title">Calorimetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-triple_pnt" class="internal"><span class="codenumber">10.3.5</span> <span class="title">Triple Point of Water</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-heat_trans" class="internal"><span class="codenumber">10.3.6</span> <span class="title">Heat Transfer</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-newton_cool" class="internal"><span class="codenumber">10.3.7</span> <span class="title">Newton’s Law of Cooling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-solar_const" class="internal"><span class="codenumber">10.3.8</span> <span class="title">Solar Constant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examplesA.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec_tenth-kt_gas.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Kinetic Theory of Ideal Gas</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-gas_pres" class="internal"><span class="codenumber">10.5.1</span> <span class="title">Pressure of an Ideal Gas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-dg_freedom" class="internal"><span class="codenumber">10.5.2</span> <span class="title">Degree of Freedom:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-equip_law" class="internal"><span class="codenumber">10.5.3</span> <span class="title">Law of Equipartition of Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsubsec-avagdrs" class="internal"><span class="codenumber">10.5.3.1</span> <span class="title">Avogadro’s Number, <span class="process-math">\(N_{A}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsubsec-amu" class="internal"><span class="codenumber">10.5.3.2</span> <span class="title">Atomic Mass Unit, u</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-internal_energy" class="internal"><span class="codenumber">10.5.4</span> <span class="title">Internal Energy of a Gas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-gas_laws" class="internal"><span class="codenumber">10.5.5</span> <span class="title">Gas Laws</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Thermodynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-therm_varbls" class="internal"><span class="codenumber">10.6.1</span> <span class="title">Thermodynamical Variables</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-therm_laws" class="internal"><span class="codenumber">10.6.2</span> <span class="title">Laws of Thermodynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-zeroth" class="internal"><span class="codenumber">10.6.2.1</span> <span class="title">Zeroth Law of Thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-I_law-therm" class="internal"><span class="codenumber">10.6.2.2</span> <span class="title">First Law of Thermodynamics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-Ilaw_appl" class="internal"><span class="codenumber">10.6.3</span> <span class="title">Application of I law of thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-II_law" class="internal"><span class="codenumber">10.6.4</span> <span class="title">Second Law of Thermodunamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-heat_engn" class="internal"><span class="codenumber">10.6.5</span> <span class="title">Heat Engines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-carnot_engn" class="internal"><span class="codenumber">10.6.6</span> <span class="title">Carnot’s Heat Engine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-revs_heatengn" class="internal"><span class="codenumber">10.6.7</span> <span class="title">Reversible Heat Engines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-canot_cycl" class="internal"><span class="codenumber">10.6.8</span> <span class="title">Carnot’s Cycle:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-carnt_therm" class="internal"><span class="codenumber">10.6.9</span> <span class="title">Carnot’s Theorem:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-heat_pump" class="internal"><span class="codenumber">10.6.10</span> <span class="title">Heat Pump and Refrigerator</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-cop" class="internal"><span class="codenumber">10.6.10.1</span> <span class="title">Coefficient of Performance,	COP:</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-entropy" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-entropy_incrs" class="internal"><span class="codenumber">10.6.11.1</span> <span class="title">Principle of increase of entropy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-entropy_degrad" class="internal"><span class="codenumber">10.6.11.2</span> <span class="title">Principle of degradation of entropy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-entropy_prob" class="internal"><span class="codenumber">10.6.12</span> <span class="title">Entropy and Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-III_law" class="internal"><span class="codenumber">10.6.13</span> <span class="title">Third Law of Thermodynamics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examplesB.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_tenth.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_physTable.html" class="internal"><span class="codenumber">B</span> <span class="title">Useful Data and Greek Letters</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_tenth-kt_gas"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.5</span><span class="space"> </span><span class="title">Kinetic Theory of Ideal Gas</span>
+</h2>
+<section class="introduction" id="sec_tenth-kt_gas-2"><div class="para" id="sec_tenth-kt_gas-2-1">Kinetic theory of matter is developed to explain the nature of heat and the motion of particles associated with heat energy. According to this theory, every substance is composed of large number of very tiny particles called <dfn class="terminology">molecules</dfn>. These molecules are always in random motion with all possible velocities which increases with the increase of temperature. On this basis, in solids, molecules are very closely packed and attract each other with a large cohesive force. They cannot move freely but can vibrate about their mean positions. This explains the definite size and shape of solids. In liquids, the molecules are farther apart than in solids and attract each other with a comparatively  smaller cohesive force. This force does not allow them to escape the liquids however, they can move freely anywhere within the liquids. This explains why a liquid has a definite size (volume) but no shape of its own. In gases, the molecules are very far away from each other than in solids and liquids and have negligibly small force of attraction between them. Hence they can move freely anywhere within the available space. This explains why a gas has no definite shape and size.<div class="autopermalink" data-description="Paragraph"><a href="#sec_tenth-kt_gas-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_tenth-kt_gas-2-2">
+<div class="para">To understand the more general behavior of gases <em class="emphasis">kinetic theory of ideal gases</em> is postulated as</div>
+<ol class="lower-roman ol-marker-2" id="sec_tenth-kt_gas-2-2-2">
+<li id="sec_tenth-kt_gas-2-2-2-1">
+<div class="para" id="p-derived-sec_tenth-kt_gas-2-2-2-1">All gases are made up of molecules. Molecules are identical, rigid, and perfectly elastic moving in random directions with all possible velocities.</div>
+<div class="autopermalink" data-description="Item i"><a href="#sec_tenth-kt_gas-2-2-2-1" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+<li id="sec_tenth-kt_gas-2-2-2-2">
+<div class="para" id="p-derived-sec_tenth-kt_gas-2-2-2-2">The molecules are very far away from each other but they collide with each other and with walls of the container.</div>
+<div class="autopermalink" data-description="Item ii"><a href="#sec_tenth-kt_gas-2-2-2-2" title="Copy heading and permalink for Item ii">🔗</a></div>
+</li>
+<li id="sec_tenth-kt_gas-2-2-2-3">
+<div class="para" id="p-derived-sec_tenth-kt_gas-2-2-2-3">All the collision are elastic, but time spent during each collision is negligibly small compared to the time spent between the collisions.</div>
+<div class="autopermalink" data-description="Item iii"><a href="#sec_tenth-kt_gas-2-2-2-3" title="Copy heading and permalink for Item iii">🔗</a></div>
+</li>
+<li id="sec_tenth-kt_gas-2-2-2-4">
+<div class="para" id="p-derived-sec_tenth-kt_gas-2-2-2-4">Molecules do not interact with each other (no intermolecular force of attraction)  except during  a collision.</div>
+<div class="autopermalink" data-description="Item iv"><a href="#sec_tenth-kt_gas-2-2-2-4" title="Copy heading and permalink for Item iv">🔗</a></div>
+</li>
+<li id="sec_tenth-kt_gas-2-2-2-5">
+<div class="para" id="p-derived-sec_tenth-kt_gas-2-2-2-5">The average kinetic energy of the molecules of any gas depends only on the temperature.</div>
+<div class="autopermalink" data-description="Item v"><a href="#sec_tenth-kt_gas-2-2-2-5" title="Copy heading and permalink for Item v">🔗</a></div>
+</li>
+</ol>
+<div class="para">The distance between the collision is called the <em class="emphasis">free path</em>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_tenth-kt_gas-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_tenth-kt_gas-2-3">Ideal gas is a hypothetical gas of negligible molecular size and have no interactions among their molecules. The above postulates are the correct description of ideal gas. In practice, a very dilute gas with extremely large volume of container space can be considered as an ideal gas. Remember the real gas molecules has definite size and may interact with each other. Hence this postulates are just a very simplified model to understand gas laws and need modification for real gas behaviors.<div class="autopermalink" data-description="Paragraph"><a href="#sec_tenth-kt_gas-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-gas_pres"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.5.1</span><span class="space"> </span><span class="title">Pressure of an Ideal Gas</span>
+</h3>
+<div class="para logical" id="subsec-gas_pres-2">
+<div class="para">When the molecules of a gas collide on the walls of the container (or each other) they exert a pressure. Let us consider a cube of sides <span class="process-math">\(l\)</span> cm encloses  <span class="process-math">\(N\)</span> number of molecules and mass of each molecule is <span class="process-math">\(m\text{.}\)</span> Since time during the collision of molecules is so small there is no transfer of momentum hence no exertion of force (Newton’s II law) or no pressure, we ignore therefore the collision of  molecules amongst themselves here. Let a molecule at point <span class="process-math">\(p\)</span> is moving with velocity <span class="process-math">\(\vec{v}\)</span> in any direction. This velocity can be resolved into x,y, and z directions as <span class="process-math">\(v_{x}, \quad v_{y}, \)</span> and <span class="process-math">\(v_{z},\)</span> respectively, such that</div>
+<div class="displaymath process-math" id="eqn-gaspres1">
+\begin{equation}
+v^{2}=v^{2}_{x}+v^{2}_{y}+v^{2}_{z}  \tag{10.5.1}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gas_pres-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="idealgas1"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/idealgas1.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.5.1<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.1"><a href="#idealgas1" title="Copy heading and permalink for Figure 10.5.1">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-gas_pres-4">
+<div class="para">Let a molecule collide elastically on the face BCDG along x-axis [<a href="sec_tenth-kt_gas.html#idealgas1" class="xref" data-knowl="./knowl/xref/idealgas1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.1">Figure 10.5.1</a>]. The momentum of the molecule along x-axis before collision is <span class="process-math">\(mv_{x}.\)</span> Since the collision is elastic the molecule rebound with the same velocity along opposite to x-axis. Therefore the momentum in this case will be  <span class="process-math">\(-mv_{x}.\)</span> The change in momentum of the molecule due to this collision along x-axis will be</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+\Delta p = mv_{x} -(-mv_{x})= 2mv_{x}.
+\end{equation*}
+</div>
+<div class="para">Now once this molecule collide to the face EFAO while moving along -ve axis and rebounds it again comes to collide with the same face BCDG. The distance traveled by the molecule for collision on the same face is <span class="process-math">\(2l.\)</span> Hence, the time taken between each successive collision on face BCDG is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+\Delta t=\frac{d}{v}=\frac{2l}{v_{x}}
+\end{equation*}
+</div>
+<div class="para">Therefore, the force exerted on the face BCDG by  molecule <span class="process-math">\(l\)</span> is given by Newton’s II law of motion,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+f_{x_{1}}=\frac{\Delta p}{\Delta t} = \frac{(2mv_{x_{1}})v_{x_{1}}}{2l}=\frac{mv^{2}_{x_{1}}}{l}
+\end{equation*}
+</div>
+<div class="para">Since there are <span class="process-math">\(N\)</span> molecules hence total force exerted on the face BCDG is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+f_{x} = f_{x_{1}} +f_{x_{2}}+f_{x_{3}}+\cdots 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+= \frac{m}{l}\left(v^{2}_{x_{1}}+ v^{2}_{x_{2}}+v^{2}_{x_{3}}+\cdots +v^{2}_{x_{N}}\right)
+\end{equation*}
+</div>
+<div class="para">The pressure on the face BCDG will be</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+p_{x} = \frac{F}{A}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+= \frac{f_{x}}{l^{2}}=\frac{m}{l^{3}}\left[\sum\limits_{i=1}^{N}v^{2}_{x_{i}}\right] 
+\end{equation*}
+</div>
+<div class="para">Similarly, pressures <span class="process-math">\(p_{y},\)</span> and <span class="process-math">\(p_{z}\)</span> along the y- and z- axes, respectively are</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+p_{y} =\frac{m}{l^{3}}\left[\sum\limits_{i=1}^{N}v^{2}_{y_{i}}\right] 
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+p_{z} =\frac{m}{l^{3}}\left[\sum\limits_{i=1}^{N}v^{2}_{z_{i}}\right] 
+\end{equation*}
+</div>
+<div class="para">Hence, the average pressure in the container</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+p=\frac{p_{x}+p_{y}+p_{z}}{3}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+=\frac{m}{3l^{3}}\left[\sum\limits_{i=1}^{N}\left(v^{2}_{x_{i}}+v^{2}_{y_{i}}+v^{2}_{z_{i}}\right)\right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+p=\frac{m}{3l^{3}}\left[\left(v^{2}_{x_{1}}+v^{2}_{y_{1}}+v^{2}_{z_{1}}\right)+\left(v^{2}_{x_{2}}+v^{2}_{y_{2}}+v^{2}_{z_{2}}\right)+\cdots+ \left(v^{2}_{x_{N}}+v^{2}_{y_{N}}+v^{2}_{z_{N}}\right)\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+p=\frac{m}{3l^{3}}\left[v^{2}_{1}+v^{2}_{2}+\cdots+v^{2}_{N}\right] =\frac{m}{3V}N\overline{v^{2}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html" id="eqn-gaspres2">
+\begin{equation}
+\therefore\quad p=\frac{1}{3}\left(\frac{M}{V}\right)\overline{v^{2}}  \tag{10.5.2}
+\end{equation}
+</div>
+<div class="para">where</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+\overline{v^{2}} = \left[\frac{v^{2}_{1}+v^{2}_{2}+\cdots+v^{2}_{N}}{N}\right]
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html" id="eqn-gaspres3">
+\begin{equation}
+\overline{v}=\sqrt{\frac{v^{2}_{1}+v^{2}_{2}+\cdots+v^{2}_{N}}{N}}\tag{10.5.3}
+\end{equation}
+</div>
+<div class="para">Here, <span class="process-math">\(\overline{v} =v_{rms}\)</span> is called a <em class="emphasis">root-mean square velocity</em> of the molecule and is an average molecular speed and <span class="process-math">\(mN=M,\)</span> the mass of total gas in a container of volume <span class="process-math">\(V.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html" id="eqn-gaspres4">
+\begin{equation}
+\therefore\quad  p=\frac{1}{3}\rho  \overline{v^{2}}   \tag{10.5.4}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+\text{or,}\quad pV=\frac{1}{3}M\overline{v^{2}}=\frac{2}{3}\cdot\frac{1}{2}M\overline{v^{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html" id="eqn-gaspres5">
+\begin{equation}
+\text{or,}\quad pV = \frac{2}{3}KE \tag{10.5.5}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(\frac{1}{2}M\overline{v^{2}}\)</span> = average transational kinetic energy of the gas and <span class="process-math">\(\frac{1}{2}m\overline{v^{2}} = \overline{e_{k}},\)</span> is the average transational kinetic energy of each moleucle.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+\therefore\quad p=\frac{2}{3}\frac{KE}{V}
+\end{equation*}
+</div>
+<div class="para">That is, pressure is two-thirds of the total transational kinetic energy of the molecules per unit volume. Now from postulates average kinetic energy of the molecules of the gas depends only on temperature, we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html">
+\begin{equation*}
+\overline{e_{k}}\propto T
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/idealgas1.html" id="eqn-gaspres6">
+\begin{equation}
+\text{or,}\quad \frac{1}{2}m\overline{v^{2}}  = \frac{f}{2}k_{B}T =\frac{3}{2}k_{B}T  \tag{10.5.6}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(f\)</span> is a degree of freedom for a gas molecules and <span class="process-math">\(k_{B}\)</span> is called the <dfn class="terminology">Boltzmann constant</dfn>. In SI system, <span class="process-math">\(k_{B} = 1.380\times10^{-23} \,J/K.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gas_pres-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.5.1: Pressure of an Ideal Gas"><a href="#subsec-gas_pres" title="Copy heading and permalink for Subsection 10.5.1: Pressure of an Ideal Gas">🔗</a></div></section><section class="subsection" id="subsec-dg_freedom"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.5.2</span><span class="space"> </span><span class="title">Degree of Freedom:</span>
+</h3>
+<figure class="figure figure-like" id="subsec-dg_freedom-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="dfreedom1"><img src="external/dfreedom1.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.2.(a)"><a href="#dfreedom1" title="Copy heading and permalink for Figure 10.5.2.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="dfreedom2"><img src="external/dfreedom2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.2.(b)"><a href="#dfreedom2" title="Copy heading and permalink for Figure 10.5.2.(b)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="dfreedom3"><img src="external/dfreedom3.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.2.(c)"><a href="#dfreedom3" title="Copy heading and permalink for Figure 10.5.2.(c)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.5.2<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.2"><a href="#subsec-dg_freedom-2" title="Copy heading and permalink for Figure 10.5.2">🔗</a></div></figcaption></figure><div class="para" id="subsec-dg_freedom-3">The degree of freedom is the number of independent motions possible to a particle or the number of independent coordinates required to specify particle’s dynamic position or the number of independent ways of exchanging particle’s energy. It depends on the atomic arrangement of an ideal gas molecule and types of motion it could have in the container. For example, it could have the combination of translation,  rotational, and vibrational motion. For a monoatomic gas molecules (like helium, argon),  consists of a single atom and can be represented by a point in space [<a href="sec_tenth-kt_gas.html#dfreedom1" class="xref" data-knowl="./knowl/xref/dfreedom1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.2.(a)">Figure 10.5.2.(a)</a>]. Such molecule therefore can have only translational motion in any of x-,y-,and z- direction. Thus it can have three independent motion and hence three degrees of freedom.   <div class="autopermalink" data-description="Paragraph"><a href="#subsec-dg_freedom-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-dg_freedom-4">
+<div class="para">The molecule of a diatomic gas (like hydrogen, oxygen) is made up of two atoms joined rigidly like a dumbbell [<a href="sec_tenth-kt_gas.html#dfreedom2" class="xref" data-knowl="./knowl/xref/dfreedom2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.2.(b)">Figure 10.5.2.(b)</a>]. Such a molecule can translate as well as rotate about any one of the three mutually perpendicular axes. However, rotational inertia about an axis along the rigid rod will be negligible as compared to the other two rotational axes. Hence it can have only two rotational motions and three translational motions. The degrees of freedom for diatomic molecule is therefore five. A triatomic molecule  either have linear arrangement of atoms (like <span class="process-math">\(CO_{2}, \quad O=C=O\)</span>) or tringular arrangement (like <span class="process-math">\(H_{2}O\)</span>), hence it may have either 7 (3 rotational, 1 vibrational, and 3 translational  motions) degrees of freedom or 6 (3 rotational, and 3 translational motions)  [<a href="sec_tenth-kt_gas.html#dfreedom3" class="xref" data-knowl="./knowl/xref/dfreedom3.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.2.(c)">Figure 10.5.2.(c)</a>]. If we consider each molecule has three translational motions <span class="process-math">\(N\text{,}\)</span> and the atoms are constrained to move along the rigid support, <span class="process-math">\(d\)</span> then degrees of freedom, <span class="process-math">\(f=N-d\text{.}\)</span> Hence for monoatomic gas, <span class="process-math">\(f=3-0=3;\)</span>  for diatomic gas, <span class="process-math">\(f=6-1=5;\)</span> and for triatomic gas, <span class="process-math">\(f=9-3=6,\)</span> in triangular arrangement of atoms, and <span class="process-math">\(f=9-2=7,\)</span> in linear arrangement of atoms.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/dfreedom2.html ./knowl/xref/dfreedom3.html ./knowl/xref/eqn-dgfreed2.html">
+\begin{equation*}
+\text{Now,}\quad pV = \frac{2}{3}N\frac{1}{2}m\overline{v^{2}}=\frac{2}{3} \frac{3}{2} N k_{B}T= N k_{B}T 
+\end{equation*}
+</div>
+<div class="para">If the container has <span class="process-math">\(n\)</span> moles of a gas, then total <em class="emphasis">number of molecules</em> in the container can be given as</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/dfreedom2.html ./knowl/xref/dfreedom3.html ./knowl/xref/eqn-dgfreed2.html" id="eqn-dgfreed1">
+\begin{equation}
+N = n N_{A} \tag{10.5.7}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(N_{A}=6.022\times10^{23}\)</span> molecules/mole is known as <dfn class="terminology">Avogadro’s number</dfn>. Hence, for n mole of a gas,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/dfreedom2.html ./knowl/xref/dfreedom3.html ./knowl/xref/eqn-dgfreed2.html">
+\begin{equation*}
+pV= Nk_{B}T= nN_{A} k_{B}T = nR T 
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(R  =  N_{A} k_{B}  \)</span>  or <span class="process-math">\(n R  =  N k_{B}\)</span> and <span class="process-math">\(R  =  8.314 J/mole K\)</span> is known as <em class="emphasis">universal gas constant</em>. Hence,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/dfreedom2.html ./knowl/xref/dfreedom3.html ./knowl/xref/eqn-dgfreed2.html" id="eqn-dgfreed2">
+\begin{equation}
+pV=Nk_{B}T = nRT  \tag{10.5.8}
+\end{equation}
+</div>
+<div class="para">eqn. <a href="sec_tenth-kt_gas.html#eqn-dgfreed2" class="xref" data-knowl="./knowl/xref/eqn-dgfreed2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.8">(10.5.8)</a> is called the <em class="emphasis">equation of state</em> of an ideal gas.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dg_freedom-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-dg_freedom-5">
+<div class="para">From eqns. <a href="sec_tenth-kt_gas.html#eqn-gaspres2" class="xref" data-knowl="./knowl/xref/eqn-gaspres2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.2">(10.5.2)</a> and <a href="sec_tenth-kt_gas.html#eqn-dgfreed2" class="xref" data-knowl="./knowl/xref/eqn-dgfreed2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.8">(10.5.8)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-gaspres2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-dgfreed3.html ./knowl/xref/eqn-dgfreed4.html">
+\begin{equation*}
+pV=\frac{1}{3}M\overline{v^{2}} = nRT 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-gaspres2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-dgfreed3.html ./knowl/xref/eqn-dgfreed4.html">
+\begin{equation*}
+\therefore\quad  v_{rms} = \sqrt{\frac{3nRT}{M}}
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-gaspres2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-dgfreed3.html ./knowl/xref/eqn-dgfreed4.html">
+\begin{equation*}
+pV=\frac{1}{3}Nm\overline{v^{2}} = Nk_{B}T
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-gaspres2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-dgfreed3.html ./knowl/xref/eqn-dgfreed4.html">
+\begin{equation*}
+\therefore \quad  v_{rms} = \sqrt{\frac{3Nk_{B}T}{m}}
+\end{equation*}
+</div>
+<div class="para">If n=1 mole, then  M  is a molar mass and we get-</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-gaspres2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-dgfreed3.html ./knowl/xref/eqn-dgfreed4.html" id="eqn-dgfreed3">
+\begin{equation}
+v_{rms} = \sqrt{\frac{3RT}{M}}  \tag{10.5.9}
+\end{equation}
+</div>
+<div class="para">and if N=1, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-gaspres2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-dgfreed3.html ./knowl/xref/eqn-dgfreed4.html" id="eqn-dgfreed4">
+\begin{equation}
+v_{rms} = \sqrt{\frac{3k_{B}T}{m}} \tag{10.5.10}
+\end{equation}
+</div>
+<div class="para">The eqn. <a href="sec_tenth-kt_gas.html#eqn-dgfreed3" class="xref" data-knowl="./knowl/xref/eqn-dgfreed3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.9">(10.5.9)</a> shows that  <span class="process-math">\(v_{rms}\)</span> of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molar mass. The eqn. <a href="sec_tenth-kt_gas.html#eqn-dgfreed4" class="xref" data-knowl="./knowl/xref/eqn-dgfreed4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.10">(10.5.10)</a> shows that  <span class="process-math">\(v_{rms}\)</span> of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molecular mass.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dg_freedom-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-dg_freedom-6">
+<dfn class="terminology">Note:</dfn> Molar mass [<a href="sec_tenth-kt_gas.html#subsubsec-avagdrs" class="internal" title="Subsubsection 10.5.3.1: Avogadro’s Number,  N_{A}">Subsubsection 10.5.3.1</a>] is the mass of one mole of a substance, while molecular mass is the mass of one molecule of a substance. For examples, mass of 1 mole of H-atom is 1.008 gram, mass of 1 H-atom is <span class="process-math">\(1.008 \,g/N_{A} = 1.67\times 10^{-24}\,g.\)</span> Mass of 1 mole of <span class="process-math">\(H_{2}\)</span> molecule is 2.016 gram, mass of 1 molecule of <span class="process-math">\(H_{2}=2.016 \,g/N_{A} = 3.34\times 10^{-24}\,g.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-dg_freedom-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.5.2: Degree of Freedom:"><a href="#subsec-dg_freedom" title="Copy heading and permalink for Subsection 10.5.2: Degree of Freedom:">🔗</a></div></section><section class="subsection" id="subsec-equip_law"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.5.3</span><span class="space"> </span><span class="title">Law of Equipartition of Energy</span>
+</h3>
+<section class="introduction" id="subsec-equip_law-2"><div class="para logical" id="subsec-equip_law-2-1">
+<div class="para">According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{2}m\overline{v^{2}} = \frac{3}{2}k_{B}T
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{1}{2}m\overline{v_{x}^{2}}=\frac{1}{2}m\overline{v_{y}^{2}} =\frac{1}{2}m\overline{v_{z}^{2}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{3}\cdot \frac{1}{2}m\overline{v^{2}} =\frac{1}{3}\cdot \frac{3}{2}k_{B}T=\frac{1}{2}k_{B}T
+\end{equation*}
+</div>
+<div class="para">Hence, the average kinetic energy per molecule in each degree of freedom is <span class="process-math">\(\frac{1}{2}k_{B}T.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-equip_law-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-avagdrs"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.5.3.1</span><span class="space"> </span><span class="title">Avogadro’s Number, <span class="process-math">\(N_{A}\)</span></span>
+</h4>
+<div class="para" id="subsubsec-avagdrs-2">It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of <span class="process-math">\(N_{A} = 6.022 \times 10^{23}\)</span> molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of <span class="process-math">\(C-12\)</span> atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro’s number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram <a href="sec_tenth-kt_gas.html#subsubsec-amu" class="internal" title="Subsubsection 10.5.3.2: Atomic Mass Unit, u">Subsubsection 10.5.3.2</a>. <details class="ptx-footnote" aria-live="polite" id="subsubsec-avagdrs-2-4"><summary class="ptx-footnote__number" title="Footnote 10.5.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="subsubsec-avagdrs-2-4">Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as <dfn class="terminology">molar mass</dfn>, refers to the mass of one mole of a substance in unit of grams per mole (g/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water (<span class="process-math">\(H_2O\)</span>) is approximately 18.015 g/mol, which is the same as its molecular weight (18.015 amu).</div></details> One mole of water <span class="process-math">\((H_{2}O)\)</span> weighs 18.015 g. One mole of ethyl alcohol, <span class="process-math">\((C_{2}H_{6}O)\text{,}\)</span> weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro’s number. This is an important aspect of the mole. <div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-avagdrs-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.5.3.1: Avogadro’s Number,  N_{A}"><a href="#subsubsec-avagdrs" title="Copy heading and permalink for Subsubsection 10.5.3.1: Avogadro’s Number,  N_{A}">🔗</a></div></section><section class="subsubsection" id="subsubsec-amu"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.5.3.2</span><span class="space"> </span><span class="title">Atomic Mass Unit, u</span>
+</h4>
+<div class="para logical" id="subsubsec-amu-2">
+<div class="para"> It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of <span class="process-math">\(_{6}^{12}C\)</span> weighs 12.00 amu. A 12 g of carbon contains <span class="process-math">\(N_{A}\)</span> atoms, each weighing exactly 12 amu. Therefore,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+N_{A}\,amu = 1 g
+\end{equation*}
+</div>
+<div class="para">or,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+1 u = (1/N_{A}) \,g = 1.660 \times 10^{-24} \,g.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-amu-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.5.3.2: Atomic Mass Unit, u"><a href="#subsubsec-amu" title="Copy heading and permalink for Subsubsection 10.5.3.2: Atomic Mass Unit, u">🔗</a></div></section><div class="autopermalink" data-description="Subsection 10.5.3: Law of Equipartition of Energy"><a href="#subsec-equip_law" title="Copy heading and permalink for Subsection 10.5.3: Law of Equipartition of Energy">🔗</a></div></section><section class="subsection" id="subsec-internal_energy"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.5.4</span><span class="space"> </span><span class="title">Internal Energy of a Gas</span>
+</h3>
+<div class="para logical" id="subsec-internal_energy-2">
+<div class="para">A liquid freezes into solid gives heat energy, Zinc reacts with copper sulfate in a voltaic cell produces electric energy. A mixture of hydrogen and oxygen explodes to release mechanical energy. This production of energy is actually a conversion of stored energy of a system. The apparently stored  energy of a system is called an <em class="emphasis">internal energy</em>. Real gas molecules posses both kinetic energy (due to motion of the molecules) and potential energy (due to intermolecular force of attraction) and hence the internal energy of the real gas is the sum of all of its internal kinetic and internal potential energy of the molecules. Ideal gas molecules are very far away from each other hence they do not have internal potential energy. The internal energy of an ideal is therefore solely due to the internal kinetic energy of all of its gas molecules and it is denoted by <span class="process-math">\(U.\)</span> Therefore the internal energy of one molecule of a gas,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{1}{2}mv_{rms}^{2}= \frac{3}{2}k_{B}T
+\end{equation*}
+</div>
+<div class="para">Hence, for N molecules of a gas, the internal energy is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+U= \frac{3}{2}Nk_{B}T
+\end{equation*}
+</div>
+<div class="para">and n moles of a gas,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+U= \frac{3}{2}nRT  
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(N=nN_{A}\)</span> and <span class="process-math">\(N_{A}k_{B}=R\)</span>
+</div>
+<div class="displaymath process-math" id="eqn-inter_energ1">
+\begin{equation}
+\therefore\quad U= \frac{3}{2}Nk_{B}T = \frac{3}{2}nRT = \frac{3}{2}pV \tag{10.5.11}
+\end{equation}
+</div>
+<div class="para">It must be noted that the internal energy of an ideal gas is directly proportional to the absolute temperature, i.e., <span class="process-math">\(U \propto T.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-internal_energy-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.5.4: Internal Energy of a Gas"><a href="#subsec-internal_energy" title="Copy heading and permalink for Subsection 10.5.4: Internal Energy of a Gas">🔗</a></div></section><section class="subsection" id="subsec-gas_laws"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.5.5</span><span class="space"> </span><span class="title">Gas Laws</span>
+</h3>
+<figure class="figure figure-like" id="subsec-gas_laws-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="boyle"><img src="external/boyle.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.3.(a)"><a href="#boyle" title="Copy heading and permalink for Figure 10.5.3.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="charle"><img src="external/charle.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.3.(b)"><a href="#charle" title="Copy heading and permalink for Figure 10.5.3.(b)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="pressurelaw"><img src="external/pressurelaw.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.3.(c)"><a href="#pressurelaw" title="Copy heading and permalink for Figure 10.5.3.(c)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.5.3<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.5.3"><a href="#subsec-gas_laws-2" title="Copy heading and permalink for Figure 10.5.3">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-gas_laws-3">
+<div class="para">From equation of state,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/boyle.html">
+\begin{equation*}
+pV = nRT,
+\end{equation*}
+</div>
+<div class="para">and  if T of a gas remains constant, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/boyle.html">
+\begin{equation*}
+pV=constant.
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/boyle.html">
+\begin{equation*}
+\text{or,}\quad p\propto\frac{1}{V}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/boyle.html">
+\begin{equation*}
+\text{or,} \quad p_{i}V_{i}=p_{f}V_{f}
+\end{equation*}
+</div>
+<div class="para">This is called a Boyle’s law, the pV diagram of Boyle’s law is shown in <a href="sec_tenth-kt_gas.html#boyle" class="xref" data-knowl="./knowl/xref/boyle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.3.(a)">Figure 10.5.3.(a)</a>. At constant temperature, the average force of each particle striking the surface will be the same. But as the area of the container has increased, there will be fewer of these collisions per unit area and the pressure will decrease. <dfn class="terminology">Volume is inversely proportional to pressure</dfn>, if the number of particles and the temperature are constant.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gas_laws-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-gas_laws-4">
+<div class="para">If pressure remains constant, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/charle.html">
+\begin{equation*}
+\frac{V}{T} = constant.
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/charle.html">
+\begin{equation*}
+\text{or,}\quad V\propto T
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/charle.html">
+\begin{equation*}
+\text{or,} \quad \frac{V_{i}}{T_{i}}=\frac{V_{f}}{T_{f}}
+\end{equation*}
+</div>
+<div class="para">This is called a Charle’s law, the <span class="process-math">\(V \sim T\)</span> diagram is shown in <a href="sec_tenth-kt_gas.html#charle" class="xref" data-knowl="./knowl/xref/charle.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.3.(b)">Figure 10.5.3.(b)</a>. To keep the pressure constant as the volume increases is to raise the average force that each particle exerts on the surface. This happens when the temperature is increased. So if the number of particles and the pressure are constant, <dfn class="terminology">temperature is proportional to the volume</dfn>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gas_laws-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-gas_laws-5">
+<div class="para">If volume remains constant, then</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pressurelaw.html">
+\begin{equation*}
+\frac{p}{T} = constant.
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pressurelaw.html">
+\begin{equation*}
+\text{or,}\quad p\propto T
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/pressurelaw.html">
+\begin{equation*}
+\text{or,} \quad \frac{p_{i}}{T_{i}}=\frac{p_{f}}{T_{f}}
+\end{equation*}
+</div>
+<div class="para">This is called a pressure law (or Gay-Lussac’s law), the <span class="process-math">\(V \sim T\)</span> diagram is shown in <a href="sec_tenth-kt_gas.html#pressurelaw" class="xref" data-knowl="./knowl/xref/pressurelaw.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.5.3.(c)">Figure 10.5.3.(c)</a>. As the temperature increases, the average kinetic energy increases as does the velocity of the gas particles hitting the walls of the container. The force exerted by the particles per unit of area on the container is the pressure, so as the temperature increases the pressure must also increase. <dfn class="terminology">Pressure is proportional to temperature</dfn>, if the number of particles and the volume of the container are constant.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gas_laws-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-gas_laws-6">
+<div class="para">
+<dfn class="terminology">Avogadro’s law:</dfn> Volume of a gas is directly proportional to the amount of gas at a constant temperature and pressure, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V\propto n.
+\end{equation*}
+</div>
+<div class="para">
+<dfn class="terminology">The Combined Gas Law:</dfn> If number moles of a gas only remains constant, then we have -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{pV}{T}=constant. 
+\end{equation*}
+</div>
+<div class="para">The volume of a given amount of gas is  proportional to the ratio of its absolute temperature and its pressure, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+V\propto\frac{T}{p}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gas_laws-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.5.5: Gas Laws"><a href="#subsec-gas_laws" title="Copy heading and permalink for Subsection 10.5.5: Gas Laws">🔗</a></div></section><div class="autopermalink" data-description="Section 10.5: Kinetic Theory of Ideal Gas"><a href="#sec_tenth-kt_gas" title="Copy heading and permalink for Section 10.5: Kinetic Theory of Ideal Gas">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec_tenth-examplesA.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_tenth-thermdyn.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
