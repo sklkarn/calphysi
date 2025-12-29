@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Moment of Inertia</title>
+  
+   <introduction>
+    <p>
+      Moment of inertia is a property of a material during rotation. 
+      It is a measure of sluggishness (resistance to any changes) in object's 
+      rotational motion. Moment of inertia depends on the shape, mass distribution, 
+      and axis of rotation of the object. It is a rotational analog of a mass for 
+      linear motion.  For a point mass the moment of inertia is just the product of
+       mass and the square of perpendicular distance to the rotation axis. 
+       If a point object has a mass <m>m</m> and is rotating about an  axis 
+       then its moment of inertia, <m>I</m> is given by <m>I=mr^{2}.</m> 
+       where <m>r</m> is a distance  of the object from the axis of rotation [<xref ref="micont1a"/>]. 
+       If there are an infinite number of point objects each at a distance <m>r_{i}</m> are 
+       rotating about an axis, then the moment of inertia (M.I) of these discrete 
+       objects are given as 
+      </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="micont1a">
+          <caption></caption>
+          <image source="micont1a.png"/>
+      </figure>
+          <figure xml:id="micont1b">
+              <caption></caption>
+              <image source="micont1b.png"/>
+          </figure>
+          <figure xml:id="micont1c">
+              <caption></caption>
+              <image source="micont1c.png"/>
+          </figure>
+         </sidebyside>
+  </figure>
+<p>
+  <me>
+    I=\sum\limits_{i=1}^{n} m_{i}r^{2}_{i} = m_{1} r^{2}_{1} + m_{2} r_{2}^{2}+\cdots ,
+   </me>
+   as shown in <xref ref="micont1b"/>. An extended object consists of a 
+   continuous distribution of mass at a continually varying distance from 
+   the axis of rotation, its moment of inertia can be written as, 
+   <me>
+    I=\int\,dI=\int\limits_{0}^{M} r^{2}\,dm 
+   </me>
+   where <m>\,dm</m> is a differential (infinitely small) mass of the object 
+   [<xref ref="micont1c"/>] and <m>r</m> is a distance of this differential 
+   mass from axis of rotation.
+</p>
+   </introduction>
+
+<subsection xml:id="subsec-paral_axis">
+  <title>Parallel axis theorem</title>
+  <p>
+    The moment of inertia of a body depends upon the axis of rotation and there are 
+    many axes possible about which a body can rotate. Hence the parallel axis 
+    theorem provides a relationship between the moment of inertia of a body 
+    about an axis passing through its center of mass to any other axis of a body 
+    which is parallel to the axis through center of mass.
+  </p> 
+  <figure xml:id="miparallel1">
+    <caption></caption>
+    <image source="miparallel1.png" width="30%"/>
+</figure>
+  <p>
+    Consider an elementary mass <m>m_{i}</m> at a distance <m>r_{i}</m> 
+    from the center of mass of a body and at a distance <m>r</m> from the 
+    axis of rotation through a point p [<xref ref="miparallel1"/>], then the moment of 
+    inertia of that point mass is given by 
+    <me>
+      I=\sum_{i} m_{i}r^{2} = \sum_{i} m_{i}\left(d+r_{i}\right)^{2}
+    </me>
+    <me>
+      =\sum_{i} m_{i}\left(\vec{d}+\vec{r}_{i}\right)\cdot \left(\vec{d}+\vec{r}_{i}\right)
+    </me>
+    <me>
+      =\sum_{i} m_{i}r^{2}_{i}+d^{2}\sum_{i} m_{i}+2\vec{d}\cdot\sum_{i} m_{i}r_{i}
+    </me>
+    In this expression <m>\sum_{i} m_{i}r^{2}_{i}=I_{cm},</m> a moment of inertia of 
+    the body about an axis through center of mass, <m>\sum_{i} m_{i} =M</m>, the mass of a body, 
+       <m>I</m>, moment of inertia of a body about an  axis parallel to the axis through 
+       the center of mass, <m>d,</m> a distance between parallel axes, and 
+       <me>
+        \sum_{i} m_{i}r_{i}=\left(\frac{\sum_{i} m_{i}r_{i}}{M} \right)M \rightarrow 0.
+       </me>
+        </p>
+        <p>
+          Since the position of the center of mass lies at origin (0,0), i.e., <m>r_{i}=0. </m>
+          <me>
+            \therefore  \quad I  =  I_{cm} + M d^{2} 
+          </me>
+          The  <term>parallel axis theorem</term> states that the moment of inertia 
+          of a body about an axis parallel to an axis passing through the center of mass 
+          is equal to the sum of the moment of inertia of body about an axis passing 
+          through center of mass and product of mass and square of the distance between the two axes.
+        </p>
+</subsection>
+
+
+<subsection xml:id="subsec-perpend_axis">
+  <title>Perpendicular axis theorem</title>
+  <figure xml:id="miperp1">
+    <caption></caption>
+    <image source="miperp1.png" width="30%"/>
+</figure>
+  <p>
+    The <term>perpendicular axis theorem</term> states that the moment of inertia of a 
+    planar body (plane lamina) about an axis perpendicular to its plane is equal 
+    to the sum of its moments of inertia about two other perpendicular axes lying 
+    in the plane of the body.
+<me>
+  I_{z}=I_{x}+I_{y}
+</me>
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-mi_ring">
+  <title>Moment of Inertia of a Ring or Hoop</title>
+  <introduction>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 30% 35%">
+      <figure xml:id="miring1">
+        <caption></caption>
+        <image source="miring1.png"/>
+    </figure>
+        <figure xml:id="miring2">
+            <caption></caption>
+            <image source="miring2.png"/>
+        </figure>
+        <figure xml:id="miring3">
+            <caption></caption>
+            <image source="miring3.png"/>
+        </figure>
+         </sidebyside>
+</figure>
+ 
+  <p>
+    As moment inertia depends upon the shape, mass distribution, and position of axis of rotation. 
+    Here are some conditions discussed below for a ring.
+  </p>
+</introduction>
+ 
+<subsubsection xml:id="subsubsec-miring_cm">
+  <title>About an axis passing through its center of mass and perpendicular to its plane</title>
+  <p>
+    Consider a small element of mass <m>\,dm </m> of a rim of the ring of radius 
+   <m>r</m> is rotating about an axis passing passing through its center of 
+   mass and perpendicular to its plane [<xref ref="miring1"/>], 
+   then the moment of inertia of that elemental mass is given by
+   <me>
+    \,dI=\,dm r^{2}.
+   </me>
+       Therefore moment of inertia of a whole ring about that axis is 
+       <me>
+        I=\int\,dI=\int\limits_{0}^{M}\,dm r^{2} = r^{2}\left.m\right|_{0}^{M}= Mr^{2} = I_{cm}
+       </me>
+           where <m>M</m> is the mass of the ring. 
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-miring_rim">
+  <title>About an axis passing through its rim and perpendicular to its plane</title>
+  <p>
+    Consider a ring of mass <m>M</m> and radius <m>r</m>  is rotating about an 
+    axis passing passing through its rim and perpendicular to its plane 
+    [<xref ref="miring2"/>], then the moment of inertia of that ring can be obtained by
+    <me>
+      I_{rim}=I_{cm}+Md^{2} = Mr^{2}+Mr^{2} =2Mr^{2}
+    </me>
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-miring_diam">
+  <title>About an axis through its diameter</title>
+  <p>
+    The moment of inertia of a ring about its center of mass and 
+    perpendicular to its plane [<xref ref="miring3"/>], is 
+    <me>
+      I_{cm}=Mr^{2}.
+    </me>
+    Now using the perpendicular axis theorem, we have 
+    <me>
+      I_{z}=I_{x}+I_{y} =2I_{x}.
+    </me>
+    As ring is a symmetrical object <m>I_{x}</m> is considered as equal to <m>I_{y}</m>. Hence 
+    <me>
+      I_{cm}=I_{z}=Mr^{2}=2I_{x}
+    </me>
+    <me>
+      \therefore\quad I_{x}= I_{y}=I_{diameter}=\frac{1}{2}Mr^{2}
+    </me>
+     </p>
+</subsubsection>
+</subsection>
+
+
+<subsection xml:id="subsec-mi_rod">
+  <title>Moment of Inertia of a Rod</title>
+  <introduction>
+
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30%">
+      <figure xml:id="mirod2">
+        <caption></caption>
+        <image source="mirod2.png"/>
+    </figure>
+        <figure xml:id="mirod1">
+            <caption></caption>
+            <image source="mirod1.png"/>
+        </figure>
+         </sidebyside>
+</figure>
+     </introduction>
+ 
+
+     <subsubsection xml:id="subsubsec-mirod_cm">
+      <title>About an axis passing through its center of mass and perpendicular to its plane</title>
+      <p>
+        The moment of inertia of a rod of length <m>L</m> and mass <m>M</m> about 
+        an axis passing through its center of mass [<xref ref="mirod2"/>] 
+        can be find by considering an elementary mass <m>\,dm </m> of a rod of 
+        infinitesimal thickness <m>\,dx</m> at a distance <m>x</m> from the 
+        axis of rotation, then the moment of inertia of this elementary mass (strip) is given by
+        <me>
+          \,dI = \,dm x^{2}
+        </me>
+        <me>
+          \text{or,}\quad I = \int \,dI = \int\limits_{-\frac{L}{2}}^{\frac{L}{2}}\left(\frac{M}{L}\,dx\right)x^{2}
+        </me>
+        <me>
+          \because \quad \,dm = \left(\frac{M}{L}\,dx\right)
+        </me>
+        <me>
+          i.e., \text{mass of a strip} =(\text{mass per unit length of a rod})\cdot (\text{length of a strip})
+        </me>
+        <me>
+          \therefore\quad I =\frac{M}{L} \int\limits_{-\frac{L}{2}}^{\frac{L}{2}} x^{2} \,dx
+        </me>
+        <me>
+          = \frac{M}{L}\left(\frac{x^{3}}{3}\right)_{-\frac{L}{2}}^{\frac{L}{2}}
+        </me>
+        <me>
+          = \frac{M}{3L}\left[\left(\frac{L}{2}\right)^{3}-\left(-\frac{L}{2}\right)^{3}\right]
+        </me>
+        <me>
+          =\frac{2M}{3L}\left(\frac{L^{3}}{8}\right)=\frac{1}{12}ML^{2}
+        </me>
+          </p>
+     </subsubsection>
+
+     <subsubsection xml:id="subsubsec-mirod_edge">
+      <title>About an axis passing through its one edge and perpendicular to its plane</title>
+      <p>
+        Consider a rod of length <m>L</m> and mass <m>M</m> is rotating about an axis 
+        passing through one of its edges as shown in <xref ref="mirod1"/>. 
+        To find the moment of inertia of such a rod consider an elementary mass 
+        <m>\,dm </m> of a rod of infinitesimal thickness <m>\,dx</m> at a distance 
+        <m>x</m> from the axis of rotation, then the moment of inertia of this elementary mass is given by
+        <me>
+          \,dI = \,dm x^{2}
+        </me>
+        <me>
+          \text{or,}\quad I = \int \,dI = \int\limits_{0}^{L}\left(\frac{M}{L}\,dx\right)x^{2}
+        </me>
+        <me>
+          \therefore\quad I =\frac{M}{L}\int\limits_{0}^{L} x^{2} \,dx
+        </me>
+        <me>
+          = \frac{M}{L}\left(\frac{x^{3}}{3}\right)_{0}^{L}
+        </me>
+        <me>
+          = \frac{M}{3L}(L^{3}-0)=\frac{1}{3}ML^{2}
+        </me>
+      </p>
+      <p>
+       <alert>Alternative</alert> Using parallel axis theorem, 
+       <me>
+        I_{edge} = I_{cm}+Md^{2}
+       </me>
+       <me>
+        =\frac{1}{12}ML^{2} +M\left(\frac{L}{2}\right)^{2}=\frac{1}{3}ML^{2}
+       </me>
+           here, <m>d</m> is the distance between axis of rotation and an axis through center of mass of a rod.
+      </p>
+     </subsubsection>
+
+     <subsubsection xml:id="subsubsec-mirod_length">
+      <title>About an axis passing along its length and through the center of mass</title>
+      <p>
+        If the rod is negligibly thin (slender rod), then <m>I_{z}=0</m>, 
+        otherwise depends upon of its shape, its moment of inertia can be obtained 
+        similar to that for a solid cylinder 
+        <me>
+          I=\frac{1}{2}mr^{2}
+        </me>
+       or as for a rectangular prism 
+       <me>
+        I_{z}=\frac{1}{12}m(x^{2}+y^{2})
+       </me>
+       </p>
+     </subsubsection>
+</subsection>
+
+
+<subsection xml:id="subsec-mi_disk">
+  <title>Moment of Inertia of a Disk</title>
+  <introduction>
+   
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+      <figure xml:id="midisk1">
+        <caption></caption>
+        <image source="midisk1.png"/>
+    </figure>
+        <figure xml:id="midisk2">
+            <caption></caption>
+            <image source="midisk2.png"/>
+        </figure>
+        <figure xml:id="midisk3">
+          <caption></caption>
+          <image source="midisk3.png"/>
+      </figure>
+         </sidebyside>
+</figure> 
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-midisk_cm">
+    <title>About an axis passing through its center of mass and perpendicular to its plane</title>
+    <p>
+      Consider a disk of radius <m>R</m> and mass <m>M</m> is rotating about an axis 
+      passing through its center of mass and perpendicular to its plane [<xref ref="midisk1"/>]. 
+      To find the moment of inertia of such a disk consider an elementary ring of radius 
+      <m>r</m>, thickness <m>\,dx</m>, and mass <m>\,dm</m> then the moment of inertia 
+      of this elementary ring (annulus) is given by
+      <me>
+        \,dI = \,dm r^{2}
+      </me>
+      <me>
+        \text{or,}\quad I = \int \,dI = \int\limits_{0}^{R}\left(\frac{M}{\pi R^{2}}(2\pi r\,dr)\right)r^{2} 
+      </me>
+      <me>
+        \because \text{mass of a ring} =(\text{mass per unit area of a disk})\cdot (\text{area of a ring})
+      </me>
+      <me>
+        \text{or,}\quad I = \frac{2M}{R^{2}}\int\limits_{0}^{R}\left(r^{3}\,dr\right) 
+      </me>
+      <me>
+        =\frac{2M}{R^{2}}\left.\frac{r^{4}}{4}\right\vert_{0}^{R} 
+      </me>
+      <me>
+        =\frac{M}{2R^{2}}(R^{4}-0)=\frac{1}{2}MR^{2}
+      </me>
+       </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-midisk_diam">
+    <title>About an axis through its diameter</title>
+    <p>
+      Using perpendicular axis theorem, [<xref ref="midisk2"/>] 
+      <me>
+        I_{z}=I_{x}+I_{y}
+      </me>
+      <me>
+        \text{But}\quad I_{z}=I_{cm}=\frac{1}{2}MR^{2}
+      </me>
+      and by symmetry, <me>
+        I_{x}=I_{y}
+      </me>
+            <me>
+        \therefore\quad I_{z}=2I_{x} \Rightarrow\quad  I_{x}=\frac{I_{z}}{2}= \frac{1}{4}MR^{2}
+      </me>
+         </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-midisk_edge">
+    <title>About an axis passing through its edge and perpendicular to its plane</title>
+    <p>
+      Using parallel axis theorem, [<xref ref="midisk3"/>] 
+      <me>
+        I_{edge}=I_{cm}+Md^{2}=\frac{1}{2}MR^{2} +MR^{2}= \frac{3}{2}MR^{2}
+      </me>
+          </p>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-mi_plate">
+  <title>Moment of Inertia of a Plate</title>
+  <introduction>
+   <p>
+
+   </p>
+  </introduction>
+
+<subsubsection xml:id="subsubsec-miplate_cmlength">
+  <title>About an axis <m>I_{x}</m> passing through its center of mass and parallel to its plane</title>
+  <figure xml:id="miplate2">
+    <caption></caption>
+    <image source="miplate2.png" width="30%"/>
+</figure>
+  <p>
+    Consider a plate of length <m>a</m> and width <m>b</m> is made out off 
+    number of elementary rods of thickness <m>\,dx</m>, then moment of 
+    inertia of that rod about x-axis is given by 
+<me>
+  I_{x} = \int x^{2}\,dm = \int\limits_{0}^{a}\frac{1}{12}\,dmb^{2}
+</me>
+here <m>\,dm</m> = (mass per unit area)(area of a rod), by considering neglible plate thickness.
+<me>
+  \therefore \quad I_{x} = \frac{1}{12}b^{2}\int\limits_{0}^{a}\frac{M}{ab}b\,dx 
+</me>
+<me>
+  = \frac{Mb^{2}}{12a}\left.x\right|_{0}^{a} =  \frac{1}{12}Mb^{2}
+</me>
+  </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-miplate_cmwide">
+  <title>About an axis <m>I_{y} </m> passing through its center of mass and parallel to its plane</title>
+
+  <figure xml:id="miplate3">
+    <caption></caption>
+    <image source="miplate3.png" width="30%"/>
+</figure>
+
+  <p>
+    Consider a plate of length <m>a</m> and width <m>b</m> is made out off number of 
+    elementary rods of thickness <m>\,dy</m>, then moment of inertia of that rod about y-axis is given by 
+    <me>
+      I_{y} = \int y^{2}\,dm = \int\limits_{0}^{b}\frac{1}{12}\,dma^{2}
+    </me>
+    <m>\,dm</m>  = (mass per unit area)(area of a rod), by considering neglible plate thickness.
+    <me>
+      \therefore \quad I_{y} = \frac{1}{12}a^{2}\int\limits_{0}^{b}\frac{M}{ab}a\,dy =  \frac{1}{12}Ma^{2}
+    </me>
+      </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-miplate_perpnd">
+  <title>About an axis passing through its center of mass and perpendicular to its plane</title>
+  <figure xml:id="miplate1">
+    <caption></caption>
+    <image source="miplate1.png" width="30%"/>
+</figure>
+  <p>
+    Consider a plate of length <m>a</m> and width <m>b</m> is made out off number 
+    of elementary rods of thickness <m>\,dx</m>, then moment of inertia of that rod about z-axis is given by 
+    <me>
+      \,dI_{z} = \left[\,dI_{cm}+\,dm \,x^{2}\right]\quad [\text{parallel axis theorem}]
+    </me>
+    <me>
+      \text{or,}\quad \,dI_{z} = \left[\frac{1}{12}\,dm\,b^{2}+\,dm \,x^{2}\right]
+    </me>
+    <me>
+      \text{or,}\quad \,dI_{z} = \left[\frac{1}{12}\left(\frac{M}{ab}b\,dx\right)\,b^{2}+\left(\frac{M}{ab}b\,dx\right) \,x^{2}\right]
+    </me>
+    <me>
+      \,dm = \text{(mass per unit area)}(\text{area of a rod})
+    </me>
+    </p>
+    <p>
+      Hence the moment of inertia of a plate about center of mass is given by
+      <me>
+        I_{z}=\int\,dI_{z} = \frac{M}{a}\int\limits_{-\frac{a}{2}}^{\frac{a}{2}}\left[\frac{1}{12}b^{2}\,dx +x^{2}\,dx \right]
+      </me>
+      <me>
+        = \frac{M}{a}\left[\frac{1}{12}b^{2}\left.x\right\vert_{-\frac{a}{2}}^{\frac{a}{2}} +\left.\frac{x^{3}}{3}\right\vert_{-\frac{a}{2}}^{\frac{a}{2}} \right] 
+      </me>
+      <me>
+        I_{z} =\frac{M}{a}\left[\frac{1}{12}b^{2}\left(\frac{a}{2}+\frac{a}{2}\right)+\frac{1}{3}\left(\frac{a^{3}}{8}+ \frac{a^{3}}{8}\right)\right]
+      </me>
+      <me>
+        =\frac{M}{12}\left[a^{2}+b^{2}\right]
+      </me>
+    </p>
+    <p>
+        <alert>Alternative:</alert> Moment of inertia of plate about <m>I_{z}</m> 
+        using perpendicular axis theorem,
+        <me>
+          I_{z}=I_{x}+I_{y} = \frac{1}{12}Mb^{2}+\frac{1}{12}Ma^{2}
+        </me>
+        <me>
+          =\frac{M}{12}\left(a^{2}+b^{2}\right)
+        </me>
+      </p>
+</subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-mi_cylnd">
+  <title>Moment of Inertia of a Cylinder</title>
+  <introduction>
+   
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 25% 25%">
+      <figure xml:id="mihcyl1">
+        <caption></caption>
+        <image source="mihcyl1.png"/>
+    </figure>
+        <figure xml:id="mithcyl1">
+            <caption></caption>
+            <image source="mithcyl1.png"/>
+        </figure>
+        <figure xml:id="miscyl1">
+          <caption></caption>
+          <image source="miscyl1.png"/>
+      </figure>
+         </sidebyside>
+</figure> 
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-micyl_cm">
+    <title>Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</title>
+    <p>
+      Consider an elemental ring  of thickness <m>\,dx</m> at a distance 
+      <m>x</m> from the center of mass of a hollow cylinder [<xref ref="mihcyl1"/>], 
+      then the moment of inertia of this ring is given by 
+      <me>
+        \,dI=\,dm\,R^{2}
+      </me>
+      <me>
+        \therefore\quad I = \int\limits_{0}^{l}\left(\frac{M}{2\pi Rl}\right)(2\pi R \,dx)R^{2}=\frac{MR^{2}}{l}\left(l\right)_{0}^{l}=MR^{2}
+      </me>
+       [Mass of an elemental ring = (mass per unit area of a cylinder) (area of a ring).]
+  Here <m>M</m> is mass of the cylinder, <m>R</m> is its radius,  and <m>l</m> is its length.
+    </p>
+  </subsubsection> 
+
+  <subsubsection xml:id="subsubsec-micyl_percm">
+    <title>Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</title>
+    <p>
+      Consider an elemental thin cylinder of length <m>l</m>,  
+      thickness <m>\,dr</m> at a distance <m>r</m> from the center of 
+      mass of a thick hollow cylinder of outer radius <m>R_{2}</m> and inner radius 
+      <m>R_{1}</m> [<xref ref="mithcyl1"/>], then the moment of inertia of this cylinder is given by 
+      <me>
+        \,dI=\,dm\,r^{2} = \left[\frac{M}{\pi\left(R^{2}_{2}-R^{2}_{1}\right)l}\right]\left(2\pi r\,dr l\right)r^{2}
+      </me>
+      <me>
+        \text{or,}\quad I = \left(\frac{2M}{R_{2}^{2}-R_{1}^{2}}\right) \int\limits_{R_{1}}^{R_{2}}r^{3}\,dr
+      </me>
+      <me>
+        =\left(\frac{2M}{R_{2}^{2}-R_{1}^{2}}\right)\left(\frac{r^{4}}{4}\right)_{R_{1}}^{R_{2}}
+      </me>
+      <me>
+        \therefore\quad I = \frac{1}{2}\left(\frac{M}{R_{2}^{2}-R_{1}^{2}}\right)\left(R_{2}^{4}-R_{1}^{4}\right) 
+      </me>
+      <me>
+        = \frac{1}{2}M\left(R_{2}^{2}+R_{1}^{2}\right)
+      </me>
+     [Mass of an elemental cylinder = (mass per unit volume of a thick cylinder) (volume of elemental cylinder).]
+    </p>
+  </subsubsection>
+
+  <subsubsection xml:id="subsubsec-micyl_cmsolid">
+    <title>Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane</title>
+    <p>
+      Consider a concentric cylindrical shell of length <m>l</m>, radius <m>r</m>, 
+      and thickness <m>\,dr</m> in a solid cylinder of mass <m>M</m> and  
+      radius <m>R</m> [<xref ref="miscyl1"/>], then the moment of inertia of the shell is given by 
+      <me>
+        \,dI_{z}=\,dm\,r^{2} = \left[\frac{M}{\pi R^{2}l}\right]\left(2\pi r\,dr l\right)r^{2}
+      </me>
+      <me>
+        \text{or,}\quad I_{z} = \frac{2M}{R^{2}} \int\limits_{0}^{R}r^{3}\,dr
+      </me>
+      <me>
+        =\frac{2M}{R^{2}}\left(\frac{r^{4}}{4}\right)_{0}^{R}
+      </me>
+      <me>
+        \therefore\quad I_{z} = \frac{1}{2}\left(\frac{M}{R^{2}}\right)\left(R^{4}-0\right) = \frac{1}{2}MR^{2}
+      </me>
+      Show that moment of inertia of a solid cylinder about 
+      <me>
+        I_{x} =I_{y} = \frac{M}{12}\left(3R^{2}+l^{2}\right).
+      </me>
+       </p>
+  </subsubsection>
+</subsection>
+
+
+<subsection xml:id="subsec-mi_cone">
+  <title>Moment of Inertia of a Cone</title>
+  <introduction>
+    
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 25% 25%">
+      <figure xml:id="miscone1">
+        <caption></caption>
+        <image source="miscone1.png"/>
+    </figure>
+        <figure xml:id="miscone3">
+            <caption></caption>
+            <image source="miscone3.png"/>
+        </figure>
+        <figure xml:id="mihcone2">
+          <caption></caption>
+          <image source="mihcone2.png"/>
+      </figure>
+         </sidebyside>
+</figure> 
+  </introduction>
+<subsubsection xml:id="subsubsec-miscone_symtr">
+  <title>Moment of Inertia of a Solid Cone about an axis of symmetry</title>
+  <p>
+    Consider a concentric disk of radius <m>r</m> and thickness <m>\,dx</m> 
+    at a distance <m>x</m> from the vertex in a solid cone of mass <m>M</m> and  
+    radius <m>R</m> [<xref ref="miscone1"/>], then the moment of inertia 
+    of this disk about its center of mass can be given as
+<me>
+  \,dI=\frac{1}{2}\,dm\,r^{2} = \frac{1}{2}\left[\frac{M}{\frac{1}{3}\pi R^{2}h}\right]\left(\pi r^{2}\,dx\right)r^{2}
+</me>
+<me>
+  \text{or,}\quad I = \left(\frac{3M}{2\pi R^{2}h}\right) \int\limits_{0}^{h}\left(\pi r^{4}\right)\,dx
+</me>
+<me>
+  = \left(\frac{3M}{2R^{2}h}\right) \int\limits_{0}^{h}\left(\frac{x^{4}R^{4}}{h^{4}}\right)\,dx
+</me>
+<me>
+  [\because  \frac{x}{h}=\frac{r}{R}\quad \text{from similar triangles in figure}]
+</me>
+<me>
+  \text{or,}\quad I = \left(\frac{3M}{2h^{5}}\right) \int\limits_{0}^{h}\left(x^{4}R^{2}\right)\,dx
+</me>
+<me>
+  = \left(\frac{3MR^{2}}{2h^{5}}\right) \left(\frac{x^{5}}{5}\right)_{0}^{h}
+</me>
+<me>
+  \therefore\quad I = \left(\frac{3MR^{2}}{2h^{5}}\right) \left(\frac{h^{5}}{5}\right)= \frac{3}{10}MR^{2} 
+</me>
+  </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-miscone_vertx">
+  <title>Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base</title>
+  <p>
+    Consider a concentric disk of radius <m>r</m> and thickness <m>\,dx</m> 
+    at a distance <m>x</m> from the vertex in a solid cone of mass <m>M</m> and 
+     radius <m>R</m> [<xref ref="miscone3"/>], then the moment of inertia 
+     of this disk about its diameter can be given as
+<me>
+  \,dI_{cm}=\frac{1}{4}\,dm\,r^{2} 
+</me>
+<me>
+  = \frac{1}{4}\left[\frac{M}{\frac{1}{3}\pi R^{2}h}\right]\left(\pi r^{2}\,dx\right)r^{2}
+</me>
+<me>
+  \text{or,}\quad \,dI_{cm} = \left(\frac{3M}{4 R^{2}h}\right) \left(r^{4}\right)\,dx
+</me>
+<me>
+  = \left(\frac{3M}{4R^{2}h}\right) \left(\frac{x^{4}R^{4}}{h^{4}}\right)\,dx
+</me>
+<me>
+  [\because  \frac{x}{h}=\frac{r}{R}\quad \text{from similar triangles in figure}]
+</me>
+<me>
+  \text{or,}\quad \,dI_{cm} = \left(\frac{3MR^{2}}{4h^{5}}\right) \left(x^{4}\right)\,dx 
+</me>
+Moment of inertia of this disk about the vertex of the cone can be
+<me>
+  \,dI_{vert}=\,dI_{cm}+\,dm x^{2}
+</me>
+<me>
+  = \left(\frac{3MR^{2}}{4h^{5}}\right) \left(x^{4}\right)\,dx + \left[\frac{M}{\frac{1}{3}\pi R^{2}h}\right]\left(\pi r^{2}\,dx\right) x^{2}
+</me>
+<me>
+  = \left(\frac{3MR^{2}}{4h^{5}}\right) \left(x^{4}\right)\,dx + \left(\frac{3M}{R^{2}h}\right) r^{2}x^{2} \,dx
+</me>
+<me>
+  = \left(\frac{3MR^{2}}{4h^{5}}\right) \left(x^{4}\right)\,dx + \left(\frac{3M}{R^{2}h}\right) \left(\frac{x^{2}R^{2}}{h^{2}}\right)x^{2} \,dx 
+</me>
+Hence moment of inertia of a solid cone about its vertex is given by 
+<me>
+  I_{vert}=\int\,dI_{vert}
+</me>
+<me>
+  = \left[\left(\frac{3MR^{2}}{4h^{5}}\right) +\left(\frac{3M}{h^{3}}\right)\right]\int\limits_{0}^{h}\left(x^{4}\right)\,dx 
+</me>
+<me>
+  =\frac{3M}{5}\left(\frac{R^{4}}{4}+h^{2}\right) 
+</me>
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-mihcone_symt">
+  <title>Moment of Inertia of a Hollow Cone about an axis of symmetry</title>
+ <p>
+  Consider an elemetary ring of radius <m>r</m> and thickness <m>\,dx</m> at 
+  a slanted distance <m>x</m> from the vertex in a hollow cone of mass <m>M</m> 
+  and  radius <m>R</m> [<xref ref="mihcone2"/>], then the moment of 
+  inertia of this ring about its center of mass can be given as
+  <me>
+    \,dI=\,dm\,r^{2} = \left[\frac{M}{\pi R d}\right]\left(2\pi r\,dx\right)r^{2}
+  </me>
+  <me>
+    \text{or,}\quad I = \left[\frac{2M}{R d}\right] \int\limits_{0}^{d}r^{3}\,dx
+  </me>
+  <me>
+    = \left[\frac{2M}{R d}\right] \int\limits_{0}^{d}\left(\frac{xR}{d}\right)^{3}\,dx
+  </me>
+  <me>
+    [\because  \frac{x}{d}=\frac{r}{R}\quad \text{from similar triangles in figure}]
+  </me>
+  <me>
+    \text{or,}\quad I = \left[\frac{2MR^{2}}{d^{4}}\right]\int\limits_{0}^{d} x^{3}\,dx 
+  </me>
+  <me>
+    = \left[\frac{2MR^{2}}{d^{4}}\right] \left(\frac{x^{4}}{4}\right)_{0}^{d}
+  </me>
+  <me>
+    \therefore\quad I = \left[\frac{MR^{2}}{2d^{4}}\right] d^{4} = \frac{1}{2}MR^{2} 
+  </me>
+   </p> 
+</subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-mi_spher">
+  <title>Moment of Inertia of a Sphere</title>
+ <introduction>
+   
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 25%">
+      <figure xml:id="mihsphere">
+        <caption></caption>
+        <image source="mihsphere.png"/>
+    </figure>
+        <figure xml:id="missphere">
+            <caption></caption>
+            <image source="missphere.png"/>
+        </figure>
+        </sidebyside>
+</figure> 
+ </introduction>
+
+ <subsubsection xml:id="subsubsec-mihspher">
+  <title>Moment of inertia of a hollow sphere about its diameter</title>
+  <p>
+    Consider an elementary ring of radius <m>r</m> with thickness <m>\,dr</m>  
+    in a hollow sphere of mass <m>M</m> and  radius <m>R</m> [<xref ref="mihsphere"/>], 
+    then the moment of inertia of this ring about its center of mass can be given as
+    <me>
+      \,dI=\,dm\,r^{2} = \,dm(R\sin\theta)^{2}=\left[\frac{M}{4\pi R^{2}}\right]\left(2\pi R\sin\theta\right) R\,d\theta (R\sin\theta)^{2} 
+    </me>
+        mass of a ring = (mass per unit area of sphere) (area of a ring)
+  </p>
+  <p>
+    Therefore the moment of inertia of a hollow sphere about its diameter is given by
+    <men xml:id="eqn-mihspher1">
+      \therefore\quad I =\int\,dI = \frac{MR^{2}}{2}\int\limits_{0}^{\pi}\sin^{3}\theta\,d\theta 
+    </men>
+    <me>
+      Now, \quad \sin^{3}\theta = \frac{3\sin\theta-\sin 3\theta}{4} 
+    </me>
+    <me>
+      \therefore\quad I = \frac{MR^{2}}{2} \frac{1}{4}\left[-3\cos\theta - \frac{\cos3\theta}{3}\right]_{0}^{\pi}
+    </me>
+    <me>
+      =\frac{1}{8}MR^{2}\left[-3(-1-1)+\frac{1}{3}(-1-1)\right]
+    </me>
+    <me>
+      \therefore\quad I =\frac{1}{8}MR^{2}\left[6-\frac{2}{3}\right]=\frac{16}{3}\times\frac{1}{8}MR^{2}=\frac{2}{3}MR^{2}
+    </me>
+      </p>
+ </subsubsection>
+
+ <subsubsection xml:id="subsubsec-misspher">
+  <title>Moment of inertia of a solid sphere about its diameter</title>
+  <p>
+    Consider a concentric hollow spherical shell of radius <m>r</m> and 
+    thickness <m>\,dr</m>  in a hollow sphere of mass <m>M</m> and  
+    radius <m>R</m> [<xref ref="missphere"/>], then the 
+    moment of inertia of this shell about its center of mass is given by
+    <me>
+      \,dI=\frac{2}{3}\,dm\,r^{2} = \frac{2}{3}\left(\frac{M}{\frac{4}{3}\pi R^{3}}\right)\left(4\pi r^{2}\,dr\right)\,r^{2}
+    </me>
+    mass of a shell = (mass per unit volume of sphere) (volume of a shell)
+  </p>
+  <p>
+      Therefore the moment of inertia of a solid sphere about its diameter is given by 
+      <me>
+        \therefore\quad I =\int\,dI = \frac{2M}{R^{3}}\int\limits_{0}^{R}r^{4} \,dr
+      </me>
+      <me>
+        = \frac{2M}{R^{3}}\left(\frac{r^{5}}{5}\right)_{0}^{R} =\frac{2}{5}MR^{2}
+      </me>
+  <term>Note:</term> All the above calculations were made by considering uniform mass distribution of a symmetrical object.
+  </p>  
+ </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-rad_gyr">
+  <title>Radius of Gyration</title>
+  <p>
+    The radius of gyration, <m>k</m> is a measure used to describe the distribution 
+    of mass or the shape of an object in rotational motion.   
+    It is the distance from the axis of rotation where the entire mass of the body is 
+    assumed to be concentrated that give the same moment of inertia of that body 
+    when it is rotating about an axis of rotation. It is an <em>equivalent distance</em> 
+    of the mass from the axis of rotation. It is helpfull to obtain the moment 
+    of inertia of a complex object. The radius of gyration of mass <m>m</m> is given by 
+    <me>
+      I =mk^{2} \Rightarrow k=\sqrt{\frac{I}{m}}  
+    </me>
+   Here <m>k</m> refers to the radius of gyration of the object. 
+   The radius of gyration of a spherical body about its diameter can be 
+   obtained by considering the entire body is concentrated as a point mass 
+   at a distance <m>k</m> from the axis of rotation and hence 
+   <me>
+    I=\frac{2}{5}mr^{2} = mk^{2}\Rightarrow\quad k=\sqrt{\frac{2}{5}} \,r
+   </me>
+   The radius of gyration provides a way to quantify how the mass of an object 
+   is distributed relative to its axis of rotation. Objects with a larger radius 
+   of gyration have their mass distributed farther from the axis of rotation, 
+   which typically means they are harder to rotate. Conversely, objects with a 
+   smaller radius of gyration have their mass distributed closer to the axis 
+   of rotation, making them easier to rotate.
+    </p>
+</subsection>
+  </section>
+

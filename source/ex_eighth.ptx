@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_eighth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+ <exercise>
+  <p>
+    A towline used to tow hang gliders is 500 m long and <m>10 mm^{2} </m> in cross-sectional area. 
+    It is found to stretch 10 m under a tension equal to one-fourth the weight of an 100 kg glider-pilot 
+    combination. What is Young's modulus for the material used to make the towline?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A brass wire <m>(Yb = 9\times 10^{10} \,Pa)</m> and a steel wire <m>(Ys = 20\times 10^{10} \,Pa)</m> 
+    are both used (in parallel) to support a single mass of 1000 kg. Both wires have a length of 2 m 
+    and a cross-sectional area of <m>1 mm^{2}</m>. 
+    <ol marker="a.">
+      <li>
+        What is the change in length of each wire? 
+      </li>
+      <li>
+        What is the tension in each wire? 
+      </li>
+      <li>
+        What is the stress in each wire? 
+      </li>
+      <li>
+        What is the strain in each wire? 
+      </li>
+      <li>
+        How much elastic potential energy is stored in each wire?
+      </li>
+    </ol> 
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    The deepest part of the ocean is about 11 km and has a pressure of about 1000 atm. 
+    If the bulk modulus of sea water is <m>2.2\times 10^{9} \,Pa</m> and the surface density 
+    of sea water is <m>1.03\times 10^{3} \,kg/m^{2}</m>, what is the density of sea 
+    water at the bottom of the ocean?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A horizontal rod of negligible mass and of length 1 m is supported on each end by a 
+    wire of length 1 m and diameter 0.1 mm. The wire on the left has a diameter of 0.1 mm 
+    and is made of aluminum <m>(Y = 7.0\times 10^{10} \,N/m^{2})</m>. The wire on the the right 
+    has a diameter of 0.2 mm and is made of copper <m>(Y = 11\times 10^{10} \,N/m^{2})</m>. 
+    A mass of 1 kg is then suspended from the rod. 
+    <ol marker="a.">
+      <li>
+        Where should the mass be located in order to produce equal stresses in the two wires?
+      </li>
+      <li>
+        Where should it be located to produce equal strains? 
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A lead block 50.0 cm long, 10.0 cm wide, and 10.0 cm thick, has a force of <m>2\times 10^{5} \,N</m> 
+    placed on it. Find the stress, the strain, and the change in length if 
+    <ol marker="a.">
+      <li>
+        the block is standing upright, and
+      </li>
+      <li>
+        the block is lying flat.
+      </li>
+    </ol>
+     </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A coil spring stretches by 4.50 cm when a mass of 250 g is suspended from it. 
+    What force is necessary to stretch the spring an additional 2.50 cm?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    Find the ratio of the density of water at the bottom of a 50.0 m lake to the density 
+    of water at the surface of the lake. The pressure at the bottom of the lake is <m>4.90 \times 10^{5} \,N/m^{2}.</m> 
+    The bulk modulus for water is <m>0.21 \times 10^{10} \,N/m^{2}.</m>
+  </p>
+ </exercise>
+ </exercises>
+

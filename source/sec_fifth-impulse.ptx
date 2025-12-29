@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-impulse" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Impulse and Momentum</title>
+  
+   <introduction>
+    <p>
+      The quantity of motion contained in a body is known as <term>momentum</term>. 
+      It is defined as the product of mass and velocity of a body. It is a vector quantity. 
+      <me>
+        \vec{p}=m\vec{v}
+      </me>
+      Its unit is <m>kg m/s^{2}</m> in SI system. The momentum has same direction 
+      as velocity of the object. There are two types of momentum, linear momentum and 
+      angular momentum. The object moving with a linear velocity, <m>v</m> has linear 
+      momentum and the object spinning with angular velocity, <m>\omega</m> possesses 
+      angular momentum. Here only linear momentum (normally called momentum) is being discussed. 
+      The momentum of a system of particles is the sum of the momenta of the individual particles. 
+      <me>
+        \vec{p}_{tot}=\sum_{i} m_{i}\vec{v}_{i}
+      </me>
+          From Newton's II law of motion, force acting on a particle is the rate 
+          of change of momentum and its direction is along that change  
+          <me>
+            \vec{F}_{tot}=\frac{\,d\vec{p}}{\,dt} 
+          </me>
+                For a system of particles total force can be,
+                <me>
+                  \vec{F}_{tot}=\sum_{i}\vec{F}_{i}=\sum_{i}\frac{\,d\vec{p}_{i}}{\,dt} = \frac{\,d\vec{p}_{tot}}{\,dt} 
+                </me>
+              </p>
+
+              <p>
+                In this expression 
+                <me>
+                  \sum_{i}\vec{F}_{i}=\sum_{i}\vec{F}^{ext}_{i}
+                </me>
+                because the internal forces are Newton's III law pairs and they are 
+                directed along the lines between particles of the system and hence cancel 
+                each other out. Therefore, the total force acting on the system is 
+                <me>
+                  \vec{F}_{tot} = \sum_{i}\vec{F}^{ext}_{i}  =\frac{\,d\vec{p}_{tot}}{\,dt}
+                </me>
+                <me>
+                  \text{or,}\quad \vec{p}_{tot} =\int\,d\vec{p}_{tot}= \int\vec{F}_{tot}\,dt
+                </me>
+                A force acting on an object for a certain time changes the momentum of 
+                that object, such change in momentum is called <term>Impulse</term>. 
+                If total external force acting on a system  is zero, then total linear 
+                momentum of the system, 
+                <me>
+                  \vec{p}_{tot} = constant.
+                </me>
+                This is known as the <term>principle of conservation of momentum</term>. That is 
+                <me>
+                  \vec{p}_{tot} =\vec{p}_{i}=\vec{p}_{f}
+                </me>
+                where <m>\vec{p}_{i}</m> and <m>\vec{p}_{f}</m> are the initial and final 
+                momenta of a system. Momentum conservation is very useful in collision 
+                problems because the collision force is internal and hence does not change the total momentum.
+              </p>
+              <p>The impulse of a collision is the total momentum transferred during the collision, 
+                where a collision is an event where a very large force is exerted over a very short 
+                time interval <m>\Delta t</m>. During that interval magnitude of force is 
+                continuously changing, Therefore, the impulse of a force is the product of the 
+                average force and the time interval during which the force acts. That is, 
+                <me>
+                  \vec{J}=\vec{F}_{av}\,dt=\,d\vec{p}
+                </me>
+                where, 
+                <me>
+                  \vec{F}_{av} = \frac{1}{\Delta t}\int\limits_{0}^{t}\vec{F}\,dt
+                </me>
+                Impulse is a vector quantity and has the same direction as the average force. Unit of impulse is Ns. 
+              </p>
+   </introduction>
+
+   <subsection xml:id="subsec-collision">
+    <title>Collision</title>
+    <introduction>
+      <p>
+        A collision <idx><h>collision</h></idx> is an interaction between two objects 
+        that may or may not have made physical contact. In  a collision the colliding objects 
+        experience a pair of forces acting on them. The direction of the force on the first 
+        object is opposite to the direction of the force on the second object and these 
+        forces are equal in magnitude. These forces are Newton's III law pair. In an isolated system, 
+        total momentum is always conserved, hence such forces often increase the momentum of one 
+        object and decrease the momentum of the other. There are two kinds of collisions, elastic 
+        collision and inelastic collision.
+      </p>
+      <p>Total energy is always conserved in any types of collision. In collision three 
+        steps are considered to understand the problems. They are <em>before collision:</em> 
+        objects approach each other with a kinetic energy due to their movement, 
+        <em>during collision:</em> objects interact and transfer their momentum. 
+        The kinetic energy is transformed into elastic potential energy stored in the 
+        spring-like molecular bonds, and <em>after collision:</em> the stored elastic 
+        potential energy is converted into kinetic energy as the objects move away from each other [<xref ref="col1d"/>].
+      </p>
+      <figure xml:id="col1d">
+        <caption></caption>
+        <image source="col1d.png"/>
+    </figure>
+      <p>
+        Here <m>u_{1}, \quad u_{2}, \quad v_{1}, </m> and <m>v_{2}</m> are velocities 
+        of body 1 and 2 before and after collision, respectively.
+      </p>
+      <p>
+        Consider two objects of mass <m>m_1</m> and <m>m_2</m> having velocity <m>u_{1}</m> 
+        and  <m>u_{2}</m>, respectively are moving in 1-dimension and that <m>u_{1} \gt  u_{2}</m> 
+        so that they collide along their way. Suppose that both objects are subject 
+        to zero net force unless they are in contact with one another. During the collision, 
+        the first object exerts a large transitory force <m>f_{21}</m> on the second, 
+        whereas the second object exerts an equal and opposite force <m>f_{12}=-f_{21}</m> 
+        on the first. That is, they transfer equal and opposite impulses on one another 
+        at the instant of collision. If <m>v_{1}</m> and <m>v_{2}</m> are the velocity 
+        of the objects after collision, and there is no external force acting on the objects 
+        then from the principle of conservation of momentum, we have 
+        <me>
+          p_{before} =p_{after}
+        </me>
+        <men xml:id="eqn-col1">
+          \therefore \quad m_{1}u_{1} +m_{2}u_{2} = m_{1}v_{1}+m_{2}v_{2}  
+        </men>
+    This equation is valid for any 1-dimensional collision, irrespective of its nature.
+      </p>
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-ineleast_col">
+      <title>Inelastic Collision</title>
+      <p>
+        A collision in which <em>total momentum is conserved</em> but the 
+        <em>total kinetic energy is not conserved</em> before and after the collision 
+        is known as inelastic collision. That is, some of their kinetic energy is converted 
+        into heat, or sound, or deformation. If the two objects stick together after the 
+        collision and move with a common velocity <m>v_{f},</m> then the collision is 
+        said to be perfectly inelastic. Most collisions in practice are inelastic. Perfectly 
+        inelastic collisions usually involve easily deformed obj
+        ects e.g. wet clay. 
+        Since momentum is conserved in an inelastic collision eqn. <xref ref="eqn-col1"/> can help solve 
+        the problem. In <em>perfectly inelastic collision</em>, <m>v_{1} =v_{2}=v </m> 
+        after the collision, hence from eqn. <xref ref="eqn-col1"/>, we have -
+        <me>
+          m_{1}u_{1} +m_{2}u_{2} = \left(m_{1}+m_{2}\right)v
+        </me>
+              </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-elast_col">
+      <title>Elastic Collision</title>
+      <p>
+        A collision in which <em>total momentum and total kinetic energy  are conserved</em> 
+        before and after the collision is known as elastic collision. That is there is 
+        no dissipative force acting during the collision and that all of the kinetic energy 
+        of the objects before the collision is still in the form of kinetic energy afterward. 
+        Any macroscopic collision between objects will convert some of the kinetic energy 
+        into internal energy and other forms of energy, so no large scale impacts are perfectly 
+        elastic. Elastic collisions usually involve sub-atomic particles or highly rigid objects 
+        e.g. steel or glass balls. If both objects have same mass, their velocities swap 
+        after perfectly elastic collision, e.g. Newton's cradle. <em>Collisions</em> in which 
+        the objects do not touch each other, such as Rutherford scattering or the 
+        slingshot orbit of a satellite off a planet, are elastic collisions. 
+        In atomic or nuclear scattering, the collisions are typically elastic because 
+        the repulsive Coulomb force keeps the particles out of contact with each other. 
+        Collisions in ideal gases are very nearly elastic, and this fact is used in the 
+        development of the expressions for gas pressure in a container. Since total 
+        momentum and total kinetic energy is conserved in elastic collision, eqn. <xref ref="eqn-col1"/>
+        along with eqn. <xref ref="eqn-col2"/> can help solve the problem,
+        <me>
+          KE_{before} =KE_{after}
+        </me>
+        <men xml:id="eqn-col2">
+          \frac{1}{2}m_{1}u_{1}^{2}+\frac{1}{2}m_{2}u_{2}^{2} = \frac{1}{2}m_{1}v_{1}^{2}+\frac{1}{2}m_{2}v_{2}^{2}
+        </men> 
+        and 
+        <me>
+          \therefore \quad m_{1}u_{1} +m_{2}u_{2} = m_{1}v_{1}+m_{2}v_{2}  
+        </me>
+         </p>
+         <p>
+          On using eqns. <xref ref="eqn-col1"/> and <xref ref="eqn-col2"/>, we have -
+          <mdn>
+            <mrow> m_{1}u_{1} +m_{2}u_{2} \amp  = m_{1}v_{1}+m_{2}v_{2}  </mrow>
+            <mrow xml:id="col-eqnia"> \text{ or, } m_{1}(u_{1}-v_{1}) \amp = m_{2}(v_{2}-u_{2}) </mrow>
+            <mrow> m_{1}u_{1}^{2}+ m_{2}u_{2}^{2} \amp = m_{1}v_{1}^{2}+ m_{2}v_{2}^{2} </mrow>
+            <mrow xml:id="col-eqnib"> \text{ similarly, } m_{1}(u_{1}^2-v_{1}^2) \amp = m_{2}(v_{2}^2-u_{2}^2) </mrow>
+            </mdn>
+            Divide eqn. <xref ref="col-eqnib"/> with <xref ref="col-eqnia"/>, we get -
+            <mdn>
+              <mrow> \text{ or, } \frac{u_{1}^2-v_{1}^2}{u_{1}-v_{1}} \amp = \frac{v_{2}^2-u_{2}^2}{v_{2}-u_{2} }  </mrow>
+              <mrow> \text{ or, }  u_{1}+ v_{1} \amp = v_{2}-u_{2}  </mrow>
+            </mdn>
+            <men xml:id="eqn-col-eqnic">
+              \text{ or, } v_{2}  = u_{1}-u_{2}+v_{1}  
+            </men>
+            Substitute eqn. <xref ref="eqn-col-eqnic"/> in eqn. <xref ref="col-eqnia"/>, we have -
+            <mdn>
+              <mrow> m_{1}(u_{1}-v_{1}) \amp  = m_{2}(u_{1}-u_{2}+v_{1}-u_{2}) </mrow>
+              <mrow> \text{ or, } m_{1}u_{1}-m_{1}v_{1} \amp  = m_{2}u_{1}-2m_{2}u_{2} + m_{2}v_{1} </mrow>
+            </mdn>
+            <men xml:id="eqn-col-eqnid">
+              \therefore v_{1} = \frac{(m_{1}-m_{2})u_{1}+2m_{2}u_{2}}{(m_{1}+m_{2})}
+            </men>
+            Also, 
+            <men xml:id="eqn-col-eqnie">
+              \therefore v_{2} = \frac{(m_{2}-m_{1})u_{2}+2m_{1}u_{1}}{(m_{1}+m_{2})}
+            </men>
+         </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-2d_col">
+      <title>Collision in 2D</title>
+      <p>
+        A collision in two dimensions obeys the same rules as a collision in one dimension. 
+        That is, 
+        <ol marker="a.">
+          <li>
+            Total momentum in each direction is always the same before and after the collision, and
+          </li>
+          <li>
+            Total kinetic energy is the same before and after an elastic collision. 
+          </li>
+        </ol>
+      </p>
+      <p>
+        Consider the first object of mass <m>m_1</m>, initially moves along the 
+        <m>x</m>-axis with speed <m>u_{1}</m> and the second object of mass <m>m_2</m>, 
+        initially moves at an angle <m>\theta_i</m> to the <m>x</m>-axis with speed <m>u_{2}</m>. 
+      </p>
+      <figure >
+        <caption></caption>
+        <sidebyside widths="40% 40%">
+            <figure xml:id="inelcol">
+                <caption></caption>
+                <image source="inelcol.png"/>
+            </figure>
+            <figure xml:id="inelcol2">
+                <caption></caption>
+                <image source="inelcol2.png"/>
+            </figure>
+           </sidebyside>
+    </figure>
+      <p>
+<ol marker="a.">
+  <li>
+    <term>For inelastic collision: </term> If the two objects stick 
+    together and move off at an angle <m>\theta_f</m> to the <m>x</m>-axis 
+    with speed <m>v_f</m> [<xref ref="inelcol"/>]. Then from principle of 
+    conservation of momentum,
+        <men xml:id="eqn-col3">
+      m_{1}u_{1} +m_{2}u_{2}\cos\theta_{i} = (m_{1}+m_{2})v_{f}\cos\theta_{f} \quad [\text{along x-axis}]
+    </men>
+      <men xml:id="eqn-col4">
+    0 +m_{2}u_{2}\sin\theta_{i} = (m_{1}+m_{2})v_{f}\sin\theta_{f}   \quad [\text{along y-axis}]
+   </men>
+    </li>
+    <li>
+      <term>For elastic collision</term> [<xref ref="inelcol2"/>]: 
+      <men xml:id="eqn-col5">
+      m_{1}u_{1} +m_{2}u_{2}\cos\theta_{2i} = m_{1}v_{1}\cos\theta_{1f}+m_{2}v_{2}\cos\theta_{2f} \quad [\text{along x-axis}]
+      </men>
+      <men xml:id="eqn-col6">
+        0 + m_{2}u_{2}\sin\theta_{2i} = m_{1}v_{1}\sin\theta_{1f}-m_{2}v_{2}\sin\theta_{2f} \quad [\text{along y-axis}]
+      </men>
+      <men xml:id="eqn-col7">
+        \frac{1}{2}m_{1}u_{1}^{2}+\frac{1}{2}m_{2}u_{2}^{2} =\frac{1}{2}m_{1}v_{1}^{2}+\frac{1}{2}m_{2}v_{2}^{2} 
+      </men>
+    </li>
+</ol>
+These equations can help sove the 2D collision problems.
+      </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-coef_restit">
+      <title>Coefficient of Restitution, e</title>
+      <p>
+        <idx>coefficient of restitution</idx> <notation>
+          <usage><m>e</m></usage>
+          <description>coefficient of restitution</description>
+        </notation>
+        The coefficient of restitution, <m>e</m> is defined as the ratio of 
+        relative speeds after and before an impact, taken along the line of impact.  
+        If <m>v_{sep}</m> represents how fast the objects are separating from one another after collision, 
+        and <m>v_{app}</m> represents how fast the objects are approaching one another before collision, then
+        <me>
+          e=\frac{v_{sep}}{v_{app}} = e= \frac{\vec{v}_{2f}-\vec{v}_{1f}}{\vec{v}_{1i}-\vec{v}_{2i}}
+        </me>
+        where, <m>\vec{v}_{2f}, \quad \vec{v}_{1f}</m>, <m>\vec{v}_{2i}, \quad \vec{v}_{1i}</m>, 
+        are final and initial velocities of the two particles, respectively.  The coefficient of 
+        restitution, <m>e = 0</m>  for perfectly inelastic collision and 
+        <m>e = 1</m> for perfectly elastic collision, i.e., <m>1\geq e \geq 0</m>. 
+      </p>
+      <p>If the magnitude of the relative velocity does not change during a collision, 
+        <m>e = 1,</m> then the change in kinetic energy is zero. Collisions in which 
+        no change in kinetic energy occurs are called elastic collisions, <m>\Delta k =0</m>. 
+        If the magnitude of the final relative velocity  is less than the magnitude 
+        of the initial relative velocity, <m>e \lt 1,</m> then the change in kinetic 
+        energy is negative. Collisions in which the kinetic energy decreases are called 
+        inelastic collisions, <m>\Delta K \lt 0</m>. If the two objects stick together 
+        after the collision, then the relative final velocity is zero, <m>e = 0.</m> 
+        Such collisions are called totally inelastic. If the magnitude of the final 
+        relative velocity is greater than the magnitude of the initial
+        relative velocity, <m>e \gt 1,</m> then the change in kinetic energy is positive. 
+        Collisions in which the kinetic energy increases are called  superelastic collisions, 
+        <m>\Delta K \gt 0.</m> </p>
+    </subsubsection>
+   </subsection>
+
+
+   <subsection xml:id="subsec-ball_pendulum">
+    <title>Ballistic Pendulum</title>
+    <figure xml:id="collision2">
+      <caption></caption>
+      <image source="collision2.png" width="30%"/>
+  </figure>
+    <p>
+      From the principle of conservation of momentum, 
+      <me>
+        \text{Momentum before collision = Momentum after collision.}
+      </me>
+      <me>
+        mv_{o}+0 = (M+m)v
+      </me>
+      <men xml:id="eqn-ball_pend1">
+        \therefore v=\frac{mv_{o}}{M+m} 
+      </men>
+            From the principle of conservation of energy, 
+            <me>
+              E_{A} = E_{B}.
+            </me>
+            <me>
+              \text{or,}\quad \frac{1}{2}(M+m)v^{2}+0=0+(M+m) gy
+            </me>
+            <men xml:id="eqn-ball_pend2">
+              \therefore v=\sqrt{2gy} 
+            </men>
+            From eqns. <xref ref="eqn-ball_pend1"/> and  <xref ref="eqn-ball_pend2"/>, we have - 
+            <me>
+              \frac{mv_{o}}{M+m} = \sqrt{2gy}  
+            </me>
+            <me>
+              \therefore \quad v_{o} = \left(\frac{M+m}{m}\right)\sqrt{2gy} = \left(1+\frac{M}{m}\right)\sqrt{2gy} 
+            </me>
+              But <me>
+                y=l-l\cos\theta = l(1-\cos\theta).
+              </me>
+              <men xml:id="eqn-ball_pend3">
+                \therefore \quad v_{o}=\left(1+\frac{M}{m}\right)\sqrt{2gl(1-\cos\theta)} 
+              </men>
+              Where <m>v_{o}</m> is called the muzzle velocity.
+    </p>
+   </subsection>
+  </section>
+

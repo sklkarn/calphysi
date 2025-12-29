@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-power" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Power</title>
+  
+   <introduction>
+    <p>
+      The rate of doing work is called power. 
+      <me>
+        \therefore P=\frac{\,dW}{\,dt} = \frac{\vec{F}\cdot\,d\vec{x}}{\,dt}
+      </me>
+      <me>
+        =\vec{F}\cdot\frac{\,d\vec{x}}{\,dt} =\vec{F}\cdot\vec{v}
+      </me>
+      <me>
+        \left[\text{also,}\quad w=\int P\,dt\right]
+      </me>
+Power defines how fast has the work been done. It's unit is  Watt  = W = Joule/s (in SI unit),
+erg/s  = erg per sec (in cgs unit), and ft-lb/s  =  foot-pound per second (in fps unit). 
+    </p>
+    <p>
+      The old and more common unit of power is  horse power (hp) 
+      1hp =  746 W  =  550 ft-lb/s.
+    </p>
+   </introduction>
+
+   <subsection xml:id="subsec-sm">
+    <title>Simple Machine</title>
+    <p>A simple machine is a device that acts to increase or decrease the amount of 
+      output force, <m>F_{out}</m>, by the machine compared to the input force, 
+      <m>F_{in}</m> to the machine. Machines can increase the speed of doing work. 
+      Machine can transfer energy from one form to another. </p>
+      <figure xml:id="sml">
+        <caption></caption>
+        <image source="sml.png" width="30%"/>
+    </figure>
+      <p>
+        A <term>lever</term> is a simple machine that consists of a 
+        beam (or solid rod), a fulcrum (or pivot point), an input force 
+        (or effort), and an output force (or load) [<xref ref="sml"/>]. The beam is placed in such a way 
+        that the fulcrum acts as a point of rotation of the beam. The fulcrum remains 
+        stationary, while a force is applied somewhere along the length of the beam. 
+        The beam then pivots around the fulcrum,  exerting the output force on some 
+        sort of object that needs to be moved. For example, a crowbar is used to pry 
+        up a nail, an effort force is applied to generate an output force, which is 
+        what pulls the nail out. Simple machine obeys the principle of conservation of energy, i.e., 
+        <em>Input work = output work.</em> 
+        <me>
+          W_{in}=W_{out}
+        </me>
+        <me>
+        \text{or,}  \quad F_{in}d_{in}=F_{out}d_{out}
+        </me>
+         <men xml:id="eqn-sm1">
+        \text{or,}\quad F_{in}D=F_{out}d 
+       </men>
+       where <m>D</m> is the distance of effort pushed down and <m>d</m> is distance of 
+       load lift up.  
+      </p>
+      <p>
+        There are three basic types of lever.
+      </p>
+      <ol marker="I.">
+        <li>
+          <p>
+            <term>Class 1 Levers:</term> This is a configuration where the fulcrum is 
+            in between the input and output forces, such as a seesaw (teeter-totter), 
+            catapult, pliers, and scissors [<xref ref="smli"/> and <xref ref="leverI"/>]. 
+            </p>
+            <figure >
+              <caption></caption>
+              <sidebyside widths="35% 30%">
+                  <figure xml:id="smli">
+                      <caption></caption>
+                      <image source="smli.png"/>
+                  </figure>
+                  <figure xml:id="leverI">
+                      <caption></caption>
+                      <image source="leverI.png"/>
+                  </figure>
+                 </sidebyside>
+          </figure>
+        </li>
+        <li>
+          <p>
+            <term>Class 2 Levers:</term> The load comes between the input force and the 
+            fulcrum, such as in a bottle opener, crowbar, wheelbarrow, and nut cracker [<xref ref="smlii"/> and <xref ref="leverII"/>].
+          </p>
+          <figure >
+            <caption></caption>
+            <sidebyside widths="35% 30%">
+                <figure xml:id="smlii">
+                    <caption></caption>
+                    <image source="smlii.png"/>
+                </figure>
+                <figure xml:id="leverII">
+                    <caption></caption>
+                    <image source="leverII.png"/>
+                </figure>
+               </sidebyside>
+        </figure>
+        </li>
+        <li>
+          <p>
+            <term>Class 3 levers:</term> The fulcrum is on one end and the load is on the 
+            other end, with the effort in between the two, such as with a pair of tweezers, 
+            stapler, mousetrap, and broom [<xref ref="smliii"/> and <xref ref="leverIII"/>].
+          </p>
+          <figure >
+            <caption></caption>
+            <sidebyside widths="35% 30%">
+                <figure xml:id="smliii">
+                    <caption></caption>
+                    <image source="smliii.png"/>
+                </figure>
+                <figure xml:id="leverIII">
+                    <caption></caption>
+                    <image source="leverIII.png"/>
+                </figure>
+               </sidebyside>
+        </figure>
+        </li>
+      </ol>
+<p>
+  Since lever works at rotational equilibrium, the total torque must be zero, i.e.,  
+  <me>
+    \sum\Gamma =0. 
+  </me>
+ <men xml:id="eqn-sm2">
+  \therefore F_{in}\times e =  F_{out}\times l  
+ </men>
+Where <m>e</m> and <m>l</m> are lengths of effort arm  and load arm, respectively. 
+From eqns. <xref ref="eqn-sm1"/> and <xref ref="eqn-sm2"/>, we have -
+<me>
+  \frac{F_{out}}{F_{in}} =  \frac{d_{in}}{d_{out}} = \frac{e}{l}
+</me>
+</p>
+   </subsection>
+
+   <subsection xml:id="subsec-pulley">
+    <title>Pulley</title>
+   <introduction>
+    <figure >
+      <caption></caption>
+      <sidebyside widths="30% 30%">
+          <figure xml:id="smpulley1">
+              <caption></caption>
+              <image source="smpulley1.png"/>
+          </figure>
+          <figure xml:id="smpulley2">
+              <caption></caption>
+              <image source="smpulley2.png"/>
+          </figure>
+         </sidebyside>
+  </figure>
+    <p>
+      Another type of simple machine is a pulley. The pulley is just a lever in disguise. 
+      A single fixed pulley acts like a lever with equal arms. It changes only the 
+      direction of the input force. When a person pulls down on the rope, the load 
+      is lifted up as shown in  <xref ref="smpulley1"/>. In a single movable pulley, the load 
+      can be lifted with an input force that is only half of the load's true weight 
+      <xref ref="smpulley2"/>.
+         </p>
+   </introduction>
+
+   <subsubsection xml:id="subsubsec-mech_adv">
+    <title>Mechanical Advantage</title>
+    <p>
+      Simple machine makes work easier to do.  Mechanical advantage is used to quantify 
+      how easy to do the work by using simple machine. The number of times input force 
+      is multiplied under ideal conditions, i.e., when no friction present, is called 
+      an <term>Ideal Mechanical Advantage</term>, IMA. 
+      <me>
+        IMA=  \frac{d_{in}}{d_{out}}
+      </me>
+      The number of times input force is multiplied under real world conditions,
+      i.e., when friction is present, is called an <term>Actual Mechanical Advantage</term>, AMA. 
+      <me>
+        AMA = \frac{F_{out}}{F_{in}} 
+      </me>
+       </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-pulley_type">
+    <title>Types of Pulley</title>
+    <figure >
+      <caption></caption>
+      <sidebyside widths="20% 20% 20% 20% 20%">
+          <figure xml:id="smpulley3">
+              <caption></caption>
+              <image source="smpulley3.png"/>
+          </figure>
+          <figure xml:id="smpulley4">
+              <caption></caption>
+              <image source="smpulley4.png"/>
+          </figure>
+          <figure xml:id="smpulley5">
+            <caption></caption>
+            <image source="smpulley5.png"/>
+        </figure>
+        <figure xml:id="smpulley6">
+          <caption></caption>
+          <image source="smpulley6.png"/>
+      </figure>
+      <figure xml:id="smpulley7">
+        <caption></caption>
+        <image source="smpulley7.png"/>
+    </figure>
+         </sidebyside>
+  </figure>
+
+<ol marker ="I.">
+  <li>
+    <p>
+      <term>Single Fixed Pulley:</term> This pulley does not multiply the input force. 
+      It does change the direction of the force from up to down [<xref ref="smpulley3"/>]. 
+      <me>
+        T_{1}=F_{in}=T_{2}=F_{out}
+      </me>
+      <me>
+        W_{in}=W_{out}\quad \Rightarrow \quad F_{in}d_{in}=F_{out}d_{out}
+      </me>
+      <me>
+        \therefore\quad  IMA =  \frac{d_{in}}{d_{out}}=\frac{s}{h}=1
+      </me>
+        </p>
+  </li>
+  <li>
+    <p>
+      <term>One Fixed and One Movable Pulley: </term> This pulley does multiply the 
+      input force and change the direction of the force as well [<xref ref="smpulley4"/>]. 
+      <me>
+        T_{1}=T_{2}=T_{3}=\frac{F_{out}}{2}
+      </me>
+      <me>
+       \text{and}\quad F_{in}=T_{1} 
+      </me>
+      <me>
+        W_{in}=W_{out}\quad \Rightarrow \quad F_{in}d_{in}=F_{out}d_{out}
+      </me>
+      <me>
+        \frac{F_{out}}{F_{in}}= \frac{2T_{1}}{T_{1}}=\frac{d_{in}}{d_{out}} 
+      </me>
+      <me>
+        d_{in}=2d_{out}
+      </me>
+      <me>
+        \therefore\quad  IMA =  \frac{d_{in}}{d_{out}}=\frac{s}{h}=\frac{2h}{h} =2
+      </me>
+      </p>
+  </li>
+  <li>
+    <p>
+      <term>Two Fixed and One Movable Pulley: </term> This pulley change the 
+      direction of the force, and it also multiplies it [<xref ref="smpulley5"/>].  
+      <me>
+        T_{1}=T_{2}=T_{3}=T_{4}=\frac{F_{out}}{3}
+      </me>
+      <me>
+        \text{and}\quad F_{in}=T_{1}
+      </me>
+      <me>
+        W_{in}=W_{out}
+      </me>
+      <me>
+        F_{in}d_{in}=F_{out}d_{out}
+      </me>
+      <me>
+        \frac{F_{out}}{F_{in}}= \frac{3T_{1}}{T_{1}}=\frac{d_{in}}{d_{out}}
+      </me>
+      <me>
+        d_{in}=3d_{out}
+      </me>
+      <me>
+        \therefore\quad  IMA =  \frac{d_{in}}{d_{out}}=\frac{s}{h}=\frac{3h}{h} =3
+      </me>
+      </p>
+  </li>
+  <li>
+    <p>
+      <term>Two Fixed and Two Movable Pulley:</term> This pulley change the 
+      direction of the force, and it also multiplies it [<xref ref="smpulley6"/>].  
+      <me>
+        T_{1}=T_{2}=T_{3}=T_{4}=T_{5}=\frac{F_{out}}{4}
+      </me>
+      <me>
+        \text{and} \quad F_{in}=T_{1}
+      </me>
+      <me>
+        W_{in}=W_{out} \quad \Rightarrow \quad F_{in}d_{in}=F_{out}d_{out} 
+      </me>
+      <me>
+        \frac{F_{out}}{F_{in}}= \frac{4T_{1}}{T_{1}}=\frac{d_{in}}{d_{out}} 
+      </me>
+      <me>
+        d_{in}=4d_{out}
+      </me>
+      <me>
+        \therefore\quad  IMA =  \frac{d_{in}}{d_{out}}=\frac{s}{h}=\frac{4h}{h} =4
+      </me>
+        Suppose the load, <m>F_{out} =100\,N,</m> then the actual input force would 
+        be a little greater than the ideal value of <m>F_{in}</m>, say 25N in this case, 
+         It might be 30 N. The extra 5 newtons is used to overcome the friction.
+         <me>
+          W_{in} \gt W_{out}\qquad \text{or,}\quad F_{in} d_{in} \gt F_{out}d_{out}
+         </me>
+         <me>
+          \therefore AMA = \frac{F_{out}}{F_{in}} =\frac{100}{30} =3.33
+         </me>
+              The AMA will always be less than the IMA.
+    </p>
+  </li>
+</ol>
+<p>
+
+The value of IMA in case of pulley can be easily determined by just looking at the picture. 
+Just count the number of strands of rope that directly support the load. 
+In <xref ref="smpulley6"/>, there is 4 strands of rope supporting the load, 
+<me>
+  \therefore, IMA = 4.
+</me>
+In <xref ref="smpulley5"/>, 3 strands of rope supporting the load, 
+<me>
+  \therefore IMA=3.
+</me>
+In <xref ref="smpulley7"/>, there is 5 strands supporting the load, 
+<me>
+  \therefore\quad IMA = 5.
+</me>
+Besides lever and pulley, there are four other simple machines. 
+They are the screw, the inclined plane, the wedge, and the wheel &amp; axle.
+</p>
+<paragraphs>
+  <title>Efficiency</title>
+  <p>
+    <me>
+      \varepsilon = \frac{W_{out}}{W_{in}} =\frac{P_{out}}{P_{in}} = \frac{AMA}{IMA}
+    </me>
+      </p>
+</paragraphs>
+   </subsubsection>
+   </subsection>
+  </section>
+

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-fflow" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fluid Flow</title>
+  <introduction>
+    <p>
+      The motion of fluids is a complicated process but here our discussion will concentrate 
+      on ideal fluids' and its motion. Ideal fluids are  incompressible, non-viscous (no internal 
+      friction between the fluids' layer), and have laminar flow <idx><h>laminar flow </h></idx> motion. 
+      In laminar flow fluid flows with the steady motion or streamline motion. 
+      Laminar flow occurs when the fluid flows in infinitesimal parallel layers with no disruption 
+      (i.e., no swirls or no eddies) between them. In such flow fluid follows the same velocity 
+      and direction at every points of its motion. There are another type of fluid motion called 
+      turbulent flows. In such flow fluid moves with changing velocities and directions on every 
+      point of its path. Reynolds number is used to distinguish the transition between laminar 
+      and turbulent flows. We limit our studies here to turbulent and <term>Reynold's number</term>.    
+    </p>
+  </introduction>
+
+ <subsection xml:id="subsec-eq_contnty">
+  <title>Equation of Continuity</title>
+  <p>
+    As a fluid is in steady motion and its flow progresses with time, it must be that the 
+    amount of mass flowing per unit time across to areas perpendicular to the flow is conserved. 
+    The flow rate is a measure of the flow of mass (volume) of fluid per unit time.
+  </p>
+  <figure xml:id="econt1">
+    <caption></caption>
+    <image source="econt1.png" width="30%"/>
+</figure>
+  <p>
+    Consider a tube [<xref ref="econt1"/>] with areas of cross-section <m>A_a</m> at one end and <m>A_b</m> at another end. 
+    If <m>\,dm</m> mass of fluid is entering into the tube in time <m>\,dt</m> then the same amount of 
+    fluid must be leaving out of the tube in the same interval of time because fluid is incompressible. Hence, 
+        flow rate of fluid in laminar flow is same throughout its path, i.e., 
+        <me>
+          \left.\frac{\,dm}{\,dt}\right]_{a} =\left.\frac{\,dm}{\,dt}\right]_{b} 
+        </me>
+        <me>
+          \text{or,}\quad \rho_{a}\frac{\,dV_{a}}{\,dt} =\rho_{b}\frac{\,dV_{b}}{\,dt}
+        </me>
+        <me>
+          \text{or,}\quad \rho A_{a}\frac{\,dx_{a}}{\,dt} =\rho A_{b}\frac{\,dx_{b}}{\,dt} 
+        </me>
+        <m>\because \rho_{a}=\rho_{b}=\rho]</m>
+      <men xml:id="eqn-eq_cont1">
+        \therefore\quad A_{a} v_{a}  =  A_{b} v_{b}  =  constant 
+      </men>
+    The quantity <m>Av</m> is called a flow rate. This equation is called an equation of continuity.
+  </p>    
+ </subsection>
+
+ <subsection xml:id="subsec-bernols">
+  <title>Bernoulli's Principle</title>
+
+  <p>
+    It explains the movement of fluid through a pressure difference. work done by external 
+    force is equal to change in total energy of the fluid. If <m>E_{1}</m> and <m>E_{2}</m> 
+    are energy of the fluid  at the ends of the tube where external forces <m>F_{1} </m> 
+    and <m>F_{2},</m> are acting normally on the cross-section of the tube, then  
+    <me>
+      E_{2}-E_{1} = \text{work done by external forces}
+    </me>
+  </p> 
+  <figure xml:id="brnp1">
+    <caption></caption>
+    <image source="brnp1.png" width="40%"/>
+</figure>
+  <p>
+    Consider a fluid is moving in a tube as shown in <xref ref="brnp1"/>. 
+    Let fluid is entering into the tube with velocity <m>v_{1}</m> and coming out of 
+    the tube with velocity <m>v_{2}.</m> The <m>h_{1}</m> and <m>h_{2}</m>  
+    are the heights of tube at its ends, respectively and <m>\,dm </m> is the 
+    mass of fluid flowing through the tube in time <m>\,dt.</m> Now,
+    <me>
+      \left(\frac{1}{2}\,dm v^{2}_{2}+\,dm g h_{2}\right)-\left(\frac{1}{2}\,dm v^{2}_{1}+\,dm g h_{1}\right) = F_{1}\,dx_{1}- F_{2}\,dx_{2}
+    </me>
+    Here <m>\,dx_{1} </m> and <m> \,dx_{2} </m> are the distances of the fluid moves in time <m>\,dt </m> at its ends. Hence, 
+    <me>
+      \frac{1}{2}\,dV\rho \left(v^{2}_{2}-v^{2}_{1}\right) +\,dV\rho g \left(h_{2}-h_{1}\right) = P_{1}A_{1}\,dx_{1}- P_{2}A_{2}\,dx_{2}=\left(P_{1}-P_{2}\right)\,dV
+    </me>
+   <me>
+    \therefore p_{1} + \rho gh_{1} + \frac{1}{2}\rho v_{1}^{2}  =  p_{2} + \rho gh_{2} + \frac{1}{2}\rho v_{2}^{2} =  constant 
+   </me>
+   This equation tells us that as the velocity of fluid flow increases, its pressure decreases. 
+   This is the conservation of energy principle in fluid motion. Bernoulli's equation says that 
+   the sum of the pressure, <m>P</m>, (or, the energy per unit volume), the kinetic energy per 
+   unit volume ( <m>\frac{1}{2}\rho v^{2}</m> ), and the gravitational potential energy per 
+   unit volume (<m>\rho g h</m>) has the same value at all points along a streamline. 
+  </p>
+ </subsection>
+<subsection xml:id="subsec-appl_bernl">
+  <title>Applications of Bernoulli's Principle:</title>
+  <p>
+    <ol marker="i.">
+      <li>
+        <title>Airplane Wing</title>
+         <p>
+        The top of the airplane wing is curved, while the bottom 
+         of the wing is totally flat. When an airplane runs air travels across the top of the 
+         wing is faster then it travels below the bottom part of the wing so that the air molecules 
+         travel equal distance in equal time (<em>equal transit theory</em>) to catch each other 
+         at the end of the wing. This phenomenon creates high pressure at the bottom and less 
+         pressure at the top. This pressure difference creates lift and allows planes to fly 
+         or take off easily [<xref ref="brnairplane"/>]. 
+        </p>
+        <figure xml:id="brnairplane">
+          <caption></caption>
+          <image source="brnairplane.png" width="40%"/>
+      </figure>
+      </li>
+      <li>
+        <title>Spinning Ball</title>
+        <p>
+          The ball spins in such a way that it decreases 
+          the velocity of air at top and increases the the velocity of air on the bottom. 
+          Which allows more air pressure on the top of the ball and less air pressure at the 
+          bottom of the ball. Due to which the ball accelerates downwards faster than the 
+          top part and the ball curves downward, which causes the batter to miscalculate 
+          the ball's position [<xref ref="brnspnball"/>].
+        </p>
+        <figure xml:id="brnspnball">
+          <caption></caption>
+          <image source="brnspnball.png" width="40%"/>
+      </figure>
+      </li>
+        <li>
+          <title>Venturi Meter</title>
+        <p>
+          It is a device used to measure the speed of the fluid. 
+          It is a broad tube with constriction at the middle as shown in <xref ref="venturi"/>. 
+          A manometer of U-shape is attached to it with one arm at the broad side and 
+          the other at the constriction. When the speed of incompressible fluid increases 
+          at the constriction, it lowers the pressure at that point. The pressure difference 
+          causes the manometer fluid (water) in the tube to rise in one arm and depressed 
+          at the other arm. The difference in height, <m>h</m> measures the pressure 
+          difference. From Bernoulli's principle 
+        </p>
+        <figure xml:id="venturi">
+          <caption></caption>
+          <image source="venturi.png" width="40%"/>
+      </figure>
+    <p>
+      <me>
+        p_{1}+\frac{1}{2}\rho v_{1}^{2}+\rho g h_{1} =p_{2}+\frac{1}{2}\rho v_{2}^{2}+\rho g h_{2} 
+      </me>
+      <me>
+        p_{1}-p_{2} = \frac{1}{2}\rho v_{2}^{2}-\frac{1}{2}\rho v_{1}^{2}
+      </me>
+          Since the horizontal axis of the venturi meter is passing through the points M and N  
+          is at same height. Therefore <m>\rho g h_{1} = \rho g h_{2}.</m>	
+          <men xml:id="eqn-vent1">
+            \text{or,}\quad p_{1}-p_{2} = \frac{1}{2}\rho \left(v_{2}^{2}- v_{1}^{2}\right) 
+          </men>
+            From equation of continuity, 
+            <me>
+              A_{1}v_{1} = A_{2}v_{2} 
+            </me>
+            
+            <men xml:id="eqn-vent2">
+              \therefore \quad v_{2} =\frac{A_{1}v_{1}}{A_{2}} 
+            </men>
+              where <m> A_{1}</m> and <m>A_{2}</m> are area of cross-section of the 
+              venturi tube at wide section and at the constriction. 
+              <me>
+                \therefore \quad  p_{1}-p_{2} = \frac{1}{2}\rho \left[\left(\frac{A_{1}v_{1}}{A_{2}}\right)^{2}- v_{1}^{2}\right] 
+              </me>
+              
+              <men xml:id="eqn-vent3">
+                = \frac{1}{2}\rho v_{1}^{2} \left[\left(\frac{A_{1}}{A_{2}}\right)^{2}- 1 \right] 
+              </men>
+              The pressure difference between points M and N is also the pressure difference between 
+              the manaometer fluid at two points. That is the top of the water column on the left-hand 
+              side of the U-tube and the water column on the right-hand side. Hence, 
+              <me>
+                p_{1}-p_{2} = h\rho_{w}g 
+              </me>
+              where <m>h\rho_{w}g </m> is a gauge pressure in manometer. 
+              <men xml:id="eqn-vent4">
+                \therefore \quad h\rho_{w}g  = \frac{1}{2}\rho v_{1}^{2} \left[\left(\frac{A_{1}}{A_{2}}\right)^{2}- 1 \right] 
+              </men>
+             This equation will help find the speed of fluid  (gas or liquid) entering into the venturi tube. 
+    </p>
+      </li>
+      <li>
+        <title>Siphon Effect</title>
+         <p>
+         when one end of a pipe is deep into liquid and suck the air out from 
+         another end then there is vacuum created in the pipe and pressure gets low with respect to the 
+         atmospheric pressure at the surface of reservoir. This reduced pressure sucks the liquid up 
+         against the gravity and hence once the liquid rises up to the top of the pipe and due to gravity 
+         it begins flowing to the lower end of the siphon pipe to exit [<xref ref="siphon"/>]. 
+        </p>
+        <figure xml:id="siphon">
+          <caption></caption>
+          <image source="siphon.png" width="40%"/>
+      </figure>
+      </li>
+    </ol>
+  </p>
+  <p>
+    There are numerous applications of Bernoulli's principle found in our daily life, 
+    e.g., spray atomizer, throwing of frisbees, flying of kites, Bird's wing design, 
+    water pump, etc.  
+  </p>
+</subsection>
+  </section>
+

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eighth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples A</title>
+  
+  <example>
+    <statement>
+      <p>
+        A mass of 10 kg is supported by a steel wire <m>(Y = 20\times10^{10} N/m^{2})</m> of 
+        iameter 0.5 mm and length 2 m. 
+        <ol marker="a.">
+          <li>
+            What is the stress in the wire? 
+          </li>
+          <li>
+            What is the strain of the wire? 
+          </li>
+          <li>
+            How much does the wire stretch?
+          </li>
+          <li>
+            What is the effective force constant of the wire?
+          </li>
+          <li>
+            How much energy is stored in the wire? 
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m> m  =  10 \,kg, \quad Y = 20\times 10^{10} \,N/m^{2}, \quad r  =  2.5\times 10^{-4} \,m,\quad L  =  2 \,m.</m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            p  =  \frac{F}{A}, 
+           </me>
+           <me>
+            \quad F  =  w  =  mg  = 98 \,N, 
+           </me>
+           <me>
+            \quad A  =\pi r^{2}  = 1.964\times 10^{-2} m^{2},
+           </me>
+           <me>
+            \quad p  =  4.99\times 10^{8} \,Pa
+           </me>
+                </li>
+          <li>
+           <me>
+            Y  =  \frac{p}{s}, \quad s  =  2.50\times 10^{-3}
+           </me>
+               </li>
+          <li>
+           <me>
+            s  =  \Delta L/L,\quad \Delta L  =  4.99\times 10^{-3} \,m
+           </me>
+                </li>
+          <li>
+          <me>
+            F  =  k x, \quad x  =  \Delta L,  \quad k  =  1.96\times 10^{4} \,N/m
+          </me>
+                </li>
+          <li>
+            <me>
+              E  =  1/2 k x^{2}, \quad E  =  0.245 \,J	
+            </me>
+              </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Water has a Bulk modulus of <m>0.21\times 10^{10} \,Pa</m>. What  is the percent change in volume 
+        for a drop of water which circulates from the top of a lake to the bottom if the lake 
+        is 1000 m deep where the pressure has increased by 9.8 MPa?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given:  <m>B  =  0.21\times 10^{10} \,Pa, \quad \Delta p  =  9.8\times 10^{6} \,Pa.</m> 
+        <me>
+          B  =  \frac{\Delta p}{s_{v}}, \quad s_{v}  =  \frac{\Delta V}{V}  =  4.67\times 10^{-3}  =  0.467 \%
+        </me>
+         </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A solid copper sphere of <m>0.25 \,m^{3}</m> volume is placed 30.5 m below the ocean surface 
+        where the pressure is <m>3.00 \times 10^{5} \,N/m^{2}</m>. What is the change in 
+        volume of the sphere? The bulk modulus for copper is <m>14 \times 10^{10} \,N/m^{2}.</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>V=0.25 \,m^{3},\quad h=30.5 \,m,\quad p=3.00 \times 10^{5} \,N/m^{2},</m> 
+        <m> B=14 \times 10^{10} \,N/m^{2}.</m>
+        <me>
+          Now,\quad B=-\frac{pV}{\Delta V}
+        </me>
+        <me>
+          \Rightarrow\quad \Delta V = -\frac{pV}{B} = -\frac{(3.00 \times 10^{5})(0.25)}{(14 \times 10^{10} N/m^{2})} = - 5.36\times 10^{-7} m^{3}
+        </me>
+        -ve sign shows that volume has decreased.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A copper and aluminum wires are welded together at their ends. The original length of 
+        each wire is 50.0 cm and each has a diameter of 0.750 mm. A mass of 10.0 kg is suspended 
+        from the combined wire. By how much will the combined wire stretch? 
+        Given: <m>(Y_{a} = 7.0\times 10^{10} \,N/m^{2}) </m> and <m>(Y_{c} = 11.0\times 10^{10} \,N/m^{2}).</m>
+      </p>
+    </statement>
+    <solution>
+      <image source="drodmod.png" width="20%"> </image>
+      <p>
+        Given:  <m>m=10 \,kg, \quad l_{c}=l_{a} = 0.5 \,m, \quad d_{c}=d_{a}=0.750\times10^{-3} \,m, g=9.8 \,m/s^{2}.</m>
+      </p> 
+      <p>
+        The combined stretch is gieven by 
+        <me>
+          \Delta l = \Delta l_{c}+\Delta l_{a} = \frac{Fl_{c}}{AY_{c}}+\frac{Fl_{a}}{AY_{a}} 
+        </me>
+        <me>
+          = \frac{F}{A} \left[\frac{l_{c}}{Y_{c}}+\frac{l_{a}}{Y_{a}}\right] 
+        </me>
+           <me>
+         = \frac{10\times 9.8\times 4}{\pi\left(0.75\times10^{-3}\right)^{2}} \left[\frac{0.5}{11.0\times 10^{10}}+\frac{0.5}{7.0\times 10^{10}}\right] 
+        </me>
+        <me>
+          \therefore \quad \Delta l = 2.59\times10^{-3}m = 2.59 \,mm
+        </me>
+          </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A brass cube, 5.00 cm on a side, is subjected to a tangential force. 
+        If the angle of shear is measured in radians to be 0.010 rad, what is the magnitude of the tangential force?
+      </p>
+    </statement>
+    <solution>
+      <p>
+         Given: <m>l=0.05 \,m, \theta = 0.010 \,rad, \sigma _{b}=  4\times 10^{10} \,Pa.</m> 
+         <me>
+          \sigma _{b} = \frac{F}{A\theta} 
+         </me>
+         <me>
+          \therefore\quad F = \sigma_{b}A\theta =(4\times 10^{10})(0.05)^{2} (0.010) =125 \,N
+         </me>
+       </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A horizontal spring stretches  20.0 cm when a force of 10.0 N is applied to the spring. 
+        By how much will it stretch if a 30.0 N force is now applied to the spring? If the same 
+        spring is placed in the vertical and a weight of 10.0 N is hung from the spring, will the results change?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given <m>\Delta l_{1} =20 \,cm=0.2 \,m, F_{1} =10.0 \,N, F_{2} =30.0 \,N,</m>.  
+        The restoring force in a spring 
+        <me>
+          F=-kx.
+        </me>
+        <me>
+          \therefore\quad F_{1}=k\Delta l_{1}
+        </me>
+        <me>
+          \text{or,}\quad k = \frac{F_{1}}{\Delta l_{1}} = \frac{10}{0.2} = 50 \,N/m
+        </me>
+        Now,
+        <me>
+          \Delta l_{2} = \frac{F_{2}}{k} = \frac{30.0}{50} = 0.6 \,m = 60 \,cm
+        </me>
+    If the applied force remains same then stretch made in the spring remains the same, 
+    orientation of spring does not have any effect on its elongation.
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A copper rod, 0.400 cm in diameter, supports a load of 150 kg suspended from one end. 
+        Will the rod return to its initial length when the load is removed or has this load 
+        exceeded the elastic limit of the rod? <term>Note: </term> Elastic limit of copper = <m>1.39\times 10^{8} \,N/m^{2}.</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>Stress_{max} = 1.39\times 10^{8} \,N/m^{2}, \quad d=0.400 \,cm= 0.004 \,m, \quad g=9.8 \,m/s^{2}</m> 
+        <me>
+          Stress = \frac{F}{A}
+        </me>
+        <me>
+          \therefore \quad F_{max} = Stress_{max}A = (1.39\times 10^{8})(\pi d^{2}/4)  = 1746.73 \,N
+        </me>
+         Here the applied force, <m>F =150\times 9.8=1470 \,N</m>, is less then the maximum 
+         force the copper wire can hold, hence the rod regains its original length after the removal of applied force.
+           </p>
+    </solution>
+  </example>
+</section>

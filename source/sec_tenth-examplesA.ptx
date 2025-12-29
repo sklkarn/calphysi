@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples A</title>
+  
+  <paragraphs>
+    <title>Temperature &amp; Expansion</title>
+    
+
+  <example>
+    <statement>
+      <p>
+        Nitrogen liquefies at  63 K. What is this temperature in 
+        <ol marker="a.">
+          <li>
+            degrees Celsius?
+          </li>
+          <li>
+            degrees Fahrenheit?
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>T  =  63 K </m>
+        <ol marker="a.">
+          <li>
+           <me>
+            T_{C}  =  T - 273^{o}C, T_{C}  =  -210^{o}C 
+           </me>
+                </li>
+          <li>
+            <me>
+              T_{F}  =  T_{C}  +  32^{o}F, T_{F}  =  -346^{o}F
+            </me>
+               </li>
+        </ol>
+            </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A steel rail 50 m long and cross sectional area <m>50 cm^{2}</m> is laid out on a hot 
+        summer day when the temperature is <m>35^{o}C</m>. The next winter the temperature drops 
+        to <m>20^{o}C</m> below zero. How great a force would be required to keep the ends of 
+        the rail from moving? For steel, <m>\alpha = 11\times10^{-6}/^{o}C</m>,
+        <m>\rho = 7.86\times 10^{3} \,kg/m^{3},</m> <m>Y = 20\times 10^{10} \,N/m^{2}</m>.
+      </p>
+      <image source="rails.png" width="40%"> </image> 
+    </statement>
+    <solution>
+      <p>
+        Given: <m>l  = 50 \,m, \quad A  =  5.0\times 10^{-5} \,m^{2}, \quad T_{o}  =  35^{o}C,</m> 
+        <m>T  =  -20^{o}C, \quad\alpha = 11\times 10^{-6}/^{o}C. </m>
+      </p>
+      <p>
+        <me>
+          \Delta l  =  \alpha l_{o} \Delta T,
+        </me>
+        <me>
+          \Delta T  =  T - T_{o} =  -20^{o}C-35^{o}C= -55^{o}C
+        </me>
+        <me>
+          \therefore\quad \Delta l  =  11\times 10^{-6}(/^{o}C)\times50 \,m\times(-55^{o}C) = -3.025\times 10^{-2} \,m,
+        </me>
+        <me>
+          \sigma  =  \frac{F}{A},
+        </me>
+       <me>
+        \epsilon  = \frac{\Delta l}{l_{o}} =  6.05\times 10^{-4}, 
+       </me>
+       <me>
+        \quad Y  =  \frac{\sigma}{\epsilon}=\frac{F}{A\epsilon} 
+       </me>
+       <me>
+        F  = YA\epsilon = 20\times 10^{8} \,Pa\times 55\times 10^{-4}\,m^{2}\times 6.05\times 10^{-4}=6655 \,N
+       </me>
+          </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A sheet of aluminum 2 m long, 1 m wide, and 1 mm thick at <m>25^{o}C</m> is 
+        heated to <m>50^{o}C</m>. If <m>\alpha_{al} = 24\times 10^{-6}/^{o}C</m>, 
+        how much does the area of the sheet increase?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>l  = 2 \,m,\quad w  =  1 \,m, \quad h  =  0.001 \,m,</m>
+        <m>T_{o}  =  25^{o}C, \quad T =  50^{o}C, \quad \alpha = 24\times 10^{-6} /^{o}C </m>
+        <me>
+          \Delta T  =  T - T_{o} =50-25= 25^{o}C,
+        </me>
+        <me>
+          A_{o}  =  lw = 2\times 1= 2 \,m^{2}
+        </me>
+        <me>
+          \therefore\quad \Delta A  =   \beta A_{o} \Delta T =2 \alpha A_{o} \Delta T
+        </me>
+        <me>
+          = 2\times 24\times 10^{-6} /^{o}C \times2 m^{2}\times  25^{o}C = 2.4\times 10^{-3} m^{2}
+        </me>
+              </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A 1 L glass flask <m>(\alpha = 9\times 10^{-6}/^{o}C)</m> is filled to the mark with 
+        ethyl alcohol <m>(\gamma = 1.12\times 10^{-4}/^{o}C)</m> at <m>0^{o}C</m>. If the system 
+        is heated to <m>50^{o}C</m>, 
+        <image source="flask.png" width="25%"> </image> 
+        <ol marker="a.">
+          <li>
+            how much does the glass flask expand? 
+          </li>
+          <li>
+            How much does the alcohol expand?
+          </li>
+          <li>
+            How high does the alcohol flow up the neck of the flask if its cross-sectional area is <m>1 \,cm^{2}</m>?
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>V_{o}  = 1.0\times 10^{-3} \,m^{3}, \quad \alpha = 9\times 10^{-6} /^{o}C,</m>
+        <m>\gamma_{a} = 1.12\times 10^{-4}/^{o}C.</m> <m> \Delta T  =  50^{o}C,</m> 
+        <m> A_{o}=1 \,cm^{2}=1\times 10^{-4} \,m^{2},</m>
+            <me>
+          \gamma_{g}  =  3 \alpha
+        </me>
+          </p>
+          <p>
+            <ol marker="a.">
+              <li>
+                <me>
+                  \therefore\quad \Delta V_{g}  =  \gamma_{g} V_{o} \Delta T = 3\alpha V_{o} \Delta T= 1.35\times 10^{-6} \,m^{3}
+                </me>
+                        </li>
+              <li>
+                <me>
+                  \Delta V_{a} =  \gamma_{a}V_{o} \Delta T = 1.12\times 10^{-4} \times 1.0\times 10^{-3} \times 50 = 5.6\times 10^{-6} \,m^{3}
+                </me>
+                    </li>
+              <li>
+                <me>
+                  \Delta V'  =  \Delta V_{a}-\Delta V_{g} = 5.6\times 10^{-6}-1.35\times 10^{-6} = 4.25\times 10^{-6} \,m^{3} 
+                </me>
+              <me>
+                \text{But,}\quad \Delta V'  =  A_{o} h
+              </me>
+              <me>
+                \Rightarrow\quad h=\frac{\Delta V'}{A_{o}} =\frac{4.25\times 10^{-6}}{1\times 10^{-4}}=4.25\times 10^{-2} \,m
+              </me>
+               </li>
+            </ol>
+          </p>
+    </solution>
+  </example>
+
+</paragraphs>
+
+<paragraphs>
+  <title>Calorimetry</title>
+  
+  <example>
+    <statement>
+      <p>
+        How much heat is required to convert a 100 g ice cube taken from the refrigerator at 
+        <m>-10^{o}C</m> into super heated steam at <m>110^{o}C</m> if the conversion is performed 
+        at atmospheric pressure? Note: c(ice) = c(steam) = <m>0.5 \, cal/g^{o}C,</m>
+         <m>L_{f}(water) = 80 \,cal/g,</m> <m>L_{v}(water) = 540 \,cal/g.</m>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m_{ice}=100\,g, \quad T_{1} =-10^{o}C, \quad m_{steam}=100\,g, \quad T_{2} =110^{o}C.</m> 
+        <me>
+          Q= Q_{ice}+Q_{ice \to water}+Q_{water}+Q_{water \to steam}+Q_{steam}
+        </me>
+        <md>
+          <mrow> Q \amp= mc(T_{f}-T_{i})_{ice}+(m L_{f})_{ice\to water} </mrow>
+          <mrow> \amp  +mc(T_{f}-T_{i})_{water}+(m L_{v})_{water\to steam}+mc(T_{f}-T_{i})_{steam}</mrow>
+        </md>
+       <md>
+        <mrow> Q\amp = m\left[c(T_{f}-T_{i})_{ice}+( L_{f})_{ice\to water}\right.</mrow>
+        <mrow> \amp  \left.+c(T_{f}-T_{i})_{water}+( L_{v})_{water\to steam}+c(T_{f}-T_{i})_{steam}\right] </mrow>
+        <mrow>  \text{or,}\quad Q \amp  = 100 \left[(0.5)(0+10)+ 80+1(100-0)+  540+0.5(110-100)\right] </mrow>
+        <mrow> \amp =73000 \,cal. </mrow>
+       </md>
+               </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A 400 g piece of iron is taken from an oven at <m>300^{o}C</m> and placed in a 100 g 
+        aluminum calorimeter containing 100 g of ice at <m>0^{o}C</m>. 
+        <ol marker="a.">
+          <li>
+            How much ice melts?
+          </li>
+          <li>
+            What is the final temperature of the system? Note: <m>c(irn) = 470 \,J/kg.K, c(aluminum) = 910 \,J/kg.K,</m> 
+            <m> L_{f}(w) = 334 \,J/g,</m> <m>c(w) = 4186 \,J/kg.K</m>.
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: Mass of aluminum calorimeter, <m>m_{a} = 100 \,g = 0.1 \,kg,</m> 
+        mass of ice, <m>m_{ice} = 100 \,g = 0.1 \,kg,</m> and mass of iron, 
+        <m> m_{ir} = 400 \,g = 0.4 \,kg.</m> Initial temperature of ice and 
+        calorimeter, <m>T_{1}=0^{o}C,</m>  initial temperature of iron, <m>T_{2}=300^{o}C. </m> 
+        When hot iron is placed in calorimeter iron losses its heat and calorimeter 
+        and contents gains heat till the final temperature of the mixture reaches 
+        to equilibrium at <m>T_{f}.</m>  
+              </p>
+              <image source ="calorim1.png" width="40%"> </image>
+              <p>
+                Now first calculate amount of heat needed for ice to melt completely, 
+                <me>
+                  m_{ice}L_{ice} = 0.1\,kg(334 \,J/g)(1000\,g/1\,kg)  = 33400 \,J 
+                </me>
+              Heat lost by iron if cool to <m>0^{o}C</m> = <m>m_{ir}c_{ir}(T_{2}-T_{f}) = 0.4 \,kg (470\,J/kgK) (300-0) = 56400 \,J.</m> 
+              Hence more heat is available in container than ice requires to melt completely. 
+              </p>
+<p>
+  <ol marker="a.">
+    <li>
+      All ice melts, i.e., <m>m=100 \,g.</m>
+    </li>
+    <li>
+      Now from principle of calorimetry, 
+      <term> Heat loss by iron = heat gained by calorimeter + ice.</term>  
+      <me>
+        m_{ir}c_{ir}(T_{2}-T_{f}) = \left[mL_{f}(ice)+mc(T_{f}-T_{1})_{w}+m_{a}c_{a}(T_{f}-T_{1})\right]
+      </me>
+      <me>
+        or, \, 0.4\,kg(470 \,J/kg.K)(300-T_{f}) =  \left[0.1\,kg(334\,J/g)(1000\,g/1\,kg)\right.
+      </me>
+      <me>
+        \left.+0.1(4186)(T_{f}-0)+0.1\,kg (910 \,J/kg.K)\right](T_{f}-0)
+      </me>
+      <me>
+        or,\, 188\times 300-188 T_{f} = 33400+418.6 T_{f}+91(T_{f}) 
+      </me>
+      <me>
+        or,\, 56400-33400 = (91+188+418.6) T_{f}
+      </me>
+        <me>
+        \therefore\quad T_{f} = \frac{23000}{697.6} =32.97^{o}C
+      </me>
+       </li>
+  </ol>
+</p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Table salt has the chemical formula of  <m>NaCl</m> and a specific heat capacity of <m>879 \,J/kg.K.</m> 
+        The atomic mass of sodium is 22.99  and of chlorine is 35.453. 
+        <ol marker="a.">
+          <li>
+            What is the molar mass of salt?
+          </li>
+          <li>
+            What is the molar heat capacity of salt?
+          </li>
+          <li>
+            How many joules of heat are required to heat 2 moles of salt from room 
+            temperature <m>(25^{o}C)</m> to boiling temperature <m>(100^{o}C)</m>? 
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>c=879 \,J/kg.K,</m> <m>M_{Na}=22.99 \,g/mol,</m> <m>M_{Cl}=35.453 \,g/mol,\quad  n=2 \,mol, </m> 
+       <m> T_{1}= 25^{o}C,\quad T_{2}=100^{o}C.</m> 
+       <ol marker="a.">
+        <li>
+          Molecular mass 
+          <me>
+            M=M_{Na}+M_{Cl}
+          </me>
+          <me>
+            = (22.99 +35.453) \,g/mol = 58.443 \,g/mol = 0.05844 \,kg/mol
+          </me>
+              </li>
+        <li>
+          Molar heat capacity, 
+          <me>
+            C=Mc=(0.05844 \,kg/mol)\times(879 \,J/kg K) =51.4 \,J/mol.K
+          </me>
+            </li>
+        <li>
+          <me>
+            Q=nC\Delta T = nC\left(T_{2}-T_{1}\right) = 2\times 51.4\times(100-25) = 7710 \,J
+          </me>
+              </li>
+      </ol>         
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A lead bullet of mass 10 g, traveling at 500 m/s, strikes a target and comes to rest. 
+        The specific heat of solid lead is <m>128 \,J/kg.^{o}C</m>, lead melts at <m>327.3^{o}C</m>, 
+        and its heat of fusion is <m>2.45\times 10^{4} \,J/kg</m>. 
+        If the bullet is at <m>30^{o}C</m> before hitting the target and all the heat 
+        generated by the collision goes into the bullet, what is the final temperature of the bullet?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m=10 \,g =0.01\,kg, \quad v_{1}=500 \,m/s,\quad v_{2}=0,</m> 
+        <m>c_{Pb} = 128 \,J/kg.^{o}C,</m> <m>T_{1} = 327.3^{o}C, \quad T_{o}=30^{o}C, </m> 
+        <m>L_{f} = 2.45\times 10^{4} \,J/kg, T_{f} =?</m>
+           </p>
+           <p>
+            Heat produced by bullet = change in kinetic energy of bullet.
+            <me>
+              Q=E_{k}
+            </me>
+            <me>
+              or,\quad mc(T_{1}-T_{o})+mL_{f}+mc(T_{f}-T_{o})=\frac{1}{2}m(v_{1}^{2}-v_{2}^{2}) 
+            </me>
+            <me>
+              \text{or,}\quad c(T_{1}-T_{o})+L_{f}+c(T_{f}-T_{1})=\frac{1}{2}(v_{1}^{2})
+            </me>
+            <me>
+              \text{or,}\quad 128 (327.3-30) +2.45\times 10^{4} + 128 (T_{f}-327.3)= \frac{1}{2}(500^{2}) 
+            </me>
+            <me>
+              \text{or,}\quad -3840 +2.45\times 10^{4} + 128 T_{f}= 125000 
+            </me>
+            <me>
+              \text{or,}\quad  128 T_{f}= 125000+3840-2.45\times 10^{4} = 104340 
+            </me>
+            <me>
+              \qquad \therefore \quad T_{f} = 815^{o}C
+            </me>
+                 </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A piece of iron (<m>c=0.107 \,cal/g^{o}C</m>) having a mass of 300 g and 
+        temperature of <m>200^{o}C</m> is placed in a wall insulated and massless 
+        calorimeter containing 500 g water (<m>c=1 \,cal/g^{o}C</m>) at  <m>30^{o}C.</m> 
+        <ol marker="a.">
+          <li>
+            What is the final temperature of the system? 
+          </li>
+          <li>
+            What is the change in entropy of the iron?
+          </li>
+          <li>
+            What is the change in entropy of the water? 
+          </li>
+          <li>
+            What is the change in entropy of the universe? 
+          </li>
+          <li>
+            Is this result consistent with the second law of thermodynamics. Why?
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m_{i}=300 \,g, </m> <m>T_{h}=200^{o}C,</m> <m>m_{w}=500 \,g,</m>  <m>T_{c}=30^{o}C.</m>
+        <ol marker="a.">
+          <li>
+            Heat loss = heat gain 
+            <me>
+              m_{i}c_{i}(T_{h}-T_{f}) = m_{w}c_{w}(T_{f}-T_{c})
+            </me>
+            <me>
+              \text{or,}\quad (300 \,g) (0.107 \,cal/g^{o}C)(200-T) = (500 \,g) (1 \,cal/g^{o}C)(T-30) 
+            </me>
+            <me>
+              \text{or,}\quad  5T+0.321T = 64.2+150 
+            </me>
+            <me>
+              \therefore\quad  T = \frac{214.2}{5.321} =40^{O}C =313 \,K 
+            </me>
+                    </li>
+          <li>
+            <me>
+              \,dS_{i} = \int\limits_{T_{i}}^{T}\frac{\,dQ}{T} = \int\limits_{T_{i}}^{T}m_{i}c_{i}\frac{\,dT}{T} = m_{i}c_{i} \ln\left(\frac{T}{T_{i}}\right)
+            </me>
+              <me>
+              \therefore\quad \,dS_{i} = (300 \,g) (0.107 \,cal/g^{o}C) \ln\left(\frac{40}{200}\right)
+            </me>
+            <me>
+              =51.4 \,cal/^{o}C = -55.4 \,J/K
+            </me>
+                </li>
+          <li>
+            <me>
+              \,dS_{w} = \int\limits_{T_{w}}^{T}\frac{\,dQ}{T} = \int\limits_{T_{w}}^{T}m_{w}c_{w}\frac{\,dT}{T} = m_{w}c_{w} \ln\left(\frac{T}{T_{w}}\right)
+            </me>
+                <me>
+              \therefore\quad \,dS_{w} = (500 \,g) (1 \,cal/g^{o}C) \ln\left(\frac{40}{30}\right) 
+            </me>
+            <me>
+              =146.9 \,cal/^{o}C = 69.7 \,J/K
+            </me>
+               </li>
+          <li>
+            <me>
+              \,dS= \,dS_{i}+\,dS_{w} =-51.4+146.9=95.4 \,cal/^{o}C= 14 \,J/K
+            </me>
+              </li>
+          <li>
+            yes, entropy always increases in irreversible process.
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Heat Transfer</title>
+  
+
+  <example>
+    <statement>
+      <p>
+        The wall of a house is 6 m high, 7 m wide and 0.3 m thick made out of brick 
+        of thermal conductivity, <m>\kappa=0.6 \,W/mK.</m> The interior temperature of the 
+        house is <m> 18^{o} C</m> and that at the exterior is <m> 5^{o} C,</m> find 
+        the rate of heat loss through the wall.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>\kappa=0.6 \,W/mK,</m> <m>l=7 \,m, \quad b=6 \,m, \quad x=0.3 \,m,</m> <m>T_{h}=18^{o} C, </m>
+        and <m>T_{c}=5^{o} C.</m>
+        Now the rate of heat transfers due to conduction,
+        <me>
+          H=\frac{A \kappa \left(T_{h}-T_{c}\right)}{x}
+        </me>
+        <me>
+          = \frac{7\times 6\times 0.6\times(18-5)}{0.3} = 1092 \,W
+        </me>
+           </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A carpenter builds the walls of a basement out of solid concrete 4 inches thick. 
+        In order to reduce the heat loss to the ground, he surrounds the wall with styrofoam 
+        sheets 2 inches thick before filling in the dirt. The average ground temperature 
+        at that location is <m>40^{o}F</m> and the interior temperature of the basement 
+        is kept at a comfortable <m>75^{o}F</m> year round. 
+        <ol marker ="a.">
+          <li>
+            How much heat flows through the wall of the basement per square meter during the course of one year?
+          </li>
+          <li>
+            If the basement measures 10 m long,  5 m wide, and 3 m high how much heat flows out the walls in one year? 
+          </li>
+          <li>
+            If electricity costs 10 cents per kilowatt-hour, how much would it cost to heat 
+            the basement per year? Note: <m>k_{wood} = 0.8 \,W/m.K,\quad  k_{styrofoam} = 0.01 \,W/m.K.</m>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>l_{1}= 4 \,in= 0.1016 \,m, \quad l_{2}= 2 \,in = 0.0508 \,m, </m>  
+        <m> T_{c}= 40^{o}F =4.44^{o}C,\quad T_{h}= 75^{o}F =23.89^{o} C,</m> <m>t = 1 \,y = 3.156\times 10^{7} \,s,</m> 
+        <m>k_{1} = 0.8 \,W/m K, \quad k_{2} =  0.01 \,W/m K.</m> 
+      </p>
+      <p>
+        <ol marker ="a.">
+          <li>
+            <m>A_{1}= 1 \,m^{2},</m>
+            <me>
+              H_{1} = \frac{Q_{1}}{t} = \frac{\kappa_{1}  A  \left(T_{h}-T\right) }{l_{1}},
+            </me>
+            <me>
+              H_{2}  =  \frac{Q_{2}}{t} =\frac{\kappa_{2}  A  \left(T-T_{c}\right) }{l_{2}}
+            </me>
+            Since rate of heat flow from the wall is constant,
+             <me>H_{1}=H_{2}=H.</me> 
+             We can find the value of T and plug that value in either <m>H_{1}</m> or <m>H_{2}</m> 
+             to get get <m>Q</m> by using formula 
+             <me>
+              Q=Ht 
+             </me>
+             <me>
+              \text{Now,}\quad R = \left(\frac{l_{1}}{k_{1}} +\frac{l_{2}}{k_{2}} \right)
+             </me>
+             <me>
+              =\frac{A}{H}\left(T_{h}-T\right)+\frac{A}{H}\left(T-T_{c}\right) =\frac{A}{H}\left(T_{h}-T_{c}\right)
+             </me>
+             <me>
+              \therefore \quad H = \frac{Q}{t}= \frac{A (T_{h} -T_{c} )}{R} = 1.16\times 10^{8}\,J
+             </me>
+              </li>
+          <li>
+            <m> a=10 \,m, \quad b=5 \,m,\quad h=3 \,m,\quad A=2(ah+bh)=2(a+b)h </m>
+            for 4 walls
+            <me>
+              \therefore\quad Q' = QA=2Qh(a+b) 
+            </me>
+            <me>
+              = 2(10+5)3\times 1.16\times 10^{8}=1.05\times10^{10} \,J =2.92\times10^{3}\,kW-h
+            </me>
+             <m>\because\quad J=Ws=kwh/(1000\times 60\times60)</m> 
+            <image source="wall.png" width="30%"> </image> 
+                </li>
+          <li>
+            <me>
+              c=10 \,cents/kW-h=\$0.1/kW-h
+            </me>
+            <me>
+              \therefore\quad C=Q'c= (2.92\times10^{3} \,kW-h ) \times (\$0.1/kW-h) = \$292.00
+            </me>
+              </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The wall of a house is 4 m wide and 3 m high. Except for the windows the wall 
+        consists of a sheet of rock <m>(R = 0.013 \,m^{2}.K/W)</m>, <m>3\frac{1}{2}</m> 
+        inches of fiberglass insulation <m>(R = 2.53 \,m^{2}.K/W)</m>, and wooden 
+        siding <m>(R = 0.22 \,m^{2}.K/W)</m>. There are two windows in the wall, 
+        each 1 m wide and 1.5 m tall consisting of single pane glass <m>(R = 0.21 m^{2}.K/W)</m>. 
+        <ol marker ="a.">
+          <li>
+            If the temperature outside is <m>-10^{o}C</m> and inside is <m>25^{o}C</m>, 
+            how much heat flows out the wall and windows in 1 hour?
+          </li>
+          <li>
+            If the conductivity of window glass is <m> 0.78 W/m.K</m> and the 
+            window is 3.2 mm thick, what is the effective R-value of each of the 
+            two layers of "dead" air in contact with the window?
+          </li>
+            </ol>
+           </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>a_{1}=4 \,m, \quad b_{1}=3 \,m, </m> <m>R_{1}=0.013 \,m^{2}.K/W, \quad R_{2}=2.53 \,m^{2}.K/W, </m> 
+        <m>R_{3}=0.22 \,m^{2}.K/W,</m> <m>a_{2}=1 \,m, \quad b_{2}=1.5 \,m,</m>  <m>R_{4}=0.21 \,m^{2}.K/W,</m>  
+        <m>T_{1} =-10^{o}C, \quad T_{2} =25^{o}C, \quad t=1 \,h=3600 \,s.</m> 
+      </p>
+      <p>
+        <ol marker ="a.">
+          <li>
+            <m>A_{1}=a_{1}b_{1};</m> <m>R_{5}=R_{1}+R_{2}+R_{3}</m> <m>A_{2}=2a_{2}b_{2}</m>
+            <me>
+              H_{1}= \frac{(A_{1}-A_{2})\Delta T}{R_{5}};
+            </me>
+            <me>
+              H_{2}= \frac{A_{2}\Delta T}{R_{4}}
+            </me>
+            <me>
+              H=H_{1} +H_{2};\quad H=\frac{Q}{t}
+            </me>
+            <m>\Delta T = 35 \,k, </m> <m> A_{1}=12 \,m^{2},</m> <m>R_{5} =2.763 \,m^{2}K/W,</m> and <m>A_{2}=3 \,m^{2},</m>
+            <me>
+              H_{1}=114 \,W,
+            </me>
+            <me>
+              H_{2}=22 \,W,
+            </me>
+            <me>
+              H=136 \,W
+            </me>
+            <me>
+              \therefore\quad Q=4.898\times10^{5} \,J
+            </me>
+              </li>
+          <li>
+            <m>k= 0.78 \,W/m.K, </m> <m>l= 0.0032 \,m, </m>
+            <me>
+              R=l/k
+            </me>
+            <me>
+              R_{4}=R+2R_{air};
+            </me>
+            <me>
+              R=4.1\times10^{-3} \,m^{2}K/W
+            </me>
+            <me>
+              \therefore\quad R_{air}=0.103 \,m^{2}K/W
+            </me>
+               </li>
+            </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Assume that the total surface area of the human body is about <m>1 \,m^{2}</m> 
+        and the surface temperature of the skin is <m>30^{o}C</m>. 
+        <ol marker ="a.">
+          <li>
+            What is the rate of heat loss through radiation by the body if the emissivity of the body is 0.9?
+          </li>
+          <li>
+            What is the net rate of heat loss through radiation by the body into an environment at <m>20^{o}C</m>? 
+          </li>
+            </ol>
+             </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>A=1.2 \,m^{2}, \quad T_{1}=30^{o}C=303 \,K,</m>  <m>e=0.9, \quad \sigma = 5.67\times10^{-8} \,W/m^{2}K^{4},</m>  
+        <m>T_{2}=15^{o}C= 288 \,K.</m> 
+        <ol marker ="a.">
+          <li>
+           <me>
+            P_{1}=\sigma A e T_{1}^{4} = 516.15 \,W
+           </me>
+              </li>
+          <li>
+            <me>
+              P_{2}=\sigma A e T_{2}^{4} =412.29 \,W
+            </me>
+            <me>
+              \therefore \quad P=P_{1}-P_{2} = 94.9 \,W
+            </me>
+            
+          </li>
+            </ol>
+       </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        Two metal rods, one lead and the other copper, are connected in end-to-end in series. 
+        Each rod is 0.5 m in length and has a square cross section 1.5 cm on a side. 
+        The temperature at the lead end of the rods is <m>2^{o}C</m>; the temperature at the 
+        copper end is <m>106^{o}C</m>. 
+        <ol marker ="a.">
+          <li>
+            The average temperature of the two ends is <m>54^{o}C</m>. 
+            Is the temperature in the middle, at the lead-copper interface, greater than, 
+            less than, or equal to <m>54^{o}C</m>? Explain. 
+          </li>
+          <li>
+            Find the temperature at the lead-copper interface.
+          </li>
+            </ol>
+            Given: <m>\kappa_{Pb}=34.3 \,W/mK,</m> and <m> \kappa_{Cu}=395 \,W/mK.</m>
+           </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker ="a.">
+          <li>
+            Since <m>\kappa_{Cu}  \gt \kappa_{Pb}</m> and the rate of heat flow through 
+            both of the rods must be equal, then temperature at the junction must 
+            be greater than the average temperature <m>54^{o}C</m>, otherwise lead 
+            can not dissipate the same amount of heat every second as the copper does. 
+            <image source="2rodscondt.png" width="40%"> </image> 
+            <me>
+              H_{Pb}  =H_{Cu}
+            </me>
+            <me>
+              \text{or,}\quad \frac{\kappa_{Pb}A(\Delta T)_{Pb}}{l_{Pb}} = \frac{\kappa_{Cu}A(\Delta T)_{Cu}}{l_{Cu}}
+            </me>
+            <me>
+              \text{or,}\quad \kappa_{Pb}(\Delta T)_{Pb} = \kappa_{Cu}(\Delta T)_{Cu}
+            </me>
+            <me>
+              \text{or,}\quad \frac{\kappa_{Cu}}{\kappa_{Pb}} = \frac{(\Delta T)_{Pb}}{(\Delta T)_{Cu}}
+            </me>
+            <m>\because\quad \kappa_{Cu} \gt \kappa_{Pb},</m>
+           <me>
+            \therefore\quad  (\Delta T)_{Pb} \gt (\Delta T)_{Cu}
+           </me>
+          Hence, the lead requires a larger temperature difference across it than the copper, to get the same heat flow. 
+          </li>
+          <li>
+            <me>
+              H_{Pb}  = H_{Cu}
+            </me>
+            <me>
+              \text{or,}\quad \kappa_{Pb}(\Delta T)_{Pb} = \kappa_{Cu}(\Delta T)_{Cu} 
+            </me>
+            <me>
+              \text{or,}\quad \kappa_{Pb}(T-T_{o}) = \kappa_{Cu}(T_{h}-T)
+            </me>
+            <me>
+              \therefore\quad T = \frac{T_{h}\kappa_{Cu}+T_{o}\kappa_{Pb}}{\kappa_{Cu}+\kappa_{Pb}} = 98^{o}C
+            </me>
+               </li>
+            </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A copper pipe of radius 10mm is carrying a hot water. The external surface of the 
+        pipe is subjected to a material of convective heat transfer coefficient of <m>h=6W/m^{2}K,</m>  
+        find the heat lost by the convection per unit length of the pipe when external surface 
+        temperature is <m>80^{o}C</m> and the surroundings are at  <m>20^{o}C.</m>  
+        Assuming a black body radiation what is the heat lost by radiation?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        For 1 m long pipe,
+        <me>
+          H_{conv}=hA(T_{s}-T_{f})
+        </me>
+        <me>
+          = 6 (2\pi r)\times 1m \times (80-20) = 12(W/m^{2}K)\pi(10\times10^{-3}m)(60 K) = 22.6 W
+        </me>
+        Now for radiation by assuming a pipe as black body 
+        <me>
+          P=\sigma A \epsilon \left(T_{s}^{4}-T_{f}^{4}\right) 
+        </me>
+        <me>
+          =\sigma A \left(T_{s}^{4}-T_{f}^{4}\right) 
+        </me>
+        <me>
+          = (5.67\times10^{-8} \,W/m^{2}.K^{4})(2\pi 0.01\,m)(1\,m)\times(353^{4}-293^{4})\,K^{4}
+        </me>
+            <me>
+          \therefore\quad H = P= 29.1 \,W
+        </me>
+        </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A solid aluminum sphere coated with lampblack (emissivity=0.97) is suspended in 
+        an evacuated container. The sphere has a radius of 0.020 m and is initially at 
+        <m>20^{o}C.</m> The container is maintained at a temperature of <m>70^{o}C.</m> 
+        <ol marker ="a.">
+          <li>
+            Assuming that the temperature of the sphere does not change very much, 
+            what is the net energy gained by the sphere in 10.0 s? 
+          </li>
+          <li>
+            Estimate the change in temperature of the sphere.
+          </li>
+            </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker ="a.">
+          <li>
+            The energy lost must be supplied at the same rate at which it is being lost by radiation. 
+            At equilibrium, power emitted  = power absorbed. 
+            Therefore, the energy lost per second by the sphere is 
+            <me>
+              \frac{\Delta Q}{\Delta t}=\left(P_{ab} -P_{em}\right)
+            </me>
+            <me>
+              \Delta Q = \sigma A \epsilon\left(T_{h}^{4}-T_{c}^{4}\right)\Delta t
+            </me>
+            <me>
+              \therefore\quad \Delta Q =(5.67\times10^{-8} \,W/m^{2}.K^{4})\times (4\pi r^{2})\,m^{2} \times(0.97)
+            </me>
+            <me>
+             \qquad \times(343^{4}-293^{4}\,K^{4})(10\,s)  =18\,J 
+            </me>
+                       <m> [\because r=0.02 \,m]</m>
+               </li>
+          <li>
+            <me>
+              \Delta Q=mc\Delta T
+            </me>
+            <me>
+              \therefore\quad \Delta T = \frac{\Delta E}{mc}
+            </me>
+            <me>
+              =\frac{\Delta E}{V_{al}\rho_{al}c_{al}}
+            </me>
+            <me>
+              = \frac{18 \,J}{\left(\frac{4}{3}\pi\times 0.02^{3} \,m^{3}\right)(2700 \,kg/m^{3})(900 \,J/kgK)} = 0.22^{o}C.
+            </me>
+              </li>
+            </ol>
+      </p>
+    </solution>
+  </example>
+</paragraphs>
+</section>

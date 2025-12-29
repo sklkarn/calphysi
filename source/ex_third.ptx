@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_third" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+
+
+  <paragraphs>
+    <title>1D Kinematics</title>
+    
+
+  <exercise>
+    <p>
+     Given the <m>v \thicksim t</m> curve as shown below, produce <m>x \thicksim t</m> 
+     and <m>a \thicksim t</m> graphs. 
+    </p>
+    <image source="kin2a.png" width="35%"> </image>
+   </exercise>
+  
+ <exercise>
+   <p>
+     Given <m>x(t) = 4 t - 2 t^{2}</m>, where all units are in the MKS system. 
+     Find each of the following: 
+     <ol marker ="a.">
+       <li>
+         x(3s),
+       </li>
+       <li>
+         v,
+       </li>
+       <li>
+         v(-2s),
+       </li>
+       <li>
+         a, and
+       </li>
+       <li>
+         a(1s).
+       </li>
+     </ol>  
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A particle moves according to the equation <m>x(t) = 4</m>, where all 
+     units are in the MKS system. Find each of the following:  
+     <ol marker ="a.">
+       <li>
+         x(4), 
+       </li>
+       <li>
+         v,
+       </li>
+       <li>
+         v(4),
+       </li>
+       <li>
+         a, and
+       </li>
+       <li>
+         a(9).
+       </li>
+     </ol> 
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A particle starts out at <m>x = 0</m>  and moves according to the 
+     equation <m>v(t) = 6 t^{2}</m> where all units are in the MKS system. 
+     Find each of the following:  
+     <ol marker ="a.">
+       <li>
+         x(2), 
+       </li>
+       <li>
+         v,
+       </li>
+       <li>
+         v(4),
+       </li>
+       <li>
+         a, and
+       </li>
+       <li>
+         a(5).
+       </li>
+     </ol> 
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A ball is rolled up an inclined plane and returns to its 
+     starting point at the bottom of the plane in 4 s. 
+     If the ball travels a total distance up the plane of 1.5 m, 
+     what was 
+     <ol marker ="a.">
+       <li>
+         its initial speed and  
+       </li>
+       <li>
+         acceleration?
+       </li>
+       <li>
+         Express the acceleration in units of g?
+       </li>
+     </ol> 
+     </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     During an air show, a jet aircraft passes the spectators who see the lights 
+     of its afterburners ignited 4 seconds later. One second after that, they hear 
+     the blast from the ignition. If the speed of sound is 345 m/s, 
+     <ol marker ="a.">
+       <li>
+         how fast was the jet traveling before turning on its afterburners?
+       </li>
+       <li>
+         If the jet accelerates with the afterburners at a constant <m>2 \,g's</m>, how long 
+         (after igniting the afterburners) will it take for the jet to break the sound barrier?
+       </li>
+       </ol> 
+     </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A car traveling at a constant speed of 10 m/s passes a policeman who is at 
+     rest and unseen. The car continues on a distance of 50 meters and then runs a 
+     red light. If it takes an additional 5 seconds for the policeman to start his 
+     motorcycle in order to pursue the law breaker and if he accelerates at a rate 
+     of one-quarter g, 
+     <ol marker ="a.">
+       <li>
+         how long after starting out does it take for the policeman to overtake the car? 
+       </li>
+       <li>
+         How far does the policeman travel before overtaking the car?
+       </li>
+       <li>
+         How fast will the policeman be moving when he gets to the car ?
+       </li>
+       </ol> 
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A man has a row boat which he can row at a steady speed of 3 kmh in calm 
+     water traveling on the average a distance of 2 m with every stroke of the oars. 
+     He decides to use the boat to cross a river 100 m wide flowing at 1 kmh 
+     and traveling straight to a point 200 m up stream of his starting point. 
+     <ol marker ="a.">
+       <li>
+         How long will it take him to reach his destination?
+       </li>
+       <li>
+         How many strokes will he have to make in order to get to his destination ? 
+       </li>
+        </ol> 
+      </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A river is flowing due east with a speed <m>3 \,m/s.</m> A swimmer can swim in still 
+     water at a speed of <m>4 \,m/s</m>. 
+   </p>
+     <ol marker ="a.">
+       <li>
+         <p>
+           If swimmer, starts swimming due north, what will be his resultant velocity?
+         </p>
+          </li>
+       <li>
+         <p>
+           If he wants to start from point A on south bank and reach opposite point B on north bank,
+           <ol marker="i.">
+             <li>
+               which direction should he swim ?
+             </li>
+             <li>
+               what will be his resultant speed ?
+             </li>
+           </ol>
+         </p>
+       </li>
+        </ol> 
+   </exercise>
+ 
+   <exercise>
+     <p>
+       The engine of a boat drives it across a river that is 1800 m wide. 
+       The velocity <m>v_{bw}</m> of the boat relative to the water is 4.0 m/s, 
+       directed perpendicular to the current. The velocity <m>v_{ws}</m> of the water relative 
+       to the shore is 2.0 m/s. 
+       <ol marker="a.">
+         <li>
+           What is the velocity <m>v_{bs}</m> of the boat relative to the shore?
+         </li>
+         <li>
+           How long does it take for the boat to cross the river?
+         </li>
+       </ol>
+         </p>
+   </exercise>
+ 
+   <exercise>
+     <p>
+       A bucket is left out in the rain. The rain is coming down at 5 m/s. 
+       If a crosswind starts to blow at 2 m/s, will the bucket fill faster or slower?
+     </p>
+   </exercise>
+ 
+ <exercise>
+   <p>
+     A train is traveling relative to the ground at 15 m/s and car is traveling relative  
+     to the train is 20 m/s, find the velocity of car with respect to ground. 
+     If the car  were traveling to left with velocity of 20m/s with respect to train. 
+     Find <m>v_{cg}</m>? 
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A race car starts from rest and accelerates at <m>a = 5 + 2t \,m/s^{2}</m> for 10 seconds. 
+     The brakes are then applied, and the car has a constant acceleration <m>a = -30 \,m/s^{2}</m> 
+     until it comes to rest. Determine 
+     <ol marker="a.">
+       <li>
+         the maximum velocity,
+       </li>
+       <li>
+         the total distance traveled;
+       </li>
+       <li>
+         the total time of travel.
+       </li>
+     </ol>
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     The car is traveling at 48 km/h when the traffic light 90 m ahead turns yellow. The driver
+ takes 1 s to react before he applies the accelerator. If the car has a constant acceleration 
+ of <m>2\, m/s^{2}</m> and the light remains yellow for 5 s, will the car reach the light
+ before it turns red? How fast is the car moving when it reaches the light?
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     The rocket starts from rest at t = 0 and travels straight up. 
+     Its height above the ground as a function of time can be approximated by 
+     <m>s = bt^{2}+ ct^{3}</m>, where b and c are constants. At <m>t = 10 s</m>, 
+     the rocket's velocity and acceleration are <m>v = 229\, m/s</m> and 
+     <m>a = 28.2 \,m/s^{2}</m>. Determine the time at which the rocket 
+     reaches supersonic speed (325 m/s) and the altitude at that time.
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     The boat is moving at 10 m/s when its engine is shut down. Due to hydrodynamic drag, its
+     subsequent acceleration is <m>a = -0.05v^{2} \,m/s^{2}</m>, where v is the velocity 
+     of the boat in m/s. What is the boat's velocity 4 s after the engine is shut down?
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A stone is thrown vertically upward from a bridge 30.0 m high at an 
+     initial velocity of 15.0 m/s. How long will it take for the stone to hit the water below?
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A body moves in the x-direction with an acceleration given by <m>a = (2.5 \,m/s^{3})t + (1.55 \,m/s^{3})t^{2}</m>. 
+     Find the equations for the velocity and displacement of the moving body at any time
+     t. The body starts from rest at <m>x_{o} = 0</m>. Find the numerical values of the velocity,
+     displacement, and acceleration at t = 5.00s.
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A block slides down a smooth inclined plane that makes an angle of <m>25^{o}</m> with the horizontal. 
+     Find the acceleration of the block. If the plane is 10.0 meters long and the 
+     block starts from rest, what is its velocity at the bottom of the 
+     plane? How long does it take for the block to get to the bottom? 
+   </p>
+   <hint>
+     <p>
+       use <me>
+         y_{f}-y_{o}=-h =10\sin\theta= v_{i}t -\frac{1}{2}gt^{2};
+       </me>
+        and 
+        <me>
+         s=v_{i}t + \frac{1}{2}at^{2}
+        </me>
+        to find a.
+     </p>
+   </hint>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     At the instant that the traffic light turns green, a car starting from rest 
+     with an acceleration of <m>2.50 \,m/s^{2}</m> is passed by a truck moving at a 
+     constant velocity of 60.0 km/hr. 
+     <ol marker="a.">
+       <li>
+         How long will it take for the car to overtake the truck? 
+       </li>
+       <li>
+         How far from the starting point will the car overtake the truck?
+       </li>
+       <li>
+         At what velocity will the car be moving when it overtakes the truck?
+       </li>
+     </ol>
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     Find the distance covered by a particle in its time period <m>T</m>. 
+     If the position vector of the particle is given by
+     <me>
+       \vec{r}=\vec{r_{o}}\left(t-\alpha t^{2} \right).
+     </me>
+       Where <m>\vec{r_{o}}</m> is constant.
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     If <m>t=A x^{2}+B x </m>  where <m>A</m> and <m>B</m> are constants. 
+     Find the acceleration of the particle.
+   </p>
+ </exercise>
+ 
+ <exercise>
+   <p>
+     A person goes to 15 m at <m>60^{o}</m> north east and then goes to 30 m at <m>30^{o} </m> south of west. 
+     What is his displacement?
+   </p>
+ </exercise>
+  </paragraphs>
+  
+
+<paragraphs>
+  <title>2D Kinematics</title>
+  
+  <exercise>
+    <p>
+      A particle is moving according to the equation 
+      <me>
+        \vec{r}  =  (A t + B t^{2})\hat{i} + C t^{3}\hat{j},
+      </me>
+       where <m>A = 10 \,m/s,\quad B = 2 \,m/s^{2},</m> and <m>C = - 1 \,m/s^{3}</m>. Find:
+       <ol marker="a.">
+        <li>
+          <m>\vec{r}(0),</m>
+        </li>
+        <li><m>\vec{r}(2 \,s),</m></li>
+        <li> <m>v,</m></li>
+        <li><m>\vec{c}(-1 \,s),</m></li>
+        <li><m>\vec{v}(3 \,s),</m></li>
+        <li><m>a,</m></li>
+        <li><m>\vec{a}(0.5 \,s).</m></li>
+        </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for  5 s, 
+      find each of the following: 
+      <ol marker="a.">
+        <li>
+          How fast is the rock initially traveling horizontally?
+        </li>
+        <li>How fast is the rock initially traveling vertically? </li>
+        <li> How high does the rock get? </li>
+        <li>How fast does it hit the ground?</li>
+        <li>At what angle does it hit the ground?</li>
+         </ol>
+           </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A hang glider is flying in a horizontal circle of radius 20 m, 
+      completing the circle in a time period of 10 s. 
+      <ol marker="a.">
+        <li>
+          What is the speed of the glider?
+        </li>
+        <li>What is the tangential acceleration of the glider? </li>
+        <li> What is the radial acceleration of the glider? </li>
+        <li>Express this last answer in g's of acceleration.</li>
+        <li>How many g's of force would the pilot be experiencing? Would this be noticeable?</li>
+         </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A boy uses a sling to throw a rock across the field by whirling the rock in 
+      a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released 
+      when the sling makes an angle of <m>30^{o}</m> below the horizontal when the 
+      rock is at a height of 1 m above the ground, 
+      <ol marker="a.">
+        <li>
+          how high will the rock rise above the ground and
+        </li>
+        <li>how far will it travel horizontally before hitting the ground? </li>
+         </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A fighter plane is flying horizontally at an altitude of 1.5 km with speed 
+      720 km/h. At what angle of sight (w.r.t. horizontal) when the target is 
+      seen, should the pilot drop the bomb in order to attack the target ?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      If the golf ball is hit in the direction of a <m>12 \,m</m> tree which is <m>80 \,m</m> from the
+      golfer, will the ball pass over the tree or hit it? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a 
+      velocity of 15 m/s at an angle of <m>10^{o}</m> to the horizontal. Find when and 
+      where the ball will hit the ground.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A footballer kicks a ball on horizontal ground giving it an initial velocity 
+      of 25 m/s at an angle of <m>35^{o}</m> to the horizontal. 
+      <ol marker="a.">
+        <li>
+          Where will the ball be 1.2 seconds after it is kicked?
+        </li>
+        <li>What will be the greatest height reached by the ball? </li>
+        <li>Where will the ball land? </li>
+         </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A ball is kicked at an angle <m>\theta = 45^{o}</m>. It is intended that the 
+      ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. 
+      If the initial horizontal distance from the back of the truck to the ball, 
+      at the instant of the kick, is <m>d_{o} = 5 \,m</m>, and the truck moves directly 
+      away from the ball at velocity <m>v = 9 \,m/s</m> (as shown), what is the maximum 
+      and minimum velocity <m>v_{o}</m> so that the ball lands in the trunk. 
+      Assume that the initial height of the ball is equal to the height of 
+      the ball at the instant it begins to enter the trunk. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An athlete releases the shot at 1.82 m above the ground and its initial velocity is <m>v_{o} =
+        13.6 \,m/s</m>. Determine the horizontal distance the shot travels from the point 
+        of release to the point where it hits the ground.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A pilot wants to drop survey markers at remote locations. If he flies at a 
+      constant velocity <m>v_{o} = 40 \,m/s</m> at altitude <m>h = 30 \,m</m> and 
+      the marker is released with zero velocity relative to the plane, at what 
+      horizontal distance <m>d</m> from the desired impact point should the marker be released?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A point P moves along the spiral path <m>r = (0.1)\theta,</m> here <m>\theta</m> is in radian. 
+      The angular position <m>\theta = 2t</m> rad, where t is in seconds, and r = 0 at t = 0. 
+      Determine the magnitudes of the velocity and acceleration of P at t = 1 s.
+    </p>
+  </exercise>
+
+</paragraphs>
+ </exercises>
+

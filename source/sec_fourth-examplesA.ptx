@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples A</title>
+  
+<example>
+  <statement>
+    <p>
+      What is the tension in each of the strings of the system shown here:
+     </p>
+     <image source="steq1.png" width="30%"> </image> 
+  </statement>
+  <solution>
+    <p>
+      <term>Step 1.</term> List the given quantities and label the diagram:
+      </p>
+      <image source="steq1a.png" width="35%"> </image>  
+    <p>
+      <term>Step 2.</term> Isolate each object and draw the force diagrams:
+      <sidebyside widths="30% 10% 10%">
+        <image source="steq1b.png" width="30%"> </image>  
+        <image source="steq1bb.png" width="10%"> </image>  
+        <image source="steq1bc.png" width="10%"> </image> 
+      </sidebyside>
+        </p>
+        <p>
+      <term>Step 3.</term> Resolve forces into components as shown in figure:
+       </p>
+       <image source="steq1c.png" width="40%"> </image> 
+    <p>
+     <term> Step 4.</term> Write equations using the figure 
+    </p>
+     <image source="steq1c.png" width="40%"> </image> 
+     <p>
+      <me>
+      \sum{F_{x}} =  T_{2}\cos\theta - T_{1}\sin\theta   =  0
+     </me>
+     <me>
+      \sum{F_{y}} = T_{2}\sin\theta - T_{1}\cos\theta -T_{3}=  0
+     </me>
+    from figure  <image source="steq1bb.png" width="10%"> </image>  
+    <me>
+      \sum{F_{y}} = T_{3}-w_{1}-T_{4}=  0
+    </me>
+    from figure <image source="steq1bc.png" width="10%"> </image>  
+    <me>
+      \sum{F_{y}} = T_{4}-w_{2} = 0
+    </me>
+    </p>
+    <p>
+      <term>Step 5.</term> Solve equations simultaneously for unknowns:
+      <me>
+        T_{4}  =  w_{2} =  10 \,N 
+      </me>
+      <me>
+        T_{3}  =  T_{4} + w_{1} = 30 \,N
+      </me>
+      <me>
+        Now,\quad T_{2} = \frac{T_{1}\sin\theta}{\cos\theta}= T_{1}\tan\theta
+      </me>
+      <me>
+        also,\quad T_{1} = \frac{T_{3}}{\tan\theta\sin\theta-\cos\theta} = 30 \,N; 
+      </me>
+      <me>
+        \therefore T_{2} =52 \,N
+      </me>
+      </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Find the tension in each of the strings of the system below if the weight <m>w=80 \,N</m> 
+      and the angle <m>\theta=30^{o}</m>.   
+    </p>
+    <image source="fe1a.png" width="35%"> </image>
+  </statement>
+  <solution>
+    <p>
+     From figure <image source="fe1b.png" width="60%"> </image> 
+     <me>
+      \sum F_{x} =T_{2}\sin\theta-T_{1}\cos\theta =0 
+    </me>
+     <men xml:id="eqn-fe1a">
+      \text{or,}\quad T_{1}=T_{2}\tan\theta =T_{2}\frac{1}{\sqrt{3}} 
+    </men>
+    <me>
+      \sum F_{y} =T_{2}\cos\theta+T_{1}\sin\theta-T_{3} =0 
+    </me>
+    <me>
+      \text{or,}\quad T_{2}\cos 30^{o}+T_{1}\sin 30^{o} =80 
+    </me>
+    <men xml:id="eqn-fe1b">
+      \text{or,}\quad T_{2}\frac{\sqrt{3}}{2}+T_{1}\frac{1}{2} =T_{3} 
+    </men>
+      <me>
+        \sum F_{y}=T_{3}-w=0
+      </me>
+      <men xml:id="eqn-fe1c">
+        T_{3}=w=80N 
+      </men>
+      from eqns. <xref ref="eqn-fe1a"/>, <xref ref="eqn-fe1b"/>, and <xref ref="eqn-fe1c"/>, we have
+      <me>
+        T_{2}=70 \,N  \quad \text{and} \quad T_{1}=40 \,N 
+      </me>
+      </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A 5 kg block is held at rest against a vertical wall by a horizontal force of 100N. 
+      <ol marker="a.">
+        <li>
+          What is the frictional force exerted by the wall on the block? 
+        </li>
+        <li>
+          What is the minimum horizontal force needed to prevent the block from sliding 
+          down the wall if the coefficient of static friction between the wall and the block is <m>0.4</m>?
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <image source="steq2ab.png" width="20%"> </image> 
+    <p>
+      Given: <m>m= 5\,kg, \quad w= mg = 5\,kg\cdot9.8 \,m/s^{2} =49 \,N,\quad F=100 \,N.</m>
+       <ol marker="a.">
+        <li>
+          <me>
+            \sum F_{x}=F-N=0 \quad\Rightarrow\quad F=N=100\,N
+          </me>
+          <me>
+            \sum F_{y}=f-w=0\quad\Rightarrow\quad f=w=49\,N
+          </me>
+          </li>
+        <li>
+          <me>
+            f=\mu_{s}N \qquad\Rightarrow\quad N=\frac{f}{\mu_{s}}=\frac{49N}{0.4}=122\,N
+          </me>
+          </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Draw force (free-body) diagrams for the bodies shown in the figure below:
+      </p>
+      <image source="machine2.png" width="40%"> </image> 
+  </statement>
+  <solution>
+    <p>
+      <sidebyside widths="30% 30% 30%">
+      <image source="machine2d.png" > </image> 
+      <image source="machine2e.png" > </image> 
+      <image source="machine2f.png" > </image> 
+      </sidebyside>
+    </p>
+  </solution>
+</example>
+</section>

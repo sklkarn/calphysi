@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Algebra of Vectors</title>
+  <introduction>
+    <p>
+      The mathematical operations of addition, subtraction, and multiplication in 
+      the algebra of numbers are also capable of getting extension in an algebra of vectors. 
+      A vector whose effect is same as that of a set of two vectors is called the 
+      <term>resultant</term> of the given  vectors. Let  <m>\vec{OP} = \vec{a}</m> and 
+      <m>\vec{PQ} = \vec{b}</m> are two vectors as shown in <xref first="fig2i" last="fig2ii" />, 
+      then the resultant vector <m>\vec{OQ} = \vec{r}</m> is the sum of 
+      <m>\vec{a}</m> and <m>\vec{b}</m>, i.e., <m>\vec{r}=\vec{a} + \vec{b}</m> as shown in 
+      <xref ref="fig2ai"/>.  
+    </p> 
+
+    <figure>
+      <caption>Vector Algebra</caption>
+      <sidebyside widths="20% 15% 30% 25%">
+          <figure xml:id="fig2i">
+              <caption></caption>
+              <image source="fig2i.png"/>
+          </figure>
+          <figure xml:id="fig2ii">
+              <caption></caption>
+              <image source="fig2ii.png"/>
+          </figure>
+          <figure xml:id="fig2ai">
+              <caption></caption>
+              <image source="fig2ai.png"/>
+          </figure>
+          <figure xml:id="fig2bi">
+              <caption></caption>
+              <image source="fig2bi.png"/>
+          </figure>
+       </sidebyside>
+  </figure>
+<p>
+  The resultant vector <m>\vec{r'}</m> or the subtraction of <m>\vec{b}</m>  from <m>\vec{a}</m>  
+  is the addition of a negative vector of <m>\vec{b}</m> (i.e., <m>-\vec{b}</m>)  to a 
+  <m>\vec{a}</m>, i.e., 
+  <me>
+    \vec{r'} = \vec{a} - \vec{b} = \vec{a} + (-\vec{b})
+  </me>
+   as shown in <xref ref="fig2bi"/>. 
+The resultant vector can be obtained by arranging  the two individual vectors in such a way 
+that  the head of one vector falls onto the tail of another one without changing their individual 
+directions. The resultant vector then joins the tail of first vector to the head of second vector 
+(Remember the resultant vector is not in cyclic orientation of the individual vectors). 
+If a  vector <m>\vec{a}</m> is multiplied by any real positive number <m>n</m>, then the 
+product <m>n \vec{a}</m> is a vector whose magnitude is <m>n</m> times as that of <m>\vec{a}</m> 
+and its direction is the same as <m>\vec{a}</m>. If <m>n</m> is a negative number then the 
+direction of <m>n \vec{a}</m> is opposite to <m>\vec{a}</m>. If <m>\hat{a}</m> is a unit vector 
+in the direction of <m>\vec{a}</m> then, we have 
+<ol marker="i.">
+  <li>
+    <m>\vec{a} = |a| \hat{a},</m> where <m>|a|</m> is a magnitude of <m>\vec{a}</m>.
+  </li>
+  <li>
+    <m>(k+l)\vec{a} = (k+l)a \hat{a}  = k a \hat{a} + l a \hat{a} = k \vec{a} + l \vec{a},</m> 
+    where <m>k</m> and <m>l</m> are scalars.
+  </li>
+  <li>
+    <m>k(\vec{a} + \vec{b}) = k \vec{a} + k\vec{b}</m>.
+  </li>
+  <li>
+    <m>k(l\vec{a}) = (k l) \vec{a}</m>.
+  </li>
+</ol>
+</p>
+  </introduction>
+  
+<subsection xml:id="subsec-compnt_vect">
+  <title>Components of a Vector:</title>
+  <p>
+    A vector <m>\vec{r}</m> can be resolved into its components in a coordinate system. 
+    Suppose a vector <m>\vec{a}</m> is lying on the xy-plane as shown in <xref ref="fig2ci"/>, 
+    then its x- and y- components are given as <m>\vec{a_{x}}</m> and <m>\vec{a_{y}}</m>, 
+    respectively. Hence the vector <m>\vec{a} </m> can be written as 
+  </p>
+  <figure>
+    <caption>Vector Components</caption>
+    <sidebyside widths="30% 30%">
+        <figure xml:id="fig2ci">
+            <caption></caption>
+            <image source="fig2ci.png"/>
+        </figure>
+        <figure xml:id="fig2cii">
+            <caption></caption>
+            <image source="fig2cii.png"/>
+        </figure>
+     </sidebyside>
+</figure>
+<p>
+  <me>
+    \vec{a} =  \vec{a_{x}}  +  \vec{a_{y}} =  a_{x}\hat{i}  +  a_{y}\hat{j} =a\cos\theta \hat{i}+a\sin\theta \hat{j}
+  </me>
+
+where <m>a_{x} =a\cos\theta</m> and <m>a_{y}=a\sin\theta </m> are the magnitude of vector 
+components <m>\vec{a_{x}}</m>  and <m>\vec{a_{y}}</m>, respectively.  The magnitude of vector 
+<m>\vec{a} </m> is given by
+<me>
+  a^{2}= a^{2}_{x}+a^{2}_{y} \quad \Rightarrow |\vec{a}|=\sqrt{a^{2}_{x}+a^{2}_{y}}.
+</me>
+
+The direction of <m>\vec{a}</m> can be obtained by 
+<me>
+  \tan\theta =\frac{a_{y}}{a_{x}} \quad \Rightarrow \theta=\tan^{-1}\frac{a_{y}}{a_{x}}.
+</me>
+
+Let the diagonal vector of a parallelopiped,  <m>\vec{OP} = \vec{r}</m> is described by a 
+coordinate (x,y,z) in a rectangular system as shown in <xref ref="fig2cii"/> and 
+<m>\hat{i}</m>,  <m>\hat{j}</m>, and <m>\hat{k}</m> are the unit vectors along <m>OX</m>, 
+<m>OY</m>, and <m>OZ</m> axes, respectively then  <m>\vec{OA} = x \hat{i}</m>, 
+<m>\vec{OB} = y \hat{j}</m>, and  <m>\vec{OC} = z \hat{k}</m> are the rectangular components 
+of <m>\vec{r}</m>. Now,
+<men xml:id="eqn-vect_comp1">
+  \vec{r} = \vec{OP} = (\vec{OF} + \vec{FP})  
+</men>
+<men xml:id="eqn-vect_comp2">
+ \text{and} \quad \vec{OF} = \vec{OA} + \vec{AF} 
+</men>
+<men xml:id="eqn-vect_comp3">
+  \therefore \quad \vec{r} = \vec{OA} + \vec{OB} + \vec{OC} = x \hat{i} + y \hat{j} + z \hat{k} 
+</men>
+<me>
+  \because\quad \vec{AF}= \vec{OB}; \quad \vec{FP} = \vec{OC} 
+</me>
+
+If <m>\vec{OP}</m> makes angles <m>\alpha</m>, <m>\beta</m>, and <m>\gamma</m> with OX, OY, 
+and OZ axes, respectively then <m> x=r\cos\alpha</m>, <m>y=r\cos\beta</m>, and <m>z=r\cos\gamma</m>.
+</p>
+</subsection>
+
+<subsection xml:id="subsec-vect_mult">
+  <title>Product of Two Vectors:</title>
+  <introduction>
+    <p>
+      <idx><h>vectors Product</h></idx>There are two ways in which vectors can be multiplied. The product of one of them is 
+      a scalar quantity, called a scalar product (or a dot product) and the other is a vector 
+      quantity, called a vector product (or a cross product).
+    </p>
+  </introduction>
+  <subsubsection xml:id="subsubsec-dot_product">
+    <title>Scalar (or Dot) Product</title>
+    <p>
+      The scalar product of two vectors <m>\vec{a}</m> and <m>\vec{b}</m> is denoted by 
+      <m>\vec{a}\cdot \vec{b}</m>, and is defined as 
+      <me>
+        \vec{a}\cdot {\vec{b}} = |\vec{a}| |\vec{b}| \cos\theta = ab\cos\theta,
+      </me>
+      where  <m>\theta</m> is the angle between <m>\vec{a}</m> and <m>\vec{b}</m>.
+    </p>
+    <paragraphs>
+      <title>Geometrical Interpretation:</title>
+      <p>
+        Let <m>\vec{OA} =\vec{a}</m> and <m> \vec{OB} =\vec{b}</m>,  as shown in <xref ref="fig2d"/>, then 
+        <me>
+          \vec{a}\cdot {\vec{b}} =  \vec{OA}\cdot {\vec{OB}} = (OA)(OB) \cos\theta = (OA)(ON)  
+        </me>
+        =  (length of <m>\vec{a}</m>) (projection of <m>\vec{b}</m> along <m>\vec{a}</m>).
+      </p>
+      <figure xml:id="fig2d">
+        <caption></caption>
+        <image source="fig2d.png" width="30%"/>
+    </figure>
+    <p>
+     Therefore the dot product of two vectors is the product of length of one of these vectors and 
+      the projection of the other in the direction of the first. 
+    </p>
+    </paragraphs>
+    <p>
+      <alert>Mnemonics:</alert>
+      <me>
+        \hat{i}\cdot\hat{j}= \hat{j}\cdot\hat{k} = \hat{k}\cdot\hat{i} = 0
+      </me>
+      or,
+      <me>
+        \hat{i}\cdot\hat{i} =\hat{j}\cdot\hat{j} = \hat{k}\cdot\hat{k} =1
+      </me>
+    </p>
+    <p>
+      <alert>Properties:</alert>
+      <ol>
+        <li>
+          Commutative law: <m>\quad \vec{a} \cdot \vec{b} = \vec{b} \cdot \vec{a}</m>
+        </li>
+        <li>Distributive law: <m>\quad \vec{a} \cdot \left(\vec{b}+\vec{c} \right) = \vec{a} \cdot \vec{b} + \vec{a} \cdot \vec{c}</m></li>
+      </ol>
+    </p>
+  </subsubsection>
+ 
+  <subsubsection xml:id="subsubsec-cross_product">
+    <title>Vector (or Cross) Product</title>
+    <p>
+      The vector product of two vectors <m>\vec{a}</m> and <m>\vec{b}</m> is denoted by 
+      <m>\vec{a}\times\vec{b}</m> and is defined as  
+      <me>
+        \vec{a} \times \vec{b} = \mid{\vec{a}}\mid \mid{\vec{b}}\mid sin\theta \hat {n} = absin\theta {\hat{n}},
+      </me>
+where <m>\theta</m> is the angle between <m>\vec{a}</m> and <m>\vec{b}</m>, and <m>{\hat{n}}</m> 
+is a unit vector perpendicular to the plane made by vectors <m>\vec{a}</m> and <m>\vec{b}</m>, 
+and is representing the direction of <m>\vec{a}\times\vec{b}</m>. Here <m>\vec{a}</m>, 
+<m>\vec{b}</m>, and <m>{\hat{n}}</m> form a right handed system, as shown in <xref ref="fig2di"/>.
+    </p>
+    <figure>
+      <caption>Vector Product of Two Vectors</caption>
+      <sidebyside widths="30% 30% 30%">
+          <figure xml:id="fig2di">
+              <caption></caption>
+              <image source="fig2di.png"/>
+          </figure>
+          <figure xml:id="fig2dii">
+              <caption></caption>
+              <image source="fig2dii.png"/>
+          </figure>
+          <figure xml:id="fig2diii">
+            <caption></caption>
+            <image source="fig2diii.png"/>
+        </figure>
+       </sidebyside>
+  </figure>
+
+  <paragraphs>
+    <title>Geometrical Interpretation:</title>
+    <p>
+Let <m>\vec{a}</m> and <m>\vec{b}</m> be the adjacent sides of the parallelogram, as shown in 
+<xref ref="fig2dii"/>, then  
+<me>
+  \vec{a}\times\vec{b} = \vec{OA}\times\vec{OB} = (OA)(OB) \sin\theta \hat{n} = \left(OA\cdot{BM}\right){\hat{n}}  = base \cdot height \quad \hat{n}
+</me>
+ = vector area of parallelogram OACB.
+    </p>
+    <p>
+      i.e., a vector product of two vectors is the vector area of a parallelogram constructed by these vectors.
+    </p>
+  </paragraphs>
+  <paragraphs>
+    <title>Vector product in determinant form</title>
+    <p>
+      If <m>\vec{a} = a_{1}\hat{i}+a_{2}\hat{j}+ a_{3}\hat{k}</m> and 
+      <m>\vec{b} = b_{1}\hat{i}+b_{2}\hat{j}+ b_{3}\hat{k}</m>  then 
+      <me>
+        \vec{a}\times\vec{b} =\left( {a_{1}\hat{i}+a_{2}\hat{j}+ a_{3}\hat{k}}\right)\times \left( {b_{1}\hat{i}+b_{2}\hat{j}+ b_{3}\hat{k}}\right)
+      </me>
+      <me>
+        =(a_{2}b_{3}-a_{3}b_{2})\hat{i}- (a_{1}b_{3}-a_{3}b_{1})\hat{j} + (a_{1}b_{2}-a_{2}b_{1})\hat{k}
+      </me>
+      <me>
+        =\begin{bmatrix} \hat{i} &amp; \hat{j} &amp; \hat{k} \\a_{1} &amp; a_{2} &amp; a_{3} \\ b_{1} &amp; b_{2} &amp; b_{3} \end{bmatrix} 
+      </me>
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Mnemonics:</title>
+    <p>
+      <me>
+        \hat{i}\times\hat{j}=\hat{k};\qquad \hat{j}\times\hat{k}=\hat{i};\qquad \hat{k}\times\hat{i}=\hat{j}
+      </me>
+      or,
+      <me>
+        \hat{i}\times\hat{k}=-\hat{j};\qquad \hat{k}\times\hat{j}=-\hat{i};\qquad \hat{j}\times\hat{i}=-\hat{k}
+      </me>
+      
+    </p>
+  </paragraphs>
+
+  <paragraphs>
+    <title>Properties:</title>
+    <p>
+      <ol>
+        <li>
+          Commutative Law: <m>\quad \vec{a} \times \vec{b} \neq \vec{b} \times \vec{a}</m> 
+        </li>
+        <li>
+          Distributive law: <m>\quad \vec{a} \times \left(\vec{b}+\vec{c} \right) = \vec{a} \times \vec{b} + \vec{a} \times \vec{c}</m> 
+        </li>
+      </ol>
+    </p>
+  </paragraphs>
+  </subsubsection>
+</subsection>
+
+<subsection xml:id="subsec-axis_transform">
+  <title>Transformation of Axis</title>
+  <figure xml:id="fig2e">
+    <caption></caption>
+    <image source="fig2e.png" width="30%"/>
+</figure>
+  <p>
+    <me>
+      x'=OL'= OT+TL' = OT +SL = OL\cos\theta +PL\sin\theta 
+    </me>
+    <me>
+      \therefore x'  = x\cos\theta +y\sin\theta 
+    </me>
+    <me>
+      y'=PL'= PS-L'S =PS-TL = PL\cos\theta -OL\sin\theta 
+    </me>
+    <me>
+      \therefore y'  = y\cos\theta -x\sin\theta
+    </me>
+    <me>
+      \therefore \hat{i'}=\hat{i}\cos\theta +\hat{j}\sin\theta \qquad \text{also} \quad  \hat{j'}=-\hat{i}\sin\theta +\hat{j}\cos\theta
+    </me>
+    Now,
+    <me>
+      \vec{r}=\hat{i'}x'+\hat{j'}y'= [\hat{i}\cos\theta +\hat{j}\sin\theta]x'+[-\hat{i}\sin\theta +\hat{j}\cos\theta]y'
+    </me>
+    <me>
+      \therefore \vec{r}=\hat{i}[x'\cos\theta -y'\sin\theta] +\hat{j}[x'\sin\theta +y'\cos\theta] =\hat{i}x+\hat{i}y
+    </me>
+  </p>
+</subsection>
+  </section>
+

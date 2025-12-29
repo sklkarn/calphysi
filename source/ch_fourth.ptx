@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_fourth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Force and Equilibrium</title>
+    
+  <introduction>
+    <p>
+      Force is that external agency which when acts on a body, it changes its mechanical state. 
+      Meaning it changes its shape or its state of being in rest or in motion, or its  direction of motion. 
+      It is also called a push or pull. It is a vector quantity. The branch of physics which deals 
+      with the effect of force and motion on an object is called a <term>mechanics</term>. 
+      Mechanics has basically three parts, kinematics, statics, and dynamics. 
+      The study of motion without knowing the cause (force and energy) of motion is 
+      called kinematics. Statics is the physics of stationary objects or an object 
+      moving with constant velocity. Dynamics is the physics of moving objects 
+      under the action of forces, i.e., <m>F_{net} \neq 0</m> in transnational dynamics,  
+      or, <m>\tau_{net} \neq 0</m> in rotational dynamics. 
+    </p>
+         </introduction>
+
+ 
+  <xi:include href="./sec_fourth-intro.ptx" />
+  <xi:include href="./sec_fourth-examplesA.ptx" />  
+  <xi:include href="./sec_fourth-transeql.ptx" />
+  <xi:include href="./sec_fourth-examplesB.ptx" />  
+  <xi:include href="./sec_fourth-dynamics.ptx" />
+  <xi:include href="./sec_fourth-examplesC.ptx" /> 
+  <xi:include href="./sec_fourth-circular.ptx" /> 
+  <xi:include href="./sec_fourth-banking.ptx" /> 
+  <xi:include href="./sec_fourth-examplesD.ptx" /> 
+  <xi:include href="./sec_fourth-cm.ptx" /> 
+  <xi:include href="./sec_fourth-torque.ptx" /> 
+  <xi:include href="./sec_fourth-examplesE.ptx" /> 
+  <xi:include href="./ex_fourth.ptx"/> 
+
+</chapter>

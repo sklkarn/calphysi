@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-heat_meas" xmlns:xi="http://www.w3.org/2001/XInclude">
+ 
+ <title>Quantity of Heat</title>
+ 
+ <introduction>
+  <p>
+    Heat is a transfer of energy. When an object gains or losses heat it either 
+    changes its temperature or its phase. A change in temperature is associated 
+    with changes in the average kinetic energy of the particles and a change in phase 
+    is associated with changes in the internal potential energy possessed by the object. 
+    In this section we will learn how to measure the quantity of heat gained or released by an object.
+  </p>
+   
+    </introduction>
+ 
+ <subsection xml:id="subsec-sp_heat">
+  <title>Specific Heat Capacity</title>
+  <p>
+    Heat absorbing capacity of a material is known as specific heat capacity. 
+    Suppose we have two marbles at room temperature <m>T_{o}=25^{o}C</m>, one has 
+    mass 1 kg  and another has mass 2 kg. If we want to heat them to <m>100^{o}C</m>, 
+    then from our experience we know that 2 kg marble will take longer than 1 kg marble 
+    to reach at the same temperature. Hence, the amount of heat (Q) put into the 
+    material is directly proportional to the mass (m) of the material. That is,
+    <me>
+      Q \propto m
+    </me>
+    Now suppose both of our marbles has a mass of 1 kg each and we want to heat one of them for 
+    <m>T_{1}= 100^{o}C</m> and another for temperature <m>T_{2}= 200^{o}C.</m> We can again 
+    tell that the marble which has to be heated for <m>200^{o}C</m>  will take longer than the other. That is, 
+    <me>
+      Q \propto \Delta T 
+    </me>
+    where <m>\Delta T = T_{f}-T_{o}</m>. For marble of mass 1 kg, <m>\Delta T = 100-25 =75^{o}C</m> 
+    and for the marble of mass 2 kg <m>\Delta T = 200-25 =175^{o}C.</m>  
+    By combining these two expressions, we have - 
+    <me>
+      Q\propto m\Delta T
+    </me>
+    <me>
+      \therefore\quad Q = mc\Delta T
+    </me>
+    where <m>c</m> is a proportionality constant and is called specific heat capacity of the material. 
+    It is the properties of a material. Different materials have different specific heat 
+    capacities and hence they absorb or release heat differently. 
+    <me>
+      c=\frac{Q}{m\Delta T} 
+    </me>
+    If m=1 kg, <m>\Delta T= 1^{o}C</m>, then <m>c=Q</m>, i.e., specific heat capacity of a 
+    material is the amount of heat added into or taken out from the material of unit mass 
+    to the unit degree rise or fall of temperature. In SI system, unit of <m>c</m> is <m>J/kg/^{o}C</m>. 
+    In heat and thermodynamics, we normally measure heat in <em>calorie</em> unit but other physical 
+    quantities in <em>SI unit</em>. Hence the mixture of systems of unit can be seen in this chapter. 
+    In cgs system, unit of specific heat capacity of water is <m>1\,cal/g/^{o}C.</m>  <fn><m>1 \,cal = 4.186 \,J.</m></fn> 
+    The capacity of a material to absorb heat per degree rise of temperature is called <term>heat capacity</term>. 
+    It is defined as <m>C=mc</m>. The amount of heat required to raise the temperature of one mole 
+    of a substance by one degree (Celsius or Kelvin) is known as  <term>molar (specific) heat capacity</term>.
+   </p>
+ </subsection>
+ 
+ <subsection xml:id="subsec-latent">
+  <title>Latent Heat</title>
+  <p>
+    Heat absorbed or released by the material during phase change is called latent heat. 
+    There is no temperature change during a phase change hence this energy is hidden 
+    from temperature scale. The energy dissipated or released during phase change is 
+    in adjustment of particles potential energy in the bonds. Hence the amount of heat <m>Q</m> 
+    during phase change is proportional to the mass of a material. That is,
+    <me>
+      Q\propto m
+    </me>
+    <me>
+      \therefore\quad  Q  =  m  L
+    </me>
+        where <m>L</m> is a latent heat during phase change. It is also a material property. 
+        The latent (hidden) heat of fusion for water at <m>0^{o}C</m> is approximately <m>334 \,joules/g</m> 
+        (79.7 calories/g), and the latent heat of vaporization at <m>100^{o}C</m> is about 2,230 joules per gram (or, 533 calories per gram) .
+  </p>
+ </subsection>
+
+<subsection xml:id="subsec-phase_change">
+  <title>Phase Changes of Matter</title>
+  <p>
+    We know that ice is solid water, even steam is water as well. Any material can exist 
+    in three different states solid, liquid, and gas are also known as the phases of matter. 
+    When ice is heated it melts into liquid water and then evaporates into water vapor. 
+    These changes from one phase to another are referred to as <term>phase changes</term>.
+  </p>
+  <figure xml:id="phasechanges">
+    <caption></caption>
+    <image source="phasechanges.png" width="40%"/>
+</figure>
+<p>
+  We may also have noticed that the temperature of water doesn't change during boiling. 
+  The temperature of water increases up to boiling and then remains constant as it boils. 
+  The following diagram illustrates the relationship between temperature and amount of heat 
+  needed to change the phases of water. We can see that the temperature increases as heat is 
+  added to water within a phase. Adding heat into the water increases the kinetic energy of 
+  water molecules within the ice. During the phase change, the added heat doesn't make the 
+  molecules move faster, but make them further apart. The heat energy added during the phase 
+  change is consumed to overcome intermolecular force of attraction and stored within 
+  the material in the form of potential energy of the molecules. Where amount of heat 
+  added to the system can be obtained by <m>Q_{1}= (mc\Delta T)_{ice},</m> 
+  <m>Q_{2}= (mL_{f})_{ice\to water}, </m> <m>Q_{3}= (mc\Delta T)_{water},</m> 
+  <m>Q_{4}= (mL_{v})_{water\to vapor},</m> and <m> Q_{5}= (mc\Delta T)_{vapor}.</m>
+</p>
+<p>
+  While cooling process heat is taken out from the system, then latent heat of vaporization 
+  becomes latent heat of condensation and latent heat of melting becomes latent heat of fusion. 
+  For water, latent heat of melting and latent heat of fusion are same. Similarly, 
+  latent heat of vaporization and latent heat of condensation are same but they are not 
+  same for many other materials.  Phase of matter changes from solid to liquid is called 
+  melting or <em>fusion</em>,  from solid to gas is called <em>sublimation</em>, from liquid to solid is called 
+  <em>freezing</em>, from liquid to gas is called <em>evaporation</em> or boiling, from gas to solid is called 
+  <em>deposition</em>, from gas to liquid is called <em>condensation</em>, from plasma state to gaseous state is 
+  called <em>recombination</em>, and from gaseous state to plasma state is called <em>ionization</em>.
+</p>
+</subsection>
+
+
+<subsection xml:id="subsec-calrmtr">
+  <title>Calorimetry</title>
+  <figure xml:id="calorim">
+    <caption></caption>
+    <image source="calorim.png" width="40%"/>
+</figure>
+  <p>
+    It is a process to measure amounts of heat (calories) transferred to or from a substance. 
+    A  device used to measure the amount of heat involved in the process is called a <term>calorimeter</term>. 
+    A basic calorimeter consists of a metal container of water, in which a thermometer is 
+    used to measure the change in water temperature and a stirrer to stir water frequently 
+    to maintain uniform temperature.  The principle of calorimetry states that in an 
+    isolated system heat lost by one component of calorimeter is equal to heat gained 
+    by the another components of the calorimeter. A <em>calorie</em> is the amount of energy 
+    required to raise one gram of water by one degree Celsius. From the principle of calorimetry, 
+    <me>
+      \sum Q = 0
+    </me>
+    i.e., heat loss = heat gain.
+    </p>
+</subsection>
+
+
+<subsection xml:id="subsec-triple_pnt">
+  <title>Triple Point of Water</title>
+  <figure xml:id="tpoint">
+    <caption></caption>
+    <image source="tpoint.png" width="40%"/>
+</figure>
+  <p>
+    It is a point in the phase diagram at which the solid, liquid, and vapor 
+    can co-exist. Phase diagram is characteristic curves of the material between pressure, 
+    volume, and temperature. Figure 10.8 is a PT curve shown as a phase diagram of water at constant volume. 
+    The of temperature at which the solid and liquid states are in equilibrium is called 
+    <em>melting point</em> and the line at which they co-exist is called the <em>ice line</em>. 
+    The temperatures at which the solid and gaseous states are in equilibrium is called <em>sublimation point</em> 
+    and the line at which they co-exist is called the <em>sublimation line</em> 
+    or hoar-frost line. The values of these temperatures change with the pressure. 
+    The steam line shows the variation of boiling point of water with the pressure. 
+    Ice line shows the variation of melting point of water with the pressure. 
+    The negative slope of this line shows the melting point of ice decreases with the 
+    increase of pressure.  Sublimation line or Hoar-frost line, shows the equilibrium 
+    between the ice and steam. These three lines meet at a single point 'p' called the 
+    <em>triple point of water</em>. The triple point of water is 273.16 K at pressure 0.006 atm pressure. 
+  </p>
+</subsection>
+
+
+<subsection xml:id="subsec-heat_trans">
+  <title>Heat Transfer</title>
+  <introduction>
+    <p>
+      It is process by which heat transfers from one location to another due to temperature difference. 
+      Heat can only flow from high temperature to low temperature.  There are three processes involved 
+      in heat transfer. They are conduction, convection, and radiation. 
+      <ol>
+        <li>
+          <title>Conduction</title>
+          <p>
+            In this process heat is transferred through stationary matter by physical contact. 
+            In microscopic level atoms and molecules are always in random motion at any temperature 
+            above absolute zero. When heated these particles (atoms and molecules) gain thermal 
+            energy and begin vibrating even higher amplitude knocking the neighboring particles. 
+            By doing so they impart some of their energy to their neighboring particles, and so on. 
+            Eventually heat is carried away from  one end of a substance to another. 
+            In conduction, heat carrying  particles do not physically move from its place rather 
+            they  transfer their energy to neighbors when they knock one another. 
+            Every time they knock pass some of their energy to next one and returns to their original place. 
+            Heat transfers from the burner of a stove through the bottom of a pan to food in the pan is 
+            transferred by conduction. Conduction occurs in all states of substances  
+            solid, liquid, and gas. In solids, conduction happens due to molecular vibration. 
+            In gases and liquids, it is due to collisions and diffusion of the molecules during their random motion.
+          </p>
+          <p>
+            Consider one end of a metallic bar [<xref ref="hotbar"/>] of length <m>l</m> and area of cross-section <m>A</m>  
+            is kept  at hot temperature <m>T_{h}^{o}C</m> and another end is kept at cold temperature 
+            <m>T_{c}^{o}C</m>, then the amount of heat, <m>Q</m> transfers through this bar 
+            at time <m>t</m> can be found experimentally as 
+            <men xml:id="eqn-heat_tr1">
+              Q \propto A 
+            </men>
+            <men xml:id="eqn-heat_tr2">
+              Q \propto \Delta T 
+            </men>
+            <men xml:id="eqn-heat_tr3">
+              Q  \propto \frac{1}{l}
+            </men>
+            <men xml:id="eqn-heat_tr4">
+              Q  \propto t 
+            </men>
+            combining these all, we get -
+         <me>
+          Hence,\quad Q \propto \frac{A \Delta T t}{l} 
+         </me>
+         <men xml:id="eqn-heat_tr5">
+          \therefore \quad Q =\frac{\kappa  A t \Delta T }{l}  =\frac{\kappa  A t \left(T_{h}-T_{c}\right) }{l} 
+         </men>
+         where <m>\kappa</m> is a proportionality constant, known as coefficient of thermal conduction 
+         or conductivity of a material. It is a material property. 
+          </p>
+          <figure xml:id="hotbar">
+            <caption></caption>
+            <image source="hotbar.png" width="40%"/>
+        </figure>
+          <p>
+            In differential form, 
+            <me>
+              \frac{\,dQ}{\,dt}=\kappa A \frac{\,dT}{\,dx}
+            </me>
+            where <m>\,dx</m> is a length of the bar. That is, the rate of heat flow at 
+            any point is proportional to the temperature gradient (how fast the temperature 
+            is changing with position). 
+            <me>
+              \frac{\,dQ}{\,dt}\propto \frac{\,dT}{\,dx} 
+            </me>
+            The ratio of thickness to the conductivity of a material can be known as <em>R-values</em>. Hence, 
+            <me>
+              R_{i} = \frac{l_{i}}{k_{i}}
+            </me>
+              and the rate of heat flow can be given by 
+              <me>
+                H  =\frac{Q}{t} = \frac{A \Delta T}{\sum R_{i}} 
+              </me>
+               </p>
+        </li>
+        <li>
+          <title>Convection</title>
+          <p>
+            In this process heat transfer occurs by the actual movement of fluid particles. 
+            Convection heat transfer is energy transport due to bulk fluid motion. 
+            Convection happens in gases and liquids. 
+          </p>
+          <figure xml:id="convec">
+            <caption></caption>
+            <image source="convec.png" width="30%"/>
+        </figure>
+          <p>
+            When a fluid is heated, its molecules which are in contact with the hot 
+            surface get hot and expand. That is, the fluid above a hot surface expands, 
+            becomes less dense, and rises. It carries the thermal energy along when rises up. 
+            The relatively cold fluid on the upper surface is heavier and sink down near the heat source. 
+            Hence a current of heat cycle develops in the convection process, called convection cycle. 
+            The rate of heat flow in convection process is given by
+           <men xml:id="eqn-heat_tr6">
+            H=\frac{Q}{t}=hA(T_{s}-T_{f})
+           </men>
+           
+            where <m>h</m> is known as convective heat transfer coefficient, <m>A</m> is surface area 
+            of fluid receiving heat, <m>T_{s},</m> and <m> T_{\infty}</m> are temperature of hot 
+            surface and cold fluid, respectively. The unit of <m>h</m> is <m>W/m^{2}.\,^{o}C.</m>
+          </p>
+        </li>
+        <li>
+          <title>Radiation</title>
+          <p>
+            It is the process in which heat transfer without the need of intervening medium. 
+            Heat transfer occurs in this process when electromagnetic waves emitted or absorbed. 
+            The warming of the earth surface by the Sun is due to radiation. Heat transfer by 
+            this process is the fastest one. All bodies above absolute zero emit thermal radiation. 
+            At room temperature the radiation is in the infrared range, wavelengths longer 
+            than those of the visible spectrum. In atomic domain, the radiation is caused 
+            because of oscillating ions and electrons in a warm solid are accelerating 
+            electric charges, such charges radiate. Different substances radiate with 
+            different efficiencies. The good radiator of radiation is a good absorber of radiation. 
+            A perfect absorber is called a <term>black body</term> (such perfection is not found in nature, 
+            but some things are close). Hence a black body is also a perfect radiator. 
+            A black body  absorbs and emits radiation of all most all frequencies. 
+            It was found experimentally that heat energy radiated per unit time per unit 
+            surface area of a perfectly black body is proportional to the fourth power of 
+            its absolute temperature. This statement is also called <term>Stefan-Boltzmann law</term>. 
+            That is, 
+            <me>
+              \frac{E}{tA}\propto T^{4}
+            </me>
+             <men xml:id="eqn-heat_tr7">
+              \therefore \quad P  =  \sigma A \epsilon T^{4}
+            </men>
+                      where <m>\sigma =  5.67\times10^{-8} \,W/m^{2}.K^{4}</m> is called Stefan-Boltzmann
+                      constant and <m>\epsilon</m> is called <em>emissivity</em> of the object. 
+                      For a perfect black body <m>\epsilon=1.</m>  If <m>T</m> and <m>T_{o} </m> 
+                      be the temperatures of the body and its surroundings then, net rate of heat loss, 
+                      <me>
+                        P=\sigma A \epsilon \left(T^{4}-T_{o}^{4}\right)
+                      </me>
+                        For any particular wavelength and temperature the amount of thermal radiation 
+                        emitted depends on the emissivity of the object's surface. <term>Emissivity</term> 
+                        is defined as the ratio of the energy radiated from a material's surface to 
+                        that radiated from a blackbody at the same temperature and wavelength under 
+                        the same viewing conditions. It is a dimensionless number between 0 (for a perfect reflector) 
+                        and 1 (for a perfect emitter). The emissivity of a surface depends not only on 
+                        the material but also on the <em>nature of the surface</em>. For example, a clean and 
+                        polished metal surface will have a low emissivity, whereas a roughened and 
+                        oxidized metal surface will have a high emissivity. The emissivity also depends 
+                        on the temperature of the surface as well as wavelength and angle.
+                    </p>
+        </li>
+      </ol>
+    </p>
+<p>
+  To calculate temperature, heat transfer, and energy balance in various systems or to 
+  understand the transfer of energy (heat) as electromagnetic radiation between 
+  objects the following terminologies are very important to know.
+  <ol>
+    <li>
+      <title><term>Emissive Power</term></title>
+      <p>
+        It is defined as the radiant energy emitted per unit time per unit surface 
+        area of the body at a particular temperature within a unit wavelength range.  
+        Emissive power represents the rate at which an object emits electromagnetic radiation, 
+        typically in the form of thermal radiation (infrared radiation) due to its temperature. 
+        Emissive power depends on the temperature of the object and its emissivity. 
+        Emissivity is a material property that describes how efficiently an object can emit 
+        radiation compared to an ideal black body, which has an emissivity of 1. 
+        Objects with higher emissivity values emit radiation more effectively. 
+      </p>
+    </li>
+    <li>
+      <title><term>Absorptive Power</term></title>
+      <p>
+        It is defined as the ratio of radiant energy absorbed per unit time per unit 
+        surface area of the body to the total energy falling per unit time on 
+        the same area at a particular temperature within a unit wavelength range. 
+        Absorptive power represents the ability of an object to absorb electromagnetic radiation. 
+        It is the complement of reflectivity and is related to how efficiently a material can absorb 
+        incoming radiation. Materials with high absorptivity values absorb more radiation 
+        and convert it into thermal energy. Absorptivity, like emissivity, is also a material 
+        property and varies with wavelength. It is a unitless value between 0 and 1.
+      </p>
+    </li>
+    <li>
+      <title><term>Kirchhoff's Law</term></title>
+      <p>
+        Kirchhoff has two fundamental principles in the study of thermal radiation 
+        and the behavior of materials with regard to electromagnetic radiation. 
+        The details of Kirchhoff's law is not a part of discussion here but only taken here for some information.
+        Kirchhoff's first law states that at any temperature, the ratio of the emissive power to the 
+        absorptive power for a given wavelength is the same for all bodies and is 
+        equal to the emissive power of a perfectly black body. 
+      </p>
+      <p>
+        In other words, this law states that the emissivity (<m>\epsilon</m>) of an object 
+        at a particular wavelength is equal to its absorptivity (<m>\alpha</m>) at that same wavelength. That is,
+        <me>
+          \epsilon (\lambda) = \alpha(\lambda)
+        </me>
+        the amount of radiation that an object emits at a specific wavelength is equal 
+        to the amount of radiation it absorbs at that same wavelength when the object 
+        is in thermal equilibrium with its surroundings.
+      </p> 
+      <p>
+        Kirchhoff's second law states that at every temperature and for every wavelength, 
+        the emissivity (<m>\epsilon</m>) of a perfect black body is equal to 1. That is,
+        <me>
+          \epsilon (\lambda) =1
+        </me>
+        a perfect black body is an idealized object that absorbs all incident radiation 
+        and emits radiation at the maximum possible rate for a given temperature. 
+        It is often used as a reference to compare the behavior of real objects in radiative heat transfer.
+      </p>
+    </li>
+  </ol>
+</p> 
+  </introduction>
+
+</subsection>
+
+
+<subsection xml:id="subsec-newton_cool">
+  <title>Newton's Law of Cooling</title>
+  <p>
+    The rate of loss of heat by a body is directly proportional to the 
+    temperature difference between the body and its surroundings, 
+    provided that the temperature difference is small.
+  </p>
+  <p>
+    Let <m>\theta</m> and <m> \theta_{o}</m> be the temperature of a body and 
+    its surroundings, respectively. Let <m>\frac{\,dQ}{\,dt}</m> be the rate 
+    of loss of heat, then from Newton's law of cooling -
+    <me>
+      \frac{\,dQ}{\,dt} \propto \left(\theta-\theta_{o}\right)
+    </me>
+    <men xml:id="eqn-newton_cool1">
+      \text{or,}\quad \frac{\,dQ}{\,dt} =\kappa \left(\theta-\theta_{o}\right) 
+    </men>
+    where <m> \kappa</m> is a constant. If <m>m</m> be the mass of a body and 
+   <m>c</m> be its specific heat capacity, then 
+   <me>
+    Q=mc\theta
+   </me>
+   <men xml:id="eqn-newton_cool2">
+    \therefore\quad \frac{\,dQ}{\,dt} = mc \frac{\,d\theta}{\,dt} 
+   </men>
+   From eqns. <xref ref="eqn-newton_cool1"/> and <xref ref="eqn-newton_cool2"/>we have -
+   <me>
+    mc \frac{\,d\theta}{\,dt} =\kappa \left(\theta-\theta_{o}\right)
+   </me>
+   <me>
+    \text{or,}\quad  \frac{\,d\theta}{\,dt} = \frac{\kappa}{mc}\left(\theta-\theta_{o}\right)
+   </me>
+   <me>
+    \therefore\quad  \frac{\,d\theta}{\,dt} \propto  \left(\theta-\theta_{o}\right) 
+   </me>
+   This is known as Newton's law of cooling. Here <m> \kappa,\, m</m> and <m>c</m> are constant.  
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-solar_const">
+  <title>Solar Constant</title>
+  <figure xml:id="solarconst">
+    <caption></caption>
+    <image source="solarconst.png" width="30%"/>
+</figure>
+  <p>
+    It is the rate at which solar energy received by the unit surface area of the earth, 
+    when it is placed at the mean sun-earth distance. Solar constant, <m>S = 1353 \,W/m^{2}.</m> <idx><h>solar constant</h></idx>
+  </p>
+  <p>
+    If <m>R_{s}</m> be the radius of the sun and <m>T</m> be its surface temperature, 
+    then by considering the sun as a perfect black body, solar energy radiated by 
+    the sun surface is given by 
+    <me>
+      P=\sigma \left(4\pi R_{s}^{2}\right) T^{4}
+    </me>
+    If <m>r=1.496\times10^{11} \,m</m> be the mean sun-earth distance then sun's 
+    energy is radiated in the spherical surface of area <m>4\pi r^{2} </m>. 
+    Hence the energy received by unit surface on the earth is 
+    <me>
+      S=\frac{P}{ 4\pi r^{2}}
+    </me>
+    <me>
+      = \frac{\sigma \left(4\pi R_{s}^{2}\right) T^{4}}{4\pi r^{2}} = \sigma T^{4}\left(\frac{R_{s}}{r}\right)^{2}
+    </me>
+    <me>
+      \text{or,}\quad T^{4}=\frac{S}{\sigma}\left(\frac{r}{R_{s}}\right)^{2}
+    </me>
+    <me>
+      \therefore\quad T =\sqrt[4]{\frac{S}{\sigma}\left(\frac{r}{R_{s}}\right)^{2}}
+    </me>
+    <me>
+      =\sqrt[4]{\frac{1353(W/m^{2})}{5.67\times 10^{-8}(W/m^{2})}\left(\frac{1.496\times 10^{11}\,m}{6.98\times10^{8}\,m}\right)^{2}} 
+    </me>
+    <me>
+      =5762 \,K
+    </me>
+     </p>
+</subsection>
+  </section>
+

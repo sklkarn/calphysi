@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<example>
+  <statement>
+    <p>
+      A body rotates according to the equation <m>\theta = At + Bt^{3}</m>, where 
+      <m>A = 10 \,rad/s</m> and <m>B = 2 \, rad/s^{3}</m>. Find: 
+      <ol marker="a.">
+        <li>
+          <m>\theta(2s)</m>
+        </li>
+        <li>
+          <m>\omega_{av}(0,2s)</m>
+        </li>
+        <li>
+         <m>\omega(3s)</m>
+        </li>
+        <li>
+         <m>\alpha_{av}(0,3s)</m>
+        </li>
+        <li>
+         <m>\alpha(4s).</m>
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>A = 10 \,rad/s,\, B = 2\, rad/s^{3} </m>
+            <ol marker="a.">
+        <li>
+         <me>
+          \theta(t)  =  A t  +  B t^{3}, 
+         </me>
+         <me>
+          \therefore \theta(2s) = 10\times 2+ 2\times 2^{3} = 36\, rad.
+         </me>
+           </li>
+        <li>
+          <me>
+            \omega_{av}  =   \frac{\theta_{2}-\theta_{1}}{t_{2}-t_{1}}; 
+          </me>
+          <me>
+            \therefore   \omega_{av}(0,2\,s)  = \frac{36-0}{2} =  18 \,rad/s 
+          </me>
+           </li>
+        <li>
+        <me>
+          \omega(t)  = \frac{\,d\theta}{\,dt} =  A  +  3 B t^{2};
+        </me>
+        <me>
+          \therefore \omega(3\,s)  =  10+3\times 2\times 3^{2} = 64 \,rad/s 
+        </me>
+           </li>
+        <li>
+         <me>
+          \alpha_{av}  = \frac{\omega_{2}-\omega_{1}}{t_{2}-t_{1}};
+         </me>
+         <me>
+          \therefore\alpha(0,3\,s) =\frac{64-10}{3} = 18 \,rad/s^{2}
+         </me>
+             </li>
+        <li>
+        <me>
+          \alpha (t) = \frac{\,d\omega}{\,dt} =  6 B t, 
+        </me>
+        <me>
+          \therefore\alpha(4\,s) =6\times2\times4= 48 \, rad/s^{2}.
+        </me>
+            </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates 
+      uniformly from rest. A small nail is embedded in the outer tread of the tire. 
+      After 100 revolutions the tire is rotating at 400 rpm. At that time, find each 
+      of the following: 
+      <ol marker="a.">
+        <li>
+          What is its angular acceleration? 
+        </li>
+        <li>
+          How much time did it take to get up to speed?
+        </li>
+        <li>
+          What is the speed of the nail? 
+        </li>
+        <li>
+          What is the acceleration of the nail? 
+        </li>
+        <li>
+          What is the moment of inertia of the wheel? 
+        </li>
+        <li>
+          What torque is required to make the wheel rotate? 
+        </li>
+        <li>
+          How much energy was imparted to the wheel? 
+        </li>
+        <li>
+          How much power is required to rotate the wheel? 
+        </li>
+        <li>
+          What is the angular momentum of the wheel?
+        </li>
+      </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>  Given: 
+      <me>
+       m  =  30 \,kg,\quad R  =  0.2 m,\quad  r  =  0.25 \,m,
+      </me>
+      <me>
+        \theta  =  100 \, rev (2\pi rad/rev)  =  628.3\, rad,
+      </me>
+      
+      <me>
+        \omega  =  400 \,rpm (2 \pi/60 \,rad/s)  =  41.89 \,rad/s,\quad  \omega_{o}=0	
+      </me>
+      <ol marker="a.">
+        <li>
+          <me>
+            \omega^{2}  = \omega^{2}_{o}  + 2 \alpha\theta, \quad \alpha =  1.396 \,rad/s^{2} 
+          </me>
+             </li>
+        <li>
+          <me>
+            \omega =  \omega_{o}  + \alpha t,\quad  t  =  30 \,s 
+          </me>
+               </li>
+        <li>
+          <me>
+            v  =  r\omega  =  10.47 \, m/s
+          </me>
+               </li>
+        <li>
+          <me>
+            a_{R}  =  r\omega^{2}  =  438.7 m/s,\quad a_{T} =  r \alpha  =  0.349 \,m/s,
+          </me>
+          <me>
+            a  = \sqrt{a_{R}^{2}+a_{T}^{2}} =  438.7 \,m/s
+          </me>
+                </li>
+        <li>
+          <me>
+            I  =  m R^{2}  =  1.2 \,kg.m^{2}
+          </me>
+                 </li>
+        <li>
+          <me>
+            \Gamma  =  I \alpha  =  1.675 \,N.m
+          </me>
+                  </li>
+        <li>
+          <me>
+            E  = \frac{1}{2} I \omega^{2}  =  1053\, J
+          </me>
+                 </li>
+        <li>
+         <me>
+          P  = \Gamma\omega  =  70.16 \,W	
+         </me>
+                </li>
+        <li>
+          <me>
+            L  =  I \omega  =  50.27 \,kg.m^{2}/s 
+          </me>
+               </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      An automobile engine with a moment of inertia of <m>10 \,kg.m^{2}</m> is revved up to 2400 rpm. 
+      The clutch is then popped and the car lurches forward. The effective moment of inertia of 
+      the clutch plate (including the gears, drive train, wheels, and mass of the car) is <m>200 \,kg.m^{2}</m>. 
+      <ol marker="a.">
+        <li>
+          What is the angular velocity of the clutch plate after the clutch is popped? 
+        </li>
+        <li>
+          If the gear ratio in the transmission is a 4 to 1 reduction, 
+          what is the angular velocity of the wheels after the clutch is popped?
+        </li>
+        <li>
+          If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?
+        </li>
+          </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            I_{1}  =  10 \,kg.m^{2}, \quad\omega_{1}  =  2400 \,rpm  =  251.3 \,rad/s,
+          </me>
+          <me>
+            I_{2}  =  200 \,kg.m^{2}, \quad I_{1} \omega_{1}  =  I_{2}\omega_{2},\quad \omega_{2}  =  12.57 \,rad/s
+          </me>
+                 </li>
+        <li>
+          <me>
+            \omega  =  \frac{1}{4} \omega_{2} =  3.142 \,rad/s 
+          </me>
+              </li>
+        <li>
+          <me>
+            v  =  r \omega, \quad r  =  0.3 \,m,\quad v  =  0.9425 \,m/s 
+          </me>
+                </li>
+          </ol>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m 
+      counterclockwise torque is applied. Determine the disk's angular velocity 
+      (in rpm) when it has rotated through four revolutions 
+      <ol marker="a.">
+        <li>
+          by applying the equation of angular motion <m>\Gamma = I \alpha </m> and 
+        </li>
+        <li>
+          by applying the principle of work and energy.
+        </li>
+                 </ol>
+        </p>
+  </statement>
+  <solution>
+    <image source ="midisk4a.png" width="40%"> </image>
+    <p>
+      Given: <m>\theta = 4 rev = 4\times 2\pi = 8 \pi \,rad, </m>
+      <me>
+        \Gamma = I\alpha =  \frac{1}{2}MR^{2}\alpha\quad 10 
+      </me>
+      <me>
+        =\frac{1}{2}20(0.25)^{2}\alpha \quad\Rightarrow\quad \alpha = 16 \,rad/s^{2} 
+      </me>
+           <ol marker="a.">
+        <li>
+          Now, <me>
+            \alpha=\frac{\,d\omega}{\,dt} =\frac{\,d\omega}{\,d\theta}\frac{\,d\theta}{\,dt} =\omega\frac{\,d\omega}{\,d\theta}
+          </me>
+          <me>
+            \therefore \alpha\,d\theta = \omega\,d\omega 
+          </me>
+          <me>
+            \text{or,}\quad  \int\limits_{0}^{\theta} \alpha\,d\theta  =\int\limits_{0}^{\omega} \omega\,d\omega 
+          </me>
+                   <me>
+            \text{or,}\quad  \alpha \theta =\frac{\omega^{2}}{2}
+          </me>
+          <me>
+            \therefore \omega = \sqrt{2\alpha\theta} = \sqrt{2\times16\times 8\pi} = 28.36 \,(\frac{rad}{s})
+          </me>
+          <me>
+            = 28.36 (\frac{rad}{s}) \times\frac{1}{2\pi}(\frac{rev}{rad-s})\times(\frac{60s}{1min}) = 271 \,\frac{rev}{min}
+          </me>
+              </li>
+        <li>
+          <me>
+            W=\frac{1}{2}I\omega^{2} 
+          </me>
+          <me>
+            \text{or,}\quad \Gamma\theta = \frac{1}{2}I\omega^{2}
+          </me>
+          <me>
+            \text{or,}\quad 10\times 8\pi = \frac{1}{2}\left(\frac{1}{2}\times20\times 0.25^{2}\right)\omega^{2} 
+          </me>
+          <me>
+            \therefore \omega = \sqrt{\frac{80\pi}{5\times0.25^{2}}} =28.36 \frac{rad}{s}=271 \,\frac{rev}{min}
+          </me>
+            </li>
+                 </ol>
+                   </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Two blocks of mass <m>m_{1}</m> and <m>m_{2}</m> are connected through a 
+      rope over a pulley of mass <m>M</m> and radius <m>R.</m> as shown in figure  
+      <image source ="rd9a.png" width="30%"> </image>. 
+      What is the acceleration of the blocks and the tension in the rope on either side of the pulley? 
+    </p>
+  </statement>
+  <solution>
+   
+    <p>
+      From figure <image source ="rd9b.png" width="30%"> </image>. 
+      <men xml:id="eqn-rd1">
+        \sum F_{x} = T_{1}=m_{1}a 
+      </men>
+      <men xml:id="eqn-rd2">
+        \sum F_{y} =N=m_{1}g 
+      </men>
+      <term>Note:</term> The tension on both sides a massive pulley must be different otherwise the pulley would not rotate.
+      From figure <image source ="rd9c.png" width="30%"> </image>. 
+      <me>
+        \sum \Gamma = T_{1}R-T_{2}R = -I\alpha  \quad\text{clkwise rotation} 
+      </me>
+      <me>
+        \text{or,}\quad T_{1}-T_{2} = -I\frac{\alpha }{R} =-I\frac{a }{R^{2}} \qquad [\because a=R\alpha]
+      </me>
+      <men xml:id="eqn-rd3">
+        \therefore \quad T_{1}-T_{2} = -\frac{1}{2}MR^{2}\frac{a }{R^{2}}    = -\frac{1}{2}Ma 
+      </men>
+     
+      From figure <image source ="rd9d.png" width="30%"> </image>
+      <me>
+        \sum F_{y} =m_{2}g-T_{2} =m_{2}a 
+      </me>
+            <men xml:id="eqn-rd4">
+        \therefore T_{2} = m_{2}g-m_{2}a
+      </men>
+      
+      Now from eqns. <xref ref="eqn-rd1"/> and <xref ref="eqn-rd3"/>,
+      <me>
+        m_{1}a- m_{2}g+m_{2}a = -\frac{1}{2}Ma
+      </me>
+      <me>
+        \text{or,}\quad \left[m_{1} + m_{2} +\frac{1}{2}M\right]a= m_{2}g
+      </me>
+      <men xml:id="eqn-rd5">
+        \therefore \quad a =\frac{m_{2}g}{\left[m_{1} + m_{2} +\frac{1}{2}M\right]} 
+      </men>
+      <men xml:id="eqn-rd6">
+        \therefore T_{1} = m_{1}a = \frac{m_{1}m_{2}g}{\left[m_{1} + m_{2} +\frac{1}{2}M\right]}
+      </men>
+      <men xml:id="eqn-rd7">
+        \therefore T_{2} = m_{2}g-m_{2}a = m_{2}g\left\{1-\frac{m_{2}}{\left[m_{1} + m_{2} +\frac{1}{2}M\right]}\right\}    
+      </men>          
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A yo-yo has a mass <m>M</m>, a moment of inertia <m>I</m>, and an inner radius <m>r.</m> 
+      A string is wrapped around the inner cylinder of the yo-yo. A person ties the string 
+      to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string 
+      but does not slip. Find the acceleration of the yo-yo.
+    </p>
+  </statement>
+  <solution>
+    <image source ="yo-yo.png" width="30%"> </image>
+    <p>
+      <men xml:id="eqn-yoyo1">
+        \sum F_{y} = mg-T =ma  \quad \Rightarrow \quad
+        T =mg-ma 
+      </men>
+      <me>
+        \sum \Gamma = Tr =I\alpha 
+      </me>
+           <men xml:id="eqn-yoyo2">
+      or, \quad T = \frac{I\alpha}{r} = \frac{Ia}{r^{2}}   \quad  [\because a=r\alpha] 
+      </men>
+        From eqns. <xref ref="eqn-yoyo1"/> and <xref ref="eqn-yoyo2"/>, we have -
+        <me>
+          mg=\frac{Ia}{r^{2}} +ma
+        </me>
+        <me>
+          \therefore\qquad a = \frac{mg}{\left(\frac{I}{r^{2}} +m\right)}
+        </me>
+        </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform 
+      cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is 
+      released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?
+    </p>
+    <image source ="rotd1.png" width="30%"> </image>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>M=20\,kg,\quad m=10\,kg, \quad h=3\,m, \quad R=10\,cm=0.1\,m, </m> and <m> v_{o}=0.</m>
+      Now, from free-body diagram [Figure b], 
+      <me>
+        \sum F_{y}= mg-T=ma
+      </me>
+      <men xml:id="eqn-rotd1">
+        \therefore \quad T=mg-ma  
+      </men>
+         From free-body diagram [Figure c],
+         <me>
+          \sum\Gamma = TR=I\alpha = \frac{1}{2}MR^{2}\frac{a}{R} \qquad [\because a=R\alpha]
+         </me>
+         <men xml:id="eqn-rotd2">
+          \therefore\quad T = \frac{M}{2}a 
+         </men>
+     From eqns.<xref ref="eqn-rotd1"/> and <xref ref="eqn-rotd2"/>, we have - 
+     <me>
+      \frac{M}{2}a  = mg-ma 
+     </me>
+     <men xml:id="eqn-rotd3">
+      \therefore\quad a = \frac{mg}{m+\frac{M}{2}} = \frac{10\times9.8}{10+\frac{20}{2}} =4.9\,m/s^{2}
+     </men>
+    Now well is 3m deep, so time taken by the block to reach at bottom of well is given by
+    <me>
+      h=v_{o}t+\frac{1}{2}at^{2} 
+    </me>
+    <me>
+      or,\quad 3=0+\frac{1}{2}\times 4.9 t^{2}
+    </me>
+    <me>
+      \therefore\quad t = \sqrt{\frac{6}{4.9}} = 1.10 \,s
+    </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an 
+      inclined plane 1 m long with one end 10 cm higher than the other. 
+      If the system is released from rest, 
+      <ol marker="a.">
+        <li>
+          What is the minimum coefficient of static friction that will cause the ring to roll without slipping?
+        </li>
+        <li>
+          How long does it take for the ring to get to the bottom of the incline?
+        </li>
+        <li>
+          How fast is the ring moving at that time?
+        </li>
+        <li>
+          What fraction of the kinetic energy of the ring is due to its rotation at that time?
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <image source ="rotd2.png" width="30%"> </image>
+    <p>
+      Given: <m>m=2\,kg, \quad w=mg, \quad R =\frac{d}{2} = \frac{10}{2} =5 \,cm =0.05\,m,</m>  
+      <m>l=1\,m, \quad h=10\,cm=0.1\,m, \quad v_{o}=0. </m>  From geometry of the figure,  
+      <me>
+        \sin\theta = \frac{h}{l} =\frac{0.1}{1} =0.1 
+      </me>
+      <me>
+       or,\quad \theta =\sin^{-1}(0.1) = 5.74^{o} 
+      </me>
+     <men xml:id="eqn-rotd4">
+      \sum F_{x} =w\sin\theta-f_{s} =ma  
+     </men>
+     <men xml:id="eqn-rotd5">
+      \sum F_{y} =N-w\cos\theta =0 
+     </men>
+     <men xml:id="eqn-rotd6">
+      \text{but}\quad f_{s} =\mu_{s}N  
+     </men>
+         </p>
+         <p>
+         <men xml:id="eqn-rotd7">
+          \text{and}\quad \Gamma = Rf_{s}=I \alpha
+         </men>
+         <men xml:id="eqn-rotd8">
+          \text{or,}\quad Rf_{s}=mR^{2} \frac{a}{R}\qquad \Rightarrow\quad f_{s} = ma 
+         </men>
+             For ring <m>I=mR^{2}</m> and <m> a=R\alpha.</m>
+          From eqns. <xref ref="eqn-rotd4"/> and <xref ref="eqn-rotd8"/>, we get -
+          <men xml:id="eqn-rotd9">
+            mg\sin\theta =2 ma  \qquad \Rightarrow\quad a = \frac{g\sin\theta}{2} =0.49m/s^{2} 
+          </men>
+                   Also from eqns. <xref ref="eqn-rotd5"/> and <xref ref="eqn-rotd6"/>, we get -
+                   <men xml:id="eqn-rotd10">
+                    \mu_{s}mg\cos\theta = ma \qquad \Rightarrow\quad a = \mu_{s}g\cos\theta  
+                   </men>
+            <ol marker="a.">
+            <li>
+              From eqns. <xref ref="eqn-rotd9"/> and <xref ref="eqn-rotd10"/>, we get -
+              <me>
+                \frac{g\sin\theta}{2} = \mu_{s}g\cos\theta 
+              </me>
+              <me>
+                \therefore \quad \mu_{s} = \frac{\tan\theta}{2} = 0.05
+              </me>
+                </li>
+            <li>
+             <me>
+              s=v_{o}t+\frac{1}{2}at^{2}\quad t=\sqrt{\frac{2s}{a}} = \sqrt{\frac{2\times 1}{0.49}} =2.02 s
+             </me>
+                  </li>
+            <li>
+              <me>
+                v_{f}^{2}=v_{o}^{2}+2as
+              </me>
+              <me>
+                \therefore v_{f} = \sqrt{2as}  =\sqrt{2\times0.49\times1} = 0.99 m/s 
+              </me>
+                  </li>
+            <li>
+              <me>
+                E_{top} =E_{bottom} 
+              </me>
+              <me>
+                \text{or,}\quad mgh = \frac{1}{2}mv_{f}^{2}+ \frac{1}{2}I\omega_{f}^{2} 
+              </me>
+              <me>
+                \therefore \quad \frac{KE_{rot}}{KE_{total}} = \frac{\frac{1}{2}mR^{2}\frac{v_{f}^{2}}{R^{2}}}{mgh}
+              </me>
+              <me>
+                =\frac{v_{f}^{2}}{2gh} = \frac{1}{2}
+              </me>
+                  </li>
+          </ol>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A block of mass <m>m_{b}</m> and a disk of mass <m>m_{d}</m> and radius <m>r</m> 
+      are placed on a symmetric triangular slope connected with a massless string over 
+      a massless pulley [Figure (a)]. The string is connected to a center 
+      axle of the disk so that the disk is free to rotate. The moment of inertia of the 
+      disk about its axle is <m>I =\frac{1}{2}m_{d}r^{2}.</m>  The coefficient of static 
+      friction between the slope and the block/disk is  0.05 and the coefficient of
+       kinetic friction between the slope and the block/disk is 0.15. The angle <m>\theta </m> 
+       is <m> 30^{o}.</m> Find the maximum ratio <m> \frac{m_{b}}{m_{d}} </m> 
+       such that the disk still rolls without slipping up the hill. 
+    </p>
+    <image source ="rd10.png" width="30%"> </image>
+  </statement>
+  <solution>
+    <p>
+      Since the disk is rolling without slipping, the maximum friction acting on 
+      the point of contact of disk and ramp must be static (i.e., <m>0\leq f_{s}\leq \mu_{s}N</m>). 
+      Now, whether the system is accelerating or not for the maximum ratio of <m>\frac{m_{b}}{m_{d}} </m> 
+      can be determined by the evaluation of final equation.  From the free-body diagram construct 
+      equations as shown below. From [Figure (b)] consider the disk is accelerating upwards 
+      with an acceleration <m>a</m> for now, then
+      <image source ="rd10a.png" width="30%"> </image>
+      <men xml:id="eqn-trngrol1">
+        \sum F_{x}= T-m_{d}g\sin\theta-f_{s}=m_{d}a 
+      </men>
+      <men xml:id="eqn-trngrol2">
+        \sum F_{y} = N_{d}-m_{d}g\cos\theta=0 
+      </men>
+      <men xml:id="eqn-trngrol3">
+        \text{but,}\quad f_{s} = \mu_{s}N_{d}
+      </men>
+      <men xml:id="eqn-trngrol4">
+        \text{and}\quad \sum\Gamma = -f_{s}r = -I\alpha  
+      </men>
+      <me>
+        \therefore f_{s}r = I\alpha  
+      </me>
+      <me>
+        \text{or,}\quad \mu_{s}N_{d}r= \mu_{s}m_{d}g\cos\theta r= \frac{1}{2}m_{d}r^{2}\left(\frac{a}{r}\right)\quad [\because a=r\alpha]
+      </me>
+      <men xml:id="eqn-trngrol5">
+        \therefore\quad a=2\mu_{s}g\cos\theta = 2\times0.05\times9.8\times\cos(30^{o}) =0.85\,m/s^{2}   
+      </men>
+      <image source ="rd10b.png" width="30%"> </image>
+      From [Figure (c)] the disk is accelerating downwards with an acceleration <m>a</m> 
+      because the block is connected to the disk through same rope via massless and 
+      frictionless pulley and hence has the same tension and acceleration, therefore 
+      <men xml:id="eqn-trngrol6">
+        \sum F_{x} = m_{b}g\sin\theta -f_{k}-T = m_{b}a  
+      </men>
+      <men xml:id="eqn-trngrol7">
+        \sum F_{y} = N_{b}-m_{b}g\sin\theta  = 0 
+      </men> 
+    </p>
+    <p>
+ <men xml:id="eqn-trngrol8">
+  \text{but}\quad f_{k}=\mu_{k}N_{b} 
+ </men>
+ Now from eqns. <xref ref="eqn-trngrol1"/>, <xref ref="eqn-trngrol2"/> and <xref ref="eqn-trngrol3"/>, we get - 
+ <men xml:id="eqn-trngrol9">
+  T = m_{d}g\sin\theta +\mu_{s}m_{d}g\cos\theta +m_{d}a  
+ </men>
+ and from eqns. <xref ref="eqn-trngrol6"/>, <xref ref="eqn-trngrol7"/> and <xref ref="eqn-trngrol8"/>, we get - 
+ <men xml:id="eqn-trngrol10">
+  T = m_{b}g\sin\theta -\mu_{k}m_{b}g\cos\theta -m_{b}a 
+ </men>
+Hence from eqns. <xref ref="eqn-trngrol9"/> and <xref ref="eqn-trngrol10"/>, and we have -
+<me>
+  m_{b}\left[g\sin\theta -\mu_{k}g\cos\theta -a\right] = m_{d}\left[g\sin\theta +\mu_{s}g\cos\theta +a\right]
+</me>
+<me>
+  \therefore \quad \frac{m_{b}}{m_{d}} = \frac{\left[g\sin\theta +\mu_{s}g\cos\theta +a\right]}{\left[g\sin\theta -\mu_{k}g\cos\theta -a\right] }
+</me>
+<me>
+  =  \frac{5.32+0.85}{3.63-0.85} = 2.22
+</me>
+If the system is not accelerating but moving with constant velocity, 
+then <m>a=0.</m> Hence in that case 
+<me>
+  \frac{m_{b}}{m_{d}} = \frac{\left[g\sin\theta +\mu_{s}g\cos\theta \right]}{\left[g\sin\theta -\mu_{k}g\cos\theta \right] } 
+</me>
+<me>
+  =\frac{5.32}{3.63} = 1.46
+</me>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring 
+      is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N/m, 
+      and 
+      <ol marker="a.">
+        <li>
+          if the disk rolls without slipping, what is its angular acceleration at the instant it is released?
+        </li>
+        <li>
+          What is the minimum coefficient of static friction for which the disk will not slip when it is released?
+        </li>
+      </ol>
+      </p>
+  </statement>
+  <solution>
+    <image source ="rd11.png" width="35%"> </image>
+    <p>
+      Given: <m>x_{o} =-0.5\,m,\quad m=45\,kg, \quad  R=0.3\,m, \quad  k=600\,N/m.</m> 
+From free-body diagram, 
+<me>
+  \sum F_{x} = F_{s}-f_{s} =ma\quad \text{and}\quad \sum F_{y} = N-mg =0
+</me>
+<me>
+  \sum \Gamma = -f_{s}R =-I\alpha
+</me>
+<me>
+  or,\quad f_{s}R =\frac{1}{2}mR^{2}\frac{a}{R}
+</me>
+<me>
+  \text{or,}\quad f_{s} =\frac{1}{2}ma
+</me>
+<ol marker="a.">
+  <li>
+   <me>
+    \text{or,}\quad F_{s}-\frac{1}{2}ma =ma
+   </me>
+   <me>
+    \text{or,}\quad  a= \frac{2F_{s}}{3m} = \frac{-2 kx_{o}}{3m} = \frac{2\times 600\times 0.5}{3\times45}= 4.45 \,m/s^{2}
+   </me>
+   <me>
+    \therefore\quad \alpha = \frac{a}{R} = \frac{4.45}{0.3} = -14.81 \,rad/s^{2} \quad (clockwise)
+   </me>
+      </li>
+  <li>
+    <me>
+      F_{s}-f_{s} = ma = 2f_{s}
+    </me>
+    <me>
+      \text{or,}\quad -kx_{o} =3f_{s} = 3\mu_{s} N = 3\times\mu_{s}\times mg
+    </me>
+    <me>
+      \therefore\quad \mu_{s} = -\frac{kx_{o}}{3mg} =\frac{600\times 0.5}{3\times45\times9.8} = 0.23
+    </me>
+     </li>
+</ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. 
+      The rod rotates with an angular speed <m>\omega</m> about an axis perpendicular to 
+      the xy-plane and that passes through one of its ends, point O as shown in figure. 
+      The center of mass of the disk is at a distance l with respect to point O. 
+      Calculate the angular momentum about this point.
+    </p>
+    <image source ="angmomnt3.png" width="35%"> </image>
+  </statement>
+  <solution>
+    <p>
+      The angular momentum of a composite object is obtained as the sum of the 
+      angular momentum of each of its constituents.
+      <me>
+        L_{o} = L_{o}^{rod}+L_{o}^{disk}  =  I_{o}^{rod}\omega +I_{o}^{disk}\omega 
+      </me>
+      <me>
+        = \omega\left(I_{o}^{rod} + I_{o}^{disk}\right)
+      </me>
+            The composites have same angular velocity, <m>\omega</m>. Now, 
+            moment of inertia of a rod about its end, 
+            <me>
+              I_{o}^{rod} = \frac{ML^{2}}{3}
+            </me>
+                  Also, moment of inertia of a disk about point <m>O</m>using parallel axis theorem, 
+                  <me>
+                    I_{o}^{disk} = \frac{1}{2}mR^{2}+ml^{2}
+                  </me>
+                  <me>
+                    \therefore \quad L_{o} = \left(\frac{ML^{2}}{3}+ \frac{1}{2}mR^{2}+ml^{2}\right)\omega
+                  </me>
+             </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A small ball of mass <m>m</m> traveling with initial velocity <m>v_{o}</m> hits a disk 
+      at rest of mass <m>M=2m</m> and radius <m>r</m> at a vertical distance <m>d=\frac{r}{4}</m> 
+      from the disk's center. The ball bounces back horizontally with a velocity <m>v_{b}</m> 
+      and the disk begins rolling without slipping. 
+      Find the velocity of the disk after it has begun rolling without slipping.
+    </p>
+    <image source ="consL.png" width="35%"> </image>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        \Delta L = I\Delta\omega = r\Delta p 
+      </me>
+      <me>
+        \text{or,}\quad  \left(I_{1}+I_{2}\right)(\omega_{f}-\omega_{i}) = \left(r+d\right)\left(p_{i}-p_{f}\right)
+      </me>
+      <me>
+        \text{or,}\quad  \left(\frac{1}{2}Mr^{2}+Mr^{2}\right)\omega_{f} = \left(r+\frac{r}{4}\right)\left[mv_{o}-(-mv_{b})\right] 
+      </me>
+      <m>[\because I=I_{cm}+mD^{2}]</m>
+    <me>
+      \text{or,}\quad \frac{3}{2}Mr^{2}\left(\frac{v_{disk}}{r}\right) = \left(\frac{5r}{4}\right)\left[v_{o}+v_{b}\right]m
+    </me>
+    <me>
+      \text{or,}\quad \frac{3}{2}(2m)rv_{disk} = \left(\frac{5r}{4}\right)\left[v_{o}+v_{b}\right]m
+    </me>
+    <me>
+      \therefore\quad v_{disk} = \left(\frac{5}{12}\right)\left[v_{o}+v_{b}\right]
+    </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A uniform thin rod of length <m>L (m)</m>  and mass <m>M (kg)</m> can rotate in a 
+      horizontal plane about a vertical axis through its center. The rod is at 
+      rest when a bullet of mass <m>m (kg)</m> traveling in the horizontal plane of 
+      the rod is fired into one end of the rod. The direction of the bullet's velocity 
+      makes an angle <m>\alpha</m> degrees  with the rod. If the bullet lodges in the 
+      rod and the angular velocity of the rod is <m>\omega</m> rad/s immediately 
+      after the collision, what is the magnitude of the bullet's velocity, <m>v_{b}</m>  m/s 
+      just before impact? Determine the kinetic energy of the bullet before the 
+      collision and total rotational kinetic energy after the collision.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        L_{o} = L_{f}
+      </me>
+      <me>
+        m(\vec{r}\times \vec{v}_{b}) +0 = I_{rod}\omega_{rod}+I_{b}\omega_{b}
+      </me>
+      <me>
+        mv_{b}\frac{L}{2}\sin\alpha = \left[\frac{1}{12}ML^{2}+m\left(\frac{L}{2}\right)^{2}\right]\omega
+      </me>
+      <me>
+        \therefore\quad v_{b}= \left[\frac{ML+3mL}{6m\sin\alpha}\right]\omega 
+      </me>
+           Kinetic energy of bullet before collision, 
+           <me>
+            KE=\frac{1}{2}mv_{b}^{2}
+           </me>
+               and total rotational kinetic energy after the collision, 
+               <me>
+                KE_{rot} = \frac{1}{2}I_{rod}\omega^{2}+\frac{1}{2}I_{b}\omega^{2} 
+               </me>
+               </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A disk is spinning at a rate of 10 rad/s. A second disk of the same mass and shape, 
+      with no spin, is placed on top of the first disk. Friction acts between the 
+      two disks until both are eventually traveling at the same speed. What is the 
+      final angular velocity of the two disks?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        L_{o} = L_{f}
+      </me>
+      <me>
+        I_{o}\omega_{o} = I_{f}\omega_{f}
+      </me>
+      <me>
+        \therefore \omega_{f} = \frac{I_{o}\omega_{o} }{I_{f} }
+      </me>
+      <me>
+        =\frac{I_{o}\omega_{o}}{I_{f}^{I disk}+I_{f}^{II disk}} 
+      </me>
+      <me>
+        =\frac{\frac{1}{2}MR^{2}10}{\frac{1}{2}MR^{2}+\frac{1}{2}MR^{2}} = 5 \,rad/s
+      </me>
+          </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A particle attached to a string of length 2 m is given an initial velocity of 6 m/s. 
+      The string is attached to a peg and, as the particle rotates about the peg, the 
+      string winds around the peg. What length of string has wound around the peg 
+      when the velocity of the particle is 20 m/s?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      when string is winding around the peg its length decreases gradually 
+      causing the radius of rotation to decrease accordingly. Hence its  moment 
+      of inertia decreases gradually and from conservation of angular momentum, 
+      angular velocity of the particle increases gradually. 
+      <me>
+        L_{o} = L_{f}
+      </me>
+      <me>
+        I_{o}\omega_{o} = I_{f}\omega_{f}
+      </me>
+      <me>
+        I_{o}\frac{v_{o} }{R}=  I_{f}\frac{v_{f} }{r}
+      </me>
+      <me>
+        mR^{2}\frac{6}{2} = mr^{2}\frac{20 }{r}
+      </me>
+      <me>
+        3\times 2^{2} = 20r \qquad \therefore \quad r = \frac{3}{5} = 0.6\,m
+      </me>
+            Hence <m>2-0.6=0.4 m</m> of string has already wound around the peg when the velocity is 20 m/s.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A rotating round object has an initial angular velocity <m>\omega_{o}</m> 
+      placed onto the horizontal surface. It rolls with slipping till achieve a 
+      final angular velocity <m>\omega</m>. If moment of inertia of the body is 
+      <m>I = \gamma mr^{2}</m>. 
+      <ol marker="a.">
+        <li>
+          Find <m>\omega </m>. 
+        </li>
+        <li>
+          If <m>\omega = \frac{2}{5} \omega_{o}</m> find the shape of the round object.
+        </li>
+      </ol>
+    </p>
+    <image source ="rwithslipping.png" width="35%"> </image>
+  </statement>
+  <solution>
+    <p>
+      when rotating object is placed on the surface its initial velocity <m>v_{o} =0.</m> 
+      Now due to frction translational velocity of the object is reduced after a time <m>t</m> 
+      when object starts rolling without slipping with an angular velocity <m>\omega.</m>
+      <men xml:id="eqn-rwslip1">
+        v =v_{o}+at  
+      </men>
+      <me>
+        f_{k} = ma = \mu_{k}mg 
+      </me>
+      <men xml:id="eqn-rwslip2">
+        \Rightarrow a = \mu_{k}g 
+      </men>
+     <men xml:id="eqn-rwslip3">
+      \therefore \quad v = -\mu_{k}g  \quad[\because \quad v_{o}=0] 
+     </men>
+  also, 
+  <men xml:id="eqn-rwslip4">
+    \omega =\omega_{o}+\alpha t  
+  </men>
+  <me>
+    \tau = I\alpha = f_{k}r 
+  </me>
+  <men xml:id="eqn-rwslip5">
+    \therefore \quad \alpha = \frac{\mu_{k}mgr}{I} = \frac{\mu_{k}mgr}{\gamma mr^{2}} = \frac{\mu_{k}g}{\gamma r} 
+  </men>
+  After time <m>t</m> on rolling without slipping, 
+  <me>
+    v=r\omega
+  </me>
+  <me>
+    -\mu_{k}g t =r\left(\omega_{o}+\alpha t  \right) = r\left(\omega_{o}+\frac{\mu_{k}g t}{\gamma r}  \right)
+  </me>
+  <me>
+    \therefore\quad t = -\frac{r\omega_{o}\gamma}{\mu_{k}g (\gamma+1)}  
+  </me>
+  <ol marker="a.">
+    <li>
+     <me>
+      \omega = \omega_{o} \left[\frac{\gamma }{\gamma +1}\right]
+     </me>
+         </li>
+    <li>
+     <me>
+      \frac{2}{5}\omega_{o}= \omega_{o}\left[\frac{\gamma }{\gamma +1}\right] \Rightarrow \gamma = \frac{2}{3}
+     </me>
+     Hence the round object is a hollow sphere.
+    </li>
+  </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <p>
+    Find the acceleration of a spherical ball rolling down the hill without slipping.
+  </p>
+<hint>
+  <p>
+    <me>\tau = I \alpha</me>
+    <me>\tau = f\times r </me>
+    <me>
+      f=\mu N
+    </me>
+    <me>
+      F=ma
+    </me>
+    <me>
+      mg\sin\theta -f = ma
+    </me>
+    <me>
+      \therefore\, a= \frac{5}{7} g\sin\theta
+    </me>
+      </p>
+</hint>
+</example>
+</section>

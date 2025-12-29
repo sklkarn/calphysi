@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_eighth" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Elasticity</title>
+    
+  <introduction>
+    <p>
+      The property of a material by virtue of which it regains its original shape and size 
+      after removal of deforming force is known as elasticity. The elastic properties of 
+      matter are a manifestation of the molecular forces that hold solids together. 
+      Elasticity is a fundamental concept in the study of the mechanical behavior of 
+      solids and is related to the deformation and restoration of materials when subjected to stress or strain. 
+      A regular, periodically repeated, three-dimensional array of the atoms or molecules comprising 
+      the solid are called <term>lattice structure</term>.
+    </p>
+      
+      </introduction>
+
+ 
+   <xi:include href="./sec_eighth-intro.ptx" />
+
+  <xi:include href="./sec_eighth-examplesA.ptx" />  
+
+  <xi:include href="./ex_eighth.ptx"/>
+
+</chapter>

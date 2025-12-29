@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples A</title>
+  
+  <paragraphs>
+    <title>Work</title>
+    
+<example>
+  <statement>
+    <p>
+      A man pushes a cart on a railway platform which has a rough surface. 
+      He applies a force of 100 N over a distance of 10 m. Thereafter, he 
+      gets tired and his force reduces gradually to 50 N. The total distance 
+      through which the cart has been moved is 20 m. Plot the force applied by 
+      the man and the frictional force of 50N versus displacement. Calculate the 
+      work done by the man and the frictional force.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Work done by a man = Area under the F-x curve. 
+      Therefore <m>W_{m}</m> = Area of a rectangle I +Area of a trapezium II. 
+      <me>
+        W_{m} = \left(100\times10\right)+\left(\frac{1}{2} (100+50)\times10\right) =1750 J
+      </me>
+      Work done by a frictional force, <m>W_{f}</m>= Area of a rectangle III. 
+      <me>
+        W_{f} =  \left(-50\times20\right) = -1000 J
+      </me>
+       </p>
+       <image source="ec5.png" width="30%"> </image> 
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Given the vectors 
+      <m>
+        \vec{A}  =  3 \hat{i} + 4 \hat{j}
+      </m>
+       and 
+       <m>
+        \vec{B} =  \hat{i} - 2 \hat{j} + 2 \hat{k}
+       </m>
+       Find 
+       <ol marker="a.">
+        <li>
+          the magnitude of each vector and
+        </li>
+        <li>
+          the angle between them.
+        </li>
+       </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            A^{2}  = \vec{A} \cdot\vec{A}  =  3^{2} + 4^{2} = 25;
+          </me>
+          <me>
+            \therefore A  =  \sqrt{25}=5
+          </me>
+          <me>
+            B^{2}  =  \vec{B} \cdot\vec{B}  =  (1)^{2} + (-2)^{2} + 2^{2}  = 9;
+          </me>
+          <me>
+            \therefore B  =  \sqrt{9}=3.
+          </me>
+          </li>
+        <li>
+         <me>
+          \vec{A} \cdot\vec{B}   =  A B \cos\theta 
+         </me>
+         or,
+         <me>
+          A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z} = \left[\sqrt{A^{2}_{x}+A^{2}_{y}+A^{2}_{z}} \sqrt{B^{2}_{x}+B^{2}_{y}+B^{2}_{z}}\right]\cos\theta
+         </me>
+         or, 
+         <me>
+           (3)(1) + (4)(-2) + (0)(2)= \sqrt{9+16+0}\sqrt{1+4+4}\cos\theta
+         </me>
+         <me>
+          \text{or,}\quad -5 = 15\cos\theta \quad \Rightarrow \quad \cos\theta = -\frac{1}{3} 
+         </me>
+         <me>
+          or, \quad \theta = \cos^{-1}\left(-\frac{1}{3}\right) = 109.5^{o}
+         </me>
+          </li>
+       </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A force is described as <m>\vec{F}  =  axy \hat{i} + bx^{2} \hat{j}</m>, 
+      where <m>a = 4 N/m^{2}</m> and <m>b = 2 N/m^{2}</m>. Find the work done by 
+      this force along the straight line path   <image source="ec2.png" width="30%"> </image> 
+      <ol marker="a.">
+        <li>
+          from (0,0) to (0,10m),
+        </li>
+        <li>
+          from (0,10m) to (5m, 10m),
+        </li>
+        <li>
+          from (0,0) to (5m, 10m). 
+        </li>
+       </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            W =\int\vec{F}\cdot\,d\vec{r} = \int F_{x}\,dx+\int F_{y}\,dy+\int F_{z}\,dz 
+          </me>
+          <me>
+            =\int\limits_{0}^{0} axy\,dx + \int\limits_{0}^{10} bx^{2}\,dy =0
+          </me>
+          Since along (0,0) to (0,10 m), we have <m>x=0</m>, <m>\,dx=0</m>, and <m>y=0 \oslash 10m</m>.
+         </li>
+        <li>
+         <me>
+          W =\int\vec{F}\cdot\,d\vec{r} = \int F_{x}\,dx+\int F_{y}\,dy+\int F_{z}\,dz 
+         </me>
+         <me>
+          =\int axy\,dx	 + \int bx^{2}\,dy
+         </me>
+         Along path (0,10 m) to (5 m, 10 m), we have <m>x=0 \oslash 5m, </m> and <m>\,dy=0, \quad y=10m</m>. So 
+         <me>
+          W= ay \int\limits_{0}^{5} x\,dx	 + \int\limits_{10}^{10} bx^{2}\,dy 
+         </me>
+         <me>
+          = \left(\frac{1}{2}ay\right)\left[x^{2}\right]_{0}^{5}
+         </me>
+           <me>
+          = \left(\frac{1}{2}\times4\times10\right)\times5^{2}=500 J
+         </me>
+        </li>
+        <li>
+          <me>
+            W =\int\vec{F}\cdot\,d\vec{r} = \int F_{x}\,dx+\int F_{y}\,dy+\int F_{z}\,dz 
+          </me>
+          <me>
+            =\int axy\,dx	 + \int bx^{2}\,dy 
+          </me>
+           Along path c, <m>y=2x,</m>  and <m>x=0 \oslash 5m,</m> so <m>\,dy=2\,dx.</m> Hence
+          <me>
+            W=  \int\limits_{0}^{5} ax(2x)\,dx	+ \int\limits_{0}^{5} bx^{2}2\,dx =2\left(a+b\right)\int\limits_{0}^{5} x^{2}\,dx
+          </me>
+          <me>
+            = 2(a+b)\frac{x^{3}}{3}  = 2(a+b)\left.\frac{x^{3}}{3}\right\vert_{0}^{5} = 2(4+2)\frac{5^{3}}{3} =500 J
+          </me>
+           </li>
+       </ol>
+        </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A horizontal force of 1000 N moves a block of mass 100 kg along a horizontal 
+      plane in a straight line of length 2 m. If the block starts from rest and if 
+      the coefficient of friction is 0.2, how much work is done 
+      <ol marker="a.">
+        <li>
+          by the force, 
+        </li>
+        <li>
+          by gravity, and 
+        </li>
+        <li>
+          by friction. 
+        </li>
+        <li>
+          How fast will the block be moving when it gets to the other end of the plane?
+        </li>
+       </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <m>F  =  1000 N, \quad	m  =  100 kg, \quad x  =  2 m,	\quad \mu  =  0.2,\quad  v_{o}  =  0.</m>
+      Equations:
+      <me>
+        \sum F_{x} = F - f = ma; \quad \sum F_{y}  =  N - w = 0; \quad w  =  mg= 980 N = N; 
+      </me>
+      <me>
+        f  =  \mu N= 196 N
+      </me>
+        </p>
+        <p>
+          <ol marker="a.">
+            <li>
+              <me>
+                W_{F}  =  \int  \vec{F} \cdot \vec{\,dr}  = \int F \,dr  =  F x  =  (1000 N)(2 m)  =  2000 J
+              </me>
+               </li>
+            <li>
+              <me>
+                W_{g}  =  \int  \vec{w}\cdot\vec{\,dr}  =  \int w \,dr\cos\theta  =  w x \cos(90^{o}) =  0 J
+              </me>
+             </li>
+            <li>
+              <me>
+                W_{f}  =  \int  \vec{f}\cdot\vec{\,dr}  =  \int f \,d r \cos\theta  =  f x \cos(180^{o}) =  - f x  =  -392 J
+              </me>
+               </li>
+            <li>
+              <me>
+                v^{2}  = v^{2}_{o} + 2 a x;\quad a  =  8.04 m/s^{2}; \quad \therefore v  =  5.67 m/s
+              </me>
+              </li>
+           </ol>
+        </p>
+  </solution>
+</example>
+
+</paragraphs>
+
+<paragraphs>
+  <title>Energy</title>
+  <example>
+    <statement>
+      <p>
+        A block of mass <m>500 \,g</m> moving initially at <m>2\, m/s</m> slides across 
+        a horizontal table coming to rest after sliding <m>2 \,m</m>. 
+        <ol marker="a.">
+          <li>
+            What is the coefficient of sliding friction between block and table? 
+          </li>
+          <li>
+            How much energy was converted into heat by friction? 
+          </li>
+        </ol>
+       </p>
+    </statement>
+    <solution>
+      <image source="wec2a.png" width="30%"> </image> 
+      <p>
+        Given: <m>m=500 g=0.5kg, \quad v_{i}=2 m/s,\quad v_{f}=0, \quad d=2m.</m>
+         </p>
+      <ol marker="a.">
+        <li>
+          <p>
+            <me>
+              \Delta k=W =f\cdot d = KE_{f}-KE_{i}
+            </me>
+            <men xml:id="eqn-work_prob1">
+              -\mu N d=0-\frac{1}{2}mv_{i}^{2} 
+            </men>
+            <me>
+              \sum F_{y} =N-mg=0 
+            </me>
+            <men xml:id="eqn-work_prob2">
+             N=mg 
+            </men>
+       <me>
+        \text{or,}\quad \mu mg d=\frac{1}{2}mv^{2}
+       </me>
+       <me>
+        \therefore \mu =\frac{v^{2}}{2gd} = \frac{2^{2}}{2\times 9.8\times2} =0.1
+       </me>
+        </p>
+        </li>
+        <li>
+          <p>
+            Heat dissipation = 
+            <me>
+              W_{f} =f\cdot d =\mu\cdot mg d = 0.1\times 0.5\times 9.8\times2 = 0.98 \,J.
+            </me>
+             </p>
+        </li>
+      </ol>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <image source="wec1a.png" width="30%"> </image>
+      <p>
+        A 2 kg mass is dropped from a height of 1 m onto a spring of force constant 200 N/m. 
+        Assuming the spring has no mass and there is no friction, 
+          <ol marker="a.">
+          <li>
+            How far is the spring compressed? 
+          </li>
+          <li>
+            What is the maximum speed attained by the mass?
+          </li>
+        </ol>
+        </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m  =  2 \,kg, \quad y_{o}  =  1 m,\quad k  =  200 \,N/m. </m> 
+      </p>
+      <p>
+      <ol marker="a.">
+        <li>
+          From conservation of energy, <m>E_{A} = E_{B} = E_{C}.</m>
+        <me>
+          KE_{A}+PE_{A}+PE_{si}=KE_{B}+PE_{B}+PE_{sf}
+        </me>
+        <me>
+          \text{or,}\quad E_{A} = mgy_{o}  = E_{B} = \frac{1}{2}kx^{2}-mgx
+        </me>
+        <me>
+          \text{or,}\quad \frac{1}{2}kx^{2}-mgx-mgy_{o}=0
+        </me>
+        <me>
+          \text{or,}\quad \frac{1}{2}(200)x^{2}-2\times 9.8 x -2\times9.8\times 1=0 
+        </me>
+        <me>
+          \text{or,}\quad 100x^{2}-19.6x-19.6=0
+        </me>
+        <me>
+          \text{or,}\quad x = \frac{19.6\pm\sqrt{19.6^{2}+4\times 100\times19.6}}{2\times 19.6} 
+        </me>
+        <me>
+          \therefore x =  0.551 \,m \quad\text{or}, -0.36 \,m
+        </me>
+        Where, <m>x=-0.36\,m</m> lies above reference line hence get discarded. 
+        <me>
+          \therefore x=0.551\,m.
+        </me>
+         </li>
+         <li>
+          Let <m>x'</m> be the new equilibrium position for mass and spring system. 
+          At point C, <m>F = w.</m>
+          <me>
+            \therefore\quad kx' =mg \quad \Rightarrow\quad x'=\frac{mg}{k} = 0.098 \,m
+          </me>
+            Now, <m>x'</m> is new equilibrium position but spring is still compressed 
+            from its original length hence spring contains some potential energy. 
+          Therefore, energy at point B, <m>E_{B}</m> = total energy at new mean position, <m>E_{C}</m>.
+          <me>
+            \frac{1}{2}kx^{2}-mgx+0=\frac{1}{2}kx'^{2}-mgx'+\frac{1}{2}mv_{max}^{2}
+          </me>
+          <me>
+            \text{or,}\quad mgy_{o}=\frac{1}{2}kx'^{2}-mgx'+\frac{1}{2}mv_{max}^{2} 
+          </me>
+          <me>
+            \text{or,}\quad \frac{1}{2}mv_{max}^{2}  =mgy_{o}-\frac{1}{2}kx'^{2}+mgx'
+          </me>
+           On solving this equation, we get - 
+           <me>
+            v_{max}=\sqrt{19.6-100\times 0.551^{2}+19.6\times0.098}=4.53 \,m/s.
+           </me>
+          </li>
+      </ol>
+    </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A spherical meteor of density <m>4 \,g/cm^{3}</m> and diameter <m>1 \,km</m> falls onto the 
+        earth from a long distance. 
+        <ol marker="a.">
+          <li>
+            How much energy would it have when it hit the earth? 
+          </li>
+          <li>
+            How how fast would it hit the earth?
+          </li>
+          <li>
+            If this energy were used to boil water at the rate of <m>2.256\times 10^{6} \,J/kg</m>, what volume of water would be vaporized?
+          </li>
+          <li>
+            How big a cube would this be? 
+          </li>
+        </ol>
+        </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <me>\rho =4 \,g/cm^{3}=4000 \,kg/m^{3},\quad  r=0.5\times 10^{3} \,m, \quad R = 6.38\times 10^{6} \,m, </me> 
+        <me> M=5.97\times10^{24} \,kg, \quad G=6.67\times10^{-11} \,Nm^{2}/kg^{2},</me> 
+        <me>L_{v}=2.256\times10^{6} \,J/kg, \quad \rho_{o} =1000 \,kg/m^{3},</me>
+        <me>  m=V\rho=\frac{4}{3}\pi r^{3}\rho = 2.094\times10^{12} \,kg</me>
+      </p>
+        <ol marker="a.">
+          <li>
+            <p>
+              <me>
+                PE_{\infty}=KE_{e}+PE_{e} 
+               </me>
+               <me>
+                0=\frac{1}{2}mv^{2}-\frac{GMm}{R}
+               </me>
+               <me>
+                \therefore E_{e}= \frac{1}{2}mv^{2} = \frac{GMm}{R} 
+               </me>
+               <me>
+                =\frac{(6.67\times10^{-11})(5.97\times10^{24})(2.094\times10^{12})}{6.38\times 10^{6}} 
+               </me> 
+               <me>
+                =1.307\times10^{20} \,J
+               </me>
+              </p>
+          </li>
+          <li>
+            <p>
+              <me>
+                \frac{1}{2}mv^{2} =1.307\times10^{20}
+              </me>
+              <me>
+                \therefore v=\sqrt{\frac{2E_{e}}{m}}=\sqrt{\frac{2(1.307\times10^{20})}{(2.094\times10^{12})}} =1.117\times10^{4} \,m/s
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              <me>
+                Q=E_{e} =m_{o}L_{v} = V_{o}\rho_{o}L_{v}
+              </me>
+              <me>
+                \text{or,}\quad  V_{o} = \frac{E_{e}}{\rho_{o}L_{v}} = \frac{(1.307\times10^{20})}{(1000) (2.256\times10^{6})} = 5.79\times10^{10}m^{3}
+              </me>
+            </p>
+          </li>
+          <li>
+            <p>
+              <me>
+                V_{o}=L^{3} \quad \Rightarrow L=\sqrt[3]{V_{o}}  = 3.87\times10^{3} \,m
+               </me>
+            </p>
+          </li>
+        </ol>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A small mass of 0.8 kg is launched by a compressed spring with force constant, 
+        <m>k=600 \,N/m.</m> The block slides along a horizontal frictionless surface and then 
+        up an inclined plane that makes an angle <m>\theta=30^{o}</m> with the horizontal. 
+        The coefficient of kinetic friction between the block and inclined plane is 
+        <m>\mu_{k}=0.2. </m> Find the maximum height, <m>h</m> reached by the block.
+        </p>
+        <image source="ce2.png" width="35%"> </image>
+    </statement>
+    <solution>
+      <image source="ce2b.png" width="40%"> </image>
+      <p>
+        Given: <m>k=600 \,N/m, \quad m=0.8 \,kg, \quad \theta=30^{o},\quad \mu_{k}=0.2, \quad x=0.12 \,m</m>
+          </p>
+      <p>
+        Now from, <me>
+          E_{i}=E_{f},
+        </me>
+        we have - 
+        <me>
+          \frac{1}{2}kx^{2}=\frac{1}{2}mv^{2}\quad \Rightarrow\quad v=\frac{kx^{2}}{m}=3.29 \,m/s 
+        </me>
+        On inclined plane,
+        <men xml:id="eqn-Spcon_energy1">
+          N=mg\cos\theta 
+        </men>
+        <men xml:id="eqn-Spcon_energy2">
+          mg\sin\theta +f_{k} = ma_{x} 
+        </men>
+        <me>
+          mg\sin\theta +\mu_{k}mg\cos\theta = ma_{x}
+        </me>
+        <me>
+          \therefore \quad a_{x} = g\left(\sin\theta +\mu_{k}\cos\theta\right) = 6.60 \,m/s^{2}
+        </me>
+        <me>
+          v_{f}^{2}=v_{i}^{2}-2a_{x}d
+        </me>
+        <me>
+          \text{or,}\quad 0=3.29^{2}-2(6.60)d  \qquad \Rightarrow\quad d=0.82 \,m
+        </me>
+        <me>
+          \text{Hence,}\quad \sin\theta=\frac{h}{d} \quad \Rightarrow\quad h=d\sin\theta = 0.41 \,m 
+        </me>
+         </p>
+         <p>
+          <term>Alternative:</term> 
+          <me>
+            \frac{1}{2}mv^{2}-f_{k}d = mgh
+          </me>
+        </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A spring-like trampoline dips down 0.07 m when a person stands on it. If this person jumps up to 
+        a height of 0.31 m above the top of the uncompressed trampoline, how far will the trampoline 
+        compress after the person lands on it?
+      </p>
+    </statement>
+    <solution>
+      <image source="trampoline.png" width="40%"> </image>
+      <p>
+        On a person-trampoline system equilibrium, restoring force due to trmpoline balances the weight of a person, i.e.,
+         </p>
+      <p>
+        <men xml:id="eqn-trampol1">
+          F_{s} =kx=mg 
+        </men>
+              After the trampoline compressed to a depth <m>y=x+x_{1}</m> 
+              when a person jumps from a height <m>h</m>, we have from principle of conservation of energy
+              <me>
+                \frac{1}{2} ky^{2} -mgx-mgx_{1}= mgh
+              </me>
+              <me>
+                \text{or,}\quad \frac{1}{2} ky^{2} - mgy = mgh
+              </me>
+              <me>
+                \text{or,}\quad \frac{1}{2} ky^{2} = mg(y+h) =kx(y+h)
+              </me>
+              <me>
+                \text{or,}\quad  y^{2} -2xy-2xh=0 
+              </me>
+              <me>
+                \therefore \quad y= 0.2897 \,m
+              </me>
+              
+            </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A block of mass 0.5 kg is pressed against a spring of spring constant 100 N/m on 
+        a horizontal surface as shown in the figure below. The spring block system is 
+        compressed to a distance of 20 cm and then released. The block slides a total distance of 
+        1 m before coming to rest. 
+          <ol marker="a.">
+          <li>
+            What is the coefficient of sliding friction between block and surface? 
+          </li>
+          <li>
+            What is the maximum speed the block attains throughout its motion? <xref ref="sec_seventh-oscil"/>
+          </li>
+        </ol>
+        </p>
+    </statement>
+    <solution>
+      <image source="cofenergy1.png" width="40%"> </image>
+      <p>
+        Given: <m>m = 0.5 \,kg, \quad k = 100 \,N/m, \quad x_{1} = 0.2 m,\quad x_{2} = 1 \,m. </m>
+     </p>
+     <p>
+      <ol marker="a.">
+        <li>
+         <me>
+          E_{i}  =  E_{f} + W_{f},
+         </me>
+         <me>
+          E_{i}  =  \frac{1}{2} k x^{2}_{1} = 2\,J,
+         </me>
+         <me>
+          E_{f} =  0, \quad  W_{f}  =f .x_{2} =  2 \,J, \quad \therefore \quad f  =  2\, N.
+         </me>
+         <me>
+          w  = mg = 4.9\, N, \quad f  =  \mu N, \quad  N  =  w =  4.9 \,N,
+         </me>
+         <me>
+          \therefore \quad \mu  =  0.408.
+         </me>
+       </li>
+        <li>
+          At point <m>x</m> before origin, frictional force and restoring force must be equal.
+        Hence <me>f = F = -kx.</me>
+        <me>
+          \therefore, \quad x = - F/k = -2/100 = -0.02 \,m. 
+        </me>
+            Now, workdone on the block by a spring or a friction, 
+            <me>
+              W_{fb}  =  F (x1 - x) = 2(0.2-0.02) = 0.36 \,J.
+            </me>
+            At this point the block attains maximum speed.
+            <me>
+              \frac{1}{2} k x_{1}^{2}- W_{fb} =  \frac{1}{2} m v^{2}
+            </me>
+            <me>
+              \therefore \quad	v  =  2.56 \,m/s
+            </me>
+          </li>
+      </ol>
+     </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A car of mass m in an amusement park ride rolls down a loop-the-loop track. 
+        If the car starts out at height h, rolls without friction, and makes a loop of radius R, 
+        <ol marker="a.">
+          <li>
+            what is the minimum value of h that will allow the car to make the loop without falling off the track?
+          </li>
+          <li>
+            What is the speed of the car at the top of the loop?
+          </li>
+          <li>
+            What is the speed of the car at the bottom of the loop?
+          </li>
+          <li>
+            What is the speed of the car when it is located at a point level with the center of the loop? 
+          </li>
+          <li>
+            How many g's of force do the passengers experience at that time?
+          </li>
+          <li>
+            What is the magnitude of the acceleration of the car at that time?
+          </li>
+        </ol>
+       </p>
+    </statement>
+    <solution>
+      <p>
+        <me>
+          E_{1} = E_{a},\quad E_{1} = mgh, \quad E_{a} = \frac{1}{2} m v_{a}^{2} + mgy_{a},
+         </me>
+         <me>
+          y_{a} = 2R,\quad w = m a_{R}, \quad a_{R} =  v^{2}_{a}/R, \quad w  =  m g,
+         </me>
+        </p>
+        <p>
+        <ol marker="a.">
+          <li>
+          <me>
+            h  =  \frac{5}{2} R,
+          </me>
+         </li>
+          <li>
+            <me>
+              v_{a}  = \sqrt{Rg}
+            </me>
+            </li>
+          <li>
+            <me>
+              E_{1} = E_{c}, \quad E_{c} = \frac{1}{2} m v_{c}^{2}, \quad v_{c}  = \sqrt{5Rg}, 
+            </me>
+             </li>
+          <li>
+            <me>
+              E_{1} = E_{d}, \quad E_{a} = \frac{1}{2} m v_{d}^{2} + mgy_{d}, \quad y_{d} = R, \quad     v_{d}  = \sqrt{3Rg} 
+            </me>
+            </li>
+          <li>
+            <me>
+              \sum F_{R}  =  N  =  m v^{2}_{d}/R, \quad \#g's  =  \frac{N}{w},  \quad \#g's  =  3 
+            </me>
+            </li>
+          <li>
+            <me>
+              a_{R}  =  v^{2}_{d}/R  =  3 g, \quad a_{T}  =  g, \quad 
+            </me>
+            <me>
+              a  =\sqrt{a_{R}^{2}+a_{T}^{2}},\quad  a=\sqrt{10} g  =  3.16 \, g
+            </me>
+             </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A small object is placed at the very top of a spherical ball of radius 1 m. 
+        If there is no friction between the object and the ball, the object is in unstable 
+        equilibrium and eventually will slide off the ball. How far will the object move 
+        downward before leaving the surface of the ball?
+      </p>
+    </statement>
+    <solution>
+      <image source="consE2.png" width="35%"> </image>
+      <p>
+        Given: <m>r=1m, f=0,\quad x=?</m>. 
+        </p>
+      <p>
+        Suppose the ball of mass <m>m</m> is sliding down the sphere on a circular track. 
+        The necessary centripetal force <m>F_{c}</m> is then provided by the radial 
+        component of its weight and the normal force. 
+        <me>
+          mg\cos\theta -N = \frac{mv^{2}}{r} 
+        </me>
+        At the point where the ball leaves the sphere normal force must be zero, i.e., 
+        <me>
+          N=0.
+        </me>
+      <me>
+        \therefore mg\cos\theta = \frac{mv^{2}}{r};
+      </me>
+      <me>
+        \text{or,} \hspace{3pt} \cos\theta = \frac{v^{2}}{rg}
+      </me>
+      <men xml:id="eqn-cir_track1">
+        \text{or,}\quad v^{2} =rg\cos\theta  
+      </men>
+   From the principle of conservation of energy, we have -
+   <me>
+    PE_{A}+KE_{A}=PE_{B}+KE_{B}
+   </me>
+   Assume B is a point where ball leaves the sphere.
+      </p>
+      <p>
+        <me>
+          mg(2r) +0 = mg(h+r)+\frac{1}{2}mv^{2} 
+        </me>
+        <me>
+          \text{or,} \quad 2gr = g(r\cos\theta+r) +\frac{v^{2}}{r} \quad [\because h=OB\cos\theta =r\cos\theta]
+        </me>
+        <me>
+          \text{or,} \quad 2gr-gr(1+\cos\theta)=\frac{1}{2}(gr\cos\theta) 
+        </me>
+        from eqn. <xref ref="eqn-cir_track1"/>.
+       <me>
+        text{or,} \quad  1-\cos\theta =\frac{\cos\theta }{2}
+       </me>
+       <me>
+        \text{or,} \quad  1=\frac{3}{2}\cos\theta
+       </me>
+       <me>
+        \theta = \cos^{-1}\left(\frac{2}{3}\right)=48^{o} 
+       </me>
+       <me>
+        \therefore x=r\theta = 1m\times \frac{\pi}{180}\times 48^{o} =0.84 \,m
+       </me>
+       [using radian formula]
+<me>
+  \text{or,}\quad y = 2r-(h+r) = r-h = r-r\cos\theta = r\left(1-\frac{2}{3}\right) = \frac{1}{3}r
+</me>
+where <m>x</m> and <m>y</m> are the distance on the surface of sphere and depth below point 
+<m>A</m> at which the ball left the sphere.
+</p>
+    </solution>
+  </example>
+</paragraphs>
+
+<paragraphs>
+  <title>Power</title>
+  
+   
+<example>
+  <statement>
+    <p>
+      Work is done according to the equation <m>W  =  10 t^{3}</m> in the MKS system. Find 
+      <ol marker="a.">
+        <li>
+          W(2),
+        </li>
+        <li>
+          <m>P_{av}(0,2),</m>
+        </li>
+        <li>
+          P(3).
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            W  =  10 t^{3} \qquad \therefore W(2)  =  10 (2)^{3}  =  80 \,J	
+          </me>
+         </li>
+        <li>
+         <me>
+          P_{av}  = \frac{\,dW}{\,dt} = \frac{(W_{2} - W_{1})}{(t_{2} - t_{1})} 
+         </me>
+         <me>
+          \therefore P(0,2) = \frac{(W(2) - W(0))}{(2 - 0)} = 40\, W 
+         </me>
+          </li>
+          <li>
+            <me>
+              P  =  \frac{\,dW}{\,dt}  =  30 t^{2}\qquad \therefore P(3)  = 30 (3)^{2}  =  270 \,W
+            </me>
+           </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Power is expended according to the equation <m>P  =  10 t^{3}</m> in the MKS system. Find 
+      <ol marker="a.">
+        <li>
+          W(2),
+        </li>
+        <li>
+          <m>P_{av}(0,2),</m>
+        </li>
+        <li>
+          P(3).
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+         <me>
+          W  = \int\limits_{0}^{t}P\,dt =\int\limits_{0}^{t}10 t^{3}\,dt= 2.5 t^{4}
+         </me>
+         <me>
+          \therefore W(2)  =  2.5 (2)4  =  40 J
+         </me>
+           </li>
+        <li>
+        <me>
+          P_{av}  = \frac{\,dW}{\,dt} =  \frac{(W_{2} - W_{1})}{(t_{2} - t_{1})}
+        </me>
+      <me>
+        \therefore P(0,2) = \frac{(W(2) - W(0))}{2-0}= 20 \,W
+      </me>
+        </li>
+        <li>
+        <me>
+          P  =  10 t^{3}\qquad \therefore P(3)  = 10 (3)3  =  270 \,W
+        </me>
+         </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      An electrically powered conveyor belt 10 m long is tilted and used to lift bricks to the top 
+      of a building 5 m high. The belt will hold 100 bricks of mass 2 kg and makes one revolution 
+      every minute.  
+      <ol marker="a.">
+        <li>
+          How long does it take to transport a given brick from the bottom of the belt to the top? 
+        </li>
+        <li>
+          What is the minimum electrical power required to run the conveyor belt motor? (Also express answer in horsepower.) 
+        </li>
+        <li>
+          What is the minimum force required to move the bricks up the incline?
+        </li>
+        <li>
+          If the coefficient of friction between belt and the surface that supports it is 0.3, 
+          what is the actual force required to move the bricks? 
+        </li>
+        <li>
+          What is the AMA of this machine?  
+        </li>
+        <li>
+          What is the IMA of this machine? 
+        </li>
+        <li>
+          What is the efficiency of this machine? 
+        </li>
+        <li>
+          What is the actual power required to operate the machine?
+          </li>
+      </ol>
+    </p>
+      </statement>
+  <solution>
+    <p>
+      Given: <m>L = 10 \,m, \quad y = 5 \,m, 	\quad N = 100, \quad m_{1} = 2 \,kg, \quad  f  =  1 </m> rev/min = 0.016667 Hz.
+      <image source="power6.png" width="30%"> </image> 
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            T = 1/f, \quad T  =  60 \,s,  \quad t  =  T/2 ,  \quad t  =  30 \,s
+          </me>
+            </li>
+        <li>
+          <me>
+            P = W/t,\quad m  =  200 \,kg, \quad W = w y,\quad w  =  1960 \,N,
+          </me>
+          <me>
+            w  =  m g,\quad W  =  9800 \,J,
+          </me>
+           <me>
+            m  =  N m_{1},\quad  P  =  326.67 \,W,\quad  P  =  327 W  =  0.438\, hp, 
+          </me>
+          <m> \because(746 \,W  =  1 \,hp)</m>
+          </li>
+        <li>
+          <me>
+            P  =  F v,\quad  v  =  0.33333\, m/s, \quad v  = L/t,
+          </me> 
+          <me>
+            F  =  P/v  =  980\, N, \quad  F  =  980 \,N
+          </me>
+          </li>
+        <li>
+          <me>
+            \mu = 0.3,\quad \sin\theta  =  y/L,\quad	\theta  =  30^{o};
+          </me>
+          <me>
+            \sum F_{x} = F_{a} - f - w \sin\theta =0,\quad N =980 \,N, 
+          </me>
+          <me>
+            \sum F_{y}  =  N - w \cos\theta = 0,
+          </me>
+            <me>
+            f  =  294 N, \quad f  =  \mu N,\quad	Fa  =  1274 \,N
+          </me>
+           </li>
+        <li>
+         <me>
+          AMA  =  \frac{F_{out}}{F_{in}}  =  \frac{w}{F_{a}}, \quad	AMA = 1.538 \simeq  1.54 \,N
+         </me>
+         </li>
+        <li>
+         <me>
+          IMA  = \frac{d_{in}}{d_{out}}  = \frac{L}{y},	\quad IMA  =  2
+         </me>
+         </li>
+        <li>
+          <me>
+            \varepsilon =  \frac{AMA}{IMA}, \quad  \varepsilon   \simeq  76.9 \% 
+          </me>
+          </li>
+        <li>
+         <me>
+          \varepsilon =  \frac{P_{out}}{P_{in}}  =  \frac{P}{P_{a}},	\quad P_{a}  =  424.667 \,W  \simeq  425 \,W  =  0.569 \,hp
+         </me>
+         </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+</paragraphs>
+</section>

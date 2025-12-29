@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Physical Quantities</title>
+  <introduction>
+    <p>
+      There are three fundamental physical quantities, length, mass, and time which 
+      are independent to one another. However, to completely express our daily life 
+      physical events these three quantities would not be sufficient so some more physical 
+      quantities were included later in the list of fundamental quantity and are altogether 
+      known as the base quantities. Their units are called  <em>fundamental or base units</em>. 
+      The units of  all other physical quantities can be expressed  as combinations of the 
+      base units. Such units obtained for the physical quantities are called the  
+      <em>derived units</em>. A complete set of these  units, both the  base  units  
+      and  derived  units,  is known as the system of units. The diverse human history 
+      and geo-political issues gave birth to many systems of units some of them are now 
+      obsolete and some of them are still in use at different parts of world. 
+      The three different systems of units are considered here for discussion. 
+      They are FPS (foot pound second), MKS (meter kilogram second) systems, and  CGS 
+      (centimeter gram second). The FPS system  of units is  also called British system 
+      and  MKS system is also called a metric  system. The metric system is  a  
+      decimalized  system  of  measurement developed  in France  in late <m>18^{th}</m> 
+      century. Since  the metric  system  is  almost  universally  used,  it  is  
+      often  referred to  as  the  International  System  of Units and abbreviated SI. 
+      Since SI units use decimal system, unit conversion within the system is quite simple 
+      and convenient. The systems of units are summarized in <alert>table 1.1</alert>.
+    </p> 
+   
+    
+    <table>
+      <title>Physical Quantities and their Units</title>
+      <tabular halign="center">
+      <row header="yes" bottom="minor" >
+       <cell>Physicqal Quantity</cell>
+      <cell>SI Units </cell>
+      <cell>Symbol</cell>
+      </row>
+      <row>
+      <cell>Length</cell>
+      <cell> Meter</cell>
+      <cell> m</cell>
+       </row>
+      <row>
+      <cell>Mass</cell>
+      <cell>Kilogram</cell>
+      <cell>kg</cell>
+      </row>
+      <row>
+      <cell>Time</cell>
+      <cell>Second</cell>
+      <cell>s</cell>
+      </row>
+      <row>
+      <cell>Electric Current</cell>
+      <cell>Ampere</cell>
+      <cell>A</cell>
+     </row>
+      <row>
+      <cell>Temperature</cell>
+      <cell>Kelvin </cell>
+      <cell> K </cell>
+     </row>
+      <row>
+      <cell>Amount of substance</cell>
+      <cell>Mole</cell>
+      <cell>mol</cell>
+      </row>
+      <row>
+      <cell>Luminous Intensity</cell>
+      <cell>Candela </cell>
+      <cell>cd</cell>
+      </row>
+      <row>
+      <cell>Plane Angle</cell>
+      <cell>Radian</cell>
+      <cell>rad</cell>
+      </row>
+      <row>
+      <cell>Solid Angle</cell>
+      <cell>steradian</cell>
+      <cell>sterad</cell>
+      </row>
+      </tabular>
+      </table>
+    
+  <p>
+    Definitions: A <term>meter</term> is the length of the path traveled by light in 
+    vacuum during a time interval of <m>1/299,792,458</m> second. <term>Kilogram</term> is the mass of a platinum-iridium alloy cylinder stored 
+      in the International Bureau of Weights and Measures at Saint-Cloud, 
+      France.  A <term>second</term> is the time that elapses during <m>9192631770</m> cycles 
+      of a cesium-133 atomic clock. An <term>ampere</term> is the current which would produce a force <m>2\times 10^{-7}</m> 
+      Newton per meter if passes through two negligibly thin straight parallel 
+      conductors of infinite length when placed at 1 meter apart in vacuum. 
+      <term>Kelvin</term> is a temperature which defines the triple point of water 
+      as 273.16 K. A <term>mole</term> is the amount of substance that contains as many elementary 
+      entities as there are atoms in exactly 12 grams of carbon-12 isotope. 
+      One mole of anything is equal to Avogadro's number. <term>Candela</term> is the intensity of a light source that emits monochromatic 
+      radiation of frequency <m>540\times 10^{12}</m> hertz and has 
+      a radiant intensity <m>\frac{1}{683}</m> watt per steradian in the same direction. 
+      <term>Radian</term> is the ratio of length of arc <m>\,ds</m> to the radius 
+      <m>r</m> of a circle [<xref ref="fig1a"/>]. <term>Sterad</term> is the ratio of the intercepted area <m>\,dA</m> 
+      of the spherical surface, described about the apex O as the center, 
+      to the square of its radius <m>r</m> [<xref ref="fig1b"/>].
+
+  </p>
+    <figure>
+      <caption>Plane (a) and solid angle (b) </caption>
+        <sidebyside widths="20% 25%">
+            <figure xml:id="fig1a">
+                <caption></caption>
+                <image source="fig1a.png"/>
+            </figure>
+            <figure xml:id="fig1b">
+                <caption></caption>
+                <image source="fig1b.png"/>
+            </figure>
+          </sidebyside>
+        </figure>
+   
+      </introduction>
+
+  <subsection xml:id="subsec_dimanal-subsection">
+    <title>Derived Units</title>
+    <introduction>
+      
+   <p>
+    Derived units are the unit of such physical quantities which depends on 
+    the base physical quantities via a mathematical relation between them. 
+    Some of the derived units are expressed below. </p>
+    <p>
+<ol>
+  <li>
+   <p>
+    <term>Area</term> =<m>Length \times Length = L^{2}</m> 
+   </p>
+    <p>
+      i.e. <m>m^{2}</m> in SI system, 
+      <m>cm^{2}</m> in CGS system, and <m>ft^{2}</m> in FPS system.
+    </p>
+  </li>
+  <li>
+     <p>
+      <term>Density</term> =<m>\frac{mass}{volume}=\frac{M}{L^{3}}</m> 
+     </p>
+     <p>
+      i.e. 
+      <m>kg/m^{3}</m> in SI system, <m>g/cm^{3}</m> in CGS system, and <m>lb/ft^{3}</m> in FPS system, 
+      (lb stands for pound).
+     </p>
+    </li>
+  <li> <p>
+    <term>Speed</term> =<m>\frac{length}{time}</m> 
+  </p>
+     
+     <p>
+      i.e. 
+      <m>m/s</m> in SI system, <m>cm/s</m> in CGS system, and <m>ft/s</m> in FPS system.
+     </p>
+     </li>
+  <li>
+    <p>
+      <term>Electric resistance</term> = <m>\frac{\text{electric potential difference}}{current}</m> 
+    </p>
+     <p>
+      i.e. 
+      <m>V/A = kgm^{2}/A^{2}s^{3}=\Omega (Ohm)</m> in SI system.
+     </p>
+    </li>
+  <li>
+      <p>
+        <term>Magnetic flux</term> =electric potential <m>\times time</m> 
+      </p>
+       <p>
+        i.e. <m>Vs</m> or wb (weber) in SI system.
+       </p>
+    </li>
+</ol>  
+</p>
+</introduction>
+
+<subsubsection xml:id="subsubsec-diamanlysis">
+  <title>Dimensional Analysis</title>
+  <p>
+    We can express the derived physical quantity by the dimensions of the base quantities. 
+    The dimensions of mass, length, and time are written as [M], [L], and [T], respectively. 
+    The square brackets round the letter represent dimensions of a base quantity. 
+    The dimensions of any other quantity will involve one or more of these basic dimensions. 
+    For example, the  volume occupied by an object can be expressed as a product of length, 
+    breadth, and height, hence the dimensions of volume are <m>[L]\times [L]\times [L]=[L]^{3}</m>. 
+    Similarly, velocity is a distance divided by a time, and hence the dimensions of velocity 
+    are  <m>[L][T]^{-1}</m>. The dimensional equations of speed [v], force [F] and mass 
+    density <m>[\rho]</m> can be expressed as <m>[v]=[M^{o}LT^{-1}]</m>, <m>[F]=[MLT^{-2}]</m>, 
+    and <m>[\rho]=[ML^{-3}T^{o}]</m>.
+  </p>
+  <p>
+    Dimensional analysis is a method in which the relationship between different physical 
+    quantities (or units) can be analyzed by identifying their base quantities (or units). 
+    Dimensional analysis helps convert the  units of one system into another system or 
+    helps check the resulting formula in a physical process. Some quantities have no 
+    dimensions and they are called dimensionless quantities, e.g. the ratio of two 
+    lengths are dimensionless. The dimensional consistency does  not guarantee the 
+    correctness of equations. It is uncertain to the extent of dimensionless  quantities 
+    or functions. Dimensional analysis is based on the principle of homogeneity which 
+    states that the dimensions of both sides of an equation are same.  For example, 
+    in the equation below dimension on left is equal to dimension on right. 
+    <me>
+      x=x_{o}+v_{o}t+\frac{1}{2}at^{2}.
+    </me>
+  </p>
+    <p> To verify that let us use the principle of homogeneity, i.e.,
+      <me>
+        [L]=[L]+[LT^{-1}][T] + [LT^{-2}][T]^{2} = [L]+[L]+[L] =3[L]
+      </me>
+which implies that both sides of the equation has the same dimension, hence  this 
+equation is a dimensionally correct. It must be noted that  a dimensionally correct 
+equation  need not be an  exact (correct) equation, but a dimensionally wrong (incorrect) 
+equation must be wrong. </p>
+<p>
+Use principle of homogeneity to find the time period of the oscillation of a 
+simple pendulum  which is dependent on its mass,  length, and the acceleration 
+due to gravity.<idx><h>principle of homogenity</h></idx> From the given information, we have -
+<me>
+  time \varpropto  mass^a* (length)^b* g^c
+</me>
+or,
+<me>
+  T = K* M^a* L^b* g^c
+</me>
+[where K is a dimensionless quantity]
+
+<me>
+  or,\quad [M^{o}L^{o}T] = [M]^a* [L]^b*[L*T^-2]^c = [M^{a}L^{b+c}T^{-2c}]
+</me>
+
+Equating the power on both sides of the dimensional equation, we get -
+<m>a=0, \quad b+c=0, \quad -2c=1 \Rightarrow \quad c=-\frac{1}{2},</m>
+and <m>b=-c=\frac{1}{2},</m> 
+<m>\qquad\therefore\quad t =K \sqrt{\frac{l}{g}}</m>
+  </p>
+  <p>Some derived units are summarized in the table 1.2.</p>
+
+
+  <table>
+    <title>Physical Quantities and their Units</title>
+    <tabular halign="center">
+    <row header="yes" bottom="minor" >
+     <cell>Physical Quantity</cell>
+    <cell>Formula </cell>
+    <cell>Derived SI Units </cell>
+    <cell>Symbol </cell>
+    </row>
+    <row>
+    <cell>Velocity</cell>
+    <cell> <m>v/t</m></cell>
+    <cell> <m>m/s</m></cell>
+    <cell> </cell>
+     </row>
+    <row>
+    <cell>Acceleration</cell>
+    <cell><m>v/t^2</m></cell>
+    <cell> <m>m/s^2</m></cell>
+    <cell> </cell>
+    </row>
+    <row>
+      <cell>Force</cell>
+      <cell><m>ma</m></cell>
+      <cell> <m>kgm/s^2</m></cell>
+      <cell>Newton (N) </cell>
+      </row>
+      <row>
+        <cell>Work (Energy) </cell>
+        <cell><m>Fd</m></cell>
+        <cell> <m>kgm^2/s^2</m></cell>
+        <cell>Joule (J) </cell>
+        </row>
+        <row>
+          <cell>Power </cell>
+          <cell><m>W/t</m></cell>
+          <cell> <m>kgm^2/s^3</m></cell>
+          <cell>Watt (W) </cell>
+          </row>
+          <row>
+            <cell>Pressure </cell>
+            <cell><m>Force/A</m></cell>
+            <cell> <m>kg/ms^{2}</m></cell>
+            <cell>Pascal (Pa) </cell>
+            </row>
+            <row>
+              <cell>Electric Charge </cell>
+              <cell><m>It</m></cell>
+              <cell> <m>As</m></cell>
+              <cell>Coulomb (C) </cell>
+              </row>
+              <row>
+                <cell>Electric Potential </cell>
+                <cell><m>IR</m></cell>
+                <cell> <m>kgm^2/As^3</m></cell>
+                <cell>Volt (V) </cell>
+                </row>
+                <row>
+                  <cell>Magnetic Field </cell>
+                  <cell><m>\mu_{o} I/A</m></cell>
+                  <cell> <m>kg/As^{2}</m></cell>
+                  <cell>Tesla (T) </cell>
+                  </row>
+                  <row>
+                    <cell>Magnetic Flux </cell>
+                    <cell><m>Vt</m></cell>
+                    <cell> <m>kgm^{2}/As^{2}</m></cell>
+                    <cell>Weber (wb) </cell>
+                    </row>
+    </tabular>
+    </table>
+  
+</subsubsection>
+
+
+</subsection>
+
+<subsection xml:id="subsec-erranalysis">
+  <title>Errors in Measurement</title>
+  <p>
+    Measurement is a base of science. In every measurement there is some  uncertainty. 
+    This uncertainty  is  called an error. The concept of errors can be understood by 
+    knowing the terms accuracy and precision. Accuracy refers to how closely a measured 
+    value agrees with the correct (true) value. Precision refers to how closely individual 
+    measurements agree with each other. For example, suppose the true value of a certain 
+    length is near <m>5.678 \,cm</m>. In one experiment, the measured value is found to be  <m>5.5\, cm</m> 
+    by using a measuring instrument of resolution <m>0.1 \,cm</m>, while  in  another  experiment, 
+    the length is determined to be 5.38 cm by using a measuring device of greater resolution, 
+    say 0.01 cm. The first measurement is  more  accurate (as it  is closer to the true value) 
+    but less precise (as its resolution  is  only  <m>0.1  \,cm</m>),  while  the second  measurement 
+    is less  accurate but more  precise.  Thus  every  measurement is approximate due to 
+    errors in measurement. In general, the  errors can be classified as 
+    (a) systematic errors and (b) random errors. The errors that appear due to faulty 
+    instruments or imperfact instrumental design are known as systematic errors. 
+    It is a repeatable error in the measurement. The systematic errors are 
+  </p>
+  <p>
+  <ol marker="a.">
+    <li>
+      <p>
+        <term>Instrumental errors:</term> These errors arise due to imperfact calibration 
+        or design of the measuring instrument. Usually they are called a <em>Zero Error</em>. 
+        It is either a positive or a negative type. These errors can be removed by correcting 
+        the measuring device, e.g., in vernier calipers the zero mark of vernier scale may 
+        not coincide with the zero mark of the main scale.
+      </p>
+    </li>
+    <li>
+      <p>
+        <term>Personal errors:</term> They arise due to wrong observations, an individual's bias, 
+        lack of proper setting of the apparatus, e.g., parallax error, a person viewing a car's 
+        speedometer from the driver's seat will get an accurate reading because she has a 
+        direct line of sight. A person viewing the speedometer from the passenger seat will 
+        overestimate the reading because of the viewing angle between his eye, the meter, 
+        and the arrow.
+      </p>
+    </li>
+  </ol>
+</p>
+  <p>
+    The errors that appear due to system noise or disturbance of measuring location are 
+    known as random errors. It is a unpredictable and non-repeatable. Experimental error 
+    is one of the random errors. Experimental errors arise  due to some external conditions 
+    of the instrument such as pressure, temperature, humidity, or magnetic fields, e.g., 
+    a  thermometer  placed under  the  armpit  will  always  give  a temperature lower than 
+    the actual value of the  body  temperature. This type of errors may also occur due to 
+    random and unpredictable fluctuations in experimental conditions (e.g. variation in 
+    temperature, supply voltage, local atmospheric pressure, etc) and personal errors 
+    (e.g., change in readings if the observer repeats the same observation).
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-sigfig">
+  <title>Significant Figures</title>
+  <introduction>
+   
+
+  <p>
+    Significant figures are the digits which give us useful information about the accuracy of 
+    a measurement. The result of a measurement includes  digits that are known reliably 
+    and the last digit that is uncertain. For example, the  length  of an  object measured 
+    to be <m>287.5</m> cm when measured with a meterstick marked with centimeter 
+    (0.1 resolution) and has four  significant  figures, the  digits  2,  8,  7  
+    are certain while the last digit 5 is uncertain. If someone measure the same 
+    object with another meterstick marked with millimeters (0.01 resolution) 
+    one could have measured the length to be 287.54 cm and that contains 5 significant 
+    figures, the  digits 2, 8, 7, and 5  are certain while the last digit 4 is uncertain. 
+    Each smaller measurement allows observers to determine the length of the object with 
+    a bit more accuracy. Maybe someother can measure with great accuracy as 287.542 cm. 
+    No matter what you do, there must be some inaccuracy always come at every measurement. 
+    Scientists account for this unavoidable uncertainty in measurement by using significant 
+    digits. significant digits do not remove the uncertainty but warn readers to where 
+    uncertainty lies.  
+  </p>
+
+  <p>
+    <m>1000</m> has one significant digit: only 1 is interesting and reliable. 
+    The zeroes may have been just the placeholders; they may have rounded something off to 
+    get this value.  </p>
+<p>
+  1000.0 has five significant digits: the ".0" tells us about the accuracy of 
+  the measurement that the measurement is accurate to the tenths place.
+</p>
+<p>
+  In scientific notation if 200 has two significant figures then <m>2.0\times10^{2}</m> is used. 
+  If it has three sig.fig. then <m>2.00\times10^{2}</m> is used. If it had four then 
+  200.0 is sufficient. 
+</p>
+<p>Here are some basic rules to determine significant figures:
+
+<ol marker="i.">
+  <li>
+    <p>
+      All nonzero digits are significant; in number 0.003004500 the digits 3, 4, and 5 are significant. 
+    </p>
+  </li>
+  <li>
+    <p>
+      All zeroes between significant digits are significant; in number 0.003004500 
+      the 0, 0 between 3 and 4 are significant.
+    </p>
+  </li>
+  <li>
+    <p>
+      Trailing zeros in the decimal portion are significant; in number 0.003004500 
+      the 0,0 at end of 5 are significant.
+    </p>
+  </li>
+  <li>
+    <p>
+      Trailing zeroes in a whole number with no decimal shown are not significant; in number "540" 
+      there are only two sig.fig. 5 and 4, the last 0 is not significant.
+    </p>
+  </li>
+  <li>
+    <p>
+      Leading zeroes in the decimal portion to the first non-zero digit are not significant; 
+      in number 0.003004500 the 0 to the right of decimal point and digits 0, 0 to the left 
+      of decimal point before the digit 3 are not significant.
+    </p>
+  </li>
+  <li>
+    <p>
+      Exponential digits in scientific notation are not significant; 
+      <m>1.32\times 10^{6}</m> has only three significant figures, 1, 3, and 2.
+    </p>
+  </li>
+</ol>
+</p>
+</introduction>
+
+<subsubsection xml:id="subsubsec-rounding_off">
+  <title>Rounding off the Numbers</title>
+  <p>
+    When rounding, we examine the digit following to the right of the digit that 
+    is to be the last digit in the rounded off number. The digit we are examining 
+    is the first digit to be dropped. 
+  </p>
+  <p>
+    If digit to be dropped off is less than 5, then drop it off with all 
+    the other digits to the right of it. 
+  </p>
+  <p>
+    If the digit to be dropped off is greater than 5, then increase the number 
+    by 1 to the preceeding digit to be rounded.
+  </p>
+  <p>
+    If the digit to be dropped is 5, then round the preceeding digit so that 
+    it will become even number. Zero is considered to be even when rounding off. 
+    This is the process of minimizing systematic error. Here are some examples:
+ 
+  <ol marker="i.">
+    <li>
+      <p>
+        Round 742,396 to four, three, and two significant digits: To round to four sig. fig. 
+        start with the first significant digit, which is the 7. Then count to the right from there. 
+        The first four significant digits of 742,396 are the 7, the 4, the 2, and the 3. 
+        Just to the right of the 3 is a 9. Because this value is "greater than  5", 
+        round the 3 up to 4. Replace the remaining digits (the 9 and the 6) with zeroes. 
+        Then: 742,400 (four significant digits). 
+      </p>
+      <p>
+        To round 742,396 to three places, start again with the 7 and include the next 
+        two digits, being the 4 and the 2. Since the next digit is a 3, which is "less than 5", 
+        leave the 2 alone and don't round up. Replace the three digits after the comma with zeroes. 
+        Then: 742,000 (three significant digits).
+      </p>
+      <p>
+        To round 742,396 to two places, use only the first two digits, which are followed 
+        by a 2, so don't round up. Instead, just replace the final four digits with zeroes, 
+        to get: 740,000 (two significant digits).
+      </p>
+    </li>
+    <li>
+      <p>
+        Round 0.07284 to four, three, and two significant digits: To round 0.07284 to 
+        four significant digits, start with the first significant digit, which is the 7. 
+        (The zero between the decimal point and the 7 is not significant, as it serves only 
+        to "place" the 7 into the hundreds place.) There are only three more digits, 
+        so all of them will be included in answer. Since no digit follows the 4, there is 
+        no information about rounding, so just leave the 4 as it is. Hence, 0.07284 is 
+        four sig-digs.
+      </p>
+      <p>
+        When rounding 0.07284 to three sig-digs, the final sig-dig is the 8, 
+        which is followed by the 4. Since 4 is less than 5, so simply drop it. 
+        Because these sig-digs are after the decimal point, not replace the 4 with a zero. 
+        Hence, 0.0728 is three sig-digs.
+      </p>
+      <p>
+        To round 0.07284 to two sig-digs, use the 7 and the 2. Since the 2 is 
+        followed by an 8, round the 2 up to 3; drop everything that follows. Hence,
+        0.073 is two sig-digs.
+      </p>
+    </li>
+    <li>
+      <p>
+        Round 425.35 to four and two significant digits: For four sig.fig. this number 
+        is 425.4, because the value to be rounded off (3) is "odd" and followed by a "5", 
+        then round the 3 up to 4 and remove the remaining digits. For two sig.fig. 
+        it would be 420, because the value to be rounded off (2) is "even" and  followed by
+         a "5", then leave 2 as it is and replace the other with zeroes. 
+      </p>
+    </li>
+  </ol>
+</p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-math_op_sig">
+  <title>Mathematical Operations with Significant Figures</title>
+  <p>
+    
+ 
+  <ol marker="I.">
+    <li>
+      <p>
+        <term>Addition or subtraction:</term> The final result
+        should retain <em>as many decimal places as</em> there are in the number with the 
+        least decimal places in the data. For example, the sum of the numbers 436.32 g, 
+        227.2 g and 0.301 g is 663.821 g by mere arithmetic addition but the least 
+        precise measurement (227.2 g) is correct to only one decimal place. 
+        Therefore, the final result should  be rounded off to 663.8 g. 
+        Similarly, the difference in lengths of 66.25 m and 23.3055 m is  
+        <m>66.25 \,m - 23.3055 \,m = 42.9445 \,m</m>. Which can be expressed as 42.94 only.
+      </p>
+    </li>
+    <li>
+      <p>
+        <term>Multiplication or division:</term> The final result should retain 
+        <em>as many significant figures as</em> are there in the original number with the 
+        least significant figures. For example, if mass of an object is measured to be, 
+        say, 4.237 g (four significant figures) and its volume is measured to be <m>2.51 \,cm^{3}</m>, 
+        then its density, by mere arithmetic division, is 1.68804780876 <m>g/cm^{3}</m> 
+        upto 11 decimal places. But density should be reported to three significant figures.
+        <me>
+          Density  =\frac{4.237 \,g}{2.51 \,cm^{3}}= 1.69\,g/cm^{3}.
+        </me>
+      </p>
+    </li>
+  </ol>
+</p>
+</subsubsection>
+</subsection>
+
+
+  </section>
+

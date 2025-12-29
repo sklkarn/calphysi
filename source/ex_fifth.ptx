@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_fifth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <paragraphs>
+    <title>Work</title>
+    
+    <exercise>
+      <p>
+        Given the two vectors  <m> \vec{A}  =  3 \hat{i} + 4\hat{j} </m>
+        and 
+        <m> \vec{B}  =  \hat{i}- 2\hat{j} + 4\hat{k}.</m>
+        What is their dot product?
+        </p>
+     </exercise>
+
+
+     <exercise>
+      <p>
+        A horizontal force is given by the equation <m>F = k x</m>, where <m>k = 100 \,N/m</m>. 
+        How much work is expended by that force when moving an object from <m>x = -1 \,m</m> to <m>x = +3 \,m</m>?
+      </p>
+     </exercise>
+
+     <exercise>
+      <p>
+        A force has the components <m>F_{x} = A(x+y)</m>, <m>F_{y} = Bxy</m>, 
+        where <m>A = 2 \,N/m</m> and <m>B = 3 \,N/m^{2}</m>. Find the work done by this 
+        force along the paths 
+        <ol marker ="a.">
+          <li>
+            from (0,0) to (1m,0) to (1m,2m),
+          </li>
+          <li>
+            from (0,0) to (0,2m) to (1m,2m), 
+          </li>
+          <li>
+            from (0,0) to (1m, 2m) along a straight line. 
+          </li>
+        </ol>
+      </p>
+     </exercise>
+
+     <exercise>
+      <p>
+        An object of mass 10 kg is lifted a vertical distance of 3 m and a 
+        horizontal distance of 4 m. How much work is done?
+      </p>
+     </exercise>
+
+     <exercise>
+      <p>
+        A force of 100 N moves a block of mass 10 kg up a plane of length 2 m at an angle 
+        of <m>30^{o}</m>. If the force is parallel to the plane, if the block starts 
+        from rest, and if the coefficient of friction is 0.1, how much work is done 
+         <ol marker ="a.">
+          <li>
+            by the force,
+          </li>
+          <li>
+            by gravity, and
+          </li>
+          <li>
+            by friction.
+          </li>
+          <li>
+            How fast will the block be moving when it gets to the top?
+          </li>
+        </ol>
+      </p>
+     </exercise>
+
+     <exercise>
+      <p>
+        A force of 100 N at an angle of <m>30^{o}</m> above the horizontal moves a block 
+        of mass 10 kg along a horizontal surface a distance of 3 m. If the block starts 
+        from rest and if the coefficient of friction is 0.2, how much work is done 
+        <ol marker ="a.">
+          <li>
+            by the force,
+          </li>
+          <li>
+            by gravity, 
+          </li>
+          <li>
+            by friction.
+          </li>
+          <li>
+            by the normal force, and 
+          </li>
+          <li>
+            by the net force on the block.
+          </li>
+        </ol> 
+        </p>
+     </exercise>
+  </paragraphs>
+ 
+<paragraphs>
+  <title>Energy</title>
+  <exercise>
+    <p>
+      A bullet of mass 10 g has a speed of 500 m/s. 
+      <ol marker ="a.">
+        <li>
+          What is its kinetic energy?
+        </li>
+        <li>
+          If it penetrates a block of wood a distance of 10 cm before coming to rest, 
+          what is the average frictional force stopping the bullet? A second bullet 
+          identical to the first is shot through a sheet of wood 5 cm thick. 
+        </li>
+        <li>
+          With what speed does the second bullet exit the wood?
+        </li>
+        </ol> 
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol marker ="a.">
+        <li>
+          How much energy would be required to lift a 70 kg man to a height of 100 m? 
+        </li>
+        <li>
+          How much energy would be required to lift a 70 kg man to a height of 10,000 km?
+        </li>
+         </ol> 
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A spring requires a force of 100 N to stretch it a distance of 20 cm. 
+      <ol marker ="a.">
+        <li>
+          What is the force constant of the spring?
+        </li>
+        <li>
+          How much force is required to stretch the spring a distance of 50 cm? 
+        </li>
+        <li>
+          How much energy is required to stretch the spring a distance of 0.5 m? 
+        </li>
+        <li>
+          What is the potential energy of the spring when it is stretched 20 cm? 
+        </li>
+        <li>
+          How much energy is required to stretch the spring from 20 cm to 50 cm?
+        </li>
+         </ol> 
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass 10 kg is pulled to the right at constant speed on a horizontal 
+      surface by a horizontal force of 10 N. 
+      <ol marker ="a.">
+        <li>
+          What is the coefficient of friction?
+        </li>
+        <li>
+          How much work is done in overcoming the friction?
+        </li>
+         </ol> 
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A water skier of mass 80 kg traveling at 15 m/s releases from tow and travels 
+      a distance of 50 m before starting to sink into the water. 
+      <ol marker ="a.">
+        <li>
+          If he begins sinking when his speed is 4 m/s, how much energy did friction consume before he began sinking? 
+        </li>
+        <li>
+          If the skier is 1.8 m high and his center of gravity is in the middle 
+          of his body, how much energy is consumed by friction while he is sinking?
+        </li>
+         </ol> 
+         </p>
+  </exercise>
+
+  <exercise>
+<p>
+  <ol marker="I.">
+    <li>
+      <p>
+        A spring of mass 2 kg and spring constant 300 N/m is compressed a distance of 0.5 m 
+and clamped in that position. When the clamped spring is 4 m above the ground traveling 
+horizontally with a speed of 5 m/s find each of the following: 
+      </p>
+      <ol marker ="a.">
+        <li>
+        <p>
+        What is its kinetic energy?
+        </p>
+        </li>
+        <li>
+        <p>
+        What is its gravitational potential energy?
+        </p>
+        </li>
+        <li>
+        <p>
+        What is its elastic potential energy? 
+        </p>
+        </li>
+        <li>
+        <p>
+        What is its total energy?
+        </p>
+        </li>
+        </ol> 
+    </li>
+    <li>
+      <p>
+        If the clamp holding the spring is released so the spring returns to its original length by the time the 
+system falls all the way to the ground and comes to rest, find each of the following: 
+      </p>
+      <ol marker ="a.">
+        <li>
+        <p>
+        What is its kinetic energy?
+        </p>
+        </li>
+        <li>
+        <p>
+        What is its gravitational potential energy?
+        </p>
+        </li>
+        <li>
+        <p>
+        What is its elastic potential energy?
+        </p>
+        </li>
+        <li>
+        <p>
+        What is its total energy? 
+        </p>
+        </li>
+        <li>
+        <p>
+        How much energy is turned into heat by the time the system comes to rest on the ground?
+        </p>
+        </li>
+        </ol> 
+    </li>
+  </ol>
+</p>   
+ </exercise>
+
+ <exercise>
+  <p>
+    A mass of 2 kg is placed against the end of spring compressed a distance of 
+    50 cm as shown in the figure below. The system is released, the mass moves 
+    horizontally a total distance of 1 meter over a surface with a coefficient 
+    of kinetic friction of 0.2, slides up a smooth ramp of radius 25 cm, and 
+    then flies straight up a distance of 25 cm above the top of the ramp. 
+    <image source="wec6a.png" width="35%"> </image>
+    <ol marker ="a.">
+      <li>
+              What is the equation for the total energy of the mass when it starts out?
+            </li>
+      <li>
+             What is the equation for the total energy of the mass when it reaches its highest point?
+           </li>
+      <li>
+             What is the equation for the amount  of energy dissipated by friction?
+            </li>
+            <li>
+              What is the relationship between the above quantities?
+            </li>
+            <li>
+              What are the additional equations are needed to find the spring constant of the spring?
+            </li>
+            <li>
+              Where is the mass when it reaches its maximum speed?
+            </li>
+            <li>
+              What are the additional equations needed to find the maximum speed of the mass?
+            </li>
+            <li>
+              After the mass comes back down, where does it finally come to rest?
+            </li>
+       </ol> 
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A ball of mass 1 kg is dropped from a height of 2 m onto a spring of force 
+    constant 500 N/m. What is the maximum speed attained by the ball? 
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A portion of a roller coaster is shaped like a sine wave according to the equation 
+    <m>y = A \cos kx,</m> where A = 50 ft and k = 0.04/ft. Assume that friction consumes 
+    approximately 10\% of the energy as the coaster moves from the high point to the 
+    next low point and that the coaster is moving at 10 ft/s at the top, find the 
+    speed of the coaster at the bottom.
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A rocket of mass 5 kg accelerates upward at a constant 4 g's for 5 sec 
+    starting from rest. Assume the mass of the fuel is negligible so the mass 
+    of the rocket can be considered constant throughout the acceleration. 
+    <ol marker ="a.">
+      <li>
+        How much energy is imparted to the rocket during the first second?
+            </li>
+      <li>
+        How much energy is imparted to the rocket during the last second? 
+           </li>
+      <li>
+        Is chemical energy that drives the rocket being expended at the same rate during the first second as during the last second?
+            </li>
+            <li>
+              Explain why answers a and b are not the same. Where does the extra energy go?
+            </li>
+          </ol> 
+     </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A small pellet of mass m = 0.2 kg starts from rest at position A 
+    and slides down the smooth surface of the cylinder to position B. 
+    The radius R = 0.8 m. Use conservation of energy to determine the 
+    magnitude of the pellet's velocity at position B if <m>\theta = 45^{o}</m>.
+    <image source="consE1.png" width="35%"> </image>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A spring gun has a spring constant of 200 N/m and shoots a projectile 
+    of mass 500 g. If the spring is compressed a distance of 10 cm into 
+    the barrel of the gun and the friction force in the gun barrel is 4 N, 
+    how high will the projectile rise above the tip of the gun barrel if 
+    <ol marker ="a.">
+      <li>
+        the gun is shot straight up, and
+            </li>
+      <li>
+        if the gun is aimed at <m>30^{o}</m> above the horizontal.
+           </li>
+             </ol> 
+    </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A rock of mass 200 g is placed in a sling and whirled in a vertical 
+    circle of radius 50 cm. The rock is released when traveling vertically 
+    and rises to a height of 4 m above its starting point. 
+    <ol marker ="a.">
+      <li>
+        What was the velocity of the rock when it was released from the sling?
+            </li>
+      <li>
+        What was the tension in each of the two strings of the sling immediately before the rock was released? 
+           </li>
+           <li>
+            Assuming no energy is added to the rock while it is whirling in the circle, 
+            what was the velocity of the rock at the bottom of the circle?
+           </li>
+           <li>
+            What is the maximum force that the hand must exert on the sling to keep the rock going in its circle? 
+           </li>
+           <li>
+            What is the minimum force required to keep the rock going in its circle? 
+           </li>
+             </ol> 
+     </p>
+ </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Power</title>
+  
+  <exercise>
+    <p>
+      An elevator lifts a load of 1000 lb to a height of 300 ft in 30 s. 
+      <ol marker="a.">
+        <li>
+          What is the horsepower output of the motor running the elevator? 
+        </li>
+        <li>
+          How many watts of electricity are required to run the motor?
+        </li>
+      </ol>
+       </p>
+   </exercise>
+
+   <exercise>
+    <p>
+      A strongman sitting in the back of a motor boat of mass 2000 kg is holding a rope 
+      tied to the front of a canoe with its contents of 500 kg. The motor boat starts 
+      out towing the canoe and eventually attains a constant speed of 10 m/s for a 
+      distance of 100 m. During that time the man feels a constant tension in the tow rope of 100 N.  
+      <ol marker="a.">
+        <li>
+          How much energy does the man expend while towing the canoe?
+        </li>
+        <li>
+          How much energy does the motor boat expend while towing the canoe? 
+        </li>
+        <li>
+          How much power is required to tow the canoe? 
+        </li>
+        <li>
+          How much power is converted into heat through friction?
+        </li>
+      </ol>
+        </p>
+   </exercise>
+
+   <exercise>
+    <p>
+      An electric motor starts revving up, consuming energy according to the equation <m>W = C t^2</m>, 
+      where <m>C = 200 \,J/s^{2}</m>. 
+      <ol marker="a.">
+        <li>
+          How long does it take for the engine to consume 1000 J of energy? 
+        </li>
+        <li>
+          What is the equation giving the power output of the motor?
+        </li>
+        <li>
+          How long does it take for the motor to develop a power output of 1 hp?
+        </li>
+         </ol>
+         </p>
+   </exercise>
+
+  <exercise>
+    <p>
+      The power required to move an object is <m>P = K t^{3}</m>, where <m>t </m> is the 
+      time and the constant <m>K = 3 \,W/s^{3}</m>. How much energy is required 
+      to move the object during the first 4 seconds?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A simple machine requires a force of 3 N moving through a distance of 
+      4 m to lift a weight of 10 N through a height of 1 m. 
+      <ol marker="a.">
+        <li>
+          What is the AMA of the machine?
+        </li>
+        <li>
+          What is the IMA of the machine?
+        </li>
+        <li>
+          What is the efficiency of the machine?
+        </li>
+         </ol>
+          </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The pulley system shown at right requires a tension of 10 lb to lift 
+      a weight of 30 lb. 
+      <ol marker="a.">
+        <li>
+          What is the actual mechanical advantage of the machine?
+        </li>
+        <li>
+          If there were no friction in the machine, how much weight could the 10 lb force lift? 
+        </li>
+        <li>
+          What is the ideal mechanical advantage of the machine?
+        </li>
+        <li>
+          How far must the free end of the rope move in order to lift the weight 3 ft? 
+        </li>
+        <li>
+          What is the efficiency of the pulley system? 
+        </li>
+         </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A lever system has a AMA = 9 and an IMA = 10. 
+      How much work would be required to use this machine to lift a 200 lb weight a height of 2 ft? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The belt on an automobile engine transfers power from the engine pulley to 
+      the alternator pulley. 
+      <ol marker="a.">
+        <li>
+          If the diameter of the engine pulley is 15 cm and that of the alternator 
+          pulley is 10 cm, what is the IMA of the pulley system? 
+        </li>
+        <li>
+          If the AMA of the pulley system is 0.6, what is the efficiency of the pulley system? 
+        </li>
+        <li>
+          If the energy conversion from mechanical energy to electrical energy in the alternator is 
+          <m>90\%</m>, how much power must the motor deliver in order to generate 50 Watts of electrical power?
+        </li>
+          </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the value of IMA for the given figure. 
+      <image source="smpulley8.png" width="30%"> </image> 
+    </p>
+  </exercise>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Collision</title>
+  <exercise>
+    <p>
+      <ol marker="a.">
+        <li>
+          A force of 1000 N is applied to an object that travels a distance of 10 m in 3 s. 
+          What is the impulse of the force? 
+        </li>
+        <li>
+          A force rises linearly from zero to 106 Newtons in two milliseconds and then 
+          decreases linearly back to zero in the next two milliseconds. What is the total impulse of that force.
+        </li>
+        <li>
+          A force is described mathematically by the equation <m>F = F_{o}[1 - (t - 1)^{2}]</m>, 
+          where <m>F_{o} = 100 \,N</m> and t is expressed in seconds and ranges from zero to 2 seconds. 
+          What is the impulse of this force?
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 500 g hammer traveling at 30 m/s hits a nail driving it into a block of wood 
+      during a period of time of 1 ms. 
+      <ol marker="a.">
+        <li>
+          What is the change in momentum of the hammer if it does not bounce?
+        </li>
+        <li>
+          What is the change in momentum of the hammer if it bounces back at 20 m/s? 
+        </li>
+        <li>
+          What is the average force stopping the hammer if it doesn't bounce?
+        </li>
+        <li>
+          What is the average force if it bounces back at 20 m/s?
+        </li>
+        <li>
+          Use energy considerations to find out how far the nail moves in each case. 
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass 2 kg moving at 10 m/s collides with a second mass of 1 kg at rest. 
+      How fast does each mass move afterward 
+      <ol marker="a.">
+        <li>
+          if the collision is perfectly inelastic, and 
+        </li>
+        <li>
+          if the collision is perfectly elastic.
+        </li>
+         </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A ball is dropped from a height of 2 m and rebounds to a height of 1.5 m. 
+      <ol marker="a.">
+        <li>
+          What is the coefficient of restitution between the ball and the table?
+        </li>
+        <li>
+          How high would a superball bounce if its coefficient of restitution is 0.95? 
+        </li>
+         </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass 1 kg moving to the right with a speed of 1 m/s strikes a second 
+      block of mass 2 kg moving to the left with a speed of 2 m/s. The first mass 
+      bounces back with a speed of 2 m/s. 
+      <ol marker="a.">
+        <li>
+          What is the velocity (magnitude and direction) of the second mass after the collision? 
+        </li>
+        <li>
+          What is the coefficient of restitution of the collision?
+        </li>
+        <li>
+          How much energy was lost during the collision? 
+        </li>
+         </ol>
+          </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A machine gun shoots 3 times per second. Each bullet has a mass of 20 g and 
+      the muzzle velocity is 300 m/s. 
+      <ol marker="a.">
+        <li>
+          What is the momentum of each bullet? 
+        </li>
+        <li>
+          What is the average recoil force acting on the machine gun?
+        </li>
+        <li>
+          If the gun is mounted on a 1,000 kg boat whose friction through 
+          the water is proportional to velocity according to the equation f = cv, 
+          where c = 10 kg/s, then how fast could the machine gun make the boat travel across the water?
+        </li>
+         </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass 2 kg moving at right at 10 m/s collides with a 4 kg block at rest. 
+      If the coefficient of restitution is 0.5,
+      <ol marker="a.">
+        <li>
+          what will be the velocity of each block 
+          after the collision?
+        </li>
+        <li>
+          How much energy is lost in the collision? 
+        </li>
+        <li>
+          If the collision lasts 10 ms, what is the average force between the two blocks?
+        </li>
+         </ol>
+          </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A pool ball traveling along the x-axis at <m>2 \,m/s</m> strikes a second ball of 
+      equal mass and glances off at an angle of <m>30^{o}</m> above the x-axis. 
+      If the collision is perfectly elastic, 
+      <ol marker="a.">
+        <li>
+          what is the direction that the second ball moves after the collision?
+        </li>
+        <li>
+          What is the speed of each ball after the collision?
+        </li>
+          </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A bullet of mass 50 g traveling at 400 m/s due north strikes a rock of mass 
+      500 g at rest and ricochets off the rock going due east. The rock recoils 
+      in a direction <m>30^{o}</m> west of north. 
+      <ol marker="a.">
+        <li>
+          What is the speed of the ricochetting bullet?
+        </li>
+        <li>
+          What is the recoil speed of the rock? 
+        </li>
+        <li>
+          How much energy was lost in the collision?
+        </li>
+        <li>
+          What was the coefficient of restitution between the bullet and the rock? 
+        </li>
+          </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A car of mass 700 kg moving west at a speed of 72 km/h makes an inelastic 
+      collisions with a truck initially moving northward. If the tangled mass of 
+      car and truck slides off in the north-west direction a distance of  10 m when 
+      the coefficient of friction is 0.8, what was 
+      <ol marker="a.">
+        <li>
+          the mass of the truck, 
+        </li>
+        <li>
+          its speed before the collision,
+        </li>
+        <li>
+          the energy loss during the collision, 
+        </li>
+        <li>
+          the average force between the car and truck during an impact lasting 0.1 s, and 
+        </li>
+        <li>
+          the amount the car/truck combination is compressed?
+        </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A bullet of mass 0.1 kg moving horizontally passes through a wooden block of mass 
+      10 kg initially at rest and looses 90\% of its kinetic energy. The recoiling block 
+      slides a distance of 1 m on a horizontal surface of friction constant 0.3 before 
+      coming to rest. What was the initial speed of the bullet.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of wood of mass 1 kg is balanced on the end of a pistol barrel and the pistol is fired. 
+      The block of wood flies upward a distance of 1 m with the bullet embedded inside. 
+      What is the muzzle velocity of the bullet if its mass is 10 g? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 0.1-kg mass of putty drops from a height of 1 m onto a platform of 1 kg setting on a 
+      spring of constant 100 N/m. The putty sticks to the platform causing it to recoil 
+      downward and compress the spring. How much is the spring is compressed before it comes to rest again.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A spherical ball of mass 1 kg and radius 3 cm is attached to a wire of length 2 m to 
+      form a pendulum. The top of the pendulum is attached to a wall near the top. 
+      The wire is pulled straight out horizontally and the ball is released from rest. 
+      The ball strikes the wall and rebounds a horizontal distance of 1 m. The wall is 
+      dented a distance of 1 cm. 
+      <ol marker="a.">
+        <li>
+          What is the speed of the ball when it strikes the wall?
+        </li>
+        <li>
+          What is the speed of the ball when it leaves the wall? 
+        </li>
+        <li>
+          How much energy did the ball lose?
+        </li>
+        <li>
+          What is the average force exerted by the ball on the wall? 
+        </li>
+        <li>
+          What is the change in momentum of the ball?
+        </li>
+        <li>
+          How long was the ball in contact with the wall? 
+        </li>
+          </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 500 N boy sitting in a stationary 90 N wagon is start throwing bricks out 
+      of the wagon. If the boy has three bricks weighing 45 N each and throws them 
+      with a horizontal velocity of <m>3 \,m/s</m> relative to the wagon, determine 
+      the velocity he attains 
+      <ol marker="a.">
+        <li>
+          if he throws the bricks one at a time and 
+        </li>
+        <li>
+          if he throws them all at once.
+        </li>
+          </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A bullet of mass m penetrates a block of mass M lying on a frictionless table. 
+      If the initial velocity of bullet is <m>v_{1}</m> and it exits form the block 
+      with velocity <m> v_{2}</m>, find the time taken by the block to fly off the 
+      table if it is at a distance L from the  edge of the table.  If the table 
+      has a height h how far from the edge of the table will it land? 
+    </p>
+  </exercise>
+</paragraphs>
+ </exercises>
+

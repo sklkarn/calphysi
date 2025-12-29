@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-visc" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Viscosity</title>
+  
+   <introduction>
+   <p>
+    We may have experienced that pouring a cup of water or milk is much easier 
+    than pouring a cup of honey or glycerin. Water or milk is less sticky than honey or glycerin. 
+    On this experience, we can say that water like fluid is thinner and honey like fluid is thicker. 
+    The property of fluids which makes them flow differently than one another is called viscosity. 
+    Water has low viscosity, whereas honey has high viscosity. Actually there exists some kind of 
+    friction between the adjacent layers of fluid when they flow. 
+    <em>viscosity is an internal friction (or a drag force) between the adjacent layers of 
+    fluid as they move past one another.</em> In liquids viscosity arises due to the cohesive 
+    forces between their molecules, while in gases it arises due to the collision between their molecules.
+   </p>  
+   <figure>
+    <caption></caption>
+    <sidebyside widths="35% 35%">
+      <figure xml:id="visco1">
+        <caption>Laminar flow</caption>
+        <image source="visco1.png"/>
+    </figure>
+        <figure xml:id="visco2">
+            <caption>Turbulent flow</caption>
+            <image source="visco2.png"/>
+        </figure>
+         </sidebyside>
+</figure>
+    <p>
+      To understand viscosity more clearly, let us know about the types of fluids flow.
+      <term>Laminar flow:</term> It is a smooth and continuous flow of the fluid in layers 
+      that do not mix. <term>Turbulent flow: </term> It is the eddies and swirls that mix layers 
+      of fluid together. In laminar flow layers of fluid flow without mixing and it follows the 
+      same velocity and direction at every points of its motion, hence it is also called <em>streamlines 
+      motion</em>. In turbulent flow streamlines break up and mix together and the fluid moves with changing 
+      velocities and directions on every point of its path. Notice that viscosity causes drag between 
+      layers as well as with the fixed surface. An obstruction in the vessel or speeding up fluid velocity 
+      above a certain value leads to a turbulent flow.  <em>Reynolds number</em> is used to distinguish the 
+      transition between laminar and turbulent flows.
+    </p>
+   </introduction>
+
+   <subsection xml:id="subsec-coef_visc">
+    <title>Coefficient of Viscosit</title>
+    <p>
+      If we observe the flow of water in a river flowing continuously and smoothly, 
+      we will be able to notice that water near the edge of the river flows slower than 
+      the water flowing near the middle of the river. When a fluid is flowing past a stationary wall, 
+      the fluid right close to the wall is almost at rest but the fluid away from the wall flows 
+      with relatively higher speed. So a velocity gradient exists between layers in fluid flow. 
+      This is due to adhesive, cohesive, and frictional forces acting between adjacent layers of the fluid. 
+      The <em>velocity gradient</em> (i.e., the change in speed with distances) is a characteristic 
+      of the fluid. This is used to define the coefficient of viscosity <m>\eta.</m> 
+      We limit our discussion here only on laminar flow of liquid.
+    </p>
+    <p>
+      In <xref ref="visco1"/> a layer <m>A</m> has higher speed than its adjacent layer <m>B</m>, 
+      so layer A applies force on B to move it faster, but layer B pushes layer A backward so 
+      that they go together. Such pushing and pulling between the layers creates a drag force 
+      called a <term>viscous force</term>. Consider a shear force F is required to keep the 
+      layer of fluid  moving at a constant velocity v, then it can be observed through 
+      the experiments that this force depends on the following four factors. This force <m>F</m> 
+    </p>
+    <p>
+      <ol marker="i.">
+        <li>
+          is proportional to velocity of the layer of liquid (<m>F \propto v, </m>),
+        </li>
+        <li>
+          is proportional to the surface area of layer having the velocity v (<m>F \propto A,</m>) 
+        </li>
+        <li>
+          is inversely proportional to the distance of the layer from the stationary wall  (<m>F \propto \frac{1}{L}.</m>) 
+          Mathematically, 
+          <me>
+            F\propto \frac{vA}{L} 
+          </me>
+          <me>
+            \therefore \quad F= \eta\frac{vA}{L} 
+          </me>
+          </li>
+      </ol>
+    If <m>\,dz</m> is the distance between adjacent layers and <m>\,dv</m> is the difference in their velocities, 
+    then the viscous force is given in differential form as 
+    <me>
+      F= \eta A\frac{\,dv}{\,dz}
+    </me>
+    where, <m>\eta </m> is a proportionality constant, called coefficient of viscosity 
+    and it defines the property of the fluid. The greater the coefficient of viscosity <m>\eta</m>, 
+    the greater the force required to move the layer of fluid at a velocity v. 
+    The term <m>\frac{\,dv}{\,dz}</m> is called a velocity gradient. The fluids which obey 
+    this equation are called <em>Newtonian fluids</em> and <m>\eta = constant</m> 
+    is independent of the speed of flow. If <m>\eta </m> does depend on the velocity of 
+    flow the fluids are called <em>non-Newtonian</em>. Blood is an example of a non-Newtonian fluid. 
+    <me>
+      \because \quad \eta= \frac{FL}{vA}
+    </me>
+    The SI unit of viscosity is <m> N.s/m^{2}</m> or, <m>Pa.s</m>. 
+    A common unit of viscosity is the poise <m>P</m> where <m>1 \,Pa.s = 10 \,P.</m> 
+    </p>
+    <p>
+      Viscosity is temperature dependent. Viscosity of a liquid decreases with increasing temperature 
+      and that for a gas increases with increasing temperature.
+    </p>
+   </subsection>
+
+
+   <subsection xml:id="subsec-pois_law">
+    <title>Poiseuille's Law</title>
+    <figure xml:id="poise">
+      <caption>Turbulent flow</caption>
+      <image source="poise.png" width="30%"/>
+  </figure>
+    <p>
+      Liquid could flow in a tube freely but because of viscosity it needs pressure difference 
+      between the ends of the tube to flow. The rate of flow of fluid in a tube is dependent 
+      on its viscosity, pressure difference between the two ends of the tube (or, pressure gradient), 
+      and the radius of the tube. Posiseuille assume the laminar flow of incompressible fluid 
+      (mostly liquid) to obtain the Poiseuille's equation. 
+    </p>
+    <p>
+      Consider a uniform circular cylindrical tube of radius <m>R</m> and length <m>l</m> 
+      in which liquid has a laminar flow. Consider a layer of liquid at distance <m>r</m> 
+      from the center of the tube is moving with velocity <m>v</m>, then the viscous force 
+      acting on this layer is given by 
+      <men xml:id="eqn-poise1">
+        F_{\mathrm{v}}=-\eta (2\pi rl)\frac{\,dv}{\,dr} 
+      </men>
+     <m>-ve</m> sign indicates that the viscous force is acting opposite to the direction of 
+     otion of the liquid, <m>(2\pi rl) </m> is the surface area of the liquid, and <m> \frac{\,dv}{\,dr} </m> 
+     is the velocity gradient of the layer. 
+     The force due to pressure difference on the area of cross-section of the liquid is given by 
+     <men xml:id="eqn-poise2">
+      F_{\mathrm{p}}=(p_{1}-p_{2})(\pi r^{2})  =\Delta p(\pi r^{2})  
+     </men>
+   If the layer is moving with constant velocity, <m>v</m> then 
+   <me>
+    F_{\mathrm{p}}+F_{\mathrm{v}} =0
+   </me>
+   <me>
+    \text{or,}\quad F_{\mathrm{p}}= -F_{\mathrm{v}}
+   </me>
+   <me>
+    \text{or,}\quad \Delta p(\pi r^{2}) = \eta (2\pi rl)\frac{\,dv}{\,dr}
+   </me>
+<men xml:id="eqn-poise3">
+  \text{or,}\quad \frac{\,dv}{\,dr} = \frac{\Delta p(\pi r^{2})}{\eta (2\pi rl)}   = \left(\frac{\Delta p}{2\eta l}\right)r 
+</men>
+    At axis of the tube, <m>r=0,</m>  
+    <me>
+      \frac{\,dv}{\,dr}=0
+    </me>
+     <m>\Rightarrow \quad v  </m> is maximum, at <m>r=R, \quad v=0</m>.
+      Integrating eqn. <xref ref="eqn-poise3"/>, we get -
+      <me>
+        \int\limits_{v}^{0}\,dv = \left(\frac{\Delta p}{2\eta l}\right)\int\limits_{r}^{R}r\,dr 
+      </me>
+      <men xml:id="eqn-poise4">
+        \therefore\quad v(r) = \left(\frac{\Delta p}{4\eta l}\right)(R^{2}-r^{2})   
+      </men>
+      Eqn. <xref ref="eqn-poise4"/> represents a parabolic (<m>y\propto x^{2}</m>) nature of velocity profile. 
+       </p>
+       <p>
+          From equation of continuity, the rate of volume flow is given by 
+          <me>
+            \frac{\,dV}{\,dt} = \int (\vec{v}\cdot\,d\vec{A}) = \int v\,dA 
+          </me>
+          The velocity and cross-sectional area of fluid are along the same direction.
+          <me>
+            \frac{\,dV}{\,dt} = \int\limits_{0}^{R} \left(\frac{\Delta p}{4\eta l}\right)(R^{2}-r^{2})(2\pi r)\,dr
+          </me>
+          <me>
+            = \left(\frac{\Delta p \pi}{2\eta l}\right) \int\limits_{0}^{R}(R^{2}r-r^{3})\,dr
+          </me>
+          <me>
+            \text{or,}\quad \frac{\,dV}{\,dt} =  \left(\frac{\Delta p \pi}{2\eta l}\right)\left(\frac{R^{4}}{2}-\frac{R^{4}}{4}\right) 
+          </me>
+          <men xml:id="eqn-poise5">
+            \therefore\quad  \frac{\,dV}{\,dt}  = \left(\frac{\pi \Delta p}{8\eta l}\right)R^{4} 
+          </men>
+          This is Poiseuille's equation, also known as Poiseuille's law.
+       </p>
+   </subsection>
+
+   <subsection xml:id="subsec-stok_law">
+    <title>Stoke's Law</title>
+   <introduction>
+    <p>
+      The viscous force acting on a small spherical body moving through a fluid is 
+      directly proportional to viscosity, <m>\eta,</m> of the fluid, radius <m>r</m> 
+      of the body, and its velocity, <m> v.</m> That is, 
+      <me>
+        F\propto r^{a}v^{b}\eta^{c}
+      </me>
+      Using dimensional analysis, we have 
+      <me>
+        F = kr^{a}v^{b}\eta^{c} 
+      </me>
+      <me>
+        \text{or,}\quad [MLT^{-2}] = k [L]^{a}[LT^{-1}]^{b}[ML^{-1}T^{-1}]^{c} =k [M]^{c}[L]^{a+b-c}[T]^{-b-c}
+      </me>
+      From the principle of homogeneity, 
+      <men xml:id="eqn-stok1">
+        c=1  
+      </men>
+      <men xml:id="eqn-stok2">
+        -b-c = -2 \quad \Rightarrow\quad b=1 
+      </men>
+      <men xml:id="eqn-stok3">
+        a+b-c =1    \quad \Rightarrow\quad   a=1 
+      </men>
+    <me>
+      \therefore\quad F = k\eta r v 
+    </me>
+  From experiment, <m>k=6\pi</m>, Therefore 
+ <men xml:id="eqn-stok4">
+  F = 6\pi \eta r v 
+ </men>
+      Which is a stoke's equation.
+    </p>
+   </introduction>
+
+    <subsubsection xml:id="subsubsec-terminal_vel">
+      <title>Terminal velocity of a body moving through a fluid</title>
+      <figure xml:id="stoke">
+        <caption>Turbulent flow</caption>
+        <image source="stoke.png" width="20%"/>
+    </figure>
+      <p>
+        As the body falls through a medium, its velocity goes on increasing due to gravity. 
+        As the viscous force is velocity dependent, it also goes on goes on increasing till 
+        it reaches a constant velocity called terminal velocity. This happen when the weight 
+        of the body is just equal to the sum of the upward thrust due to buoyancy and the 
+        upward viscous drag. At this stage, there is no net force to accelerate the body. 
+        Let <m>\rho </m> be the density of the material of the spherical body of radius r 
+        and <m>\sigma</m> be the density of the medium. Hence, 
+        <me>
+          F+B=W
+        </me>
+                where F is viscous drag force, B is bouyant force, and W is weight of the body.
+              <me>
+          6\eta r v + V\sigma g = V\rho g
+        </me>
+        <me>
+          \text{or,}\quad 6\eta r v =  V(\rho-\sigma) g =\frac{4}{3}\pi r^{3}(\rho-\sigma) g
+        </me>
+        <me>
+          \therefore\quad v= \frac{2r^{2}(\rho-\sigma) g}{9\eta} 
+        </me>
+        The initial acceleration, <m>a</m> of the  body can be found by using the concept 
+        of Archimedes principle. 
+      </p>
+      <p>
+        The apparent weight of the body = weight of the body in air - buoyant force. 
+        <me>
+          W' = W-B
+        </me>
+        <me>
+          \text{or,}\quad  ma = mg - V\sigma g 
+        </me>
+        <me>
+          \text{or,}\quad  a = g - \frac{V}{m}\sigma g 
+        </me>
+        <me>
+          \text{or,}\quad  a = \left(1-\frac{V\sigma}{V\rho}\right)g 
+        </me>
+        <me>
+          \therefore\quad a= \left(1-\frac{\sigma}{\rho}\right)g 
+        </me>
+          </p>
+    </subsubsection>
+   </subsection>
+   
+  </section>
+

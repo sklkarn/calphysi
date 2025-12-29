@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-oscil" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Oscillatory Motion</title>
+  
+   <introduction>
+    <p>
+      If a body repeats its motion after a fixed interval of time, then the body 
+      is said to be in <term>periodic motion</term>. In periodic motion object returns 
+      to its original position at some later time. The motion of the wheels, rocking chair, 
+      bouncing ball, a swing in motion, water waves,  motion of planets around the sun, 
+      motion of clock arms, motion of spring-mass system, and motion of simple pendulum, etc. 
+      are some examples of periodic motion. If a body retraces its original path over and 
+      over about a mean position, then the body is in <term>oscillatory motion</term>. 
+      In oscillatory motion body moves to and fro (<em>or back and forth</em>) repeatedly 
+      about a fixed mean (<em>equilibrium</em>) position. Motion of a simple pendulum, 
+      spring-mass system, vibrating tuning fork, rocking chair, etc are some examples of 
+      oscillatory motion.  A restoring force is responsible for oscillatory motion. 
+      A ball displaced a little from its rest position in a bowl performs an oscillatory motion. 
+      Circular motion of clock arms or wheels, etc. is periodic but not oscillatory. 
+      The wheels or clock arms do not move back and forth about the mean position rather 
+      they are moving in a circular motion is periodic not oscillatory. The motion of a 
+      pendulum is both oscillatory and periodic. All oscillatory motion is periodic but 
+      not all periodic motion is oscillatory. The motion of simple pendulum, spring - mass system, 
+      etc. is both oscillatory and periodic but the motion of wheels, motion of clock arm, 
+      planetary motion, etc. is only periodic. In periodic motion body also regain its all 
+      parameters after equal interval. The particles of a body get same velocity and 
+      direction at the same point over and over. If not then it becomes a random motion. 
+      In oscilattory motion, particle changes its direction of velocity at each point 
+      during the course of motion.
+    </p>
+   </introduction>
+
+<subsection xml:id="subsec-shm">
+  <title>Simple Harmonic Motion</title>
+  <figure xml:id="rfcc">
+    <caption>Phasor Diagram</caption>
+    <image source="rfcc.png" width="50%"/>
+  </figure>
+  
+    <introduction>
+      <p>
+       If a body oscillates repeatedly (<em>to and fro</em>) between two extremes in 
+    equal interval of time then the motion is called a simple harmonic motion. It is 
+    the simplest form of oscillatory motion.  The moving particle follows the same 
+    velocity at the same displacement of its oscillation and the restoring force 
+    always pointed towards the mean position. The bouncing ball motion is oscillatory 
+    but not simple harmonic. A particle moving in a uniform circular motion in a 
+    given phasor diagram [<xref ref="rfcc"/>] can be seen as a foot 
+    (<m>M</m>) of the particle executing SHM. 
+  </p>
+  <p>
+    The angular velocity of the particle  is therefore the same as angular frequency of 
+    the foot of the particle executing SHM as shown in <xref ref="rfcc"/>. 
+    As the particle moves on a circle its foot, M executes up and down motion which 
+    traces a sinusoidal curve with respect to time. Some important terminologies 
+    are given below to understand SHM. 
+    <ol>
+      <li>
+        <term>Amplitude, <m>A</m>:</term> <idx><h>amplitude</h></idx> 
+        The maximum displacement of the oscillating particle on either side of its mean position. 
+      </li>
+      <li>
+        <term>Time Period, <m>T</m>:</term> <idx><h>time period</h></idx>  Time taken by oscillatory particle 
+        to complete one oscillation is called time period.
+      </li>
+      <li>
+        <term>Frequency, <m>f</m>:</term> <idx><h>frequency</h></idx> The number of oscillation completed 
+        per unit time is called frequency. If <m>T</m> is the time period, then frequency, <m>f</m> is given 
+        by <me>
+          f=\frac{1}{T}.
+        </me>
+        </li>
+        <li>
+          <term>Angular frequency, <m>\omega</m>:</term> <idx><h>angular frequency</h></idx> It is a circular 
+          frequency which measures angular displacement per unit time. 
+          <me>
+            \omega = \frac{2\pi}{T} = 2\pi f.
+          </me>
+          Its unit is radians/sec. It is a scalar quantity. In circular motion, angular frequency and 
+          angular velocity is used interchangeably. 
+        </li>
+        <li>
+         <term> Phase, <m>\phi</m>:</term> <idx><h>phase</h></idx> It is the initial position (in angle) 
+         of a particle at time <m>t=0.</m> If the particle executing SHM is at mean position when 
+         <m>t=0,</m> then <m> \phi=0, </m> if it is at its extreme positions then <m>\phi=\pm\frac{\pi}{2}.</m>
+        </li>
+    </ol>
+  </p>
+  <figure xml:id="rfcc2">
+    <caption></caption>
+    <image source="rfcc2.png" width="50%"/>
+  </figure>
+  <p>
+    The followings are some features to recognize simple harmonic motion (SHM). 
+    Any of these features guarantee the motion is SHM in nature.
+    <ol>
+      <li>
+        Restoring force is proportional to displacement from equilibrium position, i.e.,
+        <me>
+          F_{res}=-kx,
+        </me>
+              where <m>k</m> is a proportionality constant and <m>x</m> is a displacement from the equilibrium.
+      </li>
+      <li>
+        ime period, <m>T</m> is independent of the amplitude of oscillation.
+      </li>
+      <li>
+        Potential energy  is proportional to <m>x^{2}</m>.
+      </li>
+      <li>
+        The graphs for position vs time, (<m>x \sim t</m>); velocity vs time, (<m>v \sim t</m>); 
+        and acceleration vs time, (<m>a \sim t</m>) are all sinusoidal [<xref ref="rfcc2"/>]. 
+      </li>
+    </ol>
+  </p>
+</introduction>
+
+
+<subsubsection xml:id="subsubsec-eq_shm">
+  <title>Equation of SHM</title>
+  <p>
+    Equation for simple harmonic oscillation can be obtained by considering a spring-mass system, 
+    but the equation can be used for any other system performing SHM. Consider a block of mass <m>m</m> 
+    attached to the spring and one end of spring is fixed to the wall. If the block is displaced 
+    by the distance <m>x</m> from the mean position of spring-block system and released on a 
+    frictionless surface then restoring force of spring is proportional to the displacement. That is,
+    <me>
+      F_{s}  \varpropto x.
+    </me>
+    <men xml:id="eqn-shm1">
+      \text{or,}\quad F_{s}  =-k x
+    </men>
+       Where <m>k</m> is proportionality constant, called a force constant. It defines the 
+       elastic property of material, hence it is also called elastic constant. For spring 
+       we may also called <m>k</m> as stiffness constant. However, if the restoring force 
+       has some other source then elastic property of material then <m>k</m> is simply 
+       a proportionality constant and depends on the nature of space, e.g. gravitational 
+       field in case of simple pendulum. <m>-ve</m> sign here shows restoring force is 
+       always opposite to the displacement from the mean position. 
+       <fn>Equation <xref ref="eqn-shm1"/> is  Hook's Law, we can discuss this law in 
+        the chapter <alert>Elasticity</alert>.</fn>
+        <me>
+          \text{or,}\quad ma=-kx \quad [\text{from Newton's II law}
+        </me>
+        <men xml:id="eqn-shm2">
+          \therefore \quad a= -\omega^{2}x 
+        </men>
+        Where <m>\sqrt{\frac{k}{m}}=\omega,</m> is the angular frequency (velocity) 
+        of the object executing SHM or performing circular motion. Angular frequency, 
+        <m>\omega</m> is taken as <m>+ve</m> because phaser always revolves anticlockwise. 
+        In the <xref ref="shm1"/>, <m>l</m> is a mean length of spring-mass system 
+        and <m>x</m> is displacement from the equilibrium position at any time <m>t</m>. 
+        Here point <m>O</m> is equilibrium position and points <m>A</m> and <m>B</m> are two extremes. 
+        Now as acceleration, <m>a</m> is a function of <m>x</m> and <m>x</m> is also a function of <m>t,</m> 
+        we can also have velocity, <m>v=f(x,t)</m>. Therefore,
+     </p>
+     <figure xml:id="shm1">
+      <caption></caption>
+      <image source="shm1.png" width="50%"/>
+    </figure>
+     <p>
+     <me>
+      a=\frac{\,dv}{\,dt} =-\omega^{2}x 
+     </me>
+        <me>
+          \text{or,}\quad \frac{\,dv}{\,dt} =\frac{\,dv}{\,dx}\frac{\,dx}{\,dt}=-\omega^{2}x 
+        </me>
+        <me>
+          \text{or,}\quad v\frac{\,dv}{\,dx} =-\omega^{2}x 
+        </me>
+        <me>
+          \text{or,}\quad \int\limits_{v_{o}}^{v} v\,dv =-\omega^{2}\int\limits_{x_{o}}^{x} x\,dx
+        </me>
+        <me>
+          \text{or,}\quad \left.v^{2}\right|_{v_{o}}^{v} =-\omega^{2} \left.x^{2}\right|_{x_{o}}^{x}
+        </me>
+        <me>
+          \text{or,}\quad v^{2}-v_{o}^{2} =-\omega^{2} \left(x^{2}-x_{o}^{2}\right)
+        </me>
+        <me>
+          \text{or,}\quad v^{2} =\omega^{2} \left[  \frac{v_{o}^{2}}{\omega^{2}} - \left(x^{2}-x_{o}^{2}\right)\right]
+        </me>
+        <me>
+          \text{or,}\quad v =\omega\sqrt{ \left[  \frac{v_{o}^{2}}{\omega^{2}} +x_{o}^{2}-x^{2}\right]}
+        </me>
+        <me>
+          = \omega\sqrt{A^{2}-x^{2}}  \qquad [put,  \frac{v_{o}^{2}}{\omega^{2}} +x_{o}^{2} =A^{2}]
+        </me>
+ <me>
+  \text{or,}\quad v =\frac{\,dx}{\,dt} =\omega\sqrt{A^{2}-x^{2}}
+ </me>
+ <me>
+  \text{or,}\quad \int\limits_{x_{o}}^{x}\frac{\,dx}{\sqrt{A^{2}-x^{2}}} =\omega \int\limits_{0}^{t}\,dt 
+ </me>
+put, <m>x=A\sin\theta </m> or <m>\,dx=A\cos\theta\,d\theta</m>
+
+<me>
+  \text{Now,}\quad \int\frac{A\cos\theta\,d\theta}{\sqrt{A^{2}\cos^{2}\theta}} = \int\,d\theta =\theta =\sin^{-1}\frac{x}{A}. 
+</me>
+<me>
+  \text{or,}\quad \left.\sin^{-1}\frac{x}{A}\right|\int\limits_{x_{o}}^{x} =\omega \left.t\right|_{0}^{t}
+</me>
+<me>
+  \text{or,}\quad \sin^{-1}\frac{x}{A}- \sin^{-1}\frac{x_{o}}{A} =\omega t
+</me>
+<me>
+  \text{or,}\quad \sin^{-1}\frac{x}{A} = \omega t+\sin^{-1}\frac{x_{o}}{A} = \omega t+\phi
+</me>
+<men xml:id="eqn-shm3">
+  \therefore \quad x=A\sin(\omega t + \phi) 
+</men>
+Where <m>\phi =\sin^{-1}\left(\frac{x_{o}}{A}\right)</m> is a phase of oscillating particle. 
+The displacement of oscillating particle can also be obtained by using 
+<me>
+  x=A\cos(\omega t + \phi).
+</me>
+Either solutions will work perfectly fine in solving shm problems. However, we can use 
+cosine term solution if time <m> t = 0 </m> when the particle is at its extreme position. 
+If time <m>t = 0</m> when the particle is at mean position sine term solution will suffice.
+Here we are using  
+<men xml:id="eqn-shm4">
+  x=A\cos(\omega t +\phi) 
+</men>
+as a solution for the differential equation. Hence the velocity of such particle at any time <m>t</m> is given by 
+<men xml:id="eqn-shm5">
+  v   =  -\omega A \sin (\omega t + \phi) 
+</men>
+ and the acceleration of this particle is 
+ <men xml:id="eqn-shm6">
+  a   =  -\omega^{2} A\cos (\omega t + \phi)  =  -\omega^{2} x  
+ </men>
+ Time period of oscillation in spring-mass system is given by  
+ <me>
+  \omega = \frac{2\pi}{T} = \sqrt{\frac{k}{m}}.
+ </me>
+  <men xml:id="eqn-shm7">
+    \therefore\quad T = 2\pi\sqrt{\frac{m}{k}} 
+  </men>
+       </p>
+       <p>
+       <term> Alternative solution to <m>a=-\omega^{2}x</m></term>
+       </p>
+       <p>
+        We can find the solution of <m>a=-\omega^{2}x</m> by the following way 
+ <me>
+  a=\frac{\,dv}{\,dt} =\frac{\,d^{2}x}{\,dt^{2}} = -\omega^{2}x
+ </me>
+ <me>
+  \text{or,}\quad \frac{\,d^{2}x}{\,dt^{2}}+\omega^{2}x  =0
+ </me>
+ This is second order differential equation with constant coefficient. 
+ The solution of such equation can be found by guessing which depends 
+ upon the nature of the curve that we precept in SHM, which is sinusoidal in this case. 
+ Hence we can guess that 
+ <me>
+  x=A\sin(\omega t +\phi) 
+ </me>
+ <me>
+  \text{or,}\quad x=A\cos(\omega t +\phi)
+ </me>
+ will be the solution of given differential equation. 
+ <fn>The advanced way of finding the solution of such type of differential equation is to 
+  find the nature of roots <m>\alpha\pm i\beta </m> of the equation and then the solution can be given 
+  by <m>x=Ae^{\alpha t}[\sin(\beta t+\gamma)] </m>. Where <m>A</m> and  <m>\gamma</m> are arbitrary 
+  constants, and <m> \alpha</m> and <m>\beta</m> are roots of the auxiliary equation. 
+  (see <em>Chapter 4</em>)in <url href="https://sklkarn.github.io/Math-Physics/frontmatter.html"><c>Mathematical Methods of Physics</c></url>
+  </fn>
+       </p>
+       <p> <term>Algebric derivation of particle's velocity in SHM:</term> 
+        <me>
+         \frac{1}{2}kA^{2} = \frac{1}{2}mv^{2}+\frac{1}{2}kx^{2} 
+        </me>
+        <me>
+         \therefore \quad v = \omega\sqrt{(A^{2}-x^{2})}
+        </me></p>
+      </subsubsection>
+
+      <subsubsection xml:id="subsubsec-energy_shm">
+        <title>Energy in SHM</title>
+        <p>
+          Consider a vibrating spring with mass <m>m</m> attached to its end, then the kinetic 
+          energy of the mass <m>K=\frac{1}{2}mv^{2}</m>, and potential energy stored in the 
+          spring with a displacement <m>x</m> is <m>U=\frac{1}{2}kx^{2}</m>. [<xref ref="ch_eighth"/>] 
+          Now since restoring force involved in spring mass system is conservative, 
+          the total mechanical energy <m>E=K+U</m> is conserved [<xref ref="subsec-ediagram"/>].
+          <me>
+            E = \frac{1}{2}mv^{2} +  \frac{1}{2}kx^{2} = \frac{1}{2}kA^{2} =constant.
+          </me>
+          Here <m>k</m> is a spring constant, <m>A</m> is the amplitude of vibrating spring 
+          and the velocity of the particle executing SHM is zero at extremes. Let the spring 
+          oscillates in vertical up and down then the solution for SHM is given by
+          <me>
+            y=A\sin[\omega t +\phi]
+          </me>
+          <me>
+            \text{then}\quad v =\frac{\,dy}{\,dt} =-\omega A\cos[\omega t +\phi]
+          </me>
+          <men xml:id="eqn-shm_enrg1">
+            \text{or,}\quad E = \frac{1}{2}mv^{2} +  \frac{1}{2}ky^{2}
+          </men>
+          <me>
+            = \frac{1}{2}m \left(-\omega A\cos[\omega t +\phi]\right)^{2}+ \frac{1}{2}k\left(A\sin[\omega t +\phi]\right)^{2}
+          </me>
+          <me>
+            \text{or,}\quad E = \frac{1}{2}kA^{2}\left(\cos^{2}[\omega t +\phi]+\sin^{2}[\omega t +\phi]\right)
+          </me>
+          <me>
+            = \frac{1}{2}kA^{2} \quad [\because \omega^{2}=\frac{k}{m}]
+          </me>
+         From eqn. <xref ref="eqn-shm_enrg1"/>, we have -
+         <me>
+          v=\pm\omega\sqrt{A^{2}-y^{2}}
+         </me>
+         <m>\pm</m> means mass <m>m</m> is oscillating in up and down direction, i.e.
+         <me>
+          y=\pm A/2.
+         </me>
+          Now 
+          <me>
+            v = \pm\sqrt{\frac{k}{m}}A =\pm\omega A  \quad \text{at}\quad y=0
+          </me>
+          <term>Note:</term> The same result could be obtained by considering 
+          equation of SHM as <me>
+            y=A\cos[\omega t +\phi].
+          </me>
+            </p>
+     
+
+        <figure xml:id="phasor1">
+          <caption></caption>
+          <image source="phasor1.png" width="50%"/>
+        </figure>
+
+        
+  <table>
+    <title>Summary of Phasor Diagram for <m>x= A\cos\phi</m></title>
+    <tabular halign="center">
+    <row header="yes" bottom="minor" >
+     <cell>Points</cell>
+    <cell><m>\phi</m> </cell>
+    <cell><m>x</m>s </cell>
+    <cell><m>v</m> </cell>
+    <cell><m>a</m></cell>
+    <cell><m>t</m></cell>
+    <cell>KE</cell>
+    <cell>PE</cell>
+    </row>
+    <row>
+    <cell><m>a</m> </cell>
+    <cell> <m>0</m></cell>
+    <cell> <m>A</m></cell>
+    <cell><m>0</m> </cell>
+    <cell><m>-\omega^{2}A</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{1}{2}kA^{2}</m></cell>
+     </row>
+    <row>
+    <cell><m>b</m></cell>
+    <cell><m>\frac{\pi}{2}</m></cell>
+    <cell> <m>0</m></cell>
+    <cell> <m>-A\omega</m></cell>
+    <cell><m>0</m></cell>
+    <cell><m>\frac{T}{4}</m></cell>
+    <cell><m>\frac{1}{2}kA^{2}</m></cell>
+       <cell><m>0 </m></cell>
+    </row>
+    <row>
+      <cell><m>c</m></cell> 
+      <cell><m>\pi</m></cell>
+      <cell> <m>-A</m></cell>
+      <cell> <m>0</m></cell>
+      <cell><m>\omega^{2}A </m></cell>
+      <cell><m>\frac{T}{2}</m></cell>
+      <cell><m>0</m></cell>
+         <cell><m>\frac{1}{2}kA^{2} </m></cell>
+      </row>
+      <row>
+        <cell><m>d</m></cell> 
+        <cell><m>-\frac{\pi}{2} \,or,\, \frac{3\pi}{2}</m></cell>
+         <cell> <m>0</m></cell>
+        <cell><m>+A\omega</m></cell>
+        <cell><m>0</m></cell>
+        <cell><m>\frac{3T}{4}</m></cell>
+           <cell><m>\frac{1}{2}kA^{2}</m></cell>
+           <cell> <m>0</m></cell>
+        </row>
+        <row>
+          <cell><m>e</m></cell> 
+          <cell><m>-\pi \, or,\, 2\pi</m></cell>
+           <cell> <m>A</m></cell>
+          <cell><m>0</m></cell>
+          <cell><m>-\omega^{2}A</m></cell>
+          <cell><m>T</m></cell>
+             <cell><m>0</m></cell>
+             <cell> <m> \frac{1}{2}kA^{2}</m></cell>
+          </row>
+          </tabular>
+    </table>
+     
+      </subsubsection>
+
+</subsection>
+
+<subsection xml:id="subsec-simp_pendulum">
+  <title>Simple Pendulum</title>
+
+  <figure xml:id="sp1a">
+    <caption></caption>
+    <image source="sp1a.png" width="40%"/>
+  </figure>
+  <p>
+    A simple pendulum consists of a heavy bob of mass <m>m</m>  hanging from an 
+    inextensible and massless string of length <m>l.</m> When the bob is displaced 
+    from its mean position and released, it will swing back and forth with periodic 
+    motion as shown in <xref ref="sp1a"/>. From free body diagram, it is clear that 
+   <m>mg\cos\theta </m> is balanced by tension <m>T</m> in the string but unbalanced 
+   force <m>mg\sin\theta </m> provides the restoring force. Hence 
+   <me>
+    F_{s} = -mg\sin\theta 
+   </me>
+   <me>
+    \text{or,}\quad ma = -mg\frac{x}{l}
+   </me>
+   <me>
+    \text{or,}\quad a = -\frac{g}{l}x =-\omega^{2}x 
+   </me>
+   where <m>\omega = \sqrt{\frac{g}{l}} </m> is the angular velocity of the 
+   bob performing circular motion. The time period of simple pendulum can be given as 
+   <me>
+    \omega = \frac{2\pi}{T}=\sqrt{\frac{g}{l}} 
+   </me>
+   <me>
+    \therefore \quad T = 2\pi\sqrt{\frac{l}{g}} 
+   </me>
+     </p>
+     <p>
+      <term>Alternative:</term>
+The restoring torque <xref ref="subsec-rot_overview"/> acting on the bob is given by 
+<me>
+  \tau=-mgl\sin\theta 
+</me>
+<me>
+  or, \, I \alpha =ml^{2}\frac{\,d\omega}{\,dt}= ml^{2}\ddot{\theta}
+</me>
+As a restoring torque is giving a clockwise rotation when angular displacement is counterclockwise.
+<me>
+  \text{or,}\quad ml^{2}\ddot{\theta} =-mgl\sin\theta 
+</me>
+<me>
+  \text{or,}\quad l\ddot{\theta} =-g\sin\theta =-g\theta \qquad [\text{small angle approximation}]
+</me>
+<me>
+  \text{or,}\quad \ddot{\theta}+\frac{g}{l}\theta= 0 
+</me>
+<me>
+  \text{or,}\quad \ddot{\theta}+\omega^{2}\theta = 0  \qquad   \left[\omega = \sqrt{\frac{g}{l}}\right] 
+</me>
+This is second order differential equation the solution of which can be written as 
+<me>
+  \theta(t) = \Theta(\sin\omega t + \phi)
+</me>
+where <m>\Theta</m> is called an angular amplitude. 
+     </p>
+</subsection>
+
+
+<subsection xml:id="subsec-comp_pendulum">
+  <title>Compound Pendulum</title>
+
+  <figure xml:id="cp1">
+    <caption></caption>
+    <image source="cp1.png" width="40%"/>
+  </figure>
+  <p>
+    A compound pendulum consists of a rigid body that oscillates about a horizontal 
+    frictionless axis passing through a point <m>S</m>. It is also called a physical 
+    pendulum. When a body is displaced from its equilibrium position by an angle <m>\theta,</m> 
+    then the restoring torque starts acting on the center of gravity G of the body which is given by 
+    <me>
+      \tau = I \alpha = -mga\sin\theta
+    </me>
+    <me>
+      \text{or,}\quad I\ddot{\theta}=-mga\theta \quad [\text{for small angle approximation}]
+    </me>
+    <me>
+      \text{or,}\quad \ddot{\theta}+\frac{mga}{I}\theta =0
+    </me>
+    <me>
+      \text{or,}\quad \ddot{\theta}+\omega^{2}\theta =0
+    </me>
+    where <m>\omega^{2}=\frac{mga}{I} </m>
+    <me>
+      or, \, \omega = \sqrt{\frac{mga}{I}} =\frac{2\pi}{T} 
+    </me>
+    <me>
+      \therefore\quad T = \sqrt{\frac{I}{mga}} 
+    </me>
+    here, 
+    <me>
+       I = I_{cm}+Ma^{2} = Mk^{2}+Ma^{2} 
+    </me>
+    <m>k</m> is radius of gyration
+    <me>
+      \therefore\quad T = 2\pi\sqrt{\frac{k^{2}+a^{2}}{ga}}
+    </me>
+      </p>
+
+      <p>
+        Comparing time period of simple pendulum and compound pendulums we will get -
+        <me>
+          l=\frac{k^{2}+a^{2}}{a}
+        </me>
+        This is the length of equivalent simple pendulum.  If all the mass of a 
+        rigid body were concentrated at a point <m>O</m> [<xref ref="cp1"/>] 
+        such that 
+        <me>
+          SO= \frac{k^{2}+a^{2}}{a}
+        </me>
+          then we will get a simple pendulum of same time period. The point <m>O</m> is called 
+          the <em>center of oscillation</em>. Now from <me>
+            l=\frac{k^{2}+a^{2}}{a},
+          </me>
+           we have -
+           <me>
+            a^{2}-la+k^{2} =0
+           </me>
+           Which is a quadratic in a, whose roots are 
+           <me>
+            a=\frac{l\pm\sqrt{l^{2}-4k^{2}}}{2}
+           </me>
+           Therefore 
+           <me>
+            a_{1} +a_{2} =l
+           </me>
+          and 
+          <me>
+            a_{1}a_{2}=k^{2}
+          </me>
+          Thus both <m>a_{1}</m> and <m>a_{2}</m> are positive. That is there are 
+          two positions of the center of suspension and center of oscillation about 
+          which the time periods are the same.  The distance between two such positions 
+          of the centers of suspension, asymmetrically located on either side of C.G, 
+          is the length <m>l=a+b</m> of the simple equivalent pendulum. Thus time period 
+          through point <m>S</m> or <m>O</m> is same. If the body is supported by an 
+          axis through <m>G</m>, the time period of oscillation would be infinite. 
+      </p>
+</subsection>
+
+<subsection xml:id="subsec-largeangl_approx">
+  <title>Simple Pendulum with Large Angle Approximation</title>
+
+  <figure xml:id="spelliptical">
+    <caption></caption>
+    <image source="spelliptical.png" width="40%"/>
+  </figure>
+  <p>
+    <me>
+      x=l\theta
+    </me>
+    <me>
+      \text{or,}\quad \dot{x} =l\dot{\theta} 
+    </me>
+    <me>
+      V =-mgl\cos\theta
+    </me>
+    <me>
+      K=\frac{1}{2}m\dot{x}^{2} = \frac{1}{2}ml^{2}\dot{\theta}^{2} 
+    </me>
+    <me>
+      T=K+V = \frac{1}{2}ml^{2}\dot{\theta}^{2}-mgl\cos\theta =const. 
+    </me>
+    <me>
+      \text{Now,}\quad \frac{\,dT}{\,dt} =0 =\frac{1}{2}ml^{2}2\dot{\theta}\ddot{\theta}+mgl\sin\theta\dot{\theta}
+    </me>
+    <me>
+      \text{and}\quad \dot{\theta}\ddot{\theta} =-\frac{g}{l}\sin\theta\dot{\theta}  \qquad [\because \theta \quad \text{is large}]
+    </me>
+      <me>
+  \text{or,}\quad \frac{\,d\theta}{\,dt}\left[\frac{\,d}{\,dt}\left(\frac{\,d\theta}{\,dt}\right)\right] =-\frac{g}{l}\sin\theta\left(\frac{\,d\theta}{\,dt}\right) 
+</me>
+<me>
+  \text{or,}\quad \frac{\,d\theta}{\,dt}\left[\,d\left(\frac{\,d\theta}{\,dt}\right)\right] =-\frac{g}{l}\sin\theta\,d\theta 
+</me>
+<me>
+  \text{or,}\quad \int\dot{\theta}\left(\,d\dot{\theta}\right) =-\frac{g}{l}\int\sin\theta\,d\theta
+</me>
+<me>
+  \text{or,}\quad \frac{\dot{\theta}^{2}}{2}=\frac{g}{l}cos\theta+k. \qquad [\text{where k is a constant.}]
+</me>
+<men xml:id="eqn-larg_sp1">
+  \text{or,}\quad \frac{\dot{\theta}^{2}}{2}-\omega^{2}cos\theta=k. \qquad \left[\because \omega=\sqrt{\frac{g}{l}}\right]
+</men>
+This is a non-linear differential equation. At first extremum, <m>\theta \to \theta_{i},</m> 
+and angular velocity at that moment is <m>\dot{\theta}_{i}=0</m> where <m>i</m> 
+stands for maximum value of <m>\theta.</m>
+<me>
+  \text{or,}\quad 0 = \omega^{2}cos\theta_{i}+k
+</me>
+<me>
+  \therefore\quad k = -\omega^{2}cos\theta_{i}
+</me>
+Therefore eqn. <xref ref="eqn-larg_sp1"/> becomes -
+<me>
+  \frac{\dot{\theta}^{2}}{2}=\omega^{2}cos\theta-\omega^{2}cos\theta_{i}
+</me>
+<me>
+  \text{or,}\quad \dot{\theta} = \omega\sqrt{2\left(\cos\theta-\cos\theta_{i}\right)} 
+</me>
+<me>
+  \text{or,}\quad \frac{\,d\theta}{\,dt} = \omega \sqrt{2\left(\cos\theta-\cos\theta_{i}\right)}
+</me>
+At mean position at <m>t=0,\theta=0,</m> and <m>\dot{\theta} \gt 0.</m>
+<me>
+  \therefore\quad \int\limits_{0}^{t} \omega\,dt =\int\limits_{0}^{\theta_{i}}  \frac{\,d\theta}{\sqrt{2\left(\cos\theta-\cos\theta_{i}\right)}} 
+</me>
+Here, 
+<me>
+  \left(\cos\theta-\cos\theta_{i}\right) =1-2\sin^{2}\frac{\theta}{2} - 1+2\sin^{2}\frac{\theta_{i}}{2} 
+</me>
+<me>
+  = 2\left(\sin^{2}\frac{\theta_{i}}{2} -\sin^{2}\frac{\theta}{2}\right) 
+</me>
+<me>
+  \therefore\quad  \omega t =\frac{1}{2}\int\limits_{0}^{\theta_{i}}  \frac{\,d\theta}{\sqrt{\left(\sin^{2}\frac{\theta_{i}}{2} -\sin^{2}\frac{\theta}{2}\right)}} 
+</me>
+<men xml:id="eqn-larg_sp2">
+  = \frac{1}{2}\int\limits_{0}^{\theta_{i}}  \frac{\,d\theta}{\sin\frac{\theta_{i}}{2} \sqrt{\left( 1-\frac{\sin^{2}\frac{\theta}{2}}{\sin^{2}\frac{\theta_{i}}{2}}\right)}}  
+</men>
+Set 
+<me>
+  \sin\phi= \frac{\sin\frac{\theta}{2}}{\sin\frac{\theta_{i}}{2}}
+</me>
+<me>
+  \text{and say}\quad  \sin\frac{\theta_{i}}{2} =b 
+</me>
+
+ and <m> \sin\phi</m> oscillates between <m>-1 \quad\text{to}\quad  +1.</m>
+Now, 
+<men xml:id="eqn-larg_sp3">
+  \sin\frac{\theta}{2} = b\sin\phi 
+</men>
+<men xml:id="eqn-larg_sp4">
+  \therefore \quad \omega t= \frac{1}{2}\int \frac{\,d\theta}{b \sqrt{ 1-\sin^{2}\phi}} = \frac{1}{2}\int \frac{\,d\theta}{b \cos\phi} 
+</men>
+Differentiating eqn. <xref ref="eqn-larg_sp3"/>, we get -
+<me>
+  \sin\frac{\theta}{2} =b\sin\phi
+</me>
+<me>
+  \text{or,}\quad \frac{1}{2} \cos\frac{\theta}{2}\,d\theta = b\cos\phi\,d\phi
+</me>
+<me>
+  \text{or,}\quad \,d\theta = \frac{2b\cos\phi\,d\phi}{\cos\frac{\theta}{2}}
+</me>
+From eqn. <xref ref="eqn-larg_sp4"/>, we have -
+<me>
+  \omega t = \frac{1}{2}\int \frac{2b\cos\phi\,d\phi}{\cos\frac{\theta}{2}b\cos\phi}
+</me>
+<me>
+  = \int \frac{\,d\phi}{\cos\frac{\theta}{2}} = \int \frac{\,d\phi}{1-\sin^{2}\frac{\theta}{2}}
+</me>
+<men xml:id="eqn-larg_sp5">
+  \therefore\quad \omega t  = \int \frac{\,d\phi}{1-b^{2}\sin^{2}\phi}  
+</men>
+This a first kind of elliptical integral.
+      </p>
+      <p>
+From power series, 
+<me>
+  \left(1-b^{2}\sin^{2}\phi\right)^{-\frac{1}{2}} = 1+\frac{1}{2}b^{2}\sin^{2}\phi+\frac{3}{2^{3}}b^{4}\sin^{4}\phi+\cdots
+</me>
+<men xml:id="eqn-larg_sp6">
+  \therefore\quad \omega t = \int \left[1+\frac{1}{2}b^{2}\sin^{2}\phi+\frac{3}{8}b^{4}\sin^{4}\phi+\cdots\right]\,d\phi  
+</men>
+At <m>t=0, \,\theta=0,</m> the swing is at the lowest point, and hence <m>\sin\phi=0</m> 
+<m>\Rightarrow \phi=0</m> see eqn.<xref ref="eqn-larg_sp3"/>.
+Hence, from eqn. <xref ref="eqn-larg_sp6"/>, 
+<me>
+  \omega T_{1} = \int\limits_{0}^{2\pi}\,d\phi =2\pi
+</me>
+<me>
+  \omega T_{2} = \int\limits_{0}^{2\pi}\frac{b^{2}}{2}\sin^{2}\phi\,d\phi 
+</me>
+<me>
+  =\int\limits_{0}^{2\pi}\frac{b^{2}}{2}\frac{\left(1-\cos2\phi\right)}{2}\,d\phi 
+</me>
+<me>
+  = \frac{b^{2}}{2}\pi = \frac{1}{2}\pi\sin^{2}\frac{\theta_{i}}{2} 
+</me>
+<me>
+  \omega T = 2\pi+\frac{\pi}{2}\sin^{2}\frac{\theta_{i}}{2} +\cdots 
+</me>
+<men xml:id="eqn-larg_sp7">
+  \therefore\quad T = 2\pi\sqrt{\frac{l}{g}}\left[1+\frac{1}{4}\sin^{2}\frac{\theta_{i}}{2}+\cdots \right]
+</men>
+      </p>
+</subsection>
+  </section>
+

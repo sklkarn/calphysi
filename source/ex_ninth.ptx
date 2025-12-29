@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_ninth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+
+  <paragraphs>
+    <title>Fluid Basics</title>
+    
+  <exercise>
+    <p>
+      A block of aluminum has a size of <m>10 \,cm \times 5 \,cm \times 2 \,cm</m>. 
+      <ol marker="a.">
+        <li>
+          What is the mass?
+        </li>
+        <li>
+          What is its weight?
+        </li>
+        <li>
+          If immersed in water, what would be the volume of the displaced water? 
+        </li>
+        <li>
+          What would be the weight of the displaced water?
+        </li>
+        <li>
+          How large a force would be required to keep the block from sinking in the water?
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A cube of wood 10 cm on a side is floating in oil of specific gravity 0.8 with its 
+      top face 2 cm  above the surface of the oil. What is 
+      <ol marker="a.">
+        <li>
+          the density of the oil,
+        </li>
+        <li>
+          the volume of the displaced oil,
+        </li>
+        <li>
+          the mass of the displaced oil, 
+        </li>
+        <li>
+          the weight of the displaced oil,
+        </li>
+        <li>
+          the weight of the cube,
+        </li>
+        <li>
+          the volume of the cube, 
+        </li>
+        <li>
+          the density of the cube,
+        </li>
+        <li>
+          the pressure at the bottom of the cube, and
+        </li>
+        <li>
+          the force exerted by the oil on the bottom of the cube?
+        </li>
+      </ol> 
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An aluminum weight of mass 200 g is attached by a short string to the bottom of a 
+      float of density <m>0.3 g/cm^{3}</m> which is supported by another string attached 
+      to a mass balance. When both the weight and the float are completely immersed in water 
+      the balance reads  50 g. What is 
+      <ol marker="a.">
+        <li>
+          the volume of the float,
+        </li>
+        <li>
+          the mass of the float,
+        </li>
+        <li>
+          the buoyant force of the water on the float, and
+        </li>
+        <li>
+          the buoyant force of the water on the aluminum weight.
+        </li>
+        <li>
+          What would the balance read if only the weight were under water?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The weight density of fresh water is <m>62.4 \,lb/ft^{3}</m> and the specific gravity of 
+      ice is 0.917. What is the minimum size (in feet) of a square slab of ice 1 ft 
+      thick that would support a man weighing 180 lbs?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A hang glider has a wing area of <m>165 \,ft^{2},</m> weighs 70 lb (pounds), 
+      and caries a pilot weighing 200 lb with his equipment. If the velocity of 
+      the air under the wing is half that over the top, what is the average airspeed 
+      of the glider in miles per hour? Hint: This problem can be worked in the FPS 
+      system by using the fact that the specific gravity of air is <m>1.29 \times 10^{-3}</m> 
+      and the weight density of water is <m>62.4 \,lb/ft^{3}</m>.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Water is flowing through a pipe with a constriction. The area of the narrow section 
+      is one half the area of the wide section. If the velocity of the incompressible 
+      fluid is <m>3.2 \,m/s</m> in the wide section, then what is the velocity of 
+      the fluid in the narrow section?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A hose lying on the ground has water coming out of it at a speed of 
+      <m>5.4 m/s.</m> If the nozzle of the hose is lifted to a height of 
+      1.3 m above the ground. Find the speed of water coming out of the hose. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A large tank of water open to the air at the top has a hose attached to 
+      its bottom with a nozzle opening of diameter 0.5 cm. The velocity of the water 
+      leaving the nozzle is 6 m/s. 
+      <ol marker="a.">
+        <li>
+          How high would the water squirt if the nozzle were aimed straight up?
+        </li>
+        <li>
+          What is the volume flow rate of the water leaving the tank?
+        </li>
+        <li>
+          What is the pressure in the water as it leaves the nozzle? 
+        </li>
+        <li>
+          What is the pressure in the water at the top of the tank? 
+        </li>
+        <li>
+          What is the velocity of the water at the top of the tank?
+        </li>
+        <li>
+          What is the height of the water in the tank?
+        </li>
+        <li>
+          If the diameter of the hose between the tank and nozzle is 1 cm, what is the velocity of the water in the hose? 
+        </li>
+        <li>
+          What is the gauge pressure in the hose? 
+        </li>
+        <li>
+          What is the absolute pressure in the hose?
+        </li>
+      </ol> 
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A balloon filled with helium gas is floating in air with acceleration 
+      <m>a</m>. If the density of air and helium gas is <m>1.23 \,kg/m^{3}</m> 
+      and <m>0.42 \,kg/m^{3}</m>, respectively and volume of balloon is <m> 0.075 \,m^{3}.</m>  
+      Find the value of <m>a.</m>
+    </p>
+  </exercise>
+
+</paragraphs>
+
+<paragraphs>
+  <title>Viscosity</title>
+    <exercise>
+     <p>
+      The velocity of water in river is 5m/s at the surface. If river is 5 m deep, 
+      find the shear stress between the horizontal layers of water. 
+      The viscosity of water is <m>10^{-3} </m> poiseullie. [1 poiseullie = 10 pise]
+     </p>
+   
+  </exercise>
+  <exercise>
+   <p>
+    The flow rate of a viscous fluid through a hose is measured to be <m>2\times 10^{-5} \,m^{3}/s.</m> 
+    The length of the hose is 1.8 m, the viscosity of the fluid is <m>0.072 \,N/m^{2},</m> 
+    and the pressure difference across the hose is 55 Pa. Determine the radius of the hose. 
+   </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An air bubble of radius 1 mm is allowed to rise through a long cylindrical tube 
+      of a viscous liquid of radius 5 cm and travels at a steady rate of 2 cm/s. 
+      If the density of the liquid is <m>1.5 \,g/cm^{3}</m>, find its viscosity.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An oil drop of radius <m>2\times 10^{-5} \,m</m> and density <m>1.2 \times 10^{3} \,kg/m^{3}</m> 
+      is falling freely in air of viscosity <m>1.8\times 10^{-5} \,Pa.s.</m> How much is the 
+      viscous force is acting on the drop at that speed? Neglect buoyancy on drop due to air.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 1.5 liter of viscous fluid is draining through a needle will take 25 minutes. 
+      If the needle diameter is increased by 20\%, how long will it take to drain the bottle?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Calculate the viscosity of an oil which is used for lubrication between a plate of 
+      size 0.8m by 0.8 m inclined plane with angle of inclination <m>30^{o} </m>. 
+      The weight of the square plate is 300 N and it slides down the plane with 
+      uniform velocity of 0.3 m/s. The thickness of oil film is 1.5 mm.
+    </p>
+  </exercise>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Surface Tension</title>
+ <exercise>
+  <p>
+    The base of an insect's leg is approximately spherical in shape with a radius of 
+    about <m>2.0\times 10^{-5} \,m.</m> The mass of the insect is <m>3.00\times 10^{-6} \,kg</m> 
+    and is supported equally by six legs. Calculate the contact angle <m>\theta</m>. 
+    The coefficient of surface tension is 0.072 N/m.
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    <ol marker="a.">
+      <li>
+        A circular loop of wire and a pan of soapy water is used to produce a soap bubble whose radius is 1.0 mm.
+        The surface tension of the soapy water is <m>\gamma  = 2.5 \times 10^{-2} \,N/m.</m>
+        Determine the pressure difference between the inside and outside of the bubble.
+      </li>
+      <li>
+        The same soapy water is used to produce a spherical droplet whose radius is 0.50 mm.
+        Find the pressure difference between the inside and outside of the droplet.
+      </li>
+    </ol>
+  </p>
+  <hint>
+    <p>
+      If the bubble and drop had the same radius, then the pressure difference between 
+      the inside and outside of the bubble to be twice as large as that for the drop. 
+      Since a spherical drop of liquid has only one surface, rather than two surfaces, 
+      for there is no air within it.
+    </p>
+  </hint>
+ </exercise>
+
+ <exercise>
+  <p>
+    A circular ring of radius = 5.0 cm is immersed in the liquid and then pulled upward, 
+    so a film is formed between the ring and the liquid. An upward force of <m>3.6 \times  10^{-2} N </m> 
+    is required in addition to the weight of the ring to lift them to the point where 
+    the film just breaks. What is the surface tension of the liquid?  
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A bubble of air in water (<m> \gamma = 0.073 \,N/m</m> ) has a radius of 0.10 mm. 
+    Find the difference in pressures between the inside and outside of the bubble.
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A drop of oil (<m>\gamma = 0.0320 \,N/m</m>) has a radius of 0.01 mm. The drop is located a 
+    distance of 2 m below the surface of fresh water. The atmospheric pressure above the 
+    water is <m>1.01 \times 10^{5} \,Pa</m>. 
+    <ol marker="a.">
+      <li>
+        What is the absolute pressure in the water at this depth? 
+      </li>
+      <li>
+        Determine the absolute pressure inside the oil drop.
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A needle of length 3.2 cm is placed gently on the surface of the water (<m>\gamma =0.073 \,N/m</m>) 
+    so that it can float on the water. What is the weight of the heaviest needle 
+    that can be used in this demonstration?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A glass plate of length 10 cm and thickness 0.2 cm is pulled up from a liquid 
+    of surface tension 0.07 N/m, find the force with which it is pulled up. 
+    Assume the angle of contact to be zero.
+  </p>
+ </exercise>
+</paragraphs>
+
+ </exercises>
+

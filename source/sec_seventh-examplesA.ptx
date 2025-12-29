@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples A</title>
+  
+  
+  <example>
+    <statement>
+      <p>
+        Find the moment of inertia of the following mass distribution for the 
+        following axes, 
+        <ol marker="a.">
+          <li>
+            x,
+          </li>
+          <li>
+            x',
+          </li>
+          <li>
+            y,
+          </li>
+          <li>
+            z (out of the paper through the (x,y) origin).
+          </li>
+        </ol>
+            </p>
+    </statement>
+    <solution>
+      <image source ="mi1.png" width="40%"> </image>
+      <p>
+        Given: <me>
+          m_{1}  =  1 \,kg, \quad m_{2}  =  2 \,kg, \quad m_{3}  =  3 \,kg,\quad m_{4}  =  4 \,kg
+        </me>
+        <ol marker="a.">
+          <li>
+            <me>
+              r_{1}  =  0,  \quad r_{2}  =  0 \,m, \quad r_{3}  =  1 \,m,\quad  r_{4}  =  1 \,m
+            </me>
+            <me>
+              \therefore I_{x}  = \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+0+3\cdot 1^{2}+4\cdot 1^{2} = 7\, kg m^{2} 
+            </me>
+              </li>
+          <li>
+           <me>
+            r_{1}  =  1 \,m,\quad r_{2}  =  1 \,m, \quad r_{3}  =  0, \quad r_{4} =  0 
+           </me>
+           <me>
+            \therefore I_{x'}  =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 1+2+0+0=3\, kg m^{2} 
+           </me>
+            </li>
+          <li>
+           <me>
+            r_{1}  =  0,\quad r_{2}  =  1 \,m,\quad r_{3}  =  1 \,m,\quad r_{4}  =  0 \,m,
+           </me>
+           <me>
+            \therefore \quad I_{y} =  \sum\limits_{1}^{4} m_{i} r_{i}^{2} = 0+2+3+0=5\, kg m^{2} 
+           </me>
+              </li>
+          <li>
+           <me>
+            r_{1}  =  0, \quad r_{2}  =  1 \,m,\quad r_{3}  = \sqrt{2}\, m,\quad r_{4}  =  1\, m,
+           </me>
+           <me>
+           I_{z}  =  \sum m r^{2} = 12 \, kg m^{2}
+           </me>
+           
+               </li>
+                 </ol>
+      </p>
+    </solution>
+  </example>
+
+<example>
+  <statement>
+    <p>
+      Two rods, each of mass m and length l, are welded together to form the 
+      T-shaped object. Use the parallel-axis theorem to determine the moment of inertia 
+      of the object about the axis through point O that is perpendicular to the bars.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Divide the object into two pieces, each corresponding to a bar of mass m. 
+      Moment of inertia of first rod about its one end, 
+      <me>
+        I_{1} =\frac{1}{3}ml^{2}. 
+      </me>
+      Moment of inertia of second rod about its center, 
+      <me>
+        I_{2} =\frac{1}{12}ml^{2}.
+      </me>
+     Moment of inertia of CM of second rod about point o using 
+     <m>||^{l}</m> axis theorem, 
+     <me>
+      I_{2cm} =ml^{2}. 
+     </me>
+    <me>
+      \therefore I = I_{1}+(I_{2}+I_{2cm}) 
+    </me>
+    <me>
+      =\frac{1}{3}ml^{2}+ \frac{1}{12}ml^{2}+ml^{2} = \frac{17}{12}ml^{2}
+    </me>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+      <p>
+      Calculate the moment of inertia of each of the uniform bodies 
+          <ol marker="a.">
+        <li>
+          uniform block about its long axis, 
+           <image source ="mi3.png" width="25%"> </image>
+           </li>
+        <li>
+          square ring about its center, and 
+          <image source ="mi3b.png" width="25%"> </image>
+        </li>
+        <li>
+          hula hoop about its rim.
+          <image source ="mi3c.png" width="25%"> </image>
+        </li>
+          </ol>
+        </p>
+  </statement>
+  <solution>
+      <p>
+        <ol marker="a.">
+          <li>
+           <me>
+            I  =  1/12 M(a^{2} + a^{2})  =  \frac{1}{6} M a^{2};
+           </me>
+               </li>
+          <li>
+           <me>
+            I  =  4 I_{1}, \, I_{1}  =  I_{1cm} + M_{1} R^{2}_{1},\, I_{1cm}=  \frac{1}{12} M_{1} R^{2}_{1},
+           </me>
+           <me>
+            M_{1} =  M/4,\,	R_{1} =  L/2,\, I  =  \frac{13}{24} M L^{2};
+           </me>
+            </li>
+          <li>
+          <me>
+            I  =  I_{cm} + M R^{2},\, I_{cm} = \frac{2}{5} M R^{2}, \, I =  \frac{7}{5} M R^{2}.
+          </me>
+             </li>
+            </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+     A rod of nonuniform mass distribution has a length, <m>L</m> and mass <m>M</m>. 
+The linear mass density is given as <m>\lambda = \lambda_{o}x</m> where <m>\lambda_{o}</m> is constant. 
+ <ol marker="a.">
+  <li>
+    Find the center of mass of a rod.
+     </li>
+  <li>
+    Find the moment of inertia of the rod about about an axis passing through one of its edges and perpendicular to its length.
+  </li>
+     </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Linear mass density, 
+      <me>
+        \lambda = \frac{\,dm}{\,dl}.
+      </me>
+      <me>
+        or, \quad \,dm = \lambda \,dl = \lambda_{o} x \,dx.
+      </me>
+      <me>
+        \therefore \quad M = \int \,dm  = \int_{0}^{L} \lambda_{o} x \,dx
+      </me>
+      <me>
+        = \lambda_{o} \left. \frac{x^{2}}{2}\right\vert_{0}^{L} = \frac{\lambda_{o}L^{2}}{2}
+      </me>
+      <me>
+        Hence, \quad \lambda_{o} = \frac{2M}{L^{2}} 
+      </me>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              x_{cm} = \dfrac{\int_{0}^{M}x\,dm}{\int_{0}^{M}\,dm} = \frac{2}{\lambda_{o}L^{2}}\int_{0}^{L}x(\lambda_{o}x)\,dx = \frac{2}{3} L 
+            </me>
+                </li>
+          <li>
+          <me>
+            \,dI  = x^{2}\,dm = x^{2}\lambda \,dx = x^{2}\lambda_{o} x\,dx  \
+          </me>
+          <me>
+            \therefore \quad I = \int \,dI = \lambda_{o}\int_{0}^{L}x^{3} \,dx 
+          </me>
+          <me>
+            = \lambda_{o}\left.\frac{x^{4}}{4} \right\vert_{o}^{L} = \frac{\lambda_{o}L^{4}}{4} = \frac{1}{2}ML^{2}
+          </me>
+             </li>
+             </ol>
+      </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A disk of nonuniform mass distribution has a radius, <m>R</m> mass and <m>M</m>. 
+      The surface mass density varies as <m>\sigma = \sigma_{o} r^{2}</m> where <m>\sigma_{o}</m> 
+      is a constant and <m>r</m> is measured from its center. 
+      <ol marker="a.">
+        <li>
+          Find its center of mass and
+           </li>
+        <li>
+          moment of inertia about an axis passing through its geometric center and perpendicular to its plane. 
+        </li>
+           </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      Surface mass density, 
+      <me>
+        \sigma = \frac{\,dm}{\,dA}.
+      </me>
+      <me>
+        or, \quad \, dm = \sigma \, dA = \sigma_{o} r^{2} (2\pi r \,dr) = 2\pi \sigma_{o}r^{3}\,dr 
+      </me>
+      <me>
+        \therefore\quad M = \int \,dm = 2\pi\sigma_{o}\int^{R}_{0} r^{3}\,dr =  2\pi\sigma_{o} \frac{R^{4}}{4} = \frac{1}{2}\pi \sigma_{o}R^{4}
+      </me>
+      <me>
+        Hence, \quad \sigma_{o} = \frac{2M}{\pi R^{4}} 
+      </me>
+      <ol marker="a.">
+        <li>
+          <me>
+            r_{cm} = \frac{1}{M}\int_{0}^{M}r\,dm = \frac{2}{\pi \sigma_{o}R^{4}} \int_{0}^{R}2\pi \sigma_{o}r^{4}\,dr = \frac{4}{5} R 
+          </me>
+             </li>
+        <li>
+        <me>
+          \,dI = r^{2}\,dm =r^{2} 2\pi \sigma_{o}r^{3}\,dr 
+        </me>
+        <me>
+          \therefore \quad I = \int \,dI = 2\pi\sigma_{o}\int_{o}^{R}r^{5}\,dr = \frac{1}{3}\pi\sigma_{o}R^{6} = \frac{2}{3}MR^{2}.
+        </me>
+          </li>
+           </ol>
+    </p>
+  </solution>
+</example>
+</section>

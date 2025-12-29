@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_second-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+<example>
+  <statement>
+    <p>
+      Write the vector equations for the given diagrams. 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker ="a.">
+        <li>
+          <p>
+            Do your self: 
+          </p>
+          <image source ="fig2fi.png" width="20%"> </image> 
+        </li>
+        <li>
+          <p>
+            Do your self: 
+          </p>
+          <image source ="fig2fii.png" width="20%"> </image>
+        </li>
+        <li>
+          <p>
+            From figure,
+          </p>
+          <image source ="fig2fiii.png" width="20%"> </image> 
+          <p>
+            we can write resultant of <m>\vec{a}</m> 
+          and <m>\vec{b}</m> as <m>\vec{a}+\vec{b}</m> given by dotted lines. Hence,
+          <m>(\vec{a}+\vec{b})+(\vec{c}+\vec{d})=\vec{e}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            From figure,
+          </p>
+          <image source ="fig2fiv.png" width="20%"> </image> 
+          <p>
+            we can write 
+             <me>
+            \vec{r}_{1}=\vec{a}+\vec{b},
+          </me>
+          <me>
+            \vec{r}_{2}=\vec{r}_{1}+\vec{c}=(\vec{a}+\vec{b})+\vec{c},
+          </me>
+          and
+          <me>
+            \vec{e}=\vec{r}_{2}+\vec{d}
+          </me>
+          <me>
+            \therefore \vec{e}=\vec{a}+\vec{b}+\vec{c}+\vec{d}
+          </me>
+        </p>
+        </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+   
+<example>
+  <statement>
+    <p>
+      Find the magnitude and direction of 
+      <ol marker ="a.">
+        <li>
+          <m>\vec{a}+\vec{b}</m>
+        </li>
+        <li><m>\vec{a}-\vec{b}</m></li>
+      </ol>
+      if <m>\vec{a}=3\hat{i}+4\hat{j} +2\hat{k}</m> and <m>\vec{b}=4\hat{i}-\hat{j} -2\hat{k}.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker ="a.">
+        <li>
+          <m>\vec{a}+\vec{b} =7\hat{i}+3\hat{j}</m>
+          <me>
+            | \vec{a}+\vec{b} |= \sqrt{(\vec{a}+\vec{b})\cdot (\vec{a}+\vec{b})} = \sqrt{49+9}=\sqrt{58}
+          </me>
+        </li>
+        <li><m>\vec{a}-\vec{b} =-\hat{i}+5\hat{j}+4\hat{k}</m>
+        <me>
+          | \vec{a}-\vec{b} |= \sqrt{(\vec{a}-\vec{b})\cdot (\vec{a}-\vec{b})} = \sqrt{1+25+16}=\sqrt{42}
+        </me>
+        </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      The magnitude of two vectors <m>\vec{a}</m> and <m>\vec{b}</m> are 20 and 40, respectively. 
+      Vector <m>\vec{a}</m> is pointed along <m>20^{o}</m> north of east and vector <m>\vec{b}</m> is pointed along 
+      <m>230^{o}</m> south of west. Find the magnitude and direction of <image source="fig2gi.png" width="30%"> </image>
+      <ol marker ="a.">
+        <li>
+          <m>\vec{a}+\vec{b}</m>
+        </li>
+        <li><m>\vec{a}-\vec{b}</m></li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <image source="fig2gii.png" width="30%"> </image>
+    <p>
+      This problem can be solved by two different ways, one way is using head and tail rules as
+      shown in figure above
+      <me>
+        \vec{c}=\vec{a}+\vec{b}
+      </me>
+      its magnitude can be found by using relation <fn>see appendix</fn>
+      <me>
+        c =\sqrt{a^{2}+b^{2}+2ab\cos\theta}
+      </me>
+      <me>
+        =\sqrt{20^{2}+40^{2}+2\times 20\times 40\times \cos 150^{o}} = 24.78
+      </me>
+      its direction can be found by using relation
+      <me>
+        \phi=\tan^{-1}\left(\frac{b\sin\theta}{a+b\cos\theta}\right) = -53^{o}-20^{o}=-73^{o}\quad \text{(S of W)}
+      </me>
+      We add <m>20^{o}</m> in <m>\phi</m> to find the direction of resultant vector from x-axis.
+    </p>
+    <image source="fig2giii.png" width="30%"> </image> 
+    <p>
+      <em>Another way</em> is to resolved these two vectors into component vectors 
+      and then find resultant of the corresponding components along x and y axes.
+      From figure,  we have 
+      <me>
+        a_{x}=a\cos\theta_{1} = 20\cos 20^{o}=18.79;\quad a_{y}=a\sin\theta_{1}=20\sin 20^{o} = 6.84
+      </me>
+      <me>
+        b_{x}=b\cos\theta_{2}= 40\cos 50^{o}=25.71;\quad b_{y}=b\sin\theta_{2}=40\sin 50^{o}=30.64
+      </me>
+      <me>
+        \therefore\quad R_{x}=a_{x}-b_{x} = -6.92 \quad \text{and}\quad R_{y}=a_{y}-b_{y} =-23.8
+      </me>
+      Hence <m>R = 24.78</m>, and <m>\phi = \tan^{-1}\left(\frac{R_{y}}{R_{x}}\right)= 73.78^{o}</m> (S of W).
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Find the magnitude of a vector <m>\vec{c}</m> in the vector equation 
+      <m>\vec{a}+2\vec{b}-3\vec{c}=-4\hat{j}</m>, where <m>\vec{a} =\hat{i}-2\hat{k}</m> 
+      and <m>\vec{b} =-\hat{j}+\hat{k}</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        \vec{a}+2\vec{b}-3\vec{c}=-4\hat{j}
+      </me>
+      <me>
+        \text{or,}\quad (\hat{i}-2\hat{k}) +2(-\hat{j}+\hat{k})-3\vec{c}=-4\hat{j} 
+      </me>
+      <me>
+        \text{or,}\quad  -3\vec{c}=-4\hat{j}-\hat{i}+2\hat{k} +2\hat{j}-2\hat{k}=-\hat{i} -2\hat{j}
+      </me>
+      <me>
+        \text{or,}\quad  \vec{c} = \frac{1}{3}(\hat{i}+2\hat{j})
+      </me>
+      <me>
+        \therefore \quad |\vec{c}| = c = \sqrt{\frac{1}{9}(1+4)} = \sqrt{\frac{5}{9}} =\frac{1}{3}\sqrt{5}
+      </me>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Show that the distance between points in a plane do not change by rotating a coordinate system.
+    </p>
+  </statement>
+  <solution>
+    <image source="fig2h.png" width="30%"> </image>
+        <p>
+          Let p and q be two points in space. Now from figure,  we have -
+         <me> x'=OL'=r\cos\phi </me> 
+         <me> \text{and} \quad y'= PL'=r\sin\phi</me>. 
+      <me>
+        \text{Also} \quad x =OL=r\cos (\theta+\phi)
+       </me>
+       <me>
+        \text{and} \quad y= PL=r\sin (\theta+\phi)
+       </me>
+      <me>
+        \text{Now,} \quad x=r(\cos\theta\cos\phi-\sin\theta\sin\phi)=r\cos\phi\cos\theta-r\sin\phi\sin\theta
+       </me>
+       <me>
+        \therefore\quad x = x'\cos\theta -y'\sin\theta
+       </me> 
+<me>
+  \text{Again,} \quad y=r(\sin\theta\cos\phi-\cos\theta\sin\phi)=r\cos\phi\sin\theta+r\sin\phi\cos\theta
+</me>
+<me>
+\therefore\quad y = x'\sin\theta +y'\cos\theta
+</me>
+     </p>
+     <p>
+      On solving these equations we get -
+      <me>
+        x' = x\cos\theta + y\sin\theta
+      </me>
+      <me>
+        \text{and}\quad y' = -x\sin\theta + y\cos\theta 
+      </me>
+The distance between points <m>p(x_{1},y_{1})</m> and <m>q(x_{2},y_{2})</m> in xy coordinate system is given by
+<me>
+  d=pq=\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}
+</me>
+<me>
+  =\sqrt{[(x'_{2}-x'_{1})\sin\theta + (y'_{2}-y'_{1})\cos\theta}]^{2} =\sqrt{(x'_{2}-x'_{1})^{2}+ (y'_{2}-y'_{1})^{2}} 
+</me>
+which is the distance between points <m>p(x'_{1},y'_{1})</m> and <m>q(x'_{2},y'_{2})</m> in x' y' coordinate system, 
+i.e., the distance between two points is invariant upon the rotation of a coordinate system.
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <image source="fig2hi.png" width="50%"> </image>
+    <p>
+      Given the vectors in figure,  Do the following:
+      <ol marker ="A.">
+        <li>
+          From the scale on the diagram, estimate the magnitude of each vector, its x-component, and its y-component. 
+        </li>
+        <li>From the numbers on the diagram, calculate each vector and its magnitude.</li>
+        <li>Construct the vector sum of these vectors. </li>
+        <li>From the above components calculate the resultant of the four vectors.</li>
+        <li>Calculate the magnitude of the resultant vector.</li>
+        <li>What is the angle the resultant makes with the x-axis?</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker ="A.">
+        <li>
+       <p>
+        <me>
+          A  = 10\,m;	\quad A_{x} =A\sin37^{o}= 6.018 \approx 6\,m;
+         </me>
+        <me>
+          A_{y}=A\cos37^{o}=7.986 \approx 8\,m 
+        </me>
+        <me>
+          B  = 10m;\quad B_{x}=  B\cos45^{o}=7.07 \approx -7\,m;
+        </me>
+        <me>
+          B_{y} =  B\sin45^{o}= 7.07 \approx  7\,m
+        </me>
+        <me>
+          C  = 10m;\qquad C_{x}  = -8m;	\qquad C_{y} = -6\,m
+        </me>
+        <me>
+          D  = 10m;\qquad D_{x}  = 9m;	\qquad D_{y} = -5\,m
+        </me>
+        <me>
+          \left[\theta_{c}\approx 36.87^{o};  \quad \theta_{d}\approx 30^{o} \quad\text{from x-axis}\right]
+        </me>
+       </p>
+        </li>
+        <li>
+          <p>
+            <me>
+              \vec{A}  =  6\,m\hat{i} +8\,m\hat{j}; \quad A = 10\,m
+            </me>
+            <me>
+              \vec{B}  =  -7\,m\hat{i} +7\,m\hat{j}; \quad B =10\,m
+            </me>
+            <me>
+              \vec{C}  =  -8\,m\hat{i} -6\,m\hat{j};\quad C = 10
+            </me>
+            <me>
+              \vec{D}  =  8.66\,m\hat{i} -5\,m\hat{j}; \quad D =10\,m
+            </me>
+          Note: Distance between points, <m>d=\sqrt{x^{2}+y^{2}}</m>. 
+          </p>
+        </li>
+        <li>
+         <p>
+          <me>
+            \vec{R} = \vec{A}+\vec{B}+\vec{C}+\vec{D}
+          </me>
+          <me>
+            =(6-7-8+8.66)\hat{i}+(8+7-6-5)\hat{j} =-0.34\hat{i}+4\hat{j}
+          </me>
+          The resultant vector is plotted in figure, 
+        </p>
+          <image source="fig2hii.png" width="30%"> </image> 
+         </li>
+        <li>
+        <p>
+          <me>
+            R  =  -0.34m\hat{i} +4m\hat{j}
+          </me>
+        </p>
+        </li>
+        <li>
+         <p>
+          <me>
+            R  = \sqrt{-0.34^{2}+4^{2}}=4.01\,m
+          </me>
+         </p>
+          </li>
+          <li>
+          <p>
+            <me>
+              \theta = \tan^{-1}\left(\frac{4}{-0.34}\right) =(180-85)=95^{o}  
+            </me>
+          </p>
+          </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+
+
+<example>
+  <statement>
+    <p>
+      Two points <m>A</m> and <m>B</m> in the xy plane have the respective Cartesian 
+      and polar coordinates <m>(3 \,m, - 4\, m)</m> and <m>(15 \,m, 30^{o})</m>. 
+      <ol marker ="a.">
+        <li>
+          What are the polar coordinates of the first point? 
+        </li>
+        <li>
+          What are the rectangular coordinates of the second point?
+        </li>
+        <li>
+          What is the distance between the two points?
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker ="a.">
+        <li>
+          <m>(5m,-53.13^{o})</m>
+           <me>
+           Use:\,  A=\sqrt{x^{2}+y^{2}} ; \quad \theta = tan^{-1}\left(\frac{-4}{3}\right)
+          </me>
+        </li>
+        <li>
+          <m>(13\,m,7.5\,m)</m>
+          <me>
+            Use:\, x=B\cos\theta;\quad y=B\sin\theta
+          </me>
+        </li>
+        <li>
+          <me>
+            AB=\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}}=15.24\,m.
+          </me>
+        </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+<example>
+  <statement>
+    <p>
+      Prove that <m>|\vec{A}+\vec{B} | = |\vec{A}-\vec{B}| </m>, only when <m>\vec{A}</m> and 
+      <m>\vec{B} </m> are perpendicular to each other.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Consider 
+      <me>
+        \vec{r} = r_{x}\hat{i} + r_{y}\hat{j} + r_{z}\hat{k} 
+      </me>
+      then  
+      <me>
+        |\vec{r}|  = \sqrt{\vec{r}\cdot\vec{r}}= \sqrt{r_{x}^{2} + r_{y}^{2}+r_{z}^{2}}.
+      </me>
+Now,
+<me>
+  \vec{A}+\vec{B} = (A_{x}\hat{i}+ A_{y}\hat{j} +A_{z}\hat{k} ) + (B_{x}\hat{i}+ B_{y}\hat{j} +B_{z}\hat{k})
+</me>
+<me>
+  = (A_{x}+B_{x})\hat{i} + (A_{y}+B_{y})\hat{j} + (A_{z}+B_{z})\hat{k}
+</me>
+and 
+<me>
+  \vec{A}\cdot\vec{B} = |\vec{A}||\vec{B}|\cos\theta  = A_{x}B_{x} + A_{y}B_{y} + A_{z}B_{z}
+</me>
+if <m>\theta = 0</m>. 
+      but,
+      <me>
+        \vec{A}\cdot\vec{B} = |\vec{A}||\vec{B}|\cos\theta  = 0 
+      </me>
+      if <m>\theta = 90^{o}</m>. Therefore,
+      <me>
+        |\vec{A}+\vec{B}| =\sqrt{(\vec{A}+\vec{B})\cdot (\vec{A}+\vec{B})} 
+      </me>
+      <me>
+        = \sqrt{(A_{x}^2 + B_{x}^2+ 2 A_{x}B_{x}\cos\theta) + (A_{y}^2 + B_{y}^2+ 2 A_{y}B_{y}\cos\theta) + (A_{z}^2 + B_{z}^2+ 2 A_{z}B_{z}\cos\theta)} 
+      </me>
+      <men xml:id="eqn-exam2i">
+        \therefore \quad |\vec{A}+\vec{B}| = \sqrt{(A_{x}^2 + A_{y}^2 + A_{z}^2) + (B_{x}^2 + B_{y}^2 + B_{z}^2)} 
+      </men>
+    </p>
+    <p>
+
+Similarly, 
+<me>
+  |\vec{A}-\vec{B}| =\sqrt{(\vec{A}-\vec{B})\cdot (\vec{A}-\vec{B})} 
+</me>
+<me>
+  = \sqrt{(A_{x}^2 + B_{x}^2- 2 A_{x}B_{x}\cos\theta) + (A_{y}^2 + B_{y}^2- 2 A_{y}B_{y}\cos\theta) + (A_{z}^2 + B_{z}^2-2 A_{z}B_{z}\cos\theta)}
+</me>
+<men xml:id="eqn-exam2ii">
+  \therefore \quad |\vec{A}-\vec{B}| = \sqrt{(A_{x}^2 + A_{y}^2 + A_{z}^2) + (B_{x}^2 + B_{y}^2 + B_{z}^2) } 
+</men>
+Hence from <xref first="eqn-exam2i" last="eqn-exam2ii"/>, it is clear that 
+<me>
+  |\vec{A}+\vec{B}| = |\vec{A}-\vec{B}|
+</me>
+If and only if <m>\vec{A}</m> and <m>\vec{B}</m> are perpendicular.
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Find the condition at which <m> |\vec{A}-\vec{B}| = |\vec{A}| - |\vec{B}| </m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        |\vec{A}-\vec{B}| =\sqrt{(\vec{A}-\vec{B})\cdot (\vec{A}-\vec{B})}
+      </me>
+      <me>
+        = \sqrt{(A_{x}^2 + B_{x}^2- 2 A_{x}B_{x}\cos\theta) + (A_{y}^2 + B_{y}^2- 2 A_{y}B_{y}\cos\theta) + (A_{z}^2 + B_{z}^2-2 A_{z}B_{z}\cos\theta)}
+      </me>
+           <me>
+        = \sqrt{(A_{x}^2 + A_{y}^2 + A_{z}^2 )+ (B_{x}^2 + B_{y}^2 + B_{z}^2)- 2\cos\theta(A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z})}
+      </me>
+ If <m>\theta = 0^{o}</m>, then <m>\cos\theta = 1 </m>.
+Therefore, 
+<me>
+  |\vec{A}-\vec{B}|  = \sqrt{(A_{x}^2 + A_{y}^2 + A_{z}^2 )+ (B_{x}^2 + B_{y}^2 + B_{z}^2)- 2(A_{x}B_{x}+A_{y}B_{y}+A_{z}B_{z})}
+</me>
+or,
+<me>
+  |\vec{A}-\vec{B}|  = \sqrt{|\vec{A}^{2}|+ |\vec{B}^{2}|- 2|\vec{A}| |\vec{B}|} = \sqrt{(|\vec{A}| - |\vec{B}|)^{2}}= |\vec{A}| - |\vec{B}|
+</me>
+    </p>
+  </solution>
+</example>
+</section>

@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_tenth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <paragraphs>
+    <title>Temperature &amp; Expansion</title>
+    
+  
+ <exercise>
+  <p>
+    An absolute temperature of 300 K is 
+    <ol marker="a.">
+      <li>
+        how many degrees Fahrenheit?
+      </li>
+      <li>
+        How many degrees Celcius?
+      </li>
+    </ol>
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    Find the temeprature at which Fahrenheit and Celcius scales have the same reading.
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    An aluminum wire 0.05 mm in diameter and 2 m long is heated from 
+    <m>15^{o}C</m> to <m>50^{o}C</m>. How much does it contract?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A steel gas tank <m>(\alpha = 12\times 10^{-6} /^{o}C)</m> is filled with 80 L 
+    (about 20 gallons) of gasoline <m>(\beta = 9.5\times 10^{-4} /^{o}C)</m> at a 
+    temperature of <m>0^{o}C</m>. 
+    <ol marker="a.">
+      <li>
+        How much gasoline flows out of the tank when the temperature rises to <m>30^{o}C</m>? 
+      </li>
+      <li>
+        If the hose of the tank is 4 cm in diameter, what is the minimum length of 
+        the hose in order to keep the gasoline from spilling?
+      </li>
+    </ol>
+     </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    A thin steel wire <m>(\alpha = 12\times 10^{-6} /^{o}C,</m> <m>\rho = 7.8 g/cm^{3}, </m> <m>Y = 20\times 10^{10} Pa)</m> 
+    of length 60 cm and diameter 0.5 mm has its ends attached to a large brass rod 
+    <m>(\alpha = 19\times 10^{-6} /^{o}C,</m> <m>\rho = 8.6 g/cm^{3}, </m> <m>Y = 9\times 10^{10} Pa)</m> 
+    of the same length. The system is heated from <m>25^{o}C</m> to <m>100^{o}C</m>. 
+    <ol marker="a.">
+      <li>
+        How much does the brass rod expand?
+      </li>
+      <li>
+        How much would the steel wire have expanded if it had not been attached to the brass rod?
+      </li>
+      <li>
+        What is the thermal strain in the steel wire attached to the brass rod?
+      </li>
+      <li>
+        What is the thermal stress in the steel wire? 
+      </li>
+      <li>
+        What is the tension in the wire?
+      </li>
+    </ol>
+    </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    The coefficient of linear expansion of lead is <m>29\times 10^{-6} K^{-1}</m>. 
+    What change in temperature will cause a 2 m long lead bar to change in length by 3.0 mm?
+  </p>
+ </exercise>
+
+ <exercise>
+  <p>
+    An aluminum can is filled to the brim with a liquid. The can and the liquid are heated 
+    so their temperatures change by the same amount. The can's initial volume at <m>10^{o}C</m> 
+    is <m>4.5\times 10^{-4} \,m^{3}</m>. The coefficient of volume expansion for aluminum is 
+    <m>69\times 10^{-6} /^{o}C.</m> When the can and the liquid are heated to <m>70^{o}C,</m> 
+     <m>2.9\times 10^{-6} m^{3}</m> of liquid spills over. What is the coefficient of 
+     volume expansion for the liquid.
+  </p>
+ </exercise>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Calorimetry</title>
+  <exercise>
+    <p>
+      If 100 g of steam condense into 1 kg of water initially at <m>25^{o}C</m>, 
+      what is the final temperature of the combination? <m>(L_{v} = 540 \,cal/g)</m>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      How much heat is required to take 10 moles of ice at <m>0^{o}C</m> to water at <m>100^{o}C</m>?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 400 g piece of iron is taken from an oven at <m>300^{o}C</m> and placed in a 
+      100 g aluminum calorimeter containing 200 g of ice at <m>0^{o}C</m>. 
+      <ol marker="a.">
+        <li>
+          How much ice melts? 
+        </li>
+        <li>
+          What is the final temperature of the system? 
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A water fall is 500 m high. 
+      <ol marker="a.">
+        <li>
+          What is the difference in temperature between the water at the top and bottom if no water evaporates while falling? 
+        </li>
+        <li>
+          What fraction of the water must evaporate to keep the temperatures the same? 
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A man warms his hands by rubbing them together. Assume that his hands are made mostly of water, 
+      that they are 15 cm long and 5 cm wide, that he presses his hands together with 50 N of force, 
+      that the coefficient of friction between his hands is 0.5, that the hands move 10 cm with each 
+      stroke, that 30 strokes are made, and that the temperature of the surface of his hands increases 
+      <m>20^{o}C</m>. How thick is the surface of his hands which is being heated?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 1.55 g of methanol is burnt in a calorimeter. If the molar heat of combustion of 
+      methanol is -725 \,kJ/mole, and assuming that the 2.0 L of water absorbed all of the 
+      heat of combustion, what temperature change did the water experience?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 20g sample of iron at a temperature of <m>120^{o}C</m>  is placed into a 
+      container of water. There are 300 ml of water in the container at a temperature of 
+      <m>30^{o}C</m>. What is the final temperature of the water?  
+      <m>c_{iron}=0.444 \,J/g.^{o}C,</m>  <m>c_{water}=4.184 \,J/g.^{o}C,</m>  and <m>\rho_{water}=1 \,g/ml.</m>
+    </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Heat Transfer</title>
+  
+  <exercise>
+    <p>
+      A copper rod <m>(k = 395 \,W/m.^{o}C)</m> of length 40 cm and diameter 2 cm is 
+      placed end to end with an iron rod <m>(k = 79.5 \,W/m.^{o}C)</m> of length 60 cm and 
+      diameter 2 cm. The combined rod is then insulated on its sides and the two ends 
+      subject to different temperatures. If the copper end is at <m>100^{o}C</m> and the 
+      iron end is at <m>20^{o}C</m>, 
+      <ol marker="a.">
+        <li>
+          what is the temperature at the copper-iron interface?
+        </li>
+        <li>
+          How many joules of heat energy flow through the system in 1 hour?
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+   <p>
+    A Styrofoam ice chest <m>(k = 0.05 \,W/m.^{o}C)</m> is cubic in shape with each edge 30 cm long. 
+    Each face is a square sheet of Styrofoam 2 cm thick. If a 4 kg bag of ice is placed in the chest 
+    and the outside temperature is a constant <m>30^{o}C</m>, 
+    <ol marker="a.">
+      <li>
+        how long does it take the ice to melt?
+      </li>
+      <li>
+        How long after the ice melts does it take for the interior of the ice chest to heat up to <m>15^{o}C</m>?
+      </li>
+    </ol>
+     </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A solar home has 4 solar collectors each 1 m by 2 m with an average efficiency of <m>20\%</m>. 
+      If the sun radiates <m>1.36 kW/m^{2}</m> of solar power upon the earth, 
+      <ol marker="a.">
+        <li>
+          how many Btu's of heat are collected on an average day?
+        </li>
+        <li>
+          If the house is well insulated on the sides and bottom and if the roof/ceiling is 20 ft by 40 ft 
+          consisting of lapped shingles (R = 0.87), dead air space (R = 1.01), 6 inch fiberglass insulation 
+          (R = 18.80), and sheetrock (R = 0.45), what will be the average interior temperature of the house if the 
+          outside temperature is a freezing <m>32^{o}F</m>?
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two rods, one of aluminum and the other of copper are joined end to end. 
+      The cross-sectional area of each is <m>4.0\times10^{-4} \,m^{2},</m> and 
+      the length of each is 0.04 m. The free end of the aluminum rod is kept at <m>302^{o}C,</m> 
+      while the free end of the copper rod is kept at <m>25^{o}C</m>. The loss of heat through 
+      the sides of the rods may be ignored. 
+      <ol marker="a.">
+        <li>
+          What is the temperature at the aluminum-copper interface? 
+        </li>
+        <li>
+          How much heat is conducted through the unit in 2.0 s? 
+          <m>(\kappa_{al} = 238 \,J/(sm.^{o}C), \quad \kappa_{cu} = 397 \,J/(s m.^{o}C)).</m> 
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The surface of the Sun has a  temperature of <m>5500^{o}C.</m>   
+      <ol marker="a.">
+        <li>
+          Treating the Sun as a perfect blackbody, with an emissivity of 1.0, 
+          find the power that it radiates into space. The radius of the sun is 
+          <m>7.0\times 10^{8} \,m</m> and the temperature of space can be taken to be 3.0 K.
+        </li>
+        <li>
+          The solar constant is the number of watts of sunlight power falling on a square 
+          meter of the Earth's upper atmosphere. Use  your result from part (a) to calculate the solar constant, 
+          given that the distance from the Sun to the Earth is <m>1.5\times10^{11} \,m.</m> 
+           </li>
+      </ol>
+   </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A long copper rod of diameter 2.0cm is initially at a uniform temperature of <m>100 \,^{o} C.</m> 
+      It is now exposed to an air stream at <m>20\,^{o} C</m> with a heat transfer coefficient of <m>200 \,W/m^{2}K.</m> 
+      How long would it take for the copper rod to cool at an average temperature of <m>25\,^{o} C.</m>
+    </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>KTG</title>
+  <exercise>
+    <p>
+      How many molecules are in a cube of aluminum 2 cm on a side if the density of 
+      aluminum is <m>2.7 \,g/cm^{3}</m> and the atomic mass of aluminum is 26.98 u?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      What is the rms speed of a diatomic oxygen molecule at a room temperature of 300 K? 
+      Assume <m>k_{B}  =  1.380\times 10^{-23} \,J/K</m>, <m>1 \,u = 1.66\times10^{-27} \,kg, </m> 
+      <m>Z(oxygen) = 8, \quad M(oxygen) = 15.999 \,u,</m> <m>pa = 1 \,atm = 1.013\times10^{5} \,Pa</m>.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      On first day a tank of oxygen <m>(M = 32.0 \,g/mol)</m> having a volume of 100 L 
+      is filled to a gauge pressure of <m>4.00\times 10^{5} \,Pa</m> at a temperature of 
+      <m>43.0 \,^{o}C</m>. On the second day the temperature is <m>22.0 \,^{o}C</m> 
+      and the gauge pressure of the tank is <m>3.00\times 10^{5} \,Pa</m>. 
+      <ol marker="a.">
+        <li>
+          How many moles of oxygen were initially in the container? 
+        </li>
+        <li>
+          How many grams of oxygen were used before the second day measurements were made?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      At high enough temperatures a diatomic molecule like hydrogen has three degrees of 
+      translational freedom, two degrees of rotational freedom, and two degrees of 
+      vibrational freedom. How much heat Q must be added to n moles of hydrogen to 
+      raise its temperature from such a high temperature to one even higher by an amount 
+      <m>\Delta T</m> if the volume of the gas remains constant?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      At what temperature does the oxygen molecules have the same rms speed 
+      as those of hydrogen at <m> -72 \,^{o}C.</m> Molar mass of  oxygen and hydrogen are 32 and 2, respectively.
+    </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>I Law of Thermodynamics</title>
+  <exercise>
+    <p>
+      An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+      and one atmosphere is allowed to expand to twice its initial volume. If the gas is 
+      first cooled at a constant volume to half its initial pressure and then allowed to 
+      expand at constant pressure to its final volume, find each of the following: 
+      <ol marker="a.">
+        <li>
+          the initial volume of the gas, 
+        </li>
+        <li>
+          the final pressure of the gas,
+        </li>
+        <li>
+          the final volume of the gas,
+        </li>
+        <li>
+          the final temperature of the gas, 
+        </li>
+        <li>
+          the work done by the gas,
+        </li>
+        <li>
+          the heat added to the gas, 
+        </li>
+        <li>
+          the change in internal energy of the gas.
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+      and one atmosphere is allowed to expand to twice its initial volume. If the gas 
+      is first allowed to expand at constant pressure to its final volume and then 
+      cooled at constant volume to half its initial pressure, find each of the following: 
+      <ol marker="a.">
+        <li>
+          the initial volume of the gas,
+        </li>
+        <li>
+          the final pressure of the gas, 
+        </li>
+        <li>
+          the final volume of the gas,
+        </li>
+        <li>
+          the final temperature of the gas,
+        </li>
+        <li>
+          the work done by the gas, 
+        </li>
+        <li>
+          the heat added to the gas,
+        </li>
+        <li>
+          the change in internal energy of the gas.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+      and one atmosphere is allowed to expand to twice its initial volume. If the gas 
+      is allowed to expand adiabadically <m>(\gamma = 5/3)</m> to twice its initial volume, 
+      find each of the following: 
+      <ol marker="a.">
+        <li>
+          the initial volume of the gas,
+        </li>
+        <li>
+          the final pressure of the gas, 
+        </li>
+        <li>
+          the final volume of the gas,
+        </li>
+        <li>
+          the final temperature of the gas, 
+        </li>
+        <li>
+          the work done by the gas,
+        </li>
+        <li>
+          the heat added to the gas,
+        </li>
+        <li>
+          the change in internal energy of the gas.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      <ol marker="a.">
+        <li>
+          With the assumption that the air temperature is a uniform <m>27\,^{o}C</m>, 
+          what is the atmospheric pressure at an altitude of 5000 m?
+        </li>
+        <li>
+          With the assumption that a bubble of air rises adiabatically from the surface of 
+          the earth to the pressure obtained in part (a) of this problem, what would be the 
+          temperature of the bubble at that altitude?  
+        </li>
+        <li>
+          Which of the previous two inconsistent assumptions is more realistic and why?
+        </li>
+          </ol>
+         </p>
+  </exercise>
+</paragraphs>
+
+
+<paragraphs>
+  <title>II Law of Thermodynamics</title>
+  <exercise>
+    <p>
+      A heat engine absorbs 1000 J of heat at a temperature of 400 K and deposits 900 J of 
+      heat at 300 K. What is the efficiency of this engine?
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+      A Carnot engine absorb 1000 J of heat at temperature of 400 K and rejects heat 
+      at 300 K. How much heat does it reject?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An ideal heat pump pumps heat from an outside temperature of <m>0\,^{o}C</m> 
+      into an inside temperature of <m>30\,^{o}C</m>. If 1000 J of heat are deposited into 
+      the house every second and if electricity costs 10 cents per kilowatt-hour, 
+      then what is the cost of operating this heat pump for 24 h?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A refrigerator requires an amount of work W to extract heat Qc from a refrigerator 
+      and reject an amount of heat Qh into the surroundings. What is the coefficient of 
+      performance of the refrigerator?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      What is the coefficient of performance of a Carnot refrigerator whose inside temperature 
+      is <m>0\,^oC</m>  an whose outside temperature is <m>30\,^{o}C</m> 
+      if it takes 500 W of electrical power to operate it?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A gasoline engine operates approximately according to the Otto cycle which takes 
+      in a gas/air mixture at ambient temperature <m>T_{A}</m>, compresses that mixture 
+      adiabatically to a higher temperature <m>T_{B}</m>, ignites the mixture at constant 
+      volume to an even higher temperature <m>T_{C}</m>, expands the gas adiabatically 
+      to a cooler temperature <m>T_{D}</m>, reduces the pressure at constant volume 
+      back to <m>T_{A}</m>, and then expels the gas into the atmosphere. 
+      The efficiency of an Otto cycle is <m>1 - \frac{T_{A}}{T_{B}}</m>. 
+      Assume <m>T_{A} = 27\,^{o}C,\quad T_{B} = 127\,^{o}C</m>, and <m>T_{C} = 227^{o}C</m>. 
+      <ol marker ="a.">
+        <li>
+          What is the efficiency of this gasoline engine? 
+        </li>
+        <li>
+          What would be the maximum possible efficiency of an ideal heat engine utilizing these same temperatures? 
+        </li>
+        <li>
+          What is the efficiency ratio for this gasoline engine 
+          (i.e. the ratio of its efficiency to the maximum possible efficiency)?
+        </li>
+      </ol>
+         </p>
+  </exercise>
+
+</paragraphs>
+
+
+
+<paragraphs>
+  <title>Entropy</title>
+  <exercise>
+    <p>
+      The heat of fusion of a substance is <m>L_{f}</m>. What is the change in entropy 
+      of a mass m of the substance if it freezes at temperature <m>T_{f}</m>.?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A mass m with specific heat c is heated from temperature <m>T_{i}</m> to <m>T_{f}</m>. 
+      What is its change in entropy?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Water has a specific heat capacity of 4.18 J/g, a heat of fusion of 333 J/g, 
+      and a heat of vaporization of <m>2.26\times10^{3} \,J/g</m>. If 100 g of ice at 
+      <m>0\,^{o}C</m> is dropped into 100 g of water at <m>27\,^{o}C</m>, 
+      then what is the change in entropy of the universe? 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Which has the greatest entropy 
+      <ol marker="a.">
+        <li>
+          ice below freezing temperature,
+        </li>
+        <li>
+          ice at freezing temperature, 
+        </li>
+        <li>
+          liquid water at freezing temperature, 
+        </li>
+        <li>
+          water above freezing temperature,
+        </li>
+        <li>
+          No general statement can be made.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A house has the least entropy when it is 
+      <ol marker="a.">
+        <li>
+          neat,
+        </li>
+        <li>
+          cluttered, 
+        </li>
+        <li>
+          clean and neat,
+        </li>
+        <li>
+          cluttered and dirty,
+        </li>
+        <li>
+          No general statement applies in this situation.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+
+  <exercise>
+    <p>
+      A gas expands adiabatically and reversibly. What is its change in entropy?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A Carnot engine in one cycle takes in 2000 J of heat at 500 K and discards heat at 300 K. 
+      <ol marker="a.">
+        <li>
+          How much work does it do?
+        </li>
+        <li>
+          How much heat does it discard? 
+        </li>
+        <li>
+          What is its change in entropy during its isothermal expansion?
+        </li>
+        <li>
+          What is its change in entropy during its adiabatic expansion? 
+        </li>
+        <li>
+          What is its change in entropy during its isothermal compression? 
+        </li>
+        <li>
+          What is its change in entropy during its adiabatic compression? 
+        </li>
+        <li>
+          What is its total change in entropy?
+        </li>
+        <li>
+          What is the change in entropy of the hot reservoir?
+        </li>
+        <li>
+          What is the change in entropy of the cold reservoir?
+        </li>
+        <li>
+          What is the change in entropy of the universe? 
+        </li>
+        <li>
+          Is this result consistent with the second law of thermodynamics?
+        </li>
+      </ol>
+       </p>
+  </exercise>
+</paragraphs>
+
+
+ </exercises>
+

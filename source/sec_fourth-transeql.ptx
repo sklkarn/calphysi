@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-transeql" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Translational Equilibrium</title>
+  
+   <introduction>
+    <p>
+      An object is in translational equilibrium if the vector sum of the forces acting on that object add to zero. 
+    </p>
+      <ol>
+        <li>
+          <p>
+           An object in translational equilibrium continues moving in a straight line with a constant speed as 
+           described by Newton's First law. That is <me>\sum\vec{F}  =  0</me> (Graphical and vector algebra problems.) 
+           or equivalently  <me>\sum\vec{F}_{x}  =  0</me> (x-component of net force), <me>\sum\vec{F}_{y}  =  0</me> 
+           (y-component of net force), <me>w  =  m g </me> (weight equation), and <me>f = \mu N</me>	(friction equation). 
+           In translational motion <m>v\neq 0, a = 0,</m> and <m>F= 0</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Problem Solving Technique: To solve a translational equilibrium problem one needs to:
+            <ol marker="a.">
+              <li>
+                Read problem, list given quantities, and label a drawing of the physical situation.	
+              </li>
+              <li>Draw force diagrams for each body in translational equilibrium.</li>
+              <li>Resolve the forces into components.	</li>
+              <li>Sum the x- and y-components of forces and set them to zero.</li>
+              <li>Include a weight equation for each mass.</li>
+              <li>Include a friction equation for each surface.</li>
+              <li>Solve equations simultaneously for the quantities of interest.</li>
+            </ol>
+          </p>
+        </li>
+      </ol>
+   
+   </introduction>
+
+
+  </section>
+

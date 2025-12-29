@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-banking" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Banking of a Curve</title>
+  
+   <introduction>
+    <figure xml:id="cd1a">
+      <caption></caption>
+      <image source="cd1a.png" width="35%"/>
+    </figure>
+    <p>
+      In order to protect vehicles on a curvy road to skid outward, 
+      the road is slanted towards its outer edge which is called the 
+      banking of a curve. As the speed of vehicle increases, the centripetal 
+      force needed for circular motion of the vehicle also increases. 
+      On the level road the frictional force between tire and the road 
+      provides the necessary centripetal force <xref ref="subsubsec-cent_accel"/> but as the speed increases 
+      this friction is not sufficient enough to provide required centripetal 
+      force which results in skid  the vehicle off the road in opposite direction 
+      of the curve. To avoid such calamity the road is banked so that tire has 
+      protection from skidding upward. Due to banking necessary centripetal force 
+      is provided by the components of  frictional force and normal force. 
+      Since the frictional force acts on a running tire and road is static 
+      in nature (unless it skids), it is directed towards upper edge of the 
+      slanted road if the car is running with low velocity or at rest. 
+      However the frictional force acts towards lower edge of road if the car 
+      has high velocity because the car has tendency to skid towards upper edge of the road. 
+    </p>
+     </introduction>
+
+
+  </section>
+

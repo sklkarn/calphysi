@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-circular" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Circular Motion</title>
+  
+   <introduction>
+    <p>
+      Please read circular kinamatics before learning details here. <xref ref="subsec-cir_kinem"/> 
+      Uniform circular motion is the motion of an object moving at a constant speed 
+      on a circular path. For an object to be in uniform circular motion, 
+      there must be a net force acting on it. 
+      <me>
+        \sum F_{r}  =  m a_{r} = \frac{mv^{2}}{r}
+      </me>
+     this is a radial-component of force.
+<me>
+  \sum F_{t}  =  m a_{t} = mr\alpha
+</me>
+ this is a tangential-component of force.
+ <me>
+  v  =  r\omega = 2\pi r f;  \quad f  = \frac{1}{T} 
+ </me>
+ If the centripetal force vanishes, the object flies off at a tangent to the circle.
+    </p>
+   </introduction>
+
+   <subsection xml:id="subsec-con_pendulum">
+    <title>Horizontal Circle </title>
+    <p>
+      <idx><h>Horizontal Circle </h></idx> Horizontal Circle or a A conical pendulum is 
+      mass attached to a weightless and inextensible string over the rigid support 
+      and moves in a horizontal circle. Let us consider a body of mass, <m>m</m> tied 
+      with the string of length, <m>l</m> over the rigid support <m>O</m> and whirl in 
+      a horizontal circle of radius, <m>r</m>. At any instant of time the body 
+      is at <m>P</m> where the  tension, <m>T</m> is acted along the string as shown in <xref ref="horizcir"/>. 
+      The vertical component of tension <m>T\cos\theta</m> balances <m>mg</m> and 
+      unbalanced the horizontal component <m>T\sin\theta</m>  provides necessary centripetal force. 
+    </p>
+    <figure xml:id="horizcir">
+      <caption></caption>
+      <image source="horizcir.png" width="35%"/>
+    </figure>
+    <p>
+      <men xml:id="eqn-horizcir1">
+        T\cos\theta=mg 
+      </men>
+      <men xml:id="eqn-horizcir2">
+        T\sin\theta=\frac{mv^{2}}{r} 
+      </men>
+        Dividing eqn. <xref ref="eqn-horizcir2"/> with <xref ref="eqn-horizcir1"/>, we get -
+        <me>
+          \tan\theta=\frac{v^{2}}{rg}
+        </me>
+        <me>
+          or, \quad \theta=\tan^{-1}\left(\frac{v^{2}}{rg}\right)
+        </me>
+        The time period <m>T'</m> can be given by 
+        <me>
+          T'=\frac{2\pi r}{v}= 2\pi\frac{r}{\sqrt{rg\tan\theta}}=2\pi\sqrt{\frac{r}{g\tan\theta}}
+        </me>
+        <me>
+          = 2\pi\sqrt{\frac{l\sin\theta}{g\tan\theta}}=2\pi\sqrt{\frac{l\cos\theta}{g}}
+        </me>
+        If  <m>\theta \to 90^{o}</m>, then tension in the string <m>T \to \infty</m>, 
+      which is not possible. Hence the body never receives the same height as its fixed support. 
+    </p>
+   </subsection>
+
+   <subsection xml:id="subsec-vertcir">
+    <title>Vertical Circle</title>
+    <p>
+      <idx><h>verticle circle</h></idx>Consider a body of mass, <m>m</m> attached with a string of length, <m>l</m> 
+      and  revolve in the vertical circle of radius, <m>r</m>. At any instant 
+      of time the body is at P such that string makes an angle  <m>\theta</m> 
+      with the vertical. The weight (mg) of a body is acted downward which 
+      can be resolved into two components. One component <m>mg\cos\theta</m> 
+      is against tension <m>T</m> in the string and another component <m>mg\sin\theta</m>  
+      affect the speed of the body. Because of <m>g\sin\theta</m> body slows down 
+      as it goes up and speed up as it comes down. Hence the motion in a vertical 
+      circle is not uniform.
+    </p>
+    <figure xml:id="vertcir">
+      <caption></caption>
+      <image source="vertcir.png" width="35%"/>
+    </figure>
+    <p>
+      The necessary centripetal force in this case is provided by 
+      <me>
+        T-mg\cos\theta  =\frac{mv^{2}}{r}
+      </me>
+      <me>
+        \therefore T = m\left[\frac{v^{2}}{r}+g\cos\theta\right]
+      </me>
+    </p>
+     <p>
+      At <m>\theta =0</m>, 
+      <me>
+        T= m\left[\frac{v^{2}}{r}+g\right],
+      </me>
+      lowest point of ride.
+     </p>
+      <p>
+        At  <m>\theta =90^{o}</m>, 
+      <me>
+        T= m\left[\frac{v^{2}}{r}\right],
+      </me>
+      quarter point of ride.
+      </p>
+     <p>
+      At  <m>\theta =180^{o}</m>, 
+      <me>
+        T= m\left[\frac{v^{2}}{r}-g\right],
+      </me>
+       highest point of ride.
+     </p>
+       <p>
+        For a minimum velocity at the highest point <m>T =0</m>, 
+       hence <me>
+        \frac{v^{2}}{r}-g=0
+       </me>
+       <men xml:id="eqn-vertcir1">
+       or, \quad v=\sqrt{rg}
+       </men>
+       </p>
+      </subsection>
+  </section>
+

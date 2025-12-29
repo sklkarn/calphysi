@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_eighth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hooke's Law</title>
+  
+   <introduction>
+    <p>
+      Hook's law states that within the elastic limit, stress is proportional to strain. 
+      <term>Stress, <m>\sigma</m>:</term> It is an internal pressure exerted by the material. 
+      It is equal and opposite to the applied pressure. Stress is defined as a force per 
+      unit cross-sectional area. <me>
+        \sigma = F/A.
+      </me>
+    <term>  Strain, <m>\epsilon</m>:</term> It is a change in dimension of the material per unit 
+    original dimension. <me>
+      \epsilon = \Delta L/L 
+    </me>
+    <me>
+      \text{or,}\quad\epsilon= \Delta \theta/\theta
+    </me>
+    <me>
+      \text{or,}\quad\epsilon=\Delta V/V
+    </me>
+       </p>
+       <figure xml:id="elst1">
+        <caption></caption>
+        <image source="elst1.png" width="35%"/>
+    </figure>
+       <p>
+        If the deforming force is applied on a material, initially strain increases gradually 
+        and remains proportional to the stress for a certain limit. After this high stress 
+        the atoms are pulled permanently away from their equilibrium position in the lattice structure. 
+        The maximum stress which the wire can experience and still return to its original 
+        length is called the <term>elastic limit</term> and the region is called elastic 
+        region as shown in <xref ref="elst1"/>. Hooke's law holds good only within this limit. 
+        If the stress is increased beyond this  limit, the ultimate stress point is reached 
+        which is the highest point on the stress-strain curve. This is the greatest stress 
+        that the material can bear. Brittle materials break suddenly at this point, 
+        while some ductile materials can be stretched a little more due to a decrease 
+        in the cross-sectional area of the material. But they too break shortly thereafter 
+        at the breaking point. This region is called a plastic region.
+       </p>
+   </introduction>
+
+<subsection xml:id="subsec-elst_mod">
+  <title>Elastic Modulus</title>
+  <introduction>
+    <p>
+      From Hook's law, 
+      <me>
+        \sigma \propto \epsilon
+      </me>
+      <me>
+        \text{or,}\quad  \sigma = E.  \epsilon 
+      </me>
+      where <m>E</m> is a proportionality constant, called modulus of elasticity. 
+      It is a material property which defines how stiff is the material.  
+      <me>
+        \text{or,}\quad E= \frac{\sigma}{\epsilon}
+      </me>
+    Hence modulus of elasticity, <m>E</m> defines stress per unit strain.  Its unit is Pascal (Pa). 
+    In the deformation process material stores energy in the form of potential energy or 
+    dissipates energy plastically. Stress is not directly measurable. We can calculate stress 
+    differently using applied tension, tangential force, compressional force, etc. 
+    </p>
+  </introduction>
+ 
+
+<subsubsection xml:id="subsubsec-young_mod">
+  <title>Young's Modulus or Elasticity of Length</title>
+  <figure xml:id="youngmod1">
+    <caption></caption>
+    <image source="youngmod1.png" width="25%"/>
+</figure>
+  <p>
+    Consider a rod of length <m>l_{o}</m> whose top face is fixed and a normal force <m>F</m> 
+    is being applied on its bottom face  as shown in <xref ref="youngmod1"/>, 
+    then from Hook's law, normal (tensile) stress <m>\propto</m> longitudinal strain,  that is 
+    <me>
+      \frac{F}{A} =Y \frac{\Delta l}{l_{o}} 
+    </me>
+     where <m>Y</m> is called Young's modulus, <m>A</m> is cross-sectional area of wire, 
+     and <m>l_{o}</m> is an original length. Hence 
+     <me>
+      Y= \frac{Fl_{o}}{A\Delta l}
+     </me>
+     <notation>
+      <usage><m>Y</m></usage>
+       <description>Young's modulus</description>
+     </notation>
+     Its unit is <m> N/m^{2} or, \,Pascal.</m>
+ When a wire under tension is elongated, its width is slightly diminished. 
+ This lateral shrinkage constitutes a transverse strain that is equal to the 
+ change in the width divided by the original width, i.e., 
+ <me>
+  e_{trans} = \frac{\Delta D}{D}
+ </me>
+ The ratio of  the lateral contraction (transverse strain) to the elongation (longitudinal strain) is called <term>Poisson's ratio</term>.
+ <me>
+  \therefore \quad \eta = -\frac{e_{trans}}{e_{long}} = -\frac{\Delta D/D}{\Delta l/l_{o}}
+ </me>
+  Tensile deformation is considered positive and compressive deformation is considered negative. 
+ The material which does not contract is brittle and the one which contracts is ductile. 
+ Poisson ratio of any material lies between 0 to 0.5.
+  </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-bulk_mod">
+  <title>Bulk Modulus or Elasticity of Volume</title>
+  <figure xml:id="bulkmod">
+    <caption></caption>
+    <image source="bulkmod.png" width="30%"/>
+</figure>
+  <p>
+    Consider a cube of surface area <m>A</m> whose volume is being compressed by applying a 
+    deforming force <m>F</m> as shown in <xref ref="bulkmod"/>. Now from Hook's law, 
+    volumetric stress <m>\propto</m> volumetric strain,  that is 
+    <me>
+      \frac{F}{A} =B \frac{\Delta V}{V}
+    </me>
+     where <m>B</m> is called bulk modulus or coefficient of volumetric elasticity. Hence 
+     <me>
+      B = \frac{\frac{F}{A}}{\frac{\Delta V}{V}} =\frac{FV}{A\Delta V}
+     </me>
+     Here <m>F</m> is a deforming force, <m>A</m> is surface area of a cube, <m>\Delta V</m> 
+     is change in volume <m>V</m>, and <m>-ve</m> sign shows compression.
+  </p>
+</subsubsection>
+
+
+<subsubsection xml:id="subsubsec-sher_mod">
+  <title>Shear Modulus (Modulus of Rigidity) or Elasticity of Shape</title>
+  <p>
+    When a tangential force is applied on one of the faces of any material keeping 
+    opposite face fixed, it deforms its shape. Hence from Hook's law, shear stress <m>\propto</m> shear strain. 
+    The elastic property of a body that causes the shape of the body to be changed when a 
+    stress is applied is called shear stress. The angle of shear, which is a measure of 
+    how much the body's shape has been deformed is called shear strain. 
+    When the shear stress is removed the body returns to its original shape. 
+  </p>
+  <figure xml:id="shearmod1a">
+    <caption></caption>
+    <image source="shearmod1a.png" width="30%"/>
+</figure>
+  <p>
+    Consider a cube of sides y whose bottom face is fixed and a tangential force <m>F</m> is 
+    being applied on its top face  as shown in <xref ref="shearmod1a"/>, then from Hook's law, 
+    shear stress <m> \propto </m> shear strain,  that is 
+  </p>
+  <p>
+    <me>
+      \frac{F}{A} =\sigma \frac{\Delta x}{y}
+    </me>
+    where <m>\sigma </m> is called modulus of shape or shear modulus. Hence 
+    <me>
+      \sigma = \frac{\frac{F}{A}}{\frac{\Delta x}{y}} =\frac{\frac{F}{A}}{\theta} =\frac{F}{A\theta} 
+    </me>
+    Here <m>F</m> is a deforming force, <m>A</m> is surface area of a cube, and <m>\theta </m> is a shear angle.
+  </p>
+</subsubsection>
+</subsection>
+
+
+<subsection xml:id="subsec-hook_spring">
+  <title>Hook's Law for a Spring</title>
+  <figure xml:id="oscil2">
+    <caption></caption>
+    <image source="oscil2.png" width="30%"/>
+</figure>
+  <p>
+    From Hook's law, 
+    <me>
+      \sigma\propto\epsilon
+    </me>
+    <me>
+      \sigma =E\epsilon
+    </me>
+    <me>
+      \frac{F}{A} =E\frac{\Delta L}{L} 
+    </me>
+    <me>
+      F =E\frac{A\Delta L}{L} 
+    </me>
+ Since cross-sectional area, <m>A</m>, length of spring,<m>L</m>, and elastic constant of 
+ spring material, <m>E</m> are constant, we can assume 
+ <me>k=\frac{AE}{L}</me> which provides 
+ stiffness constant of a spring it is also called a force constant. 
+ <me>
+  \therefore \quad F =k\Delta L \qquad \Rightarrow \quad F \propto x
+ </me>
+ where <m>x=\Delta L</m>.
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-elast_potenrg">
+  <title>Elastic Potential Energy</title>
+  <p>
+    When a force is applied to deform the shape of a material work has been done against 
+    the restoring force of a material hence this work is stored in a material in the 
+    form of elastic potential energy.  Suppose a wire is stretched to a distance <m>\,dx</m> 
+    by applying a deforming force, then work done by the force is given by 
+    <me>
+      \,dW=F\,dx.
+    </me>
+     But for a restoring force, 
+     <me>
+      F=-kx.
+     </me>
+      Hence work done by a restoring force is given by 
+      <me>
+        W_{r} = \int\,dW = -\int\limits_{0}^{x}kx\,dx = -\frac{1}{2}kx^{2}
+      </me>
+      and the work done by a deforming force is given by 
+      <me>
+        W_{d}= \frac{1}{2}kx^{2}. 
+        <notation>
+          <usage><m>k</m></usage>
+          <description>spring constant</description>
+        </notation>
+      </me>
+    This work is stored in the spring as potential energy. That is, 
+    <me>
+      U=\frac{1}{2}kx^{2} 
+    </me>
+   </p>
+</subsection>
+  </section>
+

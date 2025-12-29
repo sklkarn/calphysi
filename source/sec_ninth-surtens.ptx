@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-surtens" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Surface Tension</title>
+  
+   <introduction>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="35% 35%">
+        <figure xml:id="surften1">
+          <caption></caption>
+          <image source="surften1.png"/>
+      </figure>
+          <figure xml:id="surften2">
+              <caption></caption>
+              <image source="surften2.png"/>
+          </figure>
+           </sidebyside>
+  </figure>
+   <p>
+    A paper clip, a needle, small insects, etc. can float on the surface of water 
+    without getting wet [<xref ref="surften1"/>]. If these events have been observed very closely 
+    we can find that water surface behaves as if it is  a thin stretched membrane of some kind. 
+    The strength of such membrane arises due to intermolecular attraction of the liquid. 
+    Liquid molecules try to get as closer as they can. The minimum average distance between 
+    the molecules of a liquid occurs when the liquid acquires a spherical shape. A spherical 
+    surface possess minimum surface area. Hence a property of a liquid by virtue of which 
+    it acquires minimum surface area is called a <term>surface tension</term>. 
+    The cohesive nature of a liquid helps resist an external force.  If a force <m>F</m> is 
+    acting on a length <m>l</m> by the liquid surface to balance an external force then, 
+    it can be seen that 
+    <me>
+      F\propto l 
+    </me>
+    <me>
+      \Rightarrow\quad F = \gamma l
+    </me>
+        Where <m> \gamma </m> is a proportionality constant known as <em>coefficient of surface tension</em>, 
+        and is a property of the material of the liquid. The force is parallel to the surface and 
+        perpendicular to the line. The SI unit of surface tension is N/m. Suppose a needle of length 
+        <m>l</m> is placed of the surface of water very gently, so that it can float. 
+        If <m>\gamma</m> be the surface tension of water then the needle of maximum weight, 
+        <m>W</m> that can be placed on the water surface will be given by - 
+<me>
+  \sum F = 0
+</me>
+<me>
+  \text{or,}\quad F_{1} \cos\theta + F_{2} \cos\theta - W =0
+</me>
+<me>
+  \text{or,}\quad \gamma l \cos\theta + \gamma l \cos\theta -W =0
+</me>
+<me>
+  \text{or,} \quad W = 2\gamma l cos\theta 
+</me>
+For maximum weight,
+<me>
+  \theta = 0, \qquad \therefore W = 2\gamma l 
+</me>
+When needle is placed on the water surface, it depresses the water surface which 
+applies forces <m>F_{1}</m> and <m>F_{2}</m> on the needle acting along its 
+length on either side so that the needle can be balanced [<xref ref="surften2"/>]. 
+   </p>  
+    
+   </introduction>
+
+   <subsection xml:id="subsec-capl_act">
+    <title>Capillary Action</title>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 25%">
+        <figure xml:id="capilary1">
+          <caption></caption>
+          <image source="capilary1.png"/>
+      </figure>
+          <figure xml:id="capilary2">
+              <caption></caption>
+              <image source="capilary2.png"/>
+          </figure>
+     </sidebyside>
+  </figure>
+    <p>
+      Surface tension arises due to strong intermolecular forces of attraction between 
+      the molecules. When those forces act between like molecules, they are referred 
+      to as <term>cohesive forces</term>. Cohesion is a tendency of the liquid to remain 
+      as one assembly of particles. Surface tension is due to cohesion between particles 
+      at the free surface.  A liquid, however, is often in contact with a solid surface, 
+      such as glass. Hence the additional forces of attraction occur between molecules of 
+      the liquid and molecules of the solid surface. When the attractive forces act between 
+      unlike molecules, they are said to be <term>adhesive forces</term>. 
+      This property enables a liquid to stick to another body. 
+    </p>
+    <p>
+        Capillary is a phenomenon  by which a liquid rises up into a narrow tube (called <em>capillary</em>) 
+        above or below its general level. The upper surface of a liquid in a tube is called the <em>meniscus</em>, 
+        and the shape of the meniscus depends on the relative strengths of the cohesive and adhesive forces. 
+        In liquids such as water, the meniscus is concave, because of high adhesive forces between water 
+        and glass molecules. In liquids such as mercury, the meniscus is convex because the molecules of 
+        mercury have very strong cohesive forces and weak adhesion to glass. 
+        The height to which the water rises depends on the diameter of the tube and the temperature 
+        of the water  but not on the angle of tilt of the tube in water. The smaller the diameter, 
+        the higher the liquid rises.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="25% 25% 25%">
+        <figure xml:id="capilary3">
+          <caption></caption>
+          <image source="capilary3.png"/>
+      </figure>
+          <figure xml:id="capilary4">
+              <caption></caption>
+              <image source="capilary4.png"/>
+          </figure>
+          <figure xml:id="capilary5">
+            <caption></caption>
+            <image source="capilary5.png"/>
+        </figure>
+     </sidebyside>
+  </figure>
+    <p>
+      Capillary action provides wetting ability of liquids on the solid interfaces. 
+      The contact angle <m>\theta</m> between the liquid boundary and the solid surface is 
+      a measure of the degree of wetting. Adhesion and surface tension together can produce 
+      capillary action. Capillary action occurs when the adhesion to the walls is stronger 
+      than the cohesive forces between the liquid molecules.  Adhesion of water to the walls 
+      of a vessel results in an upward force on the liquid at the edges. 
+      The water keep rising in the capillary till the weight of this portion of water 
+      is balanced by the vertical component of such upward force. 
+      From <xref ref="capilary3"/>, we have - 
+      <me>
+        mg=F\cos\theta 
+      </me>
+      <me>
+        \text{or,}\quad V\rho g = \gamma l \cos\theta  
+      </me>
+      <m>[\because F=\gamma l, \quad m=V\rho]</m>
+        <me>
+          \text{or,}\quad (\pi r^{2}h)\rho g = \gamma (2\pi r) \cos\theta 
+        </me>
+        <m>[\because V=area\times height, \quad l=2\pi r]</m>
+        Here <m>\rho</m> is density of liquid like water, <m>r</m> is radius of capillary, 
+        and <m>\theta</m> is angle of contact. 
+        <me>
+          \therefore \quad h = \frac{2\gamma\cos\theta}{\rho r g}  
+        </me>
+        A smaller contact angle and a smaller surface tension result in a greater the 
+        degree of wetting. When adhesive forces are greater than cohesive forces, 
+        the contact angle <m>\theta</m>  lies between 0 and <m>90^{o}.</m> 
+        When adhesive forces are smaller than cohesive forces, the contact angle <m> \theta</m>  
+        lies between <m>90^{o}</m> and <m>180^{o}</m> [<xref ref="capilary4"/> and <xref ref="capilary5"/>]. 
+        When water is dripping from the narrow orifice its shape is a little bit oval because of 
+        gravity. However, the shape would be completely spherical in absence of gravity because 
+        of surface tension of the water. 
+    </p>
+   </subsection>
+
+
+   <subsection xml:id="subsec-surfenergy">
+    <title>Equivalence between surface tension and surface energy</title>
+    <figure xml:id="surffilm">
+      <caption></caption>
+      <image source="surffilm.png" width="30%"/>
+  </figure>
+    <p>
+      The natural tendency of a liquid is to contract its surface area to minimum its size. 
+      Therefore, work is required to increase the surface area of a liquid film. 
+      Increasing the surface area increasing the energy of the film. Hence, surface tension 
+      is the energy (or work) required to increase the surface area of a liquid by unit. 
+      Consider a thin film of liquid, ABCD, contained in a rectangular wire frame of 
+      movable side CD, as shown in <xref ref="surffilm"/>.
+    </p>
+    <p>
+      Now consider that the film is stretched by moving the side CD of the frame by <m>\Delta x</m> 
+      to the new position PQ. If <m>\gamma</m>  is the surface tension of the liquid and a 
+      force <m>F</m> is applied, then work done by the force to stretch the film, 
+      <me>
+        W = F\Delta x = 2 \gamma l \Delta x
+      </me>
+      The factor 2 is taken because of two open surface area of the film on both sides of wire mesh. 
+      If <m>\Delta A = 2 l \Delta x </m> be the increased surface area of the film, then 
+      <me>
+        W =  \gamma  \Delta A
+      </me>
+     </p>
+     <p>
+<me>
+  \therefore\quad \gamma = \frac{W}{\Delta A}
+</me>
+Therefore, surface tension can also be defined in terms of energy, it is the ratio of change 
+in surface energy to the change in surface area of the film. The surface tension is greatly 
+dependent on temperature, so the definition of surface tension in terms of work per unit area 
+is very useful in thermodynamics. The SI unit, in that case, is <m>J/m^{2}.</m> 
+     </p>
+   </subsection>
+
+   <subsection xml:id="subsec-buble">
+    <title>Soap Bubble</title>
+    <figure xml:id="soapbubble">
+      <caption></caption>
+      <image source="soapbubble.png" width="30%"/>
+  </figure>
+    <p>
+      When the bubble is blown, the surface film tends to contract. This causes pressure inside 
+      the bubble to increase. The surface tension balances the outward force due to the 
+      pressure difference between the inside and the outside air. For the bubble to be 
+      stable and not collapse, the pressure inside the bubble must be higher than the pressure 
+      on the outside. In fact, there are two liquid-gas interfaces on a soap bubble, 
+      the one on the inside of the bubble and the one on the outside of the bubble <xref ref="soapbubble"/>. 
+      In between the two surfaces is a thin film of liquid. The spherical shape of a 
+      soap bubble is caused by the minimization of the surface area.  For a given volume, 
+      a sphere always acquires the least surface area.
+    </p>
+    <p>
+      The force from surface tension is <m>F = 2\gamma l,</m> where the factor 2 
+      is taken because of two surfaces of the soap bubble. 
+      <me>
+        \therefore F = 2\gamma 2\pi r = 4\gamma \pi r
+      </me>
+      The force do to the pressure difference must balance the force from the 
+      surface tension. The force to the pressure difference is 
+      <me>
+        F = pA= (p_{i} - p_{o})(\pi r^{2})
+      </me>
+      <me>
+        \text{or,}\quad 4\gamma \pi r = (p_{i} - p_{o})(\pi r^{2})
+      </me>
+      <me>
+        \therefore\quad   (\Delta p) = \frac{4\gamma}{r}
+      </me>
+        </p>
+   </subsection>
+  </section>
+

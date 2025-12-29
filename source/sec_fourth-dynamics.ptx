@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-dynamics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Dynamics</title>
+  
+   <introduction>
+    <p>
+      Dynamics in physics explains the causes of motion. 
+      In dynamics <m>v\neq 0, \quad a\neq 0,</m> and <m>F\neq 0</m>.
+      From Newton's Second Law: 
+      <me>
+        \sum \vec{F}  =  m \vec{a}
+      </me>
+      or, equivalently
+      <me>
+        \sum F_{x}  =  m a_{x} 
+      </me>
+      (x-component of <m>\vec{F}</m>), and
+      <me>
+        \sum F_{y}  =  m a_{y}	
+      </me>
+      (y-component <m>\vec{F}</m>)
+        For gravitational force or weight, <m>F = mg</m>.
+    </p>
+   </introduction>
+
+   <subsection xml:id="subsec-atwood_machine">
+    <title>Atwood's Machine</title>
+    <p>
+      It is device where two masses <m>m_{1}</m> and <m>m_{2}</m> are hung at 
+      both ends of a massless,  unstretchable string that runs over a frictionless 
+      and massless pulley as shown in figure below. This machine is used to learn 
+      the concept of dynamics in a little complex condition. In massless and frictionless 
+      pulley tension on both sides of the string and the magnitude of acceleration of 
+      both masses remain the same as there is no slack in the string as it moves.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 20% 20% 25%">
+        <figure xml:id="Atwood1">
+          <caption></caption>
+          <image source="Atwood1.png"/>
+      </figure>
+          <figure xml:id="Atwood2">
+              <caption></caption>
+              <image source="Atwood2.png"/>
+          </figure>
+          <figure xml:id="Atwood3">
+              <caption></caption>
+              <image source="Atwood3.png"/>
+          </figure>
+          <figure xml:id="Atwood4">
+            <caption></caption>
+            <image source="Atwood4.png"/>
+        </figure>
+       </sidebyside>
+  </figure>
+
+  <p>
+    From  free body diagram <xref ref="Atwood2"/>, we have -
+    <men xml:id="eqn-atwood1">
+      m_{1}g-T_{1} =m_{1}a \quad \Rightarrow \quad T_{1} = m_{1}g-m_{1}a  
+    </men>
+    From  free body diagram <xref ref="Atwood3"/>, we have -
+    <men xml:id="eqn-atwood2">
+      T_{2}-m_{2}g- =m_{2}a  \quad \Rightarrow \quad T_{2} = m_{2}g+m_{2}a  
+    </men>
+    System as a whole from figure  <xref ref="Atwood1"/>, we have - 
+    <me>
+      F_{net} = (m_{1}+m_{2})a
+    </me>
+    <men xml:id="eqn-atwood3">
+      \text{or,}\quad m_{1}g-m_{2}g = (m_{1}+m_{2})a\quad  \Rightarrow \quad a=\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})}  
+    </men>
+  Therefore from eqn. <xref ref="eqn-atwood1"/>, we get -
+  <men xml:id="eqn-atwood4">
+    T_{1} =  m_{1}g-m_{1}\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})}= \frac{2m_{1}m_{2}g}{(m_{1}+m_{2})}  
+  </men>
+  Also from eqn.<xref ref="eqn-atwood2"/>, we get -
+  <men xml:id="eqn-atwood5">
+    T_{2} =  m_{2}g+m_{2}\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})}= \frac{2m_{1}m_{2}g}{(m_{1}+m_{2})}
+  </men>
+ Hence from eqns.<xref ref="eqn-atwood4"/> and <xref ref="eqn-atwood5"/>, 
+ it is clear that <m>T_{1}=T_{2}</m> in massless and frictionless pulley. 
+ We can see in rigid body dynamics that when pulley has mass and friction, 
+ <m>T_{1}</m> is no longer equal to <m>T_{2}</m>. Now, we can evaluate velocity of masses as 
+ <me>
+  a=\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})} 
+ </me>
+ <me>
+  \text{or,}\quad \frac{\,dv}{\,dt}=\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})} 
+ </me>
+ <me>
+  \text{or,}\quad \,dv =\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})}\,dt
+ </me>
+ <me>
+  \text{or,}\quad \int\limits_{0}^{v(t)}\,dv =\int\limits_{0}^{t}\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})}\,dt 
+ </me>
+ <me>
+  \therefore\quad v(t) =\frac{(m_{1}-m_{2})g}{(m_{1}+m_{2})}t
+ </me>
+ Also, the distance traveled in time <m>t</m> is given by - 
+ <me>
+  v(t)=\frac{\,dx}{\,dt} \quad \Rightarrow \int\limits_{0}^{x(t)}\,dx =\frac{(m_{1}-m_{2})}{(m_{1}+m_{2})}g\int\limits_{0}^{t}t\,dt 
+ </me>
+ <me>
+  \therefore\quad x(t) = \frac{(m_{1}-m_{2})}{(m_{1}+m_{2})}\left(\frac{gt^{2} }{2}\right) 
+ </me>
+   </p>
+   </subsection>
+
+   <subsection xml:id="subsec-air_drag">
+    <title>Motion in Air Drag</title>
+    <p>
+      When an object of mass <m>m</m> is thrown vertically down ward with air resistance <idx><h>air drag</h></idx>
+      given as <m>f=cv</m>. Equation of motion with air resistance, <m>\sum F=ma.</m>
+      <men xml:id="eqn-air_drag1">
+        F=ma=w-f = mg-cv  
+      </men>
+      <me>
+        a=g-\frac{c}{m}v
+      </me>
+      <men xml:id="eqn-air_drag2">
+        a= g-kv  \qquad \text{[where $k=\frac{c}{m}$]} 
+      </men>
+      <me>
+        \text{or,}\quad \frac{\,dv}{\,dt} = g-kv
+      </me>
+      <me>
+        \text{or,}\quad \int \frac{\,dv}{g-kv} =\int \,dt
+      </me>
+      <me>
+        \text{or,}\quad \frac{\ln(g-kv)}{-k} =t + A
+      </me>
+      <me>
+        \text{or,}\quad \ln(g-kv) =-kt-kA 
+      </me>
+      <men xml:id="eqn-air_drag3">
+        \text{or,} \quad g-kv = e^{-kt}\cdot e^{-kA} 
+      </men>
+      </p>
+      <figure xml:id="airdrag14">
+        <caption></caption>
+        <image source="airdrag1.png" width="20%"/>
+    </figure>
+      <p>
+        At <m>t=0, \quad v=u,</m> initial velocity with which the ball is thrown.
+        <men xml:id="eqn-air_drag4">
+          \therefore g-ku = e^{-kA} 
+        </men>
+          Now from eqn. <xref ref="eqn-air_drag3"/>, we have - 
+          <me>
+            g-kv = e^{-kt} (g-ku) 
+          </me>
+          <me>
+            -kv = -g+e^{-kt} (g-ku)
+          </me>
+          <men xml:id="eqn-air_drag5">
+            \therefore v(t) = \frac{g}{k}-\left(\frac{g}{k}-u\right)e^{-kt} 
+          </men>
+          Again after a very long time, <m>t \to \infty</m>, <m>e^{-kt} \to e^{-\infty}=0</m>.
+          <me>
+            \therefore v(t) = \frac{g}{k} =\frac{gm}{c} =constant = v_{t}
+          </me>
+          where <m>v_{t} = \frac{gm}{c}</m> is called the terminal velocity.  <idx><h>terminal velocity</h></idx>
+      </p>
+      <p>
+        <men xml:id="eqn-air_drag6">
+          \therefore v(t) = v_{t}+\left(u-v_{t}\right)e^{-kt} 
+        </men>
+        and eqn. <xref ref="eqn-air_drag2"/> becomes 
+        <men xml:id="eqn-air_drag7">
+          a(t) = \frac{c}{m}\left(v_{t}-v\right) 
+        </men>
+        Now at <m>t=0,</m> eqn.<xref ref="eqn-air_drag6"/> gives 
+        <me>
+          v(t) =v_{t}+\left(u-v_{t}\right)\cdot 1 
+        </me>
+        <me>
+          \therefore v(t) =u
+        </me>
+        At <m>t \to \infty</m> eqn. <xref ref="eqn-air_drag5"/> gives - 
+        <me>
+          v(t) = v_{t}+\left(u-v_{t}\right)\cdot 0 
+        </me>
+        <me>
+          \therefore v(t) = v_{t}
+        </me>
+        Again from eqn. <xref ref="eqn-air_drag6"/>, 
+        <me>
+          v(t) =\frac{\,dy(t)}{\,dt}= v_{t}+\left(u-v_{t}\right)e^{-kt}
+        </me>
+        <me>
+          y(t) =\int\,dy=\int v_{t}\,dt+\int\left(u-v_{t}\right)e^{-kt}\,dt
+        </me>
+          <men xml:id="eqn-air_drag8">
+            \therefore y(t) = v_{t}t -\frac{1}{k}\left(u-v_{t}\right)e^{-kt} +B  
+          </men>
+          At <m>t=0, \quad y=y_{o}</m> (initial position) and <m>v=u</m> (initial velocity).
+          <me>
+            \therefore y_{o} = -\frac{1}{k}\left(u-v_{t}\right)\cdot 1+B 
+          </me>
+          <me>
+            \therefore B = y_{o} -\frac{1}{k}\left(v_{t}-u\right) 
+          </me>
+          Therefore from eqn. <xref ref="eqn-air_drag8"/>, we have -
+          <me>
+            y=y_{o}-\frac{1}{k}\left(v_{t}-u\right)+v_{t}\cdot t - \frac{1}{k}\left(v_{t}-u\right)e^{-kt}
+          </me>
+          <me>
+            y= y_{o}+v_{t}\cdot t-\frac{1}{k}\left(v_{t}-u\right)\{1-e^{-kt}\}
+          </me>
+          <men xml:id="eqn-air_drag9">
+            \therefore y= y_{o}+v_{t}\cdot t+\frac{1}{k}\left(v_{t}-u\right)\{e^{-kt}-1\} 
+          </men>
+            Without air resistance, the position of an object is given by 
+            <me>
+              y=y_{o}+ut+\frac{1}{2}gt^{2} 
+            </me>
+            If <m>y_{o}=0, \quad y=ut+\frac{1}{2}gt^{2}</m> for falling object. 
+            In case if the object is thrown upward, then 
+            <me>
+              y= y_{o}-v_{ter}\cdot t+\frac{1}{k}\left(u+v_{t}\right)\{1-e^{-kt}\} 
+            </me>
+            If <m>y_{o}=0,\quad y =-v_{t}\cdot t + \frac{1}{k}\left(u+v_{t}\right)\{1-e^{-kt}\}. </m> 
+            Without air resistance in upward motion, <m>y=ut-\frac{1}{2}gt^{2}</m>. [since <m>c=0=k</m>] 
+      </p>
+   </subsection>
+  </section>
+

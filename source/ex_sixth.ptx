@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_sixth" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+ 
+  <exercise>
+    <p>
+      An asteroid 1 mi in diameter of density <m>4 \,g/cm^{3}</m> enters the earth's gravity 
+      when it is at rest with respect to the solar system. 
+      <ol marker ="a.">
+        <li>
+          What is the speed of the asteroid with respect to the earth before entering the earth's gravity? 
+              </li>
+        <li>
+          What is the speed of the asteroid when it hits the surface of the earth?  
+             </li>
+             <li>
+              What is the energy of the asteroid when it hits the earth's surface? 
+             </li>
+             <li>
+              How does this compare with the amount of solar energy which hits the 
+      surface of the earth every day if the solar constant is <m>1.37 \,kW/m^{2}</m>? 
+             </li>
+               </ol> 
+    </p>
+   </exercise>
+ 
+<exercise>
+  <p>
+    A rock of mass 500 kg is dropped from a height of 1 m. While it is falling, 
+    <ol marker ="a.">
+      <li>
+        how hard does the earth pull down on the rock? 
+            </li>
+      <li>
+        how hard does the rock pull up on the earth? 
+           </li>
+           <li>
+            why doesn't the earth move upward to meet the rock?
+           </li>
+            </ol> 
+     </p>
+</exercise>
+
+<exercise>
+  <p>
+    If the the earth were a sphere of radius <m>6.37\times 10^{6} \,m</m>, the acceleration 
+    due to gravity at the surface of the earth were <m>9.8 \,m/s^{2}</m>, and the universal 
+    gravitational constant were <m>6.67\times 10^{-11} \,N.m^{2}/kg^{2}</m>, what would be the mass of the earth?
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    What is the altitude of a communications satellite which remains stationary 
+    over one spot on the earth? Can this spot be the north pole?
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    The Moon is 384,400 km distant from the Earth's center, and it completes 
+    an orbit in 27.3 days. 
+    <ol marker ="a.">
+      <li>
+        Determine the Moon's orbital speed. 
+            </li>
+      <li>
+        How far does the Moon "fall" toward the Earth in 1 s?
+           </li>
+          </ol> 
+  </p>
+  <hint>
+    <p>
+      <me>
+        v_{o}=r\omega; \quad s=v_{i}t+\frac{1}{2}at^{2};\quad  a=\frac{v^{2}}{r}
+      </me>
+       </p>
+  </hint>
+</exercise>
+
+<exercise>
+  <p>
+    <ol marker ="a.">
+      <li>
+        Io, a small moon of Jupiter, has an orbital period of 1.77 days 
+        and an orbital radius of <m>4.22\times 10^{5} \,km</m>.  From these data, determine the mass of Jupiter.
+            </li>
+      <li>
+        Ganymede, Jupiter's largest moon, has an orbital period of 7.16 days. What is its orbital radius?
+           </li>
+          </ol> 
+    </p>
+</exercise>
+
+<exercise>
+  <p>
+    Find the difference in potential energy of a satellite of mass <m>m_{s}=2.50\times10^{3}\,kg</m>, 
+    when it is at a distance of <m>2.55 \times10^{9} \,m</m> and when it is at 
+    the distance of <m>4.30\times10^{7} \,m</m> from the center of the earth.
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Three point masses of 30.0 kg, 50.0 kg, and 70.0 kg are located at the vertices 
+    of an equilateral triangle 1.00 m on a side. Find the resultant gravitational force on each mass.
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    At what speed would the earth have to rotate such that the centripetal 
+    force at the equator would be equal to the weight of a body there? 
+    If the earth rotated at this velocity, how long would a day be? 
+    If a 900-N man stood on a weighing scale there, what would the scales read?
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Find the acceleration due to gravity, g at the bottom of a 400-km deep mine. 
+    Assume the radius of the earth is 6400km and has a uniform density.
+  </p>
+</exercise>
+ </exercises>
+

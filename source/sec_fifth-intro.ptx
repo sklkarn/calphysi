@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Work, Energy, and Power</title>
+  
+<introduction>
+  <p>
+    If an object is displaced along the same direction as the force is applied  
+    then the <term>work</term> is said to be done. If a force <m>F</m> displaces a body to a 
+    distance <m>d</m> along the direction of force then work can be calculated by 
+    <m>W= Fd</m>. 
+  </p>
+</introduction>
+
+  <subsection xml:id="subsec-work">
+    <title>Work</title>  
+
+  <introduction>
+       <p>
+      If an object is displaced along the same direction as the force is applied  
+      then the <term>work</term> is said to be done. If a force <m>F</m> displaces a body to a 
+      distance <m>d</m> along the direction of force then work can be calculated by 
+      <m>W= Fd</m>. Work is a scalar quantity as it is a measure of transfer of energy 
+      from one object to another. The physical quantities which can be obtained by dot 
+      product of two vectors are scalar. 
+      <me>
+        \vec{A} \cdot \vec{B}	=  A B \cos\theta =  A_{x} B_{x} + A_{y} B_{y} +  A_{z} B_{z} \quad \textbf{Dot Product}
+      </me>
+      The unit of work is joule in SI system, <m>Joule (J) =  N.m</m>; 
+      in FPS system, ft-lb  =  foot.pound; and in CGS system, erg  =  dyne.cm.
+    </p>
+    <figure >
+      <caption></caption>
+      <sidebyside widths="40% 30%">
+          <figure xml:id="ec1">
+              <caption></caption>
+              <image source="ec1.png"/>
+          </figure>
+          <figure xml:id="ec4">
+              <caption></caption>
+              <image source="ec4.png"/>
+          </figure>
+         </sidebyside>
+  </figure>
+      <p>
+        Suppose a block of mass <m>m</m> is displaced to a distance <m>d</m> along the 
+        horizontal direction by the application of force <m>\vec{F}</m> [<xref ref="ec1"/>]. If the force 
+        <m>\vec{F}</m> is acting along a direction <m>\theta</m> to the horizontal, 
+        then work done by the force is given by 
+        <men xml:id="eqn-work1">
+          W=\vec{F}\cdot\vec{d}=Fd\cos\theta = (F\cos\theta)d = F_{x}d
+        </men>
+        The work done by a force is defined as the product of component 
+        of the force  in the direction of displacement and the magnitude of displacement.  
+        Work in physics is different than our daily life work. Suppose you are pushing a 
+        rigid brick wall very hard, after some time you get exhausted because you lose 
+        your body energy. In our daily life we called this action as a work, but in physics 
+        this is not a work because the object did not displace from its position. Hence 
+        in physics, whether the force or the displacement is zero, there is no work. 
+        Depending upon the angle between the applied force and the displacement, 
+        work could be negative, positive, or zero. For example, work done by a frictional 
+        force, or work done by a force acting opposite to the motion of object, 
+        <me>
+          W_{f}=\vec{f}\cdot\vec{d} = -fd,
+        </me>
+       work done by a force acting parallel to the motion of object, 
+       <me>
+        W_{F}=\vec{F}\cdot\vec{d} = Fd\cos0^{o}=Fd,
+       </me>
+       and work done by a force acting perpendicular to the motion of object, 
+       <me>
+        W_{F}=\vec{F}\cdot\vec{d} = Fd\cos90^{o}=0.
+       </me>
+        </p>   
+<p>
+  If a force 
+  <me>
+    \vec{F}=F_{x} \hat{i}+ F_{y} \hat{j}+F_{z} \hat{k} 
+  </me>
+  displaces an object to a small distance <m>\,d\vec{r},</m> where 
+  <me>
+    \vec{r}=x\hat{i}+y\hat{j}+z\hat{k}
+  </me>
+    then work done by this force is given by <fn>If <me>
+      \vec{r}=x\hat{i}+y\hat{j}+z\hat{k},
+    </me>
+   then 
+   <me>
+    \,dr = \,dx\hat{i}+\,dy\hat{j}+\,dz\hat{k}
+   </me>
+   </fn> 
+    <me>
+      W=\int \vec{F}\cdot\,d\vec{r} = \int F\cos\theta\,dr = \int F_{x}\,dx+\int F_{y}\,dy+\int F_{z}\,dz 
+    </me>
+    The terms like <m>F_{x}\,dx</m> are area under the curve [<xref ref="ec4"/>]. The sum of these area between 
+    initial position to final position along each direction is equal to work done by a 
+    variable force F(r), such as force of spring.
+</p>
+      </introduction>
+    </subsection>
+
+ <subsection xml:id="subsec-energy">
+  <title>Energy</title>
+  
+  <introduction>
+         <p>
+        The capacity of doing work is known as energy. It is a scalar quantity 
+        and it's unit in SI system is Joule. Energy exists in many different forms, 
+        such as thermal energy, sound energy, electrical energy, magnetic energy, 
+        gravitational energy, chemical energy, mechanical energy, etc. 
+        The energy  associated with the motion and position of an object is termed 
+        as mechanical energy. We focus our understanding here in mechanical energy. 
+        Mechanical energy is of two types, kinetic energy and potential energy. 
+        The kinetic energy is associated with the motion of the object and potential 
+        energy is associated with the position  of the object with respect to some other 
+        object. For example: elastic potential energy due to a spring force, 
+        gravitational potential energy due to gravity, etc. The sum of kinetic 
+        and potential energy gives the total mechanical energy of the object.
+      </p>
+  </introduction>
+
+      <subsubsection xml:id="subsubsec-we_theorem">
+        <title>Work-Energy Theorem</title>
+        <p>
+          From equations of motion, we have 
+         <men xml:id="eqn-work2">
+          v^{2} =u^{2}+2as 
+         </men>
+         where <m>v</m>, <m>u</m>, <m>a</m> and <m>s</m> are final velocity, 
+         initial velocity, acceleration, and distance covered by the particle, 
+         respectively. From Newton's second law of motion, we have -
+         <men xml:id="eqn-work3">
+          F=ma  
+         </men>
+          From eqns. <xref ref="eqn-work2"/> and <xref ref="eqn-work3"/> , we have -
+          <me>
+            v^{2} =u^{2}+2\frac{F}{m}s 
+          </me>
+          <me>
+            \text{or,}\quad \frac{1}{2}mv^{2}-\frac{1}{2}mu^{2}=Fs
+          </me>
+          Here the term <m>\frac{1}{2}mv^{2} </m> is called final kinetic energy, 
+          <m>KE_{f}</m>, the term <m>\frac{1}{2}mu^{2} </m>  is called initial kinetic 
+          energy, <m>KE_{i}</m>, and the term <m>Fs</m> is work done by a force. Hence,
+          <me>
+            KE_{f}-KE_{i} = W\qquad \Rightarrow\quad  \Delta k=W
+          </me>
+           Which is known as <term>work-energy theorem</term>. It states that work done 
+           by a net force acting on a body is equal to the chnage in its kinetic energy. 
+        </p>
+      </subsubsection>
+
+      <subsubsection xml:id="subsubsec-ke">
+        <title>Kinetic Energy:</title>
+        <p>
+          It is the energy associated with a body during its motion. Suppose <m>\,dW </m> is the 
+          work done by a force <m>F</m> on a body to displace it to a distance <m>\,ds</m>, then 
+          <me>
+            \,dW=F\,ds = m\frac{\,dv}{\,dt} \,ds = m\,dv\frac{\,ds}{\,dt} =mv\,dv
+          </me>
+        <me>
+          \therefore W = \int\,dW = \int\limits_{v_{i}}^{v_{f}}mv\,dv = \frac{1}{2}mv_{f}^{2}-\frac{1}{2}mv_{i}^{2}
+        </me>
+      The quantity <m>\frac{1}{2}mv^{2} </m> is called the kinetic energy, i.e.,
+    <me>
+      KE=\frac{1}{2}mv^{2}.
+    </me>
+   Since this kinetic energy is associated with a body in translational motion, 
+   it is called a translational (linear) kinetic energy. The kinetic energy in rotational 
+   motion is called rotational kinetic energy which we will discuss in <xref ref="subsec-rwep"/>.
+        </p>
+      </subsubsection>
+
+      <subsubsection xml:id="subsubsec-pe">
+        <title>Potential Energy:</title>
+        <p>
+          The energy stored in a body due to its position is known as potential energy. 
+          If work is done by a force to change the position of a body, then this work is 
+          stored in the body at that position in the form of potential energy. The restoring 
+          force plays a crucial role to acquire potential energy. For example, a charged particle 
+          near or far from another charge;  a squashed or stretched rubber ball, a body above 
+          the surface of the earth. The potential energy of the body at any position is the 
+          work done against the restoring force in moving the body from the zero point 
+          (reference point) to that position. The reference point <fn>The zero point is 
+            so chosen that it could be infinitely far away. Such as at infinity, 
+            at the center of the earth, at sea level, at the floor, at the table top, 
+            or at any other point. This is because only potential energy differences 
+            between two positions are physically measurable and cannot depend on the a
+            rbitrary choice of the zero point.</fn>  (or, the <em>zero point</em>) 
+            is the point where potential energy is assumed to be zero. If work has 
+            to be done on a body to take it to a new location, then the potential energy 
+            increases in the process. If the external force does the work then the 
+            potential energy change is negative.
+        </p>
+        <ol>
+          <li>
+            <p>
+              <term>Gravitational Potential Energy:</term> Suppose a body of mass <m>m</m> 
+              is lifted to a height <m>h</m> against gravity without acceleration, 
+              then work done by the applied force, <m>F_{a}</m> is given by 
+              <me>
+                W_{a}= F_{a}\cdot h= -F_{g}\cdot h =-mgh
+              </me>
+              This work is stored in the body in the form of gravitational potential energy. 
+              Hence when this body is released from the position the body drops down to the 
+              ground again. Therefore, the work done by the gravity to pull that object 
+              towards earth's surface is given by 
+              <me>
+                W_{g}= F_{g}h = mgh = PE
+              </me>
+              This is gravitational potential energy in a uniform gravitational field, 
+              <m>g</m>. The gravitational potential energy due to two point masses is 
+              given by 
+              <me>-G\frac{Mm}{r}.</me> 
+              Where <m>M</m> is the mass of an object 
+              at the origin, <m>m</m> is the mass of an object at a radial distance 
+              <m>r</m> from the origin and the zero point is chosen at infinity. 
+            </p>
+          </li>
+          <li>
+            <p>
+              <term>Elastic Potential Energy:</term> When the body (or, spring) 
+              is compressed or stretched external force has to do the work, 
+              this work is stored in a body (or, spring) in the form of elastic 
+              potential energy. It is the energy due to work done by a restoring force. 
+              <me>
+                W = \int\limits_{0}^{x}F_{s}\,dx =\int\limits_{0}^{x}(-kx)\,dx=-\frac{1}{2}kx^{2}=E_{s}
+              </me>
+              where <m>F = -k x,</m> is the restoring force <fn>[read <xref ref="ch_eighth"/> for more details]</fn>, 
+              <m>k</m> is elastic (or, spring) constant (it defines the stiffness of the spring), 
+              and <m>x</m> is extension in the spring. 
+            </p>
+          </li>
+        </ol>
+        <p>
+          Since work done by a force in principle depends on the path taken by the body, 
+          (as can be seen in <m>W=fx</m> where <m>f</m> is a frictional force), but if the force 
+          is conservative then work done is independent on the path taken by the body rather 
+          it depends on the initial and final position of the body [<xref ref="subsec-con_nonconservF"/>]. 
+        </p>
+      </subsubsection>
+    </subsection>
+   
+<subsection xml:id="subsec-con_nonconservF">
+  <title>Conservative and Non-Conservative Forces</title>
+  <p>
+    If a body under the action of a force does no net work during any closed loop, 
+    then the force is conservative, otherwise, it is non-conservative. 
+    Non-conservative forces are dissipative forces such as friction or air resistance. 
+    These forces take energy away from the system as the system progresses, energy that 
+    you can't get back. These forces are path dependent and therefore it matters where 
+    the object starts and stops. Gravity, spring force, electric and magnetic, and 
+    other restoring forces are conservative. Friction, normal force, tension, and 
+    other applied forces are non-conservative. Conservative forces are state function, 
+    and non-conservatives forces are path function. The work done by a conservative 
+    force is independent of the path, i.e., the work done by a conservative 
+    force is the same for any path connecting two points.
+  </p>
+  <figure xml:id="conforce">
+    <caption></caption>
+    <image source="conforce.png" width="35%"/>
+</figure>
+  <p>
+    <me>
+      W_{ACB} = \int\limits_{AB}\vec{F}\cdot\,d\vec{r}=W_{BDA} =\int\limits_{BA}\vec{F}\cdot\,d\vec{r}
+    </me>
+    <me>
+      \therefore W_{ABA} = \oint \vec{F}\cdot\,d\vec{r} =0\quad [\because W_{BDA}=-W_{ACB}]
+    </me>
+    Mathematically, the work done is independent of path if the infinitesimal work  
+    <m>\vec{F}\cdot\,d\vec{r}</m>  is an exact differential. In two dimensions, 
+    the condition for 
+    <me>\vec{F}\cdot\,d\vec{r} = F_{x}\,dx+ F_{y}\,dy</me> to be 
+    an exact differential is 
+    <me>\frac{\,dF_{x}}{\,dy}=\frac{\,dF_{y}}{\,dx}.</me>
+   The work done by a non-conservative force depends on the path taken, i.e., 
+   <m>\frac{\,dF_{x}}{\,dy}\neq\frac{\,dF_{y}}{\,dx}.</m>
+   </p>
+</subsection> 
+
+<subsection xml:id="subsec-princ_con-energy">
+    
+    <title>Principle of Conservation of Energy</title>
+  <p>
+    It states that in an isolated system, the total energy of the system is conserved. 
+    That is, energy can neither be created nor be destroyed, it can only be converted 
+    from one form of energy to another. For example, when a block slides down a slope, 
+    potential energy is converted into kinetic energy. When friction slows the block 
+    to a stop, the kinetic energy is converted into thermal energy. In case of mechanical 
+    energy the sum of kinetic energy and potential energy is conserved. 
+  </p>
+    <figure xml:id="conenergy">
+      <caption></caption>
+      <image source="conenergy.png" width="25%"/>
+  </figure>
+  <p>
+    For an interacting system, 
+    <me>
+      E_{f} = E_{i} + W_{ext}
+    </me>
+    and for an isolated system, 
+    <me>E_{f} = E_{i}</me>. 
+        Mechanical energy is due to the position and motion of the object. Therefore,
+        <me>
+          E=KE+PE=\frac{1}{2}mv^{2}+mgh
+        </me>
+        Consider a body of mass <m>m</m> is falling from rest at height <m>h</m> to the ground. 
+        We are interested in its total energy at points A, B, and C as shown 
+        in <xref ref="conenergy"/>. From the principle of conservation of energy, 
+        total energy at any point always remains same, i.e.,
+        <me>
+          E_{A}=E_{B}=E_{C}
+        </me>
+                Where 
+                <me>
+                  E_{A} = \frac{1}{2}mv_{A}^{2}+mgh= mgh \quad [\because v_{A}=0 \quad\text{at point A}] 
+                </me>
+                 When the body reaches to point B, then 
+                 <m>KE_{B} = \frac{1}{2}mv_{B}^{2},</m> and <m>PE_{B}=mg(h-x).</m>
+                 <me>
+                  \therefore E_{B} = \frac{1}{2}mv_{B}^{2}+mg(h-x)
+                 </me>
+                  Using equation of motion in 1D, 
+                  <me>
+                    v_{f}^{2}=v_{i}^{2} +2gy
+                  </me>
+                  <me>
+                    \text{or,}\quad v_{B}^{2}=0+2g(x)=2gx
+                  </me>
+                  <me>
+                    \therefore\quad  E_{B} = \frac{1}{2}m(2gx)+mg(h-x) =mgx+mgh-mgx= mgh=E_{A}
+                  </me>
+                  Similarly,
+                  <me>
+                    E_{C} = \frac{1}{2}mv_{C}^{2}+0 =\frac{1}{2}mv_{C}^{2} =  \frac{1}{2}m(2gh) = mgh=E_{A}=E_{B}
+                  </me>
+                  <m>[\because v_{C}^{2}=0+2g(h)=2gh].</m>
+                  Which proofs that the mechanical energy remains conserved at each and 
+                  every point of the motion of an object.
+               </p>
+</subsection>
+
+<subsection xml:id="subsec-ediagram">
+  <title>Energy Diagram</title>
+  <figure >
+    <caption></caption>
+    <sidebyside widths="40% 40%">
+        <figure xml:id="SHMenergy">
+            <caption></caption>
+            <image source="SHMenergy.png"/>
+        </figure>
+        <figure xml:id="potEcurve">
+            <caption></caption>
+            <image source="potEcurve.png"/>
+        </figure>
+       </sidebyside>
+</figure>
+  <p>
+    From the principle of conservation of energy as kinetic energy of 
+    the system increases its potential energy decreases. This means the 
+    force acting on a particle is the rate at which the potential energy decreases 
+    in any given direction as shown in <xref ref="SHMenergy"/>. At point a, the slope of 
+    <m>U(x)</m> is positive, i.e., the x-component of the  force is in the negative x direction. 
+    At the point b, the slope is negative and hence the force is  positive. 
+    The force increases as the slope of <m>U(x)</m> increases. The point in the middle, 
+    at <m>x = 0</m>, is is a minimum of <m>U(x)</m> and hence the slope is zero. Therefore the x-directed 
+    force F at that point is zero as well. A point at which the force on an object is zero 
+    is a point of <term>static equilibrium</term> [<xref ref="subsubsec-state_eqlbrm"/>], 
+    i.e., a particle is at rest and will remain there at rest. 
+    If the particle is displaced by a small distance to the right or the left 
+    of the equilibrium point, the force pushes the particle back towards equilibrium. 
+    Points where the force is zero and small displacements cause a restoring force to 
+    bring the particle  back to the same points are called <term>stable equilibrium</term> 
+    points [<xref ref="subsec-st_equlbrm"/>]. 
+  </p>
+  <p>
+    Remember force is a negative gradient of the potential energy, i.e., 
+    <me>
+      \vec{F}= -\frac{\,dU}{\,dr} \qquad [\because U(r) = W= -\vec{F}\cdot\,dr]
+    </me>
+   <me>
+    \text{or,}\quad \vec{F_{x}}= -\frac{\,dU}{\,dx};
+   </me>
+   <me>
+    \vec{F_{y}}= -\frac{\,dU}{\,dy};
+   </me>
+   <me>
+    \text{and}\quad\vec{F_{z}}= -\frac{\,dU}{\,dz}
+   </me>
+   That is, the force is a negative slope of the potential energy function in 
+   its direction. If a particle moves in the direction of the  (conservative) 
+   force, it speeds up and its kinetic energy increases.
+  </p>
+  <p>
+    The forces between neutral atoms are extremely small, nearly zero, if atoms 
+    are very far away from one another. This is illustrated as an extended region 
+    where the potential energy is flat for large r as shown in <xref ref="potEcurve"/>. 
+    Such region is called <term>neutral equilibrium</term> [<xref ref="subsec-st_equlbrm"/>] 
+    because there are no forces that either restore or repel the two atoms. 
+    When two atoms reaches closer, their interaction becomes first weakly attractive 
+    due to quantum dipole-induced dipole interactions and then weakly repulsive as the 
+    two atoms start to touch each other. There is a potential energy minimum in between 
+    where two atoms separated by a certain distance can be in stable equilibrium without 
+    being chemically bound. If atoms approaches more closely then they encounter a second 
+    potential energy well that is at first strongly attractive to an actual chemical 
+    interaction between them followed by a hard core repulsion as the electron clouds 
+    are prevented from interpenetrating by the Pauli exclusion principle. This second 
+    potential energy well is often modeled by a Lenard-Jones potential energy corresponding 
+    to the inverse powers of <m>r</m>. It also has a point of stable equilibrium. In between, 
+    there is a point where the growing attraction of the inner potential energy well 
+    and the growing repulsion of the outer potential energy well balance, so that the 
+    potential energy function has a maximum. At this maximum the slope is zero, 
+    a position of force equilibrium but because the force on either side of this 
+    point pushes the particle away from it, this is a point of <term>unstable equilibrium</term> [<xref ref="subsec-st_equlbrm"/>]. 
+    Unstable equilibria occur at isolated maxima in the potential energy function, 
+    just as stable equilibria occur at isolated minima. <fn>Introductory Physics-I, Robert Brown, Duke University</fn>
+    </p>
+</subsection>
+
+<subsection xml:id="subsec-ll_track">
+  <title>Loop-the-Loop Track</title>
+  <p>
+    A loop-the-loop track <idx><h>loop-the-loop track</h></idx> consists of an incline plane
+    that leads into a circular loop of radius <m>r</m>. When a body at rest is released 
+    from a certain minimum height <m>h_{min}</m> of the inclined plane it will make 
+    around the loop without falling. Assuming no friction during motion. 
+    The height of the ramp from where the body is released must be so chosen that 
+    when the body reaches at the top of the loop, it must be moving with the certain 
+    minimum velocity in order to have necessary centripetal force. At the top point 
+    B of the loop the weight <m>w</m> and normal force <m>N</m> are acting  on the body downward. 
+    These forces must be providing a necessary centripetal force. Remember centripetal force 
+    is a resulting force it is not something that acts on the body. It must be provided 
+    by some other causing forces which can act on the body.  Hence at point B,
+    <me>
+      N+w=F_{c}
+    </me>
+    <me>
+      \text{or,}\quad N+mg=\frac{mv_{B}^{2}}{r}
+    </me>
+   For <m>v_{B}</m> to be minimum, <m>N\to 0</m>. 
+   <me>
+    \therefore mg = \frac{mv_{min}^{2}}{r} 
+   </me>
+   <me>
+    g=\frac{v_{min}^{2}}{r}
+   </me>
+   <men xml:id="eqn-ll_track1">
+    \therefore v_{min} = \sqrt{gr} 
+   </men>
+  </p>
+  <figure xml:id="loop2">
+    <caption></caption>
+    <image source="loop2.png" width="30%"/>
+</figure>
+  <p>
+    Now from the principle of conservation of energy 
+    <me>
+      E_{B} = E_{A}.
+    </me>
+   <me>
+    \text{or,}\quad KE_{B}+PE_{B}=KE_{A}+PE_{A}
+   </me>
+   <me>
+    \text{or,}\quad \frac{1}{2}mv_{B}^{2}+mg(2r)=0+mgh_{A}
+   </me>
+  For <m>h_{A}</m> to be <m>h_{min}</m>, <m>v_{B} = v_{min}.</m>
+  <me>
+    \text{or,}\quad \frac{1}{2}mv_{min}^{2}+mg(2r)=mgh_{min}
+  </me>
+  <me>
+    \text{or,}\quad \frac{1}{2}m(gr)+mg(2r)=mgh_{min}
+  </me>
+  [from eqn. <xref ref="eqn-ll_track1"/>]
+<men xml:id="eqn-ll_track2">
+  \therefore h_{min} = \frac{r}{2}+2r =\frac{5}{2}  r
+</men>
+If the height of incline (ramp) is less than <m>\frac{5r}{2} </m> the body will not 
+make a complete cycle around the loop and must fall during its vertical motion inside the loop.
+  </p>
+</subsection>
+
+
+  </section> 
+

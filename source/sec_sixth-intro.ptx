@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Newton's Law of Gravitation</title>
+  
+   <introduction>
+    <figure xml:id="NLG1">
+      <caption></caption>
+      <image source="NLG1.png" width="40%"/>
+  </figure>
+    <p>
+      Newton observed that when an object, such as an apple, was released near the surface of 
+      the earth, it was accelerated toward the earth. Since the cause of such acceleration is 
+      an unbalanced force, there must be a force pulling that object toward the earth. 
+      On this basis he came up with an idea called  <term>Newton's Law of Universal Gravitation</term>. 
+      It states that any two masses in the universe attract each other with a force that is 
+      directly proportional to the product of the masses and inversely proportional to the 
+      square of the distance between them. Mathematically, 
+<me>
+  F  \varpropto  \frac{m_{1}m_{2}}{r^{2}}
+</me>
+<me>
+  \text{or,}\quad  F  =G \frac{m_{1}m_{2}}{r^{2}}
+</me>
+Where <m>m_{1}</m> and <m>m_{2}</m> are masses of two objects, <m>r</m> is the distance 
+between them, and <m>G  =  6.67 \times 10^{-11} N.m^{2}/kg^{2}</m>, is the proportionality 
+constant, also called the universal gravitational constant. The value of G was first 
+measured by <em>Sir Henry Cavendish</em>  experimentally in 1798.  The force <m>F_{12}</m> 
+is the force on mass 1 due to mass 2, the force <m> F_{21}</m> is the force on mass 
+2 due to mass 1, and they are equal and opposite [<xref ref="NLG1"/>]. <notation>
+  <usage><m>G</m></usage>
+  <description>universal gravitational constant</description>
+</notation>
+    </p>
+   </introduction>
+
+   <subsection xml:id="subsec-accl_grav">
+    <title>Acceleration Due to Gravity, <m>g</m> </title>
+    <figure xml:id="NLG2">
+      <caption></caption>
+      <image source="NLG2.png" width="20%"/>
+  </figure>
+   <introduction>
+    <p>
+        From Newton's II law of motion, when an external unbalanced force acts on an object, 
+        it will give  an acceleration <m>a</m> to that object, that is, <m>F = ma</m>. 
+        But, if the gravitational force is acting on the body near the surface of the earth, 
+        then the body experiences the acceleration <m>g</m> for a freely falling body. 
+        This force is called weight of the body, <m>w = mg</m>. Hence, 
+        <me>
+          F=mg=G\frac{Mm}{R^{2}} \quad \Rightarrow\quad g=\frac{GM}{R^{2}} 
+        </me>
+        Where <m>M, \quad m,</m> and <m>R</m> are the mass of earth, mass of a body on the 
+        surface of the earth, and the radius of the earth, respectively. The shape of 
+        earth is not a perfect sphere, rather, it is an oblate spheroid. That is, 
+        the radius of the earth at the equator <m> R_{eq}</m> is slightly greater 
+        than the radius of the earth at the poles <m>R_{pol}</m> as shown in 
+        <xref ref="NLG1"/>. Hence the value of <m>g</m> varies slightly with  latitude 
+        on the surface of the earth as <m>g \varpropto \frac{1}{R^{2}},</m> since G and M 
+        are constants. The value of 
+        <me>
+          R_{pol}=6.356\times10^{6}m, \quad R_{eq} = 6.378\times10^{6}m, 
+        </me>
+       The mean value of <m>R = 6.371\times10^{6}m.</m> Even though the variation in 
+       the radius of the earth seems quite small, the variation in the acceleration 
+       due to gravity on the earth goes from as low as <m>9.78 m/s^{2}</m> at the equator 
+       to as high as <m>9.83 m/s^{2}</m> at the north Pole.
+      </p>
+    </introduction>
+
+
+    <subsubsection xml:id="subsubsec-rot_g">
+      <title>Effect of the Rotation of the Earth on  g</title>
+      <figure xml:id="NLG3">
+        <caption></caption>
+        <image source="NLG3.png" width="35%"/>
+    </figure>
+      <p>
+        The value of <m>g</m> on the surface of the earth does not only vary with the 
+        radius of the earth but it is also affected by the rotation of the earth. Any 
+        mass rotating in a circular motion needs a centripetal force which is acting towards 
+        the center of the circular path. Remember that a centripetal force is not a real 
+        force that is acting on a rotating body, but it is the required force that must be 
+        applied to keep the body in that rotational motion. Hence the part of gravitational 
+        force must be acting on a body to provide a necessary centripetal force to keep 
+        that object moving on a circle with the rotation of the earth as shown in <xref ref="NLG3"/>. 
+      </p>
+      <p>
+        Since the centripetal force <m>\vec{F}_{c}=m\vec{a}_{c}</m> required by the mass 
+        m to follow a circle of radius r, then this force must be provided by the 
+        vector difference in force of gravity <m>\vec{F_{e}}=m\vec{g}_{e} </m> and 
+        a real force <m>F=m\vec{g}</m>, i.e., 
+        <me>
+          \vec{F}_{c}=\vec{F_{e}}-\vec{F} 
+        </me>
+        <me>
+          \text{or,}\quad m\vec{a}_{c} = m\vec{g}_{e}-m\vec{g} 
+        </me>
+        <me>
+          \therefore \vec{g}=\vec{g}_{e}-\vec{a}_{c}
+        </me>
+       The magnitude of <m>\vec{g}</m> can be found by 
+       <me>
+        \vec{g}\cdot\vec{g} =g^{2}= \left(\vec{g}_{e}-\vec{a}_{c}\right) \cdot\left(\vec{g}_{e}-\vec{a}_{c}\right)
+       </me>
+       <me>
+        = \vec{g}_{e}\cdot\vec{g}_{e} + \vec{a}_{c}\cdot\vec{a}_{c}-2\vec{g}_{e}\cdot\vec{a}_{c} =g^{2}_{e}+a^{2}_{c}-2g_{e}a_{c}\cos\lambda 
+       </me>
+       <me>
+        \therefore g= \sqrt{g^{2}_{e}+a^{2}_{c}-2g_{e}a_{c}\cos\lambda} 
+       </me>
+       where <me>
+        a_{c}=r\omega^{2} = R\omega^{2}\cos\lambda,
+      </me> 
+        R is the radius of the earth, and the acceleration due to gravity on a non-rotating earth is
+       <me>
+        g_{e}= \frac{GM}{R^{2}}.
+       </me>
+      </p>
+    </subsubsection>
+
+<subsubsection xml:id="subsubsec-alt_g">
+  <title>Effect of Altitude of the Earth on g</title>
+  <figure xml:id="NLG4">
+    <caption></caption>
+    <image source="NLG4.png" width="35%"/>
+</figure>
+  <p>
+    Acceleration due to gravity on the surface of the earth is given by  
+    <me>
+      g=\frac{GM}{R^{2}}
+    </me>
+   At height <m>h</m> from the surface of the earth [Figure <xref ref="NLG4"/>],  
+   acceleration due to gravity is given by 
+   <me>
+    g_{h} = \frac{GM}{(R+h)^{2}} = \frac{GM}{R^{2}\left(1+\frac{h}{R}\right)^{2}}
+   </me>
+   <me>
+    =\frac{g}{\left(1+\frac{h}{R}\right)^{2}}=g\left(1+\frac{h}{R}\right)^{-2} =g\left(1-\frac{2h}{R} +\cdots\right)
+   </me>
+   using binomial theorem
+   <me>
+    \therefore \quad g_{h} =g\left(1-\frac{2h}{R}\right)
+   </me>
+     </p>
+</subsubsection>
+
+<subsubsection xml:id="subsubsec-depth_g">
+  <title>Effect of Depth of the Earth on g</title>
+  <figure xml:id="NLG5">
+    <caption></caption>
+    <image source="NLG5.png" width="35%"/>
+</figure>
+  <p>
+    Acceleration due to gravity on the surface of the earth is given by 
+    <me>
+      g=\frac{GM}{R^{2}}= \frac{G}{R^{2}}\left(\frac{4}{3}\pi R^{3}\rho\right) = \frac{4}{3}G\pi R\rho
+    </me>
+    where mass of the entire earth, 
+    <me>
+      M=Volume\times density = \left(\frac{4}{3}\pi R^{3}\right)\times \rho
+    </me>
+   At depth <m>d</m> from the surface of the earth, mass of the earth 
+   <me>
+    M'=\frac{4}{3}\pi (R-d)^{3} \rho
+   </me>
+    [<xref ref="NLG5"/>]. Therefore the acceleration due to gravity at that depth is given by
+    <me>
+      g_{d} = \frac{GM'}{(R-d)^{2}} = \frac{\frac{4}{3}G\pi (R-d)^{3} \rho}{(R-d)^{2}} 
+    </me>
+    <me>
+      =\frac{4}{3}G\pi (R-d) \rho = \frac{4}{3}G\pi \rho R\left(1-\frac{d}{R}\right) 
+    </me>
+    <me>
+      \therefore \quad g_{h} =g\left(1-\frac{d}{R}\right)
+    </me>
+   </p>
+</subsubsection>
+   </subsection>
+
+
+   <subsection xml:id="subsec-grav_pot">
+    <title>Gravitational Potential Energy, U</title>
+    <figure xml:id="NLG6">
+      <caption></caption>
+      <image source="NLG6.png" width="35%"/>
+  </figure>
+    <p>
+      The gravitational potential energy of a body is work required to bring 
+      that body from infinity to the particular position in a gravitational field. 
+      Let a body of mass <m>m</m> is displaced without acceleration by a distance 
+      <m>\,dr</m> against the force of gravity, then work done by the external force 
+      <m>\vec{F}_{r}</m> is given by
+      <me>
+        \,dw=\vec{F}_{r}\cdot\,d\vec{r} = F_{r}\,dr = G\frac{Mm}{r^{2}}\,dr 
+      </me>
+         If a body is displaced from a position <m>A</m> of distance <m>r_{1}</m> 
+          to a position <m>B</m> at distance <m>r_{2}</m> against the gravity [<xref ref="NLG6"/>], then 
+          <me>
+            W=\int\,dw=\int\limits_{r_{1}}^{r_{2}} G\frac{Mm}{r^{2}}\,dr
+          </me>
+          <me>
+            = -GMm\left(\frac{1}{r}\right)_{r_{1}}^{r_{2}} =-GMm \left(\frac{1}{r_{2}}-\frac{1}{r_{1}}\right)
+          </me>
+          Hence work done by the gravity, (or the gravitational potential energy) is given by 
+          <me>
+            U= -W = GMm \left(\frac{1}{r_{2}}-\frac{1}{r_{1}}\right)
+          </me>
+If a body is brought from infinity to any point at a distance <m>r</m> in the gravitational field then, 
+<me>
+  U(r) = GMm \left(\frac{1}{\infty}-\frac{1}{r}\right) = -\frac{GMm}{r} 
+</me>
+In calculus form, potential energy is defined as
+<me>
+  U(r) = -\int\limits_{\infty}^{r}F_{r}\cdot\,dr
+</me>
+where <m>F_{r}</m> is a conservative foece, and therefore force can be written as 
+<me>
+  F_{r}=-\frac{\,dU}{\,dr}.
+</me>
+          </p>
+   </subsection>
+
+   <subsection xml:id="subsec-orb_vel">
+    <title>Orbital Velocity of a Satelite</title>
+    <figure xml:id="NLG7">
+      <caption></caption>
+      <image source="NLG7.png" width="35%"/>
+  </figure>
+    <p>
+      The velocity of a satellite in its orbit around the planet is called the orbital velocity, 
+      <m>v_{o}</m>. To move in a circular track an object must need a centripetal force 
+      which is provided by the force of gravity between the object and the planet. i.e.,
+      <me>
+        F_{c} = F_{g} \quad \Rightarrow\quad \frac{mv^{2}_{o}}{r}=G\frac{Mm}{r^{2}}
+      </me>
+      <me>
+        \therefore v_{o} = \sqrt{\frac{GM}{r}} =\sqrt{\frac{GM}{R+h}}
+      </me>
+      Where <m>r=R+h </m>, <m>m</m>, and <m>M</m> are distance of a satellite (object), 
+      mass of a satellite, and mass of the planet, respectively. <m>R</m> is radius of the planet, 
+      <m>G</m> is universal gravitational constant, and <m>h</m> is the altitude of the 
+      satellite from the surface of the planet.
+    </p>
+   </subsection>
+
+   <subsection xml:id="subsec-esc_vel">
+    <title>Escape Velocity</title>
+    <figure xml:id="NLG8">
+      <caption></caption>
+      <image source="NLG8.png" width="35%"/>
+  </figure>
+    <p>
+      The minimum velocity of an object with which it can be thrown out from 
+      the planet so that it never come back is known as escape velocity. 
+      Suppose a stone of mass <m>m</m> is thrown out from a planet with a velocity <m>v_{e}</m> 
+       so that it never fall back on the earth again, then the total energy of the 
+       stone on the planet, <m>E_{p}</m> is equal to total energy of the stone at infinity, <m>E_{\infty}. </m>
+       <me>
+        E_{p} = E_{\infty} \quad \Rightarrow\quad KE_{p} + PE_{p} =KE_{\infty}+PE_{\infty}
+       </me>
+       <me>
+        \frac{mv^{2}_{e}}{2}-\frac{GMm}{R} = 0-\frac{GMm}{\infty} 
+       </me>
+       <me>
+        \therefore v_{e} = \sqrt{\frac{2GM}{R}}
+       </me>
+       Where <m>r=R+h</m>, <m>m</m>, and <m>M</m> are distance of a satellite (object), 
+       mass of a satellite, and mass of the planet, respectively. Here <m>R</m> is radius 
+       of the planet,  <m>G</m> is universal gravitational constant, and <m>h</m> is the 
+       altitude of the satellite from the surface of the planet. 
+       If radius of the earth, <m>R=6.37\times10^{6}m</m>  and mass of the earth is <m>M=5.97\times10^{24}kg</m>, then
+       <me>
+        v_{e} = \sqrt{\frac{2\times 6.67\times10^{-11}\times5.97\times10^{24}}{6.37\times10^{6}}} 
+       </me>
+       <me>
+        \therefore \quad  v_{e} =1.12\times10^{4}m/s= 11.2km/s.
+       </me>
+           </p>
+   </subsection>
+
+   <subsection xml:id="subsec-geo_sync">
+    <title>Geosynchronous satellite</title>
+    <figure xml:id="NLG9">
+      <caption></caption>
+      <image source="NLG9.png" width="35%"/>
+  </figure>
+    <p>
+      A geosynchronous satellite orbits the earth in such a way that it reaches 
+      at the same point above the earth in every 24 hours. The special kind of geosynchronous 
+      satellite is called geostationary satellite 
+      which seems to be at rest at the same position above the earth. Geostationary satellite takes an equatorial 
+      orbit. The geosynchronous satellite orbits in such a way that it seems shifting from north to south about an equatorial orbit 
+      but due to earth orientation and rotation. Some sattelites also revolve along polar orbit. Polar satellites 
+      can be useful in weather forecasting and mapping the globe. Geostationary satellite are used for long term weather forecasting, spying,
+      communications, broadcasting, and signal transmission.  
+    </p>
+      <p>
+      The necessary centripetal force of such satellite is given by the gravitational force. 
+           <men xml:id="eqn-geosync1">
+        F_{g}=\frac{GMm}{r^{2}} = \frac{mv^{2}_{o}}{r}
+      </men>
+      Where <m>m,</m> <m>v_{o},</m> and <m>r</m> are mass, orbital velocity, 
+      and the orbital radius of the  satellite, respectively. Also 
+      <men xml:id="eqn-geosync2">
+        v_{o} = \frac{2\pi r}{T} 
+      </men>
+      Where <m>T</m> is orbiting time period of satellite. From eqns. 
+      <xref ref="eqn-geosync1"/> and <xref ref="eqn-geosync2"/>, we have -
+      <men xml:id="eqn-geosync3">
+        r =\sqrt[3]{\frac{GMT^{2}}{4\pi^{2}}}
+      </men>
+      Since the angular speed of satellite in its orbit must be the same as that of the 
+      earth about its axis, the orbiting time period of satellite must be equal to 1 day. 
+      Therefore,  
+      <me>
+        T = 1 day = 24 h \times 60 \frac{min}{h}\times 60 \frac{sec}{min} = 86400 s
+      </me>
+      <me>
+        \therefore \quad r=4.23\times10^{7} m
+      </me>
+           A geostationary satellite must orbit at a distance of about 36000 km 
+           above the surface of the earth, [<m>\because\quad r=R+h</m>].
+         </p>
+   </subsection>
+  </section>
+

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_ninth" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Fluid Mechanics</title>
+    
+  <introduction>
+    <p>
+      The branch of physics which deals with the behavior of fluids is known 
+      as fluid mechanics. Fluid is a material that can flow. Gasses and liquids are fluids. 
+      Like mechanics it has also three parts, viz, fluid statics, fluid kinematics, and fluid dynamics. 
+      Hence in this chapter we are going to study the nature of fluid at rest and in motion 
+      very briefly for introductory level. It is easier to deal with fluid's volume, density, 
+      and pressure in fluid measurement rather than its mass and weight. For example, 
+      we do transaction of any fluids in their volume (liter) not in their mass (kg). 
+      Hence we are introducing some of its general properties.
+    </p>
+    <figure>
+      <caption></caption>
+      <sidebyside widths="30% 20% 25%">
+        <figure xml:id="pressure">
+          <caption></caption>
+          <image source="pressure.png"/>
+      </figure>
+          <figure xml:id="gpressure">
+              <caption></caption>
+              <image source="gpressure.png"/>
+          </figure>
+          <figure xml:id="tubes">
+              <caption></caption>
+              <image source="tubes.png"/>
+          </figure>
+            </sidebyside>
+  </figure>
+
+      <ol marker="i.">
+          <li>
+            <p>
+            <term>Mass Density (or Density):</term> It is defined as a mass per unit 
+            volume of the fluid and denoted with a Greek letter, <m>\rho.</m> 
+            <me>
+              \rho  = \frac{m}{V},
+            </me>
+            The density of water at <m>4^{o}C</m> is <m>\rho_{o}  =  1 g/cm^{3}  =  1000 kg/m^{3}  =  1.95 slugs/ft^{3} </m>. 
+            The unit of density is <m>kg/m^{3}</m> in SI system, <m>g/cm^{3}</m> or <m>g/ml</m> in cgs system, 
+            and <m>slug/ft^{3}</m> in fps system. 
+          </p>
+          </li>
+          <li>
+            <p>
+            <term>Weight Density (or Specific Weight):</term> It is defined as a weight of unit 
+            volume of the fluid and denoted with a greek letter, <m>\rho_{g}</m>. Its unit is <m>N/m^{3}</m> 
+            in SI system, <m>dyne/cm^{3}</m> in cgs system, and <m>lb/ft^{3}</m> in fps system. 
+            <me>
+              \rho_{g}  = \frac{w}{V} =  \frac{mg}{V},
+            </me>
+            <m>\rho_{og}  = 9800 N/m^{3} = 980 dyne/cm^{3} = 62.4 lb/ft^{3} </m> for water at <m>4^{o}C</m>. 
+          </p>
+          </li>
+          <li>
+            <p>
+             <term>Specific Gravity (SG):</term> It is the ratio of density of a fluid to the density 
+              of water at <m>4^{o}C</m>. It is therefore a dimensionless quantity. 
+              <me>
+                SG = \frac{\rho_{f}}{\rho_{o}}
+              </me>
+              Hence, SG of a fluid has the same numerical value as its density in any systems of unit. 
+              Since density of water at <m>4^{o}C</m> is <m>1 \,g/ml </m> or <m>1000 \,kg/m^{3}</m> 
+              water is normally used as a reference material when calculating the specific gravity for any other 
+              materials atleast in CGS and SI system of units.
+              For example, specific gravity of iron is 7.85 because the density of iron is <m>7850 \,kg/m^{3}</m> and 
+               density of water at <m>4^{o}C</m> is <m>1000 kg/m^{3}</m>.Hence 
+               <me>
+                SG(iron) = \frac{7850 [kg/m^{3}]}{1000 [kg/m^{3}] }   = 7.85.
+               </me>
+              </p>
+              </li>
+          <li>
+            <p>
+            It is defined as a force per unit area of the surface. Here force must be acting perpendicularly on 
+            the surface area <xref ref="pressure"/>. Pressure defines how hard the fluid is pushing something in or out. 
+            It is a scalar quantity. <fn>Even though force and area are vector quantities, pressure is not a vector, 
+              one reason is that the division of vectors with another vectors is undefined in mathematics, 
+              the other reason is that when a pressure is being applied in the liquid, it transmitted equally 
+              on every section of its enclosed surface and does not matter what the orientations of these surfaces are. 
+              In upper level physics we do study about stress tensor where we define pressure as a tensor rather than 
+              a scalar but for now we take pressure as a scalar quantity.</fn>  
+            </p> 
+            <p>
+              It does not have any preferred direction. 
+              <me>
+                p  = \frac{F}{A}, 
+              </me>
+              <me>
+                p_{o}  =  1 \,atm  =  1.013\times 10^{5} \,Pa  =  1.013 \,bar  =  14.7 \,lb/in^{2}=14.7 \,psi.
+              </me>
+              Here <m>p_{o}</m> is an atmospheric pressure. The unit of pressure is Pascal (Pa) in SI system. 
+              <me>
+                1 \,Pa=1 \,N/m^{2},  
+              </me>
+              <me>
+                1 \,bar = 0.1 \,MPa,
+              </me>
+              <me>
+                1 \,torr = 1 \,mm Hg = \frac{1}{0.76} \,atm.
+              </me>
+                1 atm = 760 mm of Hg (mercury) at STP (standard temperature and pressure i.e., 
+                T=273.15 K and p = 1 atm). Pressure is also measured in psi (pound of force per square inch).
+            </p>
+            <p>
+              In fluid mechanics, three kinds of pressure have been used they are <term>Absolute Pressure:</term> 
+              it is a pressure measured relative to a perfect vacuum in pressure scale. <term>Atmospheric Pressure:</term> 
+              it is a pressure due to blanket of air (atmosphere) on the surface of earth. <term>Gauge Pressure:</term> 
+              it is a pressure measured relative to the local atmospheric pressure. Gauge pressure is thus zero 
+              when the pressure is the same as atmospheric pressure.
+            </p>
+            <p>
+              Consider an imaginary elementary cylinder of water inside the water tank as shown in <xref ref="gpressure"/>. 
+              Where <m>cg, \,m,\,A </m> are center of gravity, mass, area of cross-section, and <m>h_{1}, \, h_{2}</m> 
+              are depth of the top and bottom portion of the elementary water cylinder, respectively. If water cylinder 
+              is in hydrostatic equilibrium (i.e., at rest) then, total force acting on the cylinder must be zero 
+              (i.e., <m>\sum F_{y} =0,</m>) or downward force acting on the cylinder must be equal to upward force 
+              at the bottom of the cylinder. Hence 
+              <me>
+                F_{top} + mg  = F_{bottom}
+              </me>
+              Otherwise this cylinder starts falling down. (The mechanism of upward force acting on the bottom surface 
+              of the cylinder will be discussed in <xref ref="subsec-archm_princp"/>.) 
+              <me>
+                \text{or,} \quad p_{1}A + mg = p_{2}A
+              </me>
+              where <m>p_{1}</m> and <m>p_{2}</m> are pressures at top and bottom sections of the water cylinder. Now
+              <me>
+                p_{1}A + V\rho g=p_{2}A
+              </me>
+              <me>
+                \text{or,} \quad p_{1}A + A(h_{2}-h_{1})\rho g=p_{2}A 
+              </me>
+              <me>
+                \text{or,} \quad p_{1} + (h_{2}-h_{1})\rho g=p_{2} 
+              </me>
+              If the top portion of this elementary cylinder is considered at the very top surface 
+              of water level so that <m>h_{1}=0,</m>  then <m>  p_{1} </m> is equal to <m>p_{o}.</m>
+              <me>
+                \therefore \quad  p_{2} = p_{o}+h_{2}\rho g 
+              </me>
+              where <m>p_{2}=p_{abs}</m> is called an absolute pressure, <m>p_{o}</m> is an atmospheric pressure, 
+              and <m>p_{g} = h_{2}\rho g</m> is called a gauge pressure. 
+              <men xml:id="eqn-presure1">
+                \therefore \quad  p_{abs} = p_{o}+ h\rho g  
+              </men>
+            Pressure at a depth can be given by <m>p_{g} = h\rho g.</m> 
+            Where <m>h_{2} = h</m> is depth of water column in the cylinder. Since the pressure can be determined 
+            by <m>h\rho g</m>, liquid seeks its own level. To keep the pressure same, liquid attains the same height. 
+            If a liquid is placed in a container of any shape, it will always find its own level as can be seen in 
+           <xref ref="tubes"/>.  Atmospheric pressure is also therefore decreases with altitude as thickness 
+           of blanket of air above the surface of the earth decreases.  
+            </p>
+          </li>
+        </ol>
+           
+      </introduction>
+
+ 
+   <xi:include href="./sec_ninth-intro.ptx" />
+   <xi:include href="./sec_ninth-fflow.ptx" />
+   <xi:include href="./sec_ninth-examplesA.ptx" />  
+   <xi:include href="./sec_ninth-visc.ptx" />
+   <xi:include href="./sec_ninth-surtens.ptx" />
+<xi:include href="./sec_ninth-examplesB.ptx" />  
+
+  <xi:include href="./ex_ninth.ptx"/>
+
+</chapter>

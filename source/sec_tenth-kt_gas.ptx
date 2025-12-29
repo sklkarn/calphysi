@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-kt_gas" xmlns:xi="http://www.w3.org/2001/XInclude">
+ 
+ <title>Kinetic Theory of Ideal Gas</title>
+ <introduction>
+  <p>
+    Kinetic theory of matter is developed to explain the nature of heat and the motion of 
+    particles associated with heat energy. According to this theory, every substance is composed of 
+    large number of very tiny particles called <term>molecules</term>. These molecules are always 
+    in random motion with all possible velocities which increases with the increase of temperature. 
+    On this basis, in solids, molecules are very closely packed and attract each other with a 
+    large cohesive force. They cannot move freely but can vibrate about their mean positions. 
+    This explains the definite size and shape of solids. In liquids, the molecules are farther 
+    apart than in solids and attract each other with a comparatively  smaller cohesive force. 
+    This force does not allow them to escape the liquids however, they can move freely anywhere 
+    within the liquids. This explains why a liquid has a definite size (volume) but no shape  
+    of its own. In gases, the molecules are very far away from each other than in solids and 
+    liquids and have negligibly small force of attraction between them. Hence they can move 
+    freely anywhere within the available space. This explains why a gas has no definite shape and size.
+  </p>
+  <p>
+    To understand the more general behavior of gases <em>kinetic theory of ideal gases</em> is postulated as 
+    <ol marker="i.">
+      <li>
+        All gases are made up of molecules. Molecules are identical, rigid, and perfectly elastic moving in 
+        random directions with all possible velocities.
+      </li>
+      <li>
+        The molecules are very far away from each other but they collide with each other and with walls of the container. 
+      </li>
+      <li>
+        All the collision are elastic, but time spent during each collision is negligibly small compared to the time spent between the collisions.
+      </li>
+      <li>
+        Molecules do not interact with each other (no intermolecular force of attraction)  except during  a collision.
+      </li>
+      <li>
+        The average kinetic energy of the molecules of any gas depends only on the temperature.
+      </li>
+    </ol>
+        The distance between the collision is called the <em>free path</em>.
+  </p>
+  <p>
+    Ideal gas is a hypothetical gas of negligible molecular size and have no interactions 
+    among their molecules. The above postulates are the correct description of ideal gas. 
+    In practice, a very dilute gas with extremely large volume of container space can be 
+    considered as an ideal gas. Remember the real gas molecules has definite size and may 
+    interact with each other. Hence this postulates are just a very simplified model 
+    to understand gas laws and need modification for real gas behaviors. 
+  </p>
+ </introduction>
+
+ <subsection xml:id="subsec-gas_pres">
+  <title>Pressure of an Ideal Gas</title>
+  <p>
+    When the molecules of a gas collide on the walls of the container (or each other) they exert a pressure. 
+    Let us consider a cube of sides <m>l</m> cm encloses  <m>N</m> number of molecules and 
+    mass of each molecule is <m>m</m>. Since time during the collision of molecules is so 
+    small there is no transfer of momentum hence no exertion of force (Newton's II law) 
+    or no pressure, we ignore therefore the collision of  molecules amongst themselves here. 
+    Let a molecule at point <m>p</m> is moving with velocity <m>\vec{v}</m> in any direction. 
+    This velocity can be resolved into x,y, and z directions as <m>v_{x}, \quad v_{y}, </m> 
+    and <m>v_{z},</m> respectively, such that 
+    <men xml:id="eqn-gaspres1">
+      v^{2}=v^{2}_{x}+v^{2}_{y}+v^{2}_{z}  
+    </men>
+  </p>
+
+    <figure xml:id="idealgas1">
+      <caption></caption>
+      <image source="idealgas1.png" width="40%"/>
+    </figure>
+    <p>
+    Let a molecule collide elastically on the face BCDG along x-axis [<xref ref="idealgas1"/>]. 
+    The momentum of the molecule along x-axis before collision is <m>mv_{x}.</m> 
+    Since the collision is elastic the molecule rebound with the same velocity along 
+    opposite to x-axis. Therefore the momentum in this case will be  <m>-mv_{x}.</m> 
+    The change in momentum of the molecule due to this collision along x-axis will be 
+    <me>
+      \Delta p = mv_{x} -(-mv_{x})= 2mv_{x}.
+    </me>
+    Now once this molecule collide to the face EFAO while moving along -ve axis and 
+    rebounds it again comes to collide with the same face BCDG. The distance traveled 
+    by the molecule for collision on the same face is <m> 2l.</m> Hence, the time 
+    taken between each successive collision on face BCDG is given by 
+    <me>
+      \Delta t=\frac{d}{v}=\frac{2l}{v_{x}}
+    </me>
+    Therefore, the force exerted on the face BCDG by  molecule <m>l</m> is given by 
+    Newton's II law of motion,  
+    <me>
+      f_{x_{1}}=\frac{\Delta p}{\Delta t} = \frac{(2mv_{x_{1}})v_{x_{1}}}{2l}=\frac{mv^{2}_{x_{1}}}{l}
+    </me>
+    Since there are <m>N</m> molecules hence total force exerted on the face BCDG is given by 
+    <me>
+      f_{x} = f_{x_{1}} +f_{x_{2}}+f_{x_{3}}+\cdots 
+    </me>
+    <me>
+      = \frac{m}{l}\left(v^{2}_{x_{1}}+ v^{2}_{x_{2}}+v^{2}_{x_{3}}+\cdots +v^{2}_{x_{N}}\right)
+    </me>
+    The pressure on the face BCDG will be 	
+    <me>
+      p_{x} = \frac{F}{A}
+    </me>
+    <me>
+      = \frac{f_{x}}{l^{2}}=\frac{m}{l^{3}}\left[\sum\limits_{i=1}^{N}v^{2}_{x_{i}}\right] 
+    </me>
+     Similarly, pressures <m>p_{y},</m> and <m>p_{z}</m> along the y- and z- axes, respectively are  
+     <me>
+      p_{y} =\frac{m}{l^{3}}\left[\sum\limits_{i=1}^{N}v^{2}_{y_{i}}\right] 
+     </me>
+     and
+     <me>
+      p_{z} =\frac{m}{l^{3}}\left[\sum\limits_{i=1}^{N}v^{2}_{z_{i}}\right] 
+     </me>
+     Hence, the average pressure in the container 
+     <me>
+      p=\frac{p_{x}+p_{y}+p_{z}}{3}
+     </me>
+     <me>
+      =\frac{m}{3l^{3}}\left[\sum\limits_{i=1}^{N}\left(v^{2}_{x_{i}}+v^{2}_{y_{i}}+v^{2}_{z_{i}}\right)\right] 
+     </me>
+     <me>
+      p=\frac{m}{3l^{3}}\left[\left(v^{2}_{x_{1}}+v^{2}_{y_{1}}+v^{2}_{z_{1}}\right)+\left(v^{2}_{x_{2}}+v^{2}_{y_{2}}+v^{2}_{z_{2}}\right)+\cdots+ \left(v^{2}_{x_{N}}+v^{2}_{y_{N}}+v^{2}_{z_{N}}\right)\right]
+     </me>
+     <me>
+      p=\frac{m}{3l^{3}}\left[v^{2}_{1}+v^{2}_{2}+\cdots+v^{2}_{N}\right] =\frac{m}{3V}N\overline{v^{2}} 
+     </me>
+     <men xml:id="eqn-gaspres2">
+      \therefore\quad p=\frac{1}{3}\left(\frac{M}{V}\right)\overline{v^{2}}  
+     </men>
+    where 
+    <me>
+      \overline{v^{2}} = \left[\frac{v^{2}_{1}+v^{2}_{2}+\cdots+v^{2}_{N}}{N}\right]
+    </me>
+     and 
+<men xml:id="eqn-gaspres3">
+  \overline{v}=\sqrt{\frac{v^{2}_{1}+v^{2}_{2}+\cdots+v^{2}_{N}}{N}}
+</men>
+Here, <m> \overline{v} =v_{rms}</m> is called a <em>root-mean square velocity</em> 
+of the molecule and is an average molecular speed and <m>mN=M,</m> the mass of total 
+gas in a container of volume <m>V.</m>
+<men xml:id="eqn-gaspres4">
+  \therefore\quad  p=\frac{1}{3}\rho  \overline{v^{2}}   
+</men>
+<me>
+  \text{or,}\quad pV=\frac{1}{3}M\overline{v^{2}}=\frac{2}{3}\cdot\frac{1}{2}M\overline{v^{2}}
+</me>
+<men xml:id="eqn-gaspres5">
+  \text{or,}\quad pV = \frac{2}{3}KE 
+</men>
+where <m>\frac{1}{2}M\overline{v^{2}}</m> = average transational kinetic energy of the gas 
+and <m>\frac{1}{2}m\overline{v^{2}} = \overline{e_{k}},</m> is the average transational kinetic energy of each moleucle. 
+<me>
+  \therefore\quad p=\frac{2}{3}\frac{KE}{V}
+</me>
+That is, pressure is two-thirds of the total transational kinetic energy of the molecules per unit volume.
+Now from postulates average kinetic energy of the molecules of the gas depends only on temperature, we have 
+<me>
+  \overline{e_{k}}\propto T
+</me>
+<men xml:id="eqn-gaspres6">
+  \text{or,}\quad \frac{1}{2}m\overline{v^{2}}  = \frac{f}{2}k_{B}T =\frac{3}{2}k_{B}T  
+</men>
+where <m>f</m> is a degree of freedom for a gas molecules and <m>k_{B}</m> is called the 
+<term>Boltzmann constant</term>. In SI system, <m> k_{B} = 1.380\times10^{-23} \,J/K.</m> 
+  </p>
+ </subsection>
+
+
+ <subsection xml:id="subsec-dg_freedom">
+  <title>Degree of Freedom:</title>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+      <figure xml:id="dfreedom1">
+        <caption></caption>
+        <image source="dfreedom1.png"/>
+    </figure>
+        <figure xml:id="dfreedom2">
+            <caption></caption>
+            <image source="dfreedom2.png"/>
+        </figure>
+        <figure xml:id="dfreedom3">
+          <caption></caption>
+          <image source="dfreedom3.png"/>
+      </figure>
+         </sidebyside>
+</figure>
+  <p>
+    The degree of freedom is the number of independent motions possible to a particle 
+    or the number of independent coordinates required to specify particle's dynamic 
+    position or the number of independent ways of exchanging particle's energy. 
+    It depends on the atomic arrangement of an ideal gas molecule and types of motion 
+    it could have in the container. For example, it could have the combination of 
+    translation,  rotational, and vibrational motion. For a monoatomic gas molecules 
+    (like helium, argon),  consists of a single atom and can be represented by a point 
+    in space [<xref ref="dfreedom1"/>]. Such molecule therefore can have only translational motion 
+    in any of x-,y-,and z- direction. Thus it can have three independent motion and 
+    hence three degrees of freedom.   <idx><h>degree of freedom</h></idx>
+  </p>
+  <p>
+    The molecule of a diatomic gas (like hydrogen, oxygen) is made up of two atoms joined 
+    rigidly like a dumbbell [<xref ref="dfreedom2"/>]. Such a molecule can translate 
+    as well as rotate about any one of the three mutually perpendicular axes. 
+    However, rotational inertia about an axis along the rigid rod will be negligible 
+    as compared to the other two rotational axes. Hence it can have only two rotational 
+    motions and three translational motions. The degrees of freedom for diatomic molecule 
+    is therefore five. A triatomic molecule  either have linear arrangement of atoms 
+    (like <m>CO_{2}, \quad O=C=O</m>) or tringular arrangement (like <m>H_{2}O</m>), 
+    hence it may have either 7 (3 rotational, 1 vibrational, and 3 translational  motions) 
+    degrees of freedom or 6 (3 rotational, and 3 translational motions)  [<xref ref="dfreedom3"/>]. 
+    If we consider each molecule has three translational motions <m>N</m>, and the atoms 
+    are constrained to move along the rigid support, <m>d</m> then degrees of freedom, <m>f=N-d</m>. 
+    Hence for monoatomic gas, <m>f=3-0=3;</m>  for diatomic gas, <m>f=6-1=5;</m> and 
+    for triatomic gas, <m>f=9-3=6,</m> in triangular arrangement of atoms, and <m>f=9-2=7,</m> 
+    in linear arrangement of atoms.
+    <me>
+      \text{Now,}\quad pV = \frac{2}{3}N\frac{1}{2}m\overline{v^{2}}=\frac{2}{3} \frac{3}{2} N k_{B}T= N k_{B}T 
+    </me>
+    If the container has <m>n</m> moles of a gas, then total <em>number of molecules</em> in the container can be given as 
+    <men xml:id="eqn-dgfreed1">
+      N = n N_{A} 
+    </men>
+    where <m>N_{A}=6.022\times10^{23}</m> molecules/mole is known as <term>Avogadro's number</term>. 
+    Hence, for n mole of a gas, 
+    <me>
+      pV= Nk_{B}T= nN_{A} k_{B}T = nR T 
+    </me>
+    where <m>R  =  N_{A} k_{B}  </m>  or <m>n R  =  N k_{B}</m> 
+    and <m>R  =  8.314 J/mole K</m> is known as <em>universal gas constant</em>. Hence,
+    <men xml:id="eqn-dgfreed2">
+      pV=Nk_{B}T = nRT  
+    </men>
+    eqn. <xref ref="eqn-dgfreed2"/> is called the <em>equation of state</em> of an ideal gas.
+    </p>
+    <p>
+      From eqns. <xref ref="eqn-gaspres2"/> and <xref ref="eqn-dgfreed2"/>, we have - 
+      <me>
+        pV=\frac{1}{3}M\overline{v^{2}} = nRT 
+      </me>
+      <me>
+        \therefore\quad  v_{rms} = \sqrt{\frac{3nRT}{M}}
+      </me>
+      and 
+      <me>
+        pV=\frac{1}{3}Nm\overline{v^{2}} = Nk_{B}T
+      </me>
+      <me>
+        \therefore \quad  v_{rms} = \sqrt{\frac{3Nk_{B}T}{m}}
+      </me>
+     If n=1 mole, then  M  is a molar mass and we get- 
+     <men xml:id="eqn-dgfreed3">
+      v_{rms} = \sqrt{\frac{3RT}{M}}  
+     </men>
+     and if N=1, then 
+     <men xml:id="eqn-dgfreed4">
+      v_{rms} = \sqrt{\frac{3k_{B}T}{m}} 
+     </men>
+     The eqn. <xref ref="eqn-dgfreed3"/> shows that  <m>v_{rms}</m> of a gas is proportional 
+     to the square root of absolute temperature and inversely proportional to the square root 
+     of its molar mass. The eqn. <xref ref="eqn-dgfreed4"/> shows that  <m>v_{rms}</m> of a 
+     gas is proportional to the square root of absolute temperature and inversely 
+     proportional to the square root of its molecular mass. 
+    </p>
+    <p>
+      <term>Note: </term> Molar mass [<xref ref="subsubsec-avagdrs"/>] is the mass of one mole of a substance, 
+      while molecular mass is the mass of one molecule of a substance. For examples, 
+      mass of 1 mole of H-atom is 1.008 gram, mass of 1 H-atom is <m>1.008 \,g/N_{A} = 1.67\times 10^{-24}\,g.</m>  
+      Mass of 1 mole of <m>H_{2}</m> molecule is 2.016 gram, mass of 1 molecule of <m>H_{2}=2.016 \,g/N_{A} = 3.34\times 10^{-24}\,g.</m> 
+    </p>
+ </subsection>
+
+ <subsection xml:id="subsec-equip_law">
+  <title>Law of Equipartition of Energy</title>
+  <introduction>
+    <p>
+      According to Maxwell, total kinetic energy of a dynamical system consisting of large number 
+      of particles is equally distributed among its various degrees of freedom. The average 
+      kinetic energy of a monoatomic gas molecule is given by 
+      <me>
+        \frac{1}{2}m\overline{v^{2}} = \frac{3}{2}k_{B}T
+      </me>
+    <me>
+      \text{or,}\quad \frac{1}{2}m\overline{v_{x}^{2}}=\frac{1}{2}m\overline{v_{y}^{2}} =\frac{1}{2}m\overline{v_{z}^{2}}
+    </me>
+    <me>
+      =\frac{1}{3}\cdot \frac{1}{2}m\overline{v^{2}} =\frac{1}{3}\cdot \frac{3}{2}k_{B}T=\frac{1}{2}k_{B}T
+    </me>
+    Hence, the average kinetic energy per molecule in each degree of freedom is <m>\frac{1}{2}k_{B}T.</m> 
+    </p>
+  </introduction>
+
+  <subsubsection xml:id="subsubsec-avagdrs">
+    <title>Avogadro's Number, <m> N_{A}</m></title>
+    <p>
+      It is the number of molecules in one gram of hydrogen gas or the number of 
+      atoms in 12 grams of the carbon-12 isotope. The value of <m>N_{A} = 6.022 \times 10^{23}</m>  
+      molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for 
+      an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount 
+      of any substance (entity) that contains as many atoms as there are in 12 grams of <m>C-12</m> atom. 
+      At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies 
+      Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one 
+      mole of any substance its comes out to be the molecular weight of that substance in gram <xref ref="subsubsec-amu"/>.
+      <fn>Molecular weight and molar weight are related terms that are often used interchangeably, 
+        but they have slightly different meanings. Molecular weight refers to the mass of a single 
+        molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). 
+        Molar weight, also known as <term>molar mass</term>, refers to the mass of one mole of a substance 
+        in unit of grams per mole (g/mol). The molar mass of a compound is numerically equal 
+        to its molecular weight but has units of grams per mole. For example, the molar mass 
+        of water (<m>H_2O</m>) is approximately 18.015 g/mol, which is the same as its 
+        molecular weight (18.015 amu).</fn> 
+      One mole of water <m>(H_{2}O)</m> weighs 18.015 g. One mole of ethyl alcohol, 
+      <m>(C_{2}H_{6}O)</m>, weighs 46.069 g. If we weigh whether one mole of iron or 
+      one mole of sulfur they contain the same number of atoms equal to Avogadro's number. 
+      This is an important aspect of the mole. <idx><h>Avogadro's number</h></idx>
+    </p>
+    </subsubsection>
+
+   <subsubsection xml:id="subsubsec-amu">
+    <title>Atomic Mass Unit, u</title>
+    <p>
+      <idx><h>amu</h></idx> It is the mass of one hydrogen atom. It is normally a sum of number of protons 
+      and neutrons in a nucleus. The weight of 1 atom of <m>_{6}^{12}C</m> weighs 12.00 amu. 
+      A 12 g of carbon contains <m>N_{A}</m> atoms, each weighing exactly 12 amu. 
+      Therefore, <me> N_{A}\,amu = 1 g</me> 
+       or, 
+       <me>1 u = (1/N_{A}) \,g = 1.660 \times 10^{-24} \,g.</me>  
+    </p>
+   </subsubsection>
+ </subsection>
+
+ <subsection xml:id="subsec-internal_energy">
+  <title>Internal Energy of a Gas</title>
+  <p>
+    A liquid freezes into solid gives heat energy, Zinc reacts with copper sulfate 
+    in a voltaic cell produces electric energy. A mixture of hydrogen and oxygen explodes 
+    to release mechanical energy. This production of energy is actually a conversion of 
+    stored energy of a system. The apparently stored  energy of a system is called an <em>internal energy</em>. 
+    Real gas molecules posses both kinetic energy (due to motion of the molecules) 
+    and potential energy (due to intermolecular force of attraction) and hence the 
+    internal energy of the real gas is the sum of all of its internal kinetic and 
+    internal potential energy of the molecules. Ideal gas molecules are very 
+    far away from each other hence they do not have internal potential energy. 
+    The internal energy of an ideal is therefore solely due to the internal kinetic 
+    energy of all of its gas molecules and it is denoted by <m>U.</m> 
+    Therefore the internal energy of one molecule of a gas, 
+    <me>
+      \frac{1}{2}mv_{rms}^{2}= \frac{3}{2}k_{B}T
+    </me>
+    Hence, for N molecules of a gas, the internal energy is given by 
+    <me>
+      U= \frac{3}{2}Nk_{B}T
+    </me>
+    and n moles of a gas,
+    <me>
+      U= \frac{3}{2}nRT  
+    </me>
+   <m>N=nN_{A}</m> and <m> N_{A}k_{B}=R</m>
+    <men xml:id="eqn-inter_energ1">
+      \therefore\quad U= \frac{3}{2}Nk_{B}T = \frac{3}{2}nRT = \frac{3}{2}pV 
+    </men>
+    It must be noted that the internal energy of an ideal gas is directly proportional 
+    to the absolute temperature, i.e., <m>U \propto T.</m>
+  </p>
+ </subsection>
+
+ <subsection xml:id="subsec-gas_laws">
+  <title>Gas Laws</title>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="30% 30% 30%">
+      <figure xml:id="boyle">
+        <caption></caption>
+        <image source="boyle.png"/>
+    </figure>
+        <figure xml:id="charle">
+            <caption></caption>
+            <image source="charle.png"/>
+        </figure>
+        <figure xml:id="pressurelaw">
+          <caption></caption>
+          <image source="pressurelaw.png"/>
+      </figure>
+         </sidebyside>
+</figure>
+  <p>
+    From equation of state, 
+    <me>
+      pV = nRT,
+    </me>
+    and  if T of a gas remains constant, then  
+    <me>
+      pV=constant.
+    </me>
+     <me>
+      \text{or,}\quad p\propto\frac{1}{V}
+     </me>
+     <me>
+      \text{or,} \quad p_{i}V_{i}=p_{f}V_{f}
+     </me>
+     This is called a Boyle's law, the pV diagram of Boyle's law is shown in <xref ref="boyle"/>. 
+     At constant temperature, the average force of each particle striking the surface 
+     will be the same. But as the area of the container has increased, there will be 
+     fewer of these collisions per unit area and the pressure will decrease. 
+     <term>Volume is inversely proportional to pressure</term>, if the number of 
+     particles and the temperature are constant.
+  </p>
+  <p>
+    If pressure remains constant, then 
+    <me>
+      \frac{V}{T} = constant.
+    </me>
+    <me>
+      \text{or,}\quad V\propto T
+    </me>
+    <me>
+      \text{or,} \quad \frac{V_{i}}{T_{i}}=\frac{V_{f}}{T_{f}}
+    </me>
+   This is called a Charle's law, the <m>V \sim T</m> diagram is shown in <xref ref="charle"/>. 
+   To keep the pressure constant as the volume increases is to raise the average 
+   force that each particle exerts on the surface. This happens when the temperature 
+   is increased. So if the number of particles and the pressure are constant, 
+   <term>temperature is proportional to the volume</term>. 
+  </p>
+  <p>
+    If volume remains constant, then 
+    <me>
+      \frac{p}{T} = constant.
+    </me>
+    <me>
+      \text{or,}\quad p\propto T
+    </me>
+    <me>
+      \text{or,} \quad \frac{p_{i}}{T_{i}}=\frac{p_{f}}{T_{f}}
+    </me>
+   This is called a pressure law (or Gay-Lussac's law), the <m>V \sim T</m> diagram is 
+   shown in <xref ref="pressurelaw"/>. As the temperature increases, the average kinetic energy 
+   increases as does the velocity of the gas particles hitting the walls of the container. 
+   The force exerted by the particles per unit of area on the container is the pressure, 
+   so as the temperature increases the pressure must also increase. 
+   <term>Pressure is proportional to temperature</term>, if the number of particles and 
+   the volume of the container are constant. 
+  </p>
+  <p>
+    <term>Avogadro's law:</term> Volume of a gas is directly proportional to the amount 
+    of gas at a constant temperature and pressure, i.e.,  
+    <me>
+      V\propto n.
+    </me>
+    <term> The Combined Gas Law: </term> If number moles of a gas only remains constant, 
+    then we have - 
+    <me>
+      \frac{pV}{T}=constant. 
+    </me>
+    The volume of a given amount of gas is  proportional to the ratio of its 
+    absolute temperature and its pressure, i.e., 
+    <me>
+      V\propto\frac{T}{p}.
+    </me>
+     </p>
+ </subsection>
+  </section>
+

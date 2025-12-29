@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Chapters are enclosed with <chapter> tags. Use xml:id to -->
+<!-- uniquely identify the chapter.  The @xmlns:xi attribute  -->
+<!-- is needed if you use xi:include in this file             -->
+<chapter xml:id="ch_second" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Vectors</title>
+  
+  <introduction>
+    <p>
+      A physical world can be described by using varieties of physical quantities, 
+      they are a <term>scalar physical quantity</term> (or, simply  <em>scalars</em>) 
+      <idx><h>scalars</h></idx>and a <term>vector physical quantity</term> (or, simply 
+      <em>vectors</em>)<idx><h>vectors</h></idx>. A <alert>scalar</alert> quantity has only 
+      magnitude (size), 
+      e.g., mass, length, time, volume, density, work, speed, temperature, potential, 
+      current, resistance, flux, power, intensity, etc. and a <alert>vector</alert> quantity 
+      has both magnitude and direction, e.g., velocity, acceleration, displacement, momentum, 
+      force, weight, torque, impulse, moment, current density, etc. A quantity like surface 
+      area is a scalar in general, but when considered with its specific orientation, it 
+      is taken as a vector quantity. In physics, when area comes with any vector quantity 
+      in a mathematical operation it is considered as a vector. For instance, flux is a 
+      dot product of two vectors, one of them is an area. Area has a direction which is always 
+      taken as an outward normal to the surface. Mathematically, division of a vector with 
+      another vector is undefined, hence pressure is considered as a scalar even if it is 
+      defined as a force per unit area. <fn>
+          <em>Displacement:</em> It is the shortest distance between any two points 
+          (e.g., distance between initial point and final point). Hence it has a particular 
+          direction. <em>Velocity:</em> If a direction is included with the speed then 
+          it is called a velocity. <em>Weight:</em> It is a force exerted by a planet on any 
+          object and hence is always pointed towards the center of the planet.
+      </fn>
+    </p>  
+    <p>
+      A vector is represented by an arrow. The arrow shows the direction of a vector and 
+      the length of the arrow represents the magnitude of that vector.  It is denoted by 
+      a letter with an arrow over it such as <m>\vec{OP} = \vec{a}</m> and its magnitude is 
+      denoted by <m>\vec{|a|}</m> or simply by <m>a</m> as shown in <xref ref="fig2a"/>.
+      A vector of unit magnitude is called a unit vector and is denoted by <m>\hat{a}</m>, 
+      a 'cap', where <m>\hat{a}=\frac{\vec{a}}{\vec{|a|}}</m>. A vector which specifies the position of 
+      point P with respect to its origin O is called a position vector, where points O 
+      and P are known as the initial point (tail) and the terminal point (head) of the 
+      vector <alert>OP</alert>, respectively. The vectors with same magnitude but in 
+      opposite direction are termed as negative vectors. Vectors having the same direction are 
+      called like vectors, whereas those having opposite directions are called  unlike vectors. 
+      The vectors parallel to the same line regardless of their magnitudes and directions are  
+      called collinear vectors. The vectors whose directions are not parallel to each other are 
+      non-collinear vectors. A system of vectors lying in the parallel planes or in the same 
+      plane are called  coplanar vectors. The system of vectors which can not lie in the same 
+      plane or parallel planes are called  non-coplanar vectors. <idx><h>vectors</h></idx>
+     </p>
+     <figure xml:id="fig2a">
+      <caption></caption>
+      <image source="fig2a.png" width="15%"/>
+    </figure>
+   
+      </introduction>
+
+ 
+  <xi:include href="./sec_second-intro.ptx" />
+
+  <xi:include href="./sec_second-examples.ptx" />  
+
+
+  <xi:include href="./ex_second.ptx"/>
+
+</chapter>

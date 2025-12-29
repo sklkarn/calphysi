@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Types of Forces</title>
+  
+   <introduction>
+    <p>
+        <table>
+          <title>Identifying Forces</title>
+          <tabular halign="center">
+          <row header="yes" bottom="minor" >
+           <cell>Type of Force  </cell>
+          <cell> Name  </cell>
+          <cell>Symbol </cell>
+          <cell> Direction <xref ref="idforce"/> </cell>
+          </row>
+          <row>
+          <cell> Gravitation    </cell>
+          <cell> weight</cell>
+          <cell> <m>W</m></cell>
+          <cell> down (towards object causing gravity) </cell>
+           </row>
+          <row>
+          <cell> Contact (string)</cell>
+          <cell>tension</cell>
+          <cell> <m>T </m></cell>
+          <cell> pull along direction of string</cell>
+          </row>
+          <row>
+            <cell>Contact (surface)	</cell>
+            <cell>normal </cell>
+            <cell> <m>N	</m></cell>
+            <cell>push into object perpendicular to surface </cell>
+            </row>
+            <row>
+              <cell>Contact (surface) </cell>
+              <cell>friction</cell>
+              <cell> <m> f </m></cell>
+              <cell>	parallel to surface opposing the motion </cell>
+              </row>
+              <row>
+                <cell>Other applied  </cell>
+                <cell>horizontal</cell>
+                <cell> <m>F_{x}	</m></cell>
+                <cell>any force may be resolved into an x-component</cell>
+                </row>
+                <row>
+                  <cell>Other applied </cell>
+                  <cell>vertical</cell>
+                  <cell> <m>F_{y}</m></cell>
+                  <cell>and a y-component </cell>
+                  </row>
+                    </tabular>
+          </table>
+      </p>
+       </introduction>
+
+      <subsection xml:id="subsec-types_forces">
+        <title>Fundamental and Mechanical Forces</title>
+         <ol>
+          <li>
+            <p>
+              There are four fundamental forces in nature: gravitational, electromagnetic, weak nuclear, and strong nuclear.
+              <term>Gravitational force</term> is the weakest known forces in nature. It is a long range force. 
+              It exists due to mass of the objects. <term>Electromagnetic force</term> is also a long range 
+              force and is stronger than gravitational force. It exists due to charges of the objects. 
+              <term>Strong nuclear force</term> is the strongest known force but it is the shortest range 
+              force which only exists inside the nucleus. Its main job is to hold subatomic particles 
+              of the nucleus together. (i.e. binding the positively charged protons and neutral 
+              neutrons inside the nucleus). <term>Weak nuclear force</term> is weaker than strong 
+              nuclear force and electromagnetic force. It is also a very short range force 
+              and accounts for the radioactivity in unstable nuclei.
+            </p>
+          </li>
+          <li>
+            <p>
+              For a large-scale, electrically neutral objects such as those encountered in this course, 
+              the only force that acts at a distance is the gravitational force. All other forces we 
+              encounter will be contact forces (mechanical forces) that occur at the boundary of an 
+              object where that object physically touches some other object, e.g. <term>tension, friction, 
+                normal, and other applied forces</term> [<xref ref="subsec-friction"/>].
+                 Actually, mechanical force, or chemical force, 
+                or any other kinds of force are all electromagnetic forces. In our daily life almost 
+              all force we experienced are electromagnetic force except the force of gravity. 
+              Strong nuclear forces are very short range and we do not feel them dispite the 
+              fact that it is more powerful than the electromagnetic force. Weak forces are 
+              also short range and even weaker than electromagnetic force. <idx><h>mechanical forces</h></idx>
+            </p>
+          </li>
+          <li>
+            <p>
+              To identify forces acting on a body, first identify the boundary of that object 
+              and include the weight of everything inside that boundary. Then identify 
+              everything that touches the boundary from outside the object and include 
+              an appropriate force for each point of contact.
+            </p>
+          </li>
+          <li>
+            <p>
+              Look at the forces in <xref ref="idforce"/>. 
+            </p>
+            <figure xml:id="idforce">
+            <caption></caption>
+            <sidebyside widths="30% 45%">
+                <figure>
+                    <caption></caption>
+                    <image source="idforce1.png"/>
+                </figure>
+                <figure>
+                    <caption></caption>
+                    <image source="idforce2.png"/>
+                </figure>
+               </sidebyside>
+        </figure>
+      </li>
+        <li>
+          <p>
+            Note that massless, frictionless pulleys as shown below adjust themselves 
+            so that the tension is the same on both sides of the pulley. <xref ref="machine1"/> 
+            is a system of pulleys,  <xref ref="machine1a"/> is an isolated system, and <xref ref="machine1b"/> a 
+            free-body diagram. 
+          </p>
+          <figure>
+            <caption></caption>
+            <sidebyside widths="30% 10% 30%">
+                <figure xml:id="machine1">
+                    <caption></caption>
+                    <image source="machine1.png"/>
+                </figure>
+                <figure xml:id="machine1a">
+                    <caption></caption>
+                    <image source="machine1a.png"/>
+                </figure>
+                <figure xml:id="machine1b">
+                  <caption></caption>
+                  <image source="machine1b.png"/>
+              </figure>
+               </sidebyside>
+        </figure>
+        </li>
+        </ol>     
+      </subsection>
+      
+      
+
+      <subsection xml:id="subsec-Nlaw_motion">
+        <title>Newton's Laws of Motion</title>
+          <ol>
+            <li>
+              <p>
+                Newton's first law provides the definition of force which states that every 
+                object in a state of rest remains at rest or in a state of uniform motion 
+                tends to remain in that motion along the same direction, unless an external 
+                force is applied onto it. Force is not required to continue the motion of 
+                anything which is already in motion.                 
+              </p>
+              <p>
+                The first law is also called a law of inertia.  <term>Inertia</term> is an 
+                ability of an object to resist changes in its motion. In other words, we can say the laziness of 
+                an object to change its mechanical state is called an inertia. Mass is related to inertia, 
+                the bigger the mass the more difficult it is to change its state of rest or motion. 
+              </p>
+            </li>
+            <li>
+              <p>
+                Newton's second law provides the measurement of force which states that the 
+                rate of change of momentum is directly proportional to the applied force and 
+                its direction is along that change. 
+               <md>
+                <mrow> \vec{F}\amp =\frac{\,d\vec{p}}{\,dt}</mrow>
+                <mrow> \amp = m\frac{\,d\vec{v}}{\,dt}</mrow>
+                </md>
+               <men xml:id="eqn-2Law">
+              \therefore \quad  \vec{F} = m\vec{a}
+               </men>
+              </p>
+            </li>
+            <li>
+              <p>
+                Newton's third law provides the property of force which states that for every 
+                action there is an equal and opposite reaction. Meaning, force always comes in pair. 
+                If an object <m>A</m> applies the action force on object <m>B</m> then 
+                the object <m>B</m> applies the reaction force on the object <m>A</m>. 
+                These pair of forces always act on two different objects. For example, if action force is acting on 
+                object B then reaction force must be acting on the object A. 
+                <me>
+                  \vec{F}_{AB} = -\vec{F}_{BA}
+                </me>
+                </p>
+                <p>
+                  If you stand on a weighing scale, your weight push the scale down with a force equal to 
+                  your weight, then the scale applies the reaction force on you equal to your weight as a 
+                  normal force. Remember that even if weight and normal force are equal they are not 
+                  always equal and they are completely different forces. You get a normal force 
+                  only when you are in contact with the other surface but you have the weight even 
+                  if you are above the surface (while jumping) of anything. Suppose you are pushing 
+                  the book against a wall, so that it does not fall. In that case, the book pushes 
+                  against the wall and the wall pushes back. This interaction is the normal force 
+                  and acts on both the book and the wall. None of these forces were equal to the 
+                  gravitational force or weight of the book.
+                </p>
+            </li>
+          </ol>
+        </subsection>
+
+        <subsection xml:id="subsec-friction">
+          <title>Friction</title>
+          <p>
+            Friction is a resistive force that opposes or tends to oppose relative motion between 
+            two objects. It is a force that exists between the surfaces of contact of the two objects [<xref ref="friction"/>]. 
+            If two systems are in contact and stationary relative to each other, then the friction 
+            between them is called <term>static friction</term>. This force arises from mechanical 
+            interlocking at the microscopic level plus the electrostatic molecular forces that 
+            hold the surfaces themselves together. If two systems are in contact and moving relative 
+            to one another, then the friction between them is called <term>kinetic friction</term>. 
+            This force arises from forming and breaking of microscopic adhesive bonds between atoms 
+            on the surfaces plus some mechanical linkage between the small irregularities on the surfaces 
+            as shown in <xref ref="friction1"/>. Experimentally it is found that frictional force is 
+            proportional to normal force, i.e., 
+            <m>f \propto N </m>  as shown in <xref ref="friction2"/>.
+            <men xml:id="eqn-friction_force">
+              \text{or,} \quad f = \mu N
+            </men>
+          </p>
+          <figure>
+            <caption></caption>
+            <sidebyside widths="40% 20% 40%">
+              <figure xml:id="friction">
+                <caption></caption>
+                <image source="friction.png"/>
+            </figure>
+                <figure xml:id="friction1">
+                    <caption></caption>
+                    <image source="friction1.png"/>
+                </figure>
+                <figure xml:id="friction2">
+                    <caption></caption>
+                    <image source="friction2.png"/>
+                </figure>
+             </sidebyside>
+        </figure>
+        <p>
+          Where proportionality constant <m>\mu</m> is called coefficient of friction. 
+          It defines the nature of roughness of the surfaces being in contact. It is a dimensional 
+          less quantity. The coefficient of friction is a property of materials and does not 
+          change with the angle.  For static friction, <m>f_{s} \leq \mu_{s}</m> N. The symbol <m>\leq</m> 
+          implies that static friction can have a maximum value of <m>\mu_{s} N</m>. Static
+          friction is a responsive force that increases to be equal and opposite to whatever 
+          force is being exerted, up to its maximum limit. Once the applied force exceeds <m> f_{s} (max) </m>, 
+          the object moves. Thus, <m>f_{s}(max) = \mu_{s} N</m>. For kinetic friction, <m>f_{k} =\mu_{k} N</m>. 
+          Remember the direction of friction is always opposite to the direction of motion 
+          or applied force, not in the direction of normal. Hence the above equations has no vector form.  
+        </p>
+        <p>
+          Friction decreases with increase in smoothness of the surfaces of contact as <m>\mu</m> 
+          decreases, but if the surfaces are ultra smooth then friction increases because of 
+          inter molecular forces starts to act between the two surfaces  as they come very 
+          close to each other, due to which it becomes harder to make them slide on each other. 
+          Friction is a complex force, and its behavior is still not completely understood. 
+          On molecular level friction has no existence. In microscopic level most surfaces 
+          look very rough as shown in <xref ref="friction1"/>. Thus, when an object is pushed to 
+          move it must raise the object until it can skip the tips of the surface hitting, 
+          breaking off the points, or both. A considerable force can be resisted by friction 
+          with no apparent motion. Part of the friction is due to adhesive forces between 
+          he surface molecules of the two objects, which explains the dependence of 
+          friction on the nature of the substances. For example, rubber-soled shoes 
+          slip less than those with leather soles. Adhesion varies with substances in 
+          contact. Once an object is moving, there are fewer points of contact 
+          so less force is required to keep the object moving. At small but nonzero speeds, 
+          friction is nearly independent of speed.
+        </p>
+        <figure xml:id="repose">
+          <caption></caption>
+          <image source="repose.png" width="40%"/>
+      </figure>
+        <p>
+          When an object is placed on the surface of an inclined plane and the angle of 
+          inclination is being increased slowly then at a particular angle the object just 
+          begins to slide, this angle is known an <term>angle of repose, <m>\phi</m></term>. 
+          At the angle of repose static frictional force is balanced by one of the components 
+          of weight <m>(mg\sin\theta)</m> of the object (see in section statics). 
+          <md>
+            <mrow> mg\sin\theta \amp = f_{s}</mrow>
+            <mrow> and \qquad N \amp =mg\cos\theta </mrow>
+          </md>
+          <me>
+            \therefore \quad \tan\theta = \frac{f_{s}}{N} = \frac{\mu_{s}N}{N}=\mu_{s}
+          </me>
+          <me>
+            \theta_{repose}=\phi=\tan^{-1}(\mu_{s})
+          </me>
+         <term>Force of Gravity:</term> This force is acting on any object due to attraction of 
+         earth. Near the surface of the earth force of gravity is given by its weight, 
+         i.e., <m>F_{g}=w=mg</m>. Where <m>g</m> is the acceleration due to gravity and the direction 
+         force is acting along the center of the earth. <term>Normal:</term> <idx><h>normal</h></idx> 
+         This is a force of reaction from the surface where the object is placed. 
+         It is always perpendicular to the surface of contact. <term>Tension:</term> <idx><h>tension</h></idx> 
+         This force is acting between two objects on opposite ends of the string, in the directions 
+         to taut string at the points of contact. This force stretches the string along fixed support. 
+         It is a pulling force. <term>Spring force:</term> A spring is a special medium  
+         that has ability to restore its shape, if  deformed. All materials have elastic property 
+         which helps them to restore their shape, if an applied deforming force has been released. 
+         From <term>Hook's law</term> a material (spring) exerts a restoring force that is 
+         proportional to a deforming force in opposite direction in which it is stretched or compressed. 
+         In mathematical form, 
+         <men xml:id="hook_law">
+          \vec{F} = -k\vec{x}.
+         </men>
+         The proportionality constant <m>k</m> is a measure of the spring's stiffness, 
+         also called an elastic constant. The line of action of this force is parallel 
+         to the spring axis, and acts along the opposite direction of the displacement vector. 
+         The displacement must be measured from the relaxed (equilibrium) position;  <m>x = 0</m> 
+         when the spring is relaxed.
+        </p>
+        </subsection>
+
+        <subsection xml:id="subsec-statics">
+          <title>Statics</title>
+         <introduction>
+          <p>
+            When more than one force acts on a body in such a way that their net effects 
+            become zero is called an equilibrium. Equilibrium refers to a state of balance. 
+            An object is considered to be in a state of equilibrium when two opposing forces 
+            acting on the object balance each other. There may be two possible cases for a 
+            body in equilibrium,
+            <ol marker="i.">
+              <li>
+                <term>Static Equilibrium:</term> sum of all forces, <m>\sum F_{net} = 0,</m> 
+                i.e., <m>a=0,\quad v = 0</m> and net torques <m>\sum\tau_{net}=0,</m> i.e., 
+                <m>\alpha=0,\quad \omega = 0.</m> 
+              </li>
+              <li>
+                <term>Translational Equilibrium:</term> sum of all forces, <m>F_{net} = 0</m>, 
+                i.e., <m>a=0,\quad v \neq 0</m>.
+              </li>
+              <li>
+                <term>Rotational Equilibrium:</term> sum of all torques about a point on an object, 
+                <m>\sum\tau_{net} = 0</m>. (i.e., <m>\alpha = 0,\quad \omega \neq 0</m>) <notation>
+                  <usage><m>\tau</m></usage>
+                  <description>torque</description>
+                </notation>
+              </li>
+            </ol>
+          </p>
+         </introduction>
+
+         <subsubsection xml:id="subsubsec-state_eqlbrm">
+          <title>Static Equilibrium</title>
+          <p>
+            A system is in static equilibrium whenever no part of the system is moving. 
+            An example of static equilibrium is a spider web suspending one or more bugs. 
+            Any segment of the web (any bug, any strand, any junction, or any combination thereof) 
+            may be treated as a body. </p>
+            <ol>
+              <li>
+                <p>          
+                The vector sum of the forces acting on an object in static equilibrium is equal to zero. 
+                which is described by Newton First law <m>\vec{F}  =  0</m>	or, equivalently 
+                <me>
+                  \vec{F}_{x}  =  0	\quad \text{(x-component of force) and }
+                </me>
+                <me>
+                  \vec{F}_{y}  =  0	\quad \text{(y-component of force)}.
+                </me>
+                In static equilibrium, the total force acting on a body, <m>\vec{F}  =  0</m>, 
+                <m>\vec{a}=0,</m> and also the velocity of a body <m>\vec{v}  =  0</m>.	
+              </p>
+                </li>
+                <li>
+                  <p>
+                  <term>Problem Solving Technique:</term> To solve a static equilibrium problem one needs to:
+                  <ol marker="a.">
+                    <li>
+                      <p>
+                        Read problem, list given quantities, draw a figure of the physical situation, and label the forces involved.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Draw force diagrams (free-body diagrams) for each body in equilibrium.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Resolve the forces into components.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Sum the x- and y-components of forces and set them to zero.
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Solve equations simultaneously for the quantities of interest.
+                      </p>
+                    </li>
+                  </ol>
+               </p>
+                </li>
+            </ol>
+          </subsubsection>
+        </subsection>
+  </section>
+

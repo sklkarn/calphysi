@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_first-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+    <example>
+      <statement>
+      <p>
+        Convert 
+        <ol marker ="a.">
+          <li>
+            <p>
+              <m>1^{o}</m> (degree)
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>1'</m> (arc minute) and 
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>1"</m>  (arc second)  
+            </p>
+            <p> in radians. Use <m>180^{o} = \pi</m> rad, <m>1^{o} =60'</m> and <m>1' = 60"</m>.</p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker ="a.">
+          <li>
+              We have <m>180^{o} = \pi</m> rad 
+              <me>
+                \therefore 1^{o} = \frac{\pi}{180}\quad rad = 1.745\times 10^{-2} \quad rad.
+              </me>
+          </li>
+          <li>
+             <m>1^{o} = 60' = 1.745\times 10^{-2} </m>  rad
+             <me>
+              \therefore 1' = 2.908\times 10^{-4} \quad rad  = 2.91\times 10^{-4}\quad rad.
+             </me>
+          </li>
+          <li>
+              <m>1' = 60'' = 2.908\times 10^{-4} </m> rad 
+              <me>
+                \therefore 1'' = 4.847\times 10^{-4} \quad rad = 4.85\times 10^{-6} \quad rad.  
+              </me>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        Calculate the diameter of the Sun if Sun's angular diameter is <m>1920'</m> and the 
+        distance D of the Sun from the Earth is <m>1.496 \times 10^{11}</m> m. 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Sun's angular diameter, <m>\alpha = 1920'' = 1920\times 4.85 \times 10^{-6}</m> rad 
+        <m>= 9.31 \times 10^{-3}</m> rad.  <image source ="fig2.png" width="10%"> </image>      
+        Now if the planet is very far away then <m>\frac{d}{D}\leq \leq 1 </m> and angle 
+          <m>\alpha </m> is very small. Hence, we can take a diameter <m>d</m> as an arc length 
+          of a circle centered at point <m>O</m>. 
+          Therefore by using radian formula, we have - 
+          <me>
+            \text{Sun's diameter}, \quad d = \alpha D 
+          </me>
+          <me>
+            =(9.31 \times 10^{-3} rad) \times (1.496 \times 10^{11} m)  
+          </me>
+          <me>
+            = 1.39\times 10^{9} m \quad \text{[by replacing rad =1]}
+          </me>
+          </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        The moon is observed from two diametrically opposite points A and B on Earth. 
+        The angle <m>\alpha</m> subtended at the moon by the two directions of observation 
+        is <m>1^{o}54'</m>. Given the diameter of the Earth to be about <m>1.276 \times 10^{7}</m> m, 
+        compute the distance of the moon from the Earth. 
+      </p>
+    </statement>
+    <solution>
+      <image source ="fig2.png" width="10%"> </image> 
+      <p>
+          We have from figure above
+          <me>
+            \alpha=1^{o}54'=60'+54'= 114' = 114\times 2.908\times 10^{-4} rad
+          </me>
+          <me>
+            = 3.32\times10^{-2} rad.
+          </me>
+          <m>[\because 1'= 2.908\times 10^{-4} rad]</m>
+          <me>
+            \alpha=\frac{d}{D} 
+          </me>
+          <me>
+           \therefore \quad D =\frac{d}{\alpha}=\frac{1.276 \times 10^{7} m}{3.32\times10^{-2}} = 3.84\times10^{8} m.
+          </me>
+        </p> 
+    </solution>
+  </example>
+
+  
+    <example>
+      <statement>
+        <p>
+          The temperatures of two bodies measured by a thermometer are <m>t_{1} = 20^{o} C \pm 0.5^{o} C</m> 
+          and <m>t_{2} = 50^{o} C \pm 0.5^{o} C</m>. Calculate the temperature difference and its error.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            t' = t_{2}-t_{1} = (50^{o} C\pm 0.5^{o} C)-(20^{o}C\pm 0.5^{o}C) \quad \Rightarrow  t' = 30^{o} C \pm 1^{o} C.
+          </me>
+          [When two quantities are added or subtracted, the absolute error in the final result 
+          is the sum of the absolute errors in the individual quantities.]
+        </p>
+      </solution>
+        </example>
+    
+        <example>
+      <statement>
+        <p>
+          The resistance <m>R = \frac{V}{I}</m> where <m>V = (100 \pm 5)V</m> and <m>I = (10 \pm 0.2)A.</m> 
+          Find the percentage error in R.
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The percentage error in V is <m>5\%</m> and in I it is <m>2\%</m>. 
+          The total error in R would therefore be <m>5\% + 2\% = 7\%</m>. 
+        </p>
+      </solution>
+    </example>
+    
+    <example>
+      <statement>
+        <p>
+          Find the relative error in Z, if 
+          <me>
+            Z =  \frac{A^{4}B^{\frac{1}{3}}}{CD^{\frac{3}{2}}}.
+          </me>
+        </p>
+      </statement>
+      <solution>
+        <p>
+          The relative error in Z is 
+          <me>
+            \frac{\Delta Z}{Z} = 4\left(\frac{\Delta A}{A}\right) +\frac{1}{3} \left(\frac{\Delta B}{B}\right) + \left(\frac{\Delta C}{C}\right) + \frac{3}{2} \left(\frac{\Delta D}{D}\right).
+          </me>
+    [The relative error in a physical quantity raised to the power k is the k times the relative error in the individual quantity.]
+        </p>
+      </solution>
+    </example>
+    
+    <example>
+      <statement>
+        <p>
+          The time period of oscillation of a simple pendulum is <m>T = 2\pi \sqrt{L/g}.</m> 
+          The length of pendulum L is 20.0 cm known to 1 mm accuracy and time for 100 oscillations 
+          of the pendulum is found to be 90 s using a wrist watch of 1 s resolution. 
+          What is the accuracy in the determination of g ?
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            g=4\pi^{2} \frac{L}{T^{2}}
+          </me>
+    Now, time period, <m>T=\frac{t}{n}</m> and <m>\Delta T = \frac{\Delta t}{n}</m>
+    <me>
+      \therefore \quad \frac{\Delta T}{T} = \frac{\Delta t}{t}
+    </me>
+    The errors in L and T are least count errors therefore 
+    <me>
+      \frac{\Delta g}{g} = \frac{\Delta L}{L}+2\left[\frac{\Delta T}{T}\right]=\frac{0.1}{20}+2\frac{1}{90} = 0.027
+    </me>
+    Thus the percentage error in g 
+    <me>
+      100\left(\frac{\Delta g}{g}\right) = 2.7\%
+    </me>
+        </p>
+      </solution>
+    </example>
+    
+    <example>
+      <statement>
+        <p>
+          Convert 50 mph (mile per hour) into metric system (MKS system).
+        </p>
+      </statement>
+      <solution>
+        <p>
+          <me>
+            60\frac{miles}{hour}\times \frac{1 hour}{60 minutes}\times \frac{1 minute}{60 seconds}\times\frac{1609 m}{1 mile}
+          </me>
+          <me>
+            = 26.8 \frac{m}{s}\approx 27 m/s 
+          </me>
+           </p>
+      </solution>
+    </example>
+    
+    <example>
+      <statement>
+        <p>
+          Write the correct value for <m>\sqrt{AB}</m> if <m>A=(1.0\pm0.2)m</m> and <m>B=(2.0\pm0.2)m</m>.
+         </p>
+      </statement>
+      <solution>
+        <p>
+          <m>\because A=(1.0\pm0.2)m</m>, and <m>B=(2.0\pm0.2)m </m>
+          <me>
+            \Rightarrow \sqrt{AB} = z = \sqrt{(1.0)(2.0)} = 1.414 m
+          </me>
+    Rounding this number to 2 sig.fig., we have <m>z=1.4m</m>. 
+    Now, the relative error 
+    <me>
+      \frac{\Delta z}{z} = \frac{1}{2}\frac{\Delta A}{A}  + \frac{1}{2}\frac{\Delta B}{B} = \frac{1}{2}\left(\frac{0.2}{1.0}\right)  + \frac{1}{2}\left(\frac{0.2}{2.0}\right) 
+    </me>
+    <me>
+      = \frac{1}{10}+\frac{1}{20}=0.15
+    </me>
+    <me>
+      \therefore \Delta z = z\frac{\Delta z}{z} = (1.4m)(0.15) = 0.212m = 0.2
+    </me>
+    After round off to one significant figure for error. Hence, the correct value for 
+    <m>\sqrt{AB} = (1.4\pm0.2)m.</m>  
+        </p>
+      </solution>
+    </example>
+
+
+
+
+</section>

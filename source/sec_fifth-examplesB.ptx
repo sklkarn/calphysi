@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fifth-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<example>
+  <statement>
+    <p>
+      A body of mass <m>m_{1}=1 \,kg</m> traveling with a speed <m>u_{1}=3 \,m/s</m> 
+      collides with a stationary body of mass <m>m_{2}=0.5 \,kg,</m> and they 
+      stick together. What speed do the two bodies have after the collision?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        m_{1}u_{1}+0 = [m_{1}+ m_{2}] v 
+      </me>
+      <me>
+        \therefore v=\frac{m_{1}u_{1}}{m_{1}+m_{2}}=2 \,m/s 
+      </me>
+      </p>
+  </solution>
+</example>
+
+ <example>
+  <statement>
+    <p>
+      Two initially stationary particles of mass 50 g are involved in an explosion 
+      that released 150 mJ of kinetic energy. What speed do they both have after the explosion?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: 
+      <me>
+        m_{1}=m_{2}=50\times10^{-3}\,kg, \quad u_{1}=u_{2}=0, \quad \Delta E = 150\times10^{-3} \,J
+      </me>
+      <me>
+        \therefore 0=m_{1}v_{1} +m_{2}v_{2}\quad \Rightarrow\quad v_{1}=-v_{2}
+      </me>
+      <me>
+        \text{also,}\quad 150\times10^{-3}  =\frac{1}{2}m_{1}v_{1}^{2} +\frac{1}{2} m_{2}v_{2}^{2}
+      </me>
+      <me>
+        \therefore \quad 3=v_{1}^{2} \quad \Rightarrow\quad v_{1}=\sqrt{3}=1.73 \,m/s
+      </me>
+       </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A 10 kg mass traveling 2 m/s meets and collides elastically with a 2 kg mass traveling 
+      4 m/s in the opposite direction. Find the final velocities of both objects.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: 
+      <me>
+        m_{1} = 10 \,kg,\quad m_{2} = 2\,kg, \quad u_{1}=2\,m/s, \quad u_{2}=-4\,m/s
+      </me>
+     Now, from momentum conservation 
+     <me>
+      m_{1}u_{1} + m_{2}u_{2}= m_{1}v_{1} + m_{2}v_{2}
+     </me>
+     <me>
+      \therefore 6=5v_{1}+v_{2}
+     </me>
+     and from kinetic energy conservation
+     <me>
+      \frac{1}{2}m_{1}u_{1}^{2} + \frac{1}{2}m_{2}u_{2}^{2}= \frac{1}{2}m_{1}v_{1}^{2} + \frac{1}{2}m_{2}v_{2}^{2} 
+     </me>
+     <me>
+      \therefore 36=5v_{1}^{2}+v_{2}^{2}
+     </me>
+     Solving these two equations, we get -
+     <me>
+      v_{1}=0\,m/s, v_{2} =6 \,m/s
+     </me>
+      </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      In an accident the 190 kg car with velocity <m>u_{A} = 30 \,km/h </m> 
+      collides head on with the 280 kg car with velocity <m>u_{B}=20 \,km/h</m>. 
+      The coefficient of restitution of the impact is <m>e = 0.15.</m> 
+      The duration of the collision is <m>0.22 \,s.</m> What are the velocities 
+      of the cars immediately after the collision? Determine the magnitude 
+      of the average acceleration to which the occupants of each car are subjected.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The velocities before collision are 
+      <me>
+        u_{A} = 30 \,km/h = 30\times \frac{5}{18}\, m/s = 8.33 \,m/s,
+      </me>
+      <me>
+        u_{B} = -20 \,km/h = -5.55 \,m/s.
+      </me>
+      The coefficient of restitution, <m>e = 0.15</m>. 
+    </p>
+    <p>From momemtum conservation, 
+      <me>
+        m_{A} u_{A} +m_{B} u_{B} =m_{A} v_{A} +m_{B} v_{B}
+      </me>
+      <me>
+        \text{or,} \quad 190(8.33) +280(-5.55) = 190 v_{A} +280 v_{B}
+      </me>
+      <men xml:id="eqn-coef_imp1">
+        \therefore \quad 19 v_{A} +28 v_{B} = 2.87
+      </men>
+      <me>
+        \text{also}\quad e =\frac{v_{B}-v_{A}}{u_{A}-u_{B}} 
+      </me>
+      <me>
+        \text{or,}\quad e (u_{A}-u_{B}) = v_{B}-v_{A}
+      </me>
+      <me>
+        \text{or,}\quad 0.15(8.33+5.55) =v_{B}-v_{A} 
+      </me>
+      <men xml:id="eqn-coef_imp2">
+        \therefore \quad v_{B}-v_{A} =2.08
+      </men>
+      on Solving eqns. <xref ref="eqn-coef_imp1"/> and <xref ref="eqn-coef_imp2"/>, we get the 
+      velocities after collision as
+      <m>v_{A}= -1.18 \,m/s,</m> <m>v_{B}= 0.9 \,m/ s.</m>
+       The average accelerations are 
+       <me>
+        a_{A}=\frac{\Delta v}{\Delta t} = \frac{v_{A}-u_{A}}{\Delta t}  =\frac{-1.18-8.33}{0.22} =-43.23 \,m/s^{2}
+       </me>
+       <me>
+        a_{B}=\frac{\Delta v}{\Delta t} = \frac{v_{B}-u_{B}}{\Delta t}  =\frac{0.9-(-5.55)}{0.22} =29.32 \,m/s^{2}
+       </me>
+       </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A baseball of mass 300 g thrown at a speed of 50 m/s hits a bat of mass 3 kg 
+      moving in the opposite direction at 25 m/s. After being in contact with the 
+      bat for 1 ms, the ball rebounds with a speed of 60 m/s. 
+      <ol marker="a.">
+        <li>
+          What is the impulse delivered to the ball?
+        </li>
+        <li>
+          What is the average force exerted by the bat on the ball during the collision?
+        </li>
+        <li>
+          What is the speed of the bat immediately after the collision? 
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <m>
+            m_{1}  =  0.3 \,kg, \quad v_{1i}  =  50\, m/s,\quad v_{1f}  =  -60 \,m/s, 
+          </m>
+          <m>
+             p_{1i}  =  m_{1} v_{1i}	= 15 \,kg.m/s,\quad  p_{1f}  =  m_{1} v_{1f}	= -18\, kg.m/s,
+          </m>
+          <m> \Delta p_{1}  =  p_{1f} - p_{1i}	= -33 \,kg.m/s,</m>
+          <m>
+            \therefore J_{1}  =  \Delta p_{1}	= -33 \,N.s
+          </m>
+           </li>
+        <li>
+        <m>
+          t  =  1\times 10^{-3} \,s,\quad J_{1}  =  F_{avg}t,\quad F_{avg}  =  -3.3\times 10^{4} \,N.
+        </m>
+         </li>
+        <li>
+          <m>
+            v_{2i}  =  -25 \,m/s, \quad m_{2}  =  3 \,kg,\quad p_{2i}  =  m_{2} v_{2i}	=  -75 \,kg.m/s, 
+          </m>
+          <m>  \Delta p_{2}  =  - \Delta p_{1}	=  33 \,kg.m/s,</m>
+          <m>
+            \Delta p_{2}  =  p_{2f} - p_{2i},\quad	p_{2f}  =  -42 \,kg.m/s,\quad p_{2f}  =  m_{2} v_{2f},	
+          </m>
+          <m> v_{2f}  =  -14 \,m/s.</m>
+         </li>
+      </ol>
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A mass of 2 kg moving to the right with a speed of 40 m/s collides with a 
+      second mass of 3 kg moving to the left with a speed of 10 m/s. For each 
+      of the following three cases find 
+      <ol marker="a.">
+        <li>
+          the final velocity of each mass,
+        </li>
+        <li>
+          the coefficient of restitution, and 
+        </li>
+        <li>
+          the energy loss during the collision. 
+        </li>
+      </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <term>Case I: Perfectly inelastic collision.</term> </p>
+     <p> Given:	
+      <m>
+        m_{1}  =  2 \,kg,\quad v_{1i}  =  40 \,m/s, \quad m_{2}  =  3 \,kg,
+      </m>
+      <m>\quad v_{2i}  =  10 \,m/s,\quad v_{1f}  =  v_{2f} =  v</m>
+      </p>
+     <ol marker ="a.">
+    <li>
+<p>
+  <me>
+    p_{i}  =  p_{f},\quad p_{i}  =  m_{1} v_{1i} - m_{2} v_{2i}, \quad p_{f}  =  m v_{f},
+  </me>
+  <me>
+    m  =  m_{1} + m_{2}, \quad v_{f}  =  10 \,m/s
+  </me>
+   </p>
+    </li>
+    <li>
+      <p>
+        <me>
+          e  = \frac{v_{sep}}{v_{app}}= 0 \quad \text{(inelastic collision)}	
+        </me>
+         </p>
+    </li>
+    <li>
+      <p>
+        <me>
+          \Delta E  =  E_{i}  -  E_{f},\quad E_{i}  = \frac{1}{2}m_{1} v^{2}_{1i} + \frac{1}{2}m_{2} v^{2}_{2i},
+        </me>
+        <me>
+           E_{f}  = \frac{1}{2} m v_{f}^{2},\quad \Delta E  =  1500 \,J
+        </me>
+         </p>
+    </li>
+   </ol>
+
+   <p>
+    <term>Case II: The first mass stops.</term> </p>
+   <p> Given:	
+    <me>
+     m_{1}  =  2 \,kg,\quad v_{1i}  =  40 \,m/s,\quad m_{2}  =  3\, kg, \quad v_{2i}  =  10 \,m/s,\quad v_{1f}  =  0
+    </me>
+    </p>
+   <ol marker ="a.">
+  <li>
+<p>
+<me>
+  p_{i}  =  p_{f},\quad p_{i}  =  m_{1} v_{1i} - m_{2} v_{2i},\quad p_{2f}  =  m_{2} v_{2f},\quad v_{2f}  =  16.67 \,m/s
+</me>
+ </p>
+  </li>
+  <li>
+    <p>
+      <me>
+        e  =  \frac{v_{sep}}{v_{app}}, \quad v_{sep}  =  v_{2f}, \quad v_{app}  =  v_{1i} + v_{2i}, \quad e  =  0.3333
+      </me>
+       </p>
+  </li>
+  <li>
+    <p>
+      <me>
+        \Delta E  =  E_{i}  -  E_{f},\quad E_{i}  = 1/2 m_{1} v^{2}_{1i} + 1/2 m_{2} v^{2}_{2i}, 
+      </me>
+      <me>
+         E_{f}  = 1/2 m_{2} v_{2_{f}}^{2}, \quad \Delta E  =  1333\, J
+      </me>
+       </p>
+  </li>
+ </ol>
+
+
+ <p>
+  <term>Case III: Perfectly elastic collision.</term> </p>
+ <p> Given:	
+  <me>
+    m_{1}  =  2 \,kg,\quad v_{1i}  =  40 \,m/s,\quad m_{2}  =  3 \,kg,\quad v_{2i}  =  -10 \,m/s, \quad e = 1
+  </me>
+  </p>
+ <ol marker ="a.">
+<li>
+<p>
+<me>
+  p_{i}  =  p_{f}, \quad p_{i}  =  m_{1}v_{1i} + m_{2} v_{2i}, \quad p_{f}  =  m_{1} v_{1f} + m_{2} v_{2f}, 
+</me>
+<me>
+  \quad e  =  \frac{v_{sep}}{v_{app}}, \quad v_{sep}  =  v_{2f} - v_{1f},
+</me>
+<me>
+  v_{app}  =  v_{1i}- v_{2i}, \quad	v_{1f}  =  -20 \,m/s, v_{2f}  =  30 \,m/s
+</me>
+</p>
+</li>
+<li>
+  <p>
+    <me>
+      e  =  1\quad \text{(elastic collision)}
+    </me>
+     </p>
+</li>
+<li>
+  <p>
+    <me>
+      \Delta E  =  E_{i}  -  E_{f}, \quad E_{i}  = 1/2 m_{1} v^{2}_{1i} + 1/2 m_{2} v^{2}_{2i},
+    </me>
+    <me>
+      E_{f}  = 1/2 m_{1} v^{2}_{1f} + 1/2 m_{2} v_{2f}^{2}, \quad \Delta E  =  0 J \quad \text{(elastic collision)}
+    </me>
+     </p>
+</li>
+</ol>
+  </solution>
+ </example>
+
+
+ <example>
+  <statement>
+    <p>
+      A 5-g bullet moving north at 300 m/s ricochets off a 1 kg rock at a speed of 
+      200 m/s in the northwest direction. 
+      <ol marker="a.">
+        <li>
+          With what speed and in what direction does the rock rebound?
+        </li>
+        <li>
+          How much energy was turned into heat as a result of the collision?
+        </li>
+      </ol>
+      </p>
+  </statement>
+  <solution>
+    <image source="collision1.png" width="35%"> </image>
+    <p>
+      Given: <m>m_{1}  =  0.005 \,kg,\quad  v_{1i}  =  300 \,m/s, \quad v_{2i}  =  0, </m> 
+      <m>m_{2}  =  1 \,kg,\quad v_{1f}  =  200 \,m/s,  \quad \theta_{1}  =  45^{o}.</m>
+      <ol marker="a.">
+        <li>
+         <me>
+          p_{xi}  =  p_{xf}, \quad p_{xi}  =  m_{1} v_{1i},
+         </me>
+         <me>
+           p_{fx}  =  m_{1} v_{1f} \cos\theta_{1} + m_{2} v_{2f} \cos\theta_{2}, \quad p_{yi}  =  p_{yf}, \quad p_{yi}  =  0,
+         </me>
+         <me>
+          p_{yf}  =  m_{1} v_{1f} \sin\theta_{1} - m_{2} v_{2f} \sin\theta_{2}, \quad v_{2f}  =  0.177 m/s,\quad \theta_{2} =  53.2^{o} 
+         </me>
+          </li>
+        <li>
+          <me>
+            \Delta E  =  E_{i}  -  E_{f},\quad E_{i}  = 1/2 m_{1} v^{2}_{1i},
+          </me>
+          <me>
+            E  = 1/2 m_{1} v_{1f}^{2} + 1/2 m_{2} v_{2f}^{2}, \Delta E  =  125 \,J
+          </me>
+            </li>
+      </ol>
+         </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A bullet of mass 0.1 kg moving horizontally embeds itself in a wooden 
+      block of mass 10 kg initially at rest and supported by a string of length 1 m. 
+      The block with the bullet inside recoils and swings upward through an angle 
+      of <m>60^{o}</m> before coming to rest. What was the initial speed of the bullet.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <me>
+        m=0.1 \,kg, \quad M=10 \,kg,\quad l=1 \,m,\quad\theta=60^{o}.
+      </me>
+     Equation: <me>
+      v_{o}=\left(1+\frac{M}{m}\right)\sqrt{2gl(1-\cos\theta)}
+     </me>
+     <answer>
+         <me>
+          y  =  0.5 \,m, \quad v  =  1 \,m/s, \quad v_{o}  =  101 \,m/s
+        </me>
+       </answer>
+    </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A spring of a force constant <m>k</m> is compressed using a block of mass <m>m_{1}</m> 
+      to a distance <m>x</m>.  The spring is fixed to a  L-shaped block of mass <m> m_{2}</m> 
+      which is free to slid on  frictionless ground surface as shown in figure below. 
+      There is friction between the two blocks, howewver and when the block 1 is released 
+      and spring reaches to its equilibrium position, then block 1 is moving leftward with 
+      velocity <m>v_{1}</m>  and block 2 is moving rightward  with velocity <m>v_{2}.</m>
+    </p>
+    <image source="smsystem2.png" width="45%"> </image>
+    <p>
+      <ol marker="a.">
+        <li>
+          After the entire system comes to rest, blocks 1 and 2 have slid a distance 
+            <m>d</m> relative to each other. Find the distance <m>d_{1}</m> covered by 
+            the block 1 from its initial position.
+        </li>
+        <li>
+          After the entire system comes to rest, blocks 1 and 2 have slid a 
+          distance <m>d</m> relative to each other. Find the coefficient of 
+          kinetic friction, <m>\mu_{k}</m> between blocks 1 and 2.
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <image source="smsystem2b.png" width="45%"> </image>
+   <p>
+    <ol marker="a.">
+      <li>
+        <men xml:id="eqn-spr_block1">
+          d=d_{1}+d_{2}
+        </men>
+        Since the center of mass of the system is at rest, we have 
+        <me>
+          m_{1}d_{1}=m_{2}d_{2} \qquad\Rightarrow\quad d_{2} =\frac{m_{1}d_{1}}{m_{2}}
+        </me>
+        <men xml:id="eqn-spr_block2">
+          \therefore \quad d = d_{1}+\left[\frac{m_{1}d_{1}}{m_{2}}\right] = d_{1}\left[1+\frac{m_{1}}{m_{2}}\right]\qquad [\text{from eqn.(i)}] 
+        </men>
+     <men xml:id="eqn-spr_block3">
+      \text{Hence,}\quad d_{1}= \left[\frac{m_{2}}{m_{1}+m_{2}}\right] d 
+     </men>
+      </li>
+      <li>
+        From principle of conservation of momentum, 
+        <men xml:id="eqn-spr_block4">
+          m_{1}v_{1}=m_{2}v_{2} \qquad \Rightarrow\quad v_{2} = \frac{m_{1}v_{1}}{m_{2}}  
+        </men>
+ From principle of conservation of energy, we have -
+ <me>
+  \frac{1}{2}kx^{2}-f_{1} d_{1}=\frac{1}{2}m_{2}v_{2}^{2} 
+ </me>
+ <me>
+  \text{or,}\quad \frac{1}{2}kx^{2}-\mu_{k}m_{1}g d_{1}=\frac{1}{2}m_{2}\left(\frac{m_{1}v_{1}}{m_{2}}\right)^{2} 
+ </me>
+ <me>
+  [\because f_{1}=\mu_{k}N_{1}=\mu_{k}m_{1}g]
+ </me>
+ <me>
+  \text{or,}\quad \frac{1}{2}kx^{2}-\mu_{k}m_{1}g d_{1}=\frac{1}{2}m_{1}^{2}v_{1}^{2}\left(\frac{m_{1}}{m_{2}}\right)
+ </me>
+ <me>
+  =\left(\frac{m_{1}}{m_{2}}\right)\left(f_{1} d_{1}\right) \left(\frac{m_{1}}{m_{2}}\right)\left(\mu_{k}m_{1}g d_{1}\right)
+ </me>
+ <me>
+  \text{or,}\quad \frac{1}{2}kx^{2} =\mu_{k}m_{1}g d_{1}\left[1+\frac{m_{1}}{m_{2}}\right] 
+ </me>
+ <me>
+  =\mu_{k}m_{1}g d_{1}\left[\frac{d}{d_{1}}\right] =\mu_{k}m_{1}g d
+ </me>
+ <men xml:id="eqn-spr_block5">
+  \therefore\quad \mu_{k}= \frac{kx^{2}}{2m_{1}gd} 
+ </men>
+   </li>
+    </ol>
+   </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A projectile of mass 10 kg is shot into the air with an initial speed of 
+      100 m/s at an angle of <m>60^{o}</m> above the horizontal. At the very 
+      top of the trajectory, the projectile explodes into two fragments of 
+      equal mass, one of which falls straight down starting at rest. 
+      <ol marker="a.">
+        <li>
+          How high does the projectile go? 
+        </li>
+        <li>
+          How far has the projectile traveled horizontally when it reaches the top of its trajectory?
+        </li>
+        <li>
+          What is speed of the projectile when it reaches the top of its trajectory? 
+        </li>
+        <li>
+          What is the velocity of the second fragment after the projectile explodes?
+        </li>
+        <li>
+          How far from the original projectile launch point does the second fragment strike the horizontal ground.
+        </li>
+      </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>
+      From the principle of conservation of momentum, 
+      <men xml:id="eqn-proj_explod1">
+        m_{o}v_{ox}= m_{1}v_{1x}+m_{2}v_{2x}\qquad [\text{along x-axis}]  
+      </men>
+      <men xml:id="eqn-proj_explod2">
+        m_{o}v_{oy}= m_{1}v_{1y}+m_{2}v_{2y}\qquad [\text{along y-axis}] 
+      </men>
+<me>
+  m_{o}v_{o}\cos\theta = \frac{m_{o}}{2}\times 0 +\frac{m_{o}}{2}\times v_{2x}
+</me>
+<men xml:id="eqn-proj_explod3">
+  \therefore \quad v_{2x} = 2v_{o}\cos\theta =2\times100\times\cos60^{o}= 100 \,m/s
+</men>
+  </p>
+  <p>
+    Now from equation of motion,  
+    <me>
+      v_{y}^{top}  = v_{oy}-gt_{rise}.
+    </me>
+   Just before it explodes at top, we have -
+   <me>
+    0=v_{o}\sin\theta - gt_{rise} \qquad [\because v_{y}^{top}=0.]
+   </me>
+   <men xml:id="eqn-proj_explod4">
+    \therefore\quad  t_{rise} = \frac{v_{o}\sin\theta}{g}  = \frac{100\times\sin60^{o}}{9.8} = 8.8 sec =t_{fall} 
+   </men>
+   <ol marker="a.">
+    <li>
+     <me>
+      h=v_{0y}t_{rise}-\frac{1}{2}gt_{rise}^{2} =v_{0}\sin60^{o}t_{rise}-\frac{1}{2}gt_{rise}^{2} =382.6 \,m 
+     </me>
+       </li>
+    <li>
+      <me>
+        x_{1} =v_{ox}t_{rise}=v_{o}\cos60^{o}(8.8)= 440\, m
+      </me>
+          </li>
+    <li>
+      <me>
+        v_{top}=0.
+      </me>
+          </li>
+    <li>
+      <me>
+        v_{2x}=2v_{ox} =100 \,m/s.
+      </me>
+          </li>
+    <li>
+      <me>
+        x=x_{1}+x_{2} =v_{ox}t_{rise} + v_{2x}t_{fall}=v_{o}\cos60^{o}(8.8)+100(8.8)=1320 \,m.
+      </me>
+          </li>
+  </ol>
+  </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A bullet of mass <m>m</m> is shot at speed <m>v</m> toward a pendulum block of 
+      mass <m>M</m>. The bullet penetrates through the block and emerges on the 
+      other side traveling at speed <m>\frac{v}{2} </m>. 
+      <ol marker="a.">
+        <li>
+          What is the speed of block immediately after the bullet emerges out from the block?
+        </li>
+        <li>
+          What is the final height of block?
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <image source="collision3.png" width="45%"> </image>
+    <p>
+      <ol marker="a.">
+        <li>
+          From the principle of conservation of momentum, 
+          <me>
+            p_{i}=p_{f}
+          </me>
+          <me>
+            \text{or,}\quad  mv=MV+m\left(\frac{v}{2}\right)   
+          </me>
+          <me>
+            \text{or,}\quad  MV=mv-m\left(\frac{v}{2}\right)   =m\left(\frac{v}{2}\right)
+          </me>
+          <me>
+            \therefore \quad V=\frac{mv}{2M}  
+          </me>
+            </li>
+        <li>
+          From the principle of conservation of energy, 
+          <me>
+            E_{A}=E_{B}\qquad \text{or,}\quad \frac{1}{2}MV^{2} =Mgh 
+          </me>
+          <me>
+            \text{or,}\quad h=\frac{V^{2}}{2g} =\frac{1}{2g}\left[\frac{m^{2}v^{2}}{4M^{2}}\right] = \frac{m^{2}v^{2}}{8M^{2}g}
+          </me>
+            </li>
+      </ol>
+         </p>
+  </solution>
+ </example>
+
+ <example>
+  <statement>
+    <p>
+      A ball is thrown from a table of height 2m  horizontally with a velocity 3 m/s. Determine the
+      distance D between the ball's first and second bounces, if the coefficient of restitution is e = 0.6.
+    </p>
+  </statement>
+  <solution>
+    <image source="bounces1.png" width="45%"> </image>
+    <p>
+      Given: <m>h=2m, \quad v_{x}=3m/s,\quad e=0.6. </m> 
+The vertical velocity after first bounce (impact) is given by 
+<me>
+  e=\frac{v_{sep}}{v_{app}} = \frac{v_{up}}{v_{down}} = \frac{v}{-u} 
+</me>
+<men xml:id="eqn-bounc_ball1">
+  \therefore \quad v=-eu   
+</men>
+From equation of motion, 
+<me>
+  v_{f}^{2}=v_{i}^{2}+2gh
+</me>
+Final upward velocity becomes zero (<m>v_{f}=v=0</m>) after first bounce.
+<men xml:id="eqn-bounc_ball2">
+  0=u^{2}-2gh \qquad \Rightarrow\quad u=\sqrt{2gh}  
+</men>
+<me>
+  \therefore\quad v = -e\sqrt{2gh} =-0.6\times \sqrt{2\times9.8\times2} = 3.757 \,m/s \quad (upward) 
+</me>
+Hence the total height attained by the ball after first bounce can be determined by 
+using conservation of energy principle.
+<me>
+  \frac{1}{2}mv^{2}=mgh' \qquad \Rightarrow\quad  h' = \frac{v^{2}}{2\,g} = \frac{e^{2}2gh}{2g}=e^{2}h=0.72 \,m
+</me>
+Time to reach the highest point by the ball after first bounce is given by 
+<me>
+  v_{f}=v_{i}-gt \qquad \Rightarrow\quad  0 = v -gt \qquad \Rightarrow\quad t =\frac{v}{g}=\frac{3.757}{9.8} = 0.383 \,s
+</me>
+Time to return by the ball to the ground for second bounce is given by <m>T =2t= 0.767 \,s.</m> 
+<me>
+  \therefore \quad D = v_{x}T = 3\times0.767 =2.30 \,m.
+</me>
+    </p>
+  </solution>
+ </example>
+</section>

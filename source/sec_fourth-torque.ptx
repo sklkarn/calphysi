@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-torque" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Torque</title>
+  
+   <introduction>
+    <p>
+      The rotational effect of force is called a torque. It is a physical quantity 
+      that changes the object's state of rotational motion. It is a rotational 
+      analog of force in a linear motion.  It depends on the magnitude, direction and 
+      location of force that is acting on the body. Imagine we try to push a door 
+      to open it. How much push we apply to rotate the door depends on how far from 
+      the hinges (the pivot point <m>O</m>) and the direction we are applying a force. 
+      The closer we are to the hinges (the smaller r), the harder it is to push. 
+      The torque we created on the door is smaller when we push it near the hinge 
+      than it would be away from its hinges. 
+    </p>
+    <p>
+      Consider a force <m>F</m> acts on an object at a distance <m>r</m> 
+      from the point of pivot <m>O</m> in such a way that the object rotates 
+      about the point <m>O</m>, then the magnitude of the torque 
+      <m>\Gamma</m> about the axis of rotation through <m>O</m> is given by  
+    </p>
+    <figure>
+      <caption></caption>
+        <sidebyside widths="25% 25% 25%">
+    <figure xml:id="trq1a">
+      <caption></caption>
+      <image source="trq1a.png"/>
+    </figure>
+      <figure xml:id="trq1b">
+        <caption></caption>
+        <image source="trq1b.png"/>
+      </figure>
+      <figure xml:id="trq1">
+        <caption></caption>
+        <image source="trq1.png"/>
+      </figure>
+      </sidebyside>
+  </figure>
+    <p>
+      From <xref ref="trq1a"/>, 
+      <me>
+        \vec{\Gamma} =\vec{r}\times\vec{F}=rF\sin\theta \hat{n},
+      </me>
+      	 where <m>\hat{n}</m> is the direction of torque acting on an object.
+    </p> 
+    <p>
+From <xref ref="trq1b"/>,
+<me>
+  \Gamma =r(F\sin\theta) = rF_\perp, 
+</me>
+ i.e., Torque = radius <m> \times </m> (perpendicular component of force).
+</p>
+<p>
+From <xref ref="trq1"/>,
+<me>
+  \Gamma =F(r\sin\theta) = Fr_\perp,
+</me>
+ i.e., Torque = force <m>\times</m> (lever arm).
+    </p>
+    <p>
+      The shortest distance between line of action of force to the point of 
+      rotation of a body is called the <term>lever arm</term> or moment arm. 
+      Torque is maximum when force and lever arm are perpendicularly to each other. 
+      There will be no torque if a force is applied at the pivot point (point of rotation) 
+      since the moment arm would be zero (r = 0). It is a vector quantity and 
+      its direction is always perpendicular to the plane describes by a lever 
+      arm and a force. Our right hand can be useful to find the direction of torque. 
+      Stretch your right hand fingures in the direction of lever arm then curl 
+      them in a direction of force. Now thumb must be oriented in the direction 
+      of torque. Since torque is associated with three dimensional case but the 
+      motion of object we consider here is only in a plane we make it simple 
+      by using the following convention. 
+    </p> 
+    <figure xml:id="rinchtrq">
+      <caption></caption>
+      <image source="rinchtrq.png" width="30%"/>
+    </figure>
+    <p>
+      Torque is taken as positive (<m>+ve</m>) if it tends to rotate the object 
+      counterclockwise, and negative (<m>-ve</m>) if it tends to rotate the object 
+      clockwise. The direction of torque and the direction of rotation can be 
+      remembered using the right-hand thumb's rule. The thumb of right hand 
+      gives the direction of torque, if the fingers curled along the direction 
+      of rotation of the body. The torque vector is perpendicular to <m>\vec{r}</m> 
+      and <m>\vec{F}</m>. When  torque points into the screen, the rotation is 
+      clockwise and when it points out of the screen, the rotation is counter-clockwise. 
+      There may be more than one forces acting on an object, and each of these 
+      forces may act on different points on the object. Then, each force will 
+      cause a torque. The net torque is the sum of the individual torques.  
+      <me>
+        \Gamma=\sum_{i} \Gamma_{i}
+      </me>
+      </p>
+   </introduction>
+
+<subsection xml:id="subsec-rot_eql">
+  <title>Rotational Equilibrium</title>
+ <p>
+  If the force is applied at an angle <m>\theta</m> to the radius vector, 
+  then the lever arm is <m>r\times\sin\theta</m>. An object in rotational 
+  equilibrium has no net external torque, i.e., sum of all external torques  =  0. 
+  <em>Remember</em> that "rotational equilibrium" may mean that the object 
+  is either not rotating or may be rotating with a constant angular velocity. 
+  <me>
+    \Gamma  =  0
+  </me>
+  (3-D vector problems.)
+ </p>
+</subsection>
+
+
+<subsection xml:id="subsec-st_equlbrm">
+  <title>States of Equilibrium</title>
+  <p>
+  There are three states of equilibrium: 
+ </p>  
+    <ol>
+      <li>
+        <figure >
+          <caption></caption>
+          <sidebyside widths="30% 30% 30%">
+              <figure xml:id="funnel1">
+                  <caption></caption>
+                  <image source="funnel1.png"/>
+              </figure>
+              <figure xml:id="funnel1a">
+                  <caption></caption>
+                  <image source="funnel1a.png"/>
+              </figure>
+              <figure xml:id="funnel1b">
+                <caption></caption>
+                <image source="funnel1b.png"/>
+            </figure>
+             </sidebyside>
+      </figure>
+       <p>
+        <term>Stable equilibrium:</term> The body is said to be in stable equilibrium 
+        if its center of gravity lies below lowest possible position. A funnel standing 
+        vertically on its base on the table is in stable equilibrium [<xref ref="funnel1"/>]. 
+        If the funnel is tilted a little bit against any side and then allowed to fall, 
+        it will come back to its original position. When the funnel is tilted against 
+        any side its center of gravity is raised [<xref ref="funnel1a"/>]. The line of action 
+        of weight passes through the base of the funnel. As long as the line of action 
+        of weight remains inside the base area funnel will come back to the original position. 
+        A torque due to weight of the funnel brings it back to the original position. 
+        For the funnel to tip over the line of action of the weight arrow will have to 
+        form a clockwise moment (or to pass outside the point of support). 
+        The funnel needs to have been pushed a lot for tip over. Some examples of 
+        stable equilibrium are bodies lying on the floor such as chair, table, book, etc. 
+        If a system in stable equilibrium is disturbed slightly, it oscillates around 
+        that state first but eventually settles down in exactly the same position as it 
+        started [<xref ref="funnel1b"/>]. It does this because its center of gravity is already 
+        at the lowest possible position. 
+       </p>
+      </li>
+      <li>
+        <figure >
+          <caption></caption>
+          <sidebyside widths="30% 30% 30%">
+              <figure xml:id="funnel2">
+                  <caption></caption>
+                  <image source="funnel2.png"/>
+              </figure>
+              <figure xml:id="funnel2a">
+                  <caption></caption>
+                  <image source="funnel2a.png"/>
+              </figure>
+              <figure xml:id="funnel2b">
+                <caption></caption>
+                <image source="funnel2b.png"/>
+            </figure>
+             </sidebyside>
+      </figure>
+        <p>
+          <term>Unstable equilibrium:</term> The body is said to be in unstable equilibrium 
+          if the center of gravity of a body lies above the highest possible position. 
+          A funnel standing vertically on its stem on the table [<xref ref="funnel2"/>] is in 
+          unstable equilibrium. If the funnel standing vertically is slightly disturbed 
+          from its position it will not come back to its original position rather fall 
+          down on the surface of table. when the funnel is slightly disturbed its 
+          center of gravity is lowered [<xref ref="funnel2a"/>]. The line of action of its 
+          weight lies outside the base of stem. The torque due to weight of the rod 
+          toppled it down. Other examples of unstable equilibrium are vertically standing 
+          cylinder and pencil etc. An unstable system moves away from its original equilibrium 
+          state when disturbed. It wants to move away from the original position as 
+          soon as it has been disturbed [<xref ref="funnel2b"/>]. It does this because its center 
+          of gravity is higher in this state and when disturbed the center of gravity 
+          continues to move to a lower position (a more stable one).  
+        </p>
+      </li>
+      <li>
+        <figure >
+          <caption></caption>
+          <sidebyside widths="30% 30% 30%">
+              <figure xml:id="funnel3">
+                  <caption></caption>
+                  <image source="funnel3.png"/>
+              </figure>
+              <figure xml:id="funnel3a">
+                  <caption></caption>
+                  <image source="funnel3a.png"/>
+              </figure>
+              <figure xml:id="funnel3b">
+                <caption></caption>
+                <image source="funnel3b.png"/>
+            </figure>
+             </sidebyside>
+      </figure>
+        <p>
+          <term>Natural equilibrium:</term>  The body is said to be in natural (neutral) equilibrium 
+          if the center of gravity of a body is at optimal position it is neither lowered 
+          nor is raised up. The object with lower center of gravity is more stable than 
+          the one with the higher center of gravity. A funnel lying horizontally on its 
+          side at rest on the surface of a table [<xref ref="funnel3"/>] is in natural equilibrium. 
+          If a funnel is pushed slightly to roll, it will neither come back to its original position
+          nor it will roll forward rather it will remain at rest. If the funnel is rolled, 
+          its center of gravity is neither raised nor lowered [<xref ref="funnel3a"/>]. 
+          This means that its center of gravity  is at the same height as before. 
+          A neutral system is one where the center of gravity of the system is always at 
+          the same level. If it has been disturbed slightly it will therefore settle in 
+          the new position without a need to move further on or to move back [<xref ref="funnel3b"/>]. 
+          For example, a rolling ball lying on the table.  
+        </p>
+      </li>
+    </ol>
+</subsection>
+
+  </section>
+

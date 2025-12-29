@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-thermdyn" xmlns:xi="http://www.w3.org/2001/XInclude">
+ 
+ <title>Thermodynamics</title>
+ 
+<introduction>
+    <p>
+        The word <term>thermodynamics</term> was coined by Lord Kelvin in 1849. 
+        It is a combination of two words, <em>thermo</em> that refers heat and 
+        <em>dynamics</em> that refers force or motion of the molecules or atoms. 
+        It is the branch of physics which deals with heat energy, its transfer, 
+        and energy conversion. It begins its journey with the development of fire. 
+        People used to believe that every substance has some amount of invisible 
+        fluid called caloric fluid. When it moves from one object to another the 
+        object becomes hot or cold. The object which loses caloric fluid becomes 
+        cold and which gains caloric fluid becomes hot. We know now that there is 
+        nothing like caloric fluid but it is a heat energy which exists in a material 
+        due to molecular vibration. Heat is a form of energy that can flow due to 
+        temperature difference. We can obtain an infinite amount of heat energy out 
+        of the material. For example, we can produced an infinite amount of heat from 
+        water by performing a continuous mechanical work (as in <em>Joul's experiment</em> <xref ref="jouleexpt"/>) 
+        without changing the condition of water. Work is also an energy that is transferred 
+        from one system to another without considering the temperature difference between them. 
+    </p>
+    <p>
+        There are several processes in nature which occur always in a particular fashion. 
+        For examples, <em>water falls from a high elevation to low elevation,</em> <em>heat flows from 
+        high temperature to low temperature</em>, <em>current flows from high electric potential to low electric potential</em>, 
+        in diffusion <em>molecules flows from high concentration to low concentration</em>, 
+        <em>we grow older not younger</em>, <em>our hair turns gray not black as we go older</em>, 
+        and so on. Even in the conversion of mechanical energy into heat energy, for example 
+        if you rub your right hand finger on the palm of left hand (mechanical work) you produce a 
+        heat but reverse does not seem to happen. Yes, some events can happen in both directions, 
+        for example you can heat a gas and you can cool a gas, you expand a gas and compress a gas, 
+        etc but even in that processes we can see there are some changes happen in the surroundings. 
+        We will discuss those events later in second law of thermodynamics which talks about the 
+        directional property of heat energy and its conversion. The conversion of mechanical energy 
+        into electrical energy and vice a versa is 100% possible in ideal case but if we want to 
+        convert heat energy into mechanical work (energy) then 100% conversion is not possible 
+        even in the ideal  case. However, we can convert all of our mechanical energy into heat energy. 
+        Hence we can tell that the nature always follows a certain pattern to have some process to occur. 
+        Nature obeyes simple and universal laws that can be expressed in the mathematical language. 
+        <em>Thermodynamics</em> is thus a fundamental subject of nature that describes the basic laws governing 
+        the physical process and its occurrence associated with the transfer of energy and its conversion. 
+        It is based on our common experience, observation, and experimentation. It has two parts in 
+        observational points of view, that is microscopic view (statistical thermodynamics) 
+        and macroscopic view (classical thermodynamics). The characteristic of the over all behavior 
+        the system can be sensed in classical thermodynamics. The behavior of system on the basis of 
+        its molecular property can be studied in statistical thermodynamics. That is, the classical 
+        <em>thermodynamics is an average outcome of statistical thermodynamics</em>. 
+        <em>Thermodynamics provides a very important aspects of our life that tells us which process 
+        in nature can only occur and which process can not occur. </em>
+    </p>
+    <figure>
+        <caption>Thermodynamical systems</caption>
+          <sidebyside widths="30% 30% 30%">
+      <figure xml:id="opensyst">
+        <caption>open system</caption>
+        <image source="opensyst.png"/>
+      </figure>
+        <figure xml:id="clossyst">
+          <caption>closed system</caption>
+          <image source="clossyst.png"/>
+        </figure>
+        <figure xml:id="isolsyst">
+            <caption>isolated system</caption>
+            <image source="isolsyst.png"/>
+          </figure>
+        </sidebyside>
+    </figure>
+    <p>
+        To understand the thermodynamical process we need to know about the system and surroundings. 
+        The system is the part of the universe being studied, while the surroundings are the rest 
+        of the universe that interacts with the system. The <em>system and surroundings</em> are separated 
+        by a hypothetical line called a <em>boundary</em>. It may be real or imaginary, for example 
+        water in a beaker is separated from rest of the room, then the beaker behaves as a boundary, 
+        water as a system, and the rest of the room as surroundings. In other word, a <term>system</term> is a 
+        definite amount of matter bounded by a closed surface. Anything outside of this closed 
+        surface is called a <term>surroundings</term>. The closed surface is a boundary which 
+        separates the system and the surroundings. The boundary may be real or imaginary, 
+        it may be fixed, flexible, or distorted. System and surroundings must interact with 
+        each other by exchanging energy of any forms. System which can exchange energy and 
+        matter both with the surroundings is called <alert>open system</alert>. For example, 
+        boiling water in an open pot. If the system can exchange only energy but not the matter 
+        with its surroundings then system is called a <alert>closed system</alert>. For example, 
+        a cup of coffee with a lid on it. Some system neither exchange energy nor the matter 
+        with its surroundings then it is called an <alert>isolated system</alert>. 
+        For example, a thermos flask. 
+    </p>
+</introduction>
+ 
+<subsection xml:id="subsec-therm_varbls">
+    <title>Thermodynamical Variables</title>
+    <p>
+        The state of a thermodynamic system can be specified in terms of macroscopic state 
+        variables such as volume, V, temperature, T,  and pressure, p. Out of these three, 
+        two are independent variables while the third may be considered as their function. 
+        In general, two of these parameters are needed to completely specify a thermodynamical system. 
+        These two types of variables are also known as extensive and intensive variables. 
+        Variables that depend on the size of a system such as volume, V, amount of substance 
+        (moles, n ), entropy, S, etc. are called <term>extensive variables</term>. Variables 
+        that do not depend on the size of a system such as temperature, T, pressure, p , density, 
+        <m>\rho</m>, etc. are called <term>intensive variables</term>. 
+    </p>
+</subsection>
+
+
+<subsection xml:id="subsec-therm_laws">
+    <title>Laws of Thermodynamics</title>
+    <introduction>
+        <p>
+            The laws of thermodynamics define fundamental physical quantities such as temperature, 
+            energy, and entropy that characterize thermodynamic systems. 
+            There are four laws of thermodynamics.
+        </p>
+    </introduction>
+    <subsubsection xml:id="subsubsec-zeroth">
+        <title>Zeroth Law of Thermodynamics</title>
+        <figure xml:id="zeroth">
+            <caption>isolated system</caption>
+            <image source="zeroth.png" width="30%"/>
+          </figure>
+        <p>
+            It defines the temperature and states the thermal equilibrium condition. 
+            Thermal equilibrium is a state achieved by two or more systems after being 
+            in contact with one another through a diathermic wall. If an object with 
+            a higher temperature comes in contact with another object at a lower temperature, 
+            it will transfer some of its heat energy to the object at lower temperature 
+            till they come to the same temperature. If two systems are each in thermal 
+            equilibrium with a third system, then they must be in thermal equilibrium 
+            with each other. If <em>temperature of object A = temperature of object C 
+            and temperature of object B = temperature of object C, 
+            then temperature of object A = temperature of object B</em> [<xref ref="zeroth"/>].
+        </p>
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-I_law-therm">
+        <title>First Law of Thermodynamics</title>
+        <figure>
+            <caption></caption>
+              <sidebyside widths="30% 20%">
+          <figure xml:id="jouleexpt">
+            <caption></caption>
+            <image source="jouleexpt.png"/>
+          </figure>
+            <figure xml:id="Ilawtherm">
+              <caption></caption>
+              <image source="Ilawtherm.png"/>
+            </figure>
+            </sidebyside>
+        </figure>
+        <p>
+            The first law is a consequence of conservation of energy and requires that a 
+            system may exchange energy with its surroundings strictly by heat flow or work. 
+            Joule has established the equivalence between heat and mechanical work as 
+            <me>
+                W=JQ,
+            </me>
+           where W is amount of work done (in joule) on the system, Q is the amount of heat 
+           (in calorie) produced in the system, and J is a mechanical equivalent of heat 
+           also known as Joule's constant. The value of <m>J</m> is <m>4.1860 \,J/cal</m>. 
+           The first law states that when a given amount of work, W is done on a system, 
+           an equivalent amount of heat, Q is produced or when a certain amount of heat, Q 
+           disappears from the system an equivalent amount of work W is obtained. 
+           The equivalence is given by the constant <m>J</m>. Heat is thus a form of energy. 
+           <idx>mechanical equivalent of heat</idx>
+        </p>
+        <p>
+            The Joule apparatus [<xref ref="jouleexpt"/>] consisted of a weight suspended by string over a pulley, 
+            which in turn was wound around a winding drum. As long as the drum remained 
+            stationary, the weight remained at rest. When the drum was released, the weight 
+            was set free to fall, and its potential energy began converting to kinetic energy. 
+            In the process, the string attached to the weight unwound from the drum, 
+            which caused the drum to turn and along with it the paddle wheel attached to it. 
+            The rotating paddles agitated the water, causing its temperature to rise. 
+            Joule concluded from this experiment that the mechanical energy of the spinning paddle 
+            wheel had been converted into heat energy, which raise the temperature of the water. 
+            Joule's experiment thus proved the link between potential, kinetic, mechanical, 
+            and heat energies. Joule's experiment thus helped establish the principle of 
+            conservation of energy. <idx>Joul's experiment </idx>      
+        </p>
+        <p>
+            Let us consider a system which absorbed <m>Q</m> amount of heat and does <m>W</m> 
+            work done while going from initial state <m>i</m> to the final state <m>f</m>. 
+            The final state reached by the system may be achieved by the different paths 
+            but the quantity <m>Q-W</m> is the same. The quantity <m>Q-W</m> is known as 
+            the change in internal energy <m>\Delta U </m> of the system.  
+        </p>
+        <p>
+            Consider a gas cylinder [<xref ref="Ilawtherm"/>] with frictionless piston 
+            placed on a hot bath, then the change in internal energy of the cylinder is given by 
+            <men xml:id="eqn-Ilaw1">
+                \,dU = \,dQ-\,dW 
+            </men>
+          where <m> \,dQ </m> is the amount of heat energy absorbed by the gas, 
+          and <m>\,dW</m> is the amount of work done by the gas in moving its piston 
+          from position <m>i</m> to <m>f</m>. This is the mathematical form of I law of thermodynamics. 
+          The <em>I law </em> establishes an exact relation between heat and work. This tells us that 
+         <em> it is impossible to get the work from any machine without giving it an equivalent 
+          amount of energy in any form</em>. 
+        </p>
+        <p>
+            <term>Quasi static state:</term> A process during which the system only deviates 
+            from equilibrium by an infinitessimal amount. This may happen if the gas is allowed 
+            to expand or compress very slowly. As the piston compresses the pressure inside the 
+            gas remains very nearly uniform at all times during the process. So, the system 
+            never deviates significantly from mechanical equilibrium. Quasi static process is 
+            also a reversible process. A system is in thermodynamical equilibrium if it has achieved: 
+            mechanical equilibrium, chemical equilibrium, and thermal equilibrium. 
+            Thermodynamic variables like temperature, pressure etc. can only be used to 
+            describe the system that has achieved thermodynamical equilibrium.  
+        </p>
+    </subsubsection>
+
+</subsection>
+
+    <subsection xml:id="subsec-Ilaw_appl">
+        <title>Application of I law of thermodynamics</title>
+        <p>
+           <ol marker="I.">
+            <li>
+                <term>Specific heat capacity of a gas:</term> 
+                Consider a mole of gas is heated in the cylinder with frictionless piston, then the change 
+                in internal energy of the gas is given by the first law of thermodynamics  <xref ref="eqn-Ilaw1"/>
+              <me>
+                \,dQ=\,dU+\,dW  
+              </me>
+              where <m> \,dW </m> is the infinitesimal work  done by the gas in moving a piston 
+              from initial position <m>i</m> to the final position <m>f</m>, and is given by 
+              <me>
+                \,dW = F\,dx= pA\,dx= p\,dV
+              </me>
+              where <m>A</m> is area of cross-section of the piston, <m>F</m> is force applied by the gas 
+              molecules on the surface of the piston. 
+              <men xml:id="eqn-Ilaw2">
+                \,dQ=\,dU+ p\,dV    
+              </men>
+             If the piston is fixed from moving, then at constant volume, <m>\,dV = 0</m>, and 
+             <me>
+                \,dW = p\,dV = 0
+             </me>
+             <men xml:id="eqn-Ilaw3">
+                \therefore \quad \,dQ=\,dU 
+             </men>
+                But, for n mole of a gas 
+                <me>
+                    \,dQ=n C\,dT 
+                </me>
+                where C is molar specific heat capacity of the gas. 
+                <me>
+                    \,dQ=mc\,dT 
+                </me>
+                 where <m>m</m> is mass of the gas, but it is convenient to take mole 
+                 instead of mass  as an amount of gas. At constant volume, 
+                 <men xml:id="eqn-Ilaw4">
+                    \,dQ=n C_{v}\,dT 
+                 </men>
+                 From eqns. <xref ref="eqn-Ilaw3"/> and <xref ref="eqn-Ilaw4"/>, we have -  
+                 <men xml:id="eqn-Ilaw5">
+                    \frac{\,dU}{\,dT}=nC_{v} 
+                 </men>
+                        At constant pressure, 
+                        <men xml:id="eqn-Ilaw6">
+                            \,dQ=n C_{p}\,dT   
+                        </men>
+                        <men xml:id="eqn-Ilaw7">
+                            \therefore\quad \frac{\,dQ}{\,dT}=nC_{p}  
+                        </men>
+                            Now, differentiating eqn. <xref ref="eqn-Ilaw2"/> with respect to <m>T</m>, we get - 
+                            <men xml:id="eqn-Ilaw8">
+                                \frac{\,dQ}{\,dT} = \frac{\,dU}{\,dT} +p\frac{\,dV}{\,dT} 
+                            </men>
+                                But from euation of state of a gas <xref ref="eqn-dgfreed2"/>, 
+                                <me>
+                                    pV = nRT
+                                </me>
+                                Differentiating this equation with respect to <m>T</m> at constant <m>P</m>, we get - 
+                                <men xml:id="eqn-Ilaw9">
+                                    \text{or,}\quad p\frac{\,dV}{\,dT} = nR 
+                                </men>
+                                substituting the values in eqn. <xref ref="eqn-Ilaw8"/> from 
+                                eqns. <xref ref="eqn-Ilaw5"/> and <xref ref="eqn-Ilaw7"/>, we get - 
+                                <me>
+                                    nC_{p}=nC_{v}+nR   
+                                </me>
+                                    <men xml:id="eqn-Ilaw10">
+                                        \therefore\quad C_{p}-C_{v} = R   
+                                    </men>
+                                    This is the relation between molar specific heat capacity of a gas at constant pressure 
+                                    <m>C_{p}</m> and molar specific heat capacity of a gas at constant volume <m>C_{v}</m>. 
+                                    From the kinetic theory of gas, the internal energy of a monoatomic gas 
+                                    [<xref ref="eqn-inter_energ1"/>] is given by 
+                                    <me>
+                                        U=\frac{3}{2}nRT     
+                                    </me>
+                                    <men xml:id="eqn-Ilaw11">
+                                        \therefore\quad \frac{\,dU}{\,dT} = \frac{3}{2}nR   
+                                    </men>
+                                    Hence, from eqns. <xref ref="eqn-Ilaw8"/>, <xref ref="eqn-Ilaw9"/>, 
+                                    and <xref ref="eqn-Ilaw11"/>, we have -  
+                                    <me>
+                                        \frac{\,dQ}{\,dT} =\frac{3}{2}nR + nR =\frac{5}{2}nR    
+                                    </me>
+                                    Now, the ratio of the specific heat at constant pressure to the specific 
+                                    heat at constant volume of a monoatomic gas is given by 
+                                    <me>
+                                        \gamma = \frac{C_{p}}{C_{v}} = \frac{\frac{5}{2}nR}{\frac{3}{2}nR} = \frac{5}{3} 
+                                    </me>
+                                    The idea of degrees of freedom can be extended to diatomic and polytomic gases. 
+                                    It can be shown that the value of <m>\gamma</m> can be expressed as 
+                                    <me>
+                                        \gamma=\frac{f+2}{f}
+                                    </me>
+                                    where <m>f</m> is the number of degrees of freedom per molecule.
+                                     For a monatomic gas, we find that 
+                                     <me>
+                                        \gamma = \frac{3+2}{3} = \frac{5}{3} 
+                                     </me>
+                                     since <m>f=3</m> for a monoatomic gas. 
+                                     <me>
+                                        \gamma = \frac{5+2}{3} = \frac{7}{3}
+                                     </me>
+                                     for a diatomic gas as <m>f=5</m> .
+            </li>
+            <li>
+                <p>
+                    <term> Isothermal process:</term> In an isothermal process system remains 
+                    at constant temperature, <m>T</m>, hence, <me>
+                        \,dT =0. 
+                    </me>
+                       As internal energy of an ideal gas  [<xref ref="eqn-inter_energ1"/>] is a function of temperature only,
+                        <me>
+                            U=\frac{3}{2}nRT 
+                        </me>
+                        we have 
+                        <me>
+                            \,dU = 0
+                        </me>
+                       Therefore, from I law of thermodynamics, we have -
+                    <me>
+                        \,dQ=\,dW= p\,dV
+                    </me>
+                           </p>
+                   </li>
+                   <li>
+                    <p>
+                       <term> Adiabatic process:</term> In an adiabatic process system 
+                       does not exchange heat  <m>Q</m>,  with surroundings, hence, 
+                       <me>
+                        \,dQ =0.
+                       </me>
+                       Therefore, from I law of thermodynamics, we have -
+                       <me>
+                        \,dQ=\,dU + p\,dV
+                       </me>
+                       <me>
+                        \text{or,}\quad  0 = C_{v}\,dT+p\,dV
+                       </me>
+                           <men xml:id="eqn-adiab1">
+                            \therefore \quad  C_{v}\,dT = -p\,dV  
+                           </men>
+                           <me>
+                            \text{or,} \quad \,dU = -\,dW
+                           </me>
+                 That is, internal energy increases exactly by the amount of work done on the system. Also, 
+                 <me>
+                    pV=RT 
+                 </me>
+                 for 1 mole of a gas.
+                 <me>
+                    \text{or,}\quad p\,dV + V\,dp = R\,dT =\left(C_{p}-C_{v}\right)\,dT
+                 </me>
+                 <me>
+                    = C_{v}\left(\frac{C_{p}}{C_{v}}-1\right)\,dT =  \left(\gamma-1\right)C_{v}\,dT
+                 </me>
+                 <me>
+                    \text{or,}\quad p\,dV + V\,dp  = - \left(\gamma-1\right)p\,dV
+                 </me>
+                 <me>
+                    \text{or,}\quad p\,dV \left(1+\gamma-1\right) + V\,dp  = 0
+                 </me>
+                 <me>
+                    \text{or,}\quad \gamma p\,dV + V\,dp =0
+                 </me>
+                 <me>
+                    \text{or,}\quad \frac{ \,dp}{p} +\gamma \frac{\,dV}{V} = 0
+                 </me>
+                 integrating both sides, we get -
+                 <me>
+                    \ln p +\gamma \ln V =constant
+                 </me>
+                 <me>
+                    \text{or,}\quad \ln p + \ln V^{\gamma} =constant
+                 </me>
+                 <m>\because n\ln m = \ln m^{n}]</m>
+                       <men xml:id="eqn-adiab2">
+                        \therefore \quad pV^{\gamma} =const.
+                       </men>
+                       <m>[\because \ln m +\ln n = \ln (mn)]  </m>                                              
+                    </p>
+                   </li>
+                   <li>
+                    <p>
+                       <term>Isobaric process:</term> A process at constant pressure,
+                        <me>
+                            \,dp=0
+                        </me>
+                         is called an isobaric process. 
+                         <me>
+                            \,dQ=\,dU+p\,dV
+                         </me>
+                         At the change of phase, temperature and pressure remains constant, i.e., 
+                         <me>
+                            \,dT=0, 
+                         </me>
+                         
+                         <me>
+                          \text{and} \quad  \,dp=0.
+                         </me>
+                         
+                        <me>
+                            \therefore \,dQ=p\,dV 
+                        </me>
+                        <m>[\because U \propto T]</m>
+                             </p>
+                   </li>
+                   <li>
+                    <p>
+                        <term>Isochoric process:</term> A process at constant volume,
+                        <me>
+                            \,dV=0
+                        </me>
+                         is called an isochoric process. 
+                         <me>
+                            \,dQ=\,dU
+                         </me>
+                          </p>
+                   </li>
+                   <li>
+                    <p>
+                        <term>Free expansion:</term> It is an adiabatic process in which no work 
+                        is performed on or by the system. Consider two chambers of an isolated 
+                        system, the one chamber of which contains a gas while the other is completely evacuated. 
+                        Both the chambers are connected with a stopcock. When stopcock is suddenly open, 
+                        the gas rushes into the evacuated chamber and expands freely. Free expansion means 
+                        gas has to do no work at all. Since an isolated system does not exchange heat from 
+                        outside world, 
+                        <me>
+                            \,dQ=0
+                        </me>
+                         and gas expands freely so 
+                         <me>
+                            \,dW=0
+                         </me>
+                         Therefore from I law of thermodynamics, 
+                         <me>
+                            \,dU=0
+                         </me>
+                         That is, initial internal energy of the gas is same as its final internal energy.
+                    </p>
+                   </li>
+           </ol> 
+        </p>
+    </subsection>
+
+
+    <subsection xml:id="subsec-II_law">
+        <title>Second Law of Thermodunamics</title>
+      <p>
+        The first law of thermodynamics gives an equivalence between the quantity of heat 
+        and the mechanical work or vice-versa. This law does not tell the limitation and 
+        condition of conversion. That is how much heat is converted into work and whether 
+        the transformaiton itself can take place or not. The first law does not tell anything 
+        about the direction of transformation of energy.  It  does not indicate whether heat 
+        can flow from a cold end to a hot end or not. The first law places no restriction on 
+        the direction of a process, and satisfying the first law does not guarantee that the process 
+        will occur.  In practice, it is not possible to convert the heat energy into an equivalent 
+        amount of work. Thus, we need another general principle  to identify whether a process 
+        can occur or not. The law specifying the condition of transformation of heat into work 
+        is called the second law of thermodynamics. The second law of thermodynamics tells the 
+        direction of the flow of heat. It also tells that heat energy cannot be completely 
+        converted into equivalent work.
+      </p> 
+      <figure>
+        <caption></caption>
+          <sidebyside widths="25% 15%  30%  30%">
+      <figure xml:id="he1">
+        <caption></caption>
+        <image source="he1.png"/>
+      </figure>
+        <figure xml:id="he2">
+          <caption></caption>
+          <image source="he2.png"/>
+        </figure>
+        <figure xml:id="he3">
+            <caption></caption>
+            <image source="he3.png"/>
+          </figure>
+          <figure xml:id="he4">
+            <caption></caption>
+            <image source="he4.png"/>
+          </figure>
+        </sidebyside>
+    </figure>
+      <p>
+      <term> Kelvin-Plank statement of the second law:</term> It is impossible for any device that 
+      operates on a cycle  to receive heat from a single reservoir and  produce a net amount of work 
+      [<xref ref="he1"/>]. For heat engine to operate, the working fluid has to exchange heat 
+      with heat sink as well with the heat source. A heat engine that violates the Kelvin-Planck 
+      statement of the second law cannot be built.     
+      </p>
+      <p>
+        <term>Clausius statement of the second law:</term> It is impossible to construct a device 
+        that operates in a cycle and produces no effect other than the transfer of heat from a cold 
+        body to a hot body.  In other words, a refrigerator will not operate unless an external 
+        work is done on its compressor [<xref ref="he2"/>].
+      </p>
+      <p>
+        The above two statements are equivalent to each other. Consider a refrigerator that 
+        transfers heat <m>Q_{c}</m> from a cold to a hot body without having any work done 
+        on it [<xref ref="he3"/>], thus violating the Clausius statement. Now, suppose an 
+        engine working between the same hot and cold bodies takes in heat <m>Q_{h}</m> from 
+        a hot body and gives out heat <m>Q_{c}</m> to the cold body [<xref ref="he3"/>]. 
+        The engine does not violate any law by itself, but if the refrigerator and engine 
+        combined together [<xref ref="he4"/>], they form a device that takes in heat 
+        <m>Q_{h}-Q_{c}</m> from the hot body and converts all into work without delivering 
+        any to the cold body. This is a violation of Kelvin's statement. Similarly, a 
+        violation of the Kelvin's statement leads to violation of the Clausius statement.
+      </p>
+    </subsection>
+
+    <subsection xml:id="subsec-heat_engn">
+        <title>Heat Engines</title>
+       <p>
+        Heat engine is a device of converting heat continuously into work. The device absorbs 
+        heat from a high temperature reservoir, converts part of this energy into work and 
+        rejects the rest of the energy as heat to a low temperature drain. Hence, it consists of 
+        three essential parts: <em>Source</em> or reservoir for the supply of heat at high temperature. 
+        <em>Sink </em> or drain for the rejection of heat at lower temperature. 
+        <em>Working Substance</em> which absorbs heat from the source. 
+       </p> 
+       <p>
+        The working substance undergoes a cycle of operation in which it absorbs certain quantity 
+        of heat from the source, converts a part of it into work and  rejected rest to the 
+        sink as shown in <xref ref="he5"/>. Finally it reaches to the initial stage where 
+        its internal energy is the same. By performing the same cycle again and again, 
+        heat is continuously converted into work.  
+       </p>
+       <figure xml:id="he5">
+        <caption></caption>
+        <image source="he5.png" width="25%"/>
+      </figure>
+       <p>
+        <term>Efficiency:</term> Let <m>Q_{h}</m> is the amount of heat absorbed 
+        by the working substance from the source at high temperature <m>T_{h} \,K.</m> 
+        It does the work  W  and reject <m> Q_{c}</m> amount  of heat to the sink at 
+        lower temperature <m>T_{c} \,K.</m> The efficiency of the heat engine then 
+        defined as the ratio of the work done (output) by the engine to the amount 
+        of heat supplied (input) to the engine. That is, 
+        <me>
+            \eta = \frac{W}{Q_{h}}
+        </me>
+         If there is no dissipative losses (i.e., no frictional loss in engine, etc.) 
+         then heat rejected would be 
+         <me>
+            Q_{c}= Q_{h} - W 
+         </me>
+         <me>
+            \Rightarrow\quad W=Q_{h}-Q_{c}
+         </me>
+       Hence 
+       <me>
+        \eta =  \frac{Q_{h}-Q_{c}}{Q_{h}}
+       </me>
+       <me>
+        \therefore\quad  \eta =  \left(1-\frac{Q_{c}}{Q_{h}}\right)\times 100\%
+       </me>
+       Since, efficiency is normally defined in percentage.	
+       </p>
+    </subsection>
+
+    <subsection xml:id="subsec-carnot_engn">
+        <title>Carnot's Heat Engine</title>
+        <figure xml:id="carnte">
+            <caption></caption>
+            <image source="carnte.png" width="25%"/>
+          </figure>
+        <p>
+           <em> Carnot's Assumption:</em> Heat cannot be taken in at a certain temperature 
+           and converted to work with no other change in the system of surroundings. Carnot 
+           presented theoretically an ideal heat engine, free from all imperfection of actual engines. 
+           The engine operates between source and sink each of which is maintained at 
+           constant temperature. The engine is known as a Caront's engine and its cycle of operation 
+           as the Carnot's cycle. The schematics of engine is shown in <xref ref="carnte"/>. 
+           The working substance is an ideal gas contained in an insulated cylinder with conducting 
+           bottom surface. A hot body of high thermal capacity maintained at a constant temperature 
+           <m>T_{h} \,K</m> serves as a source. A cold body maintained at a constant temperature 
+           <m>T_{c} \,K </m> serves as a sink. A stand has a perfectly insulated wall.
+        </p>
+               <p>
+            The cylinder can be moved in cycle from source, stand, sink, stand, and back to 
+            source without doing any work. 
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-revs_heatengn">
+        <title>Reversible Heat Engines</title>
+        <p>
+            A reversible process is defined as a process that can be reversed without leaving any trace
+            on the surroundings. It means both system and surroundings are returned to their initial
+            states at the end of the reverse process. Processes that are not reversible are called
+            irreversible.            
+        </p>
+           <p>
+            Reversible heat engine is just the heat engine which is running in the reverse direction 
+            of heat engine. In reversible heat engine all the three components re-assume exactly 
+            their original conditions and no changes are left in the surroundings. Such an engine can 
+            be realized if, the engine is free from friction, the process is infinitely slow, and working 
+            substance never differs appreciable from its surroundings. No heat engine can have efficiency 
+            greater than a reversible heat engine. 
+        </p>
+    </subsection>
+
+    <subsection xml:id="subsec-canot_cycl">
+        <title>Carnot's Cycle: </title>
+        <p>
+            The Carnot engine operates in the four steps of Carnot cycle which are 
+            perfectly reversible. <idx>Carnot's cycle</idx>  
+        </p>
+        <figure xml:id="carntc">
+            <caption></caption>
+            <image source="carntc.png" width="40%"/>
+          </figure>
+        <p>
+            <term>Step 1, Isothermal Expansion:</term>
+            <idx>isothermal expansion</idx> Consider a mole of gas as a working substance in a cylinder [<xref ref="carntc"/>]. 
+           The initial state  of the gas is <m>(p_{1},V_{1})</m> denoted by point 
+           A in the figure 10.25 and it's temperature is the same as that of source <m>T_{h}\, K</m>. 
+           Let the cylinder be placed on the source and allowed to expand so slowly that the temperature 
+           remains constant at <m>T_{h} </m> throughout the expansion while  <m>Q_{h}</m> amount of heat is being 
+           absorbed by the gas. The final state <m>(p_{2},V_{2})</m> of the gas is represented by a point B. 
+           Because none of the heat goes into changing the temperature of the gas, all of the heat goes into 
+           pushing the piston up as the gas expands. Thus all of the heat, <m>Q_{h}</m> is turned into work, <m>W_{1}.</m> 
+           That is, 
+                <me>
+                    Q_{h}=W_{1}=\int\limits^{v_{2}}_{v_{1}} p\,dV = RT_{h}\int\limits^{v_{2}}_{v_{1}} \frac{\,dV}{V}
+                </me>
+               <m>[pV=nRT,\quad n=1 \,mole]</m>
+          <me>
+            \therefore\quad W_{1} = RT_{h}\left[\log_{e}\right]^{v_{2}}_{v_{1}} =  RT_{h}\log_{e}\frac{V_{2}}{V_{1}} =area ABba
+          </me> 
+        </p>
+        <p>
+            <term>Step 2, Adiabatic Expansion:</term>       
+            <idx>adiabatic expansion</idx> Now the cylinder is removed from the source and placed on the stand. 
+            The gas is then allowed to expand adiabatically with no heat added to the system. 
+            The gas continues to expand, and the temperature of the gas drops to the temperature 
+            of the cold reservoir, <m>T_{c},</m>. If the volume of the gas has expanded, and the 
+            pressure is constant, then the temperature has to drop to compensate when reaches to a 
+            point <m>C(p_{3},V_{3}).</m> 	
+        </p>
+        <p>
+            The work done <m> W_{2}</m> in this case is given by 
+            <me>
+                W_{2} = \int\limits_{v_{2}}^{v_{3}}p\,dV = \int\limits_{v_{2}}^{v_{3}}k\frac{\,dV}{V^{\gamma}} 
+            </me>
+          <m>[\because \quad pV^{\gamma}=constant, (k)]</m> for adiabatic process.
+            <me>
+                =k\left(\frac{V^{1-\gamma}}{1-\gamma}\right)_{v_{2}}^{v_{3}}
+            </me>
+            <me>
+                =\frac{k}{1-\gamma} \left(V_{3}^{1-\gamma}-V_{2}^{1-\gamma}\right) 
+            </me>
+            <me>
+                = \frac{1}{1-\gamma} \left(p_{3}V_{3}^{\gamma}V_{3}^{1-\gamma}-p_{2}V_{2}^{\gamma}V_{2}^{1-\gamma}\right) 
+            </me>
+            <m>[\because \quad p_{2}V_{2}^{\gamma}=p_{3}V_{3}^{\gamma}=k]</m>
+                <me>
+                    \therefore\quad W_{2} = \frac{1}{1-\gamma}\left(p_{3}V_{3}-p_{2}V_{2}\right) 
+                </me>
+                <me>
+                    =\frac{\left(RT_{c}-RT_{h}\right)}{1-\gamma}=\frac{R}{\gamma-1}\left(T_{h}-T_{c}\right) = area BCcb 
+                </me>
+                      </p>
+                      <p>
+                       <term> Step 3, Isothermal compression:</term> The cylinder is removed from stand and 
+                       placed on the sink. The gas is then compressed slowly at constant temperature 
+                       <m> T_{c} \, K</m> when the gas reaches to a point <m>C(p_{4},V_{4}).</m> The heat, 
+                       <m>Q_{c},</m> is transferred to the cold reservoir by doing work <m>W_{3}</m> on it.  
+                       <me>
+                        \therefore\quad Q_{c} = W_{3} =-\int\limits_{v_{3}}^{v_{4}}p\,dV 
+                       </me>
+                       <me>
+                        = -RT_{c}\int\limits_{v_{3}}^{v_{4}}\frac{\,dV}{V} =RT_{c}\log_{e}\frac{V_{3}}{V_{4}} =area DCcd
+                       </me>
+                               </p>
+                    <p>
+                        <term>Step 4, Adiabatic compression:</term> In the last step, the cylinder is removed 
+                        from sink and placed once again on the stand. The gas is compressed adiabatically 
+                        to the initial state <m>A(p_{1}V_{1})</m>. Since the heat can not be extracted from 
+                        the gas as it causes the temperature of the gas to rise back to <m>T_{h},</m>. 
+                        The work done on this compression is given by 
+                        <me>
+                            W_{4} = - \int\limits_{v_{4}}^{v_{1}}p\,dV = \frac{R\left(T_{h}-T_{c}\right)}{\gamma-1}=area ADda
+                        </me>
+                            </p>
+             <p>
+                Hence the total work done during the complete cycle of operation 
+                <me>
+                    W=W_{1}+W_{2}+W_{3}+W_{4} = W_{1}-W_{3}
+                </me>
+                <m>[\because W_{2}=W_{4}] </m>
+            </p>
+            <p>                
+                Quantity of heat absorbed by the gas in full cycle <m>= Q_{h}-Q_{c}=W_{1}-W_{3}</m>
+            </p>
+            <p> 
+                The efficiency of the Carnot cycle is therefore, 
+                <me>
+                    \eta = \frac{\text{work done in cycle}}{\text{heat drawn from the source}}
+                </me>
+                <me>
+                    = \frac{W}{Q_{h}}= \frac{Q_{h}-Q_{c}}{Q_{h}} =1-\frac{Q_{c}}{Q_{h}}
+                </me>
+                       Now, 
+                       <me>
+                        \frac{Q_{c}}{Q_{h}} = \frac{W_{3}}{W_{1}} 
+                       </me>
+                       <me>
+                        = \frac{RT_{c}\log_{e}\frac{V_{3}}{V_{4}}}{RT_{h}\log_{e}\frac{V_{2}}{V_{1}}}
+                       </me>
+                       
+                       <men xml:id="eqn-ccycl1">
+                        =\frac{T_{c}\log_{e}\frac{V_{3}}{V_{4}}}{T_{h}\log_{e}\frac{V_{2}}{V_{1}}}
+                       </men>
+                       Since points B and C lie on the same adiabatic, we have -
+                       <me>
+                        p_{2}V_{2}^{\gamma} = p_{3}V_{3}^{\gamma}
+                       </me>
+                       But,
+                       <me>
+                        pV=RT \quad \Rightarrow\quad p=\frac{RT}{V}
+                       </me>
+                       <me>
+                        \therefore \quad T_{h}V_{2}^{\gamma-1} = T_{c}V_{3}^{\gamma-1} 
+                       </me>
+                       <men xml:id="eqn-ccycl2">
+                        \text{or,}\quad \frac{T_{c}}{T_{h}} = \left(\frac{V_{2}}{V_{3}}\right)^{\gamma-1} 
+                       </men>
+                     Similarly, points D and A lie on the same adiabatic, we have - 
+                     <men xml:id="eqn-ccycl3">
+                        \text{or,}\quad \frac{T_{c}}{T_{h}} = \left(\frac{V_{1}}{V_{4}}\right)^{\gamma-1} 
+                     </men>
+                      Comparing eqns. <xref ref="eqn-ccycl2"/> and <xref ref="eqn-ccycl3"/>, we get - 
+                      <me>
+                        \left(\frac{V_{2}}{V_{3}}\right)^{\gamma-1} = \left(\frac{V_{1}}{V_{4}}\right)^{\gamma-1}  
+                      </me>
+                      <men xml:id="eqn-ccycl4">
+                        \frac{V_{1}}{V_{2}} = \frac{V_{4}}{V_{3}}  
+                      </men>
+                       Hence from eqns.<xref ref="eqn-ccycl1"/>  and <xref ref="eqn-ccycl4"/>, we have - 
+                       <me>
+                        \frac{Q_{c}}{Q_{h}} = \frac{T_{c}\log_{e}\frac{V_{2}}{V_{1}}}{T_{h}\log_{e}\frac{V_{2}}{V_{1}}} = \frac{T_{c}}{T_{h}}
+                       </me>
+                       <men xml:id="eqn-ccycl5">
+                        \therefore\quad \eta = 1-\frac{T_{c}}{T_{h}} 
+                       </men>
+                       This is the efficiency of Carnot's heat engine. The Carnot's engine can not be realized 
+                       in practice because - <em>(i)</em> The temperature of source and sink can not be kept constant. 
+                       The body (source) which loses energy its temperature falls gradually and the one (sink) 
+                       which gains energy its temperature rises gradually, meaning reservoirs of infinite thermal 
+                       capacity do not exist. <em>(ii)</em> It is a perfectly reversible in action, if the cycle is reversed 
+                       the working substance will take <m>Q_{c}</m> amount of heat from sink and gives out 
+                       <m>Q_{h} </m> amount of heat to the source, meaning reversible heat transfers are not possible. 
+                       <em>(iii)</em> Heat transfer takes place at infinitesimally slow in isothermal process having very small 
+                       temperature difference between the source and the receiver. On the other hand, in adiabatic process, 
+                       heat transfer is zero and a very fast process.
+          </p>
+    </subsection>
+
+    <subsection xml:id="subsec-carnt_therm">
+        <title>Carnot's Theorem:</title>
+        <p>
+           <em> The efficiency of all reversible engines operating between the same two temperatures 
+            is the same, and no irreversible engine operating between these  temperatures can be 
+            more efficient than a reversible engine working between the same two temperatures.</em>
+        </p>
+        <figure xml:id="crnt">
+            <caption></caption>
+            <image source="crnt.png" width="40%"/>
+          </figure>
+        <p>
+            Consider two engines I and R working between the same two temperatures where I is 
+            irreversible and R is reversible. The two engines are so designed  that they perform 
+            equal amount of work. If  engine R draws <m>Q_{r}</m> amount of heat from source does 
+            W work done and rejects <m>Q_{r}-W</m> amount of heat to the sink then its efficiency, 
+            <me>
+                \eta_{r}= \frac{W}{Q_{r}}
+            </me>
+            Similarly, if the  engine I extracts <m>Q_{i}</m> amount of heat from the source, 
+            perform the same amount of work W, and rejects the <m> Q_{i}-W</m> to the sink, 
+            then its efficiency, 
+            <me>
+                \eta_{i} = \frac{W}{Q_{i}}
+            </me>
+             Now, assume that the irreversible engine I is more efficient than the reversible engine R, then we have 
+             <me>
+                \eta_{i} \gt \eta_{r}
+             </me>
+             <me>
+                \text{or,}\quad \frac{W}{Q_{i}} \gt \frac{W}{Q_{r}}
+             </me>
+             <me>
+                \text{or,}\quad Q_{r} \gt Q_{i}
+             </me>
+             That is,  <m>Q_{r} - Q_{i}</m> is a positive quantity. 
+               </p>
+               <p>
+                Now combine these two engines in such a way that engine I drives the engine R in the 
+                backward direction, so that R behaves as a refrigerator. The refrigerator R then extracts 
+                <m>Q_{r}-W</m> heat from the sink, after  <m>W</m> work done on it by I it rejects 
+                <m>Q_{r} </m> heat to the source. The two engines are so coupled that they behave 
+                as a self acting machine. Since the work needed to run the refrigerator R is supplied 
+                by the irreversible engine I. The quantity of heat extracted from the sink is 
+                given by 
+                <me>
+                    (Q_{r}-W)-(Q_{i}-W)= Q_{r}-Q_{i} = +ve
+                </me>
+            This is also the net amount of heat rejected to the source.That is  this device transfers 
+            the same amount of heat <m> Q_{r}-Q_{i} </m> from the sink to the source without the aid 
+            of any external source. This violates the second law of thermodynamics. Hence an irreversible 
+            engine never be more efficient than the reversible one. 
+               </p>
+               <p>
+                Now consider the reversible engines <m>R_{1}</m> and <m> R_{2}</m> are working between the 
+                same source and sink. Let <m>R_{1}</m> be driving backward, then as described above, 
+                <m>R_{1}</m> can not be more efficient than <m>R_{2}</m>. Similarly if <m>R_{2}</m> is 
+                driving <m>R_{1}</m> backward, then <m>R_{2}</m> can not be more efficient than 
+                <m>R_{1}</m>. Hence the two engines must  have same efficiency.
+               </p>
+    </subsection>
+
+    <subsection xml:id="subsec-heat_pump">
+        <title>Heat Pump and Refrigerator</title>
+       <introduction>
+        <p>
+            Heat flows from hot body to cold body naturally. The reverse process, 
+            however, cannot occur by itself. To transfer heat from a low temperature 
+            region to a high temperature requires special devices called refrigerators or heat pump. 
+            Heat pumps transfer heat from a low temperature medium to a high temperature one. 
+            Refrigerators and heat pumps are essentially the same devices; they differ in their 
+            objectives only. Refrigerator is to maintain the refrigerated space at a low temperature. 
+            On the other hand, a heat pump absorbs heat from a low temperature source and supplies 
+            the heat to a warmer medium. Heat pumps and refrigerators are heat engine working in 
+            backward direction. They transfer heat from cold to hot. 
+        </p>
+       </introduction>
+
+       <subsubsection xml:id="subsubsec-cop">
+        <title>Coefficient of Performance,	COP:</title>
+        <figure xml:id="cop">
+            <caption></caption>
+            <image source="cop.png" width="40%"/>
+          </figure>
+        <p>
+            The performance of refrigerators and heat pumps is expressed in terms of the coefficient 
+            of performance (COP) which is defined as  <idx>coef. of perform.</idx> 
+            <me>
+                COP = \frac{benefit}{cost}   
+            </me>
+            <me>
+                COP_{R}  = \frac{Q_{c}}{W}, \quad \text{ for Refrigerator}
+            </me>
+            <me>
+                COP_{HP} =  \frac{Q_{h}}{W}, \quad \text{for Heat Pump}
+            </me>
+            Since <m>Q_{h} =Q_{c}+W,</m>  it can be seen that 
+            <me>
+                COP_{HP}= COP_{R}+1 
+            </me>
+           </p>
+       </subsubsection>
+    </subsection>
+
+    <subsection xml:id="subsec-entropy">
+        <title>Entropy</title>
+        <introduction>
+           
+        <p>
+            A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and 
+            will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system 
+            to evaporate water. When a hot and a cold body are put in contact to each other, heat energy begins to flow from 
+            the hot body to the cold body until they reach at thermal equilibrium. Heat will never move back the other way. 
+            To move heat from a cold body to a hot body an external work must be done by an external source such as a heat pump. 
+            <term>Entropy</term> is a measure of that disorderness. It is a measure of the system's thermal energy per 
+            unit temperature that is unavailable for useful work. The concept of entropy provides the direction of 
+            spontaneous change for many process. It tells us that which process is allowed and which is completely 
+            prohibited even if it can not violet the fundamental law of conservation of energy. An ice cube placed 
+            on a hot pan surely melts, while the pan goes cooler. Such a process is called irreversible because no 
+            slight change will cause the melted water to turn back into ice while the pan goes hotter. In contrast, 
+            a block of ice placed in an ice water bath will either thaw a little more or freeze a little more, 
+            depending on whether a small amount of heat is added to or taken out from the system. Such a process 
+            is reversible because only an infinitesimal amount of heat is needed to change its direction from 
+            progressive freezing to progressive thawing. 
+        </p>
+        <figure xml:id="heatcurve">
+            <caption></caption>
+            <image source="heatcurve.png" width="40%"/>
+          </figure>
+        <p>
+            Spontaneous change for an irreversible process in an isolated system always proceeds 
+            in a direction of increasing entropy. Entropy describes the degradation of energy 
+            to perform work. Crystals are more orderly than salt molecules in solution; however, 
+            vaporized water is  more disordered than liquid water. The process taken as a whole 
+            results in a net increase in disorder. The first law of thermodynamics is the conservation of energy 
+            and is easy to express quantitatively. The second law explains that heat only flows 
+            from a hotter object to a colder one. It measures quantitatively that the efficiency 
+            of any reversible engine has to equal that of the Carnot cycle, and any irreversible 
+            engine has less efficiency. In the view of measuring the amount of irreversibility 
+            Clausius described a parameter, called <em>entropy</em> that doesn't change in a 
+            reversible process but always increases in an irreversible one.
+        </p>
+        <p>
+            The total work done by the gas is the area of the curve ABCD. 
+            Hence the work done must be just the difference between the heat supplied at 
+            <m>T_{h}</m> and that dumped at <m>T_{c}.</m> Now the heat supplied along the 
+            initial hot isothermal path AB is equal to the work done along that curve, 
+            <me>
+                Q_{h}=nRT_{h}\ln\frac{V_{b}}{V_{a}}
+            </me>
+           and the heat dumped into the cold reservoir along CD is 
+           <me>
+            Q_{c}=nRT_{c}\ln\frac{V_{c}}{V_{d}}
+           </me>
+             </p>
+             <p>
+                The difference between these two is the net work output. This can be simplified using the 
+                adiabatic equations for the other two sides of the cycle: 
+                <me>
+                    T_{h}V_{b}^{\gamma-1} =  T_{c}V_{c}^{\gamma-1}
+                </me>
+                        and
+                        <me>
+                            T_{h}V_{a}^{\gamma-1} =  T_{c}V_{d}^{\gamma-1}
+                        </me>
+                         On dividing of these two equations, we get - 
+                         <me>
+                            \frac{V_{b}}{V_{a}} =\frac{V_{c}}{V_{d}} 
+                         </me>
+                         and using that in the preceding equation for <m>Q_{c},</m> 
+                         <me>
+                            Q_{c}=nRT_{c}\ln\frac{V_{b}}{V_{a}} = T_{c} \frac{Q_{h}}{T_{h}}
+                         </me>
+                         <me>
+                            \text{or,}\quad \frac{Q_{c}}{Q_{h}}=  \frac{T_{c}}{T_{h}}
+                         </me>
+                         <me>
+                            \text{or,}\quad \frac{Q_{c}}{T_{c}}=  \frac{Q_{h}}{T_{h}}
+                         </me>
+                         So for the Carnot cycle the ratio of heat supplied to heat dumped is just the ratio of the 
+                         absolute temperatures. If we draw many isotherms and many adiabatics curve, 
+                         then we can find in general that 
+                         <me>
+                            \frac{Q_{1}}{T_{1}}=  \frac{Q_{2}}{T_{2}} =  \frac{Q_{3}}{T_{3}} = \cdots =  \frac{Q}{T} = constant
+                         </me>
+                         This quantity <m>\frac{Q}{T}</m> is a definite thermal property of the working substance. 
+                         During adiabatic change, there is no transfer of heat so this quantity is zero. 
+                         Hence that thermal property of the substance which remains constant during 
+                         an adiabatic change is termed as <em>entropy</em>.
+                                </p>
+                                <p>
+                Now let see what happen if we take the path ADCBA. The amount of heat absorbed at temperature 
+                <m> T_{h}</m> when the gas passes from the state A to the state B remains constant even 
+                if a path other than the isotherm AB is followed. Now starting from the point A 
+                in reverse direction, let the path AD, DC, and CB be followed. Along the adiabatics 
+                AD and CB the quantity <m>\frac{Q}{T} </m> is zero and the quantity along the isothermal 
+                DC <m>=\frac{Q_{c}}{T_{c}}.</m> But we know that 
+                <me>
+                    \frac{Q_{c}}{T_{c}}= \frac{Q_{h}}{T_{h}}
+                </me>
+                 Hence the quantity <m>\int\limits_{i}^{f} \frac{Q}{T}</m> is independent of the 
+                 manner of transformation, i.e., the entropy is a definite function of the thermal 
+                 state of a body and is not affected in any way by the manner in which the particular 
+                 state is reached. In other words, <em>entropy is a definite physical entity like pressure, 
+                 volume, temperature, or internal energy but there is nothing physical to represent it</em>. 
+                 Entropy can not be felt like pressure or temperature. Further, we can not measure the absolute 
+                 entropy of a substance in any situation, we can only measure the change in entropy as the 
+                 substance moves from one state to another. Entropy is denoted by a letter, <m>S</m>.               
+                                </p>
+                                <p>
+                                    Change of entropy = heat energy/temperature 
+                                </p>
+                                    <p>
+                                        or, Change of entropy <m>\times</m> Temperature = Heat Energy. 
+                                    </p> 
+                                    <p>
+                                        That is the dimension of heat energy is same as that of the product of entropy and temperature.  
+                                        If we compare, gravitational potential energy <m>\propto</m> mass <m>\times</m> height with 
+                                        the above expression then it seems like, entropy bears to heat motion in the same fashion 
+                                        as mass bears to linear motion. Hence entropy is also known as a thermal inertia. 
+                                        The second law of thermodynamics can be stated in terms of entropy. 
+                                        The total entropy of the universe is continually increasing because all 
+                                        natural process is irreversible and entropy increases in irreversible process 
+                                        where as there is no change in entropy in the reversible process. 
+                                        But reversible process barely happen in the universe.
+                                    </p>
+                                    <p>
+                                        Differential form	of change of entropy, 
+                                        <me>
+                                            \,dS  =  \frac{\,dQ}{T}
+                                        </me>
+                                        for reversible path.
+                                    </p>
+                                    <p>
+                                        Integral form	
+                                        <me>
+                                            \Delta S  =  S_{f} -S_{i}=  \int\limits_{i}^{f} \frac{\,dQ}{T}
+                                        </me>
+                                        for reversible path.
+                                    </p>
+       </introduction>
+
+
+       <subsubsection xml:id="subsubsec-entropy_incrs">
+        <title>Principle of increase of entropy:</title>
+        <p>
+            According to this principle, entropy of the universe always increases 
+            for any irreversible process, or remains constant for a reversible process.
+
+<ol marker="i.">
+    <li>
+         <em>Change of entropy of the universe due to reversible process:</em> Consider a Carnot cycle 
+            in isothermal expansion. The increase of entropy of the working substance 
+            is equal to <m>\frac{Q_{h}}{T_{h}}.</m>  The decrease of entropy of the source is equal to 
+            <m>\frac{Q_{h}}{T_{h}}. </m> Thus the net change of entropy of universe during a reversible 
+            isothermal process is <em>zero</em>. There is no change of entropy during adiabatic process. 
+            Similarly, the decrease of entropy of the working substance during  isothermal compression 
+            is <m>\frac{Q_{c}}{T_{c}},</m> the increases of entropy of the sink during isothermal 
+            compression is <m>\frac{Q_{c}}{T_{c}}.</m>
+            Therefore, net change of entropy of the universe is zero. Now take the entire Carnot cycle 
+            at once, then loss of entropy of the source (surrounding) is 
+            <m>\frac{Q_{h}}{T_{h}}</m> and gains of entropy of the sink (surrounding) is <m>\frac{Q_{c}}{T_{c}}</m>, 
+            hence the net change of entropy of the universe,
+            <me>
+                \,dS=\frac{Q_{c}}{T_{c}} -\frac{Q_{h}}{T_{h}}=0
+            </me>
+            <me>
+                \therefore \quad \frac{Q_{c}}{T_{c}} =\frac{Q_{h}}{T_{h}}
+            </me>
+             The entropy of the whole system remains constant.  
+          </li>
+    <li>
+        <em>Change of entropy of the universe due to irreversible process:</em> 
+        Consider a heat transfer in conduction process. It is an irreversible process. 
+        Let a quantity <m>\,dQ </m> be transferred from a hot body A at a temperature 
+        <m>T_{h}</m> to a cold body B at temperature <m>T_{c}.</m> The loss of entropy 
+        of A is <m>\frac{\,dQ}{T_{h}}</m> and the gain of entropy of B is <m>\frac{\,dQ}{T_{c}}.</m> 
+        Thus the net change in entropy is 
+        <me>
+            \,dS= \frac{\,dQ}{T_{c}}-\frac{\,dQ}{T_{h}}  = +ve
+        </me>
+        Since <m>T_{h} \gt T_{c}</m>. Therefore the entropy of the system as a whole 
+        increase during this process. The entropy of the universe increases in the irreversible process.
+        </li>
+</ol>
+        </p>
+      </subsubsection>
+
+
+      <subsubsection xml:id="subsubsec-entropy_degrad">
+        <title>Principle of degradation of entropy:</title>
+        <p>
+            It states that the available energy of the universe is tending towards zero. 
+            From the second law whenever an irreversible process takes place, a certain 
+            quantity of energy of the universe is converted from a form in which it is 
+            unavailable for work. In Carnot engine, <m>Q_{h}</m> is the heat that is 
+            taken from a source and <m>Q_{c}</m> is the amount of heat given to the sink. 
+            The difference of this heat <m> Q_{h}-Q_{c}</m> is converted into work and 
+            is called the <term>available energy</term>. 
+            Available energy is therefore, 
+            <me>
+                Q_{h}-Q_{c} = Q_{h}\left(1-\frac{Q_{c}}{Q_{h}}\right)  = Q_{h}\left(1-\frac{T_{c}}{T_{h}}\right)
+            </me>
+            <m>\left[\because  \frac{Q_{c}}{Q_{h}}=\frac{T_{c}}{T_{h}} \right]</m>
+          Thus the lower the temperature <m>T_{c}</m> of the sink, the greater will be the available energy. 
+        </p>
+        <p>
+            Now consider an irreversible process in which heat Q is transferred from hot 
+            body at temperature <m>T_{h}</m> to a cold body at temperature <m>T_{c}.</m> 
+            Suppose <m>T_{o}</m> is the lowest available temperature in the system, 
+            then available energy to start with is <m>Q\left(1-\frac{T_{o}}{T_{h}}\right).</m>
+            After transfer it becomes <m>Q\left(1-\frac{T_{o}}{T_{c}}\right).</m> 
+            Hence the loss available energy in the process of transformation is 
+            <me>
+                Q\left(1-\frac{T_{o}}{T_{h}}\right)- Q\left(1-\frac{T_{o}}{T_{c}}\right)
+            </me>
+            <me>
+                = Q\left[\frac{T_{o}}{T_{c}}-\frac{T_{o}}{T_{h}}\right] = T_{o}\left(\frac{Q}{T_{c}}-\frac{Q}{T_{h}} \right)=T_{o}\,dS.
+            </me>
+            Since <m>\,dS</m> is increasing in irreversible process available energy is decreasing. 
+            All natural process are irreversible the available energy of the universe is 
+            continually decreasing.  When a state of maximum entropy of the universe is 
+            reached there would be no available energy to do any work, this condition 
+            is called the <term>heat-death</term>. 
+            </p>
+      </subsubsection>
+    </subsection>
+
+
+    <subsection xml:id="subsec-entropy_prob">
+        <title>Entropy and Probability</title>
+        <p>
+            Entropy is intimately connected with the probability. 
+            If you toss four pennies, then it has very less chance that all four 
+            will land heads up. It is six times more likely to get two heads and two 
+            tails up. The two heads - two tails state is the most likely, shows the most disorder, 
+            and has the highest entropy. Four heads is less likely, has the most order, 
+            and the lowest entropy. If you tossed more coins, it would be even less likely 
+            that they'd all land heads up, and even more likely that you'd end up 
+            with close to the same number of heads as tails. 
+        </p>
+        <p>
+            Let S be entropy and <m>\omega</m> be the maximum probability of the 
+            system in a definite state, then we can write 
+            <me>
+                S=f(\omega)
+            </me>
+           Now consider <m>S_{1}</m> and <m>S_{2}</m> are the entropies of the two 
+           system then total entropy of the combined system will be 
+           <me>
+            S =S_{1}+S_{2}
+           </me>
+           entropy is an additive quantity. The probability of a composite system 
+           is equal to the product of the probabilities of the individual system. That is,
+           <me>
+            \omega = \omega_{1}\omega_{2} 
+           </me>
+        Therefore, 
+        <men xml:id="eqn-entr_prob1">
+            S =S_{1}+S_{2}  
+        </men>
+        <men xml:id="eqn-entr_prob2">
+            f(\omega_{1}\omega_{2}) = f(\omega_{1})+f(\omega_{2}) 
+        </men>
+      Differentiating eqn. <xref ref="eqn-entr_prob2"/> with respect to <m>\omega_{1}</m>, 
+       keeping <m>\omega_{2} </m> constant, we get - 
+       <men xml:id="eqn-entr_prob3">
+        \omega_{2}f'(\omega_{1}\omega_{2}) = f'(\omega_{1}) 
+       </men>
+       Again differentiating this eqn. <xref ref="eqn-entr_prob2"/> 
+       with respect to <m>\omega_{2},</m>  keeping by <m> \omega_{1}</m> constant, we get - 
+       <men xml:id="eqn-entr_prob4">
+        \omega_{1}f'(\omega_{1}\omega_{2}) = f'(\omega_{2})  
+       </men>
+    Dividing eqns. <xref ref="eqn-entr_prob3"/> and <xref ref="eqn-entr_prob4"/>, we get - 
+    <men xml:id="eqn-entr_prob5">
+        \frac{\omega_{2}}{\omega_{1}} = \frac{f'(\omega_{1})}{f'(\omega_{2})}
+    </men>
+    <me>
+        \text{or,}\quad \omega_{1} f'(\omega_{1}) =\omega_{2} f'(\omega_{2}) = k,\quad \text{constant}
+    </me>
+    So that 
+    <me>
+        f'(\omega_{1}) = \frac{k}{\omega_{1}}\qquad \text{and}\quad  f'(\omega_{2}) = \frac{k}{\omega_{2}}
+    </me>
+    Integrating these expressions, we get - 
+    <me>
+        \int f'(\omega_{1})\,d\omega_{1} = \int \frac{k}{\omega_{1}}\,d\omega_{1}
+    </me>
+    <men xml:id="eqn-entr_prob6">
+        \therefore\quad f(\omega_{1}) = k\ln\omega_{1}+C 
+    </men>
+   also, 
+   <me>
+    \int f'(\omega_{2})\,d\omega_{2} = \int \frac{k}{\omega_{2}}\,d\omega_{2}
+   </me>
+   <men xml:id="eqn-entr_prob7">
+    \therefore\quad f(\omega_{2}) = k\ln\omega_{2}+C 
+   </men>
+   In general, 
+   <me>
+    f(\omega) = k\ln\omega+C
+   </me>
+   <me>
+    \text{or,}\quad S =   k\ln\omega+C 
+   </me>
+   Where C is a constant of integration which can be determined by 
+   initial conditions. In case of a perfect order, <m>\omega=1</m> 
+   and <m>S=0 </m>, then <m>C =0.</m> 
+   <me>
+    \therefore \quad S =k\ln \omega
+   </me>
+   Hence the microscopic definition of entropy is given by 
+   <men xml:id="eqn-entr_prob8">
+    S = N k_{B} ln \omega  
+   </men>
+   Where <m> k=Nk_{B}</m> for N number of molecules of gas and <m>k_{B} </m> is Boltzmann constant.
+        </p>
+    </subsection>
+   
+
+    <subsection xml:id="subsec-III_law">
+        <title>Third Law of Thermodynamics</title>
+        <p>
+            From now we may have known that the entropy difference between two points like the 
+            potential energy. Where we must define the base line to calculate the potential energy. 
+            We already have a natural base line thermodynamically, a system at absolute zero 
+            has zero entropy. This is sometimes called the third law of thermodynamics. 
+            The efficiency of Carnot engine, 
+            <me>
+                \eta= 1-\frac{T_{c}}{T_{h}} 
+            </me>
+            If <m> T_{c} =0,</m> <m>\eta =1,</m> i.e., <m>100\% </m>efficient. 
+            It means if the temperature of the sink be zero, then complete 
+            conversion of heat into work is possible.  But further lowering of 
+            temperature if it is already sufficiently low is not easy. 
+            Hence, third law states that it is impossible by any procedure 
+            to reduce temperature of any system to absolute zero.     
+        </p>
+    </subsection>
+  </section>
+

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-examplesC" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples C</title>
+  
+<example>
+  <statement>
+    <p>
+      A mass of 1 kg resting on a frictionless horizontal surface is pressed against a 
+      spring of constant 100 N/m compressing the spring 25 cm and released from rest as 
+      shown in the figure below. <image source="oscil1.png" width="45%"> </image> 
+      <ol marker="a.">
+        <li>
+          Where will the block attain its fastest velocity? 
+        </li>
+        <li>
+          How fast will it be moving at that time?
+        </li>
+        <li>
+          Where will it stop again?
+        </li>
+        <li>
+          What will it do after it stops?
+        </li>
+        <li>
+          Where does the block attain its greatest acceleration?
+        </li>
+        <li>
+          What is that acceleration? 
+        </li>
+        <li>
+          Describe the motion of the block as time progresses.
+        </li>
+        <li>
+          Write the equation of motion for the block.
+        </li>
+        <li>
+          Write the equation for the velocity of the block. 
+        </li>
+        <li>
+          Write the equation for the acceleration of the block.
+        </li>
+        <li>
+          Compare (h) with (j) to obtain a relationship between <m>a</m> and <m>x</m> for the block.
+        </li>
+        <li>
+          Apply Newton's Second Law to the block so as to find <m>a</m> in terms of <m>x.</m> 
+        </li>
+        <li>
+          Compare (k) with (l) to obtain a relationship between <m>k</m> and <m>m</m> at (<m>x=A</m>) for the block. 
+        </li>
+        <li>
+          How long does it take for the block to reach the equilibrium point the first time?
+        </li>
+        <li>
+          How fast is the block moving when it is 10 cm beyond the equilibrium point?
+        </li>
+        <li>
+          What is the energy of the block when it is 10 cm beyond the equilibrium point?
+        </li>
+      </ol>
+      </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>m  =  1 \,kg, \quad k  =  100 \,N/m,\quad A  =  0.25 \,m,\quad  v_{o} =  0,</m> <m>\omega = \sqrt{\frac{k}{m}}=10 \,rad/s. </m> 
+    </p>
+    <ol marker="a.">
+      <li>
+       <p>
+        The velocity particle in shm is given by 
+        <me>
+          v=A\omega\sin\omega t.
+        </me>
+        For <m>v</m> to be maximum, <m>\sin\omega t=1 \Rightarrow\omega t=\frac{\pi}{2}</m>.
+         Hence the position of the particle at that time is 
+         <me>
+          x=A\cos\omega t = A\cos\frac{\pi}{2}=0 
+         </me>
+        i.e., at the equilibrium position: <m>x = 0.</m>
+       </p>
+      </li>
+      <li>
+       <p>
+        At equilibrium position, velocity of the block is <m>v=A\omega = 0.25\times10=  2.5 \,m/s.</m> 
+       </p> 
+       <p>
+        <term>Alternatively:</term> The total potential energy at extreme position is converted 
+        into total kinetic energy at mean position, i.e., 
+        <me>
+          1/2 k A^{2}  =  1/2 m v^{2} \quad	\Rightarrow \quad v  = \omega A  =  2.5 \,m/s
+        </me>
+           </p>
+      </li>
+      <li>
+       <p>
+        Velocity, <me>
+          v=A\omega\sin\omega t =0 \quad \Rightarrow \quad \omega t=0. 
+        </me>
+         Therefore, <me>
+          x=A\cos\omega t = A.
+         </me>
+         Hence at 25 cm to the right of equilibrium: <m>x  =  0.25 \,m.</m>
+       </p>
+      </li>
+      <li>
+       <p>
+        Because of maximum restoring force it starts accelerate to the left.
+       </p>
+      </li>
+      <li>
+        <p>
+          Since the restoring force is maximum at extremes, it attains maximum acceleration 
+          (<m>a=-\omega^{2}x</m>) at that points. Hence at the extremes, where it stops: <m>x  = A=  \pm 0.25 \,m.</m>
+        </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          k x  =  m a	\Rightarrow	a  =  \omega^{2}A  =  25 \,m/s^{2}
+        </me>
+          </p>
+      </li>
+      <li>
+       <p>
+        It speeds up, coasts through equilibrium, slows down, stops, and reverses itself.
+       </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          x  = - A \cos\omega t,  \quad \omega  =  \Rightarrow	x  =  - (0.25 \,m) \cos((10 \,rad/s) t)
+        </me>
+              </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          v  =  dx/dt   =  \omega A \sin\omega t	\Rightarrow	v  =  (2.5 \,m/s) \sin ((10 \,rad/s) t)
+        </me>
+          </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          a  =  \,d^{2}x/\,dt^{2}  =  \omega^{2} A \cos\omega t  	\Rightarrow	a  =  (25 \,m/s^{2}) \cos ((10 \,rad/s) t)
+        </me>
+          </p>
+      </li>
+      <li>
+        <p>
+          <me>
+            \frac{a}{x}  = -100 = -\omega^{2} \quad \Rightarrow a=-\omega^{2}  x
+          </me>
+              </p>
+      </li>
+      <li>
+        <p>
+          <me>
+            - k x  =  m a	\Rightarrow	a  =  - \frac{k}{m} A
+          </me>
+               </p>
+      </li>
+      <li>
+        <p>
+          <me>
+            \frac{a}{a} = \frac{-\omega^{2}  A}{- \frac{k}{m} A}\quad \Rightarrow\quad \omega^{2}  =  k/m	\quad \Rightarrow \omega  = \sqrt{\frac{k}{m}}
+          </me>
+                </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          [x  =  - (0.25 m) \cos ((10 rad/s) t)  =  0	\Rightarrow	\cos 10t  =\cos \frac{\pi}{2} 
+        </me>
+        <me>
+          \quad \therefore t=\frac{\pi}{20} = 0.157 \,s
+        </me>
+              </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          1/2 k A^{2}  =  1/2 m v^{2}  +  1/2 k x^{2}, \quad \text{at}\quad x  =  0.1 \,m,
+        </me>
+        <me>
+          v  =  \omega\sqrt{A^{2}-x^{2}}=  2.29 \,m/s
+        </me>
+            </p>
+      </li>
+      <li>
+       <p>
+        <me>
+          E  =  \frac{1}{2} k A^{2} =  3.125 \,J
+        </me>
+             </p>
+      </li>
+    </ol>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      A pendulum is hanging from the roof of a tall building which oscillates 10 times in 1 minute, find the height of the building.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>T= 1 minute= 60 s, \quad g=9.8m/s^{2},</m> 
+      <me>
+        f=10 cycle/minute= \frac{10}{60} (cycles/sec.) = \frac{1}{6} \,Hz.
+      </me>
+    <me>
+      \omega = 2\pi f = 2\pi\frac{1}{6}=\frac{\pi}{3}  = 1.05 \,rad/s 
+    </me>
+    <me>
+      \therefore \quad \omega =\sqrt{\frac{g}{l}}
+    </me>
+    <me>
+     or, \, l =\frac{g}{\omega^{2}} =\frac{9.8 }{1.05^{2}} = 8.89 \,m
+    </me>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A spring-mass system executing SHM with a period of 0.80 s and has a maximum displacement of 10 cm. 
+      Initially the mass is at 5.0 cm left of equilibrium and moving to the left. 
+      <image source="oscil2.png" width="45%"> </image> 
+      <ol marker="a.">
+        <li>
+          What is its position at <m>t=2.0 \,s</m> and in what direction  it is moving at that time? 
+        </li>
+        <li>
+          What is its velocity and  direction  at that time?
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      Initial condition at <m>t=0,</m>
+      <me>
+        x_{o}=-5.0 cm  = A\cos\phi_{o}
+      </me>
+      <me>
+        \therefore \quad \phi_{o}=\cos^{-1}\left(\frac{x_{o}}{A} \right)
+      </me>
+      <me>
+        = \cos^{-1}\left(-\frac{1}{2} \right) =\pm\frac{2\pi}{3} \,rad
+      </me>
+      Hence,
+     <me>
+       \phi_{o} =\frac{2\pi}{3} \,rad 
+     </me>
+     <me>
+      \omega=\frac{2\pi}{T} = \frac{2\pi}{0.80} = 7.85 \,rad/s
+     </me>
+     <ol marker="a.">
+      <li>
+        <me>
+          x(t) = A\cos\left(\omega t +\phi_{o}\right) = 10 \cos\left(7.85\times 2 +\frac{2\pi}{3}\right)  = 5.0 \,s
+        </me>
+      to the right of mean position.   
+      </li>
+      <li>
+        <me>
+          v(t) =-\omega A\sin(\omega t +\phi_{o}) 
+        </me>
+        <me>
+          = -7.85\times 10 \sin\left(7.85\times 2 +\frac{2\pi}{3}\right) = 68 \,cm/s
+        </me>
+           to the right of mean position going to towards <m>+A.</m>
+      </li>
+    </ol>
+          </p>
+  </solution>
+</example>
+</section>

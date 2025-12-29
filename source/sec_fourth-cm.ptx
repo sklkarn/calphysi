@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-cm" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Center of Mass</title>
+  
+   <introduction>
+    <p>
+      The center of mass of a system of particles is a point in space at 
+      which the net mass of the system seems to be located. It is the mean 
+      position of the mass of a system or a body. <term>Center of gravity</term> 
+      is an imaginary point in a body where the entire weight of the body may be 
+      assumed to be concentrated or it is a point at which the gravity appears to act. 
+      In a uniform gravitational field the center of gravity is identical to the 
+      center of mass, but they do not coincide in a non-uniform gravitational field. 
+      Imagine that you are lying horizontally in space above the planet where 
+      you are experiencing a greater gravitational field strength towards your head 
+      than towards your feet, then your center of gravity is located somewhere near 
+      your shoulder rather than your belly button (i.e. navel or your center of mass). 
+      The <term>center of gravity</term> (or center of mass) may coincide with a 
+      geometric center of the body if it has a uniform mass distribution and possess 
+      symmetrical shape. An asymmetrical object composed of a variety of materials 
+      with different masses, however, has a center of gravity located at some distance 
+      from its geometric center. In some cases, such as hollow bodies or irregularly 
+      shaped objects, the center of gravity (or center of mass) may occur in space at 
+      a point external to the physical material. For example, the center of mass of binary 
+      stars lies between the stars and in the center of a tennis ball. 
+    </p>
+    <figure xml:id="cmloct">
+      <caption></caption>
+      <image source="cmloct.png" width="35%"/>
+  </figure>
+    <p>
+      The center of (mass) gravity (point <m>G</m>) of any body can be determined by 
+      suspending the body by a cord attached at point <m>A</m> and then by a cord attached 
+      at <m>C</m>. When the body is suspended from <m>A</m>, the line <m>AD</m> is vertical; 
+      when it is suspended from <m>C</m>, the line <m>CE</m> is vertical. The center 
+      of gravity is at the intersection of <m>AD</m> and <m>CE</m> [<xref ref="cmloct"/>]. 
+      When an object is suspended from any single point, its center of gravity lies 
+      directly beneath that point. For a group of discrete masses the location 
+      of center of mass can be defined as:
+      <me>
+        r_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}r_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}}
+      </me>
+      Vector position of center of mass.
+    </p>
+<p>
+  or, 
+  <me>
+    r_{cm} =   \frac{\int\limits_{0}^{M}{r\,dm}}{\int\limits_{0}^{M}{\,dm}} =\frac{1}{\int\limits_{0}^{M} \,dm} \int\limits_{0}^{M}{r\,dm} = \frac{1}{M} \int\limits_{0}^{M}{r\,dm} 
+  </me>
+ or equivalently
+ <me>
+  x_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}x_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} = \frac{1}{M}\sum\limits_{i=1}^{n}{m_{i}x_{i}}\quad \text{(x-component of center of mass)}
+ </me>
+ <me>
+  y_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}y_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} =  \frac{1}{M}\sum\limits_{i=1}^{n}{m_{i}y_{i}}\quad \text{(y-component of center of mass)}
+ </me>
+ <me>
+  z_{cm} =   \frac{\sum\limits_{i=1}^{n}{m_{i}z_{i}}}{\sum\limits_{i=1}^{n}{m_{i}}} =  \frac{1}{M}\sum\limits_{i=1}^{n}{m_{i}z_{i}}\quad \text{(z-component of center of mass)}
+ </me>
+ </p>
+ <p>
+  <term>Problem Solving Technique:</term> To determine the center of mass of a 
+  uniformly distributed body, one performs the following steps:
+  <ol>
+    <li>
+      Break the body down into its constituent parts.
+    </li>
+    <li>
+      Specify the length, area, or volume of each constituent part.
+    </li>
+    <li>
+      Locate the coordinates of the center of mass of each constituent part.
+    </li>
+    <li>
+      Utilize the equations shown above using length, area, or volume in place of the mass.
+      <me>
+        e.g.,\quad x_{cm} =   \frac{\sum\limits_{i=1}^{n}{A_{i}x_{i}}}{\sum\limits_{i=1}^{n}{A_{i}}}
+      </me>
+      for a unifrom sheet
+    </li>
+    <li>
+      If an object has a uniform mass distribution (uniform density), then its 
+      geometric center is taken as center of mass.
+    </li>
+  </ol>
+ </p>
+   </introduction>
+
+
+  </section>
+

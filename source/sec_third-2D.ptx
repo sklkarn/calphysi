@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-2D" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>2D Kinematics</title>
+  <introduction>
+    <p>
+      The motion of object along a two directions has been analyzed in 2D kinematics. 
+      An object fired into the air moves in a vertical as well as horizontal directions. 
+      Such motion occurs in a two‐dimensional plane. The horizontal motion in a plane 
+      over the earth's surface is also a two‐dimensional motion.
+      The position vector of a particle in 2D is given by <m>\vec{r}  =  \vec{r}\{x(t),y(t)\}</m>.
+    </p>
+  </introduction>
+  
+  <subsection xml:id="subsec-projtile_motion">
+    <title>Projtile Motion</title>
+
+    <figure>
+      <caption></caption>
+        <sidebyside widths="40% 40%">
+    <figure xml:id="proj1">
+      <caption></caption>
+      <image source="proj1.png"/>
+    </figure>
+      <figure xml:id="proj3">
+        <caption></caption>
+        <image source="proj3.png"/>
+      </figure>
+      </sidebyside>
+  </figure>
+
+    <p>
+      Projectile is a particle which has both horizontal as well as vertical motions. 
+      For example, a baseball in flight is a projectile. To analyze the projectile motion, 
+      three basic assumptions are made: 
+      <ol>
+        <li>
+          acceleration due to gravity is constant and is directed downward, 
+        </li>
+        <li>
+          the effect of air resistance is negligible, and
+        </li>
+        <li>
+          the surface of the earth is flat.
+        </li>
+      </ol>
+      To analyze the projectile motion, two‐dimensional motion is separated into vertical 
+      and horizontal motions. The object in vertical motion experiences constant 
+      acceleration due to gravity. The object in horizontal motion on the other hand 
+      experiences no acceleration and hence it maintains a constant horizontal 
+      velocity through out its motion. Suppose a particle is thrown from the origin with an 
+      initial velocity (<m>v_{o}</m>), along an angle <m>\theta_{o}</m> from the ground level as 
+      shown in <xref ref="proj1"/>, then the x- and y- components of the initial velocity are given by 
+      <men xml:id="eqn-proj1">
+        v_{ox} = v_{o}\cos\theta_{o} 
+      </men>
+      and 
+      <men xml:id="eqn-proj2">
+         v_{oy} = v_{o}\sin\theta_{o} 
+      </men>
+      The horizontal distance covered by the projectile in any time <m>t</m> is given by 
+      <men xml:id="eqn-proj3">
+        x  =  v_{ox} t  \qquad  [\because a=constant]
+      </men>
+      The vertical distance covered by the projectile in any time <m>t</m> is given by 
+      <men xml:id="eqn-proj4">
+        y  =  v_{oy} t - \frac{1}{2} g t^{2} \qquad [\because a=-g]   
+      </men>
+      here <m>g</m> is taken as positive for downward direction. Hence velocities and angle of a 
+      projectile after time <m>t</m> is given by 
+      <men xml:id="eqn-proj5">
+        v_{x}  =  v_{ox} 
+      </men>
+      <men xml:id="eqn-proj6">
+        v_{y}  =  v_{oy}  -  g t   
+      </men>
+      and 
+      <men xml:id="eqn-proj7">
+      \tan\theta  = \frac{v_{y}}{v_{x}} \quad \Rightarrow \theta =tan^{-1}\left( \frac{v_{y}}{v_{x}}\right) 
+      </men>
+       </p>
+       <p>
+        The time taken by the projectile to reach its highest point, 
+        <m>H</m> and falls to the ground again is called a time of flight <m>T</m>. 
+        The time for the projectile to reach the ground from its highest point is 
+        equal to the time of fall for a freely falling object that falls straight 
+        down from the same height. This is because an object in flight only experiences 
+        vertical force (weight of the object) in vertical motion but not in horizontal 
+        motion as soon as it is released from the thrower's hand. Projectile paths 
+        are parabolic and, therefore, symmetric. The object reaches the top of its 
+        rise in half of the total time of flight <m>T</m>. At the top of the rise, 
+        the vertical velocity is zero. These facts can be used to derive the horizontal distance 
+        traveled by the projectile, also called the range <m>R</m>. At maximum height, 
+        <m>v_{y} = 0</m> and <m>t = \frac{T}{2}</m>; therefore, the time of 
+        flight using eqns. <xref ref="eqn-proj6"/> and <xref ref="eqn-proj2"/>
+        <me>
+          0= v_{oy}  -  g t = v_{o}\sin\theta_{o}  -g\frac{T}{2}   
+        </me>
+        <men xml:id="eqn-proj8">
+         \therefore \quad T = \frac{2v_{o}\sin\theta_{o}}{g}
+        </men>
+        and the range, <m>R</m> can be calculated using eqns. <xref ref="eqn-proj3"/>, <xref ref="eqn-proj1"/>, 
+        and <xref ref="eqn-proj8"/>,
+        <me>
+          x=v_{ox}t 
+        </me>
+        or,
+        <me>
+          R=v_{o}\cos\theta_{o}T = v_{o}\cos\theta_{o}\left(\frac{2v_{o}\sin\theta_{o}}{g}\right)
+        </me>
+         <men xml:id="eqn-proj9">
+          \therefore R =  \frac{v_{o}^{2}\sin 2\theta_{o}}{g}  \qquad [\because 2\sin\theta\cos\theta =\sin 2\theta]
+        </men>
+        The maximum height <m>H</m> is given by <me>
+          v^{2}_{f} = v^{2}_{o}+2as 
+        </me>
+        <me>
+        \text{or,}  \quad  0=v^{2}_{oy}-2gH 
+        </me>
+        <men xml:id="eqn-proj10">
+          \therefore H= \frac{v^{2}_{oy}}{2g} = \frac{v^{2}_{o}\sin^{2}\theta_{o}}{2g}
+        </men>
+        If <m>\theta_{o} = 45^{o}</m>, then <m>R = \frac{v_{o}^{2}\sin 90}{g} = \frac{v_{o}^{2}}{g}</m> 
+        is maximum using eqn. <xref ref="eqn-proj9"/>. <xref ref="proj3"/> sketches 
+        the trajectories of projectiles thrown with the same initial speed at different 
+        angles of inclination.  The trajectory of a projectile is parabolic in nature as 
+        can be seen from eqns.<xref ref="eqn-proj4"/> and <xref ref="eqn-proj3"/>,
+        <me>
+          y=v_{oy}t-\frac{1}{2}gt^{2} = v_{oy}\left(\frac{x}{v_{ox}}\right)-\frac{g}{2}\left(\frac{x}{v_{ox}}\right)^{2} 
+        </me>
+        <me>
+          =\left(\frac{v_{o}\sin\theta_{o}}{v_{o}\cos\theta_{o}}\right)x - \frac{g}{2}\left(\frac{x}{v_{o}\cos\theta_{o}}\right)^{2}
+        </me>
+         <men xml:id="eqn-proj11">
+          \therefore y=\tan\theta_{o}x-\left(\frac{g}{2v_{o}^{2}\cos^{2}\theta_{o}}\right)x^{2}   
+        </men>
+        which resembles the parabolic equation <m>y=ax+bx^{2}</m>.
+       </p>
+  </subsection>
+
+  <subsection xml:id="subsec-cir_kinem">
+    <title>Circular Kinematics</title>
+   <introduction>
+    <figure xml:id="cir1">
+      <caption></caption>
+      <image source="cir1.png" width="35%"/>
+    </figure>
+    <p>
+      An object moving in a circular path is called a circular motion. 
+      In a uniform circular motion the direction of velocity is constantly 
+      changing but its magnitude remains constant. This constantly changing 
+      velocity vector produces the acceleration on an object which is pointed 
+      towards the center of a circle, called a centripetal acceleration. For this 
+      acceleration to happen there must exists a resultant force which is called the 
+      centripetal force. The centripetal force is not a physical force like frictional 
+      force, normal force, or gravity force, etc. it does not act on a body but it 
+      makes the body to rotate in a circle.  This is a <term>resulting force</term> 
+      rather than a <term>causing force</term> like tension in a string, 
+      normal force acting on a body, frictional force between the surfaces of contact, 
+      and all fundamental forces. It is an unbalanced force. 
+      [<alert>Note</alert> that the causing force always comes in pair.] 
+      If <m>r</m> is the radius of the path, and <m>T</m> is the time period, 
+      the time it takes to complete a circle, then its speed (linear) is given by 
+      <me>
+        v = \frac{s}{t} = \frac{2\pi r}{T}
+      </me>
+      For a uniform circular motion centripetal acceleration <m>a_{c} = a_{r}</m>, is pointed 
+      along the radial direction towards its center and the tangential acceleration 
+      <m>a_{t}</m> is zero. For a non-uniform circular motion there is still a radial 
+      acceleration <m>a_{c} = a_{r}</m> but the tangential acceleration <m>a_{t}</m> is 
+      non-zero pointed along the direction of velocity. If the centripetal force 
+      vanishes, the object flies off at a tangent to the circle.
+    </p>
+   </introduction>
+
+   <subsubsection xml:id="subsubsec-cent_accel">
+    <title>Centripetal Acceleration:</title>
+    <figure>
+      <caption></caption>
+        <sidebyside widths="30% 30% 30%">
+    <figure xml:id="cir2">
+      <caption></caption>
+      <image source="cir2.png"/>
+    </figure>
+      <figure xml:id="cir2b">
+        <caption></caption>
+        <image source="cir2b.png"/>
+      </figure>
+      <figure xml:id="cir2c">
+        <caption></caption>
+        <image source="cir2c.png"/>
+      </figure>
+      </sidebyside>
+  </figure>
+
+    <p>
+      Consider a particle rotating in a circular path and reaches to point A 
+      from point B in a small time interval <m>\,dt</m>. The velocity vectors of the 
+      particle are <m>\vec{v}_{1}</m> at point A and  <m>\vec{v}_{2}</m> at point B. 
+      The angular displacement subtends by the particle between point A and B 
+      is <m>\,d\theta</m> as shown in <xref ref="cir2"/>.
+    </p>
+    <p>
+      From quadrilateral OAMB of <xref ref="cir2"/>, <m>\angle AOB+\angle AMB =180^{o}</m> 
+      and <m>\angle v_{1}AO+\angle MBO =180^{o}</m> hence,  
+      <m>\angle M = \,d\theta</m> as <m>\angle v_{1}MB = \angle v_{1}MA - \angle AMB </m>.
+      Now from radian formula, 
+      <me>
+        \,d\theta=\frac{\widehat{AB}}{r} = \frac{\,ds}{r}
+      </me>
+      Dividing both sides by <m>\,dt</m>, we get-
+      <me>
+        \frac{\,d\theta}{\,dt} = \frac{1}{r}\frac{\,ds}{\,dt} \quad \Rightarrow \omega = \frac{v}{r}
+      </me>
+      <men xml:id="eqn-cir_kin1">
+        \therefore\quad v=r\omega 
+      </men>
+    From <xref ref="cir2b"/>, <m>\vec{v}_{1}+\,d\vec{v}= \vec{v}_{2}</m> also, 
+    <me>
+      \,d\theta = \frac{\,dv}{v}
+    </me>
+    Dividing both sides by <m>\,dt</m>, we get-
+    <me>
+      \frac{\,d\theta}{\,dt} = \frac{1}{v}\frac{\,dv}{\,dt}
+    </me>
+    <me>
+      \omega = \frac{a}{v} \quad \Rightarrow \quad a=v\omega
+    </me>
+    <men xml:id="eqn-cir_kin2">
+      \therefore\quad a=\frac{v^{2}}{r}
+    </men>
+    using eqn. <xref ref="eqn-cir_kin1"/>
+    where <m>a=a_{c}=\frac{v^{2}}{r}</m>, is a centripetal acceleration. 
+    In uniform circular motion <m>a_{c}=a_{r}</m> is called the radial 
+    acceleration. In non-uniform circular motion the magnitude of a linear 
+    velocity is changing with time, and hence there is another acceleration
+    presents along the tangential direction of motion, also called tangential 
+    acceleration. Which can be obtained by differentiating eqn.<xref ref="eqn-cir_kin1"/> w.r.t. 't',
+    <me>
+      \frac{\,dv}{\,dt}=r\frac{\omega }{\,dt}
+    </me>
+    
+    <men xml:id="eqn-cir_kin3">
+      a_{t}=r\alpha 
+    </men>
+    Hence the resultant acceleration in non-uniform circular motion [<xref ref="cir2c"/>] is given by 
+    <me>
+      a_{R}=\sqrt{a^{2}_{r}+a^{2}_{t}}
+    </me>
+    </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-ang_displ">
+    <title>Angular Displacement, <m>\theta</m>:</title>
+    <p>
+      The angle subtends by an object when rotating in a circular path about 
+      an axis is called the angular displacement. In a 2D space, angular displacement 
+      describes a rotation of an object and is a simply number, a scalar. 
+      However, in 3D space, direction of the axis of rotation of an object 
+      need to be specified and hence it behaves as a vector. The direction of 
+      the vector is the direction of the axis of rotation, and the magnitude 
+      is how big the rotation was. Since angular displacement does not follow 
+      all the vectors rule in 2 dimension hence it is not taken as a vector quantity. 
+      For angular rotation in 2D, 
+      <me>\vec{\theta_{1}}+\vec{\theta_{2}}\neq\vec{\theta_{2}}+\vec{\theta_{1}}</me>, 
+      i.e. not commutative for large angles. Suppose you have two pencils parallel 
+      to each other facing tips opposite to you. You rotate first pencil to <m>90^{o}</m> 
+      about vertical axis so that tip facing left side, then rotate it again by <m>90^{o}</m> 
+      about a horizontal axis so that its tip facing upward. Now rotate the 
+      second pencil by <m>90^{o}</m> about the horizontal axis so that its 
+      tip facing upward and again rotate it by <m>90^{o}</m> about a another 
+      horizontal axis so that tip facing left. Now you can see that they 
+      have different orientations, not parallel any more. 
+    </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-ang_vel">
+    <title>Angular Velocity, <m>\omega</m>:</title>
+    <p>
+      The angular velocity, <m>\omega</m> of an object is defined as the rate 
+      of change of angular displacement, <m>\theta</m>. That is, <m>\omega=\frac{\theta}{t}</m>. 
+      It is measured in unit (<m>rad/s</m>). It is a vector quantity and its 
+      direction is along the direction of axis of rotation defined by right 
+      hand thumb rule. If fingers of right hand are curled in the direction 
+      of rotation of the body then thumb pointed along the direction of angular velocity. 
+      The average angular velocity is given by 
+      <me>
+        \omega_{av} = \frac{\theta_{2}-\theta_{1}}{t_{2}-t_{1}}
+      </me>
+      and the instantaneous angular velocity is given by 
+      <me>
+        \omega = \frac{\,d\theta}{\,dt}.
+      </me>
+      </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-ang_freq">
+    <title>Angular Frequency, <m>\omega</m>:</title>
+    <p>
+      It is also known as circular frequency which measures angular displacement 
+      per unit time. Its unit is therefore radians per second. It is a scalar 
+      quantity. It is related to angular velocity in the same way as circular 
+      motion is related to simple harmonic motion. If an object goes around 
+      a circle path once in a certain time T (in seconds), then it has subtended 
+      <m>2\pi</m> radians angle, and its angular velocity is thus 
+      <m>\omega = \frac{\theta}{t}=\frac{2\pi}{t} </m> radians per second. 
+      <m>\frac{1}{T}=f</m>, frequency and hence <m>\omega=2\pi f,</m> the angular frequency.
+    </p>
+   </subsubsection>
+
+   <subsubsection xml:id="subsubsec-ang_accel">
+    <title>Angular Acceleration, <m>\alpha</m>:</title>
+    <p>
+      It is the rate of change of angular velocity. The average angular 
+      acceleration is given by <me>
+        \alpha_{av} = \frac{\omega_{2}-\omega_{1}}{t_{2}-t_{1}}
+      </me>
+      and the instantaneous angular acceleration is given by 
+      <me>
+        \alpha = \frac{\,d\omega}{\,dt}. 
+      </me> 
+       </p>
+       <figure xml:id="cirkint">
+        <caption></caption>
+        <image source="cirkint.png" width="30%"/>
+      </figure>
+       <p>
+        Equations of motion in a circular motion:
+        <men xml:id="eqn-cir_kin4">
+          \omega_{f}=\omega_{i}+\alpha t   
+         </men>
+         <men xml:id="eqn-cir_kin5">
+          \omega^{2}_{f}=\omega^{2}_{i}+2\alpha\theta  
+         </men>
+         <men xml:id="eqn-cir_kin6">
+          \theta = \omega_{i}t+\frac{1}{2}\alpha t^{2} 
+         </men>
+         </p>
+         </subsubsection>
+  </subsection>
+
+<subsection xml:id="subsec-polar_coord">
+  <title>Motion in Polar Coordinates</title>
+  <p>
+    In polar coordinates, the position of a particle P, is determined by the 
+    position vector, <m>\vec{r},</m> and the angle <m>\theta</m> of the 
+    vector with the horizontal axis. The trajectory of the particle is 
+    given by a function of <m>r(t),\theta(t)</m>. 
+  </p>
+  <figure xml:id="polarcord">
+    <caption></caption>
+    <image source="polarcord.png" width="30%"/>
+  </figure>
+<p>
+  From <xref ref="polarcord"/>, 
+  <me>
+    \hat{e}_{r}=\cos\theta\hat{i}+\sin\theta\hat{j} 
+  </me>
+  <me>
+    \text{and} \quad \hat{e}_{\theta}=-\sin\theta\hat{i}+\cos\theta\hat{j} 
+  </me>
+   where <m>\hat{e}_{r}</m> and <m>\hat{e}_{\theta}</m> are unit vectors at point P 
+   along radial and circumferential directions and are perpendicular to each other. Now, 
+   <me>
+    \vec{r}=x\hat{i}+y\hat{j} = r\cos\theta\hat{i}+r\sin\theta\hat{j} = r\left(\cos\theta\hat{i}+\sin\theta\hat{j}\right) =r\hat{e}_{r}
+   </me>
+   <me>
+    \frac{\,d\hat{e}_{r}}{\,dr} =0, \qquad \frac{\,d\hat{e}_{\theta}}{\,dr} =0
+   </me>
+   <me>
+    \frac{\,d\hat{e}_{r}}{\,d\theta} =-\sin\theta\hat{i}+\cos\theta\hat{j} = \hat{e}_{\theta}, 
+   </me>
+   <me>
+    \text{and} \quad \frac{\,d\hat{e}_{\theta}}{\,d\theta} =-\cos\theta\hat{i}-\sin\theta\hat{j} = -\hat{e}_{r}
+   </me>
+   <me>
+    \therefore v= \dot{\vec{r}}  = \dot{r} \hat{e}_{r} +r\dot{\theta}\hat{e}_{\theta} =v_{r}\hat{e}_{r}+v_{\theta} \hat{e}_{\theta}
+   </me>
+   <me>
+    Hence, \quad v_{r}= \dot{r} \quad \text{and}\quad v_{\theta}=r\dot{\theta} 
+   </me>
+   Where <m>v_{r}</m>, and <m>v_{\theta}</m>  are radial and circumferential component 
+   of velocity, respectively. The radial velocity describe the rate at which 
+   <m>r</m> stretches and circumferential velocity describe the rate at which <m>r</m> swings. Now,
+   <me>
+    \vec{a} = \dot{\vec{v}} = \ddot{r}\hat{e}_{r}+\dot{r}\hat{\dot{e}}_{r} +\dot{r}\dot{\theta}\hat{e}_{\theta}+r\ddot{\theta} \hat{e}_{\theta}+ r\dot{\theta}\hat{\dot{e}}_{\theta}
+   </me>
+   <me>
+    \because \quad \hat{\dot{e}}_{r} = -\sin\theta\dot{\theta}\hat{i}+\cos\theta\dot{\theta}\hat{j} =\dot{\theta}\hat{e}_{\theta}
+   </me>
+   <me>
+    also, \quad \hat{\dot{e}}_{\theta} = -\cos\theta\dot{\theta}\hat{i}-\sin\theta\dot{\theta}\hat{j} 
+    =-\dot{\theta}\hat{e}_{r}
+   </me>
+   <me>
+    \therefore \vec{a} = \left(\ddot{r} -r\dot{\theta}^{2}\right)\hat{e}_{r} +\left(r\ddot{\theta}+2\dot{r}\dot{\theta}\right)\hat{e}_{\theta} =a_{r}+a_{\theta}
+   </me>
+   <me>
+    \therefore a_{r} =  \left(\ddot{r} -r\dot{\theta}^{2}\right) 
+   </me>
+   <me>
+    \text{and}\quad a_{\theta} =  \left(r\ddot{\theta}+2\dot{r}\dot{\theta}\right)
+   </me>
+   </p>
+</subsection>
+  </section>
+

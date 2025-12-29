@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Examples B</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics">
+<meta property="book:author" content="Sunil Karna">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.42217a82c75796c8.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.7e141ad8414abf4a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="calphysi.html"><span class="title">General Physics</span> <span class="subtitle">Volume I</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec_seventh-rotdyn.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_seventh.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_seventh-oscil.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec_dimanal-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-erranalysis" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec-sigfig" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-compnt_vect" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec-vect_mult" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-axis_transform" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Transformation of Axis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-1D.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-1D.html#subsec-slope" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Analyzing the motion curve</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsubsec-graph_read" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Reading of <span class="process-math">\(x \sim t\)</span> graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-eqns_motion" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Equations of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rel_vel" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Relative velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rule_solveMotion" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Rules to follow while solving motion problems:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-2D.html" class="internal"><span class="codenumber">3.3</span> <span class="title">2D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-projtile_motion" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Projtile Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-2D.html#subsec-cir_kinem" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Circular Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-cent_accel" class="internal"><span class="codenumber">3.3.2.1</span> <span class="title">Centripetal Acceleration:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_displ" class="internal"><span class="codenumber">3.3.2.2</span> <span class="title">Angular Displacement, <span class="process-math">\(\theta\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_vel" class="internal"><span class="codenumber">3.3.2.3</span> <span class="title">Angular Velocity, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_freq" class="internal"><span class="codenumber">3.3.2.4</span> <span class="title">Angular Frequency, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_accel" class="internal"><span class="codenumber">3.3.2.5</span> <span class="title">Angular Acceleration, <span class="process-math">\(\alpha\text{:}\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-polar_coord" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Motion in Polar Coordinates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Force and Equilibrium</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Types of Forces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-types_forces" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Fundamental and Mechanical Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-Nlaw_motion" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-friction" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Friction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-statics" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Statics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-state_eqlbrm" class="internal"><span class="codenumber">4.1.4.1</span> <span class="title">Static Equilibrium</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-transeql.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Translational Equilibrium</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-dynamics.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-atwood_machine" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Atwood’s Machine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-air_drag" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Motion in Air Drag</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesC.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-circular.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Circular Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-con_pendulum" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Horizontal Circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-vertcir" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Vertical Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-banking.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Banking of a Curve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesD.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Examples D</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-cm.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Center of Mass</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-torque.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Torque</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-rot_eql" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Rotational Equilibrium</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-st_equlbrm" class="internal"><span class="codenumber">4.11.2</span> <span class="title">States of Equilibrium</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesE.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Examples E</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Energy and Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Work, Energy, and Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-work" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Work</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-energy" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-we_theorem" class="internal"><span class="codenumber">5.1.2.1</span> <span class="title">Work-Energy Theorem</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-ke" class="internal"><span class="codenumber">5.1.2.2</span> <span class="title">Kinetic Energy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-pe" class="internal"><span class="codenumber">5.1.2.3</span> <span class="title">Potential Energy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-con_nonconservF" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Conservative and Non-Conservative Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-princ_con-energy" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Principle of Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ediagram" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Energy Diagram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ll_track" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Loop-the-Loop Track</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-power.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsec-sm" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Simple Machine</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-power.html#subsec-pulley" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Pulley</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-mech_adv" class="internal"><span class="codenumber">5.2.2.1</span> <span class="title">Mechanical Advantage</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-pulley_type" class="internal"><span class="codenumber">5.2.2.2</span> <span class="title">Types of Pulley</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Impulse and Momentum</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-collision" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-ineleast_col" class="internal"><span class="codenumber">5.4.1.1</span> <span class="title">Inelastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-elast_col" class="internal"><span class="codenumber">5.4.1.2</span> <span class="title">Elastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-2d_col" class="internal"><span class="codenumber">5.4.1.3</span> <span class="title">Collision in 2D</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-coef_restit" class="internal"><span class="codenumber">5.4.1.4</span> <span class="title">Coefficient of Restitution, e</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-ball_pendulum" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Ballistic Pendulum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Newton’s Law of Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-accl_grav" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Acceleration Due to Gravity, <span class="process-math">\(g\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-rot_g" class="internal"><span class="codenumber">6.1.1.1</span> <span class="title">Effect of the Rotation of the Earth on  g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-alt_g" class="internal"><span class="codenumber">6.1.1.2</span> <span class="title">Effect of Altitude of the Earth on g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-depth_g" class="internal"><span class="codenumber">6.1.1.3</span> <span class="title">Effect of Depth of the Earth on g</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-grav_pot" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Gravitational Potential Energy, U</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-orb_vel" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Orbital Velocity of a Satelite</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-esc_vel" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Escape Velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-geo_sync" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Geosynchronous satellite</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-kepler.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Kepler’s Laws of Planetary Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-pol_cord" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Polar Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepI_law" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepII_law" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Derivation of Kepler’s II Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepIII_law" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Derivation of Kepler’s III Law</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Rigid Body</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Moment of Inertia</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-paral_axis" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Parallel axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-perpend_axis" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Perpendicular axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_ring" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Moment of Inertia of a Ring or Hoop</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_cm" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_rim" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">About an axis passing through its rim and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_diam" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">About an axis through its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_rod" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Moment of Inertia of a Rod</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_cm" class="internal"><span class="codenumber">7.1.4.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_edge" class="internal"><span class="codenumber">7.1.4.2</span> <span class="title">About an axis passing through its one edge and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_length" class="internal"><span class="codenumber">7.1.4.3</span> <span class="title">About an axis passing along its length and through the center of mass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_disk" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Moment of Inertia of a Disk</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_cm" class="internal"><span class="codenumber">7.1.5.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_diam" class="internal"><span class="codenumber">7.1.5.2</span> <span class="title">About an axis through its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_edge" class="internal"><span class="codenumber">7.1.5.3</span> <span class="title">About an axis passing through its edge and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_plate" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Moment of Inertia of a Plate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmlength" class="internal"><span class="codenumber">7.1.6.1</span> <span class="title">About an axis <span class="process-math">\(I_{x}\)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmwide" class="internal"><span class="codenumber">7.1.6.2</span> <span class="title">About an axis <span class="process-math">\(I_{y} \)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_perpnd" class="internal"><span class="codenumber">7.1.6.3</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cylnd" class="internal"><span class="codenumber">7.1.7</span> <span class="title">Moment of Inertia of a Cylinder</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cm" class="internal"><span class="codenumber">7.1.7.1</span> <span class="title">Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_percm" class="internal"><span class="codenumber">7.1.7.2</span> <span class="title">Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cmsolid" class="internal"><span class="codenumber">7.1.7.3</span> <span class="title">Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cone" class="internal"><span class="codenumber">7.1.8</span> <span class="title">Moment of Inertia of a Cone</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miscone_symtr" class="internal"><span class="codenumber">7.1.8.1</span> <span class="title">Moment of Inertia of a Solid Cone about an axis of symmetry</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miscone_vertx" class="internal"><span class="codenumber">7.1.8.2</span> <span class="title">Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihcone_symt" class="internal"><span class="codenumber">7.1.8.3</span> <span class="title">Moment of Inertia of a Hollow Cone about an axis of symmetry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_spher" class="internal"><span class="codenumber">7.1.9</span> <span class="title">Moment of Inertia of a Sphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihspher" class="internal"><span class="codenumber">7.1.9.1</span> <span class="title">Moment of inertia of a hollow sphere about its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-misspher" class="internal"><span class="codenumber">7.1.9.2</span> <span class="title">Moment of inertia of a solid sphere about its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-rad_gyr" class="internal"><span class="codenumber">7.1.10</span> <span class="title">Radius of Gyration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesA.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-rotdyn.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Rotational Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rot_overview" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Rotational Overview</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rwep" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-ang_momnt" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Angular Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-gyros" class="internal"><span class="codenumber">7.3.4</span> <span class="title">The Gyroscope</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec_seventh-examplesB.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Oscillatory Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-shm" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-eq_shm" class="internal"><span class="codenumber">7.5.1.1</span> <span class="title">Equation of SHM</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-energy_shm" class="internal"><span class="codenumber">7.5.1.2</span> <span class="title">Energy in SHM</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-simp_pendulum" class="internal"><span class="codenumber">7.5.2</span> <span class="title">Simple Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-comp_pendulum" class="internal"><span class="codenumber">7.5.3</span> <span class="title">Compound Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-largeangl_approx" class="internal"><span class="codenumber">7.5.4</span> <span class="title">Simple Pendulum with Large Angle Approximation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesC.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eighth.html" class="internal"><span class="codenumber">8</span> <span class="title">Elasticity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-intro.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Hooke’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-elst_mod" class="internal"><span class="codenumber">8.1.1</span> <span class="title">Elastic Modulus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-young_mod" class="internal"><span class="codenumber">8.1.1.1</span> <span class="title">Young’s Modulus or Elasticity of Length</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-bulk_mod" class="internal"><span class="codenumber">8.1.1.2</span> <span class="title">Bulk Modulus or Elasticity of Volume</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-sher_mod" class="internal"><span class="codenumber">8.1.1.3</span> <span class="title">Shear Modulus (Modulus of Rigidity) or Elasticity of Shape</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-hook_spring" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Hook’s Law for a Spring</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-elast_potenrg" class="internal"><span class="codenumber">8.1.3</span> <span class="title">Elastic Potential Energy</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eighth-examplesA.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eighth.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_ninth.html" class="internal"><span class="codenumber">9</span> <span class="title">Fluid Mechanics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-intro.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Fluid Statics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-pascle_prncpl" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Pascal’s Principle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsubsec-pres_mesrmnt" class="internal"><span class="codenumber">9.1.1.1</span> <span class="title">Measurement of Fluid Pressure</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-archm_princp" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Archimedes’ Principle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-fflow.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Fluid Flow</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-eq_contnty" class="internal"><span class="codenumber">9.2.1</span> <span class="title">Equation of Continuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-bernols" class="internal"><span class="codenumber">9.2.2</span> <span class="title">Bernoulli’s Principle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-appl_bernl" class="internal"><span class="codenumber">9.2.3</span> <span class="title">Applications of Bernoulli’s Principle:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examplesA.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-visc.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Viscosity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-coef_visc" class="internal"><span class="codenumber">9.4.1</span> <span class="title">Coefficient of Viscosit</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-pois_law" class="internal"><span class="codenumber">9.4.2</span> <span class="title">Poiseuille’s Law</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-stok_law" class="internal"><span class="codenumber">9.4.3</span> <span class="title">Stoke’s Law</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsubsec-terminal_vel" class="internal"><span class="codenumber">9.4.3.1</span> <span class="title">Terminal velocity of a body moving through a fluid</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-surtens.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Surface Tension</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-capl_act" class="internal"><span class="codenumber">9.5.1</span> <span class="title">Capillary Action</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-surfenergy" class="internal"><span class="codenumber">9.5.2</span> <span class="title">Equivalence between surface tension and surface energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-buble" class="internal"><span class="codenumber">9.5.3</span> <span class="title">Soap Bubble</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examplesB.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_ninth.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_tenth.html" class="internal"><span class="codenumber">10</span> <span class="title">Heat and Thermodynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-intro.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-temp_therm" class="internal"><span class="codenumber">10.1.1</span> <span class="title">Temperature and Thermometers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-" class="internal"><span class="codenumber">10.1.2</span> <span class="title">Absolute Scale</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-therm_exp.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Thermal Expansion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-lin_exp" class="internal"><span class="codenumber">10.2.1</span> <span class="title">Linear Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-super_exp" class="internal"><span class="codenumber">10.2.2</span> <span class="title">Superficial Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-vol_exp" class="internal"><span class="codenumber">10.2.3</span> <span class="title">Volumetric (Cubic) Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-rel_therexp" class="internal"><span class="codenumber">10.2.4</span> <span class="title">Relation between <span class="process-math">\(\alpha, \,\beta,\)</span>  and <span class="process-math">\(\gamma\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-water_anom" class="internal"><span class="codenumber">10.2.5</span> <span class="title">Anomalous expansion of water</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-heat_meas.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Quantity of Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-sp_heat" class="internal"><span class="codenumber">10.3.1</span> <span class="title">Specific Heat Capacity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-latent" class="internal"><span class="codenumber">10.3.2</span> <span class="title">Latent Heat</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-phase_change" class="internal"><span class="codenumber">10.3.3</span> <span class="title">Phase Changes of Matter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-calrmtr" class="internal"><span class="codenumber">10.3.4</span> <span class="title">Calorimetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-triple_pnt" class="internal"><span class="codenumber">10.3.5</span> <span class="title">Triple Point of Water</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-heat_trans" class="internal"><span class="codenumber">10.3.6</span> <span class="title">Heat Transfer</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-newton_cool" class="internal"><span class="codenumber">10.3.7</span> <span class="title">Newton’s Law of Cooling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-solar_const" class="internal"><span class="codenumber">10.3.8</span> <span class="title">Solar Constant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examplesA.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-kt_gas.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Kinetic Theory of Ideal Gas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-gas_pres" class="internal"><span class="codenumber">10.5.1</span> <span class="title">Pressure of an Ideal Gas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-dg_freedom" class="internal"><span class="codenumber">10.5.2</span> <span class="title">Degree of Freedom:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-equip_law" class="internal"><span class="codenumber">10.5.3</span> <span class="title">Law of Equipartition of Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsubsec-avagdrs" class="internal"><span class="codenumber">10.5.3.1</span> <span class="title">Avogadro’s Number, <span class="process-math">\(N_{A}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsubsec-amu" class="internal"><span class="codenumber">10.5.3.2</span> <span class="title">Atomic Mass Unit, u</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-internal_energy" class="internal"><span class="codenumber">10.5.4</span> <span class="title">Internal Energy of a Gas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-gas_laws" class="internal"><span class="codenumber">10.5.5</span> <span class="title">Gas Laws</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Thermodynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-therm_varbls" class="internal"><span class="codenumber">10.6.1</span> <span class="title">Thermodynamical Variables</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-therm_laws" class="internal"><span class="codenumber">10.6.2</span> <span class="title">Laws of Thermodynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-zeroth" class="internal"><span class="codenumber">10.6.2.1</span> <span class="title">Zeroth Law of Thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-I_law-therm" class="internal"><span class="codenumber">10.6.2.2</span> <span class="title">First Law of Thermodynamics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-Ilaw_appl" class="internal"><span class="codenumber">10.6.3</span> <span class="title">Application of I law of thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-II_law" class="internal"><span class="codenumber">10.6.4</span> <span class="title">Second Law of Thermodunamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-heat_engn" class="internal"><span class="codenumber">10.6.5</span> <span class="title">Heat Engines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-carnot_engn" class="internal"><span class="codenumber">10.6.6</span> <span class="title">Carnot’s Heat Engine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-revs_heatengn" class="internal"><span class="codenumber">10.6.7</span> <span class="title">Reversible Heat Engines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-canot_cycl" class="internal"><span class="codenumber">10.6.8</span> <span class="title">Carnot’s Cycle:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-carnt_therm" class="internal"><span class="codenumber">10.6.9</span> <span class="title">Carnot’s Theorem:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-heat_pump" class="internal"><span class="codenumber">10.6.10</span> <span class="title">Heat Pump and Refrigerator</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-cop" class="internal"><span class="codenumber">10.6.10.1</span> <span class="title">Coefficient of Performance,	COP:</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-entropy" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-entropy_incrs" class="internal"><span class="codenumber">10.6.11.1</span> <span class="title">Principle of increase of entropy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-entropy_degrad" class="internal"><span class="codenumber">10.6.11.2</span> <span class="title">Principle of degradation of entropy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-entropy_prob" class="internal"><span class="codenumber">10.6.12</span> <span class="title">Entropy and Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-III_law" class="internal"><span class="codenumber">10.6.13</span> <span class="title">Third Law of Thermodynamics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examplesB.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_tenth.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_physTable.html" class="internal"><span class="codenumber">B</span> <span class="title">Useful Data and Greek Letters</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_seventh-examplesB"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">7.4</span><span class="space"> </span><span class="title">Examples B</span>
+</h2>
+<details id="sec_seventh-examplesB-2" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.1</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-2-1-1">
+<div class="para">A body rotates according to the equation <span class="process-math">\(\theta = At + Bt^{3}\text{,}\)</span> where <span class="process-math">\(A = 10 \,rad/s\)</span> and <span class="process-math">\(B = 2 \, rad/s^{3}\text{.}\)</span> Find:</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-2-1-1-4">
+<li id="sec_seventh-examplesB-2-1-1-4-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-1-1-4-1"><span class="process-math">\(\displaystyle \theta(2s)\)</span></div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-2-1-1-4-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-1-1-4-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-1-1-4-2"><span class="process-math">\(\displaystyle \omega_{av}(0,2s)\)</span></div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-2-1-1-4-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-1-1-4-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-1-1-4-3"><span class="process-math">\(\displaystyle \omega(3s)\)</span></div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-2-1-1-4-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-1-1-4-4">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-1-1-4-4"><span class="process-math">\(\displaystyle \alpha_{av}(0,3s)\)</span></div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-examplesB-2-1-1-4-4" title="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-1-1-4-5">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-1-1-4-5"><span class="process-math">\(\displaystyle \alpha(4s).\)</span></div>
+<div class="autopermalink" data-description="Item e"><a href="#sec_seventh-examplesB-2-1-1-4-5" title="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-2-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-2-2-1">
+<div class="para">Given: <span class="process-math">\(A = 10 \,rad/s,\, B = 2\, rad/s^{3} \)</span>
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-2-2-1-2">
+<li id="sec_seventh-examplesB-2-2-1-2-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-2-1-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\theta(t)  =  A t  +  B t^{3}, 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \theta(2s) = 10\times 2+ 2\times 2^{3} = 36\, rad.
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-2-2-1-2-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-2-1-2-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-2-1-2-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\omega_{av}  =   \frac{\theta_{2}-\theta_{1}}{t_{2}-t_{1}}; 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore   \omega_{av}(0,2\,s)  = \frac{36-0}{2} =  18 \,rad/s 
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-2-2-1-2-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-2-1-2-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-2-1-2-3">
+<div class="displaymath process-math">
+\begin{equation*}
+\omega(t)  = \frac{\,d\theta}{\,dt} =  A  +  3 B t^{2};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \omega(3\,s)  =  10+3\times 2\times 3^{2} = 64 \,rad/s 
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-2-2-1-2-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-2-1-2-4">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-2-1-2-4">
+<div class="displaymath process-math">
+\begin{equation*}
+\alpha_{av}  = \frac{\omega_{2}-\omega_{1}}{t_{2}-t_{1}};
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\alpha(0,3\,s) =\frac{64-10}{3} = 18 \,rad/s^{2}
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-examplesB-2-2-1-2-4" title="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-2-2-1-2-5">
+<div class="para" id="p-derived-sec_seventh-examplesB-2-2-1-2-5">
+<div class="displaymath process-math">
+\begin{equation*}
+\alpha (t) = \frac{\,d\omega}{\,dt} =  6 B t, 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\alpha(4\,s) =6\times2\times4= 48 \, rad/s^{2}.
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item e"><a href="#sec_seventh-examplesB-2-2-1-2-5" title="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.1.1"><a href="#sec_seventh-examplesB-2-2" title="Copy heading and permalink for Solution 7.4.1.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.1"><a href="#sec_seventh-examplesB-2" title="Copy heading and permalink for Example 7.4.1">🔗</a></div></article></details><details id="sec_seventh-examplesB-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.2</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-3-1-1">
+<div class="para">A tire of mass 30 kg, radius of gyration 20 cm, and diameter 50 cm accelerates uniformly from rest. A small nail is embedded in the outer tread of the tire. After 100 revolutions the tire is rotating at 400 rpm. At that time, find each of the following:</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-3-1-1-1">
+<li id="sec_seventh-examplesB-3-1-1-1-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-1">What is its angular acceleration?</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-3-1-1-1-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-2">How much time did it take to get up to speed?</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-3-1-1-1-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-3">What is the speed of the nail?</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-3-1-1-1-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-4">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-4">What is the acceleration of the nail?</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-examplesB-3-1-1-1-4" title="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-5">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-5">What is the moment of inertia of the wheel?</div>
+<div class="autopermalink" data-description="Item e"><a href="#sec_seventh-examplesB-3-1-1-1-5" title="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-6">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-6">What torque is required to make the wheel rotate?</div>
+<div class="autopermalink" data-description="Item f"><a href="#sec_seventh-examplesB-3-1-1-1-6" title="Copy heading and permalink for Item f">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-7">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-7">How much energy was imparted to the wheel?</div>
+<div class="autopermalink" data-description="Item g"><a href="#sec_seventh-examplesB-3-1-1-1-7" title="Copy heading and permalink for Item g">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-8">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-8">How much power is required to rotate the wheel?</div>
+<div class="autopermalink" data-description="Item h"><a href="#sec_seventh-examplesB-3-1-1-1-8" title="Copy heading and permalink for Item h">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-1-1-1-9">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-1-1-1-9">What is the angular momentum of the wheel?</div>
+<div class="autopermalink" data-description="Item i"><a href="#sec_seventh-examplesB-3-1-1-1-9" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-3-2-1">
+<div class="para">Given:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+m  =  30 \,kg,\quad R  =  0.2 m,\quad  r  =  0.25 \,m,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\theta  =  100 \, rev (2\pi rad/rev)  =  628.3\, rad,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\omega  =  400 \,rpm (2 \pi/60 \,rad/s)  =  41.89 \,rad/s,\quad  \omega_{o}=0	
+\end{equation*}
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-3-2-1-4">
+<li id="sec_seventh-examplesB-3-2-1-4-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-1"><div class="displaymath process-math">
+\begin{equation*}
+\omega^{2}  = \omega^{2}_{o}  + 2 \alpha\theta, \quad \alpha =  1.396 \,rad/s^{2} 
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-3-2-1-4-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-2"><div class="displaymath process-math">
+\begin{equation*}
+\omega =  \omega_{o}  + \alpha t,\quad  t  =  30 \,s 
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-3-2-1-4-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-3"><div class="displaymath process-math">
+\begin{equation*}
+v  =  r\omega  =  10.47 \, m/s
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-3-2-1-4-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-4">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-4">
+<div class="displaymath process-math">
+\begin{equation*}
+a_{R}  =  r\omega^{2}  =  438.7 m/s,\quad a_{T} =  r \alpha  =  0.349 \,m/s,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a  = \sqrt{a_{R}^{2}+a_{T}^{2}} =  438.7 \,m/s
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-examplesB-3-2-1-4-4" title="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-5">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-5"><div class="displaymath process-math">
+\begin{equation*}
+I  =  m R^{2}  =  1.2 \,kg.m^{2}
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item e"><a href="#sec_seventh-examplesB-3-2-1-4-5" title="Copy heading and permalink for Item e">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-6">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-6"><div class="displaymath process-math">
+\begin{equation*}
+\Gamma  =  I \alpha  =  1.675 \,N.m
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item f"><a href="#sec_seventh-examplesB-3-2-1-4-6" title="Copy heading and permalink for Item f">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-7">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-7"><div class="displaymath process-math">
+\begin{equation*}
+E  = \frac{1}{2} I \omega^{2}  =  1053\, J
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item g"><a href="#sec_seventh-examplesB-3-2-1-4-7" title="Copy heading and permalink for Item g">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-8">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-8"><div class="displaymath process-math">
+\begin{equation*}
+P  = \Gamma\omega  =  70.16 \,W	
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item h"><a href="#sec_seventh-examplesB-3-2-1-4-8" title="Copy heading and permalink for Item h">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-3-2-1-4-9">
+<div class="para" id="p-derived-sec_seventh-examplesB-3-2-1-4-9"><div class="displaymath process-math">
+\begin{equation*}
+L  =  I \omega  =  50.27 \,kg.m^{2}/s 
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item i"><a href="#sec_seventh-examplesB-3-2-1-4-9" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.2.1"><a href="#sec_seventh-examplesB-3-2" title="Copy heading and permalink for Solution 7.4.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.2"><a href="#sec_seventh-examplesB-3" title="Copy heading and permalink for Example 7.4.2">🔗</a></div></article></details><details id="sec_seventh-examplesB-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.3</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-4-1-1">
+<div class="para">An automobile engine with a moment of inertia of <span class="process-math">\(10 \,kg.m^{2}\)</span> is revved up to 2400 rpm. The clutch is then popped and the car lurches forward. The effective moment of inertia of the clutch plate (including the gears, drive train, wheels, and mass of the car) is <span class="process-math">\(200 \,kg.m^{2}\text{.}\)</span>
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-4-1-1-3">
+<li id="sec_seventh-examplesB-4-1-1-3-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-4-1-1-3-1">What is the angular velocity of the clutch plate after the clutch is popped?</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-4-1-1-3-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-4-1-1-3-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-4-1-1-3-2">If the gear ratio in the transmission is a 4 to 1 reduction, what is the angular velocity of the wheels after the clutch is popped?</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-4-1-1-3-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-4-1-1-3-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-4-1-1-3-3">If the wheel has a radius of 30 cm, what is the speed of the car after the clutch is popped?</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-4-1-1-3-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-4-2-1">
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-4-2-1-1">
+<li id="sec_seventh-examplesB-4-2-1-1-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-4-2-1-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+I_{1}  =  10 \,kg.m^{2}, \quad\omega_{1}  =  2400 \,rpm  =  251.3 \,rad/s,
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{2}  =  200 \,kg.m^{2}, \quad I_{1} \omega_{1}  =  I_{2}\omega_{2},\quad \omega_{2}  =  12.57 \,rad/s
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-4-2-1-1-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-4-2-1-1-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-4-2-1-1-2"><div class="displaymath process-math">
+\begin{equation*}
+\omega  =  \frac{1}{4} \omega_{2} =  3.142 \,rad/s 
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-4-2-1-1-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-4-2-1-1-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-4-2-1-1-3"><div class="displaymath process-math">
+\begin{equation*}
+v  =  r \omega, \quad r  =  0.3 \,m,\quad v  =  0.9425 \,m/s 
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-4-2-1-1-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-4-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.3.1"><a href="#sec_seventh-examplesB-4-2" title="Copy heading and permalink for Solution 7.4.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.3"><a href="#sec_seventh-examplesB-4" title="Copy heading and permalink for Example 7.4.3">🔗</a></div></article></details><details id="sec_seventh-examplesB-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.4</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-5-1-1">
+<div class="para">The 20 kg disk of radius R = 0.25 m is at rest when the constant 10 N m counterclockwise torque is applied. Determine the disk’s angular velocity (in rpm) when it has rotated through four revolutions</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-5-1-1-1">
+<li id="sec_seventh-examplesB-5-1-1-1-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-5-1-1-1-1">by applying the equation of angular motion <span class="process-math">\(\Gamma = I \alpha \)</span> and</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-5-1-1-1-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-5-1-1-1-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-5-1-1-1-2">by applying the principle of work and energy.</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-5-1-1-1-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-5-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/midisk4a.png" class="contained"></div>
+<div class="para logical" id="sec_seventh-examplesB-5-2-2">
+<div class="para">Given: <span class="process-math">\(\theta = 4 rev = 4\times 2\pi = 8 \pi \,rad, \)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Gamma = I\alpha =  \frac{1}{2}MR^{2}\alpha\quad 10 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{1}{2}20(0.25)^{2}\alpha \quad\Rightarrow\quad \alpha = 16 \,rad/s^{2} 
+\end{equation*}
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-5-2-2-4">
+<li id="sec_seventh-examplesB-5-2-2-4-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-5-2-2-4-1">Now,<div class="displaymath process-math">
+\begin{equation*}
+\alpha=\frac{\,d\omega}{\,dt} =\frac{\,d\omega}{\,d\theta}\frac{\,d\theta}{\,dt} =\omega\frac{\,d\omega}{\,d\theta}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \alpha\,d\theta = \omega\,d\omega 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \int\limits_{0}^{\theta} \alpha\,d\theta  =\int\limits_{0}^{\omega} \omega\,d\omega 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \alpha \theta =\frac{\omega^{2}}{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \omega = \sqrt{2\alpha\theta} = \sqrt{2\times16\times 8\pi} = 28.36 \,(\frac{rad}{s})
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 28.36 (\frac{rad}{s}) \times\frac{1}{2\pi}(\frac{rev}{rad-s})\times(\frac{60s}{1min}) = 271 \,\frac{rev}{min}
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-5-2-2-4-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-5-2-2-4-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-5-2-2-4-2">
+<div class="displaymath process-math">
+\begin{equation*}
+W=\frac{1}{2}I\omega^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \Gamma\theta = \frac{1}{2}I\omega^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad 10\times 8\pi = \frac{1}{2}\left(\frac{1}{2}\times20\times 0.25^{2}\right)\omega^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \omega = \sqrt{\frac{80\pi}{5\times0.25^{2}}} =28.36 \frac{rad}{s}=271 \,\frac{rev}{min}
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-5-2-2-4-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-5-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.4.1"><a href="#sec_seventh-examplesB-5-2" title="Copy heading and permalink for Solution 7.4.4.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.4"><a href="#sec_seventh-examplesB-5" title="Copy heading and permalink for Example 7.4.4">🔗</a></div></article></details><details id="sec_seventh-examplesB-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.5</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-6-1-1">Two blocks of mass <span class="process-math">\(m_{1}\)</span> and <span class="process-math">\(m_{2}\)</span> are connected through a rope over a pulley of mass <span class="process-math">\(M\)</span> and radius <span class="process-math">\(R.\)</span> as shown in figure <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd9a.png" class="contained"></div>. What is the acceleration of the blocks and the tension in the rope on either side of the pulley?<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-6-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-6-2-1">
+<div class="para">From figure <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd9b.png" class="contained"></div>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd1">
+\begin{equation}
+\sum F_{x} = T_{1}=m_{1}a \tag{7.4.1}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd2">
+\begin{equation}
+\sum F_{y} =N=m_{1}g \tag{7.4.2}
+\end{equation}
+</div>
+<div class="para">
+<dfn class="terminology">Note:</dfn> The tension on both sides a massive pulley must be different otherwise the pulley would not rotate. From figure <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd9c.png" class="contained"></div>.</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html">
+\begin{equation*}
+\sum \Gamma = T_{1}R-T_{2}R = -I\alpha  \quad\text{clkwise rotation} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html">
+\begin{equation*}
+\text{or,}\quad T_{1}-T_{2} = -I\frac{\alpha }{R} =-I\frac{a }{R^{2}} \qquad [\because a=R\alpha]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd3">
+\begin{equation}
+\therefore \quad T_{1}-T_{2} = -\frac{1}{2}MR^{2}\frac{a }{R^{2}}    = -\frac{1}{2}Ma \tag{7.4.3}
+\end{equation}
+</div>
+<div class="para">From figure <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd9d.png" class="contained"></div>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html">
+\begin{equation*}
+\sum F_{y} =m_{2}g-T_{2} =m_{2}a 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd4">
+\begin{equation}
+\therefore T_{2} = m_{2}g-m_{2}a\tag{7.4.4}
+\end{equation}
+</div>
+<div class="para">Now from eqns. <a href="sec_seventh-examplesB.html#eqn-rd1" class="xref" data-knowl="./knowl/xref/eqn-rd1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.1">(7.4.1)</a> and <a href="sec_seventh-examplesB.html#eqn-rd3" class="xref" data-knowl="./knowl/xref/eqn-rd3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.3">(7.4.3)</a>,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html">
+\begin{equation*}
+m_{1}a- m_{2}g+m_{2}a = -\frac{1}{2}Ma
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html">
+\begin{equation*}
+\text{or,}\quad \left[m_{1} + m_{2} +\frac{1}{2}M\right]a= m_{2}g
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd5">
+\begin{equation}
+\therefore \quad a =\frac{m_{2}g}{\left[m_{1} + m_{2} +\frac{1}{2}M\right]} \tag{7.4.5}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd6">
+\begin{equation}
+\therefore T_{1} = m_{1}a = \frac{m_{1}m_{2}g}{\left[m_{1} + m_{2} +\frac{1}{2}M\right]}\tag{7.4.6}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rd1.html ./knowl/xref/eqn-rd3.html" id="eqn-rd7">
+\begin{equation}
+\therefore T_{2} = m_{2}g-m_{2}a = m_{2}g\left\{1-\frac{m_{2}}{\left[m_{1} + m_{2} +\frac{1}{2}M\right]}\right\}    \tag{7.4.7}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-6-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.5.1"><a href="#sec_seventh-examplesB-6-2" title="Copy heading and permalink for Solution 7.4.5.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.5"><a href="#sec_seventh-examplesB-6" title="Copy heading and permalink for Example 7.4.5">🔗</a></div></article></details><details id="sec_seventh-examplesB-7" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.6</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-7-1-1">A yo-yo has a mass <span class="process-math">\(M\text{,}\)</span> a moment of inertia <span class="process-math">\(I\text{,}\)</span> and an inner radius <span class="process-math">\(r.\)</span> A string is wrapped around the inner cylinder of the yo-yo. A person ties the string to his finger and releases the yo-yo. As the yo-yo falls, it rolls on the string but does not slip. Find the acceleration of the yo-yo.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-7-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/yo-yo.png" class="contained"></div>
+<div class="para logical" id="sec_seventh-examplesB-7-2-2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-yoyo1.html ./knowl/xref/eqn-yoyo2.html" id="eqn-yoyo1">
+\begin{equation}
+\sum F_{y} = mg-T =ma  \quad \Rightarrow \quad
+T =mg-ma \tag{7.4.8}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-yoyo1.html ./knowl/xref/eqn-yoyo2.html">
+\begin{equation*}
+\sum \Gamma = Tr =I\alpha 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-yoyo1.html ./knowl/xref/eqn-yoyo2.html" id="eqn-yoyo2">
+\begin{equation}
+or, \quad T = \frac{I\alpha}{r} = \frac{Ia}{r^{2}}   \quad  [\because a=r\alpha] \tag{7.4.9}
+\end{equation}
+</div>
+<div class="para">From eqns. <a href="sec_seventh-examplesB.html#eqn-yoyo1" class="xref" data-knowl="./knowl/xref/eqn-yoyo1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.8">(7.4.8)</a> and <a href="sec_seventh-examplesB.html#eqn-yoyo2" class="xref" data-knowl="./knowl/xref/eqn-yoyo2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.9">(7.4.9)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-yoyo1.html ./knowl/xref/eqn-yoyo2.html">
+\begin{equation*}
+mg=\frac{Ia}{r^{2}} +ma
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-yoyo1.html ./knowl/xref/eqn-yoyo2.html">
+\begin{equation*}
+\therefore\qquad a = \frac{mg}{\left(\frac{I}{r^{2}} +m\right)}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-7-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.6.1"><a href="#sec_seventh-examplesB-7-2" title="Copy heading and permalink for Solution 7.4.6.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.6"><a href="#sec_seventh-examplesB-7" title="Copy heading and permalink for Example 7.4.6">🔗</a></div></article></details><details id="sec_seventh-examplesB-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.7</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-8-1-1">A bucket of water of mass 10 kg is supported by a rope wrapped around a uniform cylinder of mass 20 kg and radius 10 cm as shown in the [Figure a]. If the system is released from rest, how long it takes the bucket to fall to the bottom of a well 3 m deep?<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-8-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rotd1.png" class="contained"></div>
+<div class="solutions"><details id="sec_seventh-examplesB-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-8-2-1">
+<div class="para">Given: <span class="process-math">\(M=20\,kg,\quad m=10\,kg, \quad h=3\,m, \quad R=10\,cm=0.1\,m, \)</span> and <span class="process-math">\(v_{o}=0.\)</span> Now, from free-body diagram [Figure b],</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html">
+\begin{equation*}
+\sum F_{y}= mg-T=ma
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html" id="eqn-rotd1">
+\begin{equation}
+\therefore \quad T=mg-ma  \tag{7.4.10}
+\end{equation}
+</div>
+<div class="para">From free-body diagram [Figure c],</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html">
+\begin{equation*}
+\sum\Gamma = TR=I\alpha = \frac{1}{2}MR^{2}\frac{a}{R} \qquad [\because a=R\alpha]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html" id="eqn-rotd2">
+\begin{equation}
+\therefore\quad T = \frac{M}{2}a \tag{7.4.11}
+\end{equation}
+</div>
+<div class="para">From eqns.<a href="sec_seventh-examplesB.html#eqn-rotd1" class="xref" data-knowl="./knowl/xref/eqn-rotd1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.10">(7.4.10)</a> and <a href="sec_seventh-examplesB.html#eqn-rotd2" class="xref" data-knowl="./knowl/xref/eqn-rotd2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.11">(7.4.11)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html">
+\begin{equation*}
+\frac{M}{2}a  = mg-ma 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html" id="eqn-rotd3">
+\begin{equation}
+\therefore\quad a = \frac{mg}{m+\frac{M}{2}} = \frac{10\times9.8}{10+\frac{20}{2}} =4.9\,m/s^{2}\tag{7.4.12}
+\end{equation}
+</div>
+<div class="para">Now well is 3m deep, so time taken by the block to reach at bottom of well is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html">
+\begin{equation*}
+h=v_{o}t+\frac{1}{2}at^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html">
+\begin{equation*}
+or,\quad 3=0+\frac{1}{2}\times 4.9 t^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd1.html ./knowl/xref/eqn-rotd2.html">
+\begin{equation*}
+\therefore\quad t = \sqrt{\frac{6}{4.9}} = 1.10 \,s
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-8-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.7.1"><a href="#sec_seventh-examplesB-8-2" title="Copy heading and permalink for Solution 7.4.7.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.7"><a href="#sec_seventh-examplesB-8" title="Copy heading and permalink for Example 7.4.7">🔗</a></div></article></details><details id="sec_seventh-examplesB-9" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.8</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-9-1-1">
+<div class="para">A thin ring of mass 2 kg and diameter 10 cm rolls without slipping down an inclined plane 1 m long with one end 10 cm higher than the other. If the system is released from rest,</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-9-1-1-1">
+<li id="sec_seventh-examplesB-9-1-1-1-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-1-1-1-1">What is the minimum coefficient of static friction that will cause the ring to roll without slipping?</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-9-1-1-1-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-9-1-1-1-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-1-1-1-2">How long does it take for the ring to get to the bottom of the incline?</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-9-1-1-1-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-9-1-1-1-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-1-1-1-3">How fast is the ring moving at that time?</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-9-1-1-1-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-9-1-1-1-4">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-1-1-1-4">What fraction of the kinetic energy of the ring is due to its rotation at that time?</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-examplesB-9-1-1-1-4" title="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-9-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rotd2.png" class="contained"></div>
+<div class="para logical" id="sec_seventh-examplesB-9-2-2">
+<div class="para">Given: <span class="process-math">\(m=2\,kg, \quad w=mg, \quad R =\frac{d}{2} = \frac{10}{2} =5 \,cm =0.05\,m,\)</span> <span class="process-math">\(l=1\,m, \quad h=10\,cm=0.1\,m, \quad v_{o}=0. \)</span>  From geometry of the figure,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sin\theta = \frac{h}{l} =\frac{0.1}{1} =0.1 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad \theta =\sin^{-1}(0.1) = 5.74^{o} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-rotd4">
+\begin{equation}
+\sum F_{x} =w\sin\theta-f_{s} =ma  \tag{7.4.13}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-rotd5">
+\begin{equation}
+\sum F_{y} =N-w\cos\theta =0 \tag{7.4.14}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-rotd6">
+\begin{equation}
+\text{but}\quad f_{s} =\mu_{s}N  \tag{7.4.15}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-9-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_seventh-examplesB-9-2-3">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd4.html ./knowl/xref/eqn-rotd8.html ./knowl/xref/eqn-rotd5.html ./knowl/xref/eqn-rotd6.html ./knowl/xref/eqn-rotd9.html ./knowl/xref/eqn-rotd10.html" id="eqn-rotd7">
+\begin{equation}
+\text{and}\quad \Gamma = Rf_{s}=I \alpha\tag{7.4.16}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd4.html ./knowl/xref/eqn-rotd8.html ./knowl/xref/eqn-rotd5.html ./knowl/xref/eqn-rotd6.html ./knowl/xref/eqn-rotd9.html ./knowl/xref/eqn-rotd10.html" id="eqn-rotd8">
+\begin{equation}
+\text{or,}\quad Rf_{s}=mR^{2} \frac{a}{R}\qquad \Rightarrow\quad f_{s} = ma \tag{7.4.17}
+\end{equation}
+</div>
+<div class="para">For ring <span class="process-math">\(I=mR^{2}\)</span> and <span class="process-math">\(a=R\alpha.\)</span> From eqns. <a href="sec_seventh-examplesB.html#eqn-rotd4" class="xref" data-knowl="./knowl/xref/eqn-rotd4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.13">(7.4.13)</a> and <a href="sec_seventh-examplesB.html#eqn-rotd8" class="xref" data-knowl="./knowl/xref/eqn-rotd8.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.17">(7.4.17)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd4.html ./knowl/xref/eqn-rotd8.html ./knowl/xref/eqn-rotd5.html ./knowl/xref/eqn-rotd6.html ./knowl/xref/eqn-rotd9.html ./knowl/xref/eqn-rotd10.html" id="eqn-rotd9">
+\begin{equation}
+mg\sin\theta =2 ma  \qquad \Rightarrow\quad a = \frac{g\sin\theta}{2} =0.49m/s^{2} \tag{7.4.18}
+\end{equation}
+</div>
+<div class="para">Also from eqns. <a href="sec_seventh-examplesB.html#eqn-rotd5" class="xref" data-knowl="./knowl/xref/eqn-rotd5.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.14">(7.4.14)</a> and <a href="sec_seventh-examplesB.html#eqn-rotd6" class="xref" data-knowl="./knowl/xref/eqn-rotd6.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.15">(7.4.15)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd4.html ./knowl/xref/eqn-rotd8.html ./knowl/xref/eqn-rotd5.html ./knowl/xref/eqn-rotd6.html ./knowl/xref/eqn-rotd9.html ./knowl/xref/eqn-rotd10.html" id="eqn-rotd10">
+\begin{equation}
+\mu_{s}mg\cos\theta = ma \qquad \Rightarrow\quad a = \mu_{s}g\cos\theta  \tag{7.4.19}
+\end{equation}
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-9-2-3-11">
+<li id="sec_seventh-examplesB-9-2-3-11-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-2-3-11-1">From eqns. <a href="sec_seventh-examplesB.html#eqn-rotd9" class="xref" data-knowl="./knowl/xref/eqn-rotd9.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.18">(7.4.18)</a> and <a href="sec_seventh-examplesB.html#eqn-rotd10" class="xref" data-knowl="./knowl/xref/eqn-rotd10.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.19">(7.4.19)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd9.html ./knowl/xref/eqn-rotd10.html">
+\begin{equation*}
+\frac{g\sin\theta}{2} = \mu_{s}g\cos\theta 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-rotd9.html ./knowl/xref/eqn-rotd10.html">
+\begin{equation*}
+\therefore \quad \mu_{s} = \frac{\tan\theta}{2} = 0.05
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-9-2-3-11-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-9-2-3-11-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-2-3-11-2"><div class="displaymath process-math">
+\begin{equation*}
+s=v_{o}t+\frac{1}{2}at^{2}\quad t=\sqrt{\frac{2s}{a}} = \sqrt{\frac{2\times 1}{0.49}} =2.02 s
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-9-2-3-11-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-9-2-3-11-3">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-2-3-11-3">
+<div class="displaymath process-math">
+\begin{equation*}
+v_{f}^{2}=v_{o}^{2}+2as
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore v_{f} = \sqrt{2as}  =\sqrt{2\times0.49\times1} = 0.99 m/s 
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item c"><a href="#sec_seventh-examplesB-9-2-3-11-3" title="Copy heading and permalink for Item c">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-9-2-3-11-4">
+<div class="para" id="p-derived-sec_seventh-examplesB-9-2-3-11-4">
+<div class="displaymath process-math">
+\begin{equation*}
+E_{top} =E_{bottom} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad mgh = \frac{1}{2}mv_{f}^{2}+ \frac{1}{2}I\omega_{f}^{2} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad \frac{KE_{rot}}{KE_{total}} = \frac{\frac{1}{2}mR^{2}\frac{v_{f}^{2}}{R^{2}}}{mgh}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{v_{f}^{2}}{2gh} = \frac{1}{2}
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item d"><a href="#sec_seventh-examplesB-9-2-3-11-4" title="Copy heading and permalink for Item d">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-9-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.8.1"><a href="#sec_seventh-examplesB-9-2" title="Copy heading and permalink for Solution 7.4.8.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.8"><a href="#sec_seventh-examplesB-9" title="Copy heading and permalink for Example 7.4.8">🔗</a></div></article></details><details id="sec_seventh-examplesB-10" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.9</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-10-1-1">A block of mass <span class="process-math">\(m_{b}\)</span> and a disk of mass <span class="process-math">\(m_{d}\)</span> and radius <span class="process-math">\(r\)</span> are placed on a symmetric triangular slope connected with a massless string over a massless pulley [Figure (a)]. The string is connected to a center axle of the disk so that the disk is free to rotate. The moment of inertia of the disk about its axle is <span class="process-math">\(I =\frac{1}{2}m_{d}r^{2}.\)</span>  The coefficient of static friction between the slope and the block/disk is  0.05 and the coefficient of kinetic friction between the slope and the block/disk is 0.15. The angle <span class="process-math">\(\theta \)</span> is <span class="process-math">\(30^{o}.\)</span> Find the maximum ratio <span class="process-math">\(\frac{m_{b}}{m_{d}} \)</span> such that the disk still rolls without slipping up the hill.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-10-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd10.png" class="contained"></div>
+<div class="solutions"><details id="sec_seventh-examplesB-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-10-2-1">
+<div class="para">Since the disk is rolling without slipping, the maximum friction acting on the point of contact of disk and ramp must be static (i.e., <span class="process-math">\(0\leq f_{s}\leq \mu_{s}N\)</span>). Now, whether the system is accelerating or not for the maximum ratio of <span class="process-math">\(\frac{m_{b}}{m_{d}} \)</span> can be determined by the evaluation of final equation.  From the free-body diagram construct equations as shown below. From [Figure (b)] consider the disk is accelerating upwards with an acceleration <span class="process-math">\(a\)</span> for now, then <div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd10a.png" class="contained"></div>
+</div>
+<div class="displaymath process-math" id="eqn-trngrol1">
+\begin{equation}
+\sum F_{x}= T-m_{d}g\sin\theta-f_{s}=m_{d}a \tag{7.4.20}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-trngrol2">
+\begin{equation}
+\sum F_{y} = N_{d}-m_{d}g\cos\theta=0 \tag{7.4.21}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-trngrol3">
+\begin{equation}
+\text{but,}\quad f_{s} = \mu_{s}N_{d}\tag{7.4.22}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-trngrol4">
+\begin{equation}
+\text{and}\quad \sum\Gamma = -f_{s}r = -I\alpha  \tag{7.4.23}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore f_{s}r = I\alpha  
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \mu_{s}N_{d}r= \mu_{s}m_{d}g\cos\theta r= \frac{1}{2}m_{d}r^{2}\left(\frac{a}{r}\right)\quad [\because a=r\alpha]
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-trngrol5">
+\begin{equation}
+\therefore\quad a=2\mu_{s}g\cos\theta = 2\times0.05\times9.8\times\cos(30^{o}) =0.85\,m/s^{2}   \tag{7.4.24}
+\end{equation}
+</div>
+<div class="para">
+<div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/rd10b.png" class="contained"></div> From [Figure (c)] the disk is accelerating downwards with an acceleration <span class="process-math">\(a\)</span> because the block is connected to the disk through same rope via massless and frictionless pulley and hence has the same tension and acceleration, therefore</div>
+<div class="displaymath process-math" id="eqn-trngrol6">
+\begin{equation}
+\sum F_{x} = m_{b}g\sin\theta -f_{k}-T = m_{b}a  \tag{7.4.25}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-trngrol7">
+\begin{equation}
+\sum F_{y} = N_{b}-m_{b}g\sin\theta  = 0 \tag{7.4.26}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-10-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_seventh-examplesB-10-2-2">
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html" id="eqn-trngrol8">
+\begin{equation}
+\text{but}\quad f_{k}=\mu_{k}N_{b} \tag{7.4.27}
+\end{equation}
+</div>
+<div class="para">Now from eqns. <a href="sec_seventh-examplesB.html#eqn-trngrol1" class="xref" data-knowl="./knowl/xref/eqn-trngrol1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.20">(7.4.20)</a>, <a href="sec_seventh-examplesB.html#eqn-trngrol2" class="xref" data-knowl="./knowl/xref/eqn-trngrol2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.21">(7.4.21)</a> and <a href="sec_seventh-examplesB.html#eqn-trngrol3" class="xref" data-knowl="./knowl/xref/eqn-trngrol3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.22">(7.4.22)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html" id="eqn-trngrol9">
+\begin{equation}
+T = m_{d}g\sin\theta +\mu_{s}m_{d}g\cos\theta +m_{d}a  \tag{7.4.28}
+\end{equation}
+</div>
+<div class="para">and from eqns. <a href="sec_seventh-examplesB.html#eqn-trngrol6" class="xref" data-knowl="./knowl/xref/eqn-trngrol6.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.25">(7.4.25)</a>, <a href="sec_seventh-examplesB.html#eqn-trngrol7" class="xref" data-knowl="./knowl/xref/eqn-trngrol7.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.26">(7.4.26)</a> and <a href="sec_seventh-examplesB.html#eqn-trngrol8" class="xref" data-knowl="./knowl/xref/eqn-trngrol8.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.27">(7.4.27)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html" id="eqn-trngrol10">
+\begin{equation}
+T = m_{b}g\sin\theta -\mu_{k}m_{b}g\cos\theta -m_{b}a \tag{7.4.29}
+\end{equation}
+</div>
+<div class="para">Hence from eqns. <a href="sec_seventh-examplesB.html#eqn-trngrol9" class="xref" data-knowl="./knowl/xref/eqn-trngrol9.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.28">(7.4.28)</a> and <a href="sec_seventh-examplesB.html#eqn-trngrol10" class="xref" data-knowl="./knowl/xref/eqn-trngrol10.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 7.4.29">(7.4.29)</a>, and we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html">
+\begin{equation*}
+m_{b}\left[g\sin\theta -\mu_{k}g\cos\theta -a\right] = m_{d}\left[g\sin\theta +\mu_{s}g\cos\theta +a\right]
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html">
+\begin{equation*}
+\therefore \quad \frac{m_{b}}{m_{d}} = \frac{\left[g\sin\theta +\mu_{s}g\cos\theta +a\right]}{\left[g\sin\theta -\mu_{k}g\cos\theta -a\right] }
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html">
+\begin{equation*}
+=  \frac{5.32+0.85}{3.63-0.85} = 2.22
+\end{equation*}
+</div>
+<div class="para">If the system is not accelerating but moving with constant velocity, then <span class="process-math">\(a=0.\)</span> Hence in that case</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html">
+\begin{equation*}
+\frac{m_{b}}{m_{d}} = \frac{\left[g\sin\theta +\mu_{s}g\cos\theta \right]}{\left[g\sin\theta -\mu_{k}g\cos\theta \right] } 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-trngrol1.html ./knowl/xref/eqn-trngrol2.html ./knowl/xref/eqn-trngrol3.html ./knowl/xref/eqn-trngrol6.html ./knowl/xref/eqn-trngrol7.html ./knowl/xref/eqn-trngrol8.html ./knowl/xref/eqn-trngrol9.html ./knowl/xref/eqn-trngrol10.html">
+\begin{equation*}
+=\frac{5.32}{3.63} = 1.46
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-10-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.9.1"><a href="#sec_seventh-examplesB-10-2" title="Copy heading and permalink for Solution 7.4.9.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.9"><a href="#sec_seventh-examplesB-10" title="Copy heading and permalink for Example 7.4.9">🔗</a></div></article></details><details id="sec_seventh-examplesB-11" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.10</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-11-1-1">
+<div class="para">The disk of mass 45 kg and radius R = 0.3 m is rolled to the left until the spring is compressed 0.5 m and then released from rest. If the spring constant is k = 600 N/m, and</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-11-1-1-1">
+<li id="sec_seventh-examplesB-11-1-1-1-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-11-1-1-1-1">if the disk rolls without slipping, what is its angular acceleration at the instant it is released?</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-11-1-1-1-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-11-1-1-1-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-11-1-1-1-2">What is the minimum coefficient of static friction for which the disk will not slip when it is released?</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-11-1-1-1-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-11-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-11-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/rd11.png" class="contained"></div>
+<div class="para logical" id="sec_seventh-examplesB-11-2-2">
+<div class="para">Given: <span class="process-math">\(x_{o} =-0.5\,m,\quad m=45\,kg, \quad  R=0.3\,m, \quad  k=600\,N/m.\)</span> From free-body diagram,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum F_{x} = F_{s}-f_{s} =ma\quad \text{and}\quad \sum F_{y} = N-mg =0
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\sum \Gamma = -f_{s}R =-I\alpha
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or,\quad f_{s}R =\frac{1}{2}mR^{2}\frac{a}{R}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad f_{s} =\frac{1}{2}ma
+\end{equation*}
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-11-2-2-6">
+<li id="sec_seventh-examplesB-11-2-2-6-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-11-2-2-6-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad F_{s}-\frac{1}{2}ma =ma
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  a= \frac{2F_{s}}{3m} = \frac{-2 kx_{o}}{3m} = \frac{2\times 600\times 0.5}{3\times45}= 4.45 \,m/s^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \alpha = \frac{a}{R} = \frac{4.45}{0.3} = -14.81 \,rad/s^{2} \quad (clockwise)
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-11-2-2-6-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-11-2-2-6-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-11-2-2-6-2">
+<div class="displaymath process-math">
+\begin{equation*}
+F_{s}-f_{s} = ma = 2f_{s}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad -kx_{o} =3f_{s} = 3\mu_{s} N = 3\times\mu_{s}\times mg
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad \mu_{s} = -\frac{kx_{o}}{3mg} =\frac{600\times 0.5}{3\times45\times9.8} = 0.23
+\end{equation*}
+</div>
+</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-11-2-2-6-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-11-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.10.1"><a href="#sec_seventh-examplesB-11-2" title="Copy heading and permalink for Solution 7.4.10.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.10"><a href="#sec_seventh-examplesB-11" title="Copy heading and permalink for Example 7.4.10">🔗</a></div></article></details><details id="sec_seventh-examplesB-12" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.11</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-12-1-1">A uniform disk of mass m and radius R is attached to the uniform rod of mass M and length L. The rod rotates with an angular speed <span class="process-math">\(\omega\)</span> about an axis perpendicular to the xy-plane and that passes through one of its ends, point O as shown in figure. The center of mass of the disk is at a distance l with respect to point O. Calculate the angular momentum about this point.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-12-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/angmomnt3.png" class="contained"></div>
+<div class="solutions"><details id="sec_seventh-examplesB-12-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-12-2-1">
+<div class="para">The angular momentum of a composite object is obtained as the sum of the angular momentum of each of its constituents.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L_{o} = L_{o}^{rod}+L_{o}^{disk}  =  I_{o}^{rod}\omega +I_{o}^{disk}\omega 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \omega\left(I_{o}^{rod} + I_{o}^{disk}\right)
+\end{equation*}
+</div>
+<div class="para">The composites have same angular velocity, <span class="process-math">\(\omega\text{.}\)</span> Now, moment of inertia of a rod about its end,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{o}^{rod} = \frac{ML^{2}}{3}
+\end{equation*}
+</div>
+<div class="para">Also, moment of inertia of a disk about point <span class="process-math">\(O\)</span>using parallel axis theorem,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{o}^{disk} = \frac{1}{2}mR^{2}+ml^{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad L_{o} = \left(\frac{ML^{2}}{3}+ \frac{1}{2}mR^{2}+ml^{2}\right)\omega
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-12-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.11.1"><a href="#sec_seventh-examplesB-12-2" title="Copy heading and permalink for Solution 7.4.11.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.11"><a href="#sec_seventh-examplesB-12" title="Copy heading and permalink for Example 7.4.11">🔗</a></div></article></details><details id="sec_seventh-examplesB-13" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.12</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-13-1-1">A small ball of mass <span class="process-math">\(m\)</span> traveling with initial velocity <span class="process-math">\(v_{o}\)</span> hits a disk at rest of mass <span class="process-math">\(M=2m\)</span> and radius <span class="process-math">\(r\)</span> at a vertical distance <span class="process-math">\(d=\frac{r}{4}\)</span> from the disk’s center. The ball bounces back horizontally with a velocity <span class="process-math">\(v_{b}\)</span> and the disk begins rolling without slipping. Find the velocity of the disk after it has begun rolling without slipping.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-13-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/consL.png" class="contained"></div>
+<div class="solutions"><details id="sec_seventh-examplesB-13-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-13-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta L = I\Delta\omega = r\Delta p 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \left(I_{1}+I_{2}\right)(\omega_{f}-\omega_{i}) = \left(r+d\right)\left(p_{i}-p_{f}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  \left(\frac{1}{2}Mr^{2}+Mr^{2}\right)\omega_{f} = \left(r+\frac{r}{4}\right)\left[mv_{o}-(-mv_{b})\right] 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because I=I_{cm}+mD^{2}]\)</span></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{3}{2}Mr^{2}\left(\frac{v_{disk}}{r}\right) = \left(\frac{5r}{4}\right)\left[v_{o}+v_{b}\right]m
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{3}{2}(2m)rv_{disk} = \left(\frac{5r}{4}\right)\left[v_{o}+v_{b}\right]m
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad v_{disk} = \left(\frac{5}{12}\right)\left[v_{o}+v_{b}\right]
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-13-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.12.1"><a href="#sec_seventh-examplesB-13-2" title="Copy heading and permalink for Solution 7.4.12.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.12"><a href="#sec_seventh-examplesB-13" title="Copy heading and permalink for Example 7.4.12">🔗</a></div></article></details><details id="sec_seventh-examplesB-14" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.13</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-14-1-1">A uniform thin rod of length <span class="process-math">\(L (m)\)</span>  and mass <span class="process-math">\(M (kg)\)</span> can rotate in a horizontal plane about a vertical axis through its center. The rod is at rest when a bullet of mass <span class="process-math">\(m (kg)\)</span> traveling in the horizontal plane of the rod is fired into one end of the rod. The direction of the bullet’s velocity makes an angle <span class="process-math">\(\alpha\)</span> degrees  with the rod. If the bullet lodges in the rod and the angular velocity of the rod is <span class="process-math">\(\omega\)</span> rad/s immediately after the collision, what is the magnitude of the bullet’s velocity, <span class="process-math">\(v_{b}\)</span>  m/s just before impact? Determine the kinetic energy of the bullet before the collision and total rotational kinetic energy after the collision.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-14-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-14-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-14-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+L_{o} = L_{f}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+m(\vec{r}\times \vec{v}_{b}) +0 = I_{rod}\omega_{rod}+I_{b}\omega_{b}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+mv_{b}\frac{L}{2}\sin\alpha = \left[\frac{1}{12}ML^{2}+m\left(\frac{L}{2}\right)^{2}\right]\omega
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad v_{b}= \left[\frac{ML+3mL}{6m\sin\alpha}\right]\omega 
+\end{equation*}
+</div>
+<div class="para">Kinetic energy of bullet before collision,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+KE=\frac{1}{2}mv_{b}^{2}
+\end{equation*}
+</div>
+<div class="para">and total rotational kinetic energy after the collision,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+KE_{rot} = \frac{1}{2}I_{rod}\omega^{2}+\frac{1}{2}I_{b}\omega^{2} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-14-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.13.1"><a href="#sec_seventh-examplesB-14-2" title="Copy heading and permalink for Solution 7.4.13.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.13"><a href="#sec_seventh-examplesB-14" title="Copy heading and permalink for Example 7.4.13">🔗</a></div></article></details><details id="sec_seventh-examplesB-15" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.14</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-15-1-1">A disk is spinning at a rate of 10 rad/s. A second disk of the same mass and shape, with no spin, is placed on top of the first disk. Friction acts between the two disks until both are eventually traveling at the same speed. What is the final angular velocity of the two disks?<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-15-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-15-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-15-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+L_{o} = L_{f}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{o}\omega_{o} = I_{f}\omega_{f}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \omega_{f} = \frac{I_{o}\omega_{o} }{I_{f} }
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{I_{o}\omega_{o}}{I_{f}^{I disk}+I_{f}^{II disk}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\frac{1}{2}MR^{2}10}{\frac{1}{2}MR^{2}+\frac{1}{2}MR^{2}} = 5 \,rad/s
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-15-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.14.1"><a href="#sec_seventh-examplesB-15-2" title="Copy heading and permalink for Solution 7.4.14.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.14"><a href="#sec_seventh-examplesB-15" title="Copy heading and permalink for Example 7.4.14">🔗</a></div></article></details><details id="sec_seventh-examplesB-16" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.15</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-16-1-1">A particle attached to a string of length 2 m is given an initial velocity of 6 m/s. The string is attached to a peg and, as the particle rotates about the peg, the string winds around the peg. What length of string has wound around the peg when the velocity of the particle is 20 m/s?<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-16-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_seventh-examplesB-16-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-16-2-1">
+<div class="para">when string is winding around the peg its length decreases gradually causing the radius of rotation to decrease accordingly. Hence its  moment of inertia decreases gradually and from conservation of angular momentum, angular velocity of the particle increases gradually.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+L_{o} = L_{f}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{o}\omega_{o} = I_{f}\omega_{f}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+I_{o}\frac{v_{o} }{R}=  I_{f}\frac{v_{f} }{r}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+mR^{2}\frac{6}{2} = mr^{2}\frac{20 }{r}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3\times 2^{2} = 20r \qquad \therefore \quad r = \frac{3}{5} = 0.6\,m
+\end{equation*}
+</div>
+<div class="para">Hence <span class="process-math">\(2-0.6=0.4 m\)</span> of string has already wound around the peg when the velocity is 20 m/s.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-16-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.15.1"><a href="#sec_seventh-examplesB-16-2" title="Copy heading and permalink for Solution 7.4.15.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.15"><a href="#sec_seventh-examplesB-16" title="Copy heading and permalink for Example 7.4.15">🔗</a></div></article></details><details id="sec_seventh-examplesB-17" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.16</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_seventh-examplesB-17-1-1">
+<div class="para">A rotating round object has an initial angular velocity <span class="process-math">\(\omega_{o}\)</span> placed onto the horizontal surface. It rolls with slipping till achieve a final angular velocity <span class="process-math">\(\omega\text{.}\)</span> If moment of inertia of the body is <span class="process-math">\(I = \gamma mr^{2}\text{.}\)</span>
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-17-1-1-4">
+<li id="sec_seventh-examplesB-17-1-1-4-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-17-1-1-4-1">Find <span class="process-math">\(\omega \text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-17-1-1-4-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-17-1-1-4-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-17-1-1-4-2">If <span class="process-math">\(\omega = \frac{2}{5} \omega_{o}\)</span> find the shape of the round object.</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-17-1-1-4-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-17-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/rwithslipping.png" class="contained"></div>
+<div class="solutions"><details id="sec_seventh-examplesB-17-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-17-2-1">
+<div class="para">when rotating object is placed on the surface its initial velocity <span class="process-math">\(v_{o} =0.\)</span> Now due to frction translational velocity of the object is reduced after a time <span class="process-math">\(t\)</span> when object starts rolling without slipping with an angular velocity <span class="process-math">\(\omega.\)</span>
+</div>
+<div class="displaymath process-math" id="eqn-rwslip1">
+\begin{equation}
+v =v_{o}+at  \tag{7.4.30}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f_{k} = ma = \mu_{k}mg 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-rwslip2">
+\begin{equation}
+\Rightarrow a = \mu_{k}g \tag{7.4.31}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="eqn-rwslip3">
+\begin{equation}
+\therefore \quad v = -\mu_{k}g  \quad[\because \quad v_{o}=0] \tag{7.4.32}
+\end{equation}
+</div>
+<div class="para">also,</div>
+<div class="displaymath process-math" id="eqn-rwslip4">
+\begin{equation}
+\omega =\omega_{o}+\alpha t  \tag{7.4.33}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tau = I\alpha = f_{k}r 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-rwslip5">
+\begin{equation}
+\therefore \quad \alpha = \frac{\mu_{k}mgr}{I} = \frac{\mu_{k}mgr}{\gamma mr^{2}} = \frac{\mu_{k}g}{\gamma r} \tag{7.4.34}
+\end{equation}
+</div>
+<div class="para">After time <span class="process-math">\(t\)</span> on rolling without slipping,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+v=r\omega
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+-\mu_{k}g t =r\left(\omega_{o}+\alpha t  \right) = r\left(\omega_{o}+\frac{\mu_{k}g t}{\gamma r}  \right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad t = -\frac{r\omega_{o}\gamma}{\mu_{k}g (\gamma+1)}  
+\end{equation*}
+</div>
+<ol class="lower-alpha ol-marker-1" id="sec_seventh-examplesB-17-2-1-15">
+<li id="sec_seventh-examplesB-17-2-1-15-1">
+<div class="para" id="p-derived-sec_seventh-examplesB-17-2-1-15-1"><div class="displaymath process-math">
+\begin{equation*}
+\omega = \omega_{o} \left[\frac{\gamma }{\gamma +1}\right]
+\end{equation*}
+</div></div>
+<div class="autopermalink" data-description="Item a"><a href="#sec_seventh-examplesB-17-2-1-15-1" title="Copy heading and permalink for Item a">🔗</a></div>
+</li>
+<li id="sec_seventh-examplesB-17-2-1-15-2">
+<div class="para" id="p-derived-sec_seventh-examplesB-17-2-1-15-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{2}{5}\omega_{o}= \omega_{o}\left[\frac{\gamma }{\gamma +1}\right] \Rightarrow \gamma = \frac{2}{3}
+\end{equation*}
+</div>Hence the round object is a hollow sphere.</div>
+<div class="autopermalink" data-description="Item b"><a href="#sec_seventh-examplesB-17-2-1-15-2" title="Copy heading and permalink for Item b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-17-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 7.4.16.1"><a href="#sec_seventh-examplesB-17-2" title="Copy heading and permalink for Solution 7.4.16.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 7.4.16"><a href="#sec_seventh-examplesB-17" title="Copy heading and permalink for Example 7.4.16">🔗</a></div></article></details><details id="sec_seventh-examplesB-18" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">7.4.17</span><span class="period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para" id="sec_seventh-examplesB-18-1">Find the acceleration of a spherical ball rolling down the hill without slipping.<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-18-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="sec_seventh-examplesB-18-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Hint</span><span class="period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para logical" id="sec_seventh-examplesB-18-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\tau = I \alpha
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\tau = f\times r 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f=\mu N
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+F=ma
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+mg\sin\theta -f = ma
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\, a= \frac{5}{7} g\sin\theta
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_seventh-examplesB-18-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Hint 7.4.17.1"><a href="#sec_seventh-examplesB-18-2" title="Copy heading and permalink for Hint 7.4.17.1">🔗</a></div>
+</div></details><div class="autopermalink" data-description="Example 7.4.17"><a href="#sec_seventh-examplesB-18" title="Copy heading and permalink for Example 7.4.17">🔗</a></div></article></details><div class="autopermalink" data-description="Section 7.4: Examples B"><a href="#sec_seventh-examplesB" title="Copy heading and permalink for Section 7.4: Examples B">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec_seventh-rotdyn.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_seventh-oscil.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

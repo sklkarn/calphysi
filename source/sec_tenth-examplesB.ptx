@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<paragraphs>
+  <title>KTG</title>
+  
+  <example>
+    <statement>
+      <p>
+        The rms speed of <m> H_{2} </m> molecules is 1.84 km/sec. What will be the rms 
+        speed of <m>O_{2} </m> molecules at the same temperature? The molecular weights of 
+        hydrogen and oxygen are 2 and 32 respectively.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        We know that 
+        <me>
+          v_{rms} = \sqrt{\frac{3RT}{M}} 
+        </me>
+       <me>
+        \text{or,}\quad \frac{(v_{rms})_{O}}{(v_{rms})_{H}} = \sqrt{\frac{M_{H}}{M_{O}}} 
+       </me>
+       <me>
+        \therefore\quad (v_{rms})_{O} = (v_{rms})_{H}\times  \sqrt{\frac{M_{H}}{M_{O}}} =(1.84 km/s)\times \sqrt{\frac{2}{32}} =0.459 \,km/s.
+       </me>
+             </p>
+    </solution>
+  </example>
+
+
+ <example>
+  <statement>
+    <p>
+      At what temperature does the kinetic energy of an atom be 1.0 eV? <m>(k_{B}=1.38\times 10^{-23} \,J/K)</m>.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Average kinetic energy <m>e_{k}</m> of an atom is given by 
+      <me>
+        \frac{1}{2}mv_{rms}^{2}=\frac{f}{2}k_{B}T = \frac{3}{2}k_{B}T 
+      </me>
+      <m>\because f=3</m> for a monoatomic molecule
+<me>
+  \therefore\quad T = \frac{2}{3}\frac{e_{k}}{k_{B}}
+</me>
+<me>
+  = \frac{2}{3}\left(\frac{1.0\, eV\times 1.60\times 10^{-19} \,J/eV}{1.38\times 10^{-23} \,J/K}\right)= 7.729\times 10^{3} \,K
+</me>
+    </p>
+  </solution>
+ </example>
+
+
+ <example>
+  <statement>
+    <p>
+      At what temperature will the rms velocity of hydrogen molecules has double of its value at NTP, if pressure remains constant.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      We have -
+      <me>
+        v_{rms}=\sqrt{\frac{3k_{B}T}{m}}
+      </me>
+            At  NTP, <m>T=0^{o}C=273 \,K</m>.
+            <me>
+              (v_{rms})_{1}=v_{rms}=\sqrt{\frac{3k_{B}\times 273}{m}}
+            </me>
+                 At  NTP, <m>T=T \,K</m>
+                 <me>
+                  (v_{rms})_{2}=2v_{rms} = \sqrt{\frac{3k_{B}\times T}{m}}
+                 </me>
+                 <me>
+                  \text{or,}\quad  2v_{rms} =\sqrt{\frac{3k_{B}\times T}{m}} = 2\sqrt{\frac{3k_{B}\times 273}{m}}
+                 </me>
+                 <me>
+                  \text{or,}\quad  \frac{T}{273} = 4
+                 </me>
+                 <me>
+                  \therefore\quad  T = 4\times 273=1092 \,K = 819 \,^{o}C
+                 </me>
+       </p>
+  </solution>
+ </example>
+
+
+</paragraphs>
+
+
+<paragraphs>
+  <title>I Law of Thermodynamics</title>
+ 
+  <example>
+    <statement>
+      <p>
+        A spherical balloon one foot in diameter contains helium at one atmosphere of pressure 
+        and at a temperature of <m>27\,^{o}C</m>. Find 
+        <ol marker="a.">
+          <li>
+            the number of moles of helium in the balloon, 
+          </li>
+          <li>
+            the number of molecules in the balloon,
+          </li>
+          <li>
+            the average kinetic energy of each helium molecule, 
+          </li>
+          <li>
+            the rms velocity of a helium molecule,
+          </li>
+          <li>
+            the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius 
+            if the balloon is made of rubber that allows the pressure to remain at one atmosphere,
+          </li>
+          <li>
+            the amount of heat (in Joules) to increase the temperature of the helium in the balloon by one degree Celsius 
+            if the balloon is made of non-stretching aluminum so the volume remains constant, 
+          </li> 
+          <li>
+            the final temperature of the balloon if it rises adiabatically to an altitude where the pressure is one-half atmosphere.
+          </li>
+        </ol>
+        </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>r=0.5\,ft=0.1524 \,m,\quad  p=1\,atm=1.013\times 10^{5} \,N/m^{2},</m> 
+        <m>T=27\,^{o}C=300 \,K, \quad R=8.314 \,J/mol.K</m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              pV=nRT \quad \Rightarrow\quad n=\frac{pV}{RT}
+            </me>
+            Here,
+            <me>
+              V=\frac{4}{3}\pi r^{3} = \frac{4}{3}\pi (0.1524 \,m)^{3} =0.01483 \,m^{3}
+            </me>
+            <me>
+              \therefore\quad n=\frac{pV}{RT} =\frac{(1.013\times 10^{5} \,N/m^{2})(0.01483 \,m^{3})}{(8.314 \,J/mol.K)(300 \,K)} =0.602 \,mol.
+            </me>
+               </li>
+          <li>
+            <me>
+              N_{A} = 6.022\times 10^{23} \,molecules/mol,
+            </me>
+            <me>
+              N=nN_{A} =6.210\times 10^{23} \,molecules
+            </me>
+            </li>
+          <li>
+            <me>
+              k_{B} = 1.380\times 10^{-23}\,J/K, 
+            </me>
+            <me>
+              e_{k} = \frac{3}{2}k_{B}T = 6.210\times 10^{-21}\,J
+            </me>
+              </li>
+          <li>
+            <m> M=4.003 \,g/mol,</m>
+            <me>
+             e_{k} = \frac{1}{2}mv_{rms}^{2},
+            </me>
+            <me>
+              m=\frac{M}{N_{A}} = 6.647\times 10^{-24} \,kg
+            </me>
+            <me>
+              \therefore\quad v_{rms} = \sqrt{\frac{2e_{k}}{m}}
+            </me>
+            <me>
+              = \sqrt{\frac{2(6.210\times 10^{-21}\,J)}{6.647\times 10^{-24} \,kg}}=43.22 \,m/s
+            </me>
+             </li>
+          <li>
+            <m>\Delta T = 1\,^{o}C = 1 \,K,</m>
+            <me>
+              Q=nC_{p}\Delta T,
+            </me>
+            <me>
+              C_{p}=\frac{5}{2}R = 20.79 \,J/mol.K
+            </me>
+            <me>
+              \therefore\quad Q = (0.6022 \,mol)(20.79 \,J/mol.K)1\,K=12.52 \,J
+            </me>
+             </li>
+          <li>
+            <me>
+              Q=nC_{V}\Delta T,
+            </me>
+            <me>
+              C_{V}=\frac{3}{2}R   =12.47 \,J/mol.K
+            </me>
+            <me>
+              \therefore\quad Q= (0.6022 \,mol)(12.47 \,J/mol.K) 1\,K=7.510 \,J
+            </me>
+              </li> 
+          <li>
+            <me>
+              p_{2} =\frac{1}{2} \,atm = 5.065\times 10^{4} \,Pa,
+            </me>
+            <me>
+              pV^{\gamma}  = p_{2}V_{2}^{\gamma},
+            </me>
+            <me>
+              V_{2}=\left(\frac{pV^{\gamma}}{p_{2}}\right)^{\frac{1}{\gamma}},
+            </me>
+            <me>
+              \gamma=\frac{5}{3}
+            </me>
+            <me>
+              \therefore\quad V_{2} = 0.02248 \,m^{3}
+            </me>
+            Now,
+            <me>
+              p_{2}V_{2}=nRT_{2} 
+            </me>
+            <me>
+               \Rightarrow\quad T_{2}=\frac{p_{2}V_{2}}{nR} =227.4\,K=-45.6\,^{o}C.
+            </me>
+              </li>
+        </ol>
+      </p>
+    </solution>
+   </example>
+
+   <example>
+    <statement>
+      <p>
+        Use the principle of equipartition of energy to determine the equations for the internal energy, 
+        the molar specific heat capacity at constant volume, and the molar specific heat capacity 
+        at constant pressure for 
+        <ol marker="a.">
+          <li>
+            a monatomic ideal gas,
+          </li>
+          <li>
+            diatomic ideal gas,
+          </li>
+          <li>
+            diatomic ideal gas with vibration, and
+          </li>
+          <li>
+            solid substance. 
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+        Internal energy per molecule of a gas, 
+        <me>
+          U_{i}=\frac{f}{2}k_{B}T.
+        </me>
+        <me>
+          \therefore \quad U=\frac{f}{2}Nk_{B}T =\frac{f}{2}nRT 
+        </me>
+        <me>
+          \text{or,}\quad \Delta U = \frac{f}{2}nR\Delta T=\Delta Q = nC_{V}\Delta T
+        </me>
+        <me>
+          \therefore\quad C_{V} = \frac{f}{2}R
+        </me>
+              </p>
+              <p>
+                <ol marker="a.">
+                  <li>
+                    for a monoatomic gas, f = 3 translational motion = 3 degrees of freedom.
+                    <me>
+                      \therefore\quad C_{V} = \frac{f}{2}R = \frac{3}{2}R
+                    </me>
+                       </li>
+                  <li>
+                    for a diatomic gas, f = 3 translational + 2rotational motion = 5 degrees of freedom. 
+                    <me>
+                      \therefore\quad C_{V} = \frac{f}{2}R = \frac{5}{2}R
+                    </me>
+                       </li>
+                  <li>
+                    for a diatomic gas with vibration, f = 3 translational + 2rotational + 2 vibrational motions 
+                    = 7 degrees of freedom. (in 2 vibrational motions we have: 1 dimensional stretch and 1 dimensional bend)
+                    <me>
+                      \therefore\quad C_{V} = \frac{f}{2}R = \frac{7}{2}R
+                    </me>
+                      </li>
+                  <li>
+                    for solids, f = 3 D kinetic energy + 3 D potential energy = 6 degrees of freedom. 
+                    <me>
+                      \therefore\quad C_{V} = \frac{f}{2}R = \frac{6}{2}R =3R
+                    </me>
+                         </li>
+                </ol>
+              </p>
+    </solution>
+   </example>
+
+
+   <example>
+    <statement>
+      <p>
+        An ideal monatomic gas containing 10 moles of Helium initially at <m>0\,^{o}C</m> 
+        and one atmosphere is allowed to expand to twice its initial volume. If the temperature 
+        remains constant throughout the process, find each of the following: 
+        <ol marker="a.">
+          <li>
+            the initial volume of the gas,
+          </li>
+          <li>
+            the final volume of the gas,
+          </li>
+          <li>
+            the final temperature of the gas,
+          </li>
+          <li>
+            the final pressure of the gas,
+          </li>
+          <li>
+            the work done by the gas,
+          </li>
+          <li>
+            the change in internal energy of the gas, and
+          </li>
+          <li>
+            the heat added to the gas.
+          </li>
+        </ol>
+           </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>n=10 \,mol,\quad T_{o}=0\,^{o}C=273 \,K,</m> <m>p_{o} =1.013\times 10^{5} \,Pa,</m> 
+      <m>R=8.314 \,J/mol-K,\quad V=2V_{o}, </m> and <m> T=T_{o}.</m>
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              p_{o}V_{o}=nRT_{o} 
+            </me>
+            <me>
+              \therefore\quad V_{o} = \frac{nRT_{o}}{p_{o}} = 0.224 \,m^{3}
+            </me>
+              </li>
+          <li>
+           <me>
+            V=2V_{o}  = 2\times 0.224 \,m^{3} = 0.448 \,m^{3}
+           </me>
+              </li>
+          <li>
+           <me>
+            T=T_{o}  = 273 \,K
+           </me>
+               </li>
+          <li>
+           <me>
+            pV=nRT
+           </me>
+         <me>  \text{or,}\quad p(2V_{o})= nRT_{o}</me>
+           <me>
+            \Rightarrow \quad p = \frac{nRT_{o}}{2V_{o}} = \frac{p_{o}}{2}=5.065\times 10^{4} \,Pa
+           </me>
+             </li>
+          <li>
+            <me>
+              W =\int p\,dV = \int\left(\frac{nRT_{o}}{V}\right)\,dV 
+            </me>
+            <me>
+              = nRT_{o}\ln\left(\frac{V}{V_{o}}\right) = 1.573 \times 10^{4} \,J
+            </me>
+              </li>
+          <li>
+           <me>
+            \Delta U = \frac{3}{2}nR(T-T_{o}) =0
+           </me>
+                </li>
+          <li>
+            <me>
+              \Delta U =  Q- W 
+            </me>
+            <me>
+              \therefore\quad Q = \Delta U +W = 1.573\times10^{4} \,J
+            </me>
+             </li>
+        </ol>
+           </p>
+    </solution>
+   </example>
+
+   <example>
+    <statement>
+      <p>
+        Calculate the change in the internal energy when 5 gm of air is heated from 
+        <m>0 \,^{o}C</m> to <m>2\,^{o}C,</m> the specific heat of air at constant volume being <m>0.172 \,cal/gm/^{o}C.</m>
+        <em>Note:</em> 1 cal = 4.18 J.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        From first law of thermodynamics, 
+        <me>
+          \,dQ=\,dU+p\,dV
+        </me>
+        Since air is heated at constant volume <m>\,dV=0.</m>
+                <me>
+            \therefore \,dQ=\,dU
+          </me>
+          <me>
+            \,dQ = mc_{v}\,dT 
+          </me>
+          <me>
+            =\,dU = (5 \,g) (0.172 \frac{cal}{g.^{o}C})(4.18 \frac{J}{cal}) (2-0)\,^{o}C = 7.19 \,J
+          </me>
+             </p>
+    </solution>
+   </example>
+
+   <example>
+    <statement>
+      <p>
+        A system absorbs 2500 J of heat and at the same time does 90 J of external work. 
+        <ol marker="a.">
+          <li>
+            Find the change in internal energy of the system.
+          </li>
+          <li>
+            Find the change in internal energy of the system if it absorbs 2500 J of heat at the same time 90 J of work done on it. 
+          </li>
+          <li>
+            What will be the change in internal energy of the gas from which 400 J of heat is removed at constant volume.
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        From first law of thermodynamics,
+        <me>
+          \,dU=\,dQ-\,dW
+        </me>
+        <ol marker="a.">
+          <li>
+            Given: <m>\,dQ= 2500 \,J,\quad \,dW=90\,J </m>
+            <me>
+              \therefore \,dU=2500-90 = 2410 \,J
+            </me>
+              We know that <m>\,dW=p\,dV</m>, hence if volume increases or <m>\,dV</m> is +ve, 
+              then <m>\,dW</m> is positive. That is, work done by the system is +ve.
+          </li>
+          <li>
+            Given: <m>\,dQ= 2500 \,J,\quad \,dW=-90 \,J </m> 
+            <me>
+              \therefore \,dU=2500-(-90) = 2590 \,J
+            </me>
+          We know that <m>\,dW=p\,dV</m>, hence if volume decreases or <m>\,dV </m> is -ve, 
+          then <m> \,dW</m> is negative. That is, work done on the system is -ve.
+          </li>
+          <li>
+            Given: <m>\,dQ= -400 \,J </m> and <m> \,dV=0</m>
+            <me>
+              \therefore \,dU=\,dQ-p\,dV = -400 -0 = -400 \,J
+            </me>
+            -ve sign indicates that heat is taken out from the system.
+          </li>
+        </ol>
+           </p>
+    </solution>
+   </example>
+
+</paragraphs>
+
+
+
+<paragraphs>
+<title>II Law of Thermodynamics</title>
+  <example>
+    <statement>
+      <p>
+        A heat engine takes in 1000 J of heat from a reservoir at temperature 400 K and rejects 800 J 
+        of heat into a second heat reservoir at temperature 300 K. 
+        <ol marker ="a.">
+          <li>
+            How much work does the engine do per cycle.
+          </li>
+          <li>
+            If the engine makes 4000 rpm, what is the power output of the engine in Watts? In horsepower?
+          </li>
+          <li>
+            What is the actual efficiency of the engine?
+          </li>
+          <li>
+            What would be the efficiency of a Carnot engine utilizing the same temperatures?
+          </li>
+          <li>
+            Assuming the Carnot engine absorbed the same amount of heat per cycle as 
+            the original engine, how much work would it do per cycle?
+          </li>
+          <li>
+            Assuming it ran at the same speed as the original, what would be its power output?
+          </li>
+        </ol>
+         </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>Q_{h} =1000 \,J, \quad T_{h} =400\,K,</m>  <m>Q_{c}=800 \,J, </m> 
+        and <m> T_{c}= 300 \,K</m>
+      </p>
+      <p>
+        <ol marker ="a.">
+          <li>
+           <me>
+            W= Q_{h} - Q_{c} = 200 \,J
+           </me>
+                </li>
+          <li>
+           <me>
+            p=\frac{W}{t} = Wf 
+            </me>
+           <me>
+            \text{frequency},\quad f = 4000 \,rev/min = 66.67 \,rev/s
+           </me>
+           <me>
+            \therefore\quad p= 200 (J) \times 66.67 (rev/s)  
+           </me>
+           <me>
+            = 13334 \,watt = 13.3 \,kW = 17.9 \,hp
+           </me>
+           <m>[\because 1hp=746 watt]</m>
+               </li>
+          <li>
+            <me>
+              \eta = \frac{W}{Q_{h}}\times 100\% = 20\%
+            </me>
+              </li>
+          <li>
+           <me>
+            \eta_{C} = \left(1-\frac{T_{c}}{T_{h}}\right)\times 100\% = 25\%
+           </me>
+              </li>
+          <li>
+           <me>
+            \eta_{C} = \frac{W_{C}}{Q_{h}} 
+           </me>
+           <me>
+            \quad \Rightarrow\quad W_{C}= \eta_{C}\times Q_{h}= 0.25 \times 1000 (J) = 250 \,J
+           </me>
+             </li>
+          <li>
+            <me>
+              p_{C} = W_{C}f = 16.7 \,kW
+            </me>
+             </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+
+  <example>
+    <statement>
+      <p>
+        A Carnot engine is used to make a heat pump. In winter time, the engine pumps 
+        heat from outside the house at a temperature of <m>0\,^{o}C</m> into the house at a 
+        temperature <m>30\,^{o}C</m>. 
+        <ol marker ="a.">
+          <li>
+            What is the COP of the heat pump? 
+          </li>
+          <li>
+            How much heat is delivered into the house in 24 hours if the unit uses 1000 W of electrical power? 
+            In the summer time, the engine is used as an air conditioner pumping heat from an 
+            exterior temperature of <m>35\,^{o}C</m>  to an interior temperature of <m>25\,^{o}C</m>. 
+          </li>
+          <li>
+            What is the COP of this heat pump operating as an air conditioner? 
+          </li>
+          <li>
+            What is the cooling capacity of this unit in Btu's per hour if it uses 1000 W of electrical power? 
+          </li>
+             </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker ="a.">
+          <li>
+            Given: <m>T_{h}= 30\,^{o}C = 303 \,K, \quad T_{c}= 0\,^{o}C = 273 \,K.</m>  
+            <me>
+              COP = \frac{T_{h}}{T_{h}-T_{c}} = 10.1 
+            </me>
+                </li>
+          <li>
+            Given: <m>p=1000 \,W, \quad t=24 \,h= 24\times 60\times 60 \,s = 86400 \,s. </m> 
+            <me>
+              COP = \frac{Q_{h}}{W} =  \frac{Q_{h}}{pt}
+            </me>
+            <me>
+              \therefore\quad Q_{h} = COP (pt) 
+            </me>
+            <me>
+              = 10.1\times (1000 \,Watt) \times (86400 \,s) =8.73\times 10^{8} \,J 
+            </me>
+              </li>
+          <li>
+            Given: <m>T_{h}= 35\,^{o}C = 308 \,K, \quad T_{c}= 25\,^{o}C = 298 \,K.</m>  
+            <me>
+              COP = \frac{T_{h}}{T_{h}-T_{c}} = 29.8
+            </me>
+              </li>
+          <li>
+            Given: <m>p=1000 \,W, \quad t=1h= 3600 \,s.</m> 
+            <me>
+              W=pt =1000 \,W\times  3600 \,s = 3.6\times 10^{6} \,J
+            </me>
+            <me>
+              COP = \frac{Q_{h}}{W}
+            </me>
+            <me>
+              \Rightarrow\quad Q_{c} = COP\times W = 29.8 \times 3.6\times 10^{6} \,J =  1.07\times 10^{8} \,J
+            </me>
+            <me>
+              \therefore\quad Q_{c} = \frac{1.07\times 10^{8} \,J}{1055 (J/Btu)} =102 \,k\,Btu
+            </me>
+            <me>
+              i.e.,\quad Q_{c}/t =102 \,k\,Btu/h
+            </me>
+               </li>
+             </ol> 
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        An engine works between the temperature <m>227\,^{o}C</m> and <m>27\,^{o}C </m> and 
+        develops 100 horse power. Assuming that its efficiency is equal to that of a Carnot 
+        engine working between the same temperature limits, calculate: 
+        <ol marker="i.">
+          <li>
+            the heat supplied to the engine,
+          </li>
+          <li>
+            the heat rejected by the engine.
+          </li>
+        </ol>
+            </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="i.">
+          <li>
+            The efficiency of Carnot heat engine is given by 
+            <me>
+              \eta = 1-\frac{T_{c}}{T_{h}} = 1-\frac{27+273}{227+273} = 1-\frac{300}{500} =0.4=40\% 
+            </me>
+            Heat supplied by the engine per second is 
+            <me>
+              Q_{h}/t = \frac{W}{t\eta} = \frac{P}{\eta} 
+            </me>
+            <me>
+              = \frac{(100\times 746 \,watt/sec)}{0.4} =186500 \,J/sec= 4.44\times 10^{4} \,cal/sec.
+            </me>
+               </li>
+          <li>
+            The efficiency of heat engine is given by 
+            <me>
+              \eta = 1-\frac{Q_{c}}{Q_{h}} =0.4
+            </me>
+            <me>
+              \text{or,}\quad \frac{Q_{c}}{Q_{h}} =1-0.4 =0.6
+            </me>
+            <me>
+              \therefore\quad Q_{c} = Q_{h}\times 0.6 
+            </me>
+            <me>
+              = (4.44\times 10^{4} \,cal/sec)\times 0.6 = 2.66\times 10 ^{4} \,cal/sec.
+            </me>
+               </li>
+        </ol>
+      </p>
+        </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A Carnot engine works at high temperature 600 K with the efficiency of <m>40\%</m>. 
+        If the efficiency of the engine is <m>75\%</m> and the low temperature kept constant, 
+        what is the high temperature?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        For Carnot engine efficiency, 
+        <me>
+          \eta = 1-\frac{T_{c}}{T_{h}}
+        </me>
+        <me>
+          \text{or,}\quad 0.4 = 1-\frac{T_{c}}{600}
+        </me>
+        <me>
+          \therefore\quad T_{c} = 600(1-0.4)= 600\times 0.6 =360 \,K
+        </me>
+               For heat engine efficiency, 
+               <me>
+                \eta = 1-\frac{T_{c}}{T_{h}}
+               </me>
+               <me>
+                \text{or,}\quad 0.75 = 1-\frac{360}{T_{h}} 
+               </me>
+               <me>
+                \text{or,}\quad \frac{360}{T_{h}} = 1-0.75=0.25
+               </me>
+               <me>
+                \therefore\quad T_{h} = \frac{360}{0.25} =1440 \,K
+               </me>
+                 </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        <ol marker="a.">
+          <li>
+            A 10 moles of <m> O_{2}</m> gas are allowed to expand isothermally at T = 300 K from an 
+            initial volume of 10 liters to a final volume of 30 liters. How much work does the gas do on the piston?
+          </li>
+          <li>
+            If the gas expands adiabatically from 10 to 30 liters. How much work does the gas do?
+          </li>
+        </ol>
+         </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="a.">
+          <li>
+            Work done by the gas in an isothermal process 
+            <me>
+              W=\int\limits_{v_{i}}^{v_{f}} p\,dV  =nRT\int\limits_{v_{i}}^{v_{f}} \frac{\,dV}{V}=nRT\ln\frac{V_{f}}{V_{i}} 
+            </me>
+              <me>
+              \therefore W= 10\times 8.314 \times 300 \ln(3)  = 2.7\times 10^{4} \,J
+            </me>
+           Since n = 10 mole, R = 8.314 J/mol/K, <m>V_{i}=10 \,L,</m> and <m>V_{f}=30 \,L,</m>.
+          </li>
+          <li>
+            Work done by the gas in an adiabatic process 
+            <me>
+              W=\int\limits_{v_{i}}^{v_{f}} p\,dV =k \int\limits_{v_{i}}^{v_{f}} \frac{\,dV}{V^{\gamma}} 
+            </me>
+            <me>
+             = \frac{k}{1-\gamma}\left[V^{1-\gamma}\right]_{v_{i}}^{v_{f}}
+            </me>
+            but, 
+            <me>
+              k=p_{i}V_{i}^{\gamma} =\frac{nRT}{V_{i}}V_{i}^{\gamma} 
+            </me>
+            <me>
+              =nRTV_{i}^{\gamma-1} = 10\times 8.314\times 300\times (0.01)^{\frac{7}{5}-1} = 3953\quad \text{SI units}
+            </me>
+             where n = 10 mole, R = 8.314 J/mol/K, <m>V_{i}=10 \,L = 0.01 \,m^{3},</m> and 
+             <m>\gamma=\frac{7}{5}</m> for diatomic molecule. 
+             <me>
+              \text{or,}\quad  W = \frac{3953}{1-\frac{7}{5}} \left[V_{f}^{1-\frac{7}{5}}-V_{i}^{1-\frac{7}{5}}\right]
+             </me>
+             <me>
+              = -\frac{3953\times 5}{2} \left[V_{f}^{-\frac{2}{5}}-V_{i}^{-\frac{2}{5}}\right]
+             </me>
+             <me>
+              \therefore \quad W= -9882\times  \left[0.03^{-\frac{2}{5}}-0.01^{-\frac{2}{5}}\right] = 22230 \,J =2.2\times 10^{4} \,J
+             </me>
+                 </li>
+        </ol>  
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        If 3 moles of an ideal polyatomic gas initially with a volume of <m>2 m^{3},</m> 
+        and a temperature of 273 K. This gas is compressed isothermally to 1/2 its initial volume. 
+        How much heat must be added to the system during this compression? 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <me>
+          W=\int\limits_{v_{i}}^{v_{f}}p\,dV =  \int\limits_{v_{i}}^{v_{f}} nRT\frac{\,dV}{V} = nRT\ln\frac{V_{f}}{V_{i}}
+        </me>
+         <me>
+          = 3\times 8.314\times 273 \times \ln(\frac{1}{2})= -4719 \,J
+        </me>
+         Now, at constant T, <m>\,dU=0</m>.
+         <me>
+          \therefore\quad \,dQ=\,dU+\,dW =0+ \,dW 
+         </me>
+             Hence, 
+             <me>
+              Q = W = -4.7 \times 10^{4}\,J
+             </me>
+             </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The molar heat capacity of hydrogen gas at constant volume is <m>C_{v}=\frac{5}{2}R.</m> 
+        It fills a volume of <m>100 \,cm^{3}</m> at pressure of 51 kPa. Determine the work done 
+        by the gas when it expands its volume five times 
+        <ol marker="a.">
+          <li>
+            isothermally, and 
+          </li>
+          <li>
+            adiabatically.
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <ol marker="a.">
+          <li>
+            Work done in an isothermal process is given by 
+            <me>
+              W=\int\limits_{v_{i}}^{v_{f}}p\,dV =p_{i}V_{i}\int\limits_{v_{i}}^{v_{f}}\frac{\,dV}{V} = p_{i}V_{i} \ln\frac{V_{f}}{V_{i}} 
+            </me>
+              <m> [\because pV = p_{i}V_{i}]</m>
+            <me>
+              \therefore\quad W = 51 \times 10^{3}(N/m^{2})(100\times 10^{-6}m^{3})\ln(5)=8.2 \,J
+            </me>
+              </li>
+          <li>
+            Work done in an adiabatic process is given by 
+            <me>
+              W=\int\limits_{v_{i}}^{v_{f}}p\,dV =p_{i}V_{i}^{\gamma}\int\limits_{v_{i}}^{v_{f}}\frac{\,dV}{V^{\gamma}}
+            </me>
+              <me>
+              = \frac{p_{i}V_{i}^{\gamma} }{1-\gamma}\left[V^{1-\gamma}\right]_{v_{i}}^{v_{f}} 
+            </me>
+            <m>[\because pV^{\gamma}=p_{i}V_{i}^{\gamma}]</m>
+           <men xml:id="eqn-molht1">
+            \text{or,}\quad W = \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right] 
+           </men>
+           <m>[\because V_{f}=5V_{i}] </m>
+                Now, 
+                <me>
+                  \gamma= \frac{C_{p}}{C_{v}}
+                </me>
+                <me>
+                  \text{and}\quad C_{p}=C_{v}+R = \frac{7}{2}R
+                </me>
+                <me>
+                  \therefore\quad \gamma = \frac{7}{5} 
+                </me>
+                 Hence from eqn. <xref ref="eqn-molht1"/>, 
+                 <me>
+                  W= \frac{p_{i}V_{i}}{1-\gamma}\left[5^{1-\gamma}-1\right]
+                 </me>
+                 <me>
+                  = \frac{51\times 10^{3}\times 100\times 10^{-6}}{1-\frac{7}{5}}\left[5^{-2/5} -1\right]
+                 </me>
+                 <me>
+                  \therefore W = 6.05\,J
+                 </me>
+                 </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+</paragraphs>
+
+
+<paragraphs>
+<title>Entropy</title>
+<example>
+  <statement>
+    <p>
+      A cube of ice of mass 100 grams and temperature <m>0\,^{o}C</m> is placed 
+      in a beaker and heated until the ice melts and the water reaches <m>100\,^{o}C</m>. 
+      What is the change in entropy of the mass?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>m=100 \,g,\quad T_{1}=0\,^{o}C = 273 \,K,</m> 
+       <m>T_{2}=100\,^{o}C = 373 \,K, \quad L=334\,J/g,</m>   and <m> c=4.186 \,J/g-K.</m> 
+       Change in entropy for ice melts - 
+       <me>
+        \Delta S_{1} =\frac{\Delta Q_{1}}{T_{1}}
+       </me>
+       <me>
+        = \frac{mL}{T_{1}} = \frac{100 \,g\times 334 \,J/g}{273\,K} = 122.3 \,J/K
+       </me>
+       Change in entropy for water heating up - 
+       <me>
+        \Delta S_{2} =\int \frac{\,dQ}{T}
+       </me>
+       <me>
+        \text{but,}\quad \,dQ = mc\,dT
+       </me>
+       <me>
+        \therefore\quad \Delta S_{2} =mc\int\limits_{T_{1}}^{T_{2}} \frac{\,dT}{T}
+       </me>
+       <me>
+        = mc\ln\left(\frac{T_{2}}{T_{1}}\right) = 130.6 \,J/K
+       </me>
+   Therefore total change in entropy, 
+   <me>
+    \Delta S = \Delta S_{1}+\Delta S_{2} = 253 \,J/K.
+   </me>
+     </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      A piece of iron <m>(c = 448 \,J/kg.^{o}C)</m> having a mass of 300 g and 
+      temperature of <m>200\,^{o}C</m> is placed in a well insulated and massless 
+      calorimeter containing 500 g of water <m>(c = 4186\,J/kg.^{o}C)</m> at <m>30\,^{o}C</m>. 
+      <ol marker="a.">
+        <li>
+          What is the final temperature of the system? 
+        </li>
+        <li>
+          What is the change in entropy of the iron?
+        </li>
+        <li>
+          What is the change in entropy of the water? 
+        </li>
+        <li>
+          What is the change in entropy of the universe?
+        </li>
+        <li>
+          Is this result consistent with the second law of thermodynamics? Why?
+        </li>
+      </ol>
+        </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>m_{1}=300 \,g =0.3\,kg, \quad m_{2}=500 \,g =0.5\,kg, </m>  
+      <m>c_{1}=448 \,J/kg-K, \quad c_{2}=4186 \,J/kg-K,</m> <m>T_{1}=200\,^{o}C = 473 \,K </m> 
+       and  <m>T_{2}=30\,^{o}C = 303 \,K.</m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          From the principle of calorimetry, 
+          Heat lost by iron = heat gained by water. 
+          <me>
+            m_{1}c_{1}(T_{1}-T_{f}) = m_{2}c_{2}(T_{f}-T_{2}) 
+          </me>
+          <me>
+            \text{or,}\quad (0.3 \,kg)(448 \,J/kg.K) (473-T_{f}) = (0.5 \,kg)(4186 \,J/kg.K)(T_{f}-303) 
+          </me>
+          <me>
+            \therefore\quad T_{f}= 313 \,K 
+          </me>
+           </li>
+        <li>
+          <me>
+            \Delta S_{1} = \int\limits_{T_{1}}^{T_{2}} \frac{mc\,dT}{T}  = mc\ln\left(\frac{T_{f}}{T_{1}}\right) = -55.4 \,J/K
+          </me>
+             </li>
+        <li>
+          <me>
+            \Delta S_{2} = \int\limits_{T_{2}}^{T_{f}} \frac{mc\,dT}{T}  = mc\ln\left(\frac{T_{f}}{T_{2}}\right) = 69.7\,J/K
+          </me>
+              </li>
+        <li>
+        <me>
+          \Delta S = \Delta S_{1}+\Delta S_{2} =14.3 \,J/K
+        </me>
+           </li>
+        <li>
+          Yes, entropy of the universe increases.
+        </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      On the microscopic level entropy is defined as
+       <me>S = N k_{B} ln \omega</me>, where <m>\omega</m> is the number of microscopic 
+       states available to the system in its macroscopic state. For a single gas molecule, 
+       the number of available microscopic states is proportional to the volume V of 
+       the container so that  <me>
+        \omega_{1}  =  k V
+       </me>
+       where k is a constant of proportionality. 
+       <ol marker="a.">
+        <li>
+          If there are N such molecules in the same container, show that the number 
+          of available microscopic states is <m>\omega  =  \omega_{1}^{N}</m>
+        </li>
+        <li>
+          How many microscopic states are available for one mole of gas in a volume V? 
+        </li>
+        <li>
+          In terms of <m>k, \,V, \,N_{A},</m> and <m>k_{B}</m>, what is the entropy of a mole of gas in volume V? 
+        </li>
+        <li>
+          If one mole of gas initially in a volume of 1 L is allowed to expand freely into a 
+          vacuum of volume 2 L,  what is the change in entropy of the gas? 
+        </li>
+        <li>
+          Is this result consistent with the second law of thermodynamics? Why?
+        </li>
+       </ol>
+         </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          For each state <m>\omega_{1} </m> of one molecule a second molecule can be 
+          in any one of <m>\omega_{2}</m> states. Therefore, the total number of microstates 
+          for two particles is <m>\omega_{2} = W_{1}^{2}.</m>  For each of these states 
+          the third particle cab be in any one of <m>\omega_{1} </m> states, so <m>\omega_{3} = \omega_{1}^{3}. </m>
+            Generalizing to N particles gives, <m>\omega_{N}=\omega_{1}^{N}.</m>
+        </li>
+        <li>
+          For one mole of gas, there are <m> N_{A}</m> molecules, so the above equation becomes, 
+          <me>
+            \omega = \omega_{1}^{N_{A}} = (kV)^{N_{A}} 
+          </me>
+            </li>
+        <li>
+          Since <m>S=Nk_{B}\ln \omega,</m> then for one mole, 
+          <me>
+            S=N_{A}k_{B}\ln (kV)^{N_{A}} = N_{A}^{2}k_{B}\ln (kV)
+          </me>
+            </li>
+        <li>
+          <m>V_{1}= 1L, \quad V_{2} =2L</m> 
+          <me>
+            \Delta S = S_{2}-S_{1} = N_{A}^{2}k_{B}\ln (kV_{2}) - N_{A}^{2}k_{B}\ln (kV_{1})
+          </me>
+          <me>
+            = N_{A}^{2}k_{B}\ln \left(\frac{V_{2}}{V_{1}}\right)= N_{A}^{2}k_{B}\ln 2
+          </me>
+             </li>
+        <li>
+          Yes, entropy of the universe increases.
+        </li>
+       </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Calculate the change in entropy of 1 g of ice at <m> 0\,^{o}C</m> is concerted into 
+      steam at <m>100\,^{o}C</m>. Latent heat of fusion = 80 cal/g, latent heat of 
+      vaporization = 540 cal/g, and specific heat capacity of water is <m>1 \,cal/g/^{o}C.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="i.">
+        <li>
+          When ice melts to water at <m>0\,^{o}C,</m> then change in entropy, 
+          <me>
+            \,dS_{1} = \frac{\,dQ}{T} = \frac{mL_{f}}{T} 
+          </me>
+          <me>
+            = \frac{1\times 80}{273} =0.293 \,cal/K
+          </me>
+                </li>
+        <li>
+          When water is heated from <m>0\,^{o}C </m> to <m>100\,^{o}C,</m> then change in entropy,
+          <me>
+            \,dS_{2} =\int \frac{\,dQ}{T}
+          </me>
+          <me>
+            = mc\ln \frac{T_{f}}{T_{i}}  = 1\times 1\times \ln \frac{373}{273} =0.312 \,cal/K
+          </me>
+            </li>
+        <li>
+          When water is converted into steam at <m>100\,^{o}C,</m> then change in entropy, 
+          <me>
+            \,dS_{3} = \frac{\,dQ}{T}
+          </me>
+          <me>
+            = \frac{mL_{v}}{T} = \frac{1\times 540}{373} =1.448 \,cal/K
+          </me>
+          Hence the total change in entropy when one gram of ice at <m> 0\,^{o}C</m> 
+          is converted into steam at <m>100\,^{o}C</m> is  
+          <me>
+            S=0.293+0.312+1.448 = 2.053 \,cal/K
+          </me>
+          </li>
+           </ol>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Calculate the change in entropy when 1 kg of water at <m>0^{o}C</m> is 
+      mixed with 1 kg of water at <m>100\,^{o}C.</m>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      If t be the final temperature of mixture then, heat lost by 1 kg of water 
+      at <me>
+        100\,^{o}C = 1000\times1\times (100-t)
+      </me> 
+      and heat gained by 1 kg of water at 
+      <me>
+        0\,^{o}C =1000\times1\times (t-0)
+      </me>
+    From the principle of calorimetry, 
+      </p>
+      <p>
+        Heat lost = Heat gained. Therefore,
+        <me>
+          1000\times1\times (100-t) = 1000\times1\times (t-0)
+        </me>
+        <me>
+          \therefore\quad t = 50\,^{o}C 
+        </me>
+         Now increase in entropy of 1kg of water in heating from <m>0\,^{o}C</m> to <m>50\,^{o}C</m>  is 
+         <me>
+          \,dS = \int \frac{\,dQ}{T}
+         </me>
+         <me>
+          = mc \ln\frac{T_{f}}{T_{i}} = 1000\times 1\times \ln \frac{323}{273} = 168 \,cal/K 
+         </me>
+         Decrease in entropy of 1kg of water in cooling from <m>100\,^{o}C</m> to <m>50\,^{o}C</m>  is 
+         <me>
+          \,dS = \int \frac{\,dQ}{T}
+         </me>
+         <me>
+          = mc \ln\frac{T_{f}}{T_{i}} = 1000\times 1\times \ln \frac{323}{373} = -144 \,cal/K 
+         </me>
+         Therefore the net increase in entropy of the system = 168-144 = 24 cal/K.
+      </p>
+  </solution>
+</example>
+</paragraphs>
+
+
+ 
+</section>

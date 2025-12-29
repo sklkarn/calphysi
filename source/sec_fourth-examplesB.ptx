@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<example>
+  <statement>
+    <p>
+      A 10-kg block of wood rests on the top of a 20-kg block which rests on a horizontal surface. 
+      The lower block is then pulled to the right at constant speed by a horizontal force while 
+      the top block is held at rest by a horizontal string attached to it. If the coefficient of 
+      kinetic friction for bottom surfaces and coefficient of static friction between top surfaces 
+      are 0.25. <image source="block3.png" width="30%"> </image> 
+      <ol marker="a.">
+        <li>
+          what is the tension in the string, and 
+        </li>
+        <li>
+          the force pulling the bottom block?
+        </li>
+      </ol>  
+    </p>
+  </statement>
+  <solution>
+      <p>
+      Given: <m>m_{1} =10 kg, \quad m_{2} =20 kg,</m> and  <m>\mu =0.25</m>.
+    </p> 
+      <p> 
+      From figure, <image source="block3b.png" width="30%"> </image> in static equilibrium
+      <me>
+        \sum F_{x1} = f_{1}-T =0;\qquad \sum F_{y1} = N_{1}-w_{1} =0
+      </me>
+      <me>
+        w_{1} = m_{1}g; \qquad  f_{1} = \mu N_{1} 
+      </me>
+  From figure, <image source="block3c.png" width="30%"> </image> in translational equilibrium along x-axis,
+  <me>
+    \sum F_{x2} = F-f_{1}-f_{2} =0
+  </me>
+  in static equilibrium along y-axis,
+  <me>
+    \sum F_{y2} = N_{2}-N_{1}-w_{2} =0
+  </me>
+  and
+  <me>
+    w_{2} = m_{2}g; \qquad  f_{2} = \mu N_{2} 
+  </me>
+  Solving all these equations, we have -
+  <me>
+    w_{1} = m_{1}g = 98N; 
+  </me>
+  <me>
+    N_{1} =w_{1} =98N;
+  </me>
+  <me>
+     f_{1} = \mu N_{1} = 24.5N;
+  </me>
+  <ol marker="a.">
+    <li>
+      <me> \therefore \quad T = f_{1}= 24.5N</me> 
+      <me>w_{2} = m_{2}g = 196N;</me>
+      <me>
+        N_{2} =N_{1}+w_{2} =294N;
+      </me>
+      <me>
+        f_{2} = \mu N_{2} = 73.5N
+      </me>
+      </li>
+      <li>
+<me>
+  \therefore\quad F = f_{1}+f_{2} = 98N
+</me>
+     </li>
+  </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A block of wood weighing 20 N is pulled to the right at constant speed 
+      up an inclined plane rising 10 cm per meter by a 10-N force making an angle 
+      of <m>30^{o}</m> above the plane. What is the coefficient of kinetic friction?
+      <image source="block4.png" width="30%"> </image> 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>w =20N, \quad h =10 cm =0.1m, \quad  L =1m, \quad  F=10N,</m> and <m>\theta_{2}=30^{o}</m>.  
+    </p>
+    <p>
+      From figure From figure, <image source="block4b.png" width="30%"> </image> 
+      <me>
+        \sum F_{x} = F\cos\theta_{2}-f-w\sin\theta_{1} =0;
+      </me>
+      <me>
+        \sum F_{y} = N+F\sin\theta_{2}-w\cos\theta_{1} =0
+      </me>
+      <me>
+        f = \mu N;
+      </me>
+      <me>
+        \text{and}\quad \sin\theta_{1}=\frac{h}{L} 
+      </me>
+     on solving these equations, we get -
+     <me>
+      \sin\theta_{1}=\frac{h}{L}=0.1 \quad \Rightarrow \theta_{1} = 5.739^{o}
+     </me>
+     <me>
+      f=F\cos\theta_{2}-w\sin\theta_{1} =6.660N
+     </me>
+     <me>
+      N=w\cos\theta_{1}-F\sin\theta_{2}=14.90N
+     </me>
+     <me>
+      \therefore\quad \mu= \frac{f}{N} =0.447
+     </me>
+   </p>
+  </solution>
+</example>
+
+</section>

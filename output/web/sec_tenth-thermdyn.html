@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Thermodynamics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="General Physics">
+<meta property="book:author" content="Sunil Karna">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.42217a82c75796c8.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.7e141ad8414abf4a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="calphysi.html"><span class="title">General Physics</span> <span class="subtitle">Volume I</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec_tenth-kt_gas.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch_tenth.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_tenth-examplesB.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-dedication"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Dedication</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-6.html" class="internal"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_first.html" class="internal"><span class="codenumber">1</span> <span class="title">Units and Measurements</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Physical Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec_dimanal-subsection" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Derived Units</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-diamanlysis" class="internal"><span class="codenumber">1.1.1.1</span> <span class="title">Dimensional Analysis</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-erranalysis" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Errors in Measurement</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec-sigfig" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Significant Figures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-rounding_off" class="internal"><span class="codenumber">1.1.3.1</span> <span class="title">Rounding off the Numbers</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-math_op_sig" class="internal"><span class="codenumber">1.1.3.2</span> <span class="title">Mathematical Operations with Significant Figures</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-examples.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_second.html" class="internal"><span class="codenumber">2</span> <span class="title">Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Algebra of Vectors</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-compnt_vect" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Components of a Vector:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-intro.html#subsec-vect_mult" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Product of Two Vectors:</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-dot_product" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Scalar (or Dot) Product</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsubsec-cross_product" class="internal"><span class="codenumber">2.1.2.2</span> <span class="title">Vector (or Cross) Product</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-axis_transform" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Transformation of Axis</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-examples.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_third.html" class="internal"><span class="codenumber">3</span> <span class="title">Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-1D.html" class="internal"><span class="codenumber">3.1</span> <span class="title">1D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-1D.html#subsec-slope" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Analyzing the motion curve</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsubsec-graph_read" class="internal"><span class="codenumber">3.1.1.1</span> <span class="title">Reading of <span class="process-math">\(x \sim t\)</span> graph</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-eqns_motion" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Equations of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rel_vel" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Relative velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-1D.html#subsec-rule_solveMotion" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Rules to follow while solving motion problems:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examplesA.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-2D.html" class="internal"><span class="codenumber">3.3</span> <span class="title">2D Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-projtile_motion" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Projtile Motion</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-2D.html#subsec-cir_kinem" class="internal"><span class="codenumber">3.3.2</span> <span class="title">Circular Kinematics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-cent_accel" class="internal"><span class="codenumber">3.3.2.1</span> <span class="title">Centripetal Acceleration:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_displ" class="internal"><span class="codenumber">3.3.2.2</span> <span class="title">Angular Displacement, <span class="process-math">\(\theta\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_vel" class="internal"><span class="codenumber">3.3.2.3</span> <span class="title">Angular Velocity, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_freq" class="internal"><span class="codenumber">3.3.2.4</span> <span class="title">Angular Frequency, <span class="process-math">\(\omega\text{:}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsubsec-ang_accel" class="internal"><span class="codenumber">3.3.2.5</span> <span class="title">Angular Acceleration, <span class="process-math">\(\alpha\text{:}\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-2D.html#subsec-polar_coord" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Motion in Polar Coordinates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examplesB.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Force and Equilibrium</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Types of Forces</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-types_forces" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Fundamental and Mechanical Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-Nlaw_motion" class="internal"><span class="codenumber">4.1.2</span> <span class="title">Newton’s Laws of Motion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-friction" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Friction</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fourth-intro.html#subsec-statics" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Statics</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-intro.html#subsubsec-state_eqlbrm" class="internal"><span class="codenumber">4.1.4.1</span> <span class="title">Static Equilibrium</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesA.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-transeql.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Translational Equilibrium</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesB.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-dynamics.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-atwood_machine" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Atwood’s Machine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-dynamics.html#subsec-air_drag" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Motion in Air Drag</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesC.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-circular.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Circular Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-con_pendulum" class="internal"><span class="codenumber">4.7.1</span> <span class="title">Horizontal Circle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-circular.html#subsec-vertcir" class="internal"><span class="codenumber">4.7.2</span> <span class="title">Vertical Circle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-banking.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Banking of a Curve</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesD.html" class="internal"><span class="codenumber">4.9</span> <span class="title">Examples D</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-cm.html" class="internal"><span class="codenumber">4.10</span> <span class="title">Center of Mass</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fourth-torque.html" class="internal"><span class="codenumber">4.11</span> <span class="title">Torque</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-rot_eql" class="internal"><span class="codenumber">4.11.1</span> <span class="title">Rotational Equilibrium</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fourth-torque.html#subsec-st_equlbrm" class="internal"><span class="codenumber">4.11.2</span> <span class="title">States of Equilibrium</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fourth-examplesE.html" class="internal"><span class="codenumber">4.12</span> <span class="title">Examples E</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.13</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_fifth.html" class="internal"><span class="codenumber">5</span> <span class="title">Energy and Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-intro.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Work, Energy, and Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-work" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Work</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-energy" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-we_theorem" class="internal"><span class="codenumber">5.1.2.1</span> <span class="title">Work-Energy Theorem</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-ke" class="internal"><span class="codenumber">5.1.2.2</span> <span class="title">Kinetic Energy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsubsec-pe" class="internal"><span class="codenumber">5.1.2.3</span> <span class="title">Potential Energy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-con_nonconservF" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Conservative and Non-Conservative Forces</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-princ_con-energy" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Principle of Conservation of Energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ediagram" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Energy Diagram</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-intro.html#subsec-ll_track" class="internal"><span class="codenumber">5.1.6</span> <span class="title">Loop-the-Loop Track</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-power.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Power</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsec-sm" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Simple Machine</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-power.html#subsec-pulley" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Pulley</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-mech_adv" class="internal"><span class="codenumber">5.2.2.1</span> <span class="title">Mechanical Advantage</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-power.html#subsubsec-pulley_type" class="internal"><span class="codenumber">5.2.2.2</span> <span class="title">Types of Pulley</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesA.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Impulse and Momentum</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-collision" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Collision</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-ineleast_col" class="internal"><span class="codenumber">5.4.1.1</span> <span class="title">Inelastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-elast_col" class="internal"><span class="codenumber">5.4.1.2</span> <span class="title">Elastic Collision</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-2d_col" class="internal"><span class="codenumber">5.4.1.3</span> <span class="title">Collision in 2D</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsubsec-coef_restit" class="internal"><span class="codenumber">5.4.1.4</span> <span class="title">Coefficient of Restitution, e</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_fifth-impulse.html#subsec-ball_pendulum" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Ballistic Pendulum</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_fifth-examplesB.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fifth.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_sixth.html" class="internal"><span class="codenumber">6</span> <span class="title">Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-intro.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Newton’s Law of Gravitation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-accl_grav" class="internal"><span class="codenumber">6.1.1</span> <span class="title">Acceleration Due to Gravity, <span class="process-math">\(g\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-rot_g" class="internal"><span class="codenumber">6.1.1.1</span> <span class="title">Effect of the Rotation of the Earth on  g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-alt_g" class="internal"><span class="codenumber">6.1.1.2</span> <span class="title">Effect of Altitude of the Earth on g</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsubsec-depth_g" class="internal"><span class="codenumber">6.1.1.3</span> <span class="title">Effect of Depth of the Earth on g</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-grav_pot" class="internal"><span class="codenumber">6.1.2</span> <span class="title">Gravitational Potential Energy, U</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-orb_vel" class="internal"><span class="codenumber">6.1.3</span> <span class="title">Orbital Velocity of a Satelite</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-esc_vel" class="internal"><span class="codenumber">6.1.4</span> <span class="title">Escape Velocity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-intro.html#subsec-geo_sync" class="internal"><span class="codenumber">6.1.5</span> <span class="title">Geosynchronous satellite</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_sixth-kepler.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Kepler’s Laws of Planetary Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-pol_cord" class="internal"><span class="codenumber">6.2.1</span> <span class="title">Polar Coordinates</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepI_law" class="internal"><span class="codenumber">6.2.2</span> <span class="title">Derivation of Kepler’s I Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepII_law" class="internal"><span class="codenumber">6.2.3</span> <span class="title">Derivation of Kepler’s II Law</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_sixth-kepler.html#subsec-kepIII_law" class="internal"><span class="codenumber">6.2.4</span> <span class="title">Derivation of Kepler’s III Law</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_sixth-examples.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_sixth.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_seventh.html" class="internal"><span class="codenumber">7</span> <span class="title">Rigid Body</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-intro.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Moment of Inertia</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-paral_axis" class="internal"><span class="codenumber">7.1.1</span> <span class="title">Parallel axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-perpend_axis" class="internal"><span class="codenumber">7.1.2</span> <span class="title">Perpendicular axis theorem</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_ring" class="internal"><span class="codenumber">7.1.3</span> <span class="title">Moment of Inertia of a Ring or Hoop</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_cm" class="internal"><span class="codenumber">7.1.3.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_rim" class="internal"><span class="codenumber">7.1.3.2</span> <span class="title">About an axis passing through its rim and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miring_diam" class="internal"><span class="codenumber">7.1.3.3</span> <span class="title">About an axis through its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_rod" class="internal"><span class="codenumber">7.1.4</span> <span class="title">Moment of Inertia of a Rod</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_cm" class="internal"><span class="codenumber">7.1.4.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_edge" class="internal"><span class="codenumber">7.1.4.2</span> <span class="title">About an axis passing through its one edge and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mirod_length" class="internal"><span class="codenumber">7.1.4.3</span> <span class="title">About an axis passing along its length and through the center of mass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_disk" class="internal"><span class="codenumber">7.1.5</span> <span class="title">Moment of Inertia of a Disk</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_cm" class="internal"><span class="codenumber">7.1.5.1</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_diam" class="internal"><span class="codenumber">7.1.5.2</span> <span class="title">About an axis through its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-midisk_edge" class="internal"><span class="codenumber">7.1.5.3</span> <span class="title">About an axis passing through its edge and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_plate" class="internal"><span class="codenumber">7.1.6</span> <span class="title">Moment of Inertia of a Plate</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmlength" class="internal"><span class="codenumber">7.1.6.1</span> <span class="title">About an axis <span class="process-math">\(I_{x}\)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_cmwide" class="internal"><span class="codenumber">7.1.6.2</span> <span class="title">About an axis <span class="process-math">\(I_{y} \)</span> passing through its center of mass and parallel to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miplate_perpnd" class="internal"><span class="codenumber">7.1.6.3</span> <span class="title">About an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cylnd" class="internal"><span class="codenumber">7.1.7</span> <span class="title">Moment of Inertia of a Cylinder</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cm" class="internal"><span class="codenumber">7.1.7.1</span> <span class="title">Moment of inertia of a thin hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_percm" class="internal"><span class="codenumber">7.1.7.2</span> <span class="title">Moment of inertia of a thick hollow cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-micyl_cmsolid" class="internal"><span class="codenumber">7.1.7.3</span> <span class="title">Moment of inertia of a solid cylinder about an axis passing through its center of mass and perpendicular to its plane</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_cone" class="internal"><span class="codenumber">7.1.8</span> <span class="title">Moment of Inertia of a Cone</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miscone_symtr" class="internal"><span class="codenumber">7.1.8.1</span> <span class="title">Moment of Inertia of a Solid Cone about an axis of symmetry</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-miscone_vertx" class="internal"><span class="codenumber">7.1.8.2</span> <span class="title">Moment of Inertia of a Solid Cone about a Vertex Parallel to the Base</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihcone_symt" class="internal"><span class="codenumber">7.1.8.3</span> <span class="title">Moment of Inertia of a Hollow Cone about an axis of symmetry</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-mi_spher" class="internal"><span class="codenumber">7.1.9</span> <span class="title">Moment of Inertia of a Sphere</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-mihspher" class="internal"><span class="codenumber">7.1.9.1</span> <span class="title">Moment of inertia of a hollow sphere about its diameter</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsubsec-misspher" class="internal"><span class="codenumber">7.1.9.2</span> <span class="title">Moment of inertia of a solid sphere about its diameter</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-intro.html#subsec-rad_gyr" class="internal"><span class="codenumber">7.1.10</span> <span class="title">Radius of Gyration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesA.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-rotdyn.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Rotational Dynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rot_overview" class="internal"><span class="codenumber">7.3.1</span> <span class="title">Rotational Overview</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-rwep" class="internal"><span class="codenumber">7.3.2</span> <span class="title">Rotational Energy, Work, and Power</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-ang_momnt" class="internal"><span class="codenumber">7.3.3</span> <span class="title">Angular Momentum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-rotdyn.html#subsec-gyros" class="internal"><span class="codenumber">7.3.4</span> <span class="title">The Gyroscope</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesB.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Oscillatory Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-shm" class="internal"><span class="codenumber">7.5.1</span> <span class="title">Simple Harmonic Motion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-eq_shm" class="internal"><span class="codenumber">7.5.1.1</span> <span class="title">Equation of SHM</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsubsec-energy_shm" class="internal"><span class="codenumber">7.5.1.2</span> <span class="title">Energy in SHM</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-simp_pendulum" class="internal"><span class="codenumber">7.5.2</span> <span class="title">Simple Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-comp_pendulum" class="internal"><span class="codenumber">7.5.3</span> <span class="title">Compound Pendulum</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_seventh-oscil.html#subsec-largeangl_approx" class="internal"><span class="codenumber">7.5.4</span> <span class="title">Simple Pendulum with Large Angle Approximation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_seventh-examplesC.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Examples C</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_seventh.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_eighth.html" class="internal"><span class="codenumber">8</span> <span class="title">Elasticity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_eighth-intro.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Hooke’s Law</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-elst_mod" class="internal"><span class="codenumber">8.1.1</span> <span class="title">Elastic Modulus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-young_mod" class="internal"><span class="codenumber">8.1.1.1</span> <span class="title">Young’s Modulus or Elasticity of Length</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-bulk_mod" class="internal"><span class="codenumber">8.1.1.2</span> <span class="title">Bulk Modulus or Elasticity of Volume</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsubsec-sher_mod" class="internal"><span class="codenumber">8.1.1.3</span> <span class="title">Shear Modulus (Modulus of Rigidity) or Elasticity of Shape</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-hook_spring" class="internal"><span class="codenumber">8.1.2</span> <span class="title">Hook’s Law for a Spring</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_eighth-intro.html#subsec-elast_potenrg" class="internal"><span class="codenumber">8.1.3</span> <span class="title">Elastic Potential Energy</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_eighth-examplesA.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_eighth.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch_ninth.html" class="internal"><span class="codenumber">9</span> <span class="title">Fluid Mechanics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-intro.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Fluid Statics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-pascle_prncpl" class="internal"><span class="codenumber">9.1.1</span> <span class="title">Pascal’s Principle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsubsec-pres_mesrmnt" class="internal"><span class="codenumber">9.1.1.1</span> <span class="title">Measurement of Fluid Pressure</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-intro.html#subsec-archm_princp" class="internal"><span class="codenumber">9.1.2</span> <span class="title">Archimedes’ Principle</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-fflow.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Fluid Flow</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-eq_contnty" class="internal"><span class="codenumber">9.2.1</span> <span class="title">Equation of Continuity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-bernols" class="internal"><span class="codenumber">9.2.2</span> <span class="title">Bernoulli’s Principle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-fflow.html#subsec-appl_bernl" class="internal"><span class="codenumber">9.2.3</span> <span class="title">Applications of Bernoulli’s Principle:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examplesA.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-visc.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Viscosity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-coef_visc" class="internal"><span class="codenumber">9.4.1</span> <span class="title">Coefficient of Viscosit</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-pois_law" class="internal"><span class="codenumber">9.4.2</span> <span class="title">Poiseuille’s Law</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_ninth-visc.html#subsec-stok_law" class="internal"><span class="codenumber">9.4.3</span> <span class="title">Stoke’s Law</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_ninth-visc.html#subsubsec-terminal_vel" class="internal"><span class="codenumber">9.4.3.1</span> <span class="title">Terminal velocity of a body moving through a fluid</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_ninth-surtens.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Surface Tension</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-capl_act" class="internal"><span class="codenumber">9.5.1</span> <span class="title">Capillary Action</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-surfenergy" class="internal"><span class="codenumber">9.5.2</span> <span class="title">Equivalence between surface tension and surface energy</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_ninth-surtens.html#subsec-buble" class="internal"><span class="codenumber">9.5.3</span> <span class="title">Soap Bubble</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_ninth-examplesB.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_ninth.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch_tenth.html" class="internal"><span class="codenumber">10</span> <span class="title">Heat and Thermodynamics</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-intro.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-temp_therm" class="internal"><span class="codenumber">10.1.1</span> <span class="title">Temperature and Thermometers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-intro.html#subsec-" class="internal"><span class="codenumber">10.1.2</span> <span class="title">Absolute Scale</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-therm_exp.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Thermal Expansion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-lin_exp" class="internal"><span class="codenumber">10.2.1</span> <span class="title">Linear Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-super_exp" class="internal"><span class="codenumber">10.2.2</span> <span class="title">Superficial Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-vol_exp" class="internal"><span class="codenumber">10.2.3</span> <span class="title">Volumetric (Cubic) Expansion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-rel_therexp" class="internal"><span class="codenumber">10.2.4</span> <span class="title">Relation between <span class="process-math">\(\alpha, \,\beta,\)</span>  and <span class="process-math">\(\gamma\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-therm_exp.html#subsec-water_anom" class="internal"><span class="codenumber">10.2.5</span> <span class="title">Anomalous expansion of water</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-heat_meas.html" class="internal"><span class="codenumber">10.3</span> <span class="title">Quantity of Heat</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-sp_heat" class="internal"><span class="codenumber">10.3.1</span> <span class="title">Specific Heat Capacity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-latent" class="internal"><span class="codenumber">10.3.2</span> <span class="title">Latent Heat</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-phase_change" class="internal"><span class="codenumber">10.3.3</span> <span class="title">Phase Changes of Matter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-calrmtr" class="internal"><span class="codenumber">10.3.4</span> <span class="title">Calorimetry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-triple_pnt" class="internal"><span class="codenumber">10.3.5</span> <span class="title">Triple Point of Water</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-heat_trans" class="internal"><span class="codenumber">10.3.6</span> <span class="title">Heat Transfer</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-newton_cool" class="internal"><span class="codenumber">10.3.7</span> <span class="title">Newton’s Law of Cooling</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-heat_meas.html#subsec-solar_const" class="internal"><span class="codenumber">10.3.8</span> <span class="title">Solar Constant</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examplesA.html" class="internal"><span class="codenumber">10.4</span> <span class="title">Examples A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_tenth-kt_gas.html" class="internal"><span class="codenumber">10.5</span> <span class="title">Kinetic Theory of Ideal Gas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-gas_pres" class="internal"><span class="codenumber">10.5.1</span> <span class="title">Pressure of an Ideal Gas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-dg_freedom" class="internal"><span class="codenumber">10.5.2</span> <span class="title">Degree of Freedom:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-equip_law" class="internal"><span class="codenumber">10.5.3</span> <span class="title">Law of Equipartition of Energy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsubsec-avagdrs" class="internal"><span class="codenumber">10.5.3.1</span> <span class="title">Avogadro’s Number, <span class="process-math">\(N_{A}\)</span></span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsubsec-amu" class="internal"><span class="codenumber">10.5.3.2</span> <span class="title">Atomic Mass Unit, u</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-internal_energy" class="internal"><span class="codenumber">10.5.4</span> <span class="title">Internal Energy of a Gas</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-kt_gas.html#subsec-gas_laws" class="internal"><span class="codenumber">10.5.5</span> <span class="title">Gas Laws</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html" class="internal"><span class="codenumber">10.6</span> <span class="title">Thermodynamics</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-therm_varbls" class="internal"><span class="codenumber">10.6.1</span> <span class="title">Thermodynamical Variables</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-therm_laws" class="internal"><span class="codenumber">10.6.2</span> <span class="title">Laws of Thermodynamics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-zeroth" class="internal"><span class="codenumber">10.6.2.1</span> <span class="title">Zeroth Law of Thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-I_law-therm" class="internal"><span class="codenumber">10.6.2.2</span> <span class="title">First Law of Thermodynamics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-Ilaw_appl" class="internal"><span class="codenumber">10.6.3</span> <span class="title">Application of I law of thermodynamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-II_law" class="internal"><span class="codenumber">10.6.4</span> <span class="title">Second Law of Thermodunamics</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-heat_engn" class="internal"><span class="codenumber">10.6.5</span> <span class="title">Heat Engines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-carnot_engn" class="internal"><span class="codenumber">10.6.6</span> <span class="title">Carnot’s Heat Engine</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-revs_heatengn" class="internal"><span class="codenumber">10.6.7</span> <span class="title">Reversible Heat Engines</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-canot_cycl" class="internal"><span class="codenumber">10.6.8</span> <span class="title">Carnot’s Cycle:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-carnt_therm" class="internal"><span class="codenumber">10.6.9</span> <span class="title">Carnot’s Theorem:</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-heat_pump" class="internal"><span class="codenumber">10.6.10</span> <span class="title">Heat Pump and Refrigerator</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-cop" class="internal"><span class="codenumber">10.6.10.1</span> <span class="title">Coefficient of Performance,	COP:</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-entropy" class="internal"><span class="codenumber">10.6.11</span> <span class="title">Entropy</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-entropy_incrs" class="internal"><span class="codenumber">10.6.11.1</span> <span class="title">Principle of increase of entropy:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsubsec-entropy_degrad" class="internal"><span class="codenumber">10.6.11.2</span> <span class="title">Principle of degradation of entropy:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-entropy_prob" class="internal"><span class="codenumber">10.6.12</span> <span class="title">Entropy and Probability</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_tenth-thermdyn.html#subsec-III_law" class="internal"><span class="codenumber">10.6.13</span> <span class="title">Third Law of Thermodynamics</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_tenth-examplesB.html" class="internal"><span class="codenumber">10.7</span> <span class="title">Examples B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_tenth.html" class="internal"><span class="codenumber">10.8</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_physTable.html" class="internal"><span class="codenumber">B</span> <span class="title">Useful Data and Greek Letters</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_tenth-thermdyn"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">10.6</span><span class="space"> </span><span class="title">Thermodynamics</span>
+</h2>
+<section class="introduction" id="sec_tenth-thermdyn-2"><div class="para" id="sec_tenth-thermdyn-2-1">The word <dfn class="terminology">thermodynamics</dfn> was coined by Lord Kelvin in 1849. It is a combination of two words, <em class="emphasis">thermo</em> that refers heat and <em class="emphasis">dynamics</em> that refers force or motion of the molecules or atoms. It is the branch of physics which deals with heat energy, its transfer, and energy conversion. It begins its journey with the development of fire. People used to believe that every substance has some amount of invisible fluid called caloric fluid. When it moves from one object to another the object becomes hot or cold. The object which loses caloric fluid becomes cold and which gains caloric fluid becomes hot. We know now that there is nothing like caloric fluid but it is a heat energy which exists in a material due to molecular vibration. Heat is a form of energy that can flow due to temperature difference. We can obtain an infinite amount of heat energy out of the material. For example, we can produced an infinite amount of heat from water by performing a continuous mechanical work (as in <em class="emphasis">Joul’s experiment</em> <a href="sec_tenth-thermdyn.html#jouleexpt" class="xref" data-knowl="./knowl/xref/jouleexpt.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.3.(a)">Figure 10.6.3.(a)</a>) without changing the condition of water. Work is also an energy that is transferred from one system to another without considering the temperature difference between them.<div class="autopermalink" data-description="Paragraph"><a href="#sec_tenth-thermdyn-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec_tenth-thermdyn-2-2">There are several processes in nature which occur always in a particular fashion. For examples, <em class="emphasis">water falls from a high elevation to low elevation,</em> <em class="emphasis">heat flows from high temperature to low temperature</em>, <em class="emphasis">current flows from high electric potential to low electric potential</em>, in diffusion <em class="emphasis">molecules flows from high concentration to low concentration</em>, <em class="emphasis">we grow older not younger</em>, <em class="emphasis">our hair turns gray not black as we go older</em>, and so on. Even in the conversion of mechanical energy into heat energy, for example if you rub your right hand finger on the palm of left hand (mechanical work) you produce a heat but reverse does not seem to happen. Yes, some events can happen in both directions, for example you can heat a gas and you can cool a gas, you expand a gas and compress a gas, etc but even in that processes we can see there are some changes happen in the surroundings. We will discuss those events later in second law of thermodynamics which talks about the directional property of heat energy and its conversion. The conversion of mechanical energy into electrical energy and vice a versa is 100% possible in ideal case but if we want to convert heat energy into mechanical work (energy) then 100% conversion is not possible even in the ideal  case. However, we can convert all of our mechanical energy into heat energy. Hence we can tell that the nature always follows a certain pattern to have some process to occur. Nature obeyes simple and universal laws that can be expressed in the mathematical language. <em class="emphasis">Thermodynamics</em> is thus a fundamental subject of nature that describes the basic laws governing the physical process and its occurrence associated with the transfer of energy and its conversion. It is based on our common experience, observation, and experimentation. It has two parts in observational points of view, that is microscopic view (statistical thermodynamics) and macroscopic view (classical thermodynamics). The characteristic of the over all behavior the system can be sensed in classical thermodynamics. The behavior of system on the basis of its molecular property can be studied in statistical thermodynamics. That is, the classical <em class="emphasis">thermodynamics is an average outcome of statistical thermodynamics</em>. <em class="emphasis">Thermodynamics provides a very important aspects of our life that tells us which process in nature can only occur and which process can not occur.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec_tenth-thermdyn-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="sec_tenth-thermdyn-2-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:1.666666666666667%;margin-right:1.666666666666667%;">
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="opensyst"><img src="external/opensyst.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span>open system<div class="autopermalink" data-description="Figure 10.6.1.(a)"><a href="#opensyst" title="Copy heading and permalink for Figure 10.6.1.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="clossyst"><img src="external/clossyst.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span>closed system<div class="autopermalink" data-description="Figure 10.6.1.(b)"><a href="#clossyst" title="Copy heading and permalink for Figure 10.6.1.(b)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:31.0344827586207%;"><figure class="figure figure-like" id="isolsyst"><img src="external/isolsyst.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span>isolated system<div class="autopermalink" data-description="Figure 10.6.1.(c)"><a href="#isolsyst" title="Copy heading and permalink for Figure 10.6.1.(c)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.1<span class="period">.</span></span><span class="space"> </span>Thermodynamical systems<div class="autopermalink" data-description="Figure 10.6.1"><a href="#sec_tenth-thermdyn-2-3" title="Copy heading and permalink for Figure 10.6.1">🔗</a></div></figcaption></figure><div class="para" id="sec_tenth-thermdyn-2-4">To understand the thermodynamical process we need to know about the system and surroundings. The system is the part of the universe being studied, while the surroundings are the rest of the universe that interacts with the system. The <em class="emphasis">system and surroundings</em> are separated by a hypothetical line called a <em class="emphasis">boundary</em>. It may be real or imaginary, for example water in a beaker is separated from rest of the room, then the beaker behaves as a boundary, water as a system, and the rest of the room as surroundings. In other word, a <dfn class="terminology">system</dfn> is a definite amount of matter bounded by a closed surface. Anything outside of this closed surface is called a <dfn class="terminology">surroundings</dfn>. The closed surface is a boundary which separates the system and the surroundings. The boundary may be real or imaginary, it may be fixed, flexible, or distorted. System and surroundings must interact with each other by exchanging energy of any forms. System which can exchange energy and matter both with the surroundings is called <em class="alert">open system</em>. For example, boiling water in an open pot. If the system can exchange only energy but not the matter with its surroundings then system is called a <em class="alert">closed system</em>. For example, a cup of coffee with a lid on it. Some system neither exchange energy nor the matter with its surroundings then it is called an <em class="alert">isolated system</em>. For example, a thermos flask.<div class="autopermalink" data-description="Paragraph"><a href="#sec_tenth-thermdyn-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsection" id="subsec-therm_varbls"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.1</span><span class="space"> </span><span class="title">Thermodynamical Variables</span>
+</h3>
+<div class="para" id="subsec-therm_varbls-2">The state of a thermodynamic system can be specified in terms of macroscopic state variables such as volume, V, temperature, T,  and pressure, p. Out of these three, two are independent variables while the third may be considered as their function. In general, two of these parameters are needed to completely specify a thermodynamical system. These two types of variables are also known as extensive and intensive variables. Variables that depend on the size of a system such as volume, V, amount of substance (moles, n ), entropy, S, etc. are called <dfn class="terminology">extensive variables</dfn>. Variables that do not depend on the size of a system such as temperature, T, pressure, p , density, <span class="process-math">\(\rho\text{,}\)</span> etc. are called <dfn class="terminology">intensive variables</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-therm_varbls-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.1: Thermodynamical Variables"><a href="#subsec-therm_varbls" title="Copy heading and permalink for Subsection 10.6.1: Thermodynamical Variables">🔗</a></div></section><section class="subsection" id="subsec-therm_laws"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.2</span><span class="space"> </span><span class="title">Laws of Thermodynamics</span>
+</h3>
+<section class="introduction" id="subsec-therm_laws-2"><div class="para" id="subsec-therm_laws-2-1">The laws of thermodynamics define fundamental physical quantities such as temperature, energy, and entropy that characterize thermodynamic systems. There are four laws of thermodynamics.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-therm_laws-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-zeroth"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.6.2.1</span><span class="space"> </span><span class="title">Zeroth Law of Thermodynamics</span>
+</h4>
+<figure class="figure figure-like" id="zeroth"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/zeroth.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.2<span class="period">.</span></span><span class="space"> </span>isolated system<div class="autopermalink" data-description="Figure 10.6.2"><a href="#zeroth" title="Copy heading and permalink for Figure 10.6.2">🔗</a></div></figcaption></figure><div class="para" id="subsubsec-zeroth-3">It defines the temperature and states the thermal equilibrium condition. Thermal equilibrium is a state achieved by two or more systems after being in contact with one another through a diathermic wall. If an object with a higher temperature comes in contact with another object at a lower temperature, it will transfer some of its heat energy to the object at lower temperature till they come to the same temperature. If two systems are each in thermal equilibrium with a third system, then they must be in thermal equilibrium with each other. If <em class="emphasis">temperature of object A = temperature of object C and temperature of object B = temperature of object C, then temperature of object A = temperature of object B</em> [<a href="sec_tenth-thermdyn.html#zeroth" class="xref" data-knowl="./knowl/xref/zeroth.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.2">Figure 10.6.2</a>].<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-zeroth-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.6.2.1: Zeroth Law of Thermodynamics"><a href="#subsubsec-zeroth" title="Copy heading and permalink for Subsubsection 10.6.2.1: Zeroth Law of Thermodynamics">🔗</a></div></section><section class="subsubsection" id="subsubsec-I_law-therm"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.6.2.2</span><span class="space"> </span><span class="title">First Law of Thermodynamics</span>
+</h4>
+<figure class="figure figure-like" id="subsubsec-I_law-therm-2"><div class="sidebyside"><div class="sbsrow" style="margin-left:12.5%;margin-right:12.5%;">
+<div class="sbspanel top" style="width:40%;"><figure class="figure figure-like" id="jouleexpt"><img src="external/jouleexpt.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.3.(a)"><a href="#jouleexpt" title="Copy heading and permalink for Figure 10.6.3.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:26.6666666666667%;"><figure class="figure figure-like" id="Ilawtherm"><img src="external/Ilawtherm.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.3.(b)"><a href="#Ilawtherm" title="Copy heading and permalink for Figure 10.6.3.(b)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.3<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.3"><a href="#subsubsec-I_law-therm-2" title="Copy heading and permalink for Figure 10.6.3">🔗</a></div></figcaption></figure><div class="para logical" id="subsubsec-I_law-therm-3">
+<div class="para">The first law is a consequence of conservation of energy and requires that a system may exchange energy with its surroundings strictly by heat flow or work. Joule has established the equivalence between heat and mechanical work as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W=JQ,
+\end{equation*}
+</div>
+<div class="para">where W is amount of work done (in joule) on the system, Q is the amount of heat (in calorie) produced in the system, and J is a mechanical equivalent of heat also known as Joule’s constant. The value of <span class="process-math">\(J\)</span> is <span class="process-math">\(4.1860 \,J/cal\text{.}\)</span> The first law states that when a given amount of work, W is done on a system, an equivalent amount of heat, Q is produced or when a certain amount of heat, Q disappears from the system an equivalent amount of work W is obtained. The equivalence is given by the constant <span class="process-math">\(J\text{.}\)</span> Heat is thus a form of energy. </div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-I_law-therm-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-I_law-therm-4">The Joule apparatus [<a href="sec_tenth-thermdyn.html#jouleexpt" class="xref" data-knowl="./knowl/xref/jouleexpt.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.3.(a)">Figure 10.6.3.(a)</a>] consisted of a weight suspended by string over a pulley, which in turn was wound around a winding drum. As long as the drum remained stationary, the weight remained at rest. When the drum was released, the weight was set free to fall, and its potential energy began converting to kinetic energy. In the process, the string attached to the weight unwound from the drum, which caused the drum to turn and along with it the paddle wheel attached to it. The rotating paddles agitated the water, causing its temperature to rise. Joule concluded from this experiment that the mechanical energy of the spinning paddle wheel had been converted into heat energy, which raise the temperature of the water. Joule’s experiment thus proved the link between potential, kinetic, mechanical, and heat energies. Joule’s experiment thus helped establish the principle of conservation of energy. <div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-I_law-therm-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-I_law-therm-5">Let us consider a system which absorbed <span class="process-math">\(Q\)</span> amount of heat and does <span class="process-math">\(W\)</span> work done while going from initial state <span class="process-math">\(i\)</span> to the final state <span class="process-math">\(f\text{.}\)</span> The final state reached by the system may be achieved by the different paths but the quantity <span class="process-math">\(Q-W\)</span> is the same. The quantity <span class="process-math">\(Q-W\)</span> is known as the change in internal energy <span class="process-math">\(\Delta U \)</span> of the system.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-I_law-therm-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-I_law-therm-6">
+<div class="para">Consider a gas cylinder [<a href="sec_tenth-thermdyn.html#Ilawtherm" class="xref" data-knowl="./knowl/xref/Ilawtherm.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.3.(b)">Figure 10.6.3.(b)</a>] with frictionless piston placed on a hot bath, then the change in internal energy of the cylinder is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/Ilawtherm.html" id="eqn-Ilaw1">
+\begin{equation}
+\,dU = \,dQ-\,dW \tag{10.6.1}
+\end{equation}
+</div>
+<div class="para">where <span class="process-math">\(\,dQ \)</span> is the amount of heat energy absorbed by the gas, and <span class="process-math">\(\,dW\)</span> is the amount of work done by the gas in moving its piston from position <span class="process-math">\(i\)</span> to <span class="process-math">\(f\text{.}\)</span> This is the mathematical form of I law of thermodynamics. The <em class="emphasis">I law</em> establishes an exact relation between heat and work. This tells us that <em class="emphasis">it is impossible to get the work from any machine without giving it an equivalent amount of energy in any form</em>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-I_law-therm-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-I_law-therm-7">
+<dfn class="terminology">Quasi static state:</dfn> A process during which the system only deviates from equilibrium by an infinitessimal amount. This may happen if the gas is allowed to expand or compress very slowly. As the piston compresses the pressure inside the gas remains very nearly uniform at all times during the process. So, the system never deviates significantly from mechanical equilibrium. Quasi static process is also a reversible process. A system is in thermodynamical equilibrium if it has achieved: mechanical equilibrium, chemical equilibrium, and thermal equilibrium. Thermodynamic variables like temperature, pressure etc. can only be used to describe the system that has achieved thermodynamical equilibrium.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-I_law-therm-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.6.2.2: First Law of Thermodynamics"><a href="#subsubsec-I_law-therm" title="Copy heading and permalink for Subsubsection 10.6.2.2: First Law of Thermodynamics">🔗</a></div></section><div class="autopermalink" data-description="Subsection 10.6.2: Laws of Thermodynamics"><a href="#subsec-therm_laws" title="Copy heading and permalink for Subsection 10.6.2: Laws of Thermodynamics">🔗</a></div></section><section class="subsection" id="subsec-Ilaw_appl"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.3</span><span class="space"> </span><span class="title">Application of I law of thermodynamics</span>
+</h3>
+<div class="para logical" id="subsec-Ilaw_appl-2">
+<ol class="upper-roman ol-marker-3" id="subsec-Ilaw_appl-2-1">
+<li id="subsec-Ilaw_appl-2-1-1">
+<div class="para" id="p-derived-subsec-Ilaw_appl-2-1-1">
+<dfn class="terminology">Specific heat capacity of a gas:</dfn> Consider a mole of gas is heated in the cylinder with frictionless piston, then the change in internal energy of the gas is given by the first law of thermodynamics  <a href="sec_tenth-thermdyn.html#eqn-Ilaw1" class="xref" data-knowl="./knowl/xref/eqn-Ilaw1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.1">(10.6.1)</a><div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\,dQ=\,dU+\,dW  
+\end{equation*}
+</div>where <span class="process-math">\(\,dW \)</span> is the infinitesimal work  done by the gas in moving a piston from initial position <span class="process-math">\(i\)</span> to the final position <span class="process-math">\(f\text{,}\)</span> and is given by<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\,dW = F\,dx= pA\,dx= p\,dV
+\end{equation*}
+</div>where <span class="process-math">\(A\)</span> is area of cross-section of the piston, <span class="process-math">\(F\)</span> is force applied by the gas molecules on the surface of the piston.<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw2">
+\begin{equation}
+\,dQ=\,dU+ p\,dV    \tag{10.6.2}
+\end{equation}
+</div>If the piston is fixed from moving, then at constant volume, <span class="process-math">\(\,dV = 0\text{,}\)</span> and<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\,dW = p\,dV = 0
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw3">
+\begin{equation}
+\therefore \quad \,dQ=\,dU \tag{10.6.3}
+\end{equation}
+</div>But, for n mole of a gas<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\,dQ=n C\,dT 
+\end{equation*}
+</div>where C is molar specific heat capacity of the gas.<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\,dQ=mc\,dT 
+\end{equation*}
+</div>where <span class="process-math">\(m\)</span> is mass of the gas, but it is convenient to take mole instead of mass  as an amount of gas. At constant volume,<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw4">
+\begin{equation}
+\,dQ=n C_{v}\,dT \tag{10.6.4}
+\end{equation}
+</div>From eqns. <a href="sec_tenth-thermdyn.html#eqn-Ilaw3" class="xref" data-knowl="./knowl/xref/eqn-Ilaw3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.3">(10.6.3)</a> and <a href="sec_tenth-thermdyn.html#eqn-Ilaw4" class="xref" data-knowl="./knowl/xref/eqn-Ilaw4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.4">(10.6.4)</a>, we have -<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw5">
+\begin{equation}
+\frac{\,dU}{\,dT}=nC_{v} \tag{10.6.5}
+\end{equation}
+</div>At constant pressure,<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw6">
+\begin{equation}
+\,dQ=n C_{p}\,dT   \tag{10.6.6}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw7">
+\begin{equation}
+\therefore\quad \frac{\,dQ}{\,dT}=nC_{p}  \tag{10.6.7}
+\end{equation}
+</div>Now, differentiating eqn. <a href="sec_tenth-thermdyn.html#eqn-Ilaw2" class="xref" data-knowl="./knowl/xref/eqn-Ilaw2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.2">(10.6.2)</a> with respect to <span class="process-math">\(T\text{,}\)</span> we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw8">
+\begin{equation}
+\frac{\,dQ}{\,dT} = \frac{\,dU}{\,dT} +p\frac{\,dV}{\,dT} \tag{10.6.8}
+\end{equation}
+</div>But from euation of state of a gas <a href="sec_tenth-kt_gas.html#eqn-dgfreed2" class="xref" data-knowl="./knowl/xref/eqn-dgfreed2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.8">(10.5.8)</a>,<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+pV = nRT
+\end{equation*}
+</div>Differentiating this equation with respect to <span class="process-math">\(T\)</span> at constant <span class="process-math">\(P\text{,}\)</span> we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw9">
+\begin{equation}
+\text{or,}\quad p\frac{\,dV}{\,dT} = nR \tag{10.6.9}
+\end{equation}
+</div>substituting the values in eqn. <a href="sec_tenth-thermdyn.html#eqn-Ilaw8" class="xref" data-knowl="./knowl/xref/eqn-Ilaw8.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.8">(10.6.8)</a> from eqns. <a href="sec_tenth-thermdyn.html#eqn-Ilaw5" class="xref" data-knowl="./knowl/xref/eqn-Ilaw5.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.5">(10.6.5)</a> and <a href="sec_tenth-thermdyn.html#eqn-Ilaw7" class="xref" data-knowl="./knowl/xref/eqn-Ilaw7.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.7">(10.6.7)</a>, we get -<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+nC_{p}=nC_{v}+nR   
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw10">
+\begin{equation}
+\therefore\quad C_{p}-C_{v} = R   \tag{10.6.10}
+\end{equation}
+</div>This is the relation between molar specific heat capacity of a gas at constant pressure <span class="process-math">\(C_{p}\)</span> and molar specific heat capacity of a gas at constant volume <span class="process-math">\(C_{v}\text{.}\)</span> From the kinetic theory of gas, the internal energy of a monoatomic gas [<a href="sec_tenth-kt_gas.html#eqn-inter_energ1" class="xref" data-knowl="./knowl/xref/eqn-inter_energ1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.11">(10.5.11)</a>] is given by<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+U=\frac{3}{2}nRT     
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html" id="eqn-Ilaw11">
+\begin{equation}
+\therefore\quad \frac{\,dU}{\,dT} = \frac{3}{2}nR   \tag{10.6.11}
+\end{equation}
+</div>Hence, from eqns. <a href="sec_tenth-thermdyn.html#eqn-Ilaw8" class="xref" data-knowl="./knowl/xref/eqn-Ilaw8.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.8">(10.6.8)</a>, <a href="sec_tenth-thermdyn.html#eqn-Ilaw9" class="xref" data-knowl="./knowl/xref/eqn-Ilaw9.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.9">(10.6.9)</a>, and <a href="sec_tenth-thermdyn.html#eqn-Ilaw11" class="xref" data-knowl="./knowl/xref/eqn-Ilaw11.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.11">(10.6.11)</a>, we have -<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\frac{\,dQ}{\,dT} =\frac{3}{2}nR + nR =\frac{5}{2}nR    
+\end{equation*}
+</div>Now, the ratio of the specific heat at constant pressure to the specific heat at constant volume of a monoatomic gas is given by<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\gamma = \frac{C_{p}}{C_{v}} = \frac{\frac{5}{2}nR}{\frac{3}{2}nR} = \frac{5}{3} 
+\end{equation*}
+</div>The idea of degrees of freedom can be extended to diatomic and polytomic gases. It can be shown that the value of <span class="process-math">\(\gamma\)</span> can be expressed as<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\gamma=\frac{f+2}{f}
+\end{equation*}
+</div>where <span class="process-math">\(f\)</span> is the number of degrees of freedom per molecule. For a monatomic gas, we find that<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\gamma = \frac{3+2}{3} = \frac{5}{3} 
+\end{equation*}
+</div>since <span class="process-math">\(f=3\)</span> for a monoatomic gas.<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-Ilaw1.html ./knowl/xref/eqn-Ilaw3.html ./knowl/xref/eqn-Ilaw4.html ./knowl/xref/eqn-Ilaw2.html ./knowl/xref/eqn-dgfreed2.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw5.html ./knowl/xref/eqn-Ilaw7.html ./knowl/xref/eqn-inter_energ1.html ./knowl/xref/eqn-Ilaw8.html ./knowl/xref/eqn-Ilaw9.html ./knowl/xref/eqn-Ilaw11.html">
+\begin{equation*}
+\gamma = \frac{5+2}{3} = \frac{7}{3}
+\end{equation*}
+</div>for a diatomic gas as <span class="process-math">\(f=5\)</span> .</div>
+<div class="autopermalink" data-description="Item I"><a href="#subsec-Ilaw_appl-2-1-1" title="Copy heading and permalink for Item I">🔗</a></div>
+</li>
+<li id="subsec-Ilaw_appl-2-1-2">
+<div class="para logical" id="subsec-Ilaw_appl-2-1-2-1">
+<div class="para">
+<dfn class="terminology">Isothermal process:</dfn> In an isothermal process system remains at constant temperature, <span class="process-math">\(T\text{,}\)</span> hence,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-inter_energ1.html">
+\begin{equation*}
+\,dT =0. 
+\end{equation*}
+</div>
+<div class="para">As internal energy of an ideal gas  [<a href="sec_tenth-kt_gas.html#eqn-inter_energ1" class="xref" data-knowl="./knowl/xref/eqn-inter_energ1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.5.11">(10.5.11)</a>] is a function of temperature only,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-inter_energ1.html">
+\begin{equation*}
+U=\frac{3}{2}nRT 
+\end{equation*}
+</div>
+<div class="para">we have</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-inter_energ1.html">
+\begin{equation*}
+\,dU = 0
+\end{equation*}
+</div>
+<div class="para">Therefore, from I law of thermodynamics, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-inter_energ1.html">
+\begin{equation*}
+\,dQ=\,dW= p\,dV
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-Ilaw_appl-2-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item II"><a href="#subsec-Ilaw_appl-2-1-2" title="Copy heading and permalink for Item II">🔗</a></div>
+</li>
+<li id="subsec-Ilaw_appl-2-1-3">
+<div class="para logical" id="subsec-Ilaw_appl-2-1-3-1">
+<div class="para">
+<dfn class="terminology">Adiabatic process:</dfn> In an adiabatic process system does not exchange heat  <span class="process-math">\(Q\text{,}\)</span>  with surroundings, hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dQ =0.
+\end{equation*}
+</div>
+<div class="para">Therefore, from I law of thermodynamics, we have -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dQ=\,dU + p\,dV
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad  0 = C_{v}\,dT+p\,dV
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-adiab1">
+\begin{equation}
+\therefore \quad  C_{v}\,dT = -p\,dV  \tag{10.6.12}
+\end{equation}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,} \quad \,dU = -\,dW
+\end{equation*}
+</div>
+<div class="para">That is, internal energy increases exactly by the amount of work done on the system. Also,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+pV=RT 
+\end{equation*}
+</div>
+<div class="para">for 1 mole of a gas.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad p\,dV + V\,dp = R\,dT =\left(C_{p}-C_{v}\right)\,dT
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= C_{v}\left(\frac{C_{p}}{C_{v}}-1\right)\,dT =  \left(\gamma-1\right)C_{v}\,dT
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad p\,dV + V\,dp  = - \left(\gamma-1\right)p\,dV
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad p\,dV \left(1+\gamma-1\right) + V\,dp  = 0
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \gamma p\,dV + V\,dp =0
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{ \,dp}{p} +\gamma \frac{\,dV}{V} = 0
+\end{equation*}
+</div>
+<div class="para">integrating both sides, we get -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\ln p +\gamma \ln V =constant
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \ln p + \ln V^{\gamma} =constant
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\(\because n\ln m = \ln m^{n}]\)</span></div>
+<div class="displaymath process-math" id="eqn-adiab2">
+\begin{equation}
+\therefore \quad pV^{\gamma} =const.\tag{10.6.13}
+\end{equation}
+</div>
+<div class="para"><span class="process-math">\([\because \ln m +\ln n = \ln (mn)]  \)</span></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-Ilaw_appl-2-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item III"><a href="#subsec-Ilaw_appl-2-1-3" title="Copy heading and permalink for Item III">🔗</a></div>
+</li>
+<li id="subsec-Ilaw_appl-2-1-4">
+<div class="para logical" id="subsec-Ilaw_appl-2-1-4-1">
+<div class="para">
+<dfn class="terminology">Isobaric process:</dfn> A process at constant pressure,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dp=0
+\end{equation*}
+</div>
+<div class="para">is called an isobaric process.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dQ=\,dU+p\,dV
+\end{equation*}
+</div>
+<div class="para">At the change of phase, temperature and pressure remains constant, i.e.,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dT=0, 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{and} \quad  \,dp=0.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \,dQ=p\,dV 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because U \propto T]\)</span></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-Ilaw_appl-2-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item IV"><a href="#subsec-Ilaw_appl-2-1-4" title="Copy heading and permalink for Item IV">🔗</a></div>
+</li>
+<li id="subsec-Ilaw_appl-2-1-5">
+<div class="para logical" id="subsec-Ilaw_appl-2-1-5-1">
+<div class="para">
+<dfn class="terminology">Isochoric process:</dfn> A process at constant volume,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dV=0
+\end{equation*}
+</div>
+<div class="para">is called an isochoric process.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dQ=\,dU
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-Ilaw_appl-2-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item V"><a href="#subsec-Ilaw_appl-2-1-5" title="Copy heading and permalink for Item V">🔗</a></div>
+</li>
+<li id="subsec-Ilaw_appl-2-1-6">
+<div class="para logical" id="subsec-Ilaw_appl-2-1-6-1">
+<div class="para">
+<dfn class="terminology">Free expansion:</dfn> It is an adiabatic process in which no work is performed on or by the system. Consider two chambers of an isolated system, the one chamber of which contains a gas while the other is completely evacuated. Both the chambers are connected with a stopcock. When stopcock is suddenly open, the gas rushes into the evacuated chamber and expands freely. Free expansion means gas has to do no work at all. Since an isolated system does not exchange heat from outside world,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dQ=0
+\end{equation*}
+</div>
+<div class="para">and gas expands freely so</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dW=0
+\end{equation*}
+</div>
+<div class="para">Therefore from I law of thermodynamics,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dU=0
+\end{equation*}
+</div>
+<div class="para">That is, initial internal energy of the gas is same as its final internal energy.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-Ilaw_appl-2-1-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item VI"><a href="#subsec-Ilaw_appl-2-1-6" title="Copy heading and permalink for Item VI">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-Ilaw_appl-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.3: Application of I law of thermodynamics"><a href="#subsec-Ilaw_appl" title="Copy heading and permalink for Subsection 10.6.3: Application of I law of thermodynamics">🔗</a></div></section><section class="subsection" id="subsec-II_law"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.4</span><span class="space"> </span><span class="title">Second Law of Thermodunamics</span>
+</h3>
+<div class="para" id="subsec-II_law-2">The first law of thermodynamics gives an equivalence between the quantity of heat and the mechanical work or vice-versa. This law does not tell the limitation and condition of conversion. That is how much heat is converted into work and whether the transformaiton itself can take place or not. The first law does not tell anything about the direction of transformation of energy.  It  does not indicate whether heat can flow from a cold end to a hot end or not. The first law places no restriction on the direction of a process, and satisfying the first law does not guarantee that the process will occur.  In practice, it is not possible to convert the heat energy into an equivalent amount of work. Thus, we need another general principle  to identify whether a process can occur or not. The law specifying the condition of transformation of heat into work is called the second law of thermodynamics. The second law of thermodynamics tells the direction of the flow of heat. It also tells that heat energy cannot be completely converted into equivalent work.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-II_law-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="subsec-II_law-3"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:25%;"><figure class="figure figure-like" id="he1"><img src="external/he1.png" class="contained"><figcaption><span class="codenumber">(a)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.4.(a)"><a href="#he1" title="Copy heading and permalink for Figure 10.6.4.(a)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:15%;"><figure class="figure figure-like" id="he2"><img src="external/he2.png" class="contained"><figcaption><span class="codenumber">(b)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.4.(b)"><a href="#he2" title="Copy heading and permalink for Figure 10.6.4.(b)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:30%;"><figure class="figure figure-like" id="he3"><img src="external/he3.png" class="contained"><figcaption><span class="codenumber">(c)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.4.(c)"><a href="#he3" title="Copy heading and permalink for Figure 10.6.4.(c)">🔗</a></div></figcaption></figure></div>
+<div class="sbspanel top" style="width:30%;"><figure class="figure figure-like" id="he4"><img src="external/he4.png" class="contained"><figcaption><span class="codenumber">(d)</span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.4.(d)"><a href="#he4" title="Copy heading and permalink for Figure 10.6.4.(d)">🔗</a></div></figcaption></figure></div>
+</div></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.4<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.4"><a href="#subsec-II_law-3" title="Copy heading and permalink for Figure 10.6.4">🔗</a></div></figcaption></figure><div class="para" id="subsec-II_law-4">
+<dfn class="terminology">Kelvin-Plank statement of the second law:</dfn> It is impossible for any device that operates on a cycle  to receive heat from a single reservoir and  produce a net amount of work [<a href="sec_tenth-thermdyn.html#he1" class="xref" data-knowl="./knowl/xref/he1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.4.(a)">Figure 10.6.4.(a)</a>]. For heat engine to operate, the working fluid has to exchange heat with heat sink as well with the heat source. A heat engine that violates the Kelvin-Planck statement of the second law cannot be built.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-II_law-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-II_law-5">
+<dfn class="terminology">Clausius statement of the second law:</dfn> It is impossible to construct a device that operates in a cycle and produces no effect other than the transfer of heat from a cold body to a hot body.  In other words, a refrigerator will not operate unless an external work is done on its compressor [<a href="sec_tenth-thermdyn.html#he2" class="xref" data-knowl="./knowl/xref/he2.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.4.(b)">Figure 10.6.4.(b)</a>].<div class="autopermalink" data-description="Paragraph"><a href="#subsec-II_law-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-II_law-6">The above two statements are equivalent to each other. Consider a refrigerator that transfers heat <span class="process-math">\(Q_{c}\)</span> from a cold to a hot body without having any work done on it [<a href="sec_tenth-thermdyn.html#he3" class="xref" data-knowl="./knowl/xref/he3.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.4.(c)">Figure 10.6.4.(c)</a>], thus violating the Clausius statement. Now, suppose an engine working between the same hot and cold bodies takes in heat <span class="process-math">\(Q_{h}\)</span> from a hot body and gives out heat <span class="process-math">\(Q_{c}\)</span> to the cold body [<a href="sec_tenth-thermdyn.html#he3" class="xref" data-knowl="./knowl/xref/he3.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.4.(c)">Figure 10.6.4.(c)</a>]. The engine does not violate any law by itself, but if the refrigerator and engine combined together [<a href="sec_tenth-thermdyn.html#he4" class="xref" data-knowl="./knowl/xref/he4.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.4.(d)">Figure 10.6.4.(d)</a>], they form a device that takes in heat <span class="process-math">\(Q_{h}-Q_{c}\)</span> from the hot body and converts all into work without delivering any to the cold body. This is a violation of Kelvin’s statement. Similarly, a violation of the Kelvin’s statement leads to violation of the Clausius statement.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-II_law-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.4: Second Law of Thermodunamics"><a href="#subsec-II_law" title="Copy heading and permalink for Subsection 10.6.4: Second Law of Thermodunamics">🔗</a></div></section><section class="subsection" id="subsec-heat_engn"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.5</span><span class="space"> </span><span class="title">Heat Engines</span>
+</h3>
+<div class="para" id="subsec-heat_engn-2">Heat engine is a device of converting heat continuously into work. The device absorbs heat from a high temperature reservoir, converts part of this energy into work and rejects the rest of the energy as heat to a low temperature drain. Hence, it consists of three essential parts: <em class="emphasis">Source</em> or reservoir for the supply of heat at high temperature. <em class="emphasis">Sink</em> or drain for the rejection of heat at lower temperature. <em class="emphasis">Working Substance</em> which absorbs heat from the source.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-heat_engn-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-heat_engn-3">The working substance undergoes a cycle of operation in which it absorbs certain quantity of heat from the source, converts a part of it into work and  rejected rest to the sink as shown in <a href="sec_tenth-thermdyn.html#he5" class="xref" data-knowl="./knowl/xref/he5.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.5">Figure 10.6.5</a>. Finally it reaches to the initial stage where its internal energy is the same. By performing the same cycle again and again, heat is continuously converted into work.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-heat_engn-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="he5"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/he5.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.5<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.5"><a href="#he5" title="Copy heading and permalink for Figure 10.6.5">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-heat_engn-5">
+<div class="para">
+<dfn class="terminology">Efficiency:</dfn> Let <span class="process-math">\(Q_{h}\)</span> is the amount of heat absorbed by the working substance from the source at high temperature <span class="process-math">\(T_{h} \,K.\)</span> It does the work  W  and reject <span class="process-math">\(Q_{c}\)</span> amount  of heat to the sink at lower temperature <span class="process-math">\(T_{c} \,K.\)</span> The efficiency of the heat engine then defined as the ratio of the work done (output) by the engine to the amount of heat supplied (input) to the engine. That is,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta = \frac{W}{Q_{h}}
+\end{equation*}
+</div>
+<div class="para">If there is no dissipative losses (i.e., no frictional loss in engine, etc.) then heat rejected would be</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q_{c}= Q_{h} - W 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Rightarrow\quad W=Q_{h}-Q_{c}
+\end{equation*}
+</div>
+<div class="para">Hence</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta =  \frac{Q_{h}-Q_{c}}{Q_{h}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad  \eta =  \left(1-\frac{Q_{c}}{Q_{h}}\right)\times 100\%
+\end{equation*}
+</div>
+<div class="para">Since, efficiency is normally defined in percentage.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-heat_engn-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.5: Heat Engines"><a href="#subsec-heat_engn" title="Copy heading and permalink for Subsection 10.6.5: Heat Engines">🔗</a></div></section><section class="subsection" id="subsec-carnot_engn"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.6</span><span class="space"> </span><span class="title">Carnot’s Heat Engine</span>
+</h3>
+<figure class="figure figure-like" id="carnte"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/carnte.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.6<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.6"><a href="#carnte" title="Copy heading and permalink for Figure 10.6.6">🔗</a></div></figcaption></figure><div class="para" id="subsec-carnot_engn-3">
+<em class="emphasis">Carnot’s Assumption:</em> Heat cannot be taken in at a certain temperature and converted to work with no other change in the system of surroundings. Carnot presented theoretically an ideal heat engine, free from all imperfection of actual engines. The engine operates between source and sink each of which is maintained at constant temperature. The engine is known as a Caront’s engine and its cycle of operation as the Carnot’s cycle. The schematics of engine is shown in <a href="sec_tenth-thermdyn.html#carnte" class="xref" data-knowl="./knowl/xref/carnte.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.6">Figure 10.6.6</a>. The working substance is an ideal gas contained in an insulated cylinder with conducting bottom surface. A hot body of high thermal capacity maintained at a constant temperature <span class="process-math">\(T_{h} \,K\)</span> serves as a source. A cold body maintained at a constant temperature <span class="process-math">\(T_{c} \,K \)</span> serves as a sink. A stand has a perfectly insulated wall.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-carnot_engn-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-carnot_engn-4">The cylinder can be moved in cycle from source, stand, sink, stand, and back to source without doing any work.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-carnot_engn-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.6: Carnot’s Heat Engine"><a href="#subsec-carnot_engn" title="Copy heading and permalink for Subsection 10.6.6: Carnot’s Heat Engine">🔗</a></div></section><section class="subsection" id="subsec-revs_heatengn"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.7</span><span class="space"> </span><span class="title">Reversible Heat Engines</span>
+</h3>
+<div class="para" id="subsec-revs_heatengn-2">A reversible process is defined as a process that can be reversed without leaving any trace on the surroundings. It means both system and surroundings are returned to their initial states at the end of the reverse process. Processes that are not reversible are called irreversible.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-revs_heatengn-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-revs_heatengn-3">Reversible heat engine is just the heat engine which is running in the reverse direction of heat engine. In reversible heat engine all the three components re-assume exactly their original conditions and no changes are left in the surroundings. Such an engine can be realized if, the engine is free from friction, the process is infinitely slow, and working substance never differs appreciable from its surroundings. No heat engine can have efficiency greater than a reversible heat engine.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-revs_heatengn-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.7: Reversible Heat Engines"><a href="#subsec-revs_heatengn" title="Copy heading and permalink for Subsection 10.6.7: Reversible Heat Engines">🔗</a></div></section><section class="subsection" id="subsec-canot_cycl"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.8</span><span class="space"> </span><span class="title">Carnot’s Cycle:</span>
+</h3>
+<div class="para" id="subsec-canot_cycl-2">The Carnot engine operates in the four steps of Carnot cycle which are perfectly reversible. <div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="carntc"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/carntc.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.7<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.7"><a href="#carntc" title="Copy heading and permalink for Figure 10.6.7">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-canot_cycl-4">
+<div class="para">
+<dfn class="terminology">Step 1, Isothermal Expansion:</dfn>  Consider a mole of gas as a working substance in a cylinder [<a href="sec_tenth-thermdyn.html#carntc" class="xref" data-knowl="./knowl/xref/carntc.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 10.6.7">Figure 10.6.7</a>]. The initial state  of the gas is <span class="process-math">\((p_{1},V_{1})\)</span> denoted by point A in the figure 10.25 and it’s temperature is the same as that of source <span class="process-math">\(T_{h}\, K\text{.}\)</span> Let the cylinder be placed on the source and allowed to expand so slowly that the temperature remains constant at <span class="process-math">\(T_{h} \)</span> throughout the expansion while  <span class="process-math">\(Q_{h}\)</span> amount of heat is being absorbed by the gas. The final state <span class="process-math">\((p_{2},V_{2})\)</span> of the gas is represented by a point B. Because none of the heat goes into changing the temperature of the gas, all of the heat goes into pushing the piston up as the gas expands. Thus all of the heat, <span class="process-math">\(Q_{h}\)</span> is turned into work, <span class="process-math">\(W_{1}.\)</span> That is,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/carntc.html">
+\begin{equation*}
+Q_{h}=W_{1}=\int\limits^{v_{2}}_{v_{1}} p\,dV = RT_{h}\int\limits^{v_{2}}_{v_{1}} \frac{\,dV}{V}
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([pV=nRT,\quad n=1 \,mole]\)</span></div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/carntc.html">
+\begin{equation*}
+\therefore\quad W_{1} = RT_{h}\left[\log_{e}\right]^{v_{2}}_{v_{1}} =  RT_{h}\log_{e}\frac{V_{2}}{V_{1}} =area ABba
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-canot_cycl-5">
+<dfn class="terminology">Step 2, Adiabatic Expansion:</dfn>  Now the cylinder is removed from the source and placed on the stand. The gas is then allowed to expand adiabatically with no heat added to the system. The gas continues to expand, and the temperature of the gas drops to the temperature of the cold reservoir, <span class="process-math">\(T_{c},\text{.}\)</span> If the volume of the gas has expanded, and the pressure is constant, then the temperature has to drop to compensate when reaches to a point <span class="process-math">\(C(p_{3},V_{3}).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-canot_cycl-6">
+<div class="para">The work done <span class="process-math">\(W_{2}\)</span> in this case is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{2} = \int\limits_{v_{2}}^{v_{3}}p\,dV = \int\limits_{v_{2}}^{v_{3}}k\frac{\,dV}{V^{\gamma}} 
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\([\because \quad pV^{\gamma}=constant, (k)]\)</span> for adiabatic process.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=k\left(\frac{V^{1-\gamma}}{1-\gamma}\right)_{v_{2}}^{v_{3}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{k}{1-\gamma} \left(V_{3}^{1-\gamma}-V_{2}^{1-\gamma}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{1}{1-\gamma} \left(p_{3}V_{3}^{\gamma}V_{3}^{1-\gamma}-p_{2}V_{2}^{\gamma}V_{2}^{1-\gamma}\right) 
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because \quad p_{2}V_{2}^{\gamma}=p_{3}V_{3}^{\gamma}=k]\)</span></div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad W_{2} = \frac{1}{1-\gamma}\left(p_{3}V_{3}-p_{2}V_{2}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\frac{\left(RT_{c}-RT_{h}\right)}{1-\gamma}=\frac{R}{\gamma-1}\left(T_{h}-T_{c}\right) = area BCcb 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-canot_cycl-7">
+<div class="para">
+<dfn class="terminology">Step 3, Isothermal compression:</dfn> The cylinder is removed from stand and placed on the sink. The gas is then compressed slowly at constant temperature <span class="process-math">\(T_{c} \, K\)</span> when the gas reaches to a point <span class="process-math">\(C(p_{4},V_{4}).\)</span> The heat, <span class="process-math">\(Q_{c},\)</span> is transferred to the cold reservoir by doing work <span class="process-math">\(W_{3}\)</span> on it.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore\quad Q_{c} = W_{3} =-\int\limits_{v_{3}}^{v_{4}}p\,dV 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= -RT_{c}\int\limits_{v_{3}}^{v_{4}}\frac{\,dV}{V} =RT_{c}\log_{e}\frac{V_{3}}{V_{4}} =area DCcd
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-canot_cycl-8">
+<div class="para">
+<dfn class="terminology">Step 4, Adiabatic compression:</dfn> In the last step, the cylinder is removed from sink and placed once again on the stand. The gas is compressed adiabatically to the initial state <span class="process-math">\(A(p_{1}V_{1})\text{.}\)</span> Since the heat can not be extracted from the gas as it causes the temperature of the gas to rise back to <span class="process-math">\(T_{h},\text{.}\)</span> The work done on this compression is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W_{4} = - \int\limits_{v_{4}}^{v_{1}}p\,dV = \frac{R\left(T_{h}-T_{c}\right)}{\gamma-1}=area ADda
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-canot_cycl-9">
+<div class="para">Hence the total work done during the complete cycle of operation</div>
+<div class="displaymath process-math">
+\begin{equation*}
+W=W_{1}+W_{2}+W_{3}+W_{4} = W_{1}-W_{3}
+\end{equation*}
+</div>
+<div class="para"><span class="process-math">\([\because W_{2}=W_{4}] \)</span></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-9" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-canot_cycl-10">Quantity of heat absorbed by the gas in full cycle <span class="process-math">\(= Q_{h}-Q_{c}=W_{1}-W_{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-10" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-canot_cycl-11">
+<div class="para">The efficiency of the Carnot cycle is therefore,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+\eta = \frac{\text{work done in cycle}}{\text{heat drawn from the source}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+= \frac{W}{Q_{h}}= \frac{Q_{h}-Q_{c}}{Q_{h}} =1-\frac{Q_{c}}{Q_{h}}
+\end{equation*}
+</div>
+<div class="para">Now,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+\frac{Q_{c}}{Q_{h}} = \frac{W_{3}}{W_{1}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+= \frac{RT_{c}\log_{e}\frac{V_{3}}{V_{4}}}{RT_{h}\log_{e}\frac{V_{2}}{V_{1}}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html" id="eqn-ccycl1">
+\begin{equation}
+=\frac{T_{c}\log_{e}\frac{V_{3}}{V_{4}}}{T_{h}\log_{e}\frac{V_{2}}{V_{1}}}\tag{10.6.14}
+\end{equation}
+</div>
+<div class="para">Since points B and C lie on the same adiabatic, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+p_{2}V_{2}^{\gamma} = p_{3}V_{3}^{\gamma}
+\end{equation*}
+</div>
+<div class="para">But,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+pV=RT \quad \Rightarrow\quad p=\frac{RT}{V}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+\therefore \quad T_{h}V_{2}^{\gamma-1} = T_{c}V_{3}^{\gamma-1} 
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html" id="eqn-ccycl2">
+\begin{equation}
+\text{or,}\quad \frac{T_{c}}{T_{h}} = \left(\frac{V_{2}}{V_{3}}\right)^{\gamma-1} \tag{10.6.15}
+\end{equation}
+</div>
+<div class="para">Similarly, points D and A lie on the same adiabatic, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html" id="eqn-ccycl3">
+\begin{equation}
+\text{or,}\quad \frac{T_{c}}{T_{h}} = \left(\frac{V_{1}}{V_{4}}\right)^{\gamma-1} \tag{10.6.16}
+\end{equation}
+</div>
+<div class="para">Comparing eqns. <a href="sec_tenth-thermdyn.html#eqn-ccycl2" class="xref" data-knowl="./knowl/xref/eqn-ccycl2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.15">(10.6.15)</a> and <a href="sec_tenth-thermdyn.html#eqn-ccycl3" class="xref" data-knowl="./knowl/xref/eqn-ccycl3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.16">(10.6.16)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+\left(\frac{V_{2}}{V_{3}}\right)^{\gamma-1} = \left(\frac{V_{1}}{V_{4}}\right)^{\gamma-1}  
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html" id="eqn-ccycl4">
+\begin{equation}
+\frac{V_{1}}{V_{2}} = \frac{V_{4}}{V_{3}}  \tag{10.6.17}
+\end{equation}
+</div>
+<div class="para">Hence from eqns.<a href="sec_tenth-thermdyn.html#eqn-ccycl1" class="xref" data-knowl="./knowl/xref/eqn-ccycl1.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.14">(10.6.14)</a>  and <a href="sec_tenth-thermdyn.html#eqn-ccycl4" class="xref" data-knowl="./knowl/xref/eqn-ccycl4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.17">(10.6.17)</a>, we have -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html">
+\begin{equation*}
+\frac{Q_{c}}{Q_{h}} = \frac{T_{c}\log_{e}\frac{V_{2}}{V_{1}}}{T_{h}\log_{e}\frac{V_{2}}{V_{1}}} = \frac{T_{c}}{T_{h}}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-ccycl2.html ./knowl/xref/eqn-ccycl3.html ./knowl/xref/eqn-ccycl1.html ./knowl/xref/eqn-ccycl4.html" id="eqn-ccycl5">
+\begin{equation}
+\therefore\quad \eta = 1-\frac{T_{c}}{T_{h}} \tag{10.6.18}
+\end{equation}
+</div>
+<div class="para">This is the efficiency of Carnot’s heat engine. The Carnot’s engine can not be realized in practice because - <em class="emphasis">(i)</em> The temperature of source and sink can not be kept constant. The body (source) which loses energy its temperature falls gradually and the one (sink) which gains energy its temperature rises gradually, meaning reservoirs of infinite thermal capacity do not exist. <em class="emphasis">(ii)</em> It is a perfectly reversible in action, if the cycle is reversed the working substance will take <span class="process-math">\(Q_{c}\)</span> amount of heat from sink and gives out <span class="process-math">\(Q_{h} \)</span> amount of heat to the source, meaning reversible heat transfers are not possible. <em class="emphasis">(iii)</em> Heat transfer takes place at infinitesimally slow in isothermal process having very small temperature difference between the source and the receiver. On the other hand, in adiabatic process, heat transfer is zero and a very fast process.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-canot_cycl-11" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.8: Carnot’s Cycle:"><a href="#subsec-canot_cycl" title="Copy heading and permalink for Subsection 10.6.8: Carnot’s Cycle:">🔗</a></div></section><section class="subsection" id="subsec-carnt_therm"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.9</span><span class="space"> </span><span class="title">Carnot’s Theorem:</span>
+</h3>
+<div class="para" id="subsec-carnt_therm-2">
+<em class="emphasis">The efficiency of all reversible engines operating between the same two temperatures is the same, and no irreversible engine operating between these  temperatures can be more efficient than a reversible engine working between the same two temperatures.</em><div class="autopermalink" data-description="Paragraph"><a href="#subsec-carnt_therm-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="crnt"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/crnt.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.8<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.8"><a href="#crnt" title="Copy heading and permalink for Figure 10.6.8">🔗</a></div></figcaption></figure><div class="para logical" id="subsec-carnt_therm-4">
+<div class="para">Consider two engines I and R working between the same two temperatures where I is irreversible and R is reversible. The two engines are so designed  that they perform equal amount of work. If  engine R draws <span class="process-math">\(Q_{r}\)</span> amount of heat from source does W work done and rejects <span class="process-math">\(Q_{r}-W\)</span> amount of heat to the sink then its efficiency,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta_{r}= \frac{W}{Q_{r}}
+\end{equation*}
+</div>
+<div class="para">Similarly, if the  engine I extracts <span class="process-math">\(Q_{i}\)</span> amount of heat from the source, perform the same amount of work W, and rejects the <span class="process-math">\(Q_{i}-W\)</span> to the sink, then its efficiency,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta_{i} = \frac{W}{Q_{i}}
+\end{equation*}
+</div>
+<div class="para">Now, assume that the irreversible engine I is more efficient than the reversible engine R, then we have</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta_{i} \gt \eta_{r}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{W}{Q_{i}} \gt \frac{W}{Q_{r}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad Q_{r} \gt Q_{i}
+\end{equation*}
+</div>
+<div class="para">That is,  <span class="process-math">\(Q_{r} - Q_{i}\)</span> is a positive quantity.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-carnt_therm-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-carnt_therm-5">
+<div class="para">Now combine these two engines in such a way that engine I drives the engine R in the backward direction, so that R behaves as a refrigerator. The refrigerator R then extracts <span class="process-math">\(Q_{r}-W\)</span> heat from the sink, after  <span class="process-math">\(W\)</span> work done on it by I it rejects <span class="process-math">\(Q_{r} \)</span> heat to the source. The two engines are so coupled that they behave as a self acting machine. Since the work needed to run the refrigerator R is supplied by the irreversible engine I. The quantity of heat extracted from the sink is given by</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(Q_{r}-W)-(Q_{i}-W)= Q_{r}-Q_{i} = +ve
+\end{equation*}
+</div>
+<div class="para">This is also the net amount of heat rejected to the source.That is  this device transfers the same amount of heat <span class="process-math">\(Q_{r}-Q_{i} \)</span> from the sink to the source without the aid of any external source. This violates the second law of thermodynamics. Hence an irreversible engine never be more efficient than the reversible one.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-carnt_therm-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-carnt_therm-6">Now consider the reversible engines <span class="process-math">\(R_{1}\)</span> and <span class="process-math">\(R_{2}\)</span> are working between the same source and sink. Let <span class="process-math">\(R_{1}\)</span> be driving backward, then as described above, <span class="process-math">\(R_{1}\)</span> can not be more efficient than <span class="process-math">\(R_{2}\text{.}\)</span> Similarly if <span class="process-math">\(R_{2}\)</span> is driving <span class="process-math">\(R_{1}\)</span> backward, then <span class="process-math">\(R_{2}\)</span> can not be more efficient than <span class="process-math">\(R_{1}\text{.}\)</span> Hence the two engines must  have same efficiency.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-carnt_therm-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.9: Carnot’s Theorem:"><a href="#subsec-carnt_therm" title="Copy heading and permalink for Subsection 10.6.9: Carnot’s Theorem:">🔗</a></div></section><section class="subsection" id="subsec-heat_pump"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.10</span><span class="space"> </span><span class="title">Heat Pump and Refrigerator</span>
+</h3>
+<section class="introduction" id="subsec-heat_pump-2"><div class="para" id="subsec-heat_pump-2-1">Heat flows from hot body to cold body naturally. The reverse process, however, cannot occur by itself. To transfer heat from a low temperature region to a high temperature requires special devices called refrigerators or heat pump. Heat pumps transfer heat from a low temperature medium to a high temperature one. Refrigerators and heat pumps are essentially the same devices; they differ in their objectives only. Refrigerator is to maintain the refrigerated space at a low temperature. On the other hand, a heat pump absorbs heat from a low temperature source and supplies the heat to a warmer medium. Heat pumps and refrigerators are heat engine working in backward direction. They transfer heat from cold to hot.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-heat_pump-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-cop"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.6.10.1</span><span class="space"> </span><span class="title">Coefficient of Performance,	COP:</span>
+</h4>
+<figure class="figure figure-like" id="cop"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/cop.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.9<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.9"><a href="#cop" title="Copy heading and permalink for Figure 10.6.9">🔗</a></div></figcaption></figure><div class="para logical" id="subsubsec-cop-3">
+<div class="para">The performance of refrigerators and heat pumps is expressed in terms of the coefficient of performance (COP) which is defined as  </div>
+<div class="displaymath process-math">
+\begin{equation*}
+COP = \frac{benefit}{cost}   
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+COP_{R}  = \frac{Q_{c}}{W}, \quad \text{ for Refrigerator}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+COP_{HP} =  \frac{Q_{h}}{W}, \quad \text{for Heat Pump}
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(Q_{h} =Q_{c}+W,\)</span>  it can be seen that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+COP_{HP}= COP_{R}+1 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-cop-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.6.10.1: Coefficient of Performance,	COP:"><a href="#subsubsec-cop" title="Copy heading and permalink for Subsubsection 10.6.10.1: Coefficient of Performance,	COP:">🔗</a></div></section><div class="autopermalink" data-description="Subsection 10.6.10: Heat Pump and Refrigerator"><a href="#subsec-heat_pump" title="Copy heading and permalink for Subsection 10.6.10: Heat Pump and Refrigerator">🔗</a></div></section><section class="subsection" id="subsec-entropy"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.11</span><span class="space"> </span><span class="title">Entropy</span>
+</h3>
+<section class="introduction" id="subsec-entropy-2"><div class="para" id="subsec-entropy-2-1">A natural tendency of systems is to lose order. When sugar is dissolved in water it becomes more randomized and will not reconstitute itself in the crystalline form again, unless we apply heat energy from outside of the system to evaporate water. When a hot and a cold body are put in contact to each other, heat energy begins to flow from the hot body to the cold body until they reach at thermal equilibrium. Heat will never move back the other way. To move heat from a cold body to a hot body an external work must be done by an external source such as a heat pump. <dfn class="terminology">Entropy</dfn> is a measure of that disorderness. It is a measure of the system’s thermal energy per unit temperature that is unavailable for useful work. The concept of entropy provides the direction of spontaneous change for many process. It tells us that which process is allowed and which is completely prohibited even if it can not violet the fundamental law of conservation of energy. An ice cube placed on a hot pan surely melts, while the pan goes cooler. Such a process is called irreversible because no slight change will cause the melted water to turn back into ice while the pan goes hotter. In contrast, a block of ice placed in an ice water bath will either thaw a little more or freeze a little more, depending on whether a small amount of heat is added to or taken out from the system. Such a process is reversible because only an infinitesimal amount of heat is needed to change its direction from progressive freezing to progressive thawing.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="heatcurve"><div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/heatcurve.png" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">10.6.10<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 10.6.10"><a href="#heatcurve" title="Copy heading and permalink for Figure 10.6.10">🔗</a></div></figcaption></figure><div class="para" id="subsec-entropy-2-3">Spontaneous change for an irreversible process in an isolated system always proceeds in a direction of increasing entropy. Entropy describes the degradation of energy to perform work. Crystals are more orderly than salt molecules in solution; however, vaporized water is  more disordered than liquid water. The process taken as a whole results in a net increase in disorder. The first law of thermodynamics is the conservation of energy and is easy to express quantitatively. The second law explains that heat only flows from a hotter object to a colder one. It measures quantitatively that the efficiency of any reversible engine has to equal that of the Carnot cycle, and any irreversible engine has less efficiency. In the view of measuring the amount of irreversibility Clausius described a parameter, called <em class="emphasis">entropy</em> that doesn’t change in a reversible process but always increases in an irreversible one.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-entropy-2-4">
+<div class="para">The total work done by the gas is the area of the curve ABCD. Hence the work done must be just the difference between the heat supplied at <span class="process-math">\(T_{h}\)</span> and that dumped at <span class="process-math">\(T_{c}.\)</span> Now the heat supplied along the initial hot isothermal path AB is equal to the work done along that curve,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q_{h}=nRT_{h}\ln\frac{V_{b}}{V_{a}}
+\end{equation*}
+</div>
+<div class="para">and the heat dumped into the cold reservoir along CD is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q_{c}=nRT_{c}\ln\frac{V_{c}}{V_{d}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-entropy-2-5">
+<div class="para">The difference between these two is the net work output. This can be simplified using the adiabatic equations for the other two sides of the cycle:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T_{h}V_{b}^{\gamma-1} =  T_{c}V_{c}^{\gamma-1}
+\end{equation*}
+</div>
+<div class="para">and</div>
+<div class="displaymath process-math">
+\begin{equation*}
+T_{h}V_{a}^{\gamma-1} =  T_{c}V_{d}^{\gamma-1}
+\end{equation*}
+</div>
+<div class="para">On dividing of these two equations, we get -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{V_{b}}{V_{a}} =\frac{V_{c}}{V_{d}} 
+\end{equation*}
+</div>
+<div class="para">and using that in the preceding equation for <span class="process-math">\(Q_{c},\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q_{c}=nRT_{c}\ln\frac{V_{b}}{V_{a}} = T_{c} \frac{Q_{h}}{T_{h}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{Q_{c}}{Q_{h}}=  \frac{T_{c}}{T_{h}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\text{or,}\quad \frac{Q_{c}}{T_{c}}=  \frac{Q_{h}}{T_{h}}
+\end{equation*}
+</div>
+<div class="para">So for the Carnot cycle the ratio of heat supplied to heat dumped is just the ratio of the absolute temperatures. If we draw many isotherms and many adiabatics curve, then we can find in general that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{Q_{1}}{T_{1}}=  \frac{Q_{2}}{T_{2}} =  \frac{Q_{3}}{T_{3}} = \cdots =  \frac{Q}{T} = constant
+\end{equation*}
+</div>
+<div class="para">This quantity <span class="process-math">\(\frac{Q}{T}\)</span> is a definite thermal property of the working substance. During adiabatic change, there is no transfer of heat so this quantity is zero. Hence that thermal property of the substance which remains constant during an adiabatic change is termed as <em class="emphasis">entropy</em>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-entropy-2-6">
+<div class="para">Now let see what happen if we take the path ADCBA. The amount of heat absorbed at temperature <span class="process-math">\(T_{h}\)</span> when the gas passes from the state A to the state B remains constant even if a path other than the isotherm AB is followed. Now starting from the point A in reverse direction, let the path AD, DC, and CB be followed. Along the adiabatics AD and CB the quantity <span class="process-math">\(\frac{Q}{T} \)</span> is zero and the quantity along the isothermal DC <span class="process-math">\(=\frac{Q_{c}}{T_{c}}.\)</span> But we know that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{Q_{c}}{T_{c}}= \frac{Q_{h}}{T_{h}}
+\end{equation*}
+</div>
+<div class="para">Hence the quantity <span class="process-math">\(\int\limits_{i}^{f} \frac{Q}{T}\)</span> is independent of the manner of transformation, i.e., the entropy is a definite function of the thermal state of a body and is not affected in any way by the manner in which the particular state is reached. In other words, <em class="emphasis">entropy is a definite physical entity like pressure, volume, temperature, or internal energy but there is nothing physical to represent it</em>. Entropy can not be felt like pressure or temperature. Further, we can not measure the absolute entropy of a substance in any situation, we can only measure the change in entropy as the substance moves from one state to another. Entropy is denoted by a letter, <span class="process-math">\(S\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-entropy-2-7">Change of entropy = heat energy/temperature<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-entropy-2-8">or, Change of entropy <span class="process-math">\(\times\)</span> Temperature = Heat Energy.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-entropy-2-9">That is the dimension of heat energy is same as that of the product of entropy and temperature. If we compare, gravitational potential energy <span class="process-math">\(\propto\)</span> mass <span class="process-math">\(\times\)</span> height with the above expression then it seems like, entropy bears to heat motion in the same fashion as mass bears to linear motion. Hence entropy is also known as a thermal inertia. The second law of thermodynamics can be stated in terms of entropy. The total entropy of the universe is continually increasing because all natural process is irreversible and entropy increases in irreversible process where as there is no change in entropy in the reversible process. But reversible process barely happen in the universe.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-9" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-entropy-2-10">
+<div class="para">Differential form	of change of entropy,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\,dS  =  \frac{\,dQ}{T}
+\end{equation*}
+</div>
+<div class="para">for reversible path.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-10" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-entropy-2-11">
+<div class="para">Integral form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Delta S  =  S_{f} -S_{i}=  \int\limits_{i}^{f} \frac{\,dQ}{T}
+\end{equation*}
+</div>
+<div class="para">for reversible path.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy-2-11" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section><section class="subsubsection" id="subsubsec-entropy_incrs"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.6.11.1</span><span class="space"> </span><span class="title">Principle of increase of entropy:</span>
+</h4>
+<div class="para logical" id="subsubsec-entropy_incrs-2">
+<div class="para">According to this principle, entropy of the universe always increases for any irreversible process, or remains constant for a reversible process.</div>
+<ol class="lower-roman ol-marker-2" id="subsubsec-entropy_incrs-2-1">
+<li id="subsubsec-entropy_incrs-2-1-1">
+<div class="para" id="p-derived-subsubsec-entropy_incrs-2-1-1">
+<em class="emphasis">Change of entropy of the universe due to reversible process:</em> Consider a Carnot cycle in isothermal expansion. The increase of entropy of the working substance is equal to <span class="process-math">\(\frac{Q_{h}}{T_{h}}.\)</span>  The decrease of entropy of the source is equal to <span class="process-math">\(\frac{Q_{h}}{T_{h}}. \)</span> Thus the net change of entropy of universe during a reversible isothermal process is <em class="emphasis">zero</em>. There is no change of entropy during adiabatic process. Similarly, the decrease of entropy of the working substance during  isothermal compression is <span class="process-math">\(\frac{Q_{c}}{T_{c}},\)</span> the increases of entropy of the sink during isothermal compression is <span class="process-math">\(\frac{Q_{c}}{T_{c}}.\)</span> Therefore, net change of entropy of the universe is zero. Now take the entire Carnot cycle at once, then loss of entropy of the source (surrounding) is <span class="process-math">\(\frac{Q_{h}}{T_{h}}\)</span> and gains of entropy of the sink (surrounding) is <span class="process-math">\(\frac{Q_{c}}{T_{c}}\text{,}\)</span> hence the net change of entropy of the universe,<div class="displaymath process-math">
+\begin{equation*}
+\,dS=\frac{Q_{c}}{T_{c}} -\frac{Q_{h}}{T_{h}}=0
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \quad \frac{Q_{c}}{T_{c}} =\frac{Q_{h}}{T_{h}}
+\end{equation*}
+</div>The entropy of the whole system remains constant.</div>
+<div class="autopermalink" data-description="Item i"><a href="#subsubsec-entropy_incrs-2-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+<li id="subsubsec-entropy_incrs-2-1-2">
+<div class="para" id="p-derived-subsubsec-entropy_incrs-2-1-2">
+<em class="emphasis">Change of entropy of the universe due to irreversible process:</em> Consider a heat transfer in conduction process. It is an irreversible process. Let a quantity <span class="process-math">\(\,dQ \)</span> be transferred from a hot body A at a temperature <span class="process-math">\(T_{h}\)</span> to a cold body B at temperature <span class="process-math">\(T_{c}.\)</span> The loss of entropy of A is <span class="process-math">\(\frac{\,dQ}{T_{h}}\)</span> and the gain of entropy of B is <span class="process-math">\(\frac{\,dQ}{T_{c}}.\)</span> Thus the net change in entropy is<div class="displaymath process-math">
+\begin{equation*}
+\,dS= \frac{\,dQ}{T_{c}}-\frac{\,dQ}{T_{h}}  = +ve
+\end{equation*}
+</div>Since <span class="process-math">\(T_{h} \gt T_{c}\text{.}\)</span> Therefore the entropy of the system as a whole increase during this process. The entropy of the universe increases in the irreversible process.</div>
+<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-entropy_incrs-2-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-entropy_incrs-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.6.11.1: Principle of increase of entropy:"><a href="#subsubsec-entropy_incrs" title="Copy heading and permalink for Subsubsection 10.6.11.1: Principle of increase of entropy:">🔗</a></div></section><section class="subsubsection" id="subsubsec-entropy_degrad"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">10.6.11.2</span><span class="space"> </span><span class="title">Principle of degradation of entropy:</span>
+</h4>
+<div class="para logical" id="subsubsec-entropy_degrad-2">
+<div class="para">It states that the available energy of the universe is tending towards zero. From the second law whenever an irreversible process takes place, a certain quantity of energy of the universe is converted from a form in which it is unavailable for work. In Carnot engine, <span class="process-math">\(Q_{h}\)</span> is the heat that is taken from a source and <span class="process-math">\(Q_{c}\)</span> is the amount of heat given to the sink. The difference of this heat <span class="process-math">\(Q_{h}-Q_{c}\)</span> is converted into work and is called the <dfn class="terminology">available energy</dfn>. Available energy is therefore,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q_{h}-Q_{c} = Q_{h}\left(1-\frac{Q_{c}}{Q_{h}}\right)  = Q_{h}\left(1-\frac{T_{c}}{T_{h}}\right)
+\end{equation*}
+</div>
+<div class="para">
+<span class="process-math">\(\left[\because  \frac{Q_{c}}{Q_{h}}=\frac{T_{c}}{T_{h}} \right]\)</span> Thus the lower the temperature <span class="process-math">\(T_{c}\)</span> of the sink, the greater will be the available energy.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-entropy_degrad-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-entropy_degrad-3">
+<div class="para">Now consider an irreversible process in which heat Q is transferred from hot body at temperature <span class="process-math">\(T_{h}\)</span> to a cold body at temperature <span class="process-math">\(T_{c}.\)</span> Suppose <span class="process-math">\(T_{o}\)</span> is the lowest available temperature in the system, then available energy to start with is <span class="process-math">\(Q\left(1-\frac{T_{o}}{T_{h}}\right).\)</span> After transfer it becomes <span class="process-math">\(Q\left(1-\frac{T_{o}}{T_{c}}\right).\)</span> Hence the loss available energy in the process of transformation is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+Q\left(1-\frac{T_{o}}{T_{h}}\right)- Q\left(1-\frac{T_{o}}{T_{c}}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= Q\left[\frac{T_{o}}{T_{c}}-\frac{T_{o}}{T_{h}}\right] = T_{o}\left(\frac{Q}{T_{c}}-\frac{Q}{T_{h}} \right)=T_{o}\,dS.
+\end{equation*}
+</div>
+<div class="para">Since <span class="process-math">\(\,dS\)</span> is increasing in irreversible process available energy is decreasing. All natural process are irreversible the available energy of the universe is continually decreasing.  When a state of maximum entropy of the universe is reached there would be no available energy to do any work, this condition is called the <dfn class="terminology">heat-death</dfn>.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-entropy_degrad-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsubsection 10.6.11.2: Principle of degradation of entropy:"><a href="#subsubsec-entropy_degrad" title="Copy heading and permalink for Subsubsection 10.6.11.2: Principle of degradation of entropy:">🔗</a></div></section><div class="autopermalink" data-description="Subsection 10.6.11: Entropy"><a href="#subsec-entropy" title="Copy heading and permalink for Subsection 10.6.11: Entropy">🔗</a></div></section><section class="subsection" id="subsec-entropy_prob"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.12</span><span class="space"> </span><span class="title">Entropy and Probability</span>
+</h3>
+<div class="para" id="subsec-entropy_prob-2">Entropy is intimately connected with the probability. If you toss four pennies, then it has very less chance that all four will land heads up. It is six times more likely to get two heads and two tails up. The two heads - two tails state is the most likely, shows the most disorder, and has the highest entropy. Four heads is less likely, has the most order, and the lowest entropy. If you tossed more coins, it would be even less likely that they’d all land heads up, and even more likely that you’d end up with close to the same number of heads as tails.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy_prob-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-entropy_prob-3">
+<div class="para">Let S be entropy and <span class="process-math">\(\omega\)</span> be the maximum probability of the system in a definite state, then we can write</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+S=f(\omega)
+\end{equation*}
+</div>
+<div class="para">Now consider <span class="process-math">\(S_{1}\)</span> and <span class="process-math">\(S_{2}\)</span> are the entropies of the two system then total entropy of the combined system will be</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+S =S_{1}+S_{2}
+\end{equation*}
+</div>
+<div class="para">entropy is an additive quantity. The probability of a composite system is equal to the product of the probabilities of the individual system. That is,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+\omega = \omega_{1}\omega_{2} 
+\end{equation*}
+</div>
+<div class="para">Therefore,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob1">
+\begin{equation}
+S =S_{1}+S_{2}  \tag{10.6.19}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob2">
+\begin{equation}
+f(\omega_{1}\omega_{2}) = f(\omega_{1})+f(\omega_{2}) \tag{10.6.20}
+\end{equation}
+</div>
+<div class="para">Differentiating eqn. <a href="sec_tenth-thermdyn.html#eqn-entr_prob2" class="xref" data-knowl="./knowl/xref/eqn-entr_prob2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.20">(10.6.20)</a> with respect to <span class="process-math">\(\omega_{1}\text{,}\)</span> keeping <span class="process-math">\(\omega_{2} \)</span> constant, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob3">
+\begin{equation}
+\omega_{2}f'(\omega_{1}\omega_{2}) = f'(\omega_{1}) \tag{10.6.21}
+\end{equation}
+</div>
+<div class="para">Again differentiating this eqn. <a href="sec_tenth-thermdyn.html#eqn-entr_prob2" class="xref" data-knowl="./knowl/xref/eqn-entr_prob2.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.20">(10.6.20)</a> with respect to <span class="process-math">\(\omega_{2},\)</span>  keeping by <span class="process-math">\(\omega_{1}\)</span> constant, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob4">
+\begin{equation}
+\omega_{1}f'(\omega_{1}\omega_{2}) = f'(\omega_{2})  \tag{10.6.22}
+\end{equation}
+</div>
+<div class="para">Dividing eqns. <a href="sec_tenth-thermdyn.html#eqn-entr_prob3" class="xref" data-knowl="./knowl/xref/eqn-entr_prob3.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.21">(10.6.21)</a> and <a href="sec_tenth-thermdyn.html#eqn-entr_prob4" class="xref" data-knowl="./knowl/xref/eqn-entr_prob4.html" data-reveal-label="Reveal" data-close-label="Close" title="Equation 10.6.22">(10.6.22)</a>, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob5">
+\begin{equation}
+\frac{\omega_{2}}{\omega_{1}} = \frac{f'(\omega_{1})}{f'(\omega_{2})}\tag{10.6.23}
+\end{equation}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+\text{or,}\quad \omega_{1} f'(\omega_{1}) =\omega_{2} f'(\omega_{2}) = k,\quad \text{constant}
+\end{equation*}
+</div>
+<div class="para">So that</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+f'(\omega_{1}) = \frac{k}{\omega_{1}}\qquad \text{and}\quad  f'(\omega_{2}) = \frac{k}{\omega_{2}}
+\end{equation*}
+</div>
+<div class="para">Integrating these expressions, we get -</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+\int f'(\omega_{1})\,d\omega_{1} = \int \frac{k}{\omega_{1}}\,d\omega_{1}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob6">
+\begin{equation}
+\therefore\quad f(\omega_{1}) = k\ln\omega_{1}+C \tag{10.6.24}
+\end{equation}
+</div>
+<div class="para">also,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+\int f'(\omega_{2})\,d\omega_{2} = \int \frac{k}{\omega_{2}}\,d\omega_{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob7">
+\begin{equation}
+\therefore\quad f(\omega_{2}) = k\ln\omega_{2}+C \tag{10.6.25}
+\end{equation}
+</div>
+<div class="para">In general,</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+f(\omega) = k\ln\omega+C
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+\text{or,}\quad S =   k\ln\omega+C 
+\end{equation*}
+</div>
+<div class="para">Where C is a constant of integration which can be determined by initial conditions. In case of a perfect order, <span class="process-math">\(\omega=1\)</span> and <span class="process-math">\(S=0 \text{,}\)</span> then <span class="process-math">\(C =0.\)</span>
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html">
+\begin{equation*}
+\therefore \quad S =k\ln \omega
+\end{equation*}
+</div>
+<div class="para">Hence the microscopic definition of entropy is given by</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob2.html ./knowl/xref/eqn-entr_prob3.html ./knowl/xref/eqn-entr_prob4.html" id="eqn-entr_prob8">
+\begin{equation}
+S = N k_{B} ln \omega  \tag{10.6.26}
+\end{equation}
+</div>
+<div class="para">Where <span class="process-math">\(k=Nk_{B}\)</span> for N number of molecules of gas and <span class="process-math">\(k_{B} \)</span> is Boltzmann constant.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-entropy_prob-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.12: Entropy and Probability"><a href="#subsec-entropy_prob" title="Copy heading and permalink for Subsection 10.6.12: Entropy and Probability">🔗</a></div></section><section class="subsection" id="subsec-III_law"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">10.6.13</span><span class="space"> </span><span class="title">Third Law of Thermodynamics</span>
+</h3>
+<div class="para logical" id="subsec-III_law-2">
+<div class="para">From now we may have known that the entropy difference between two points like the potential energy. Where we must define the base line to calculate the potential energy. We already have a natural base line thermodynamically, a system at absolute zero has zero entropy. This is sometimes called the third law of thermodynamics. The efficiency of Carnot engine,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\eta= 1-\frac{T_{c}}{T_{h}} 
+\end{equation*}
+</div>
+<div class="para">If <span class="process-math">\(T_{c} =0,\)</span> <span class="process-math">\(\eta =1,\)</span> i.e., <span class="process-math">\(100\% \)</span>efficient. It means if the temperature of the sink be zero, then complete conversion of heat into work is possible.  But further lowering of temperature if it is already sufficiently low is not easy. Hence, third law states that it is impossible by any procedure to reduce temperature of any system to absolute zero.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-III_law-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 10.6.13: Third Law of Thermodynamics"><a href="#subsec-III_law" title="Copy heading and permalink for Subsection 10.6.13: Third Law of Thermodynamics">🔗</a></div></section><div class="autopermalink" data-description="Section 10.6: Thermodynamics"><a href="#sec_tenth-thermdyn" title="Copy heading and permalink for Section 10.6: Thermodynamics">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec_tenth-kt_gas.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_tenth-examplesB.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

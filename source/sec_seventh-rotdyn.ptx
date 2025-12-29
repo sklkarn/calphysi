@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_seventh-rotdyn" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Rotational Dynamics</title>
+  
+<introduction>
+  <p>
+    Just as  linear dynamics  describes the influence of force on a body and its transalational motion,  
+    in rotational dynamics torque describes the nature of rotational motion. Torque in rotational 
+    motion is a linear analogue of force. Actually, torque is a turning effect of force which 
+    acts on a body in specific direction and at specific position. 
+    <me>
+      \sum F = ma,\quad \sum\Gamma  =  I \alpha, 
+    </me>
+    <me>
+      a  =  r\alpha,\quad \omega \neq0,\quad \alpha \neq0
+    </me>
+      A general expression for the angular acceleration produced by a torque is quite 
+      similar to acceleration produced by a force in linear motion. For example, 
+      if a force is applied at the center of mass it will not produce any torque. 
+      It seems that no torque no rotation and it is right but in this case we have to 
+      consider no net torque. If the net torque acting on a rigid object is zero, 
+      the body will rotate with a constant angular velocity as we have seen in rotational 
+      equilibrium. The moment of inertia of a rigid body is a linear analogue to a mass. 
+      Torque plays the same role in rotational motion as force plays in translational motion. 
+      As <m>\vec{F} =0</m> we have <m>\vec{a} =0,</m> similarly, <m>\vec{\alpha} =0</m> if 
+      <m>\vec{\tau}=0.</m> Remember, circular motion is not possible without centripetal 
+      acceleration and it has nothing to do with angular accelration. Direction of 
+      angular acceleration is along the same direction as a torque acting on a body. 
+      Angular acceration by defintion is acting along the same direction along which 
+      angular velocity is changing. Since <m>\vec{v} =\omega \times \vec{r}</m>, 
+      we have <m>\vec{a}=\vec{\alpha}\times\vec{r}</m>. Here <m> \vec{a}</m> is a 
+      tangential acceleration. If the direction of uniform angular velocity is 
+      changing the torque starts acting on the body and the body starts precessing.
+   </p>
+</introduction>
+
+<subsection xml:id="subsec-rot_overview">
+  <title>Rotational Overview</title>
+  <p>
+    The table below summarizes some of the physical quantities as rotational anologue to a translation motion. 
+  </p>
+
+  <table>
+    <title></title>
+    <tabular halign="center">
+    <row header="yes" bottom="minor" >
+     <cell>Linear Motion </cell>
+    <cell>Unit  </cell>
+    <cell>Rotational Motion </cell>
+    <cell>Unit </cell>
+    <cell>Relation</cell>
+    </row>
+    <row>
+    <cell> <m>\vec{F}=m\vec{a}</m> </cell>
+    <cell> <m>N</m></cell>
+    <cell> <m>\vec{\Gamma}=I\vec{\alpha}</m></cell>
+    <cell> <m>Nm</m></cell>
+    <cell><m>\vec{\Gamma} =\vec{r}\times\vec{F}</m></cell>
+     </row>
+    <row>
+    <cell><m>v_{f}=v_{i}+a t</m></cell>
+    <cell><m>m/s</m></cell>
+    <cell> <m>\omega_{f}=\omega_{i} +\alpha t</m></cell>
+    <cell> <m>rad/s </m></cell>
+    <cell><m>\vec{v}=\vec{r}\times \vec{\omega}</m></cell>
+    </row>
+    <row>
+      <cell> <m>v^{2}_{f}=v^{2}_{i}+2a s</m> </cell>
+      <cell> </cell>
+      <cell><m>\omega^{2}_{f}=\omega^{2}_{i}+2\alpha\theta</m></cell>
+      <cell></cell>
+      <cell> <m>a_{t}=r\alpha</m></cell>
+       </row>
+      <row>
+        <cell><m>s=v_{i}t+\frac{1}{2}at^{2}</m> </cell>
+        <cell><m>m</m></cell>
+        <cell> <m>\theta=\omega_{i}t+\frac{1}{2}\alpha t^{2}</m></cell>
+        <cell><m>rad</m> </cell>
+        <cell><m>s=r\theta</m></cell>
+        </row>
+        <row>
+          <cell> <m>P =\frac{W}{t} = \frac{\vec{F}\cdot \vec{s}}{t} = \vec{F}\cdot\vec{v}</m></cell>
+          <cell><m>Watt </m></cell>
+          <cell> <m> P =\frac{W}{t}=\frac{\vec{\Gamma}\cdot \vec{\theta}}{t} = \vec{\Gamma}\cdot\vec{\omega}</m></cell>
+          <cell>W </cell>
+          <cell></cell>
+          </row>
+          <row>
+            <cell>Mass (M) </cell>
+            <cell>kg</cell>
+            <cell> Inertia (I)</cell>
+            <cell><m>kgm^{2}</m> </cell>
+            <cell><m>I=Mr^{2}</m></cell>
+            </row>
+            <row>
+              <cell> p=mv </cell>
+              <cell>kgm/s</cell>
+              <cell><m> L=I\omega</m></cell>
+              <cell> <m> kgm^{2}/s </m></cell>
+              <cell>\vec{L}=\vec{r}\times\vec{p} </cell>
+              </row>
+              <row>
+                <cell><m>KE=\frac{1}{2}mv^{2} </m></cell>
+                <cell>Joule</cell>
+                <cell> <m>KE=\frac{1}{2}I\omega^{2}</m></cell>
+                <cell>Joule </cell>
+                <cell><m>a_{c} =a_{r}=\frac{v^{2}}{r}</m></cell>
+                </row>
+                <row>
+                  <cell><m>\Delta p=F\Delta t=\mathscr{I}</m></cell>
+                  <cell><m>Ns </m></cell>
+                  <cell> <m>\Delta L=\Gamma \Delta t</m></cell>
+                  <cell> Nms </cell>
+                  <cell></cell>
+                  </row>
+                  <row>
+                    <cell><m>W=F s</m> </cell>
+                    <cell><m>J</m></cell>
+                    <cell> <m>W=\Gamma\theta</m></cell>
+                    <cell>J </cell>
+                    <cell></cell>
+                    </row>
+                    <row>
+                      <cell><m>F=\frac{\Delta p}{\Delta t}</m> </cell>
+                      <cell></cell>
+                      <cell> <m>\Gamma=\frac{\Delta L}{\Delta t}</m></cell>
+                      <cell> </cell>
+                      <cell></cell>
+                      </row>
+    </tabular>
+    </table>
+    <p>
+      Although the mathematical forms of the equations  are quite similar, 
+      rotational dynamics differs from linear dynamics in the following respects. 
+      It applies to systems consisting of a single rotating object rather than a 
+      point particle; The motion of a body is due to rotational velocity rather 
+      than the translational velocity; and the agent which cause the motion is 
+      the net torque not the net force. In rotational motion axis of rotation must 
+      be specified to characterize the rotational motion.
+    </p>
+</subsection>
+
+<subsection xml:id="subsec-rwep">
+  <title>Rotational Energy, Work, and Power</title>
+  <p>
+    Whenever a rigid body is set into rotation about an axis, work is done by the torques. 
+    Consider a rigid body pivoted at point <m>O</m> is acted upon by a force <m>\vec{F}</m> 
+    at point <m>P</m> so that it rotates by a small arc length  <m>\,ds,</m> 
+    then work done by the force is given by 
+    <me>
+      \,dW = \vec{F}\cdot\vec{ds} =\vec{F}\cdot\left(\,d\vec{\theta}\times\vec{r}\right)
+    </me>
+    <me>
+      =\,d\vec{\theta}\cdot \left(\vec{r}\times \vec{F}\right)
+    </me>
+    <me>
+      [\because \vec{a}\cdot(\vec{b}\times\vec{c})= \vec{b}\cdot (\vec{c}\times\vec{a})
+    </me>
+   <me>
+    \therefore W=\int \vec{\Gamma}\cdot\,d\vec{\theta}=\int\Gamma\,d\theta
+   </me>
+      Since the direction of the angular displacement is measured along the axis, 
+      and the torque is acting along the same direction on the body. If a constant 
+      torque acts on a rigid body which is rotating about a fixed axis, 
+      then from the principle of conservation of mechanical energy, assuming 
+      no loss due to friction, the work done by the torque will produce a change 
+      in the kinetic energy of the body given by 
+  </p>
+  <figure xml:id="rotwork">
+    <caption></caption>
+    <image source="rotwork.png" width="30%"/>
+</figure>
+  <p>
+    For maximum torque, <m>\theta =90^{o}</m>,  and  
+    <me>
+      \Gamma =\vec{r}\times \vec{F} = rF\sin\theta = Fr.
+    </me>
+    <me>
+      \,d W =Fr\,d\theta = \Gamma\,d\theta= I\alpha\,d\theta 
+    </me>
+    <me>
+      \,d K = \frac{1}{2}I\omega^{2}= \frac{1}{2}I\left(\omega^{2}_{f}-\omega^{2}_{i}\right)
+    </me>
+    <me>
+      =\frac{1}{2}I \left(2\alpha\,d \theta\right)=I\alpha\,d\theta =\,d W
+    </me>
+  From rotational kinematics,
+  <me>
+    \omega^{2}_{f}=\omega^{2}_{i}+2\alpha\theta.
+  </me>
+  where <m>\omega_{f},</m>  and  <m>\omega_{i}</m>  are  the final and initial angular 
+  velocity of the body, respectively  and <m>\theta</m> is angular displacement through 
+  which the torque is applied.
+  </p>
+</subsection>
+
+
+<subsection xml:id="subsec-ang_momnt">
+  <title>Angular Momentum</title>
+  <p>
+    A rigid body rotating with angular velocity, <m>\omega</m> about 
+    a fixed axis has an angular momentum <m>L</m> about this axis which is given by
+    <me>
+      \vec{L}=I\vec{\omega}.
+    </me>
+    where <m>I</m> is the moment of inertia of the body about this axis. 
+    To change the angular momentum of a body, an external torque must be 
+    applied to it. Similar to 
+    <me>
+      F=\frac{\,dp}{\,dt} = ma, 
+    </me>
+     in linear dynamics,  we have in rotational dynamics 
+     <me>
+      \Gamma=\frac{\,dL}{\,dt} =I \alpha = I\frac{\,d\omega}{\,dt}.
+     </me>
+     That is, the torque acting on a rigid body is equal to the rate of change of 
+     the angular momentum. The direction of torque is along the change in angular momentum. 
+     The direction of angular momentum <m>\vec{L}=I\vec{\omega}</m> is along the 
+     angular velocity, which is along the axis of rotation. In the absence of external 
+     torques, the angular momentum of a rigid body must be constant, in other words, 
+     there is no change in the angular momentum when the sum of the external torques 
+     is zero. This is known as the principle of conservation of angular momentum, 
+     i.e., <m>\Delta L =0.</m>   Similarly, the angular impulse 
+     <me>
+      \Delta J_{\theta} = \Gamma \Delta t =\Delta L.
+     </me>
+      Thus the change in angular momentum is equal to the angular impulse. Again, 
+      <me>
+        \vec{\Delta L}=\vec{r}\times\vec{F}\Delta t = \vec{r}\times\frac{\Delta p}{\Delta t}\Delta t=\vec{r}\times\vec{\Delta p}.
+      </me>
+       </p>
+       <figure xml:id="angmomnt">
+        <caption></caption>
+        <image source="angmomnt.png" width="30%"/>
+    </figure>
+       <p>
+        Hence angular momentum is also called moment of momentum. It is a vector quantity. 
+        It is acting along the direction perpendicular to the plane subtends by <m>\vec{r}</m> and <m>\vec{v}.</m> 
+        The angular momentum of a point particle is a measure of the <em>circulation</em> of 
+        the particle's linear momentum about some specific point. In <xref ref="angmomnt"/>, <m>r</m> 
+        is a position vector of mass, <m>m</m> measured from point <m>O.</m>
+        <me>
+          |\vec{L}|=  |\vec{r}\times\vec{p}| =| m\left(\vec{r}\times\vec{v}\right)| = mrv\sin\theta 
+        </me>
+             here <m>v\sin\theta </m> is a component of velocity (or momentum) along position 
+             vector <m>r</m>. If the position vector and the velocity are contained in the x-y 
+             plane then the angular momentum is either along the +z axis or along the -z axis. 
+             If the right hand fingers pointed along the position vector curl along the velocity 
+             vector, then thumb will give the direction of angular momentum. In the <xref ref="angmomnt"/>
+             if the right hand fingers are along the red dashed line curled towards the momentum 
+             vector then thumb is pointed out of the paper. 
+       </p>
+        
+  <figure>
+    <caption></caption>
+    <sidebyside widths="25% 25% 25%">
+      <figure xml:id="angmomnt2">
+        <caption></caption>
+        <image source="angmomnt2.png"/>
+    </figure>
+        <figure xml:id="angmomnt2a">
+            <caption></caption>
+            <image source="angmomnt2a.png"/>
+        </figure>
+        <figure xml:id="angmomnt2b">
+          <caption></caption>
+          <image source="angmomnt2b.png"/>
+      </figure>
+        </sidebyside>
+</figure> 
+       <p>
+        The angular momentum vector depends on the position vector of the point particle, 
+        therefore it depends on the point from which the particle's position is measured. 
+        Consider a particle of mass <m>m</m> moving along the <m>+x</m> axis with velocity <m>v</m> 
+        as shown in <xref ref="angmomnt2"/>, then the angular momentum of this 
+        particle is given with respect to points  <m>A</m> and <m>B</m> are 
+        <me>
+          |\vec{L}_{A}|  = |\vec{r}_{A}\times\vec{p}| 
+        </me>
+        <me>
+          =  |m\vec{r}_{A}\times\vec{v}| = mr_{A}v\sin\theta =mr_{A}v\sin(180^{o}-\beta) 
+        </me>
+        <me>
+          =mr_{A}v\sin\beta = mr_{A}v\frac{a}{r_{A}}= mva
+        </me>
+        where <m>\vec{L}_{A}</m> is pointed into the paper [figure <xref ref="angmomnt2a"/>]. 
+        Similarly, 
+        <me>
+          |\vec{L}_{B}|  = |\vec{r}_{B}\times\vec{p}| 
+        </me>
+        <me>
+          =  |m\vec{r}_{B}\times\vec{v}| = mr_{B}v\sin\theta = mr_{B}v\frac{b}{r_{B}}= mvb 
+        </me>
+        and <m> \vec{L}_{B}</m> is pointed out of the paper [figure <xref ref="angmomnt2b"/>].
+       </p>
+</subsection>
+
+<subsection xml:id="subsec-gyros">
+  <title>The Gyroscope</title>
+      
+  <figure xml:id="gyroscope">
+    <caption></caption>
+    <sidebyside widths="25% 30% 40%">
+      <figure>
+          <image source="gyroscope.png"/>
+    </figure>
+        <figure>
+            <image source="gyroscope2.png"/>
+        </figure>
+        <figure>
+          <image source="gyroscope2a.png"/>
+      </figure>
+        </sidebyside>
+</figure> 
+  <p>
+    It is a spinning disc or wheel in which the axis of rotation is free to orient in any direction. 
+    It is used to detect rotational movement. It is  very useful in navigation, especially 
+    where magnetic compasses can't be used, such as in spacecraft, intercontinental ballistic missiles,  
+    and satellites. Wheels on a bicycle, for example, act as gyroscopes as they spin up to speed,
+     making it easier to stay upright and harder to upset momentum. 
+  </p>
+  <p>
+    In the <xref ref="gyroscope"/>, <m>L</m>  and <m>L'</m> are initial and 
+    final angular momentum after time <m>\Delta t,</m> respectively. <m>\omega</m> is 
+    angular velocity of wheel rotation and <m>\Omega</m> is a precessional velocity. 
+    <m>\vec{r}</m> is the distance of wheel from the axis of rotation, <m>O</m>. <m>\tau</m> 
+    is the direction of torque being acted on the wheel because of its weight. 
+    The direction of torque can be given by right hand thumb rule. When the right hand  
+    fingers are curled from the direction along <m>\hat{r}</m>  to the direction along 
+    weight then the direction of thumb will be pointed along the torque. Because of torque 
+    the direction of angular momentum changes every second hence the orientation of 
+    new angular momentum is given by 
+    <me>
+      \Delta L = L\Delta\theta
+    </me>
+    <me>
+      \text{or,}\quad \frac{\Delta L }{\Delta t}= L\frac{\Delta\theta}{\Delta t} 
+    </me>
+    <me>
+      \tau = L\Omega 
+    </me>
+    <me>
+      \therefore \quad \Omega = \frac{\tau}{L} = \frac{mgr}{I\omega}
+    </me>
+    Earth precesses because of the torque produced on  it due to gravitational 
+    tidal force of the Sun and the Moon.
+  </p>
+</subsection>
+  </section>
+

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-examples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+<example>
+  <statement>
+    <p>
+      Consider the mass distribution shown at right. What is the magnitude and 
+      direction of initial acceleration of the 4 kg mass if all of the masses are 
+      released from rest out in space?
+    </p>
+  </statement>
+  <solution>
+    <image source="cd3a.png" width="40%"> </image> 
+    <p>
+      Given: <m>m_{1}  =  1 kg, \quad m_{2}  =  2 kg, \quad m_{3}  =  3 kg,\quad m_{4} =  4 kg,  </m> 
+      <m>r_{21}  =  0.1 m, \quad r_{31}  =  0.1 m, \quad G  =  6.67 \times 10^{-11} Nm^{2}/kg^{2}.</m>
+    </p>
+    <p>
+      Equations:	
+      <me>
+        \tan\theta  = \frac{0.1}{0.1}  \Rightarrow \theta =\tan^{-1}1 =45^{o},
+      </me>
+      	<me>
+          r_{41}=\sqrt{0.1^{2}+0.1^{2}}=0.1414m,
+        </me>
+        <me>
+          F_{41}  =  G \frac{m_{1}m_{4}}{r_{41}^{2}} = G\frac{1 \times 4}{0.02}=(200G) N,
+        </me>
+        <me>
+          F_{42}  =  G \frac{m_{4}m_{2}}{r_{42}^{2}} = G \frac{2\times4}{0.01}= (800G) N,
+        </me>
+        <me>
+          F_{43}  =  G\frac{4 \times 3}{0.01}=(1200G) N,
+        </me>
+        <me>
+          \sum F_{x} =  F_{43} + F_{41} \sin\theta  =  -8.9\times10^{-8} N; 
+        </me>
+        <me>
+          \quad \sum F_{y}  =  F_{42} + F_{41} \cos\theta  = -6.2\times10^{-8} N 
+        </me>
+          <me>
+          \therefore F=\sqrt{F^{2}_{x} +F^{2}_{y}} = 1.08\times10^{-7}N; \quad \phi=\tan^{-1}\left(\frac{F_{y}}{F_{x}}\right) = 35^{o}
+        </me>
+        The direction of resultant force is acting along <m>35^{o}</m> below the x-axis, 
+        which is also the direction of resultant acceleration of mass 4 kg. 
+        <me>
+          F=m_{4}a \qquad \Rightarrow \quad a=\frac{F}{m_{4}} =\frac{1.08\times10^{-7}N}{4kg}  =2.7\times10^{-8}m/s^{2}
+        </me>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A satellite orbits the earth in a circular orbit at an altitude of 1000 mile.
+      <ol marker="a.">
+        <li>
+          What is its orbital speed?
+        </li>
+        <li>
+          How long does it take to complete one orbit?
+        </li>
+      </ol> 
+         </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>G  =  6.67\times 10^{-11} N.m^{2}/kg^{2},</m> 
+      <m>h  =  (1000 mile) \times (1.609 \frac{km}{mile})\times(1000 \frac{m}{km}) =  1.609\times 10^{6}m, </m> 
+      <m>R  =  6.37\times 10^{6} m, \quad M  =  5.98\times 10^{24} kg.</m>
+    </p>
+    <p>
+      Equations:
+      <me>
+        r  =  R + h = 7.979\times 10^{6} m, \quad v_{o} =\sqrt{\frac{GM}{r}} = 7.07km/s
+      </me>
+      <me>
+        T=\frac{2\pi r}{v_{o}} = \frac{2\times\pi\times(7.979\times 10^{6})}{7.07\times10^{3}}= 1.97 h 
+      </me>
+     </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      A rocket is launched straight up from the surface of the planet of mass 
+      <m>3\times10^23 kg</m> and radius <m>1.2\times10^{7} m</m> at twice the 
+      escape speed. What is the speed of the rocket far away from the planet? 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <me>
+        v_{l}=2v_{e}, \quad  M=3\times10^23 kg, \quad r =1.2\times10^{7} m, \quad v_{\infty}=? 
+      </me>
+      <me>
+        E_{planet}= E_{\infty}
+      </me>
+      <me>
+        \text{or,}\quad \frac{1}{2}mv_{l}^{2}-\frac{GMm}{r}=\frac{1}{2}mv_{\infty}^{2} 
+      </me>
+      <me>
+        \text{or,}\quad\frac{1}{2}m(2v_{e})^{2}-\frac{GMm}{r}=\frac{1}{2}mv_{\infty}^{2} 
+      </me>
+      <me>
+        \text{or,}\quad 4\left(\frac{1}{2}m(v_{e})^{2}\right)-\frac{GMm}{r}=\frac{1}{2}mv_{\infty}^{2} 
+      </me>
+      <me>
+        \text{or,}\quad 4\left(\frac{GMm}{r}\right)-\frac{GMm}{r}=\frac{1}{2}mv_{\infty}^{2}  
+      </me>
+      <me>
+        \therefore \frac{3GM}{r}=\frac{1}{2}v_{\infty}^{2}  
+      </me>
+      <me>
+        v_{\infty}= \sqrt{\frac{6GM}{r}} = 3163m/s.
+      </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A starship in a binary system is located a distance r from one star 
+      and a distance 2r from the other star. The starship wants to launch 
+      a deep space probe of mass m. The probe has no propulsion system of its own. 
+      What is the escape velocity from the starship's current location in 
+      the binary star system above?
+    </p>
+  </statement>
+  <solution>
+    <image source="spaceship1.png" width="40%"> </image> 
+    <p>
+      From the energy conservation, total energy at starship = 0. 
+      </p>
+      <p>
+        That is total potential energy at starship = kinetic energy for escaping the probe at starship.
+        <me>
+          E_{1}+E_{2}=E
+        </me>
+        <me>
+          0-\frac{GMm}{r}+0-\frac{GMm}{2r}+\frac{1}{2}mv_{e}^{2} =0
+        </me>
+        <me>
+          \therefore\quad v_{e} =\sqrt{\frac{3GM}{r}}
+        </me>
+      </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Two satellites of equal masses m revolve around the planet of mass M. 
+      The planet's mass is much larger than the mass of the satellites, <m>m \lt \lt M</m>. 
+      The radii of the orbits of the satellites are r and 2r. The satellites are connected 
+      by a light string, directed along the radius of the orbit, that keeps their periods 
+      of revolution equal. Find the force of tension T in the string in terms of m, M, r, and G. 
+      What is the period <m>\tau</m> of the satellites' orbit? Answer in terms of G, r, and M, 
+      and mathematical constants. 
+    </p>
+  </statement>
+  <solution>
+    <image source="2satlites.png" width="40%"> </image> 
+    <p>
+      Let <m> \omega</m> be the angular velocity of satelites, then centripetal force 
+      needed for first satelite is given by
+      <men xml:id="eqn-satl1">
+        \frac{GMm}{r^{2}}-T_{12} = mr\omega^{2} 
+      </men>
+        centripetal force needed for second satelite is given by
+        <me>
+          \frac{GMm}{(2r)^{2}}+T_{21} = m(2r)\omega^{2} 
+        </me>
+         <men xml:id="eqn-satl2">
+          \therefore \frac{GMm}{4r^{2}}+T_{21} = 2mr\omega^{2}
+        </men>
+        From eqns. <xref ref="eqn-satl1"/> and <xref ref="eqn-satl2"/>, we get -
+        <me>
+          \frac{GMm}{4r^{2}}+T_{21} = 2\left[\frac{GMm}{r^{2}}-T_{12}\right]  = \frac{2GMm}{r^{2}}-2T_{12}
+        </me>
+        <me>
+          \text{or,}\quad \frac{GMm}{4r^{2}}- \frac{2GMm}{r^{2}} = 2T_{12} - T_{21} = -3T
+        </me>
+        <m>[\because T_{21}=T_{12}=T]</m>
+        <me>
+          \therefore \quad T = \frac{7}{12}\left(\frac{GMm}{r^{2}}\right)
+        </me>
+        Now, from eqn <xref ref="eqn-satl1"/>, 
+        <me>
+          [v_{1} = \frac{5GM}{12r}
+        </me>
+        and hence,
+        <me>
+          \tau = \frac{2\pi r}{v_{1}} = \sqrt{\frac{48\pi^{2}r^{3}}{5GM}} 
+        </me>
+        <m> [\because v=r\omega]</m>
+          </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      Two asteroids of masses M and m and radii R and r are at rest and isolated 
+      in space at a distance d apart. They begin drifting towards each other and 
+      smashed  eventually. If M = 4m and R = 2r, find the velocity of the small 
+      asteroid just before it hits the big asteroid.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      From conservation of momentum 
+      <me>
+        M u_{1} - m u_{2}  = 0
+      </me>
+      <me>
+        \text{or,}\quad 4mu_{1} = mu_{2}
+      </me>
+    <me>
+      \therefore\quad u_{1} =\frac{u_{2}}{4}
+    </me>
+   Also from conservation on energy,
+   <me>
+    -\frac{GMm}{d} =-\frac{GMm}{R+r}+\frac{1}{2}Mu_{1}^{2} +\frac{1}{2}mu_{2}^{2}
+   </me>
+   <me>
+    \text{or,}\quad -\frac{G4mm}{d} =-\frac{G4mm}{3r}+\frac{1}{2}4mu_{1}^{2} +\frac{1}{2}mu_{2}^{2}
+   </me>
+   <me>
+    \text{or,}\quad -\frac{G4m}{d} +\frac{G4m}{3r}= 2\left(\frac{u_{2}}{4}\right)^{2} +\frac{1}{2}u_{2}^{2}
+   </me>
+   <me>
+    \text{or,}\quad 4Gm\left[\frac{1}{3r}-\frac{1}{d} \right] 
+   </me>
+   <me>
+    = \left(\frac{1}{8}+\frac{1}{2}\right) u_{2}^{2} = \frac{5}{8} u_{2}^{2}
+   </me>
+   <me>
+    \therefore\quad u_{2} = \sqrt{\frac{32}{5}Gm\left(\frac{1}{3r}-\frac{1}{d}\right)}
+   </me>
+     </p>
+  </solution>
+</example>
+</section>

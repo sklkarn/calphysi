@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_third" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Motion</title>
+    
+  <introduction>
+    <p>
+      Motion is the action of changing position of an object over time. 
+      It is a relative property. It depends upon the relative position of the observer and the object. 
+      A person sitting in a spaceship is at zero velocity relative to the spaceship, 
+      but is moving at the same velocity as the spaceship with respect to the ground. 
+      The earth is at rest with respect to us, but it is moving about 30 km/s around the sun. 
+      Two bicycle riders cycling on a straight road with the same velocity are at rest with respect 
+      to each other but are in motion with respect to the observer on the road. </p>
+      <p>
+      The study of motion without knowing its cause (force and energy) is called kinematics. 
+      It is the simplest branch of mechanics. Mechanics deals with the effects of force, energy, and 
+      motion on an object. It has three sub-divisions, kinematics, statics, and dynamics. 
+      Dynamics deals with action of forces on motion, and statics deals with the mechanical equilibrium 
+      and its relation to forces. Motion can be of translational, rotational, oscillatory, 
+      and random type. If an object position is changing with time it is termed as a 
+      translational motion. (The transalational motion along a straight line is called a rectilinear motion). 
+      The bullet fired from a gun horizontally has a translational motion, it is not a rectilinear 
+      though because it may take a parabolic path to reach from one location to another. A billiard ball 
+      moving on the table before it strikes with another ball or edge of the table has a rectilinear 
+      motion. If an object is retracing its original path over and over about a mean position 
+      then the motion is said to be oscillatory. A restoring force is responsible for oscillatory motion. 
+      A ball displaced a little from its rest position in a bowl performs an oscillatory motion. 
+      Motion that occurs when an object rotates about an axis is said to be rotational. 
+      Instead of changing position as in translational motion the object changes its angle in a 
+      rotational motion. Ice skaters spin around on the axis from their head to their feet, the earth 
+      spins around on the axis that runs from the North Pole to the South Pole, creating day and night, 
+      and the revolution of the earth around the sun are all in rotational motion. 
+      The motion of a pendulum is both oscillatory and periodic but the motion of the wheels of a car 
+      is only periodic because the wheels rotate in a circular motion. Circular motion is periodic 
+      but not oscillatory. The wheels do not move to and fro about a mean position. Motion which can 
+      not be predictable in practice is called a random motion. The motion in which a body do not have 
+      fixed pattern of following specific direction.
+    </p>
+      </introduction>
+
+ 
+  <xi:include href="./sec_third-1D.ptx" />
+  <xi:include href="./sec_third-examplesA.ptx" />  
+   <xi:include href="./sec_third-2D.ptx" />
+  <xi:include href="./sec_third-examplesB.ptx" />  
+ 
+  <xi:include href="./ex_third.ptx"/> 
+
+</chapter>

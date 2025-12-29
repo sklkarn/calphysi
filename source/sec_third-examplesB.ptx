@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-examplesB" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples B</title>
+  
+<example>
+  <statement>
+    <p>
+      A particle is moving according to the equation 
+      <me>
+        \vec{r}=\left(At^{3}+Bt^{2}\right)\hat{i}+Ct\hat{j}
+      </me>
+      where <m>A= 3m/s^{2} </m>, <m> B= 2 m/s^{2}</m>, and <m>C= -1m/s</m>. 
+      Find 
+      <ol marker="a.">
+        <li>
+          <m>\vec{r}(0)</m>,
+        </li>
+        <li><m>\vec{r}(2s)</m>,</li>
+        <li><m>v_{avg}(0,2s)</m>,</li>
+        <li><m>\vec{v}(-1s)</m>,</li>
+        <li><m>\vec{v}(3s)</m>,</li>
+        <li><m>a_{avg}(-1s,3s)</m>, and </li>
+        <li><m>\vec{a}(0.5s)</m>.</li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        \vec{r}=\left(At^{3}+Bt^{2}\right)\hat{i}+Ct\hat{j} 
+      </me>
+      <ol marker="a.">
+        <li>
+          <m>\vec{r}(0) = 0</m>,
+        </li>
+        <li>
+          <md>
+            <mrow> \vec{r}(2s)\amp = \left(A\cdot 2^{3}+B \cdot 2^{2}\right)\hat{i}+C\cdot 2\hat{j}</mrow>
+            <mrow> \amp =  \left(3\cdot 2^{3}+2 \cdot 2^{2}\right)\hat{i}-1\cdot 2\hat{j} </mrow>
+            <mrow> \amp = 32\hat{i}-2\hat{j}. </mrow>
+          </md>
+          </li>
+        <li>
+          <md>
+            <mrow>v_{avg}(0,2s)  \amp = \frac{\vec{r}(2s)-\vec{r}(0)}{2-0}</mrow>
+            <mrow> \amp = \frac{32\hat{i}-2\hat{j}-0}{2}</mrow>
+            <mrow> \amp =16\hat{i}-\hat{j}</mrow>
+          </md>
+         </li>
+        <li>
+          <md>
+            <mrow> \vec{v}(-1s) \amp = \frac{\,d\vec{r}}{\,dt} </mrow>
+            <mrow> \amp = \left(3At^{2}+2Bt\right)\hat{i}+C\hat{j} </mrow>
+            <mrow> \amp = \left[3.3.(-1)^{2}+2.2.(-1)\right]\hat{i}+(-1)\hat{j} </mrow>
+            <mrow> \amp  = 5\hat{i}-\hat{j} </mrow>
+          </md>
+         </li>
+        <li>
+          <md>
+            <mrow>\vec{v}(3s) \amp = \left(3At^{2}+2Bt\right)\hat{i}+C\hat{j} </mrow>
+            <mrow> \amp = \left[3.3.(3)^{2}+2.2.(3)\right]\hat{i}+(3)\hat{j} </mrow>
+            <mrow> \amp = 93\hat{i}-\hat{j} </mrow>
+          </md>
+         </li>
+        <li>
+          <md>
+            <mrow> a_{avg}(-1s,3s) \amp  = \frac{v(3s)-v(-1s)}{3-(-1)} </mrow>
+            <mrow> \amp = \frac{93\hat{i}-\hat{j}-5\hat{i}+\hat{j}}{4} </mrow>
+            <mrow> \amp = 22\hat{i} </mrow>
+          </md>
+         and </li>
+        <li>
+          <md>
+            <mrow> \vec{a}(0.5s)\amp = \frac{\,dv}{\,dt} </mrow>
+            <mrow> \amp  = \left(6At+2B\right)\hat{i} </mrow>
+            <mrow> \amp = [6.3.(0.5) +2.2]\hat{i} </mrow>
+            <mrow> \amp =13\hat{i} </mrow>
+          </md>
+         </li>
+      </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A particle is moving in a circle of radius <m>r = 1 \quad m</m> with a constant 
+      speed of <m>v = \pi \quad m/s = 3.14159...\quad m/s</m>. It's equation of motion is 
+      <m>\vec{r}  =  r \cos\omega t\hat{i} +  r \sin\omega t\hat{j}</m>, 
+      where <m>\omega = \pi \quad rad/s</m>. Find: 
+      <ol marker="a.">
+        <li>
+          <m>\vec{r}(0)</m>,
+        </li>
+        <li><m>\vec{r}(1s)</m>,</li>
+        <li><m>v_{avg}(0,1s)</m>,</li>
+        <li><m>\vec{v}(2s)</m>,</li>
+        <li><m>\vec{a_{avg}}(0,2s),</m>,</li>
+        <li><m>\vec{a}(0.5 s)</m>, </li>
+        <li><m> a_{r}(1.5 s),</m></li>
+        <li><m>a_{t}(1.5 s), </m> and </li>
+        <li><m>a(1.5 s)</m></li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> \vec{r}(0) \amp  =  r \cos\omega 0\hat{i}+  r \sin \omega 0\hat{j} </mrow>
+            <mrow> \amp =  r \hat{i}=  1 m \hat{i}</mrow>
+          </md>
+          </li>
+        <li>
+          <md>
+            <mrow>\vec{r}(1s) \amp  =  r \cos\omega t\hat{i}+  r \sin \omega t\hat{j} </mrow>
+            <mrow> \amp = r \cos\pi \hat{i}+  r \sin \pi\hat{j} = -1m\hat{i}</mrow>
+           </md></li>
+        <li>
+          <md>
+            <mrow> \vec{v}_{av}(0,1s)\amp =\frac{r_{1}-r_{o}}{t_{2}-t_{1}} </mrow>
+            <mrow> \amp = \frac{-1-1}{1-0} =-2 m/s</mrow>
+          </md></li>
+        <li><md>
+          <mrow> \vec{v}(2 s) \amp  = \frac{\,d\vec{r}}{\,dt} </mrow>
+          <mrow> \amp =  -\omega r \sin\omega t\hat{i}+  \omega r \cos \omega t\hat{j} </mrow>
+          <mrow> \amp =  \pi \cos 2\pi j=  \pi \hat{j}= 3.14 m/s \hat{j}</mrow>
+        </md></li>
+        <li><md>
+          <mrow>\vec{a}_{av}(0,2s) \amp =\frac{v_{2}-v_{o}}{t_{2}-t_{1}} = 2\pi m/s</mrow>
+        </md></li>
+        <li><md>
+          <mrow> a(0.5 s) \amp = \frac{\,dv}{\,dt} </mrow>
+          <mrow> \amp =  -\omega^{2} r \cos\omega t\hat{i} - \omega^{2} r \sin \omega t\hat{j}</mrow>
+          <mrow> \amp =  -\pi^{2} m/s^{2} \cos\pi/2\hat{i} -  \pi^{2} m/s^{2} \sin \pi/2\hat{j}
+            </mrow>
+            <mrow> \amp =  -\pi^{2} m/s^{2}\hat{j} = - 9.87 m/s^{2}\hat{j}</mrow>
+        </md></li>
+        <li>
+          <md>
+            <mrow>a_{r}(1.5 s)  \amp = \frac{v^{2}}{r} =   \pi^{2} m/s^{2}  = 9.87 m/s^{2}</mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> a_{t}(1.5 s)  \amp = r\alpha=r\frac{\,d\omega}{\,dt} = 0 </mrow>
+        </md> </li>
+        <li><md>
+          <mrow> a(1.5 s) \amp = \sqrt{a^{2}_{r}+a^{2}_{t}} =  \pi m/s^{2}  = 3.14 m/s^{2}</mrow>
+        </md></li>
+      </ol>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The earth is spinning about its axis with a period of 23 hours 56 min and 4 sec. 
+      The equatorial radius of the earth is <m>6.38\times10^{6}</m> m.
+      <ol marker="a.">
+        <li>
+          Find the velocity of a person at Barbourville, KY (latitude = <m>36^{o}52'</m>) 
+          as they undergo circular motion about the earth's axis of rotation.
+        </li>
+        <li>Find the person's centripetal acceleration. </li>
+        </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given:  Time period, T= 23 h 56 min and 4 sec= 
+      <me>(23h)\left(60\times 60 \frac{sec}{h}\right)+(56 min)\left(60 \frac{sec}{min}+ 4 sec\right)= 86164 s</me>,
+       <me>\text{Radius of the earth,}\quad R= 6.38\times10^{6}m,</me>  
+      <me>\text{angle of latitude,}\quad \lambda = 36^{o}52' = 36^{o}+\left(52\times\frac{1}{60}\right)^{o} = 36.87^{o}.</me> 
+      Radius of the circle at the position of a person, 
+      <image source="cireart1.png" width="40%"> </image>  
+       <md>
+        <mrow> r \amp =R\sin\theta = R\sin\left(\frac{\pi}{2}-\lambda\right) </mrow>
+        <mrow> \amp = R\cos\lambda = (6.38\times10^{6})\cos(36.87^{o}) =5.10\times10^{6}m.  </mrow>
+      </md>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v \amp =r\omega = r\frac{2\pi}{T} </mrow>
+            <mrow> \amp = \frac{2\times 5.10\times10^{6}\times \pi}{86164} = 372m/s</mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> a \amp = \frac{v^{2}}{r} = \frac{372^{2}}{5.10\times 10^{6}} = 2.7\times10^{-2}m/s^{2}  </mrow>
+        </md></li>
+        </ol>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A baseball is hit at a <m>30^{o}</m> angle with an initial speed of 30 m/s toward a 
+      wall 5 m high located 50 m away. Find each of the following: 
+      <image source="proj2.png" width="45%"> </image>  
+      <ol marker="a.">
+        <li>
+          How fast is the ball initially traveling horizontally?
+        </li>
+        <li>How fast is the ball initially traveling vertically? </li>
+        <li>When does the ball get to the wall? </li>
+        <li>How high is the ball at that time?</li>
+        <li>How fast is the ball traveling at that time? </li>
+        <li>Does the ball clear the fence? By how much?</li>
+        </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v_{ox}  \amp  =  v_{o} \cos\theta_{o} = 30\times\cos30^{o}=26 m/s</mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> v_{oy}\amp  =  v_{o} \sin\theta_{o} =30\times\sin30^{o}=15 m/s</mrow>
+        </md> </li>
+        <li><md>
+          <mrow> x \amp  =  v_{ox} t \Rightarrow \quad t=\frac{x}{v_{ox}} = \frac{50 m}{26 m/s} = 1.92 s </mrow>
+        </md></li>
+        <li><md>
+          <mrow> y \amp  =  v_{oy} t -\frac{1}{2} g t^{2} = 15 \times 1.92 -\frac{1}{2}\times9.8\times(1.92)^{2} =10.7 m</mrow>
+        </md></li>
+        <li><md>
+          <mrow> v_{x} \amp   =  v_{ox} = 26 m/s; </mrow>
+          <mrow> v_{y} \amp =  v_{oy}  -  g t = -3.82 m/s;</mrow>
+          <mrow> v \amp =\sqrt{v^{2}_{x} + v^{2}_{y}}=26.27 m/s</mrow>
+        </md></li>
+        <li>Yes, by 10.7 m - 5 m = 5.7 m.</li>
+        </ol>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A football is punted at an <m>60^{o}</m> angle and travels down field a 
+      distance of 40 yards from the kicker toward a receiver located 60 yards away. 
+      <ol marker="a.">
+        <li>
+          What was the initial speed of the football?
+        </li>
+        <li>How long was it in the air?</li>
+        <li> How high did it go?</li>
+        <li>How fast must the receiver run to catch the ball?</li>
+        </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v_{ox} \amp   =  vo \cos\theta_{o};\qquad \theta_{o} =  60^{o}; \qquad v_{oy} =  vo \sin\theta_{o};</mrow>
+            <mrow> x \amp =  40 yd  =  120 ft; \quad y_i=0,\quad y_f=0</mrow>
+            <mrow> \text{But,} \quad x \amp =  v_{ox} t; \qquad \text{and}\quad g  =  32 ft/s^{2} </mrow>
+            <mrow> y_f-y_i \amp =  v_{oy} t   - \frac{1}{2} g t^{2};</mrow>
+            <mrow>0 \amp= vo \sin\theta_{o}\left( \frac{x}{vo \cos\theta_{o}}\right)- \frac{1}{2}\times 32 \left(\frac{x}{vo \cos\theta_{o}}\right)^{2}</mrow>
+            <mrow> \therefore \quad v_{o} \amp   =  62.3 ft/s</mrow>
+          </md>
+        </li>
+        <li><m>t  =  3.85 s</m></li>
+        <li> <md>
+          <mrow> v_{y}\amp   =  v_{oy}  -  g t;</mrow>
+          <mrow> v_{y} \amp =  0  </mrow>
+          <mrow> t \amp  =  1.68 s; </mrow>
+          <mrow> y \amp  =  v_{oy} t - \frac{1}{2}g t^{2} = 45.48 ft</mrow>
+          </md></li>
+        <li><md>
+          <mrow>x \amp =  v t; \quad  t  =  3.85 s</mrow>
+          <mrow> x  =  60 yd - 40 yd = 20 yd = 60 ft \amp =  v t </mrow>
+          <mrow>\therefore v \amp = \frac{60}{3.85} =15.58 ft/s</mrow>
+        </md>      
+        </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A man stands on the roof of a 150 m tall building and throws a rock with a velocity 
+      of 30m/s at an angle of <m>30^{o}</m> above the horizontal. Ignore air resistance. Calculate:
+      <image source="proj4.png" width="45%"> </image>  
+      <ol marker="a.">
+        <li>
+          The maximum height above the roof reached by the rock.
+        </li>
+        <li>The magnitude and direction of the velocity of the rock just before it strikes the ground.</li>
+        <li> The horizontal distance from the base of the building to the point where the rock strikes the ground.</li>
+        </ol>
+       </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{o}=30m/s {,} \quad y_{f}=y=0 {,} \quad y_{o} =150 m {,}</m> and <m>\theta = 30^{o};</m>
+      <m>v_{ox}=v_{o}\cos\theta = 30\cos30=25.98 m/s =v_x;</m>
+<m>v_{oy}=v_{o}\sin\theta = 30\sin30=15 m/s. </m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <md>
+            <mrow> v^{2}_{f} \amp =v^{2}_{i}-2gh </mrow>
+              <mrow>\text{or,} \quad 0 \amp = v^{2}_{oy}-2\times 9.8 \times h</mrow>
+              <mrow> \therefore h \amp =11.48 m  </mrow>
+          </md>
+        </li>
+        <li><md>
+          <mrow> v^{2}_{y} \amp = v^{2}_{oy}-2gy </mrow>
+            <mrow> \amp =(15)^{2}-2\times 9.8 \times (-150) = 225+2940 </mrow>
+            <mrow> \text{or,}\quad v_{y} \amp =\sqrt{3165}= 56.26 m/s\quad (downward) </mrow>
+            <mrow> \therefore v_{f}\amp =\sqrt{v^{2}_{x}+v^{2}_{y}}=\sqrt{(25.98)^{2}+(56.26)^{2}} =61.97 m/s</mrow>
+            <mrow>\phi \amp  = \tan^{-1}\left( \frac{v_{y}}{v_{x}}\right)=  65.21^{o} \quad\text{[below ground]}</mrow>
+        </md></li>
+        <li> <md>
+          <mrow>x \amp =v_{ox}t = 25.98\times 7.27 = 188.87 m  </mrow>
+            <mrow> \because y_{f}-y_{o}\amp =v_{oy}t-\frac{1}{2}gt^{2}</mrow>
+            <mrow> 0-150 \amp =15 t-4.9\times t^{2} </mrow>
+            <mrow> \therefore \quad t \amp  = -4.21s, 7.27s </mrow>
+        </md></li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      In a test of <m>g-suit</m> a volunteer is rotated in horizontal circle of radius 7.0 m. 
+      what is the period of rotation at which the centripetal acceleration has a magnitude of 10.0 g?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        a=\frac{v^{2}}{r}= \left(\frac{2\pi r}{T}\right)^{2}\frac{1}{r}=\frac{4\pi ^{2}r}{T^{2}} 
+      </me>
+      <me>
+        \therefore T = \sqrt{\frac{4\pi ^{2}r}{10.0g}}=1.68s
+      </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A 20kg rock is thrown horizontally from the top of a cliff of height 20m 
+      from the ground. What must be the minimum speed of the rock so that it 
+      falls in a 10 m deep well which is located at 50 m away from the cliff?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: Height of cliff, <m>y=-20m,</m> distance of well from the cliff, <m>x=50m,</m> 
+      depth of the well, <m>h=-10m</m>. Now <image source="proj5.png" width="45%"> </image> 
+      <me>
+        v_{o}=v_{ox},\qquad H=y+h = -20-10=-30m 
+      </me>
+      <me>
+       But,\quad H =v_{oy}t+\frac{1}{2}gt^{2} = 0-\frac{1}{2}\times 9.8\times t^{2} 
+      </me>
+      <me>
+        \therefore t=\sqrt{\frac{-30}{-4.9}} =2.47s 
+      </me>
+      Hence, 
+      <me>
+       x=v_{ox}t 
+      </me>
+      <me>
+      or,\quad  v_{ox}=v_{o}= \frac{x}{t} = \frac{50}{2.47}=20.24 m/s
+      </me>
+      </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+   A ball kicked at an angle of <m>60^o</m> hits the window of the building 15 m away. 
+   If the window is at height of 2 m above the ground find the time taken by the ball to hits it.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: x=15m, <m>\theta=60^o</m>, h=2m.
+      <me>
+        x=v_o\cos\theta. t
+      </me>
+      <me>
+        \therefore \quad t= \frac{15}{v_o\cos\theta} 
+      </me>
+      <me>
+        y=v_o\sin\theta.t -\frac{1}{2}gt^2
+      </me>
+      <me>
+        2=v_o\sin\theta. \left(\frac{15}{v_o\cos\theta})\right -\frac{1}{2}gt^2
+      </me>
+      <me>
+        2=15.\tan\theta -\frac{1}{2}.9.8.t^2
+      </me>
+      <me>
+        \therefore\quad t= 2.21 s
+      </me>
+      </p>
+  </solution>
+</example>
+
+
+<example>
+  <statement>
+    <p>
+      A hunter fires the dart on a monkey with 15 m/s velocity at tree 20 m away from him. 
+      The monkey is hanging 15 m above the ground and drops out of the tree at a moment the dart is fired. 
+      <ol marker="a.">
+        <li>
+          How long does it take for the dart to get him? and 
+        </li>
+        <li>Find the vertical position of where the monkey meets his end.</li>
+        </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: Position of monkey on the tree, <m>y=15 m,</m> distance of tree 
+      from the hunter, <m>x=20m,</m> nozle velocity of dart, <m>v_{o} =15m/s</m>. 
+      <image source="proj6.png" width="45%"> </image> 
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          <me>
+            \theta = \tan^{-1}\left(\frac{y}{x}\right)=37^{o}
+          </me>
+          <me>
+            x =v_{ox}t =v_{o}\cos\theta t 
+          </me>
+          <me>
+            \therefore \quad t= \frac{x}{v_{o}\cos\theta}=1.67s
+          </me>
+          </li>
+        <li><me>
+          h=v_{oy}t+\frac{1}{2}gt^{2}=v_{o}\sin\theta \times (1.67)-\frac{1}{2}\times 9.8\times (1.67)^{2}
+          </me>
+          <me>
+            \therefore h= 15\times\sin37^{o}\times 1.67-4.9\times (1.67)^{2} =1.4 m
+          </me>
+          </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      The golf is bouncing from the floor with components of velocity <m>v_{x} =
+        0.662 m/s</m> and <m>v_{y} = 3.66 m/s.</m> 
+        <ol marker="a.">
+          <li>
+            Determine the horizontal distance from the point where the ball 
+            left the floor to the point where it hits the floor again.
+          </li>
+          <li>The ball leaves the floor at x = 0, y = 0. Determine the ball's y 
+            coordinate as a function of x.</li>
+          </ol>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{x} = v_{xo}=0.662 m/s, \quad v_{y} =v_{yo}= 3.66 m/s, \quad a_{x}=0, \quad a_{y}=-g.</m>
+    </p>
+    <p>
+      <ol marker="a.">
+        <li>
+          When it hits the ground,
+         <md>
+          <mrow> h\amp =v_{yo}t+\frac{1}{2}gt^{2}</mrow>
+          <mrow> 0 \amp  =3.66t-\frac{1}{2}(9.8)t^{2}</mrow>
+          <mrow> \therefore \quad t \amp = \frac{2\times3.66}{9.8}=0.747 s</mrow>
+          <mrow> and \quad x \amp =v_{xo}t = 0.662\times0.747 = 0.494m</mrow>
+         </md>
+        </li>
+        <li>
+          At any point of the flight, we have 
+          <md>
+            <mrow> y_{f} \amp =y_{o}+v_{i}t+\frac{1}{2}gt^{2}</mrow>
+          </md>
+              <me>
+                \text{or,}\quad y = 0 + v_{yo}\left[ \frac{x}{v_{xo}}\right]-\frac{1}{2}(9.8) \left[\frac{x}{v_{xo}}\right]^{2} \quad [\because \quad x = v_{xo}t]
+              </me>
+              <me>
+                \therefore y = 5.53 x - (11.2/m) x^{2} 
+              </me>
+        </li>
+        </ol>
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A centrifuge machine can run with a high acceleration has a radius of 8 m. 
+      It starts from rest at t = 0, and during its two-minute acceleration 
+      phase it is programmed so that its angular acceleration is given as a 
+      function of time in seconds by <m>\alpha = 0.192 - 0.0016t \quad rad/s^{2}</m>. 
+      At <m>t = 120 s,</m> what is the magnitude of the acceleration?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The angular velocity, 
+      <me>
+        \omega = \int\limits_{0}^{120} ([0.192] -[0.0016]t)\,dt 
+      </me>
+      <me>
+        = [0.192][120] - \frac{1}{2}[0.0016][120]^{2}= 11.52 \quad rad/s.
+      </me>
+       The normal and tangential components of acceleration are 
+      <me>
+        a_{t} = r\alpha = (8)([0.192] - [0.0016][120]) = 0;
+      </me>
+      <me>
+        a_{n} = r\omega^{2} = (8 m)(11.52 \quad rad/s)^{2} = 1060 \quad m/s^{2}.
+      </me>
+      Since the tangential component is zero, then the total acceleration is 
+      the same as the normal acceleration <m>a = 1060 \quad m/s^{2}=(108g's)</m>.  
+    </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A boat moves in flat spiral curve at 2.00 m/s and follows the path 
+      <m>r = 10\theta </m> m, where <m>\theta</m> is in radians. When 
+      <m>\theta = 2 \pi</m> rad, determine the boat's velocity in terms of polar coordinates.
+      <image source="flatspiral.png" width="45%"> </image> 
+    </p>
+  </statement>
+  <solution>
+    <p>
+      The velocity along the path, <m>v=2.00 m/s</m>. 
+      The path function is <m>r=10\theta.</m> The radial component of 
+      velocity is 
+      <me>
+        v_{r}=\frac{\,dr}{\,dt} = 10 \frac{\,d\theta}{\,dt} = 10\omega.
+      </me>
+      The circumferential component of velocity is 
+      <me>
+        v_{\theta}=r\frac{\,d\theta}{\,dt} = r \omega. 
+      </me>
+      <me>
+        \therefore \quad v^{2}=2^{2} =4= v^{2}_{r}+v^{2}_{\theta} =100\omega^{2}+r^{2}\omega^{2} 
+      </me>
+      At <m>\theta=2\pi, \quad r=10\times2\pi=62.8 m. </m>
+      <me>
+        \text{or,}\quad 4=\omega^{2}(100+62.8^{2}) 
+      </me>
+      <me>
+       or, \quad \omega = \sqrt{\frac{4}{(100+62.8^{2})}} =0.0314 \quad rad/s 
+      </me>
+      <me>
+        v_{r}=  10\omega = 10\times0.0314 = 0.314 m/s
+      </me>
+      <me>
+         \text{and}\quad v_{\theta}=  r \omega = 62.8\times0.0314 = 1.97 m/s 
+      </me>
+       </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A football is kicked from 40 m away from the goalpost at 25 m/s. 
+      The goalpost crossbar is 3.5 m above the ground. Determine the minimum and 
+      maximum kicking angles which will take the goal.
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given: <m>v_{o} =25 m/s,</m> <m>d=40m,</m> and <m>h =3.5</m> m.
+      <md>
+        <mrow> d \amp = v_{ox}t</mrow>
+        <mrow>or, \quad 40 \amp = v_{o} \cos\theta \cdot t</mrow>
+      </md>
+      <me>
+        \therefore \quad t = \frac{40}{v_{o}\cos\theta} 
+      </me>
+            <me>
+      \text{Now,} \quad y-y_{o} = ut -\frac{1}{2} gt^{2} 
+      </me>
+     <me>
+      or, \quad h = v_{o}\sin\theta\cdot t - 4.9 t^{2}
+     </me>
+     <me>
+      or, \quad h =   v_{o}\sin\theta \cdot {\frac{40}{v_{o}\cos\theta}} - 4.9 \left(\frac{40}{v_{o}\cos\theta}\right)^{2} 
+     </me>
+     <me>
+      or, \quad 3.5 =   40\tan\theta - \frac{7840}{400} \sec^{2}\theta
+     </me>
+     <me>
+      or, \quad 3.5 =   40\tan\theta - \frac{7840}{625} (1+\tan^{2}\theta) 
+     </me>
+     <me>
+      or, \quad 16.04 =   40\tan\theta - 12.54\tan^{2}\theta
+     </me>
+     <me>
+      or, \quad 12.54 \tan^{2}\theta - 40\tan\theta + 16.04 = 0 
+     </me>
+     <me>
+      or,\quad \tan\theta = \dfrac{-40\pm\sqrt{40^{2}-4\times 12.54\times 16.04}}{2\times 12.54}   =  2.73, 0.472
+     </me>
+     <me>
+      \therefore \quad \theta = 70^{o}, \quad 25^{o} 
+     </me>
+     </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A point P on wheel of radius 0.5 m which was touching the road initially 
+      had made a 3/4 revolution on the road. Find its displacement.
+     </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        \vec{D}= \frac{3}{4}(2\pi r)\hat{i}+r\hat{i}+ r\hat{j}
+      </me>
+      Note: <m>\frac{3}{4}(2\pi r)</m> is the distance of center to center displacement 
+      on x axis but point P is still r distance ahead of new point of contact.
+      <image source="wheel.png" width="40%"> </image>
+      <me>
+        or, \quad \vec{D} = 2.86\hat{i} +0.5\hat{j} 
+      </me>
+      <me>
+        \therefore \quad D = 2.9 m
+      </me>
+       </p>
+  </solution>
+</example>
+
+</section>

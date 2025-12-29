@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_tenth-therm_exp" xmlns:xi="http://www.w3.org/2001/XInclude">
+ 
+ <title>Thermal Expansion</title>
+ 
+ <introduction>
+ <p>
+  You may have observed that Jammed lid of a bottle can be easily unscrewed 
+  if it is put into the hot water for sometime. A partially inflated balloon 
+  expands to full size when placed in lukewarm water. A fully inflated balloon begins 
+  shrinking when immersed in cold water. Most materials expand on heating and contract 
+  on cooling. The physical property of a material due to which a body can change its 
+  dimensions with a change in temperature is called a <term>thermal expansion</term>. 
+  The expansion in length is called <em>linear expansion</em>, the expansion in area is called 
+  <em>superficial expansion</em>, and the expansion in volume is called <em>volumetric expansion.</em> or bulk expansion.
+ </p>
+ <figure>
+  <caption></caption>
+  <sidebyside widths="30% 30% 30%">
+      <figure xml:id="lexpns">
+          <caption></caption>
+          <image source="lexpns.png"/>
+      </figure>
+      <figure xml:id="aexpns">
+          <caption></caption>
+          <image source="aexpns.png"/>
+      </figure>
+      <figure xml:id="vexpns">
+        <caption></caption>
+        <image source="vexpns.png"/>
+    </figure>
+   </sidebyside>
+</figure>
+    </introduction>
+ 
+ <subsection xml:id="subsec-lin_exp">
+  <title>Linear Expansion</title>
+  <p>
+    Suppose a rod of original length <m>l_{o}</m> is heated for a temperature difference of 
+    <m>\Delta T</m>, then we can find that the change in its length is proportional to the change in temperature, i.e.,
+    <me>\Delta l  \,\propto \,\Delta T </me>. 
+    If  <m>\Delta T </m> increases <m>\Delta l </m> also increases by itself.  
+    We can also see that the change in length is also proportional to its original length [<xref ref="lexpns"/>], i.e.,
+    <me>
+      \Delta l  \propto l_{o}
+    </me>
+    Hence by combining these properties, we can have 
+        <me>
+          \Delta l  \propto l_{o}\times \Delta T
+        </me>
+        <me>
+          \text{or,}\quad \Delta l  =\alpha l_{o}\times \Delta T
+        </me>
+            where <m>\alpha</m> is a proportionality constant called coefficient of linear expansion 
+            or linear expansivity. It is a material property. This distinguishes the expansion properties 
+            of one material to another.
+            <me>
+              \text{or,}\qquad \alpha =\frac{\Delta l }{l_{o}\Delta T}= \frac{l-l_{o}}{l_{o}\left(T-T_{o}\right)}
+            </me>
+            <me>
+              \therefore \quad l= l_{o}\left(1+\alpha\Delta T\right)
+            </me>
+            Hence, linear expansivity is defined as the change in length of a rod per unit original length per unit rise of temperature.
+  </p>
+ </subsection>
+
+<subsection xml:id="subsec-super_exp">
+  <title>Superficial Expansion</title>
+  <p>
+    If a thin plate of original area <m>A_{o}</m> [<xref ref="aexpns"/>] is heated for a temperature difference of 
+    <m>\Delta T</m>, then we can find that the change in its area 
+    <me>
+      \Delta A  \propto A_{o}\times \Delta T
+    </me>
+    <me>
+      \text{or,}\quad \Delta A  =\beta A_{o}\times \Delta T
+    </me>
+      where <m> \beta</m> is a proportionality constant called coefficient of superficial 
+      expansion or superficial expansivity. It is a material property.  
+      <me>
+        \text{or,}\qquad \beta =\frac{A-A_{o}}{A_{o}\left(T-T_{o}\right)}
+      </me>
+      <me>
+        \therefore \quad A= A_{o}\left(1+\beta\Delta T\right)
+      </me>
+      Hence, superficial expansivity is defined as the change in area of a plate per unit original area per unit rise of temperature.
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-vol_exp">
+  <title>Volumetric (Cubic) Expansion</title>
+  <p>
+    If a cuboid of original volume <m>V_{o}</m>  [<xref ref="vexpns"/>] 
+    is heated for a temperature difference of <m>\Delta T</m>, then we can find that the change in its volume,
+      <me>
+        \Delta V  \propto V_{o}\times \Delta T
+      </me>
+      <me>
+        \text{or,}\quad \Delta V  =\gamma V_{o}\times \Delta T
+      </me>
+      where <m>\gamma </m> is a proportionality constant called coefficient of volumetric 
+      expansion or volumetric expansivity. It is a material property. 
+      <me>
+        \text{or,}\qquad \gamma =\frac{V-V_{o}}{V_{o}\left(T-T_{o}\right)}
+      </me>
+      <me>
+        \therefore \quad V= V_{o}\left(1+\gamma\Delta T\right)
+      </me>
+      Most materials expand on heating and possess positive coefficient of expansion,  
+      e.g., metals, glass, etc. However, some materials contract on heating and possess 
+      negative coefficient of expansion, e.g., water, bismuth, welding rods, etc.  
+  </p>
+</subsection>
+
+<subsection xml:id="subsec-rel_therexp">
+  <title>Relation between <m>\alpha, \,\beta,</m>  and <m>\gamma</m></title>
+  <p>
+    Consider a solid cube of side <m>l_{o}</m> at temperature <m>T_{o}</m> and  
+    <m>l</m> at temperature <m>T.</m>  Hence from linear expansion, we have 
+    <me>
+      l=l_{o}\left[1+\alpha \left(T-T_{o}\right)\right]
+    </me>
+    The volume of a cube is therefore, 
+    <me>
+      \text{or,}\quad V=l^{3} =\left[l_{o}(1+\alpha \Delta T)\right]^{3} = l_{o}^{3}\left[1+\alpha \Delta T)\right]^{3} 
+    </me>
+    <me>
+      = V_{o}\left[1+3\alpha \Delta T+3\alpha^{2}\Delta T^{2}+\alpha^{3}\Delta T^{3})\right]
+    </me>
+    Now since <m>\alpha </m> is very small, <m>\alpha^{2}</m> is very very small. 
+    Hence the quantities <m>\alpha^{2}\Delta T^{2}</m> and <m>\alpha^{3}\Delta T^{3}</m> are neglected.
+    <men xml:id="eqn-thermex1">
+      \therefore\quad V=V_{o} \left[1+3\alpha\Delta T\right] 
+    </men>
+    <men xml:id="eqn-thermex2">
+      \text{but,}\quad  V=V_{o} \left[1+\gamma\Delta T\right] 
+    </men>
+  By comparing eqns. <xref ref="eqn-thermex1"/> and <xref ref="eqn-thermex2"/>, we get -
+  <men xml:id="eqn-thermex3">
+    \gamma = 3\alpha 
+  </men>
+        Similarly the area of a cube is given by - 
+        <me>
+          \text{or,}\quad A=l^{2} =\left[l_{o}(1+\alpha \Delta T)\right]^{2}
+        </me>
+        <me>
+          = l_{o}^{2}\left[1+\alpha \Delta T\right]^{2} = A_{o}\left[1+2\alpha \Delta T+\alpha^{2}\Delta T^{2}\right]
+        </me>
+        <men xml:id="eqn-thermex4">
+          \therefore\quad A=A_{o} \left[1+2\alpha\Delta T\right] 
+        </men>
+        <m>[\because \alpha </m> is very small.
+       <men xml:id="eqn-thermex5">
+        \text{but,}\quad  A=A_{o} \left[1+\beta\Delta T\right] 
+       </men>
+       By comparing eqns. <xref ref="eqn-thermex4"/> and <xref ref="eqn-thermex5"/>, we get -
+       <men xml:id="eqn-thermex6">
+        \beta = 2\alpha  
+       </men>
+       <me>
+        \therefore \alpha:\beta:\gamma= 1:2:3
+       </me>
+      </p>
+</subsection>
+
+<subsection xml:id="subsec-water_anom">
+  <title>Anomalous expansion of water</title>
+ <p>
+  Normally, substances expand on heating and contract on cooling. 
+  Water exists in three phases solid, liquid, and gas. At temperatures below <m>0^{o}C,</m> 
+  water exists as a solid ice, occupying a bigger volume. When heated, it expands 
+  like normal solid up to <m>0^{o}C.</m> It begins melting at <m>0^{o}C</m> to 
+  liquid water without any change in temperature. Melting is accompanied by a 
+  decrease in its volume by about <m>8\%</m>. As temperature increases above <m>0^{o}C,</m> 
+  water contracts further up to <m>4^{o}C</m> and occupies the minimum volume at <m>4^{o}C</m>. 
+  Therefore water has maximum density at <m>4^{o}C</m> which is about <m>1 \,g/cm^{3}.</m> 
+  Above <m>4^{o}C</m>, water expands like any other liquid. This behavior of water is 
+  described as anomalous, unusual, irregular, or peculiar behavior of water. The importance of 
+  anomalous properties of water can be summarized as:  
+  <ol marker="i.">
+    <li>
+      During cold weather, the temperature of lakes drops and water contracts, becomes denser and sinks.
+      A circulation of water is thus set up until all the water attain maximum density i.e. at <m>4^{o}C</m>. 
+      If further cooling occurs (below <m>4^{o}C</m>), then any water below <m>4^{o}C</m> will 
+      stay at the top due to its lower density.  At <m>0^{o}C,</m> ice forms on top and this acts 
+      as an insulator to the layers below. Hence the relatively warm water underneath ice layer can help sustain aquatic life.
+    </li>
+    <li>
+      Ice has a slightly lower density than that of water and hence it floats with a small portion above the water surface. 
+      The rest and a larger portion of the ice rests under water. This is called an iceberg. Icebergs pose a great danger to 
+      ships as the submerged parts cannot be seen easily by navigators.
+    </li>
+  </ol>
+  </p> 
+</subsection>
+  </section>
+

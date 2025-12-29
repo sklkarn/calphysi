@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_sixth-kepler" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Kepler's Laws of Planetary Motion</title>
+  
+   <introduction>
+
+    <figure>
+      <caption></caption>
+        <sidebyside widths="60% 40%">
+    <figure xml:id="kepler2">
+      <caption></caption>
+      <image source="kepler2.png"/>
+    </figure>
+      <figure xml:id="kepler1">
+        <caption></caption>
+        <image source="kepler1.png"/>
+      </figure>
+      </sidebyside>
+  </figure>
+
+  <p>
+    The asymmetric position of a massive object within the elliptical orbit renders 
+    the orbiting object moves in a varying distance from the massive object. 
+    The distance of closest approach <m>d_{1}</m> is called the periapsis and the distance 
+    of maximum separation, <m>d_{2} </m> is called the apoapsis. For the earth around 
+    the sun perihelion is the distance of closest approach and "aphelion" is distance 
+    of the maximum separation (helio means sun in Greek) [<xref ref="kepler1"/>]. For earth-moon system, 
+    "perigee" is the distance of closest approach and "apogee" is distance of the 
+    maximum separation (gee means earth in Greek). 
+  </p>
+
+  <p> Johannes Kepler established three laws for planetary motion from his and Tyco Brahe
+    years of sky gazing in early <m>17^{th}</m> century. They are </p>
+    <p>
+        
+    <ol>
+    <li>
+      <p>
+        <term>The law of orbit:</term> In Solar system, every planet revolves in an elliptical orbit 
+        and the <term>Sun</term> being at one of its focii [<xref ref="kepler2"/>].
+      </p>
+    </li>
+    <li>
+      <p>
+        <term>The law of area:</term> Planet sweeps out an equal area in equal interval of time in the orbit [<xref ref="kepler1"/>].
+      </p>
+    </li>
+    <li>
+      <p>
+        <term>The law of period:</term> The square of time period of planet around the sun is directly proportional 
+        to the cube of semi-major axis.
+      </p>
+    </li>
+  </ol>
+</p>
+   </introduction>
+
+   <subsection xml:id="subsec-pol_cord">
+    <title>Polar Coordinates</title>
+<p>
+  Before we go to kepler's laws derivation lets first recall polar coordinates.
+</p>
+    <image source ="polarCord.png" width="60%"> </image>
+    
+    <p> Here, <m>\hat{r}=\hat{r}(\theta)</m> </p>
+    <p>
+      
+     <men xml:id="eqn-polar1">
+      \hat{r} = \hat{x}\cos\theta + \hat{y}\sin\theta
+    </men>
+  </p>
+    <p>
+      and 
+      <me>
+        \frac{\,d\hat{r}}{\,d\theta}=-\hat{x}\sin\theta + \hat{y}\cos\theta
+      </me>
+      Now 
+     <me>\hat{r} \cdot \frac{d\hat{r}}{d\theta} =0 </me> 
+   <m>
+    \Rightarrow \hat{r} 
+   </m>
+    is perpendicular on <m>\frac{d\hat{r}}{d\theta}.</m>
+   
+    </p>
+  
+    <p>
+      Therefore, we call 
+      <men xml:id="eqn-polar2">
+        \frac{\,d\hat{r}}{\,d\theta}=-\hat{x}\sin\theta + \hat{y}\cos\theta =\hat{\theta}
+      </men>
+    </p>
+    <p> Also, <m>\hat{\theta}=\hat{\theta}(\theta)</m> </p>
+  
+    <p>
+      and, 
+      <men xml:id="eqn-polar3">
+        \frac{\,d\hat{\theta}}{\,d\theta}=-\hat{x}\cos\theta - \hat{y}\sin\theta =-\hat{r}
+      </men>
+    </p>
+    
+    <p>
+      Now, 
+      <md>
+        <mrow> \vec{v}\amp  = \frac{\,d\vec{r}}{\,dt}</mrow>
+        <mrow> \amp  = \frac{\,d}{\,dt}(r\hat{r}) </mrow>
+        <mrow> \amp =\dot{r}\hat{r} + r \frac{\,d\hat{r}}{\,dt}</mrow>
+        <mrow> \amp =\dot{r} \hat{r} + r \frac{\,d\hat{r}}{\,d\theta} \frac{\,d\theta}{\,dt} </mrow>
+      </md>
+  
+  <m>\because \theta =\theta(t)</m>
+  
+      <men xml:id="eqn-polar4">
+        \therefore \vec{v} = \dot{r} \hat{r} +r\dot{\theta}\hat{\theta} = v_r +v_{\theta}
+      </men>
+    </p>
+  
+    <p>
+      Again, 
+      <md>
+        <mrow> \vec{a}\amp =\frac{\,d\vec{v}}{\,dt} </mrow>
+        <mrow> \amp = \frac{\,d}{\,dt}( \dot{r} \hat{r} +r\dot{\theta}\hat{\theta}) </mrow>
+        <mrow> \amp =\ddot{r} \hat{r} +\dot{r}\frac{\,d\hat{r}}{\,dt} + \dot{r}\dot{\theta}\hat{\theta} + r\ddot{\theta}\hat{\theta} + r\dot{\theta}\frac{\,d\hat{\theta}}{\,dt}</mrow>
+        <mrow> \amp =  \ddot{r} \hat{r} +\dot{r}\frac{\,d\hat{r}}{\,d\theta} \frac{\,d\theta}{\,dt} 
+          + \dot{r}\dot{\theta}\hat{\theta} +  r\ddot{\theta}\hat{\theta} + r\dot{\theta}\frac{\,d\hat{\theta}}{\,d\theta} \frac{\,d\theta}{\,dt}
+        </mrow>
+        <mrow> \amp = \ddot{r} \hat{r} + 2\dot{r}\dot{\theta}\hat{\theta}+r\ddot{\theta}\hat{\theta}-r\dot{\theta}^2\hat{r} </mrow>
+      </md>
+  
+      
+      <men xml:id="eqn-polar5">
+        \therefore \vec{a} = (\ddot{r} -r\dot{\theta}^2)\hat{r} + (2\dot{r}\dot{\theta}+r\ddot{\theta})\hat{\theta} = a_r +a_{\theta}
+      </men>
+  
+    </p>
+  
+    
+   </subsection>
+
+   <subsection xml:id="subsec-kepI_law">
+    <title>Derivation of Kepler's I Law</title>
+
+ 
+  <image source ="ellipse.png" width="70%"> </image>
+
+  <p> From Newton's Law of Gravitation and Newton's II law of motion. </p>
+  <p>
+    
+ 
+<men xml:id="eqn-newt1">
+  \vec{F} = -\frac{GMm}{r^2}\hat{r}
+</men>
+
+<men xml:id="eqn-newt2">
+  \vec{F} =m\vec{a_r}
+</men>
+
+Using <xref ref="eqn-polar5"/>
+<me>
+or, \quad  m (\ddot{r} -r\dot{\theta}^2)\hat{r} = -\frac{GMm}{r^2}\hat{r}
+</me>
+
+<men xml:id="eqn-newt3">
+  \ddot{r} -r\dot{\theta}^2 = -\frac{GM}{r^2}
+</men>
+From principle of conservation of angular momentum:
+
+<md>
+  <mrow> \vec{L} \amp =\vec{r}\times\vec{p} = m(\vec{r}\times\vec{v}) </mrow>
+  <mrow> \amp   = m[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})]  </mrow>
+  <mrow> \amp  = m[\vec{r}\times r\dot{\theta}\hat{\theta}] = mr^2[\hat{r}\times\dot{\theta}\hat{\theta}] = mr^2\dot{\theta} </mrow>
+ </md>
+
+
+using <xref ref="eqn-polar4"/> and <m>\quad \because  \hat{r}\times\hat{\theta} = \sin(90)=\hat{n} \quad </m> and <m>\quad \hat{r}\times\hat{r} = \sin(0)=0</m>
+<men xml:id="eqn-newt4">
+  \therefore \dot{\theta} = \frac{L}{mr^2}
+</men>
+For convenience let's say 
+<men xml:id="eqn-newt5">
+  \frac{L}{m}=h
+</men>
+Also to solve <xref ref="eqn-newt3"/> we need to change the variable <m>r</m> to its inverse,  
+<men xml:id="eqn-newt6">
+  \frac{1}{r}=u
+</men>
+ and then change the variable <m>t</m> to  <m>\theta</m>. This mathematical trick was adopted by 
+ <alert>Bernaulli</alert> to solve differential equation of variable coefficient. 
+</p>
+
+<p>
+  Hence, differentiate <xref ref="eqn-newt6"/> with respect to <m>'t'.</m>
+  <md>
+    <mrow> -\frac{1}{r^2}\frac{\,dr}{\,dt} \amp = \frac{\,du}{\,dt} </mrow>
+    <mrow> \amp =\frac{\,du}{\,d\theta} \frac{\,d\theta}{\,dt} \quad \text{(chain rule)}</mrow>
+    <mrow>or, \quad \dot{r} \amp =-\frac{1}{u^2}\dot{\theta}\frac{\,du}{\,d\theta} </mrow>
+  </md>
+
+  <men xml:id="eqn-newt7">
+    \therefore \quad \dot{r} = -h\frac{\,du}{\,d\theta}
+  </men>
+
+  from <xref ref="eqn-newt4"/>, <xref ref="eqn-newt5"/> and <xref ref="eqn-newt6"/>, we have 
+  <men xml:id="eqn-newt8">
+    \dot{\theta}= \frac{L}{mr^2}=hu^2
+  </men>
+  
+  Differentiate <xref ref="eqn-newt7"/> w.r. t. <m>'t'</m> again, we get -
+  <md>
+    <mrow>\ddot{r} \amp =-h\frac{\,d}{\,dt}(\frac{\,du}{\,d\theta}) </mrow>
+    <mrow> \amp =-h\frac{\,d}{\,d\theta}(\frac{\,du}{\,d\theta})\frac{\,d\theta}{\,dt}</mrow>
+    <mrow> \amp =-h\dot{\theta}\frac{\,d^2 u}{\,d\theta^2}</mrow>
+  </md>
+
+  <men xml:id="eqn-newt9">
+    \therefore \quad \ddot{r} =-h^2u^2\frac{\,d^2 u}{\,d\theta^2}
+  </men>
+  
+
+</p>
+
+
+<p>
+  
+  From <xref ref="eqn-newt3"/>
+  <me>
+    -h^2u^2\frac{\,d^2 u}{\,d\theta^2} - \frac{1}{u}(h^2u^4)=-GMu^2
+  </me>
+  
+  <me>
+    or,\quad \frac{\,d^2 u}{\,d\theta^2} +u =\frac{GM}{h^2} =\frac{k}{h^2} \quad (say)
+  </me>
+  
+  assume <m>k=GM</m>
+
+  <me>
+    or, \quad \frac{\,d^2}{\,d\theta^2} (u-\frac{k}{h^2}) +  (u-\frac{k}{h^2}) =0
+  </me>
+
+  Again say, 
+  <men xml:id="eqn-newt10">
+    u-\frac{k}{h^2} = y
+  </men>
+  
+  <men xml:id="eqn-newt11">
+    \therefore \quad \frac{\,d^2 y}{\,d\theta^2}+y =0
+  </men>
+  This is homogeneous second order linear differential equation with constant coefficient. The solution of which can be given as 
+
+  <men xml:id="eqn-newt12">
+    y = A\cos\theta
+  </men>
+  
+where <m>A</m> is an arbitrary constant whose value can be determined by initial condition. There are other possible solution to this equation as well 
+such as <m>y=A\cos\theta+B\sin\theta </m> or simply <m>y =B\sin\theta.</m>
+
+ <md>
+  <mrow>  or, \quad u - \frac{k}{h^2} \amp = A\cos\theta</mrow>
+  <mrow> u \amp =\frac{k}{h^2}+A\cos\theta </mrow>
+  <mrow> \amp = \frac{k}{h^2}[1+\frac{Ah^2}{k}\cos\theta] </mrow>
+  <mrow> \amp = \frac{k}{h^2}[1+e\cos\theta]</mrow>
+ </md>
+  
+  <me>
+    or,\quad \frac{1}{r}=\frac{k}{h^2}[1+e\cos\theta]
+  </me>
+  <me>
+    or,\quad r = \frac{h^2}{k}[\frac{1}{1+e\cos\theta}]
+  </me>
+  
+<men xml:id="eqn-newt13">
+  \therefore \quad r=\frac{l}{1+e\cos\theta}
+</men>
+
+  The <xref ref="eqn-newt13"/> is equation of conic section, where <m>e=0,</m> represents circle, <m>0\lt e \lt 1</m> represents ellipse, <m>e=1,</m>
+is parabola, and <m>e\gt 1 </m> represents hyperbola.
+
+In <xref ref="eqn-newt13"/>
+ <men xml:id="eqn-newt14">
+  e = \frac{Ah^2}{k} = \frac{AL^2}{GMm^2} = eccentricity.
+</men>
+and 
+
+<men xml:id="eqn-newt15">
+  l = \frac{h^2}{k} =\frac{L^2}{GMm^2}=\quad \text{semi-latus rectum}
+</men>
+
+</p>
+<p>
+  If <xref ref="eqn-newt13"/> is an equation of ellipse then
+  <me>
+    e = \sqrt{1-\frac{b^2}{a^2}}
+  </me>
+  So let's prove it.
+</p>
+  <proof>
+    <p>
+    In ellipse semi-major axis <m>a</m> is the arithmatic mean of <m>r_{max}</m> and <m>r_{min}</m>.
+  <me>
+    \therefore \quad a=\frac{1}{2}[r_{max}+r_{min}] = \frac{1}{2}[\frac{l}{1-e}+\frac{l}{1+e}] 
+  </me>
+  At <m>\theta = 0</m> and <m>\pi</m> from <xref ref="eqn-newt13"/>.
+  <men xml:id="eqn-newt16">
+    \therefore \quad a = \frac{l}{1-e^2}
+  </men>
+  also semi-minor axis <m>b</m> is a geometric mean of <m>r_{max}</m> and <m>r_{min}</m>.
+  <men xml:id="eqn-newt17">
+    \therefore \quad b^2 = r_{max}r_{min} =  \frac{l^2}{1-e^2}
+  </men>
+
+  <me>
+    or,\quad b^2 =  \frac{l^2(1-e^2)}{(1-e^2)^2} = a^2(1-e^2)
+  </me>
+  <men xml:id="eqn-KI1" >
+   or, \quad \frac{b^2}{a^2} = 1-e^2
+  </men>
+  
+
+  <men xml:id="eqn-newt18">
+    \therefore \quad e = \sqrt{1-\frac{b^2}{a^2}}
+  </men>
+  
+   
+</p>
+</proof>
+
+<remark>
+  
+  <title>Total Energy of Orbit</title>
+  <p>
+    Planetory orbits are closed so the total energy of orbit must be negative. Hence total energy,
+    <me>
+      E = KE+PE = \frac{1}{2}mv_{\theta}^2-\frac{GMm}{r}
+    </me>
+    along the orbit. Here <m>v^2=\dot{r}^2+r^2\dot{\theta}^2</m>
+    <me>
+      or, \quad E = \frac{1}{2}(\frac{mh^2}{r^2})-\frac{GMm}{r}
+    </me>
+    using <xref ref="eqn-polar4"/> and <xref ref="eqn-newt8"/>.
+    <me>
+      or, \quad E = \frac{1}{2}m(\frac{h}{r_{min}})^2 -\frac{GMm}{r_{min}}
+    </me>
+    at perihelion position. you may try from apehelion position energy.
+  </p>
+<p>
+  <me>
+E = \frac{1}{2}mh^2 (\frac{1+e}{l})^2 -\frac{GMm(1+e)}{l}
+  </me>
+<md>
+  <mrow>or, E \amp =\frac{1}{2}mh^2 (\frac{G^2M^2m^4}{L^4})(1+e)^2 -\frac{G^2M^2m^3(1+e)}{L^2} </mrow>
+  <mrow>or, E \amp = \frac{1}{2}\frac{G^2M^2m^3(1+e)^2}{L^2} -\frac{G^2M^2m^3(1+e)}{L^2}</mrow>
+ </md>
+
+ <men xml:id="eqn-newt19">
+  \frac{1}{2}\alpha(1+e)^2 -\alpha(1+e)-E =0
+ </men>
+This is quadratic equation in (1+e). Here <m>\alpha = \frac{G^2M^2m^3}{L^2}</m>
+<me>
+  \therefore \quad 1+e = \frac{\alpha\pm\sqrt{\alpha^2+4\alpha/2 E}}{2\alpha/2}
+</me>
+Solving this equation, we get 
+<me>
+  E =-(1-e^2)\alpha/2 
+</me>
+Hence, E is negative for <m>0\lt e \lt 1.</m>
+</p>
+
+</remark>
+
+</subsection>
+
+
+
+<subsection xml:id="subsec-kepII_law">
+  <title>Derivation of Kepler's II Law</title>
+
+  <image source ="Triangle.png" width="60%"> </image>
+
+  <p> 
+    The small area of a given triangle 
+   
+    <md>
+      <mrow> \,dA \amp  = \frac{1}{2}r\,dr\sin\phi </mrow> 
+      <mrow> or, \quad \,d\vec{A} \amp = \frac{1}{2}(\vec{r} \times \,d\vec{r}) </mrow>
+      <mrow> or, \quad \frac{\,d \vec{A}}{\,dt} \amp = \frac{1}{2}[\vec{r} \times \frac{\,d\vec{r}}{\,dt}] </mrow>
+    </md>
+  </p>
+<remark>
+  <title>Area of a triangle</title>
+  <image source ="triangle1.png" width="60%"> </image>
+  <p>
+    
+ 
+ From a given triangle
+ <men xml:id="eqn-area2">
+  \sin B = \frac{OC}{a} \Rightarrow OC = a\sin B
+ </men>
+ Also, 
+ <men xml:id="eqn-area3">
+  \sin A = \frac{OC}{b} \Rightarrow OC = b\sin A
+ </men>
+ Therefore, from <xref ref="eqn-area2"/> and <xref ref="eqn-area3"/>, we have -
+ <me>
+  a \sin B = b\sin A 
+ </me>
+ Hence, 
+ <men xml:id="eqn-area4">
+  \frac{\sin A}{a} = \frac{\sin B}{b} =\frac{\sin C}{c}
+ </men>
+and 
+ <me>
+  Area = \frac{1}{2}base\times height =  \frac{1}{2}c (OC) 
+ </me>
+ 
+ <men xml:id="eqn-Area1">
+  \therefore \quad Area =  \frac{1}{2}c b\sin A =  \frac{1}{2}c a\sin B =  \frac{1}{2}a b\sin C
+ </men>
+using <xref ref="eqn-area2"/> or, <xref ref="eqn-area3"/>.
+</p>
+</remark>
+    <p>
+      
+   <men xml:id="eqn-kII1">
+  or, \quad   \frac{\,d\vec{A}}{\,dt} = \frac{1}{2}[\vec{r} \times \vec{v}] 
+   </men>
+   
+  But from angular momentum, we have 
+  <me>
+    \vec{L}=m(\vec{r}\times\vec{v})
+  </me>
+  Therefore <xref ref="eqn-kII1"/> can be written as 
+
+  <me>
+    \frac{\,d\vec{A}}{\,dt} =  \frac{\vec{L}}{2m} 
+  </me>
+  and 
+<md>
+  <mrow>  or, \quad  \vec{\dot{A}}  \amp  =  \frac{1}{2m}\vec{L} = \frac{1}{2}[\vec{r}\times (\dot{r}\hat{r}+r\dot{\theta}\hat{\theta})] </mrow>
+  <mrow> \amp =  \frac{1}{2}[r\hat{r}\times r\dot{\theta}\hat{\theta}] = \frac{1}{2}[r\hat{r}\times (\frac{Lr}{mr^2})\hat{\theta}] </mrow>
+  <mrow> \amp = \frac{L}{2m}[\hat{r}\times \hat{\theta}] = \frac{L}{2m} \hat{n}</mrow>
+</md>
+by using <xref ref="eqn-polar4"/> and <xref ref="eqn-newt4"/>. Also <m>\vec{r}\times \hat{r} =0</m> and <m>\hat{n}</m> 
+is a unit vector perpendicular to the plane of orbit. Again, 
+  <me>
+    \vec{\ddot{A}}  =  \frac{\,d}{\,dt}(\vec{\dot{A}})  = \frac{\,d}{\,dt}[\frac{L}{2m}] = 0
+  </me>
+  
+  by using <xref ref="eqn-polar2"/> or <xref ref="eqn-polar3"/>.
+  
+Therefore we can say 
+<men xml:id="eqn-kII2">
+  \vec{\dot{A}} = \frac{\,d\vec{A}}{\,dt} = constant.
+</men>
+That is areal velocity of planet is constant. 
+</p>
+</subsection>
+
+<subsection xml:id="subsec-kepIII_law">
+  <title>Derivation of Kepler's III Law</title>
+
+  <p> 
+    The total area of an ellipse is given by 
+    <men xml:id="eqn-kIII1">
+      A = \pi a b
+    </men>
+    Where a and b are semi-major and semi-mionor axes, respectively. Also from <xref ref="eqn-kII2"/>, we have -
+  
+    <md>
+      <mrow>or, \quad \frac{\,dA}{\,dt} \amp = \frac{L}{2m} </mrow>
+    </md>
+Since the direction of areal velocity is same as direction of angular momentum.
+
+<md>
+  <mrow>or, \quad \,dt \amp = \frac{2m}{L}\,dA </mrow>
+  <mrow>or, \quad \int_0^T\,dt \amp = \frac{2m}{L}\int_0^A\,dA </mrow>
+  <mrow>or, \quad T \amp =  \frac{2m}{L}A= \frac{2m}{L}  (\pi a b) = \frac{2\pi m}{L} [a (a\sqrt{1-e^2})] </mrow>
+ </md>
+using <xref ref="eqn-KI1"/>.
+
+<men xml:id="eqn-KIII2">
+  \therefore \quad T = \frac{2\pi m}{L} (a^2\sqrt{1-e^2})
+</men>
+
+<me>
+  or, \quad T^2 = \frac{4\pi^2 m^2}{L^2} [a^4 (1-e^2)] = \frac{4\pi^2 m^2}{L^2} [a^4 (\frac{l}{a})]
+</me>
+
+using <xref ref="eqn-newt16"/>
+
+<me>
+  or, \quad T^2 = \frac{4\pi^2 m^2}{L^2} [l a^3]
+</me>
+
+on using <xref ref="eqn-newt15"/>
+
+<me>
+  \therefore \quad T^2 = (\frac{4\pi^2}{GM}) a^3
+</me>
+
+<men xml:id="eqn-kIII3">
+  \therefore \quad T^2 \propto a^3
+</men>
+
+  </p>
+  
+</subsection>
+
+  </section>
+

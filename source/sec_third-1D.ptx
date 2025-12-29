@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_third-1D" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>1D Kinematics</title>
+  <introduction>
+    <p>
+      Kinematics analyzes the positions and motions of objects as a function of time, 
+      without regard to the causes of motion. It involves the relationships between 
+      displacement <m>\vec{s}</m>, velocity <m>\vec{v}</m>, acceleration 
+      <m>\vec{a}</m>, and time <m>t</m>. The motion of object along one dimension has been 
+      analyzed in one dimensional (1D) kinematics.
+    </p>
+
+    <figure>
+      <caption></caption>
+        <sidebyside widths="20% 20% 20% 20% 20%">
+            <figure xml:id="fig3">
+                <caption></caption>
+                <image source="fig3.png"/>
+            </figure>
+            <figure xml:id="fig3a">
+                <caption></caption>
+                <image source="fig3a.png"/>
+            </figure>
+            <figure xml:id="fig3b">
+              <caption></caption>
+              <image source="fig3b.png"/>
+          </figure>
+          <figure xml:id="fig3c">
+            <caption></caption>
+            <image source="fig3c.png"/>
+        </figure>
+        <figure xml:id="fig3d">
+          <caption></caption>
+          <image source="fig3d.png"/>
+      </figure>
+          </sidebyside>
+        </figure>
+   
+
+    <definition xml:id="def-displacement">
+      <statement>
+        <p>
+          <alert>Displacement:</alert> It is the shortest distance between the initial position and the final position of an object. 
+          It has a particular direction and hence it is a vector quantity. In <xref ref="fig3"/> 
+          an object is at rest because the position of the object is not changing with the time. 
+          In <xref ref="fig3a"/> object is moving along the curve path [<m>x=x(t)</m>] and hence the 
+          displacement after time [<m>\Delta t = t_{f}-t_{i}</m>] is given by [<m>\,ds=x_{f}-x_{i}</m>].
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-velocity">
+      <statement>
+        <p>
+          <alert>Velocity:</alert> It is a vector expression of the speed traveled by a body in an specific direction of its motion. 
+          It is defined as a displacement over time or a rate of change of position. If the position of a 
+          particle at any time t is defined as  <m>x  =  x(t)</m>, then its average velocity is given by 
+          <men xml:id="eqn-veloc">
+            v_{av}=\frac{x(t_{f})-x(t_{i})}{t_{f}-t_{i}} =  \frac{x_{f}-x_{i} }{t_{f}-t_{i} } =\frac{\Delta s}{\Delta t}=\frac{\Delta x}{\Delta t}
+          </men>
+        where <m>x_{f}, x_{i},t_{f},</m> and <m>t_{i}</m> are final position, initial position, final time, and 
+        initial time, respectively. Average velocity of a body during some period can be determined  
+        by drawing the slope of the line passing through the points p and q on the curve. 
+        The average velocity can also be calculated by using the formula 
+        <me>
+          v_{av} =  \frac{v_{f}+v_{i} }{2 }
+        </me>
+        if  <m>v_{i}</m> and <m>v_{f}</m>, the initial and final velocities of a body are known 
+        and the motion of a body happen to be in a straight line with a constant acceleration. 
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-Inst_veloc">
+      <statement>
+        <p>
+          <alert>Instantaneous Velocity:</alert> It is a velocity of a moving object at a particular instant 
+          of time or at a particular position of its motion. 
+          <me>
+            v_{inst} =  \lim\limits_{\Delta t \to 0}\frac{\Delta s}{\Delta t}
+          </me>
+          <me>
+            \text{or,}\quad v = \frac{\,ds}{\,dt}
+          </me>
+          <men xml:id="eqn-inst_veloc">
+            \left[\text{or,}\quad \vec{v} = \frac{\,d\vec{s}}{\,dt}=\frac{\,d\vec{x}}{\,dt}\right]  
+          </men>
+          The speedometer needle in a moving car gives instantaneous velocity of the car. 
+          Theoretically, it should be measured in the shortest time slice possible (<m>\Delta t \to 0</m>). 
+          Instantaneous velocity at a moment is the slope of tangent line drawn at a particular point 
+          on the curve as shown in <xref ref="fig3b"/>.
+        </p>
+      </statement>
+    </definition>
+
+    <definition xml:id="def-acceleration">
+      <statement>
+        <p>
+          <alert>Acceleration:</alert> It is defined as a rate of change of velocity. 
+          It is a vector quantity. If the velocity of a particle at any time t is defined as <m>v  =  v(t)</m>, 
+          then its average acceleration is given by 
+          <men xml:id="eqn-accel">
+            a_{av}=\frac{v(t_{f})-v(t_{i})}{t_{f}-t_{i}} =  \frac{v_{f}-v_{i} }{t_{f}-t_{i} } =\frac{\Delta v}{\Delta t}
+          </men>
+           where <m>v_{f}, v_{i},t_{f}, </m> and <m>t_{i}</m> are final velocity, initial velocity, 
+           final time, and initial time, respectively <xref ref="fig3c"/>. If velocity is decreasing 
+           with time then acceleration is negative or also called deceleration or retardation.
+        </p>
+      </statement>
+    </definition>
+    <definition xml:id="def-inst_accel">
+      <statement>
+        <p>
+          <alert>Instantaneous Acceleration:</alert>  It is an acceleration of a moving object at 
+          a particular instant of time. See <xref ref="fig3d"/>
+          <me>
+            a_{inst} =  \lim\limits_{\Delta t \to 0}\frac{\Delta v}{\Delta t}
+          </me>
+          <me>
+            \text{or,}\quad a = \frac{\,dv}{\,dt}
+          </me>
+          <men xml:id="eqn-inst_accel">
+            \left[\text{or,}\quad \vec{a} = \frac{\vec{dv}}{\,dt}=\frac{\,d^{2}\vec{x}}{dt^{2}}\right]
+          </men>
+        </p>
+      </statement>
+    </definition>
+    <p>
+      Acceleration produced by the pull of the earth (or the earth gravitational force) 
+      is called <term>acceleration due to gravity</term>, which is given by <m>g  =  9.8 m/s^{2}= 32 ft/s^{2}= 980 cm/s^{2}</m>.	
+    </p>
+  </introduction>
+   
+<subsection xml:id="subsec-slope">
+  <title>Analyzing the motion curve</title>
+
+  <introduction>
+   
+  <figure xml:id="fig3e">
+    <caption></caption>
+    <image source="fig3e.png" width ="30%"/>
+</figure>
+
+
+
+  <p>
+    The slope in <m>v</m> <em>vs.</em> <m>t</m> graph gives instantaneous acceleration and the area 
+    between the velocity curve and the time axis gives the displacement. 
+    Acceleration relates to velocity in <m>v \sim  t</m> graph in the same manner as velocity 
+    relates to position in <m>x \sim t</m> graph <xref ref="fig3e"/>. <em>Curvature</em> in  <term>position-time</term> graph 
+    gives the instantaneous acceleration. Since the slope of the velocity curve, 
+    <m>\frac{\,dv}{\,dt}</m>, is the time rate of change of velocity, or <m>\frac{\,d^{2}x}{\,dt^{2}}</m> 
+    which is called the <em>bending function</em> of the position-time curve. 
+  </p>
+
+
+</introduction>
+
+  <subsubsection xml:id="subsubsec-graph_read">
+    <title>Reading of <m>x \sim t</m> graph</title>
+    <figure>
+      <caption></caption>
+        <sidebyside widths="30% 30% 30%">
+          <figure xml:id="fig3f">
+            <caption></caption>
+            <image source="fig3f.png" width ="30%"/>
+        </figure>
+        <figure xml:id="fig3g">
+          <caption></caption>
+          <image source="fig3g.png" width ="30%"/>
+      </figure>
+      <figure xml:id="fig3h">
+        <caption></caption>
+        <image source="fig3h.png" width ="30%"/>
+    </figure>
+          </sidebyside>
+        </figure>
+    <p>
+      The specific features of motions can be read as follows from the graph: 
+      If position, x is increasing, then velocity, v is <m>+ve</m>, if position, x is decreasing, 
+      then velocity, v is <m>-ve</m>, if velocity, v is increasing, then acceleration, 
+      a is <m>+ve</m>, if velocity, v is decreasing, then acceleration, a is <m>-ve</m>. 
+      The slope of x <m>x \sim t </m> t graph gives velocity and the slope of <m>v \sim t</m> 
+      graph gives acceleration. The area under <m> v \sim t</m> graph gives position 
+      [<m>x=vt</m>] and  the area under <m>a \sim t</m> graph gives velocity [<m>v=at</m>]. 
+      Note that even if the shape of these graphs look weird all the motions happen only 
+      in one dimension, i.e., going up or down with time <xref first="fig3e" last="fig3f"/>.
+    </p>
+    <p>
+      From <xref ref="fig3f"/>, slope of line AB=+ve, slope of line BC=0, 
+      and slope of line CD =-ve, which means the object is running with constant 
+      velocity along +ve direction, stays at rest, and again starts moving with constant 
+      velocity along -ve direction, respectively. The slope of bottom portion of curve DE =0 
+      nd that at top portion is +ve hence the object is speeding up in +ve direction.  The 
+      slope of bottom portion of curve EF =+ve and that at top portion =0, hence the object 
+      is slowing down in +ve direction. The slope of top portion of curve FG =0 and that at 
+      bottom portion is -ve, hence the object is speeding up in -ve direction. The slope of 
+      top portion of curve GH =-ve and that at bottom portion =0, hence the object is slowing 
+      down in -ve direction as can be verified in figure <xref ref="fig3g"/>. If velocity is constant 
+      there is no acceleration and if velocity is increasing in +ve direction, acceleration 
+      is +ve, if velocity is decreasing in +ve direction, acceleration is -ve, if velocity is 
+      increasing in -ve direction, acceleration is -ve, if velocity is decreasing in -ve direction, 
+      acceleration is +ve as can be seen from graph <xref ref="fig3h"/>. 
+    </p>
+  </subsubsection>
+  
+</subsection>
+
+<subsection xml:id="subsec-eqns_motion">
+  <title>Equations of Motion</title>
+  <introduction>
+    <p>
+      The equations of motion relate the displacement of an object with its velocity, 
+      acceleration and time. The motion of a particle can follow many different paths, 
+      but here we will discuss the motion in a straight line, i.e. in one dimension. 
+      We are driving three equations of motion when acceleration is constant.
+      From eqn. <xref ref="eqn-inst_accel"/>
+      <me>
+        a=\frac{\,dv}{\,dt}\quad \Rightarrow \quad \,dv=a\,dt
+      </me>
+      <me>
+        \text{or,} \quad \int\limits_{v_{o}}^{v_{f}}\,dv=\int\limits_{0}^{t} a\,dt 
+      </me>
+      <me>
+        \text{or,} \quad  \left.v\right\vert_{v_{o}}^{v_{f}}=a \left.t\right\vert_{0}^{t}
+      </me>
+      <me>
+        \Rightarrow v_{f} - v_{o}=a t \quad [\because a =constant]
+      </me>
+      <men xml:id="eqn-mot1">
+        \therefore \quad v_{f}= v_{o}+at 
+      </men>
+    </p>
+    <p>
+      Again,
+      <me>
+        a = \frac{\,dv}{\,dt} = \frac{\,d^{2}x}{\,dt^{2}} =\frac{\,d}{\,dt}\left(\frac{\,dx}{\,dt}\right) 
+      </me>
+<me>
+  \text{or,}\quad \,d\left(\frac{\,dx}{\,dt}\right) = a\,dt 
+</me>
+<me>
+  \text{or,}\quad\int \,d\left(\frac{\,dx}{\,dt}\right) = \int a\,dt 
+</me>
+<me>
+  \text{or,}\quad \frac{\,dx}{\,dt} =  a\,t  + c \quad [\text{here c is a constant.]}
+</me>
+Now at <m>t = 0</m>, <m>\frac{\,dx}{\,dt} = c= v_{o}</m>, the initial velocity. 
+<me>
+  \therefore  \frac{\,dx}{\,dt} =  a\,t  + v_{o} 
+</me>
+<me>
+  \text{or,} \quad \,dx = (a\,t  + v_{o})\,dt
+</me>
+<me>
+  \text{or,} \quad \int\limits_{x_{o}}^{x_{f}} \,dx  = \int\limits_{0}^{t} v_{o}\,dt +\int\limits_{0}^{t} a\,t\,dt 
+</me>
+<me>
+  \text{or,} \quad \left.x\right\vert_{x_{o}}^{x_{f}}  = v_{o}\left.t\right\vert_{0}^{t}  + a\left.t\right\vert_{0}^{t}
+</me>
+<men xml:id="eqn-mot2">
+  \therefore x_{f}=x_{o}+v_{o}t+\frac{1}{2}at^{2} 
+</men>
+Again, 
+<me>
+  a = \frac{\,dv}{\,dt} = \frac{\,dv}{\,ds}\frac{\,ds}{\,dt} = v\frac{\,dv}{\,ds} 
+</me>
+<me>
+  \text{or,} \quad a\,ds = v\,dv 
+</me>
+<me>
+  \text{or,} \quad \int\limits_{0}^{s} a\,ds = \int\limits_{v_{o}}^{v_{f}} v\,dv
+</me>
+<me>
+  \text{or,}\quad a \left[s\right]_{0}^{s} = \left.\frac{v^{2}}{2}\right\vert_{v_{o}}^{v_{f}}
+</me>
+<men xml:id="eqn-mot3">
+  \therefore \quad v^{2}_{f}=v^{2}_{o}+2as \qquad [here \quad s=x_{f}-x_{o}]
+</men>
+From eqn. <xref ref="eqn-mot2"/> if velocity is constant, then <m>s  =  v_o t = vt </m> and for free fall:  
+<m>a  =  g</m>,	(the acceleration due to gravity). 
+    </p>
+  </introduction>
+</subsection>
+
+<subsection xml:id="subsec-rel_vel">
+  <title>Relative velocity</title>
+  <figure>
+    <caption></caption>
+      <sidebyside widths="30% 30% 30%">
+        <figure xml:id="fig3i">
+          <caption></caption>
+          <image source="fig3i.png" width ="30%"/>
+      </figure>
+      <figure xml:id="fig3j">
+        <caption></caption>
+        <image source="fig3j.png" width ="30%"/>
+    </figure>
+    <figure xml:id="fig3k">
+      <caption></caption>
+      <image source="fig3k.png" width ="30%"/>
+  </figure>
+        </sidebyside>
+      </figure>
+  <p>
+    It is the velocity that an object <m>A</m> would appear (to be moving or at rest) 
+    to an observer on the object <m>B</m> and vice-versa. If <m>v_{AB}</m> is a  velocity vector of 
+    an object <m>A</m> relative to another object <m>B</m>, then
+<me>
+  \vec{v}_{AB}  =  - \vec{v}_{BA}
+</me>
+  and the basic equation for relative velocity becomes:
+  <me>
+    \vec{v}_{az}  =  \vec{v}_{ab}  +  \vec{v}_{bc}  +  \cdots +  \vec{v}_{yz} 
+  </me>
+  </p>
+  <p>
+    From <xref ref="fig3i"/>  we have 
+    <me>
+      \vec{v}_{A}+\vec{v}_{BA} = \vec{v}_{B}
+    </me>
+    and from <xref ref="fig3j"/>,
+    <me>
+       -\vec{v}_{A}+\vec{v}_{B} = \vec{v}_{BA};
+    </me>
+    <me>
+      \therefore \vec{v}_{BA}  =\vec{v}_{B}-\vec{v}_{A}
+    </me>
+where <m>\vec{v}_{A} </m> and <m>\vec{v}_{B}</m>  are called absolute velocities of objects A and B, respectively.
+Consider an airplane <m>A</m> is coming with velocity <m>\vec{v}_{A} =600 \quad km/h</m> due 
+<m>\theta=35^{o}</m> south of east and another one <m>B</m> is coming with velocity 
+<m>\vec{v}_{A} =700 \quad km/h</m> due west as shown in <xref ref="fig3k"/>. Find the relative
+velocity of <m>B</m> with respect to <m>A</m>. To solve such problem assume that object 
+<m>A</m> is at rest. The object <m>A</m> must be the object with respect to which 
+we are finding the velocity of object <m>B</m>.  
+ </p>
+ <p>
+  To assume that the object <m>A</m> is at rest take its velocity in negative direction 
+  to draw a parallelogram of adjacent vectors <m>\vec{v}_{B}</m> and <m>-\vec{v}_{A}</m> 
+  so that their resultant velocity is <m> \vec{v}_{BA} </m>. From <xref ref="fig3k"/>, we have -
+  <me>
+    \vec{v}_{BA} = -\vec{v}_{A}+\vec{v}_{B};
+  </me>
+  <me>
+    v_{Bx}=v_{B}\cos\theta = 491.5 \quad km/h, 
+  </me>
+  <me>
+    v_{By}=v_{B}\sin\theta = 344 \quad km/h, 
+  </me>
+  <me>
+  \text{and}  v_{A}=700 \quad km/h
+  </me>
+ <me>
+  v_{Rx}=v_{A}+v_{Bx}=1191.5 \quad km/h; 
+ </me>
+ <me>
+  v_{Ry}=v_{By}=344 \quad km/h
+ </me>
+<me>
+  \therefore v_{BA} = \sqrt{v^{2}_{Rx}+ v^{2}_{Ry}} = 1240.16 km/h 
+</me>
+where the direction of relative velocity is given by 
+<me>
+  \phi = \tan^{-1}\left(\frac{v_{Ry}}{v_{Rx}}\right) = 16^{o} \quad \text{S of E}.
+</me>
+ </p>
+</subsection>
+
+<subsection xml:id="subsec-rule_solveMotion">
+  <title>Rules to follow while solving motion problems:</title>
+     <ol marker="i.">
+      <li>
+        <p>
+        <term>Linear Motion Problems:</term> When motion problems become complex 
+        (say, more than one object involved, or a single object experiences complex motion) 
+        one must subdivide the problem into several sub-problems according to the following steps:
+        <ol marker="a.">
+          <li>
+            Draw pictures of the situation at the critical times denoting when one sub-problem 
+            begins and another ends. Label the drawings appropriately, indicating the positions, 
+            velocities, accelerations, and times involved. Use subscripts to distinguish 
+            the variables in one sub-problem from another.
+          </li>
+          <li>
+            Write the appropriate equations for each sub-problem.
+          </li>
+          <li>
+            Write the equations that relate one sub-problem with the others.
+          </li>
+          <li>
+            List the given quantities and solve the equations simultaneously for the unknowns.
+          </li>
+          <li>
+            To use equations of motion along vertical motion, take <m>g</m> as negative and upward direction  as positive.
+          </li>
+          <li>
+            Be careful on taking reference point (origin of coordinate). 
+            Choose the reference point at the position where event initiates or the ground in general.
+          </li>
+        </ol>
+      </p>
+      </li>
+      <li>
+        <p>
+          Relative Velocity Problems: When relative velocities are involved, use the following steps:
+          <ol marker="a.">
+            <li>
+              List the given quantities in a form of notation that allows you to recognize 
+              which object is moving in what reference frame.
+            </li>
+            <li>
+              Draw a diagram showing the relationship between the vector velocities of the problem.
+            </li>
+            <li>
+              Write the equations relating the horizontal and vertical components of these vectors.
+            </li>
+            <li>
+              Solve the equations simultaneously for the unknowns of interest.
+            </li>
+          </ol>
+        </p>
+      </li>
+    </ol>
+</subsection>
+
+  </section>
+

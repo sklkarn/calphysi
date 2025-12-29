@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_first" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+    <p>
+      The SI unit of energy is <m>J = kg m^{2} s^{-2}</m>; that of speed v is <m>m s^{-1}</m> 
+      and of acceleration a is <m>m s^{-2}</m>. Which of the formulae for kinetic energy (K) 
+      given below can you rule out on the basis of dimensional arguments (m stands for the
+      mass of the body):
+      <ol marker ="a.">
+        <li>
+          <m>K = m^{2}v^{3}</m>
+        </li>
+        <li><m>K = (1/2)mv^{2}</m></li>
+        <li><m>K = ma</m></li>
+        <li><m>K = (3/16)mv^{2}t</m></li>
+        <li><m>K = (1/2)mv^{2}+ ma</m></li>
+      </ol>
+      </p>
+  </exercise>
+ 
+<exercise>
+  <p>
+    Each side of a cube is measured to be 7.203 m. What are the total surface area and the volume 
+    of the cube to appropriate significant figures?
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Write the sum of the numbers 362.50, 273.2, and 0.502 in a proper significant figures.
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Round off the numbers 2.572, 2.566, and 2.725 to the three significant figures.
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Which of the following pair of physical quantities does not have same dimensional formula.
+  </p>
+<ol marker="a.">
+  <li> <p>  Work and Torque, </p> </li>
+  <li> <p>Impulse and Linear momentum,</p> </li>
+<li><p> Angular momentum and Planck's constant,</p> </li>
+<li><p>Tension and Surface tension.</p></li>
+</ol>
+  </exercise>
+
+  <exercise>
+    <p>
+      If the equation of state of gas is expressed as 
+      <me>
+        \left(P+\frac{a}{V^{2}}\right)\left(V-b\right)=RT.
+      </me>
+     Find the dimensions of a and b. 
+    </p>
+    <hint>
+      <p>
+       <m>\frac{a}{V^{2}}</m> has the same dimension as of P, and b has the same dimension as V.
+      </p>
+    </hint>
+  </exercise>
+
+  <exercise>
+    <p>
+      Round the following numbers:
+    </p>
+<ol marker='a.'>
+  <li> <p> 62.5347 to four significant figures. </p> </li>
+  <li> <p>  3.78721 to three significant figures.</p> </li>
+  <li> <p>23.55 to the 0.1 place.</p> </li>
+<li><p> <m>2.16347 \times 10^{5}</m> to four significant figures.</p> </li>
+<li><p>0.4203 to the nearest 0.01 place. </p></li>
+<li><p>56.912 to the nearest whole number. </p> 
+  <answer>
+  <p>
+   57 
+  </p>
+</answer></li>
+</ol>
+  </exercise>
+
+  <exercise>
+    <p>
+      Write the answer for each expression using scientific notation with the appropriate 
+      number of significant figures.
+    </p>
+      <ol marker='a.'>
+        <li><m> 217 \div 903</m> </li>
+        <li> <m>38.65 \times 105.74</m> </li>
+        <li> <m>125 \times 9.000</m> </li>
+      <li><p> <m>2.16347 \times 10^{5}</m> to four significant figures.</p> </li>
+      <li><m>13.77 + 908.226 +515</m></li>
+      <li><m>255.0-99</m></li>
+      <li><m>0.00666 \times 321</m></li>
+      </ol> 
+  </exercise>
+
+  <exercise>
+    <p>Convert <m>1</m> light year into kilometer.</p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Convert   <m>1 \, gram/ml</m> into <m>kg/m^{3}</m>.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the time taken by the light to reach to us if it is coming from a distant galaxy of 
+      <m>10^{25}</m> m away.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Moon makes <m>0.5^{o}</m> angular diameter if seen from the earth and earth makes 
+      <m>2^{o}</m> angular diameter if seen from the moon. What must be their relative size.
+    </p>
+  </exercise>
+ </exercises>
+

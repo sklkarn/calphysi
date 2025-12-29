@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-examplesA" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples A</title>
+  
+  <example>
+    <statement>
+      <p>
+        A cylindrical bottle can hold 400 g of water when filled to a depth of 7.95 cm. Find its inner radius.
+      </p>
+    </statement>
+    <solution>
+      <p>
+        If m is mass of water, V is its volume, and <m>\rho</m> is its density., then 
+        <image source="cylbottle.png" width ="30%"> </image>
+        <me>
+          m = V\rho =Ah\rho = \pi r^{2}h\rho
+        </me>
+        where <m>A=\pi r^{2}</m> is inner area of cross-scetion of the cylinder of 
+        radius <m>r</m> and <m>h</m> is the height of water in the cylindrical bottle. 
+        <me>
+          \therefore\quad r=\sqrt{\frac{m}{\pi h \rho}}= \sqrt{\frac{400 \,g}{3.14 (7.50 \,cm)( 1 \,g/cm^{3})}} =4 \,cm 
+        </me>
+          </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A girl is standing on her one foot which has high heeled shoes of surface area <m>1.5 \,cm^{2}</m>. 
+        If she weigh 75 kg calculate the pressure in Pascal exerted on the floor by the heel. 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>m=75 \,kg, </m> <m>g=9.8 \,m/s^{2}.</m> <m> A=1.5 \,cm^{2} = 1.5\times \left(\frac{1}{100}m\right)^{2} =0.00015 \,m^{2},</m>
+        <me>
+          p=\frac{F}{A} =\frac{mg}{A}=\frac{75\times 9.8}{0.00015} =4.9\times10^{6} \,Pa
+        </me>
+              </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A piston of a hydraulic system has a surface area of <m>0.025 m^{2}</m> and 
+        pushes the hydraulic fluid with a pressure of 20,000 pascals. 
+        What pressure pushes on another piston in the same system? 
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m> A_{1}=0.025 \,m^{2}, \quad p_{1} 20,000 \,Pa.</m>
+        From Pascal's principle, 
+        <me>
+          p_{1} = p_{2}
+        </me>
+        So the other piston gets pushed by the same pressure. 
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        The specific gravity of mercury is 13.6. 
+        <ol marker="a.">
+          <li>
+            What is the density of mercury in MKS units?
+          </li>
+          <li>
+            How high in meter will atmospheric pressure push a column of mercury up an evacuated tube? 
+          </li>
+          <li>
+            How many meter deep into water must a swimmer go in order to experience an increase in pressure equal to one atmosphere?
+          </li>
+          <li>
+            How large a force (in Newtons) is pushing inward on a submarine window 25 cm in diameter 
+            if the specific gravity of sea water is 1.03, the submarine is 1 km deep, and the 
+            pressure inside the submarine is 1 atm?
+          </li>
+        </ol>
+             </p>
+             <image source="submarine.png" width ="35%"> </image>
+    </statement>
+    <solution>
+      <p>
+        Given: <m> G_{Hg} = 13.6, \quad \rho_{o} = 1000 \,kg/m^{3}, \quad h=1 \,km,\quad d=25 \,cm=0.25 \,m,</m>
+         and <m> SG_{sw} =1.03.</m> 
+      </p>
+      <p>
+        <ol marker="a.">
+          <li>
+            <me>
+              SG_{Hg} =  \frac{\rho_{Hg}}{\rho_{o}}
+            </me>
+            <me>
+              \therefore\quad \rho_{Hg} =  SG_{Hg}\times \rho_{o} = 13.6\times 1000 = 13600 \,kg/m^{3}
+            </me>
+               </li>
+          <li>
+            Atmospheric pressure in mercury reservoir is equal to gauge pressure in evacuated tube. Hence, 
+            <me>
+              p_{o}=p=h\rho_{Hg} g 
+            </me>
+            <me>
+              \therefore\quad h = \frac{p_{o}}{\rho_{Hg} g} = \frac{1.01\times10^{5}N/m^{2}}{13600kg/m^{3}\times9.8 m/s^{2}} = 0.757 \,m
+            </me>
+                  </li>
+          <li>
+            <me>
+              h= \frac{p}{\rho_{o} g} = \frac{p_{o}}{\rho_{o} g}=\frac{1.01\times10^{5}N/m^{2}}{1000kg/m^{3}\times9.8 m/s^{2}} = 10.30 \,m
+            </me>
+                </li>
+          <li>
+            <me>
+              F_{net}=pA=\left(p_{water}-p_{air}\right)A
+            </me>
+            <me>
+              But, \quad p_{water} = p_{o}+h\rho_{sw}g 
+            </me>
+            and 
+            <me>
+              p_{o}=p_{air}=1 \,atm
+            </me>
+            
+            <me>
+              \therefore\quad F_{net}=(h\rho_{sw} g)\left(\frac{\pi d^{2}}{4}\right) 
+            </me>
+            <me>
+              = (1000m\times 1030 kg/m^{3}\times 9.8m/s^{2}) \left(\frac{\pi 0.25^{2}m^{2}}{4}\right) =  4.6\times 10^{5} \,N
+            </me>
+               </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A 1.10 kg hollow steel ball is submerged in water. Its weight in water is 8.75 N. 
+        what is the volume of the cavity inside the ball, if density of steel is <m>7,900 \,kg/m^{3}</m>?
+      </p>
+    </statement>
+    <solution>
+      <image source="steelball.png" width ="35%"> </image>
+      <p>
+        Given: Mass of steel ball,  m=1.10 kg,  its weight in water,  w'=8.75N,  and its density, <m>\rho_{s} =7900 \,kg/m^{3}.</m>
+        Suppose  w  and  w'  are weights of the ball in air and in water, respectively.  B  is the 
+        bouyant force which is equal to the weight of displaced liquid. Since body loses weight 
+        due to buoyant force it is also equal to the weight loss of a body in the liquid. That is,
+        <me>
+          B = V_{b}\rho_{o}g = w-w'
+        </me>
+                The ball is totally submerged in water, volume of liquid displaced is the 
+                same as volume of ball itself. Hence 
+               <m> V_{dw} = V_{b},</m>  <m>\rho_{o}</m> is the density of water and <m>w-w'</m> 
+               is weight loss of ball in water. 
+               <me>
+                \text{or,}\quad   V_{b}\rho_{o}g = w-w'=mg-8.75 \,N
+               </me>
+               <me>
+                \text{or,}\quad   V_{b} = \frac{mg-8.75 N}{\rho_{o}g} 
+               </me>
+               <me>
+                =\frac{1.10(kg)\times 9.8(m/s^{2})-8.75(N)}{1000(kg/m^{3})9.8(m/s^{2})} = 2.07\times10^{-4}m^{3} = 207 \,cm^{3}
+               </me>
+               <me>
+                But, \quad V_{b}=V_{c}+V_{s}
+               </me>
+               where, <m>V_{c}</m> and <m>V_{s}</m> are the volumes of cavity and steel in the ball. 
+               <me>
+                \therefore \quad V_{c} = V_{b}-V_{s} =  V_{b}-\frac{m}{\rho_{s}} 
+               </me>
+               <me>
+                = 2.07\times10^{-4} -\frac{1.10}{7900} =6.8\times10^{-5} m^{3}= 67.75 \,cm^{3}
+               </me>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A robber takes a chest full of gold put it on their horse and ride off into the distance. 
+        The size of the chest is about 18 inches long, 10 inches wide, and 8 inches high. 
+        <ol marker="a.">
+          <li>
+            How many pounds would such a chest weigh if it were filled with gold (<m>\rho = 19.3 g/ml</m>)?
+          </li>
+          <li>
+            What would be the buoyant force (in pounds) on the chest if it were placed under water?
+          </li>
+          <li>
+            What would be the apparent weight (in pounds) of the chest while under water?
+          </li>
+        </ol>
+          </p>
+    </statement>
+    <solution>
+      <p>
+     Given: <m>\rho_{o}=62.43 \,lb/ft^{3},\quad  V = lbh=(1.5 \,ft) (0.67 \,ft) (0.83 \,ft) =0.834 \,ft^{3},</m>
+          <m> \rho_{g} = 19.3 \,g/ml = 19.3 \times 62.43 \,lb/ft^{3} = 1205 \,lb/ft^{3}.</m>
+          <ol marker="a.">
+            <li>
+              <me>
+                W=mg=V_{c}\rho_{g} g 
+              </me>
+              <me>
+                = 0.834 ft^{3}\times 1205 lb/ft^{3}\times 32ft/s^{2} = 32159 \,pdl \quad (or, poundal)
+              </me>
+                  </li>
+            <li>
+              <me>
+                B= wt. loss =V_{c} \rho_{o} g =  0.834 ft^{3}\times 62.43 lb/ft^{3}\times 32ft/s^{2}=1665 \,pdl
+              </me>
+                </li>
+            <li>
+             <me>
+              B=w-w'\quad \Rightarrow\quad w'=w-B =32159-1665 =30494 \,pdl
+             </me>
+               </li>
+          </ol>
+      </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <image source="icesea.png" width ="35%"> </image>
+      <p>
+        The density of fresh water is <m>1.0 \,g/cm^{3}</m> and the specific gravity of ice is 0.917. 
+        What is the minimum surface area of a slab of ice 50 cm thick that would support a man weighing 75 kg?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: <m>\rho_{o}=1 \,g/cm^{3} = 1000 \,kg/m^{3}, </m> <m> SG_{ics} =0.917, \quad l=50 \,cm =0.5\,m,</m> 
+        and <m> m=75 \,kg.</m> 
+        Density of ice, <m>\rho_{i}=SG_{ice}\times\rho_{o} =917 kg/m^{3}.</m> 
+             </p>
+             <p>
+              Buoyant force = wt. of a man + wt. of submerged portion of ice. 
+                 </p>
+                 <p>
+                  For a minimum surface area consider the entire ice is suspended inside the surface of water.
+                  <me>
+                    B= mg+ Mg
+                  </me>
+                 <me>
+                  V_{dw}\rho_{o}g=mg+V_{ice}\rho_{ice}g 
+                 </me>
+                 <me>
+                  V_{ice}\rho_{o}=m+V_{ice}\rho_{ice} 
+                 </me>
+                  As ice is completely submerged volume of displaced water <m>V_{dw}</m> 
+                  is the same as volume of ice <m>V_{ice}.</m> 
+                  <me>
+                    \therefore\quad V_{ice}[\rho_{o}-\rho_{ice}]=m
+                  </me>
+                  <me>
+                    \text{or,}\quad V_{ice}=\frac{m}{[\rho_{o}-\rho_{ice}]} = \frac{75}{(1000-917)}= 0.904 \,m^{3}
+                  </me>
+                  but 
+                  <me>
+                    V_{ice}=A_{ice}\times l = 0.904
+                  </me>
+                  <me>
+                    \therefore\quad A_{ice} = \frac{0.904}{l} = \frac{0.904}{0.5} \approx 1.8 m^{2}
+                  </me>
+                       </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A solid body when suspended by a string in air shows 40 N tension in the string. 
+        When it is completely submerged in water the tension in string will be 30 N and 
+        when it is completely submerged in unknown liquid, the tension will be 20 N. 
+        Find the density of unknown liquid.   
+      </p>
+    </statement>
+    <solution>
+      <p>
+        Given: Tension in string in air, T=40 N,  tension in string in water, <m>T_{1}=30\,N,</m> 
+        and tension in string in unknown liquid, <m>T_{2}=20N. </m>
+      </p>
+      <sidebyside widths ="20% 30% 30%">
+        <image source="unkliqa.png"> </image>
+        <image source="unkliqb.png"> </image>
+        <image source="unkliqc.png" > </image>
+      </sidebyside>
+      <p> From first figure
+       <men xml:id="eqn-unliq1">
+        T = mg 
+       </men>
+       From second figure
+         <men xml:id="eqn-unliq2"> 
+          T_{1} +B_{1}= mg 
+         </men>
+         From third figure
+            <men xml:id="eqn-unliq3">
+            T_{2} +B_{2}= mg 
+          </men>
+              From eqns. <xref ref="eqn-unliq1"/> and <xref ref="eqn-unliq2"/>, 
+            <me>
+              T_{1} +B_{1} =T
+            </me>
+            <me>
+              \text{or,}\quad B_{1} = T-T_{1} 
+            </me>
+            <me>
+              \text{or,}\quad V_{b}\rho_{o}g =40-30 =10 
+            </me>
+            <me>
+              \therefore\quad V_{b} =\frac{10}{\rho_{o}g} = \frac{10}{1000\times 9.8} = 1.02\times10^{-3} m^{3}
+            </me>
+           From eqns. <xref ref="eqn-unliq1"/> and <xref ref="eqn-unliq3"/>, we have -
+           <me>
+            T_{2} +B_{2} =T
+           </me>
+           <me>
+            \text{or,}\quad B_{2} = T-T_{2} =40-20=20
+           </me>
+           <me>
+            \text{or,}\quad V_{b}\rho_{l}g =20 
+           </me>
+           <me>
+            \therefore\quad \rho_{l} =\frac{20}{V_{b}g} = \frac{20}{1.02\times10^{-3}\times 9.8} = 2000 \,kg/m^{3} =2 \,g/ml
+           </me>
+             </p>
+             <p>
+               <term> alternate:</term> 
+               <me>
+                B=w-w'
+               </me>
+             where <m>w</m> is a weight of a body in air and <m>w'</m> is a weight of a body in fluid.
+             </p> 
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A solid body of density <m> \rho </m> is suspended at the interface of two liquids. 
+        A liquid <m>C</m> is sitting on top of liquid <m>D</m> without mixing to each other 
+        and the specific gravity of liquids <m>C</m> and <m>D</m> is 0.8 and 1.2, respectively. 
+        If fraction of the volume of the body immersed in liquid <m>D</m> is <m>\frac{\rho-2a}{a}</m>. 
+        Find the value of <m>a.</m> 
+      </p>
+    </statement>
+    <solution>
+      <image source="twoliqarcm.png" width ="25%"> </image>
+      <p>
+        Given: <m>\rho_{C} = 800 \,kg/m^{3}, </m>  <m>\rho_{D} = 1200 \,kg/m^{3}, \quad \frac{V_{D}}{V}=\frac{\rho-2a}{a}.</m>
+        Specific gravity of a body, <m>SG_{b}=\frac{\rho_{b}}{\rho}.</m>
+          Total volume of the body, <m>V=V_{C}+V_{D}.</m> 
+          Since the body is suspended at the interface of two liquids, buoyant force must be equal to its weight.
+          <me>
+            i.e., \quad B=mg
+          </me>
+          <me>
+            \text{or,} \quad B_{C}+B_{D}=V\rho g
+          </me>
+          <me>
+            \text{or,} \quad V_{C}\rho_{C}g+V_{D}\rho_{D}g=\left(V_{C}+V_{D}\right)\rho g
+          </me>
+          <me>
+            \text{or,} \quad V_{C}\left(\rho_{C}-\rho\right)=V_{D}\left(\rho-\rho_{D}\right)
+          </me>
+          <men xml:id="eqn-twoliq1">
+            \text{or,} \quad V_{C} = \left(\frac{\rho-\rho_{D}}{\rho_{C}-\rho}\right) V_{D} 
+          </men>
+            <me>
+              \text{But, }\quad \frac{V_{D}}{V} =\frac{\rho-2a}{a}
+            </me>
+          <men xml:id="eqn-twoliq2">
+            V_{D} = \left(\frac{\rho-2a}{a}\right)V 
+          </men>
+          Hence, from 
+          <me>
+            V=V_{C}+V_{D} =  \left[\left(\frac{\rho-\rho_{D}}{\rho_{C}-\rho}\right)  +1\right]V_{D}
+          </me>
+          <me>
+            =\left[\left(\frac{\rho-\rho_{D}}{\rho_{C}-\rho}\right)  +1\right] \left(\frac{\rho-2a}{a}\right)V 
+          </me>
+          <me>
+            \text{or,}\quad 1= \left[\left(\frac{\rho-\rho_{D}}{\rho_{C}-\rho}\right)  +1\right] \left(\frac{\rho-2a}{a}\right) 
+          </me>
+          <me>
+            \therefore\quad a= \frac{\left(\rho_{C}-\rho_{D}\right)\rho}{3\rho_{C}-\rho-2\rho_{D}}
+          </me>
+          <me>
+            = \frac{\left(800-1200\right)\rho}{3\times 800-\rho-2\times 1200} =400
+          </me>
+             </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A water rocket of length 20 cm and cross sectional area <m>100 cm^{2}</m> has half 
+        its volume initially filled with water. The air inside the rocket is pressurized 
+        to 10 atm and the area of the exhaust nozzle is <m>1 cm^{2}</m>. 
+        <ol marker="a.">
+          <li>
+            What is the initial exhaust velocity of the rocket?
+          </li>
+          <li>
+            What is the initial volume flow rate for the rocket? 
+          </li>
+          <li>
+            What is the initial rate of decrease of mass of the rocket? 
+          </li>
+        </ol>
+      </p>
+    </statement>
+    <solution>
+      <image source="watrocket.png" width ="25%"> </image>
+      <p>
+        Given: Length of the rocket, l=20cm = 0.2m, cross-sectional area of bottle, 
+        <m>A_{1} =100 cm^{2} = 0.01m^{2},</m> pressure inside the water bottle, 
+        <m>p_{bot} = 10 atm=10 \times 1.01\times 10^{5} Pa,</m> 
+        area of cross-section of nozzle, <m>A_{2}= 1cm^{2} = 0.0001 m^{2}.</m> 
+      </p>
+      <p>
+        From Bernoulli's principle, 
+        <me>
+          p_{bot}+\rho gh_{1}+\frac{1}{2}\rho v_{1}^{2} = p_{o}+\rho gh_{2}+\frac{1}{2}\rho v_{2}^{2}
+        </me>
+        <men xml:id="eqn-watrock1">
+          \text{or,}\quad \frac{p_{bot}-p_{o}}{\rho}+g\left(h_{1}-h_{2}\right) = \frac{1}{2}\left( v_{2}^{2}-v_{1}^{2}\right) 
+        </men>
+        From equation of continuity,
+        <me>
+          A_{1}v_{1}=A_{2}v_{2} \quad \Rightarrow\quad v_{1}=\frac{A_{2}v_{2}}{A_{1}}
+        </me>
+        <me>
+          \therefore\quad \frac{p_{bot}-p_{o}}{\rho}+g\left(h_{1}-h_{2}\right) 
+        </me>
+        <me>
+          = \frac{1}{2} v_{2}^{2}\left[1-\left(\frac{A_{2}}{A_{1}}\right)^{2}\right] 
+        </me>
+          </p>
+          <p>
+            <ol marker="a.">
+              <li>
+                <me>
+                  \therefore \quad v_{2} =\sqrt{\left[\frac{2\left(\frac{p_{bot}-p_{o}}{\rho}\right)+2g\frac{l}{2} }{\left(1-\left(\frac{A_{2}}{A_{1}}\right)^{2}\right)}\right]} = 42 m/s 
+                </me>
+                Here <m>\rho</m> is density of water and <m>h_{1}-h_{2}=\frac{l}{2}</m>.
+              </li>
+              <li>
+                initial volume flow rate, 
+                <me>
+                  A_{2}v_{2} = 0.0001 \times 42 =0.0042 \,m^{3}/s
+                </me>
+                      </li>
+              <li>
+                initial rate of decrease of mass, 
+                <me>
+                  \frac{\,dm}{\,dt} = A_{2}v_{2}\rho = 0.0042\times 1000 =  4.2 \,kg/s
+                </me>
+                   </li>
+            </ol>
+                </p>
+    </solution>
+  </example>
+
+  <example>
+    <statement>
+      <p>
+        A U-tube manometer is used to measure the pressure of oil of specific gravity 
+        0.85 flowing in  a pipe line. Its left end is connected to the pipe and right 
+        end is open to atmosphere. The center of the pipe is 100 mm below the level of 
+        mercury in the right limb. If the difference in mercury level in the two limbs is 160 mm. 
+        Find pressure at the center of the pipe.
+      </p>
+    </statement>
+    <solution>
+      <image source="manometer1.png" width ="35%"> </image>
+      <p>
+        Given: <m>\rho_{1}=0.85\times 1000 =850 \,kg/m^{3},</m>  <m>d =100\times 10^{-3}m =0.10\,m,</m>  
+        <m>h_{2} =160\times 10^{-3}m = 0.16 \,m,</m> <m>h_{1} =160-100= 60 \,mm = 0.06 \,m,</m> 
+        <m>\rho_{2}=13.6\times 1000 =13600 \,kg/m^{3}.</m> 
+        <me>
+          p_{M}=p_{N}
+        </me>
+        <me>
+          p_{A}+\rho_{1}g h_{1} = p_{o}+\rho_{2}g h_{2}
+        </me>
+        <me>
+          p_{A}._{gauge} = p_{A}._{abs}-p_{o}=\rho_{2}gh_{2} -\rho_{1}gh_{1}
+        </me>
+        <me>
+          \therefore\quad p_{A}._{gauge} = 13600\times 9.8 \times 0.16 -850\times 9.8 \times 0.1 = 20492 \,Pa
+        </me>
+           </p>
+    </solution>
+  </example>
+</section>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_sixth" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Gravitation</title>
+    
+  <introduction>
+    <p>
+      Gravitation is a fundamental force of nature that governs the attraction between 
+      objects with mass. It is one of the four fundamental forces in the universe, 
+      alongside electromagnetism, the weak nuclear force, and the strong nuclear force. 
+      Gravitation is responsible for many aspects of the motion and behavior of celestial bodies, 
+      from the way planets orbit the Sun to the way galaxies interact with each other. 
+      It is a universal force that acts on all objects with mass, regardless of their 
+      size or distance from each other. It is not limited to just the Earth but extends 
+      throughout the entire universe.
+    </p>
+      <p>
+        Albert Einstein's General Theory of Relativity, developed in the early <m>20^{th} </m>century, 
+        expanded our understanding of gravitation. It describes gravitation as the curvature of 
+        spacetime caused by the presence of mass and energy. This theory has been confirmed 
+        through various experiments and observations. 
+      </p>
+      </introduction>
+
+ 
+  <xi:include href="./sec_sixth-intro.ptx" />
+  <xi:include href="./sec_sixth-kepler.ptx" />
+
+  <xi:include href="./sec_sixth-examples.ptx" />  
+
+  <xi:include href="./ex_sixth.ptx"/> 
+
+</chapter>

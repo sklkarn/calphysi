@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_fourth-examplesD" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples D</title>
+  
+<example>
+  <statement>
+    <p>
+      A car traveling at 80 km/h rounds a curve of radius 100m which is 
+      banked for a speed of 50 km/h. What is the minimum coefficient of friction 
+      that would keep the car on the road?
+    </p>
+  </statement>
+  <solution>
+    <p>
+      Given:  <m>v_{1}  =  50\, km/h = 50 \times \frac{5}{18} \frac{m}{s}=13.88 \,m/s r=100\,m</m>, 
+      <m>v_{2}=80\,km/h=22.22 \,m/s</m>, <m>\mu=?</m>
+      <image source="cd1b.png" width="50%"> </image>
+    </p>
+    <p>
+      <me>
+        \sum F_{x} = ma
+      </me>
+      <men xml:id="eqn-bank1">
+        \text{or,}\quad N\sin\theta+f\cos\theta=\frac{mv_{1}^{2}}{r} 
+      </men>
+      <me>
+        \sum F_{y} = 0
+      </me>
+      <men xml:id="eqn-bank2">
+        \text{or,}\quad N\cos\theta=f\sin\theta+w 
+      </men>
+      <men xml:id="eqn-bank3">
+        \text{or,}\quad N\sin\theta=\frac{mv_{1}^{2}}{r}  \qquad [\because f=0]
+      </men>
+      <men xml:id="eqn-bank4">
+        \text{or,}\quad N\cos\theta=mg \qquad [\because f=0] 
+      </men>
+      <me>
+        \text{or,}\quad \tan\theta=\frac{mv^{2}_{1}}{r mg} =  \frac{v^{2}_{1}}{r g}=\frac{(13.88)^{2}}{100\times9.8} = 0.196 
+      </me>
+      <men xml:id="eqn-bank5">
+        \therefore \quad \theta = 11.12^{o}
+      </men>
+      </p>
+      <p>
+      again, from eqn. <xref ref="eqn-bank1"/>, if <m>f \neq 0</m> we have -
+      <men xml:id="eqn-bank6">
+        N\sin\theta+\mu N \cos\theta=\frac{mv_{2}^{2}}{r}  
+      </men>
+      <me>
+        \text{or,}\quad N\left[(0.193)+ \mu  (0.981)\right] = m\left(\frac{(22.22)^{2}}{100}\right)
+      </me>
+      <men xml:id="eqn-bank7">
+        \text{or,}\quad m = 0.2025 N\left[0.193+\mu (0.981)\right] 
+      </men>
+      also, from eqn. <xref ref="eqn-bank2"/>, if <m>f \neq 0</m> we have -
+      <men xml:id="eqn-bank8">
+        N\cos\theta-\mu N\sin\theta=mg
+      </men>
+      <me>
+        \text{or,}\quad N (0.981) -\mu N(0.193) =m(9.8)  
+      </me>
+      <men xml:id="eqn-bank9">
+        \text{or,}\quad m = \frac{N}{9.8}\left[0.981 -\mu (0.193)\right]   
+      </men>
+        also, from eqns. <xref ref="eqn-bank7"/> and <xref ref="eqn-bank9"/>, we have -
+        <me>
+          0.2025 \times 9.8 \left[0.193+\mu (0.981)\right] =\left[0.981 -\mu (0.193)\right]  
+        </me>
+        <men xml:id="eqn-bank10">
+          \therefore\quad \mu = 0.15 
+        </men>
+         </p>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A rock of mass 0.2 kg is tied to a string and whirled in a vertical 
+      circle of radius 1 m. 
+      <ol marker="a.">
+        <li>
+          What is the tension in the string if the rock is traveling at 10 m/s at the bottom? 
+        </li>
+        <li>
+          What is the tension in the string if the rock is traveling at 8 m/s at the top? 
+        </li>
+        <li>
+          What is the tension in the string if the rock is traveling at 9 m/s when the string is horizontal?
+        </li>
+        <li>
+          What is the tangential acceleration of the rock when it is traveling at 9 m/s 
+          and the string is horizontal? 
+        </li>
+        <li>
+          What are the radial and tangential components of the acceleration vector 
+          if the rock is traveling at 10 m/s and the string makes an angle of 
+          <m>45^{o}</m> above the horizontal?
+        </li>
+      </ol>
+    </p>
+  </statement>
+  <solution>
+    <ol marker ="a.">
+      <li>
+        <p>
+          <image source="cd2a.png" width ="30%"> </image>
+          <m>v  =  10 m/s,</m>
+          <me>
+             \sum F_{r}  =  T  -  w  =  m a_{r}, 
+          </me>
+          <m>
+            w  =  m g, 
+          </m>
+          <m>
+            a_{r}  =  \frac{v^{2}}{r}, 
+          </m>
+          <me>
+            T  =  21.96 \,N 
+          </me>
+          </p>
+      </li>
+      <li>
+        <p>
+          <m>v  =  8 m/s,</m>
+          <me>
+            \sum F_{r}  =  T  +  w  =  m a_{r},
+          </me>
+          <m>w  =  m g,</m>
+          <m>
+            a_{r}  =  \frac{v^{2}}{r},
+          </m>
+          <me>
+            T  =  10.84 \,N 
+          </me>
+          </p>
+      </li>
+      <li>
+        <p>
+          <m>v  =  9\, m/s,</m>
+          <me>
+            \sum F_{r}  =  T   =  m a_{r},
+          </me>
+          <m>w  =  m g, </m>
+          <m>
+             a_{r}  =  \frac{v^{2}}{r},
+          </m>
+          <me>
+            T  =  16.2 \,N  
+          </me>
+          </p>
+      </li>
+        <li>
+        <p>
+          <image source="cd2b.png" width ="30%"> </image>
+          <m>v  =  9 m/s,</m>
+          <me>
+            \sum F_{t}  =  w   =  m a_{t},
+          </me>
+          <m>w  =  m g,</m>
+             <m>
+            a_{t}  =  9.8 \,m/s^{2} 
+          </m>
+         </p>
+      </li>
+      <li>
+        <p>
+         <m> v  =  10 m/s; </m>  <m>\theta = 45^{o};</m>
+         <me>
+          \sum F_{r}  = T+w\cos\theta   =  m a_{r},
+         </me>
+         <me>
+          \sum F_{t}  = w\sin\theta   =  m a_{t};
+         </me>
+         <m>a_{r}=100 m/s^{2};</m> <m> w  =  m g,</m>
+         <me>
+          a_{t}  =  6.93 \,m/s^{2} 
+         </me>
+         </p>
+      </li>
+    </ol>
+  </solution>
+</example>
+
+<example>
+  <statement>
+    <p>
+      A thin circular loop of radius <m>R</m> rotates about a vertical diameter 
+      with an angular frequency <m>\omega</m> inside of which a small bead of 
+      mass <m>m</m> is constrained to slide without friction. Show that the 
+      bead remains at its lowest point for <m>\omega\leq\sqrt{\frac{g}{R}}</m>. 
+      <image source="beadloop.png" width ="30%"> </image>
+    </p>
+  </statement>
+  <solution>
+    <p>
+      <me>
+        N\cos\theta =mg
+      </me>
+      <me>
+        N\sin\theta =\frac{mv^{2}}{r} =\frac{mr^{2}\omega^{2}}{r} = mr\omega^{2} = mR\sin\theta\omega^{2}  
+      </me>
+      <me>
+        \therefore N = mR\omega^{2}
+      </me>
+      <me>
+        \text{or,}\quad mR\omega^{2} \cos\theta = mg 
+      </me>
+      <me>
+        \therefore \cos\theta = \frac{g}{R\omega^{2}}
+      </me>
+      <m>\because \cos\theta\leq 1, </m> 
+      <me>
+        \frac{g}{R\omega^{2}}\leq 1.
+      </me>
+      <me>
+        \therefore \omega \leq \sqrt{\frac{g}{R}} 
+      </me>
+      </p>
+  </solution>
+</example>
+</section>

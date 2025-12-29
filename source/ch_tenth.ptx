@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch_tenth" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+
+  <title>Heat and Thermodynamics</title>
+  <introduction>
+    <p>
+      Heat and thermodynamics are the branch of physics which deals with the transfer of energy, 
+      the study of temperature, and the behavior of matter at the molecular and atomic levels. 
+      This chapter helps understanding how heat energy moves and changes within various systems. 
+      </p>
+  </introduction>
+   
+
+ 
+  <xi:include href="./sec_tenth-intro.ptx" />
+  <xi:include href="./sec_tenth-therm_exp.ptx" />
+  <xi:include href="./sec_tenth-heat_meas.ptx" />
+  <xi:include href="./sec_tenth-examplesA.ptx" />  
+  <xi:include href="./sec_tenth-kt_gas.ptx" />
+  <xi:include href="./sec_tenth-thermdyn.ptx" />
+  <xi:include href="./sec_tenth-examplesB.ptx" />  
+ 
+  <xi:include href="./ex_tenth.ptx"/> 
+
+</chapter>

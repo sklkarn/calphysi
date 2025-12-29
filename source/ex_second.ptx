@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_second" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+  <exercise>
+    <p>
+      Find the magnitude and direction of a vector whose initial and terminal points are given 
+      by the coordinates (6cm, 1.5cm) and (2.5cm, 5cm). 
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      If the velocity vector is <m>\vec{v}= (4.000 \hat{i} + 3.000 \hat{j} + 0.100 \hat{k})</m> km/h, 
+      what is the unit vector of its direction of motion?
+    </p>
+  </exercise>
+	
+  <exercise>
+    <p>
+      A stone is pulled by three strings with forces <m>\vec{F}_{1}=\left(10\hat{i}-5\hat{j}+2\hat{k}\right)</m> N; 
+      <m>\vec{F}_{2}=\left(-15\hat{i}-2\hat{k}\right)</m> N; and <m>\vec{F}_{3}=\left(-5\hat{i}-5\hat{j}\right)</m> N. 
+      Find the angle between <m>\vec{F}_{1}</m> and <m>\vec{F}_{2}</m>.   
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Show that when <m>\vec{A} + \vec{B} = \vec{C}</m>, then <m>C = A^{2} + B^{2} + 2AB \cos\phi </m>, 
+      where <m>\phi</m> is the angle between vectors <m>\vec{A}</m> and <m>\vec{B}</m>.
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+      Vectors <m>\vec{A}</m> and <m>\vec{B}</m> are two orthogonal vectors in the 
+      xy-plane and they have identical magnitudes. If <m>\vec{A} = 3.0 \hat{i} + 4.0 \hat{j}</m>, 
+      find <m>\vec{B}</m>.
+    </p>
+  </exercise>
+<exercise>
+  <p>
+    What is the components of a vector <m>\vec{a} = (3.0 \hat{i} + 4.0 \hat{j} + 10.0 \hat{k})</m> 
+    along the vector <m>\vec{b} = (1.0 \hat{i} + 4.0 \hat{j})</m>?
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    If <m>\vec{a} = (2 \hat{i} - 4 \hat{j} + \hat{k})</m> and <m>\vec{b} = (3 \hat{i} + 4 \hat{j} + 10 \hat{k})</m>. 
+    Find 
+    <ol marker ="a.">
+      <li>
+        <m>\vec{a}\times\vec{b} </m> and
+      </li>
+      <li><m>\vec{a}\cdot\vec{b}</m></li>
+    </ol>
+  </p>
+</exercise>
+
+<exercise>
+  <p>
+    Given the three vectors <m>\vec{A}  =  4 \hat{i} - 6 \hat{j}</m>, <m>\vec{B}  =  -5 \hat{i} + 5 \hat{j}</m>, 
+    <m>\vec{C}  =  12 \hat{i} + 5 \hat{j} </m>.
+  </p>
+</exercise>
+<exercise>
+  <p>
+    <ol marker ="a.">
+      <li>
+        Find the vector <m>\vec{D} = \vec{A}+\vec{B}+\vec{C}</m>.
+      </li>
+      <li>Find the vector <m>\vec{E} = \vec{A} - \vec{B} -\vec{C}</m>.</li>
+      <li>Find the scalars <m>a</m> and <m>b</m> such that  <m>a \vec{A} + b \vec{B} + \vec{C}= 0</m>.</li>
+    </ol>
+  </p>
+</exercise>
+<exercise>
+  <p>
+    Given two points whose position vectors in polar coordinates are <m>r_{1} = 20 m</m>, <m>\theta_{1} = 120^{o}</m> 
+    and <m>r_{2} = 15 m</m>, <m>\theta_{2} = 270^{o}</m>, respectively.	
+    Find  
+    <ol>
+      <li>
+        <m>r_{1}</m>;
+      </li>
+      <li><m>r_{2}</m> and </li> 
+      <li>the distance between the two points.</li>
+    </ol>
+  </p>
+</exercise>
+	<exercise>
+    <p>
+      A car moves 100 m <m>60^{o}</m> north of east, then it moves 300 m <m>30^{o}</m> south of west 
+      (i.e., <m>210^{o}</m> from the x-axis). Find the total displacement of the car. 
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Suppose you walk from point P to point Q. The curved part of your path is a semicircle. 
+      What is the magnitude of your displacement from point P to point Q?
+    </p>
+  </exercise>
+  <exercise>
+    <p>
+      Given the forces: <m>\vec{F}_{1} = 5 \,N </m> at <m>30^{o}</m> N of E, <m> \vec{F}_{2} = 7 \,N </m> 
+      at <m>60^{o}</m> S of W, and <m>\vec{F}_{3} = 10 \,N </m> at <m>40^{o} </m> E of S. 
+      <ol marker ="a.">
+        <li>
+          Find the components of each force,
+        </li>
+        <li>Find the vector components of resultant force, and</li>
+        <li>Find the magnitude and direction of resultant force.</li>
+      </ol>
+    </p>
+  </exercise>
+<exercise>
+  <p>
+    If <m>\vec{A}= 30(-\hat{k})</m>  and <m>\vec{B}= 60(\hat{i})</m>. Find 
+    <ol marker="a.">
+      <li>
+        <m>\vec{A}\cdot\vec{B}</m>
+      </li>
+      <li><m>\vec{A}\times\vec{B}</m>.</li>
+    </ol>
+  </p>
+</exercise>
+
+ </exercises>
+

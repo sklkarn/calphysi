@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exercises xml:id="ex_seventh" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- You can ommit the title and just get the default "Exercises" -->
+  <title>Exercise</title>
+  
+
+  <paragraphs>
+    <title>MI</title>
+    
+
+  <exercise>
+   <p>
+    A ball, a cylinder, and a ring each of mass 10 kg and radius 0.1 m are released 
+    from rest at the top of an inclined plane 2 m long. 
+    Which will reach the bottom of the plane the fastest? Why?
+   </p>
+  </exercise>
+ 
+  <exercise>
+    <p>
+      A meter stick of mass 500 g is pivoted about a point located at the 75 cm mark. 
+      What is the moment of inertia of the meter stick?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A wagon wheel consists of a rim of mass 50 kg and diameter 60 cm 
+      and eight spokes each with a mass of 2 kg. What is the moment of inertia of the wheel?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A rectangular block has a length of 20 cm, 
+      a width of 10 cm, a height of 5 cm, and a mass of 4 kg. 
+      What is its moment of inertia about its three principle axes?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the moment of inertia of the following uniform bodies about the axis indicated.
+      <sidebyside widths="20% 20% 20% 10%">
+        <image source ="mi6a.png"> </image>
+        <image source ="mi6b.png"> </image>
+        <image source ="mi6c.png"> </image>
+        <image source ="mi6d.png"> </image>
+      </sidebyside>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the moment of inertia of 
+      <ol marker="a.">
+        <li>
+          a physical pendulum and 
+          <image source ="mi7a.png" width ="15%"> </image>
+           </li>
+        <li>
+          a square about the axis indicated. 
+          <image source ="mi7b.png" width ="15%"> </image>
+        </li>
+           </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Find the moment of inertia of an equilateral triangle about one of its 
+      vertices and perpendicular to its plane. The triangle is made out of three rods.
+    </p>
+  </exercise>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Rot Dyn</title>
+  
+  <exercise>
+    <p>
+      A body rotates according to the equation <m>\theta = At + Bt^{3}</m>, where <m>A = 10 \,rad/s</m> 
+      and <m>B = 2 \,rad/s^{3}</m>. Find:  
+      <ol marker="a.">
+        <li>
+         <m>\theta(2s)</m>
+        </li>
+        <li>
+         <m>\omega_{av}(0,2s)</m>
+        </li>
+        <li>
+         <m>\omega(3s)</m>
+        </li>
+        <li>
+          <m>\alpha_{av}(0,3s)</m>
+        </li>
+        <li>
+          <m>\alpha(4s)</m>
+        </li>
+      </ol>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      An electric motor accelerates uniformly from rest to <m>600 \,rpm</m> in <m>10 \,s.</m> 
+      <ol marker="a.">
+        <li>
+          What is its angular acceleration? 
+        </li>
+        <li>
+          How many revolutions does it make? 
+        </li>
+        <li>
+          What was its angular velocity at the end of 2 s?
+        </li>
+        <li>
+          How fast was it rotating after making 10 revolutions?
+        </li>
+        <li>
+          How long did it take to make 10 revolutions?
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A uniform cylinder of mass 100 kg has a radius of 30 cm  and spins freely about its 
+      axis of symmetry. One end of a string is attached to the surface of the cylinder 
+      so that the string winds and unwinds as the cylinder rotates first one direction 
+      and then the other. A constant tension of 100 N  is maintained in the string by 
+      a constant vector force applied to the other end of the string. At time t = 0, 
+      the string is completely unwound and the cylinder is spinning at 30 rad/s. 
+      <ol marker="a.">
+        <li>
+          What is the moment of inertia of the cylinder?
+        </li>
+        <li>
+          As long as <m>\theta \gt \frac{\pi}{2},</m> or <m>\theta \lt -\frac{\pi}{2}</m>,
+          the torque on the cylinder is constant in magnitude. Why? What is this torque?
+        </li>
+        <li>
+          Ignoring the first quarter revolution, how long does it take the cylinder to stop?
+        </li>
+        <li>
+          What is the angular acceleration of the cylinder when it is slowing down? 
+        </li>
+        <li>
+          What is the minimum length of string that will stop the cylinder?
+        </li>
+        <li>
+          What is the initial kinetic energy of the cylinder?
+        </li>
+        <li>
+          What is the initial angular momentum of the cylinder? 
+        </li>
+        <li>
+          If the cylinder is rotating counter-clockwise, what is the direction of the angular momentum vector? 
+        </li>
+      </ol>
+          </p>
+  </exercise>
+
+  <exercise>
+
+    <p>
+      An Atwood machine as shown at right consists of a mass of 10 kg supported by 
+      a rope draped over a uniform cylinder of mass 20 kg and radius 10 cm and then 
+      tied to a mass of 5 kg located 1.5 m below the first mass. If the system is 
+      released from rest,
+      <image source ="rotdq1.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          find the tension <m>T_{1}</m> in the rope supporting the $10-kg$ mass.
+        </li>
+        <li>
+          What is the maximum height ever attained by the second mass.
+        </li>
+          </ol>
+          </p>
+           </exercise>
+
+  <exercise>
+   
+    <p>
+      A thin ring of mass 5 kg and diameter 1 m is pivoted about a point on its rim. 
+      If the system is released from rest with the ring directly above the pivot point 
+      as shown in figure and if it swings downward, when it is exactly half way down to 
+      the bottom find 
+      <image source ="rotdq2.png" width="35%"> </image>
+      <ol marker="a.">
+        <li>
+          how fast it is moving,
+        </li>
+        <li>
+          the radial and tangential acceleration of its center of mass, and
+        </li>
+        <li>
+          the horizontal and vertical forces exerted on the ring by its pivot.
+        </li>
+          </ol>
+           </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 186.8 N sphere with radius R= 101.6 mm is placed on a horizontal surface 
+      with initial angular velocity <m>\omega_{o} = 40 \,rad/s.</m> The coefficient of kinetic 
+      friction between the sphere and the surface is <m>\mu_{k} = 0.06.</m> 
+      What maximum velocity will the center of the sphere attain, and how long does it take to reach that velocity?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 1 m long and 2 kg stick is nailed to the wall so that it can rotate 
+      freely about the end. A 1 kg ball, with speed 3 m/s hits with the stick 
+      at some distance <m>x</m> below the pivot point. The ball collides 
+      elastically with the stick, and stops dead after collision. 
+      Find the stick's resulting initial angular velocity. Find the distance <m>x.</m>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A  25 g  bug crawls from the center to the outside edge of a  150 g  disk 
+      of radius 15.0 cm. The disk was rotating at 15.0 rad/s. What will be its 
+      final angular velocity? Treat the bug as a point mass.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A bicycle tire has a mass of 4.0 kg and a radius of 0.33 m. If it is rotating at 
+      22 rad/s what is its angular momentum? If it is used as a gyroscope with a 
+      24 cm long pivot bar, what will be its precession speed?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Calculate the angular momentum of a phonograph record, LP (Long Play) rotating at
+      <m>33\frac{1}{3}</m> rev/min. An LP has a radius of 15 cm and a mass of 150 g. 
+      A typical phonograph can accelerate an LP from rest to its final speed in 0.35 s, 
+      what average torque would be exerted on the LP?
+    </p>
+  </exercise>
+</paragraphs>
+
+<paragraphs>
+  <title>Osc_Motion</title>
+  
+  <exercise>
+    <p>
+      What are the simple harmonic motion equations for a particle starting out from rest 
+      at <m>x_{o}</m> when <m>t = 0</m>?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      What are the simple harmonic motion equations for a particle passing through <m>x = 0</m> 
+      with velocity <m>v_{o}</m> when <m>t = 0</m>?
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      The piston in the engine of an automobile oscillates at 1000 rpm in simple harmonic 
+      motion of amplitude 5 cm. If its mass is 0.25 kg, find 
+      <ol marker="a.">
+        <li>
+          its period of oscillation,
+        </li>
+        <li>
+          its angular frequency,
+        </li>
+        <li>
+          its maximum displacement, 
+        </li>
+        <li>
+          its maximum velocity, 
+        </li>
+        <li>
+          its maximum acceleration,
+        </li>
+        <li>
+          the maximum force exerted on the piston.
+        </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A simple harmonic oscillator of mass 10 kg on a spring of constant 100 N/m starts 
+      out at x = 10 cm moving in the +x direction with a velocity of 10 m/s. Find 
+      <ol marker="a.">
+        <li>
+         <m>\omega</m>
+        </li>
+        <li>
+          <m>A,</m>
+        </li>
+        <li>
+         <m>\theta</m>
+        </li>
+        <li>
+          <m> T,</m>
+        </li>
+        <li>
+          <m> x(1s),</m>
+        </li>
+        <li>
+         <m>v(1s),</m>
+        </li>
+        <li>
+         <m>a(1s),</m>
+        </li>
+        <li>
+          <m>K(1s),</m>
+         </li>
+         <li>
+          <m>U(1s),</m>
+         </li>
+         <li>
+          <m>E(1s),</m>
+         </li>
+         <li>
+          <m>v_{max}</m>
+         </li>
+         <li>
+          <m>a_{max}</m>
+         </li>
+      </ol>
+        </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A pendulum of mass 2 kg and length 2 m is displaced 10 cm from its equilibrium position and released. 
+      <ol marker="a.">
+        <li>
+          What is the equation giving the horizontal force F(x) required to displace the mass a 
+          horizontal distance x for small values of x? 
+        </li>
+        <li>
+          Is this equation valid for x = 10 cm? Why or why not?
+        </li>
+        <li>
+          What is the effective spring constant of the pendulum? 
+        </li>
+        <li>
+          What is the period of the pendulum?
+        </li>
+        <li>
+          What is the equation of motion for this pendulum? 
+        </li>
+        <li>
+          What is the kinetic energy of the pendulum when it is 5 cm from the equilibrium position?
+        </li>
+      </ol>
+      </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A mass of 1 kg is hung vertically from a spring stretching the spring 20 cm. It is then pulled 
+      10 cm below its equilibrium position and released from rest. Find 
+      <ol marker="a.">
+        <li>
+          the angular frequency of oscillation
+        </li>
+        <li>
+          the spring constant of the spring,
+        </li>
+        <li>
+          the amplitude of oscillation,
+        </li>
+        <li>
+          the kinetic energy of mass when passing through equilibrium,
+        </li>
+        <li>
+          the potential energy of the spring when the mass passes through equilibrium,
+        </li>
+        <li>
+          the time to first reach equilibrium,
+        </li>
+        <li>
+          the time to make one complete cycle.
+        </li>
+      </ol>
+       </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A 250 gram bob is hanging on a 80 cm long string. Its velocity is 0.25 m/s 
+      when observed at mean position. What maximum angle does it reach?
+      <hint>
+      <me>
+        \theta_{max}=\frac{x_{max}}{L}, 
+      </me>
+      <me>
+        x_{max} =A = \frac{v_{max}}{\omega}
+      </me>
+       </hint>
+   </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Two pendula have strings of equal length  but the mass of the second pendulum is four 
+      times the mass of the first pendulum. If <m>f_{1}</m> is the frequency of the first 
+      pendulum and <m>f_{2}</m> is the frequency of the second pendulum, then determine 
+      the relationship between <m>f_{1}</m> and <m>f_{2}</m>.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      Determine the effect on time period of a simple pendulum if the iron bob is 
+      replaced by a wooden one of same mass? Neglect air resistance.
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A simple pendulum has a length L and a time period T on the surface of the earth. 
+      What would be its time period when it is taken to the surface of a planet of 
+      acceleration due to gravity is <m>g/4?</m>
+    </p>
+  </exercise>
+
+  <exercise>
+    <p>
+      A block of mass 2 kg is attached to the spring - mass system of spring constant 200 N/m. 
+      A system is executing SHM and has velocity 40 m/s at 3 m away from equlibrium position. 
+      Determine its amplitude of oscillation.
+    </p>
+  </exercise>
+</paragraphs>
+ </exercises>
+

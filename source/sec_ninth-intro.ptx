@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_ninth-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Fluid Statics</title>
+  <introduction>
+    <p>
+      Fluid statics is a branch of fluid mechanics that deals with the behavior of stationary (non-moving) fluids, 
+      typically liquids and gases, under the influence of gravitational forces. It focuses on the study of fluids 
+      at rest and how they exert pressure and forces on their surroundings.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-pascle_prncpl">
+    <title>Pascal's Principle</title>
+    
+<introduction>
+  <p>
+    Pascal's principle states that pressure applied to an enclosed fluid is transmitted equally 
+    to every portion of the fluid and the walls of the container. This principle is valid only 
+    for an incompressible fluid which is most of the liquid. <term>Hydraulic press</term> <idx><h>hydraulic press</h></idx>
+    is one of the good examples of Pascal's principle.  It is a device to lift  heavy objects. 
+    It has two cylindrical opening attached the horizontal tube as shown in <xref ref="hpress"/>. 
+    An incompressible liquid is filled in the device. It works on Pascal's principle and obeys 
+    the conservation of energy. Work done on the a pump (small cylindrical piston) to push it 
+    down is equal to the work done by the big piston to lift heavy objects like vehicle, elephant, etc. 
+    Let a force <m>F_{1}</m> is applied on one piston to push it to a distance <m>\,dx_{1} </m> 
+    then it lifts the weight <m>F_{2}</m> to a distance <m>\,dx_{2}</m> on the other pan attached to the second piston.
+  </p>
+  <figure xml:id="hpress">
+    <caption></caption>
+    <image source="hpress.png" width="40%"/>
+</figure>
+<p>
+  <me>
+    \therefore \quad \,dW_{1}  = \,dW_{2} 
+  </me>
+  <me>
+    \text{or,}\quad F_{1}\,dx_{1} =F_{2}\,dx_{2} 
+  </me>
+  <me>
+    \text{or,}\quad p_{1}A_{1}\,dx_{1} =p_{2}A_{2}\,dx_{2} 
+  </me>
+  <me>
+    \text{or,}\quad p_{1}\,dV_{1} =p_{2}\,dV_{2}
+  </me>
+  Since the hydraulic fluid is incompressible <m>\,dV_{1}=\,dV_{2}.</m> 
+  <men xml:id="eqn-pascl2">
+    \therefore \quad p_{1}=p_{2}  
+  </men>
+  which is the Pascal's principle. Also 
+  <me>
+    \frac{F_{1}}{A_{1}}=\frac{F_{2}}{A_{2}}
+  </me>
+  
+  <men xml:id="eqn-pascl3">
+   \Rightarrow \quad  F_{2} = \frac{A_{2}}{A_{1}}F_{1} 
+  </men>
+  Since area of cross-section,<m> A_{2}</m> is greater than  area of cross-section, <m>A_{1}</m> 
+  a small force <m>F_{1}</m>  can generate a compressive force <m> F_{2}.</m> 
+</p>
+</introduction>
+
+<subsubsection xml:id="subsubsec-pres_mesrmnt">
+  <title>Measurement of Fluid Pressure</title>
+  <p>
+    Pressure measurement is important in many occasions in our daily life. 
+    To check tire pressure, pressure in balloon filled with air, pressure inside a pipe carrying fluid, 
+    pressure in gas cylinder, pressure in boiler used in industries, and pressure inside an airplane cabin. 
+    Two basic types of pressure measuring devices have been discussed here.
+  </p>
+<ol marker="i.">
+  <li>
+    <p>
+    <term>Manometer:</term> <idx><h>manometer</h></idx>
+    Manometer is is a U-shaped tube used to measure pressure of a fluid at rest. It contains water, 
+    mercury, or any other suitable fluid in the tube. When a pressure line is connected to one column 
+    of manometer, the fluid in the column will be forced down, and the fluid in the other will rise as 
+    shown in <xref ref="manometer"/>. By measuring the difference in height of the fluid in the two columns, 
+    the pressure of the inlet can be expressed in length. 
+  </p>
+    <figure xml:id="manometer">
+      <caption></caption>
+      <image source="manometer.png" width="40%"/>
+  </figure>
+  <p>
+    <me>
+      p_{C} =p_{B}+\rho_{1}gh_{1} 
+    </me>
+    <me>
+      p_{C} =p_{A}+\rho_{1}gh_{1} =p_{D}
+    </me>
+    <me>
+      p_{D} =p_{o}+\rho_{2}gh_{2}
+    </me>
+    <me>
+      p_{A}+\rho_{1}gh_{1} =p_{o}+\rho_{2}gh_{2} 
+    </me>
+    <me>
+      \therefore\quad p_{A,abs} = p_{o} +\rho_{2}gh_{2} -\rho_{1}gh_{1} 
+    </me>
+    <me>
+      \therefore\quad p_{A,gauge} = \rho_{2}gh_{2} -\rho_{1}gh_{1} 
+    </me>
+  Here <m> p_{o}</m> is an atmospheric pressure acting on the open end of manometer, 
+  <m>\rho_{1}</m>  and <m>\rho_{2} </m> are densities of fluids in container A and in U-tube, 
+  respectively. Pressure at points A and B are same and the pressure at points C and D are same. 
+  Hence pressure in column BC is balanced by pressure in column DE. 
+  </p>
+  <p>
+   <term>alternate:</term>
+   <me>
+    p_{M} = p_{N} 
+   </me>
+   <me>
+    \text{or,} \quad p_{A}+\rho_{1}gh_{1} = p_{o}+\rho_{2}g h_{2}
+   </me>
+   <me>
+    \therefore\quad p_{A}-p_{o} = \rho_{2}gh_{2}-\rho_{1}gh_{1} =p_{A,gauge}
+   </me>
+  </p>
+  </li>
+  <li>
+    <p>
+      <term>Barometer</term> <idx><h>barometer</h></idx> 
+      It is the simplest pressure gauge used for measuring atmospheric pressure. 
+      It is designed by  <em>Torricelli</em>. A meter long tube completely filled 
+      with mercury is inverted in a mercury container in such a way that the open end of 
+      the tube is under the pool of mercury. Now on balancing the atmospheric pressure 
+      acting on the mercury container the mercury column in the tube drops to a certain 
+      height and creating a complete vacuum at the top of the tube and hence the pressure 
+      is zero at point C. In the <xref ref="barometer"/>, points A and B are at the same level so they 
+      have the same pressure.
+    </p>
+    <figure xml:id="barometer">
+      <caption></caption>
+      <image source="barometer.png" width="40%"/>
+  </figure>
+  <p>
+    <me>
+      p_{A}=p_{B} = h\rho g = p_{o}
+    </me>
+          This device measures atmospheric pressure, rather than gauge pressure, 
+          because there is a nearly pure vacuum above the mercury in the tube.
+  </p>
+  </li>
+</ol>
+ </subsubsection>
+
+</subsection>
+
+<subsection xml:id="subsec-archm_princp">
+  <title>Archimedes' Principle</title>
+  <p>
+    When an object is placed in a fluid it experiences an upthrust force called a <term>buoyant force</term>. 
+    It is arising due to changes of the pressure inside fluid. This phenomenon is known as 
+    Archimedes' principle. It states that <em> when a body is fully or partially immersed in a fluid, 
+      the fluid exerts an upward force on the body equal to the weight of liquid displaced </em>. 
+      That is, buoyant force (B) = weight of displaced fluid.
+      <me>
+        B  =  w_{df}
+      </me>
+          Liquid does not distinguish between the volume of its own or the volume of some 
+          thing else. Meaning if we replace some arbitrary volume of the liquid with some other 
+          object of the same volume then the liquid applies the same force on its surface, <xref ref="arcmds"/> and <xref ref="arcmdsb"/>. 
+  </p>
+  <figure>
+    <caption></caption>
+    <sidebyside widths="20% 20% 20% 20% 20%">
+      <figure xml:id="arcmds">
+        <caption></caption>
+        <image source="arcmds.png"/>
+    </figure>
+    <figure xml:id="arcmdsb">
+      <caption></caption>
+      <image source="arcmdsb.png"/>
+  </figure>
+      <figure xml:id="arcmdsc">
+        <caption></caption>
+        <image source="arcmdsc.png"/>
+    </figure>
+        <figure xml:id="arcmdsd">
+            <caption></caption>
+            <image source="arcmdsd.png"/>
+        </figure>
+        <figure xml:id="arcmdse">
+            <caption></caption>
+            <image source="arcmdse.png"/>
+        </figure>
+          </sidebyside>
+</figure>
+  <p>
+  If <m>m_{df}</m> and <m> V_{df}</m> are the mass and volume of displaced fluid and <m>\rho_{f} </m>  
+  is the density of fluid then weight of displaced fluid is given by 
+  <me>
+    m_{df}g = V_{df}\rho_{f} g =B
+  </me>
+  Due to buoyant force body appear lighter than it really is. Hence, the weight of a body in the 
+  fluid is called an apparent weight.  Weight loss of a body is equal to weight of liquid displaced. That is,
+  <me>
+    B= W_{a}-W_{f}=\text{apparent loss in weight}
+  </me>
+  Where <m>W_{a}</m> and <m>W_{f}</m> are weight of a body in air and in the fluid, respectively. 
+  Apparent weight is the net downward force. 
+    </p>
+  <p> Hence apparent loss in weight = buoyant force = weight of water displaced.</p>
+  <p>
+    If an object floats, then its apparent weight is zero. If its apparent weight is more than zero, 
+    it sinks. A floating object loss  all of its weight.
+  </p>
+  
+  <p>
+    <ol marker="i.">
+      <li>
+        If the body is completely submerged but suspended in the fluid [<xref ref="arcmdsc"/>], 
+        then from Newton's second law net force acting on the body is zero. 
+        That is, buoyant force is equal to weight of the body
+        <me>
+          B=m_{b}g
+        </me>
+        <me>
+          \text{or,}\quad V_{df}\rho_{f} g  = V_{b}\rho_{b} g 
+        </me>
+             Since body is completely immersed in the fluid, <m>V_{b}=V_{df}</m>.  Hence,
+             <me>
+              \text{or,}\quad V_{b}\rho_{f} g  = V_{b}\rho_{b} g  
+             </me>
+             <me>
+              \therefore \quad  \rho_{f} = \rho_{b}
+             </me>
+               The body will suspend in a fluid if their densities are same. 
+      </li>
+      <li>
+        If the body is floating in the fluid [<xref ref="arcmdsd"/>], then buoyant force is 
+        greater than the weight of the body.  Hence body comes to a float, but at the surface 
+        of the fluid, net force acting on the body is zero.
+        <me>
+          B=m_{b}g
+        </me>
+        <me>
+          \text{or,}\quad V_{df}\rho_{f} g  = V_{b}\rho_{b} g
+        </me>
+         Since body is floating in the fluid, volume of the displaced fluid is 
+         then only equal to immersed portion of the body. Hence <m> V_{df} \lt V_{b}.</m>
+         <me>
+          \text{or,}\quad \frac{\rho_{f}}{\rho_{b}}  = \frac{V_{b}}{V_{df}} \gt 1 
+         </me>
+         <me>
+          \therefore \quad  \rho_{f} \gt \rho_{b} 
+         </me>
+         The body will float in a fluid if the densities of fluid is greater than that of the body.
+      </li>
+      <li>
+        If the body is sinking in the fluid [<xref ref="arcmdse"/>], then buoyant force is less 
+        than the weight of the body.  Hence body sinks, but at the bottom of the fluid, net force 
+        acting on the body is zero.
+        <me>
+          B+N=mg
+        </me>
+        <me>
+          \text{or,}\quad N= mg-B = V_{b}\rho_{b}g-V_{df}\rho_{f}g = V_{b}[\rho_{b}-\rho_{f}]g
+        </me>
+        Since <m>V_{b}=V_{df}.</m> Hence for <m>N</m> to be +ve, <m>\rho_{b}-\rho_{f}</m> must be positive. 
+        Here <m>N</m> is the apparent weight of the body in the fluid. 
+        <me>
+          \therefore\quad \rho_{f} \lt \rho_{b}
+        </me>
+          </li>
+    </ol>
+  </p>
+</subsection>
+
+
+  </section>
+
