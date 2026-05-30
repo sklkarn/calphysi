@@ -1096,320 +1096,329 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "3.5",
   "title": "Exercise",
-  "body": "  Exercise   1D Kinematics   Given the curve as shown below, produce and graphs.      Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).      A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).      A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).      A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?      During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?      A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?      A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?      A river is flowing due east with a speed A swimmer can swim in still water at a speed of .    If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?        The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?      A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower?    A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ?    A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.      The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light?    The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time.    The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down?    A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below?    A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s.    A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?   use and to find a.     At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?      Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant.    If where and are constants. Find the acceleration of the particle.    A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement?     2D Kinematics   A particle is moving according to the equation where and . Find:                A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?      A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?      A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?      A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ?    If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it?    Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground.    A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?      A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk.    An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground.    A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released?    A point P moves along the spiral path here is in radian. The angular position rad, where t is in seconds, and r = 0 at t = 0. Determine the magnitudes of the velocity and acceleration of P at t = 1 s.    "
+  "body": "  Exercise        1D Kinematics   Given the curve as shown below, produce and graphs.      Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).      A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).      A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).      A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?      During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?      A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?      A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?      A river is flowing due east with a speed A swimmer can swim in still water at a speed of .    If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?        The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?      A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower?    A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ?    A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.      The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light?    The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time.    The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down?    A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below?    A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s.    A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?   use and to find a.     At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?      Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant.    If where and are constants. Find the acceleration of the particle.    A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement?     2D Kinematics   A particle is moving according to the equation where and . Find:                A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?      A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?      A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?      A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ?    If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it?    Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground.    A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?      A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk.    An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground.    A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released?    A point P moves along the spiral path here is in radian. The angular position rad, where t is in seconds, and r = 0 at t = 0. Determine the magnitudes of the velocity and acceleration of P at t = 1 s.    "
 },
 {
-  "id": "ex_third-2-2",
+  "id": "ex_third-2",
   "level": "2",
-  "url": "ex_third.html#ex_third-2-2",
+  "url": "ex_third.html#ex_third-2",
   "type": "Exercise",
   "number": "3.5.1",
   "title": "",
-  "body": " Given the curve as shown below, produce and graphs.    "
-},
-{
-  "id": "ex_third-2-3",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-3",
-  "type": "Exercise",
-  "number": "3.5.2",
-  "title": "",
-  "body": " Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).    "
-},
-{
-  "id": "ex_third-2-4",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-4",
-  "type": "Exercise",
-  "number": "3.5.3",
-  "title": "",
-  "body": " A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).    "
-},
-{
-  "id": "ex_third-2-5",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-5",
-  "type": "Exercise",
-  "number": "3.5.4",
-  "title": "",
-  "body": " A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).    "
-},
-{
-  "id": "ex_third-2-6",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-6",
-  "type": "Exercise",
-  "number": "3.5.5",
-  "title": "",
-  "body": " A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?    "
-},
-{
-  "id": "ex_third-2-7",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-7",
-  "type": "Exercise",
-  "number": "3.5.6",
-  "title": "",
-  "body": " During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?    "
-},
-{
-  "id": "ex_third-2-8",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-8",
-  "type": "Exercise",
-  "number": "3.5.7",
-  "title": "",
-  "body": " A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?    "
-},
-{
-  "id": "ex_third-2-9",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-9",
-  "type": "Exercise",
-  "number": "3.5.8",
-  "title": "",
-  "body": " A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?    "
-},
-{
-  "id": "ex_third-2-10",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-10",
-  "type": "Exercise",
-  "number": "3.5.9",
-  "title": "",
-  "body": " A river is flowing due east with a speed A swimmer can swim in still water at a speed of .    If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?      "
-},
-{
-  "id": "ex_third-2-11",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-11",
-  "type": "Exercise",
-  "number": "3.5.10",
-  "title": "",
-  "body": " The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?    "
-},
-{
-  "id": "ex_third-2-12",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-12",
-  "type": "Exercise",
-  "number": "3.5.11",
-  "title": "",
-  "body": " A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower?  "
-},
-{
-  "id": "ex_third-2-13",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-13",
-  "type": "Exercise",
-  "number": "3.5.12",
-  "title": "",
-  "body": " A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ?  "
-},
-{
-  "id": "ex_third-2-14",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-14",
-  "type": "Exercise",
-  "number": "3.5.13",
-  "title": "",
-  "body": " A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.    "
-},
-{
-  "id": "ex_third-2-15",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-15",
-  "type": "Exercise",
-  "number": "3.5.14",
-  "title": "",
-  "body": " The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light?  "
-},
-{
-  "id": "ex_third-2-16",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-16",
-  "type": "Exercise",
-  "number": "3.5.15",
-  "title": "",
-  "body": " The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time.  "
-},
-{
-  "id": "ex_third-2-17",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-17",
-  "type": "Exercise",
-  "number": "3.5.16",
-  "title": "",
-  "body": " The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down?  "
-},
-{
-  "id": "ex_third-2-18",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-18",
-  "type": "Exercise",
-  "number": "3.5.17",
-  "title": "",
-  "body": " A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below?  "
-},
-{
-  "id": "ex_third-2-19",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-19",
-  "type": "Exercise",
-  "number": "3.5.18",
-  "title": "",
-  "body": " A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s.  "
-},
-{
-  "id": "ex_third-2-20",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-20",
-  "type": "Exercise",
-  "number": "3.5.19",
-  "title": "",
-  "body": " A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?   use and to find a.   "
-},
-{
-  "id": "ex_third-2-21",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-21",
-  "type": "Exercise",
-  "number": "3.5.20",
-  "title": "",
-  "body": " At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?    "
-},
-{
-  "id": "ex_third-2-22",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-22",
-  "type": "Exercise",
-  "number": "3.5.21",
-  "title": "",
-  "body": " Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant.  "
-},
-{
-  "id": "ex_third-2-23",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-23",
-  "type": "Exercise",
-  "number": "3.5.22",
-  "title": "",
-  "body": " If where and are constants. Find the acceleration of the particle.  "
-},
-{
-  "id": "ex_third-2-24",
-  "level": "2",
-  "url": "ex_third.html#ex_third-2-24",
-  "type": "Exercise",
-  "number": "3.5.23",
-  "title": "",
-  "body": " A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement?  "
+  "body": "    "
 },
 {
   "id": "ex_third-3-2",
   "level": "2",
   "url": "ex_third.html#ex_third-3-2",
   "type": "Exercise",
-  "number": "3.5.24",
+  "number": "3.5.2",
   "title": "",
-  "body": " A particle is moving according to the equation where and . Find:              "
+  "body": " Given the curve as shown below, produce and graphs.    "
 },
 {
   "id": "ex_third-3-3",
   "level": "2",
   "url": "ex_third.html#ex_third-3-3",
   "type": "Exercise",
-  "number": "3.5.25",
+  "number": "3.5.3",
   "title": "",
-  "body": " A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?    "
+  "body": " Given , where all units are in the MKS system. Find each of the following:  x(3s),  v,  v(-2s),  a, and  a(1s).    "
 },
 {
   "id": "ex_third-3-4",
   "level": "2",
   "url": "ex_third.html#ex_third-3-4",
   "type": "Exercise",
-  "number": "3.5.26",
+  "number": "3.5.4",
   "title": "",
-  "body": " A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?    "
+  "body": " A particle moves according to the equation , where all units are in the MKS system. Find each of the following:  x(4),  v,  v(4),  a, and  a(9).    "
 },
 {
   "id": "ex_third-3-5",
   "level": "2",
   "url": "ex_third.html#ex_third-3-5",
   "type": "Exercise",
-  "number": "3.5.27",
+  "number": "3.5.5",
   "title": "",
-  "body": " A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?    "
+  "body": " A particle starts out at and moves according to the equation where all units are in the MKS system. Find each of the following:  x(2),  v,  v(4),  a, and  a(5).    "
 },
 {
   "id": "ex_third-3-6",
   "level": "2",
   "url": "ex_third.html#ex_third-3-6",
   "type": "Exercise",
-  "number": "3.5.28",
+  "number": "3.5.6",
   "title": "",
-  "body": " A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ?  "
+  "body": " A ball is rolled up an inclined plane and returns to its starting point at the bottom of the plane in 4 s. If the ball travels a total distance up the plane of 1.5 m, what was  its initial speed and  acceleration?  Express the acceleration in units of g?    "
 },
 {
   "id": "ex_third-3-7",
   "level": "2",
   "url": "ex_third.html#ex_third-3-7",
   "type": "Exercise",
-  "number": "3.5.29",
+  "number": "3.5.7",
   "title": "",
-  "body": " If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it?  "
+  "body": " During an air show, a jet aircraft passes the spectators who see the lights of its afterburners ignited 4 seconds later. One second after that, they hear the blast from the ignition. If the speed of sound is 345 m\/s,  how fast was the jet traveling before turning on its afterburners?  If the jet accelerates with the afterburners at a constant , how long (after igniting the afterburners) will it take for the jet to break the sound barrier?    "
 },
 {
   "id": "ex_third-3-8",
   "level": "2",
   "url": "ex_third.html#ex_third-3-8",
   "type": "Exercise",
-  "number": "3.5.30",
+  "number": "3.5.8",
   "title": "",
-  "body": " Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground.  "
+  "body": " A car traveling at a constant speed of 10 m\/s passes a policeman who is at rest and unseen. The car continues on a distance of 50 meters and then runs a red light. If it takes an additional 5 seconds for the policeman to start his motorcycle in order to pursue the law breaker and if he accelerates at a rate of one-quarter g,  how long after starting out does it take for the policeman to overtake the car?  How far does the policeman travel before overtaking the car?  How fast will the policeman be moving when he gets to the car ?    "
 },
 {
   "id": "ex_third-3-9",
   "level": "2",
   "url": "ex_third.html#ex_third-3-9",
   "type": "Exercise",
-  "number": "3.5.31",
+  "number": "3.5.9",
   "title": "",
-  "body": " A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?    "
+  "body": " A man has a row boat which he can row at a steady speed of 3 kmh in calm water traveling on the average a distance of 2 m with every stroke of the oars. He decides to use the boat to cross a river 100 m wide flowing at 1 kmh and traveling straight to a point 200 m up stream of his starting point.  How long will it take him to reach his destination?  How many strokes will he have to make in order to get to his destination ?    "
 },
 {
   "id": "ex_third-3-10",
   "level": "2",
   "url": "ex_third.html#ex_third-3-10",
   "type": "Exercise",
-  "number": "3.5.32",
+  "number": "3.5.10",
   "title": "",
-  "body": " A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk.  "
+  "body": " A river is flowing due east with a speed A swimmer can swim in still water at a speed of .    If swimmer, starts swimming due north, what will be his resultant velocity?    If he wants to start from point A on south bank and reach opposite point B on north bank,  which direction should he swim ?  what will be his resultant speed ?      "
 },
 {
   "id": "ex_third-3-11",
   "level": "2",
   "url": "ex_third.html#ex_third-3-11",
   "type": "Exercise",
-  "number": "3.5.33",
+  "number": "3.5.11",
   "title": "",
-  "body": " An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground.  "
+  "body": " The engine of a boat drives it across a river that is 1800 m wide. The velocity of the boat relative to the water is 4.0 m\/s, directed perpendicular to the current. The velocity of the water relative to the shore is 2.0 m\/s.  What is the velocity of the boat relative to the shore?  How long does it take for the boat to cross the river?    "
 },
 {
   "id": "ex_third-3-12",
   "level": "2",
   "url": "ex_third.html#ex_third-3-12",
   "type": "Exercise",
-  "number": "3.5.34",
+  "number": "3.5.12",
   "title": "",
-  "body": " A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released?  "
+  "body": " A bucket is left out in the rain. The rain is coming down at 5 m\/s. If a crosswind starts to blow at 2 m\/s, will the bucket fill faster or slower?  "
 },
 {
   "id": "ex_third-3-13",
   "level": "2",
   "url": "ex_third.html#ex_third-3-13",
   "type": "Exercise",
+  "number": "3.5.13",
+  "title": "",
+  "body": " A train is traveling relative to the ground at 15 m\/s and car is traveling relative to the train is 20 m\/s, find the velocity of car with respect to ground. If the car were traveling to left with velocity of 20m\/s with respect to train. Find ?  "
+},
+{
+  "id": "ex_third-3-14",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-14",
+  "type": "Exercise",
+  "number": "3.5.14",
+  "title": "",
+  "body": " A race car starts from rest and accelerates at for 10 seconds. The brakes are then applied, and the car has a constant acceleration until it comes to rest. Determine  the maximum velocity,  the total distance traveled;  the total time of travel.    "
+},
+{
+  "id": "ex_third-3-15",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-15",
+  "type": "Exercise",
+  "number": "3.5.15",
+  "title": "",
+  "body": " The car is traveling at 48 km\/h when the traffic light 90 m ahead turns yellow. The driver takes 1 s to react before he applies the accelerator. If the car has a constant acceleration of and the light remains yellow for 5 s, will the car reach the light before it turns red? How fast is the car moving when it reaches the light?  "
+},
+{
+  "id": "ex_third-3-16",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-16",
+  "type": "Exercise",
+  "number": "3.5.16",
+  "title": "",
+  "body": " The rocket starts from rest at t = 0 and travels straight up. Its height above the ground as a function of time can be approximated by , where b and c are constants. At , the rocket's velocity and acceleration are and . Determine the time at which the rocket reaches supersonic speed (325 m\/s) and the altitude at that time.  "
+},
+{
+  "id": "ex_third-3-17",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-17",
+  "type": "Exercise",
+  "number": "3.5.17",
+  "title": "",
+  "body": " The boat is moving at 10 m\/s when its engine is shut down. Due to hydrodynamic drag, its subsequent acceleration is , where v is the velocity of the boat in m\/s. What is the boat's velocity 4 s after the engine is shut down?  "
+},
+{
+  "id": "ex_third-3-18",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-18",
+  "type": "Exercise",
+  "number": "3.5.18",
+  "title": "",
+  "body": " A stone is thrown vertically upward from a bridge 30.0 m high at an initial velocity of 15.0 m\/s. How long will it take for the stone to hit the water below?  "
+},
+{
+  "id": "ex_third-3-19",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-19",
+  "type": "Exercise",
+  "number": "3.5.19",
+  "title": "",
+  "body": " A body moves in the x-direction with an acceleration given by . Find the equations for the velocity and displacement of the moving body at any time t. The body starts from rest at . Find the numerical values of the velocity, displacement, and acceleration at t = 5.00s.  "
+},
+{
+  "id": "ex_third-3-20",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-20",
+  "type": "Exercise",
+  "number": "3.5.20",
+  "title": "",
+  "body": " A block slides down a smooth inclined plane that makes an angle of with the horizontal. Find the acceleration of the block. If the plane is 10.0 meters long and the block starts from rest, what is its velocity at the bottom of the plane? How long does it take for the block to get to the bottom?   use and to find a.   "
+},
+{
+  "id": "ex_third-3-21",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-21",
+  "type": "Exercise",
+  "number": "3.5.21",
+  "title": "",
+  "body": " At the instant that the traffic light turns green, a car starting from rest with an acceleration of is passed by a truck moving at a constant velocity of 60.0 km\/hr.  How long will it take for the car to overtake the truck?  How far from the starting point will the car overtake the truck?  At what velocity will the car be moving when it overtakes the truck?    "
+},
+{
+  "id": "ex_third-3-22",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-22",
+  "type": "Exercise",
+  "number": "3.5.22",
+  "title": "",
+  "body": " Find the distance covered by a particle in its time period . If the position vector of the particle is given by Where is constant.  "
+},
+{
+  "id": "ex_third-3-23",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-23",
+  "type": "Exercise",
+  "number": "3.5.23",
+  "title": "",
+  "body": " If where and are constants. Find the acceleration of the particle.  "
+},
+{
+  "id": "ex_third-3-24",
+  "level": "2",
+  "url": "ex_third.html#ex_third-3-24",
+  "type": "Exercise",
+  "number": "3.5.24",
+  "title": "",
+  "body": " A person goes to 15 m at north east and then goes to 30 m at south of west. What is his displacement?  "
+},
+{
+  "id": "ex_third-4-2",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-2",
+  "type": "Exercise",
+  "number": "3.5.25",
+  "title": "",
+  "body": " A particle is moving according to the equation where and . Find:              "
+},
+{
+  "id": "ex_third-4-3",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-3",
+  "type": "Exercise",
+  "number": "3.5.26",
+  "title": "",
+  "body": " A boy uses a sling to throw a rock a distance of 100 m. If the rock is in the air for 5 s, find each of the following:  How fast is the rock initially traveling horizontally?  How fast is the rock initially traveling vertically?  How high does the rock get?  How fast does it hit the ground?  At what angle does it hit the ground?    "
+},
+{
+  "id": "ex_third-4-4",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-4",
+  "type": "Exercise",
+  "number": "3.5.27",
+  "title": "",
+  "body": " A hang glider is flying in a horizontal circle of radius 20 m, completing the circle in a time period of 10 s.  What is the speed of the glider?  What is the tangential acceleration of the glider?  What is the radial acceleration of the glider?  Express this last answer in g's of acceleration.  How many g's of force would the pilot be experiencing? Would this be noticeable?    "
+},
+{
+  "id": "ex_third-4-5",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-5",
+  "type": "Exercise",
+  "number": "3.5.28",
+  "title": "",
+  "body": " A boy uses a sling to throw a rock across the field by whirling the rock in a vertical circle of radius 0.5 m and frequency 2 Hz. If the rock is released when the sling makes an angle of below the horizontal when the rock is at a height of 1 m above the ground,  how high will the rock rise above the ground and  how far will it travel horizontally before hitting the ground?    "
+},
+{
+  "id": "ex_third-4-6",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-6",
+  "type": "Exercise",
+  "number": "3.5.29",
+  "title": "",
+  "body": " A fighter plane is flying horizontally at an altitude of 1.5 km with speed 720 km\/h. At what angle of sight (w.r.t. horizontal) when the target is seen, should the pilot drop the bomb in order to attack the target ?  "
+},
+{
+  "id": "ex_third-4-7",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-7",
+  "type": "Exercise",
+  "number": "3.5.30",
+  "title": "",
+  "body": " If the golf ball is hit in the direction of a tree which is from the golfer, will the ball pass over the tree or hit it?  "
+},
+{
+  "id": "ex_third-4-8",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-8",
+  "type": "Exercise",
+  "number": "3.5.31",
+  "title": "",
+  "body": " Suppose a tennis player hits a ball when it is at a height of 1.5 m giving it a velocity of 15 m\/s at an angle of to the horizontal. Find when and where the ball will hit the ground.  "
+},
+{
+  "id": "ex_third-4-9",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-9",
+  "type": "Exercise",
+  "number": "3.5.32",
+  "title": "",
+  "body": " A footballer kicks a ball on horizontal ground giving it an initial velocity of 25 m\/s at an angle of to the horizontal.  Where will the ball be 1.2 seconds after it is kicked?  What will be the greatest height reached by the ball?  Where will the ball land?    "
+},
+{
+  "id": "ex_third-4-10",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-10",
+  "type": "Exercise",
+  "number": "3.5.33",
+  "title": "",
+  "body": " A ball is kicked at an angle . It is intended that the ball lands in the back of a moving truck which has a trunk of length L = 2.5 m. If the initial horizontal distance from the back of the truck to the ball, at the instant of the kick, is , and the truck moves directly away from the ball at velocity (as shown), what is the maximum and minimum velocity so that the ball lands in the trunk. Assume that the initial height of the ball is equal to the height of the ball at the instant it begins to enter the trunk.  "
+},
+{
+  "id": "ex_third-4-11",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-11",
+  "type": "Exercise",
+  "number": "3.5.34",
+  "title": "",
+  "body": " An athlete releases the shot at 1.82 m above the ground and its initial velocity is . Determine the horizontal distance the shot travels from the point of release to the point where it hits the ground.  "
+},
+{
+  "id": "ex_third-4-12",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-12",
+  "type": "Exercise",
   "number": "3.5.35",
+  "title": "",
+  "body": " A pilot wants to drop survey markers at remote locations. If he flies at a constant velocity at altitude and the marker is released with zero velocity relative to the plane, at what horizontal distance from the desired impact point should the marker be released?  "
+},
+{
+  "id": "ex_third-4-13",
+  "level": "2",
+  "url": "ex_third.html#ex_third-4-13",
+  "type": "Exercise",
+  "number": "3.5.36",
   "title": "",
   "body": " A point P moves along the spiral path here is in radian. The angular position rad, where t is in seconds, and r = 0 at t = 0. Determine the magnitudes of the velocity and acceleration of P at t = 1 s.  "
 },
@@ -5956,7 +5965,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "10.5",
   "title": "Kinetic Theory of Ideal Gas",
-  "body": " Kinetic Theory of Ideal Gas   Kinetic theory of matter is developed to explain the nature of heat and the motion of particles associated with heat energy. According to this theory, every substance is composed of large number of very tiny particles called molecules . These molecules are always in random motion with all possible velocities which increases with the increase of temperature. On this basis, in solids, molecules are very closely packed and attract each other with a large cohesive force. They cannot move freely but can vibrate about their mean positions. This explains the definite size and shape of solids. In liquids, the molecules are farther apart than in solids and attract each other with a comparatively smaller cohesive force. This force does not allow them to escape the liquids however, they can move freely anywhere within the liquids. This explains why a liquid has a definite size (volume) but no shape of its own. In gases, the molecules are very far away from each other than in solids and liquids and have negligibly small force of attraction between them. Hence they can move freely anywhere within the available space. This explains why a gas has no definite shape and size.  To understand the more general behavior of gases kinetic theory of ideal gases is postulated as  All gases are made up of molecules. Molecules are identical, rigid, and perfectly elastic moving in random directions with all possible velocities.  The molecules are very far away from each other but they collide with each other and with walls of the container.  All the collision are elastic, but time spent during each collision is negligibly small compared to the time spent between the collisions.  Molecules do not interact with each other (no intermolecular force of attraction) except during a collision.  The average kinetic energy of the molecules of any gas depends only on the temperature.  The distance between the collision is called the free path .  Ideal gas is a hypothetical gas of negligible molecular size and have no interactions among their molecules. The above postulates are the correct description of ideal gas. In practice, a very dilute gas with extremely large volume of container space can be considered as an ideal gas. Remember the real gas molecules has definite size and may interact with each other. Hence this postulates are just a very simplified model to understand gas laws and need modification for real gas behaviors.    Pressure of an Ideal Gas  When the molecules of a gas collide on the walls of the container (or each other) they exert a pressure. Let us consider a cube of sides cm encloses number of molecules and mass of each molecule is . Since time during the collision of molecules is so small there is no transfer of momentum hence no exertion of force (Newton's II law) or no pressure, we ignore therefore the collision of molecules amongst themselves here. Let a molecule at point is moving with velocity in any direction. This velocity can be resolved into x,y, and z directions as and respectively, such that       Let a molecule collide elastically on the face BCDG along x-axis [ ]. The momentum of the molecule along x-axis before collision is Since the collision is elastic the molecule rebound with the same velocity along opposite to x-axis. Therefore the momentum in this case will be The change in momentum of the molecule due to this collision along x-axis will be Now once this molecule collide to the face EFAO while moving along -ve axis and rebounds it again comes to collide with the same face BCDG. The distance traveled by the molecule for collision on the same face is Hence, the time taken between each successive collision on face BCDG is given by Therefore, the force exerted on the face BCDG by molecule is given by Newton's II law of motion, Since there are molecules hence total force exerted on the face BCDG is given by  The pressure on the face BCDG will be  Similarly, pressures and along the y- and z- axes, respectively are and Hence, the average pressure in the container     where and Here, is called a root-mean square velocity of the molecule and is an average molecular speed and the mass of total gas in a container of volume    where = average transational kinetic energy of the gas and is the average transational kinetic energy of each moleucle. That is, pressure is two-thirds of the total transational kinetic energy of the molecules per unit volume. Now from postulates average kinetic energy of the molecules of the gas depends only on temperature, we have  where is a degree of freedom for a gas molecules and is called the Boltzmann constant . In SI system,     Degree of Freedom:                   The degree of freedom is the number of independent motions possible to a particle or the number of independent coordinates required to specify particle's dynamic position or the number of independent ways of exchanging particle's energy. It depends on the atomic arrangement of an ideal gas molecule and types of motion it could have in the container. For example, it could have the combination of translation, rotational, and vibrational motion. For a monoatomic gas molecules (like helium, argon), consists of a single atom and can be represented by a point in space [ ]. Such molecule therefore can have only translational motion in any of x-,y-,and z- direction. Thus it can have three independent motion and hence three degrees of freedom. degree of freedom   The molecule of a diatomic gas (like hydrogen, oxygen) is made up of two atoms joined rigidly like a dumbbell [ ]. Such a molecule can translate as well as rotate about any one of the three mutually perpendicular axes. However, rotational inertia about an axis along the rigid rod will be negligible as compared to the other two rotational axes. Hence it can have only two rotational motions and three translational motions. The degrees of freedom for diatomic molecule is therefore five. A triatomic molecule either have linear arrangement of atoms (like ) or tringular arrangement (like ), hence it may have either 7 (3 rotational, 1 vibrational, and 3 translational motions) degrees of freedom or 6 (3 rotational, and 3 translational motions) [ ]. If we consider each molecule has three translational motions , and the atoms are constrained to move along the rigid support, then degrees of freedom, . Hence for monoatomic gas, for diatomic gas, and for triatomic gas, in triangular arrangement of atoms, and in linear arrangement of atoms. If the container has moles of a gas, then total number of molecules in the container can be given as where molecules\/mole is known as Avogadro's number . Hence, for n mole of a gas, where or and is known as universal gas constant . Hence, eqn. is called the equation of state of an ideal gas.  From eqns. and , we have -  and  If n=1 mole, then M is a molar mass and we get- and if N=1, then The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molar mass. The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molecular mass.   Note: Molar mass [ ] is the mass of one mole of a substance, while molecular mass is the mass of one molecule of a substance. For examples, mass of 1 mole of H-atom is 1.008 gram, mass of 1 H-atom is Mass of 1 mole of molecule is 2.016 gram, mass of 1 molecule of     Law of Equipartition of Energy   According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by   Hence, the average kinetic energy per molecule in each degree of freedom is     Avogadro's Number,  It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram . Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as molar mass , refers to the mass of one mole of a substance in unit of grams per mole (g\/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water ( ) is approximately 18.015 g\/mol, which is the same as its molecular weight (18.015 amu). One mole of water weighs 18.015 g. One mole of ethyl alcohol, , weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro's number. This is an important aspect of the mole. Avogadro's number     Atomic Mass Unit, u   amu It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of weighs 12.00 amu. A 12 g of carbon contains atoms, each weighing exactly 12 amu. Therefore, or,      Internal Energy of a Gas  A liquid freezes into solid gives heat energy, Zinc reacts with copper sulfate in a voltaic cell produces electric energy. A mixture of hydrogen and oxygen explodes to release mechanical energy. This production of energy is actually a conversion of stored energy of a system. The apparently stored energy of a system is called an internal energy . Real gas molecules posses both kinetic energy (due to motion of the molecules) and potential energy (due to intermolecular force of attraction) and hence the internal energy of the real gas is the sum of all of its internal kinetic and internal potential energy of the molecules. Ideal gas molecules are very far away from each other hence they do not have internal potential energy. The internal energy of an ideal is therefore solely due to the internal kinetic energy of all of its gas molecules and it is denoted by Therefore the internal energy of one molecule of a gas, Hence, for N molecules of a gas, the internal energy is given by and n moles of a gas,  and  It must be noted that the internal energy of an ideal gas is directly proportional to the absolute temperature, i.e.,     Gas Laws                   From equation of state, and if T of a gas remains constant, then   This is called a Boyle's law, the pV diagram of Boyle's law is shown in . At constant temperature, the average force of each particle striking the surface will be the same. But as the area of the container has increased, there will be fewer of these collisions per unit area and the pressure will decrease. Volume is inversely proportional to pressure , if the number of particles and the temperature are constant.  If pressure remains constant, then   This is called a Charle's law, the diagram is shown in . To keep the pressure constant as the volume increases is to raise the average force that each particle exerts on the surface. This happens when the temperature is increased. So if the number of particles and the pressure are constant, temperature is proportional to the volume .  If volume remains constant, then   This is called a pressure law (or Gay-Lussac's law), the diagram is shown in . As the temperature increases, the average kinetic energy increases as does the velocity of the gas particles hitting the walls of the container. The force exerted by the particles per unit of area on the container is the pressure, so as the temperature increases the pressure must also increase. Pressure is proportional to temperature , if the number of particles and the volume of the container are constant.   Avogadro's law: Volume of a gas is directly proportional to the amount of gas at a constant temperature and pressure, i.e.,  The Combined Gas Law: If number moles of a gas only remains constant, then we have - The volume of a given amount of gas is proportional to the ratio of its absolute temperature and its pressure, i.e.,    "
+  "body": " Kinetic Theory of Ideal Gas   Kinetic theory of matter is developed to explain the nature of heat and the motion of particles associated with heat energy. According to this theory, every substance is composed of large number of very tiny particles called molecules . These molecules are always in random motion with all possible velocities which increases with the increase of temperature. On this basis, in solids, molecules are very closely packed and attract each other with a large cohesive force. They cannot move freely but can vibrate about their mean positions. This explains the definite size and shape of solids. In liquids, the molecules are farther apart than in solids and attract each other with a comparatively smaller cohesive force. This force does not allow them to escape the liquids however, they can move freely anywhere within the liquids. This explains why a liquid has a definite size (volume) but no shape of its own. In gases, the molecules are very far away from each other than in solids and liquids and have negligibly small force of attraction between them. Hence they can move freely anywhere within the available space. This explains why a gas has no definite shape and size.  To understand the more general behavior of gases kinetic theory of ideal gases is postulated as  All gases are made up of molecules. Molecules are identical, rigid, and perfectly elastic moving in random directions with all possible velocities.  The molecules are very far away from each other but they collide with each other and with walls of the container.  All the collision are elastic, but time spent during each collision is negligibly small compared to the time spent between the collisions.  Molecules do not interact with each other (no intermolecular force of attraction) except during a collision.  The average kinetic energy of the molecules of any gas depends only on the temperature.  The distance between the collision is called the free path .  Ideal gas is a hypothetical gas of negligible molecular size and have no interactions among their molecules. The above postulates are the correct description of ideal gas. In practice, a very dilute gas with extremely large volume of container space can be considered as an ideal gas. Remember the real gas molecules has definite size and may interact with each other. Hence this postulates are just a very simplified model to understand gas laws and need modification for real gas behaviors.    Pressure of an Ideal Gas  When the molecules of a gas collide on the walls of the container (or each other) they exert a pressure. Let us consider a cube of sides cm encloses number of molecules and mass of each molecule is . Since time during the collision of molecules is so small there is no transfer of momentum hence no exertion of force (Newton's II law) or no pressure, we ignore therefore the collision of molecules amongst themselves here. Let a molecule at point is moving with velocity in any direction. This velocity can be resolved into x,y, and z directions as and respectively, such that       Let a molecule collide elastically on the face BCDG along x-axis [ ]. The momentum of the molecule along x-axis before collision is Since the collision is elastic the molecule rebound with the same velocity along opposite to x-axis. Therefore the momentum in this case will be The change in momentum of the molecule due to this collision along x-axis will be Now once this molecule collide to the face EFAO while moving along -ve axis and rebounds it again comes to collide with the same face BCDG. The distance traveled by the molecule for collision on the same face is Hence, the time taken between each successive collision on face BCDG is given by Therefore, the force exerted on the face BCDG by molecule is given by Newton's II law of motion, Since there are molecules hence total force exerted on the face BCDG is given by  The pressure on the face BCDG will be  Similarly, pressures and along the y- and z- axes, respectively are and Hence, the average pressure in the container     where and Here, is called a root-mean square velocity of the molecule and is an average molecular speed and the mass of total gas in a container of volume    where = average transational kinetic energy of the gas and is the average transational kinetic energy of each moleucle. That is, pressure is two-thirds of the total transational kinetic energy of the molecules per unit volume. Now from postulates average kinetic energy of the molecules of the gas depends only on temperature, we have  where is a degree of freedom for a gas molecules and is called the Boltzmann constant . In SI system,     Degree of Freedom:                   The degree of freedom is the number of independent motions possible to a particle or the number of independent coordinates required to specify particle's dynamic position or the number of independent ways of exchanging particle's energy. It depends on the atomic arrangement of an ideal gas molecule and types of motion it could have in the container. For example, it could have the combination of translation, rotational, and vibrational motion. For a monoatomic gas molecules (like helium, argon), consists of a single atom and can be represented by a point in space [ ]. Such molecule therefore can have only translational motion in any of x-,y-,and z- direction. Thus it can have three independent motion and hence three degrees of freedom. degree of freedom   The molecule of a diatomic gas (like hydrogen, oxygen) is made up of two atoms joined rigidly like a dumbbell [ ]. Such a molecule can translate as well as rotate about any one of the three mutually perpendicular axes. However, rotational inertia about an axis along the rigid rod will be negligible as compared to the other two rotational axes. Hence it can have only two rotational motions and three translational motions. The degrees of freedom for diatomic molecule is therefore five. A triatomic molecule either have linear arrangement of atoms (like ) or tringular arrangement (like ), hence it may have either 7 (3 rotational, 1 vibrational, and 3 translational motions) degrees of freedom or 6 (3 rotational, and 3 translational motions) [ ]. If we consider each molecule has three translational motions , and the atoms are constrained to move along the rigid support, then degrees of freedom, . Hence for monoatomic gas, for diatomic gas, and for triatomic gas, in triangular arrangement of atoms, and in linear arrangement of atoms. If the container has moles of a gas, then total number of molecules in the container can be given as where molecules\/mole is known as Avogadro's number . Hence, for n mole of a gas, where or and is known as universal gas constant . Hence, eqn. is called the equation of state of an ideal gas.  From eqns. and , we have -  and  If n=1 mole, then M is a molar mass and we get- and if N=1, then The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molar mass. The eqn. shows that of a gas is proportional to the square root of absolute temperature and inversely proportional to the square root of its molecular mass.   Note: Molar mass [ ] is the mass of one mole of a substance, while molecular mass is the mass of one molecule of a substance. For examples, mass of 1 mole of H-atom is 1.008 gram, mass of 1 H-atom is Mass of 1 mole of molecule is 2.016 gram, mass of 1 molecule of     Law of Equipartition of Energy   According to Maxwell, total kinetic energy of a dynamical system consisting of large number of particles is equally distributed among its various degrees of freedom. The average kinetic energy of a monoatomic gas molecule is given by   Hence, the average kinetic energy per molecule in each degree of freedom is     Avogadro's Number,  It is the number of molecules in one gram of hydrogen gas or the number of atoms in 12 grams of the carbon-12 isotope. The value of molecules in one mole of carbon-12 atoms. The mole is a base unit in the SI system for an amount of substance. The symbol of mole is [mol]. The mole is defined as the amount of any substance (entity) that contains as many atoms as there are in 12 grams of atom. At standard temperature and pressure (STP, T = 273 K, p = 1 atm) 1 mole of any substance occupies Avogadro's number of molecules. At STP, volume of an ideal gas V=22.4 liter. If we weigh one mole of any substance its comes out to be the molecular weight of that substance in gram . Molecular weight and molar weight are related terms that are often used interchangeably, but they have slightly different meanings. Molecular weight refers to the mass of a single molecule of a substance in atomic mass units (amu) or unified atomic mass units (u). Molar weight, also known as molar mass , refers to the mass of one mole of a substance in unit of grams per mole (g\/mol). The molar mass of a compound is numerically equal to its molecular weight but has units of grams per mole. For example, the molar mass of water ( ) is approximately 18.015 g\/mol, which is the same as its molecular weight (18.015 amu). One mole of water weighs 18.015 g. One mole of ethyl alcohol, , weighs 46.069 g. If we weigh whether one mole of iron or one mole of sulfur they contain the same number of atoms equal to Avogadro's number. This is an important aspect of the mole. Avogadro's number     Atomic Mass Unit, u   amu It is the mass of one hydrogen atom. It is normally a sum of number of protons and neutrons in a nucleus. The weight of 1 atom of weighs 12.00 amu. A 12 g of carbon contains atoms, each weighing exactly 12 amu. Therefore, or,      Internal Energy of a Gas  A liquid freezes into solid gives heat energy, Zinc reacts with copper sulfate in a voltaic cell produces electric energy. A mixture of hydrogen and oxygen explodes to release mechanical energy. This production of energy is actually a conversion of stored energy of a system. The apparently stored energy of a system is called an internal energy . Real gas molecules posses both kinetic energy (due to motion of the molecules) and potential energy (due to intermolecular force of attraction) and hence the internal energy of the real gas is the sum of all of its internal kinetic and internal potential energy of the molecules. Ideal gas molecules are very far away from each other hence they do not have internal potential energy. The internal energy of an ideal is therefore solely due to the internal kinetic energy of all of its gas molecules and it is denoted by Therefore the internal energy of one molecule of a gas, Hence, for N molecules of a gas, the internal energy is given by and n moles of a gas,  and  It must be noted that the internal energy of an ideal gas is directly proportional to the absolute temperature, i.e.,     Gas Laws                    Gas Laws From equation of state, and if T of a gas remains constant, then   This is called a Boyle's law, the pV diagram of Boyle's law is shown in . At constant temperature, the average force of each particle striking the surface will be the same. But as the area of the container has increased, there will be fewer of these collisions per unit area and the pressure will decrease. Volume is inversely proportional to pressure , if the number of particles and the temperature are constant.  If pressure remains constant, then   This is called a Charle's law, the diagram is shown in . To keep the pressure constant as the volume increases is to raise the average force that each particle exerts on the surface. This happens when the temperature is increased. So if the number of particles and the pressure are constant, temperature is proportional to the volume .  If volume remains constant, then   This is called a pressure law (or Gay-Lussac's law), the diagram is shown in . As the temperature increases, the average kinetic energy increases as does the velocity of the gas particles hitting the walls of the container. The force exerted by the particles per unit of area on the container is the pressure, so as the temperature increases the pressure must also increase. Pressure is proportional to temperature , if the number of particles and the volume of the container are constant.   Avogadro's law: Volume of a gas is directly proportional to the amount of gas at a constant temperature and pressure, i.e.,  The Combined Gas Law: If number moles of a gas only remains constant, then we have - The volume of a given amount of gas is proportional to the ratio of its absolute temperature and its pressure, i.e.,    "
 },
 {
   "id": "sec_tenth-kt_gas-2-1",
